@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "원시 타입과 참조 타입.md",
+                "file": "JavaScript/원시 타입과 참조 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "원시 타입과 참조 타입.md",
+                "file": "JavaScript/원시 타입과 참조 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "원시 타입과 참조 타입.md",
+                "file": "JavaScript/원시 타입과 참조 타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "원시 타입과 참조 타입.md",
+                "file": "JavaScript/원시 타입과 참조 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "원시 타입과 참조 타입.md"
+                "file": "JavaScript/원시 타입과 참조 타입.md"
               }
             }
           }
@@ -161,7 +161,12 @@
   },
   "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "Next.js",
+    "React",
+    "CSS",
+    "HTML",
+    "JavaScript",
     "무제 파일.md",
-    "원시 타입과 참조 타입.md"
+    "JavaScript/원시 타입과 참조 타입.md"
   ]
 }
