@@ -71,15 +71,21 @@ export async function POST(req: NextRequest, res: NextResponse) {
   }
 }
 
+// 요청 헤더를 구성하기 위해 사용자 세션에서 가져온 인증 토큰 및 refresh token을 사용하고, `withCredentials`를 `true`로 설정하여 요청이 사용자 인증 정보를 포함하도록 하는 헤더 정보를 담고 있는 객체를 반환
 async function getHeaders(req: NextRequest) {
   const session = await getSession();
-
   return {
+     // 사용자의 인증 토큰
+     // 세션에서 가져온 정보 중에서 `jwtAuthToken` 속성의 값
     "X-AUTH-TOKEN": session?.user.jwtAuthToken,
+    
+     // 쿠키 정보
+     // `"X-REFRESH_TOKEN=" + session?.user.jwtRefreshToken`를 사용하여 refresh token을 쿠키에 추가
     Cookie: "X-REFRESH_TOKEN=" + session?.user.jwtRefreshToken,
+    
+    // 이 헤더를 포함한 요청은 사용자 인증 정보를 포함하도록 설정
     withCredentials: true,
   };
-
 }
 
 ```
