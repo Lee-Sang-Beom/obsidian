@@ -14,7 +14,6 @@ import { getSession } from "next-auth/react";
 // 해당 API 엔드포인트에 대한 데이터를 가져와 클라이언트에 반환하는 것
 export async function GET(req: NextRequest, res: NextResponse) {
 
-
   // req.nextUrl: 현재 요청의 URL 정보를 저장하고 있는 객체
   const nextUrl = req.nextUrl;
   const backendPathname = nextUrl.pathname.replace(/\/api\//g, "/bapi/");
@@ -48,7 +47,11 @@ export async function POST(req: NextRequest, res: NextResponse) {
   const backendPathname = nextUrl.pathname.replace(/\/api\//g, "/bapi/");
   const reqUrl = process.env.NEXT_PUBLIC_HOST + backendPathname + nextUrl.search;
 
+
+  // `getHeaders` 함수는 사용자 세션 정보를 기반으로 헤더를 생성함.
+  // 이것은 사용자의 인증 및 세션 정보를 포함하는 데 사용되며, 서버에서 생성된 헤더를 가져오는 역할을 함
   // const headers = await getHeaders(req, res);
+
   const headers = req.headers;
   const body = await req.json();
 
