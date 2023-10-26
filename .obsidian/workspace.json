@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타/인증토큰과 리프레시 토큰이란.md",
+                "file": "Next.js/NextAuth 사용하기/NextAuth의 User type을 다시 정의하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기타/인증토큰과 리프레시 토큰이란.md",
+                "file": "Next.js/NextAuth 사용하기/NextAuth의 User type을 다시 정의하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기타/인증토큰과 리프레시 토큰이란.md",
+                "file": "Next.js/NextAuth 사용하기/NextAuth의 User type을 다시 정의하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기타/인증토큰과 리프레시 토큰이란.md"
+                "file": "Next.js/NextAuth 사용하기/NextAuth의 User type을 다시 정의하기.md"
               }
             }
           }
@@ -148,12 +148,13 @@
   },
   "active": "9e637ad6a4993f51",
   "lastOpenFiles": [
+    "Next.js/NextAuth 사용하기/NextAuth와 route.ts 사용해보기.md",
+    "Next.js/NextAuth 사용하기/NextAuth의 User type을 다시 정의하기.md",
     "VWorld/Next.js13에서 VWorld API사용해보기 (1).md",
+    "기타/인증토큰과 리프레시 토큰이란.md",
     "무제 파일.canvas",
     "JavaScript & TypeScript/원시 타입과 참조 타입.md",
-    "Next.js/NextAuth 사용하기/NextAuth와 route.ts 사용해보기.md",
     "VWorld",
-    "기타/인증토큰과 리프레시 토큰이란.md",
     "기타",
     "Next.js/NextAuth 사용하기",
     "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
