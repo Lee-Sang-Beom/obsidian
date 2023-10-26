@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth의 User type을 다시 정의하기.md",
+                "file": "VWorld/Next.js13에서 VWorld API사용해보기 (1).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth의 User type을 다시 정의하기.md",
+                "file": "VWorld/Next.js13에서 VWorld API사용해보기 (1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth의 User type을 다시 정의하기.md",
+                "file": "VWorld/Next.js13에서 VWorld API사용해보기 (1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth의 User type을 다시 정의하기.md"
+                "file": "VWorld/Next.js13에서 VWorld API사용해보기 (1).md"
               }
             }
           }
