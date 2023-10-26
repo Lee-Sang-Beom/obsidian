@@ -11,4 +11,6 @@
 
 Next.js는 **Serverless**를 지향하기 때문에, NextAuth.js도 JWT(Json Web Token) 방식의 인증을 사용한다고 한다.  Serverless에 대한 간단한 내용과 예시는 [해당 링크](https://leehwarang.github.io/2022/09/30/serverless.html)의 포스트를 참고하면 좋을 것이라 생각한다.
 
-포스트 작성 당시, 최신버전의 Next.js에서 NextAuth.js를 어떻게 사용하는지에 대한 자료가 많지 않았다. 그리고 마침 함께 NextAuth.js에 관심을 갖던 대학 친구들도 있었다. 그래서 필자는 친구들과 정보를 공유하고 싶기도 했고, NextAuths를 개발을 진행하면서  기록해보고, 
+포스트 작성 당시, 최신버전의 Next.js에서 NextAuth.js를 어떻게 사용하는지에 대한 자료가 그렇게 많지 않았다. 그리고 마침, 함께 NextAuth.js에 관심을 갖던 대학 친구들도 있었다. 
+
+그래서 필자는 친구들과 관련 정보를 공유하고 싶었고, 최신버전의 Next.js 기반 위에서 NextAuth.js를 사용하는 방법에 대해 개인적으로 기록해보고 싶었기 때문다. 그래서 해당 포스트를 작성하게 되었다.
