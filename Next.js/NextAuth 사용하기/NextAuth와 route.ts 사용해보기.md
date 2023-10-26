@@ -52,6 +52,10 @@ export async function POST(req: NextRequest, res: NextResponse) {
   // 이것은 사용자의 인증 및 세션 정보를 포함하는 데 사용되며, 서버에서 생성된 헤더를 가져오는 역할을 함
   // const headers = await getHeaders(req, res);
 
+
+  // req.headers: 현재 요청(`req`)에서 직접 헤더를 추출하여 `headers` 변수에 저장
+  // `req.headers`는 클라이언트가 요청한 시점에 설정된 헤더
+  // 이것은 클라이언트가 전송한 요청 헤더를 그대로 사용하는 것이며, 이 헤더에는 클라이언트 측에서 추가한 모든 정보가 포함되어 있음
   const headers = req.headers;
   const body = await req.json();
 
