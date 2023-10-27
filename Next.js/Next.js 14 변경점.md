@@ -11,5 +11,20 @@
 
 - **Partial Prerendering:**  React의 Suspend 기반 위에서 기본 응답 데이터와 스트리밍 동적 컨텐츠를 전달하는 기능이다. 현재 Preview 단계라고 한다.
 
-- **Next.js Learn**: App Router, authentication, Databases, 기타 등등을 포함한 새로운 학습 코스 페이지가 추가되었다.
-	- [이동하기]
+- [**Next.js Learn]**(https://nextjs.org/learn): App Router, authentication, Databases, 기타 등등을 포함한 새로운 학습 코스 페이지가 추가되었다.
+	- The Next.js App Router
+	- Styling and Tailwind CSS
+	- Optimizing Fonts and Images
+	- Creating Layouts and Pages
+	- Navigating Between Pages
+	- Setting Up Your Postgres Database
+	- Fetching Data with Server Components
+	- Static and Dynamic Rendering
+	- Streaming
+	- Partial Prerendering (Optional)
+	- Adding Search and Pagination
+	- Mutating Data
+	- Handling Errors
+	- Improving Accessibility
+	- Adding Authentication
+	- Adding Metadata
