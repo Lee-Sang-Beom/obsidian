@@ -6,5 +6,8 @@
 	3. [테스트 통과 비율](areweturboyet.com) 확인하기
 
 - **Server Actions:** Next.js13 에서 처음 소개되었던 Server Actions 의 enable(안정화) 버전이 출시되었다. 
-- Partial Prerendering: 기본 응답 데이터와 스트리밍 동적 컨텐츠 전달 기능을 React 의 Suspend 기반 위에서 구현. 현재 Preview 단계
-- Next.js Learn: App Router, 인증, 데이터 베이스를 포함한 새로운 학습 코스
+	- [Internal Server Action Post(개인)](obsidian://open?vault=obsidian&file=Next.js%2FServer%20Action%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0) 
+	- [관련 포스트](https://velog.io/@ckstn0777/Next.js-13.4-Server-Actions%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
+
+- **Partial Prerendering:** 기본 응답 데이터와 스트리밍 동적 컨텐츠 전달 기능을 React 의 Suspend 기반 위에서 구현. 현재 Preview 단계
+- **Next.js Learn**: App Router, 인증, 데이터 베이스를 포함한 새로운 학습 코스
