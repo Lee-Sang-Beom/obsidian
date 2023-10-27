@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/일정 관리.md",
+                "file": "Next.js/Server Action 사용하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/일정 관리.md",
+                "file": "Next.js/Server Action 사용하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/일정 관리.md",
+                "file": "Next.js/Server Action 사용하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/일정 관리.md"
+                "file": "Next.js/Server Action 사용하기.md"
               }
             }
           }
@@ -149,18 +149,20 @@
   "active": "739e38792fe81858",
   "lastOpenFiles": [
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
+    "기타/인증토큰과 리프레시 토큰이란.md",
+    "JavaScript & TypeScript/원시 타입과 참조 타입.md",
+    "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
+    "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
+    "Next.js/Server Action 사용하기.md",
     "일정 관리/일정 관리.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
+    "Next.js/무제 폴더",
     "nextauth.png.md",
     "사용 이미지/nextauth.png",
     "일정 관리",
     "사용 이미지/nextauth.png",
     "사용 이미지",
     "무제 파일.canvas",
-    "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
-    "JavaScript & TypeScript/원시 타입과 참조 타입.md",
-    "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
-    "기타/인증토큰과 리프레시 토큰이란.md",
     "VWorld/Next.js13에서 VWorld API사용해보기 (1).md",
     "VWorld",
     "기타",
@@ -169,7 +171,6 @@
     "er.email 내 이메일 주소git config user.email 내 이메일 주소",
     "Next.js",
     "React",
-    "CSS",
     "무제 파일.md"
   ]
 }
