@@ -11,8 +11,10 @@
             "id": "dd4454299e2be80a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png"
+              }
             }
           }
         ]
@@ -138,8 +144,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dd4454299e2be80a",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "사용 이미지/Next.js/guide course/chapter 2",
     "일정 관리/일정 관리.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
