@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md"
               }
             }
           }
@@ -160,8 +160,8 @@
   },
   "active": "dd4454299e2be80a",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "사용 이미지/Next.js/guide course/chapter 2",
     "일정 관리/일정 관리.md",
