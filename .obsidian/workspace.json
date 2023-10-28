@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+                "file": "일정 관리/일정 관리.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+                "file": "일정 관리/일정 관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+                "file": "일정 관리/일정 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md"
+                "file": "일정 관리/일정 관리.md"
               }
             }
           }
@@ -160,8 +160,9 @@
   },
   "active": "dd4454299e2be80a",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "기타/인증토큰과 리프레시 토큰이란.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "사용 이미지/Next.js/guide course/chapter 2/after-global-css-page.png",
     "사용 이미지/Next.js/guide course/chapter 2",
@@ -182,7 +183,6 @@
     "JavaScript & TypeScript/원시 타입과 참조 타입.md",
     "Next.js/Next.js 14",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기",
-    "기타/인증토큰과 리프레시 토큰이란.md",
     "1_png.md",
     "1_PW2qTWbr7Hy4Mi6Vz-S9zQ.png",
     "nextauth.png.md",
