@@ -11,3 +11,7 @@
 
 ##### 프로젝트 세팅
 
+- 프로젝트에서 NextAuth.js를 사용하기 위해서는, `/app/api/auth` 라는 약속된 경로 하위에 `[...nextauth].js`라는 파일을 만들어야 한다.
+- 이는, `/api/auth/*`( `signIn`, `callback`, 등) 에 대한 모든 요청은 `signOut`NextAuth.js에 의해 자동으로 처리
+
+- NextAuth.js의 공식문서에는 아래와 같은 소스코드를 제공하고 있다.
