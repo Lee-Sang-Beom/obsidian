@@ -11,11 +11,26 @@
 
 ##### 프로젝트 세팅
 
-- NextAuth.js에서 제공하는 `useSession()`을 사용하기 위해서는, 애플리케이션 최상단에 SessionProvider로 하위 요소들을 감싸줘야 한다.
-	- useSession : 클라이언트 컴포넌트에서 session 정보를 불러올 수 있는 hook`
+- NextAuth.js에서 제공하는 `useSession()`을 사용하기 위해서는, 애플리케이션 최상단에 `SessionProvider`로 하위 요소들을 감싸줘야 한다.
+	- `useSession` : 클라이언트 컴포넌트에서 session 정보를 불러올 수 있는 `hook`
 
-- 일단, `provider/`
+- Next.js 13을 사용하면서, 필자는 이를 `layout.tsx` 파일에서 사용하고 싶었기 때문에, 아래의 방법을 사용했다.
+	- 프로젝트 디렉터리에 `/provider/NextAuthProvider.tsx`라는 파일을 만든 후, 아래의 코드를 입력한다.
+	```tsx
+	"use client";
+	import React from "react";
+	import { SessionProvider } from "next-auth/react";
+	
+	export default function NextAuthProvider({
+	  children,
+	}: {
+	  children: React.ReactNode;
+	}) {
+	  return <SessionProvider>{children}</SessionProvider>;
+	}
+```
 
+	- 
 
 ---
 
