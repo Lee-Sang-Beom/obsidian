@@ -8,44 +8,37 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:\"Next.js/Next.js 14/Next.js 14 학습코스 따라하기\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16060175
+      }
+    },
+    {
       "query": "path:\"Next.js/NextAuth 사용하기\"  ",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 16165651
       }
     },
     {
-      "query": "path:\"JavaScript & TypeScript\" path:\"JavaScript & TypeScript\"  ",
+      "query": "path:\"JavaScript & TypeScript\"  ",
       "color": {
         "a": 1,
-        "rgb": 14069084
-      }
-    },
-    {
-      "query": "path:VWorld  ",
-      "color": {
-        "a": 1,
-        "rgb": 11392604
-      }
-    },
-    {
-      "query": "path:기타  ",
-      "color": {
-        "a": 1,
-        "rgb": 129790
+        "rgb": 16514831
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "textFadeMultiplier": 0.8,
+  "nodeSizeMultiplier": 1.96302083333333,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.692708333333333,
+  "repelStrength": 5.41666666666667,
+  "linkStrength": 0.588541666666667,
   "linkDistance": 250,
-  "scale": 0.844556370304815,
-  "close": false
+  "scale": 1.1840535873752107,
+  "close": true
 }
