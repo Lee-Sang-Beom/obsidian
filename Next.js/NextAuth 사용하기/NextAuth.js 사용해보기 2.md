@@ -11,9 +11,17 @@
 
 ##### 프로젝트 세팅
 
+- NextAuth.js에서 제공하는 `useSession()`을 사용하기 위해서는, 애플리케이션 최상단에 SessionProvider로 하위 요소들을 감싸줘야 한다.
+	- useSession : 클라이언트 컴포넌트에서 session 정보를 불러올 수 있는 hook`
+
+- 일단, `provider/`
+
+
+---
+
 - 프로젝트에서 NextAuth.js를 사용하기 위해서는, `/app/api/auth` 라는 약속된 경로 하위에 `[...nextauth].js`라는 파일을 만들어야 한다.
 	- 이는, `/api/auth/*` 경로로 들어오는 모든 요청을 NextAuth.js에 의해 자동으로 처리되도록 하기 위해서이다.
-	- 요청의 예시로는 `signIn signOut, callback, 기타`) 등이 있다.
+	- 요청의 예시로는 `signIn, signOut, callback, 기타`) 등이 있는데, 이것들이 바로 NextAuth.js 에서 제공하고 있는 함수이다.
 
 - NextAuth.js의 [공식문서](https://next-auth.js.org/getting-started/example)에는 아래와 같은 소스코드를 제공하고 있다.
 ```tsx
