@@ -1,5 +1,5 @@
 
-##### mapContext.ts 생성
+#### mapContext.ts 생성
 
 - React 컴포넌트 간에, 값을 공유하기 위한 context 파일을 생성한다.
 ```tsx

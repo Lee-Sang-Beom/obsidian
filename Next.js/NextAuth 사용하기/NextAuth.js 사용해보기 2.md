@@ -1,5 +1,5 @@
 
-##### Next.js 설치
+#### Next.js 설치
 
 - NextAuth.js 라이브러리를 사용하기 위해서는 먼저, Next.js 애플리케이션 프로젝트를 만들어야 한다. 
 	- `npx create-next-app@latest` 
@@ -9,7 +9,7 @@
 	- `npm install next-auth`
 
 
-##### 프로젝트 세팅 (SessionProvider)
+#### 프로젝트 세팅 (SessionProvider)
 
 - NextAuth.js에서 제공하는 `useSession()`을 사용하기 위해서는, 애플리케이션 최상단에 `SessionProvider`로 하위 요소들을 감싸줘야 한다.
 	- `useSession` : 클라이언트 컴포넌트에서 session 정보를 불러올 수 있는 `hook`
@@ -51,7 +51,7 @@ export default function RootLayout({
 ```
 
 
-##### 프로젝트 세팅 (route)
+#### 프로젝트 세팅 (route)
 
 - 프로젝트에서 NextAuth.js를 사용하기 위해서는, `/app/api/auth` 라는 약속된 경로 하위에 `[...nextauth].js`라는 파일을 만들어야 한다.
 	- 이는, `/api/auth/*` 경로로 들어오는 모든 요청을 NextAuth.js에 의해 자동으로 처리되도록 하기 위해서이다.

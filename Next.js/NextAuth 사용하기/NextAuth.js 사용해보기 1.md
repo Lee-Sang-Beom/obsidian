@@ -1,5 +1,5 @@
 
-### NextAuth.js란?
+#### NextAuth.js란?
 ![[nextauth.png]]
 
 - **NextAuth.js**는 **Next.js 프레임워크 기반 애플리케이션**에서 로그인을 쉽게 구현할 수 있도록 관련 기능을 제공하는 라이브러리이다. 
