@@ -16,7 +16,7 @@
 
 - Next.js 13을 사용하면서, 필자는 이를 `layout.tsx` 파일에서 사용하고 싶었기 때문에, 아래의 방법을 사용했다.
 	- 프로젝트 디렉터리에 `/provider/NextAuthSessionProvider.tsx`라는 파일을 만든 후, 아래의 코드를 입력한다.
-```tsx
+	```tsx
 "use client";
 import React from "react";
 import { SessionProvider } from "next-auth/react";
@@ -28,10 +28,10 @@ export default function NextAuthSessionProvider({
 }) {
   return <SessionProvider>{children}</SessionProvider>;
 }
-```
+	```
 
- - 그 다음, 앞서 정의한 `NextAuthSessionProvider`컴포넌트로 `{children}`  감싸준다.
-```
+ - 그 다음, 앞서 정의한 `NextAuthSessionProvider`컴포넌트로 `app/layout.tsx` 파일의 `{children}` 영역을 감싸준다.
+```tsx
 import NextAuthSessionProvider from "@/provider/NextAuthSessionProvider";
 
 export default function RootLayout({
@@ -49,6 +49,9 @@ export default function RootLayout({
   );
 }
 ```
+
+
+##### 프로젝트 세팅 (route)
 
 - 프로젝트에서 NextAuth.js를 사용하기 위해서는, `/app/api/auth` 라는 약속된 경로 하위에 `[...nextauth].js`라는 파일을 만들어야 한다.
 	- 이는, `/api/auth/*` 경로로 들어오는 모든 요청을 NextAuth.js에 의해 자동으로 처리되도록 하기 위해서이다.
