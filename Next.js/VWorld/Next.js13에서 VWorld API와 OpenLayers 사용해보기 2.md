@@ -11,7 +11,10 @@ const MapContext = React.createContext({});
 export default MapContext;
 ```
 
-- 지도를 만드는 Map 객체를 생성한다.  `MapComponent.tsx`
+
+#### MapComponent.tsx 생성
+
+- 지도를 만드는 Map 객체를 생성한다. 
 ```tsx
 "use client";
 import React, { useState, useEffect } from "react";
