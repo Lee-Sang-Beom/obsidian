@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+                "file": "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayer 사용해보기 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "7bf402fa726e40c7",
         "type": "tabs",
-        "dimension": 17.328042328042326,
+        "dimension": 17.328042328042322,
         "children": [
           {
             "id": "434e91b62d2356a6",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+                "file": "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayer 사용해보기 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+                "file": "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayer 사용해보기 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md"
+                "file": "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayer 사용해보기 1.md"
               }
             }
           }
@@ -168,8 +168,10 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+    "Next.js/Server Action 사용하기.md",
+    "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayer 사용해보기 1.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "기타/인증토큰과 리프레시 토큰이란.md",
     "JavaScript & TypeScript/원시 타입과 참조 타입.md",
@@ -190,7 +192,6 @@
     "사용 이미지/Next.js/guide course/무제 파일.md",
     "사용 이미지/Next.js/guide course/chapter 1",
     "사용 이미지/Next.js/guide course",
-    "Next.js/Server Action 사용하기.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
     "사용 이미지/Next.js",
     "사용 이미지/Next.js/nextauth.png",
@@ -201,8 +202,7 @@
     "nextauth.png.md",
     "일정 관리",
     "사용 이미지",
-    "VWorld/Next.js13에서 VWorld API사용해보기 (1).md",
-    "VWorld",
+    "Next.js/VWorld",
     "기타",
     "무제 파일.md"
   ]
