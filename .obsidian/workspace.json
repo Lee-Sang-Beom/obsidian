@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "7bf402fa726e40c7",
         "type": "tabs",
-        "dimension": 17.32804232804233,
+        "dimension": 17.328042328042326,
         "children": [
           {
             "id": "434e91b62d2356a6",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md"
               }
             }
           }
@@ -168,13 +168,13 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "기타/인증토큰과 리프레시 토큰이란.md",
     "JavaScript & TypeScript/원시 타입과 참조 타입.md",
     "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
-    "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
