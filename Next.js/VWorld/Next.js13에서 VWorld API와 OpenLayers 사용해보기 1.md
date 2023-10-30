@@ -18,7 +18,8 @@
 - Map 객체를 사용하여 지도를 화면에 표시하려면, **Layer, View, Interaction, Controls**와 같은 요소가 필요하다. 
 	- Layer: 배경지도 또는 레이어를 출력하기 위해 사용하는 객체이다. 하나 이상의 Layer가 필요하며, Map에서 배열로 사용된다.
 	- Source: Layer 데이터의 원천(Source)으로, Feature의 집합과 같다. 
-	- Feature: 점, 선, 면과 같은 벡터 요소(V)
+	- Feature: 점, 선, 면과 같은 벡터 요소(벡터 Layer 한정)
 	- View: 해상도, 화면 레벨, 좌표 등 지도의 시각적 효과에 대한 변수들을 정의한다.
 	- Controls: 화면에 고정된 위치에 사용되는 버튼등에 이벤트를 적용하여 회전, 위치이동 등의 이벤트를 제공한다.
-	- Interaction: 마우스, 키보드 등의 이벤트 효과를 나타낸다.
+	- Interaction: 마우스, 키보드 등의 이벤트 효과
+	- Overlay: Map에 표시할 요소
