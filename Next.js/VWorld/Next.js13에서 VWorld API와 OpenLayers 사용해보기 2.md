@@ -1,7 +1,7 @@
 
 #### mapContext.ts 생성
 
-- React 컴포넌트 간에, 값을 공유하기 위한 context 파일을 생성한다.
+- React 컴포넌트 간에, 값을 공유하기 위한 context 파일을 생성한다. 
 ```tsx
 "use client";
 import React from "react";
@@ -11,7 +11,7 @@ const MapContext = React.createContext({});
 export default MapContext;
 ```
 
-- 지도를 만드는 Map 객체를 생성한다.
+- 지도를 만드는 Map 객체를 생성한다.  `MapComponent.tsx`
 ```tsx
 "use client";
 import React, { useState, useEffect } from "react";
