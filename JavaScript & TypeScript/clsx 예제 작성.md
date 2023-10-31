@@ -25,6 +25,7 @@ export default function AutoAlert() {
   const [status] = useRecoilState<StatusType>(openAlertStatus);
 
   return (
+  // 길다!!
     <div
       className={`alert ${
         status === "error"
@@ -83,6 +84,7 @@ export default function AutoAlert() {
   const [text] = useRecoilState(openAlertText);
   const [status] = useRecoilState<StatusType>(openAlertStatus);
 
+  // 보기 편하다!
   const alertStatusClassName = clsx({
     alert: true,
     animation_wrap: openState,
@@ -93,6 +95,7 @@ export default function AutoAlert() {
   });
 
   return (
+  // 여기!!
     <div className={alertStatusClassName}>
       <p className={openState ? "animation_p" : ""}>
         {status === "error" ? (
