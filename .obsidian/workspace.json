@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+                "file": "JavaScript & TypeScript/clsx 예제 작성.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+                "file": "JavaScript & TypeScript/clsx 예제 작성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+                "file": "JavaScript & TypeScript/clsx 예제 작성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md"
+                "file": "JavaScript & TypeScript/clsx 예제 작성.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
+    "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+    "JavaScript & TypeScript/clsx 예제 작성.md",
     "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
-    "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
     "Next.js/Server Action 사용하기.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
