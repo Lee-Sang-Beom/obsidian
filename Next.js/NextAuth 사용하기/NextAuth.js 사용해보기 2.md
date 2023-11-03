@@ -53,7 +53,7 @@ export default function RootLayout({
 
 #### 프로젝트 세팅 (route)
 
-- 프로젝트에서 NextAuth.js를 사용하기 위해서는, `/app/api/auth` 라는 약속된 경로 하위에 `[...nextauth].js`라는 파일을 만들어야 한다.
+- Next.js 애플리케이션에서 NextAuth.js를 사용하기 위해서는, `/app/api/auth` 라는 약속된 경로 하위에 `[...nextauth].js`라는 파일을 만들어야 한다.
 	- 이는, `/api/auth/*` 경로로 들어오는 모든 요청을 NextAuth.js에 의해 자동으로 처리되도록 하기 위해서이다.
 	- 요청의 예시로는 `signIn, signOut, callback, 기타`) 등이 있는데, 이것들이 바로 NextAuth.js 에서 제공하고 있는 함수이다.
 
