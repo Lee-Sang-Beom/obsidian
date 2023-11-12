@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/주간보고.md",
+                "file": "일정 관리/일정 관리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/주간보고.md",
+                "file": "일정 관리/일정 관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/주간보고.md",
+                "file": "일정 관리/일정 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/주간보고.md"
+                "file": "일정 관리/일정 관리.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
-    "일정 관리/일정 관리.md",
     "일정 관리/주간보고.md",
+    "일정 관리/일정 관리.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "기타/인증토큰과 리프레시 토큰이란.md",
