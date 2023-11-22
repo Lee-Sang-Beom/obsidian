@@ -166,13 +166,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "347aa745865e25b6",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "사용 이미지/Next.js/guide course/chapter 4",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+    "사용 이미지/Next.js/guide course/chapter 3",
+    "사용 이미지/Next.js/guide course/chapter 4/nested_layout_1.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "일정 관리/주간보고.md",
     "일정 관리/일정 관리.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "일정 관리/해야할 일.md",
     "Next.js/VWorld/사용 예제.md",
     "일정 관리/뎁스톤.md",
@@ -211,8 +214,6 @@
     "1_PW2qTWbr7Hy4Mi6Vz-S9zQ.png",
     "nextauth.png.md",
     "일정 관리",
-    "사용 이미지",
-    "Next.js/VWorld",
-    "무제 파일.md"
+    "사용 이미지"
   ]
 }
