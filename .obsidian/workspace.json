@@ -12,11 +12,9 @@
             "id": "347aa745865e25b6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
-                "mode": "source",
-                "source": false
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png"
               }
             }
           }
@@ -105,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md"
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png"
               }
             }
           }
@@ -166,14 +164,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "347aa745865e25b6",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
+    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage 1.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "사용 이미지/Next.js/guide course/chapter 4",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "사용 이미지/Next.js/guide course/chapter 3",
     "사용 이미지/Next.js/guide course/chapter 4/nested_layout_1.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "일정 관리/주간보고.md",
     "일정 관리/일정 관리.md",
     "일정 관리/해야할 일.md",
@@ -193,7 +193,6 @@
     "JavaScript & TypeScript/원시 타입과 참조 타입.md",
     "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
-    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "사용 이미지/Next.js/Next.js14.png",
     "무제 파일.canvas",
     "2023-10-28.md",
@@ -211,9 +210,7 @@
     "Next.js/Next.js 14",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기",
     "1_png.md",
-    "1_PW2qTWbr7Hy4Mi6Vz-S9zQ.png",
     "nextauth.png.md",
-    "일정 관리",
-    "사용 이미지"
+    "일정 관리"
   ]
 }
