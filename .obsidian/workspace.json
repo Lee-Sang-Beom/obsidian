@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "사용 이미지/이미지 경로 접근하기.md",
+                "file": "일정 관리/주간보고.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/이미지 경로 접근하기.md",
+                "file": "일정 관리/주간보고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/이미지 경로 접근하기.md",
+                "file": "일정 관리/주간보고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/이미지 경로 접근하기.md"
+                "file": "일정 관리/주간보고.md"
               }
             }
           }
@@ -168,8 +168,8 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
-    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "사용 이미지/이미지 경로 접근하기.md",
+    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage 1.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
