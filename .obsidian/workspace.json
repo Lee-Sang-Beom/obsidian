@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+                "file": "일정 관리/일정 관리.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+                "file": "일정 관리/일정 관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+                "file": "일정 관리/일정 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md"
+                "file": "일정 관리/일정 관리.md"
               }
             }
           }
@@ -168,9 +168,11 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
+    "기타/인증토큰과 리프레시 토큰이란.md",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "chapter4_dashboard_layout.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "무제 파일.canvas",
@@ -185,7 +187,6 @@
     "일정 관리/해야할 일.md",
     "Next.js/VWorld/사용 예제.md",
     "일정 관리/뎁스톤.md",
-    "기타/인증토큰과 리프레시 토큰이란.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
     "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
@@ -205,11 +206,9 @@
     "사용 이미지/Next.js/guide course/chapter 2/clsx1.png",
     "사용 이미지/Next.js/guide course/chapter 2/after-global-css-page.png",
     "사용 이미지/Next.js/guide course/chapter 2",
-    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 localhostpageUrl.png",
     "사용 이미지/Next.js/guide course/무제 파일.md",
     "사용 이미지/Next.js/guide course/chapter 1",
     "사용 이미지/Next.js/guide course",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
     "사용 이미지/Next.js",
     "Next.js/Next.js 14",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기",
