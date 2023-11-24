@@ -6,7 +6,6 @@
       {
         "id": "bc5c1c757d0cad51",
         "type": "tabs",
-        "dimension": 63.7906647807638,
         "children": [
           {
             "id": "347aa745865e25b6",
@@ -14,26 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/일정 관리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "def78c54b9ffa658",
-        "type": "tabs",
-        "dimension": 36.20933521923621,
-        "children": [
-          {
-            "id": "594de4263cdc98d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/일정 관리.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/일정 관리.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/일정 관리.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md"
               }
             }
           }
@@ -168,13 +148,14 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+    "일정 관리/일정 관리.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "기타/인증토큰과 리프레시 토큰이란.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "chapter4_dashboard_layout.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "무제 파일.canvas",
     "일정 관리/주간보고.md",
     "사용 이미지/이미지 경로 접근하기.md",
@@ -183,7 +164,6 @@
     "사용 이미지/Next.js/guide course/chapter 4",
     "사용 이미지/Next.js/guide course/chapter 3",
     "사용 이미지/Next.js/guide course/chapter 4/nested_layout_1.png",
-    "일정 관리/일정 관리.md",
     "일정 관리/해야할 일.md",
     "Next.js/VWorld/사용 예제.md",
     "일정 관리/뎁스톤.md",
