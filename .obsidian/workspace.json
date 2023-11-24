@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/VWorld/사용 예제.md",
+                "file": "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/VWorld/사용 예제.md",
+                "file": "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/VWorld/사용 예제.md",
+                "file": "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/VWorld/사용 예제.md"
+                "file": "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/무제 파일.md"
               }
             }
           }
@@ -148,7 +148,14 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
+    "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(RadiusMap.tsx).md",
+    "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/무제 파일.md",
+    "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가/코드.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+    "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기",
+    "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가",
+    "Next.js/VWorld/사용 예제.md",
+    "Next.js/VWorld/사용 예제",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "일정 관리/일정 관리.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
@@ -165,7 +172,6 @@
     "사용 이미지/Next.js/guide course/chapter 3",
     "사용 이미지/Next.js/guide course/chapter 4/nested_layout_1.png",
     "일정 관리/해야할 일.md",
-    "Next.js/VWorld/사용 예제.md",
     "일정 관리/뎁스톤.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
@@ -186,13 +192,8 @@
     "사용 이미지/Next.js/guide course/chapter 2/clsx1.png",
     "사용 이미지/Next.js/guide course/chapter 2/after-global-css-page.png",
     "사용 이미지/Next.js/guide course/chapter 2",
-    "사용 이미지/Next.js/guide course/무제 파일.md",
     "사용 이미지/Next.js/guide course/chapter 1",
     "사용 이미지/Next.js/guide course",
-    "사용 이미지/Next.js",
-    "Next.js/Next.js 14",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기",
-    "1_png.md",
-    "일정 관리"
+    "사용 이미지/Next.js"
   ]
 }
