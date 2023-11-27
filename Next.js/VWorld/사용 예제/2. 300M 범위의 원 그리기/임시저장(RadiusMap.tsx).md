@@ -1,5 +1,4 @@
 
-- 데이터생성
 ```tsx
 "use client";
 
