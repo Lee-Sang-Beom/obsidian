@@ -1,7 +1,5 @@
 
-- 데이터 생성
-- 맵 그리기
-- 이벤트 처리
+- 데이터생성
 ```tsx
 "use client";
 
@@ -13,7 +11,6 @@ import MapContext from "@/utils/map/mapContext";
 
 import { useContext, useEffect, useState } from "react";
 
-  
 
 import { ShelterDetailResponse } from "@/types/sub/Sm/SysShelter";
 
