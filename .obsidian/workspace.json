@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/일정 관리.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/일정 관리.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/일정 관리.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/일정 관리.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
+    "일정 관리/일정 관리.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(RadiusMap.tsx).md",
     "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md",
     "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가/코드.md",
@@ -157,7 +159,6 @@
     "Next.js/VWorld/사용 예제.md",
     "Next.js/VWorld/사용 예제",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "일정 관리/일정 관리.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "기타/인증토큰과 리프레시 토큰이란.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
@@ -187,7 +188,6 @@
     "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
     "사용 이미지/Next.js/Next.js14.png",
-    "2023-10-28.md",
     "사용 이미지/Next.js/guide course/chapter 2/clsx2.png",
     "사용 이미지/Next.js/guide course/chapter 2/clsx1.png",
     "사용 이미지/Next.js/guide course/chapter 2/after-global-css-page.png",
