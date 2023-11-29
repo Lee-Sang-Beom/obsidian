@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "6876778755c71cdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2d5d38e0c5c776d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 200
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -148,12 +166,12 @@
   },
   "active": "347aa745865e25b6",
   "lastOpenFiles": [
-    "일정 관리/일정 관리.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
+    "일정 관리/일정 관리.md",
     "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(RadiusMap.tsx).md",
     "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md",
     "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가/코드.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기",
     "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가",
     "Next.js/VWorld/사용 예제.md",
