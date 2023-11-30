@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "bc5c1c757d0cad51",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "347aa745865e25b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "일정 관리/주간보고.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "6876778755c71cdd",
         "type": "tabs",
         "children": [
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/주간보고.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/주간보고.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/주간보고.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md"
               }
             }
           }
@@ -164,8 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "347aa745865e25b6",
+  "active": "c2d5d38e0c5c776d",
   "lastOpenFiles": [
+    "일정 관리/주간보고.md",
     "일정 관리/일정 관리.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
@@ -183,7 +166,6 @@
     "chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "무제 파일.canvas",
-    "일정 관리/주간보고.md",
     "사용 이미지/이미지 경로 접근하기.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage 1.png",
