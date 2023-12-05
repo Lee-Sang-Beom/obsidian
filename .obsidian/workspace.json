@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/해야할 일.md",
+                "file": "일정 관리/일정 관리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/해야할 일.md",
+                "file": "일정 관리/일정 관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/해야할 일.md",
+                "file": "일정 관리/일정 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/해야할 일.md"
+                "file": "일정 관리/일정 관리.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "c2d5d38e0c5c776d",
   "lastOpenFiles": [
+    "일정 관리/해야할 일.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
@@ -172,7 +173,6 @@
     "사용 이미지/Next.js/guide course/chapter 4",
     "사용 이미지/Next.js/guide course/chapter 3",
     "사용 이미지/Next.js/guide course/chapter 4/nested_layout_1.png",
-    "일정 관리/해야할 일.md",
     "일정 관리/뎁스톤.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
