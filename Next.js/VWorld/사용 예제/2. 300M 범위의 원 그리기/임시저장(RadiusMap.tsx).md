@@ -58,19 +58,12 @@ export default function RadiusMap() {
   const [shelterSearchKeyObj, setShelterSearchKeyObj] =
 
     useState<SearchShelterForMapCommand>({
-
       page: 0,
-
       size: 5,
-
       shelterForMapSearchType: "ALL",
-
       searchKeyWord: "",
-
       orderBy: "DESC",
-
       sort: "shelterNm",
-
     });
 
   const shelterQuery = useShelterListForMap(shelterSearchKeyObj);
