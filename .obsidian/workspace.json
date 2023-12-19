@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/POST API ROUTE.md",
+                "file": "Next.js/Server Action 사용하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/POST API ROUTE.md",
+                "file": "Next.js/Server Action 사용하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/POST API ROUTE.md",
+                "file": "Next.js/Server Action 사용하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/POST API ROUTE.md"
+                "file": "Next.js/Server Action 사용하기.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "a66b4bad84515e30",
   "lastOpenFiles": [
-    "Next.js/API routes.md",
     "Next.js/POST API ROUTE.md",
+    "Next.js/API routes.md",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
+    "JavaScript & TypeScript/원시 타입과 참조 타입.md",
+    "JavaScript & TypeScript/Clsx 사용해보기.md",
+    "기타/인증토큰과 리프레시 토큰이란.md",
     "일정 관리/해야할 일.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
@@ -164,8 +169,6 @@
     "Next.js/VWorld/사용 예제.md",
     "Next.js/VWorld/사용 예제",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
-    "기타/인증토큰과 리프레시 토큰이란.md",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
     "chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "무제 파일.canvas",
@@ -182,11 +185,8 @@
     "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
-    "JavaScript & TypeScript/Clsx 사용해보기.md",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
-    "Next.js/Server Action 사용하기.md",
     "사용 이미지/OpenLayers",
-    "JavaScript & TypeScript/원시 타입과 참조 타입.md",
     "사용 이미지/Next.js/Next.js14.png",
     "사용 이미지/Next.js/guide course/chapter 2/clsx2.png",
     "사용 이미지/Next.js/guide course/chapter 2/clsx1.png",
