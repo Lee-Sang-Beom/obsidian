@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/API routes.md",
+                "file": "Next.js/POST API ROUTE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/API routes.md",
+                "file": "Next.js/POST API ROUTE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/API routes.md",
+                "file": "Next.js/POST API ROUTE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/API routes.md"
+                "file": "Next.js/POST API ROUTE.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   "active": "a66b4bad84515e30",
   "lastOpenFiles": [
     "Next.js/API routes.md",
+    "Next.js/POST API ROUTE.md",
     "일정 관리/해야할 일.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
@@ -186,7 +187,6 @@
     "Next.js/Server Action 사용하기.md",
     "사용 이미지/OpenLayers",
     "JavaScript & TypeScript/원시 타입과 참조 타입.md",
-    "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
     "사용 이미지/Next.js/Next.js14.png",
     "사용 이미지/Next.js/guide course/chapter 2/clsx2.png",
     "사용 이미지/Next.js/guide course/chapter 2/clsx1.png",
