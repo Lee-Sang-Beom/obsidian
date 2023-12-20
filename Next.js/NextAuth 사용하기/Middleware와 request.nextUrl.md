@@ -13,6 +13,18 @@ export default withAuth(
 
 	/**
 	* 객체
+	* href: 'http://localhost:3000/Sm/SysChemical?page=0&size=10&chemSearchType=ALL&searchKeyWord=&changwonYn=Y&sort=regDt&orderBy=DESC&active=0'
+	* origin: 'http://localhost:3000'
+	* protocol: 'http:',
+	* username: '',
+	* password: '',
+	* host: 'localhost:3000',
+	* hostname: 'localhost',
+	* port: '3000',
+	* pathname: '/Sm/SysChemical',
+	* search: ?page=0&size=10&chemSearchType=ALL&searchKeyWord=&changwonYn=Y
+			   &sort=regDt&orderBy=DESC&active=0',
+	* searchParams : ["page","0","size","10","chem"]
 	*/
     console.log("request.nexturl is ", request.nextUrl);
 
