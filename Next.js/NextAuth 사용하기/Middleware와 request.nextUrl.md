@@ -24,7 +24,8 @@ export default withAuth(
 	* pathname: '/Sm/SysChemical',
 	* search: ?page=0&size=10&chemSearchType=ALL&searchKeyWord=&changwonYn=Y
 			   &sort=regDt&orderBy=DESC&active=0',
-	* searchParams : ["page","0","size","10","chem"]
+	* searchParams : ["page","0","size","10","chemSearchType","ALL",
+	*                 "searchKeyWord","","changwonYn","Y",...,"active","0"]
 	*/
     console.log("request.nexturl is ", request.nextUrl);
 
