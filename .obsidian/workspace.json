@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSP/4. 스크립트 요소(Script Element).md",
+                "file": "JSP/2. 지시어(Standard Directives).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSP/4. 스크립트 요소(Script Element).md",
+                "file": "JSP/2. 지시어(Standard Directives).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JSP/4. 스크립트 요소(Script Element).md"
+                "file": "JSP/2. 지시어(Standard Directives).md"
               }
             }
           }
@@ -166,11 +166,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "78429c514320cf15",
+  "active": "7f3614f9cf5d7f11",
   "lastOpenFiles": [
+    "JSP/4. 스크립트 요소(Script Element).md",
     "JSP/2. 지시어(Standard Directives).md",
     "JSP/3. 액션(Standard Actions).md",
-    "JSP/4. 스크립트 요소(Script Element).md",
     "JSP/0. 시작하기.md",
     "무제 파일.canvas",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
