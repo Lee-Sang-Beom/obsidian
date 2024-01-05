@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/기타. JSP 실습 1.md",
+                "file": "JSP/기타. JSP 실습 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,12 +166,12 @@
   },
   "active": "660d3b2ae5adbe0f",
   "lastOpenFiles": [
+    "JSP/기타. JSP 실습 2.md",
+    "JSP/기타. JSP 실습 1.md",
+    "JSP/3. 액션(Standard Actions).md",
     "JSP/2. 지시어(Standard Directives).md",
     "JSP/4. 스크립트 요소(Script Element).md",
     "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
-    "JSP/3. 액션(Standard Actions).md",
-    "JSP/기타. JSP 실습 2.md",
-    "JSP/기타. JSP 실습 1.md",
     "JSP/0. 시작하기.md",
     "사용 이미지/JSP/JSP 실습 1 결과.png",
     "JSP/1. JSP.md",
