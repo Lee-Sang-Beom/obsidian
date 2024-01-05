@@ -4,15 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "34cc7aa4cb1962bf",
+        "id": "80dd0056a7f326f7",
         "type": "tabs",
         "children": [
           {
-            "id": "a0f46ec1301bee6e",
+            "id": "78429c514320cf15",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "JSP/4. 스크립트 요소(Script Element).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4afc35b34e69b50c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f3614f9cf5d7f11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSP/3. 액션(Standard Actions).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JSP/4. 스크립트 요소(Script Element).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JSP/4. 스크립트 요소(Script Element).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JSP/4. 스크립트 요소(Script Element).md"
+              }
             }
           }
         ]
@@ -138,17 +164,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a0f46ec1301bee6e",
+  "active": "78429c514320cf15",
   "lastOpenFiles": [
-    "areweturboyet.com.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 변경점.md",
+    "무제 파일.canvas",
+    "JSP/3. 액션(Standard Actions).md",
+    "JSP/4. 스크립트 요소(Script Element).md",
+    "JSP/0. 시작하기.md",
+    "사용 이미지/OpenLayers/Openlayers 구조.png",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 변경점.md",
+    "areweturboyet.com.md",
     "JSP/2. 지시어(Standard Directives).md",
     "무제 파일 1.canvas",
-    "JSP/0. 시작하기.md",
     "무제 파일 4.canvas",
     "JSP/1. JSP.md",
-    "JSP/3. 액션(Standard Actions).md",
     "일정 관리/해야할 일.md",
     "일정 관리/일정 관리.md",
     "기타/인증토큰과 리프레시 토큰이란.md",
@@ -162,7 +192,6 @@
     "무제 파일 3.canvas",
     "backend/Spring 강의/DAY 2.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
-    "무제 파일.canvas",
     "무제 파일 2.canvas",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
@@ -179,9 +208,6 @@
     "backend/Spring 강의/관련 링크.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
     "backend/개념/개념.md",
-    "backend/학습과정.md",
-    "프론트엔드 기본지식/Oauth.md",
-    "사용 이미지/OpenLayers/Openlayers 구조.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
