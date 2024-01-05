@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSP/2. 지시어(Standard Directives).md",
+                "file": "JSP/3. 액션(Standard Actions).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSP/2. 지시어(Standard Directives).md",
+                "file": "JSP/3. 액션(Standard Actions).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JSP/2. 지시어(Standard Directives).md"
+                "file": "JSP/3. 액션(Standard Actions).md"
               }
             }
           }
@@ -164,8 +164,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1e4b5da6b66001fc",
+  "active": "931578d18fbe6ee5",
   "lastOpenFiles": [
+    "JSP/2. 지시어(Standard Directives).md",
     "일정 관리/해야할 일.md",
     "일정 관리/일정 관리.md",
     "기타/인증토큰과 리프레시 토큰이란.md",
@@ -173,7 +174,6 @@
     "Next.js/Next.js 14/Next.js 14 변경점.md",
     "JavaScript & TypeScript/Cookie, Session, Web Storage.md",
     "JSP/3. 액션(Standard Actions).md",
-    "JSP/2. 지시어(Standard Directives).md",
     "JSP/1. JSP.md",
     "JSP/0. 참고자료.md",
     "JSP/3. include 지시어와.md",
