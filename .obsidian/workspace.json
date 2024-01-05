@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/기타. JSP 실습 2.md",
+                "file": "JSP/3. 액션(Standard Actions).md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSP/기타. JSP 실습 2.md",
+                "file": "JSP/3. 액션(Standard Actions).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSP/기타. JSP 실습 2.md",
+                "file": "JSP/3. 액션(Standard Actions).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JSP/기타. JSP 실습 2.md"
+                "file": "JSP/3. 액션(Standard Actions).md"
               }
             }
           }
@@ -166,16 +166,16 @@
   },
   "active": "660d3b2ae5adbe0f",
   "lastOpenFiles": [
-    "JSP/기타. JSP 실습 1.md",
+    "JSP/2. 지시어(Standard Directives).md",
+    "JSP/4. 스크립트 요소(Script Element).md",
+    "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
+    "JSP/3. 액션(Standard Actions).md",
     "JSP/기타. JSP 실습 2.md",
+    "JSP/기타. JSP 실습 1.md",
     "JSP/0. 시작하기.md",
     "사용 이미지/JSP/JSP 실습 1 결과.png",
-    "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
-    "JSP/2. 지시어(Standard Directives).md",
     "JSP/1. JSP.md",
-    "JSP/4. 스크립트 요소(Script Element).md",
     "areweturboyet.com.md",
-    "JSP/3. 액션(Standard Actions).md",
     "무제 파일.canvas",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
