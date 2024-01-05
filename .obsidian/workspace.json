@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/JSP 실습 1.md",
+                "file": "JSP/0. 시작하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSP/JSP 실습 1.md",
+                "file": "JSP/0. 시작하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSP/JSP 실습 1.md",
+                "file": "JSP/0. 시작하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JSP/JSP 실습 1.md"
+                "file": "JSP/0. 시작하기.md"
               }
             }
           }
@@ -146,10 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7f3614f9cf5d7f11",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "JSP/기타 1. JSP 실습 1.md",
+    "사용 이미지/JSP/JSP 실습 1 결과.png",
     "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
-    "JSP/JSP 실습 1.md",
     "JSP/2. 지시어(Standard Directives).md",
     "JSP/1. JSP.md",
     "JSP/4. 스크립트 요소(Script Element).md",
@@ -190,14 +191,12 @@
     "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
     "backend/Spring 강의/강의자료/1. 프로젝트 환경 설정.pdf",
     "backend/Spring 강의/관련 링크.md",
-    "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage 1.png",
     "사용 이미지/Next.js/guide course/chapter 4/nested_layout_1.png",
     "사용 이미지/Next.js/Next.js14.png",
-    "사용 이미지/Next.js/guide course/chapter 2/clsx2.png",
-    "사용 이미지/Next.js/guide course/chapter 2/clsx1.png"
+    "사용 이미지/Next.js/guide course/chapter 2/clsx2.png"
   ]
 }
