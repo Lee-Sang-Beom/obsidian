@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "f9187f307e074530",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2d8ae04a6aab947",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e4b5da6b66001fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSP/2. 지시어(Standard Directives).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cebbc9f83d6e14bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "931578d18fbe6ee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSP/3. 액션(Standard Actions).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f19ec1eaaa6904d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1670ed4f045d2f57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a1f51f51c426eec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "38fb693a809a6c4a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba7c3cb54e9a40ce",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 376.5
+  },
+  "right": {
+    "id": "f79e6b9ce8fb7a5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9249619f4b88ae5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3d88bd6a799a35c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JSP/2. 지시어(Standard Directives).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "af4bd64558f88edf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JSP/2. 지시어(Standard Directives).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "474bb5f0de9cc71e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1583b894e16a2654",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JSP/2. 지시어(Standard Directives).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "1e4b5da6b66001fc",
+  "lastOpenFiles": [
+    "JSP/3. 액션(Standard Actions).md",
+    "JSP/2. 지시어(Standard Directives).md",
+    "JSP/1. JSP.md",
+    "JSP/0. 참고자료.md",
+    "JSP/3. include 지시어와.md",
+    "일정 관리/2023.md",
+    "사용 이미지/JSP/JSP 동작과정.png",
+    "일정 관리/2024.md",
+    "일정 관리/주간보고.md",
+    "무제 파일 3.canvas",
+    "backend/Spring 강의/DAY 2.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 변경점.md",
+    "areweturboyet.com.md",
+    "무제 파일.canvas",
+    "무제 파일 2.canvas",
+    "무제 파일 1.canvas",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+    "사용 이미지/JSP",
+    "JSP",
+    "backend/Spring 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
+    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
+    "backend/Spring 강의/강의자료/8. 다음으로.pdf",
+    "backend/Spring 강의/강의자료/2. 스프링 웹 개발 기초.pdf",
+    "backend/Spring 강의/DAY 1.md",
+    "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
+    "backend/Spring 강의/강의자료/1. 프로젝트 환경 설정.pdf",
+    "backend/Spring 강의/관련 링크.md",
+    "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
+    "backend/Spring 강의/강의자료/7. AOP.pdf",
+    "backend/개념/개념.md",
+    "backend/학습과정.md",
+    "프론트엔드 기본지식/Oauth.md",
+    "프론트엔드 기본지식/Cookie, Session, Web Storage.md",
+    "프론트엔드 기본지식/인증토큰과 리프레시 토큰이란.md",
+    "일정 관리/해야할 일.md",
+    "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
+    "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
+    "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
+    "사용 이미지/OpenLayers/Openlayers 구조.png",
+    "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
+    "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
+    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
+    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage 1.png",
+    "사용 이미지/Next.js/guide course/chapter 4/nested_layout_1.png",
+    "사용 이미지/Next.js/Next.js14.png",
+    "사용 이미지/Next.js/guide course/chapter 2/clsx2.png",
+    "사용 이미지/Next.js/guide course/chapter 2/clsx1.png"
+  ]
+}
