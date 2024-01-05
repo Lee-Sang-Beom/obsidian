@@ -6,6 +6,7 @@
       {
         "id": "d2d8ae04a6aab947",
         "type": "tabs",
+        "dimension": 34.46666666666667,
         "children": [
           {
             "id": "1e4b5da6b66001fc",
@@ -24,6 +25,7 @@
       {
         "id": "cebbc9f83d6e14bc",
         "type": "tabs",
+        "dimension": 65.53333333333333,
         "children": [
           {
             "id": "931578d18fbe6ee5",
@@ -164,7 +166,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "931578d18fbe6ee5",
   "lastOpenFiles": [
     "JSP/2. 지시어(Standard Directives).md",
     "일정 관리/해야할 일.md",
