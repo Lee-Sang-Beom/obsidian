@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/2. 지시어(Standard Directives).md",
+                "file": "JSP/JSP 실습 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSP/2. 지시어(Standard Directives).md",
+                "file": "JSP/JSP 실습 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSP/2. 지시어(Standard Directives).md",
+                "file": "JSP/JSP 실습 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JSP/2. 지시어(Standard Directives).md"
+                "file": "JSP/JSP 실습 1.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "7f3614f9cf5d7f11",
   "lastOpenFiles": [
-    "JSP/1. JSP.md",
     "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
-    "JSP/4. 스크립트 요소(Script Element).md",
+    "JSP/JSP 실습 1.md",
     "JSP/2. 지시어(Standard Directives).md",
+    "JSP/1. JSP.md",
+    "JSP/4. 스크립트 요소(Script Element).md",
     "JSP/0. 시작하기.md",
     "areweturboyet.com.md",
     "JSP/3. 액션(Standard Actions).md",
@@ -190,7 +191,6 @@
     "backend/Spring 강의/강의자료/1. 프로젝트 환경 설정.pdf",
     "backend/Spring 강의/관련 링크.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
-    "backend/개념/개념.md",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
