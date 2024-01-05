@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JSP/4. 스크립트 요소(Script Element).md",
+                "file": "JSP/2. 지시어(Standard Directives).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSP/4. 스크립트 요소(Script Element).md",
+                "file": "JSP/2. 지시어(Standard Directives).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSP/4. 스크립트 요소(Script Element).md",
+                "file": "JSP/2. 지시어(Standard Directives).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JSP/4. 스크립트 요소(Script Element).md"
+                "file": "JSP/2. 지시어(Standard Directives).md"
               }
             }
           }
@@ -148,12 +148,12 @@
   },
   "active": "7f3614f9cf5d7f11",
   "lastOpenFiles": [
-    "JSP/2. 지시어(Standard Directives).md",
     "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
+    "JSP/4. 스크립트 요소(Script Element).md",
+    "JSP/2. 지시어(Standard Directives).md",
     "JSP/0. 시작하기.md",
     "areweturboyet.com.md",
     "JSP/3. 액션(Standard Actions).md",
-    "JSP/4. 스크립트 요소(Script Element).md",
     "무제 파일.canvas",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
