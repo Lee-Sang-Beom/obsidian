@@ -164,13 +164,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "7f3614f9cf5d7f11",
   "lastOpenFiles": [
+    "JSP/기타. JSP 실습 1.md",
+    "JSP/기타. JSP 실습 2.md",
+    "JSP 실습 2 - include 지시어 결과.png",
     "JSP 실습 2 - include 액션 (2).png",
     "JSP 실습 2 - include 액션 (1).png",
     "JSP/3. 액션(Standard Actions).md",
-    "JSP/기타. JSP 실습 2.md",
-    "JSP/기타. JSP 실습 1.md",
     "JSP/2. 지시어(Standard Directives).md",
     "JSP/4. 스크립트 요소(Script Element).md",
     "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
@@ -214,8 +215,6 @@
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
-    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage 1.png",
-    "사용 이미지/Next.js/guide course/chapter 4/nested_layout_1.png",
-    "사용 이미지/Next.js/Next.js14.png"
+    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage 1.png"
   ]
 }
