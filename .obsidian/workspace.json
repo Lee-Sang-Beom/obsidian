@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jquery/3. 래퍼(Wrapper).md",
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jquery/3. 래퍼(Wrapper).md",
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jquery/3. 래퍼(Wrapper).md",
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jquery/3. 래퍼(Wrapper).md"
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md"
               }
             }
           }
@@ -166,10 +166,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8c99ec950ba3c215",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "jquery/2. 비교 - JavaScript JQuery.md",
+    "Next.js/Next.js 살펴보기.md",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "jquery/3. 래퍼(Wrapper).md",
+    "jquery/2. 비교 - JavaScript JQuery.md",
     "jquery/1. jQuery 시작.md",
     "사용 이미지/JSP/JSP 동작과정.png",
     "JSP/3. 액션(Standard Actions).md",
@@ -188,8 +191,6 @@
     "areweturboyet.com.md",
     "무제 파일.canvas",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 변경점.md",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",
@@ -206,7 +207,6 @@
     "backend/Spring 강의/DAY 2.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "무제 파일 2.canvas",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "사용 이미지/JSP",
     "JSP",
     "backend/Spring 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
