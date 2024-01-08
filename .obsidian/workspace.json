@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jquery/1. jQuery 시작.md",
+                "file": "jquery/2. 비교 - JavaScript JQuery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jquery/1. jQuery 시작.md",
+                "file": "jquery/2. 비교 - JavaScript JQuery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jquery/1. jQuery 시작.md"
+                "file": "jquery/2. 비교 - JavaScript JQuery.md"
               }
             }
           }
@@ -166,11 +166,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "633234728b2f75f3",
+  "active": "8c99ec950ba3c215",
   "lastOpenFiles": [
+    "jquery/1. jQuery 시작.md",
     "jquery/2. 비교 - JavaScript JQuery.md",
     "사용 이미지/JSP/JSP 동작과정.png",
-    "jquery/1. jQuery 시작.md",
     "JSP/3. 액션(Standard Actions).md",
     "jquery",
     "JSP/0. 시작하기.md",
