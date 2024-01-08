@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4afc35b34e69b50c",
+        "id": "a446ab29636b3afe",
         "type": "tabs",
         "children": [
           {
@@ -14,24 +14,6 @@
               "type": "markdown",
               "state": {
                 "file": "jquery/1. jQuery 시작.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a446ab29636b3afe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "660d3b2ae5adbe0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JSP/3. 액션(Standard Actions).md",
                 "mode": "source",
                 "source": false
               }
@@ -166,10 +148,10 @@
   },
   "active": "7f3614f9cf5d7f11",
   "lastOpenFiles": [
+    "JSP/3. 액션(Standard Actions).md",
     "jquery/1. jQuery 시작.md",
     "jquery",
     "JSP/0. 시작하기.md",
-    "JSP/3. 액션(Standard Actions).md",
     "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
     "JSP/기타. JSP 실습 2.md",
     "JSP/기타. JSP 실습 1.md",
