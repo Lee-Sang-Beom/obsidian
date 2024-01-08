@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "resultView",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,7 +147,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2b8abd3c02810fb6",
+  "active": "38fb693a809a6c4a",
   "lastOpenFiles": [
     "일정 관리/IR 분석/constants.md",
     "일정 관리/IR 분석/Triton.md",
