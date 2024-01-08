@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jquery/1. jQuery 시작.md",
+                "file": "jquery/2. 비교 - JavaScript JQuery.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jquery/1. jQuery 시작.md",
+                "file": "jquery/2. 비교 - JavaScript JQuery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jquery/1. jQuery 시작.md",
+                "file": "jquery/2. 비교 - JavaScript JQuery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jquery/1. jQuery 시작.md"
+                "file": "jquery/2. 비교 - JavaScript JQuery.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "7f3614f9cf5d7f11",
   "lastOpenFiles": [
-    "JSP/3. 액션(Standard Actions).md",
     "jquery/1. jQuery 시작.md",
+    "jquery/2. 비교 - JavaScript JQuery.md",
+    "JSP/3. 액션(Standard Actions).md",
     "jquery",
     "JSP/0. 시작하기.md",
     "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
@@ -193,7 +194,6 @@
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/강의자료/8. 다음으로.pdf",
     "backend/Spring 강의/강의자료/2. 스프링 웹 개발 기초.pdf",
-    "backend/Spring 강의/DAY 1.md",
     "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
