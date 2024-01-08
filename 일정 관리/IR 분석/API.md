@@ -7,7 +7,20 @@
 - API 요청 시, `Request.awb` 만 사용
 
 - 인자
+
 ```javascript
-
-
+Lia.Requester.prototype.ajax = function (url, parameterMap, onResponse, object, noExecuteOnResponseWhenError, q, xhrFields) {  
+    var request = {  
+        url: url,  
+        noExecuteOnResponseWhenError: noExecuteOnResponseWhenError,  
+        parameterMap: parameterMap,  
+        onResponse: onResponse,  
+        object: object,  
+        sync: false,  
+        q: q,  
+        xhrFields: xhrFields  
+    };  
+  
+    this.request(request);  
+};
 ```
