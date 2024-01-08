@@ -4,11 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "a446ab29636b3afe",
+        "id": "e7f028c2f41d3409",
         "type": "tabs",
+        "dimension": 43.86666666666667,
         "children": [
           {
-            "id": "7f3614f9cf5d7f11",
+            "id": "633234728b2f75f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "jquery/1. jQuery 시작.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c8e951a2baa72f78",
+        "type": "tabs",
+        "dimension": 56.13333333333333,
+        "children": [
+          {
+            "id": "8c99ec950ba3c215",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jquery/2. 비교 - JavaScript JQuery.md",
+                "file": "jquery/1. jQuery 시작.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jquery/2. 비교 - JavaScript JQuery.md",
+                "file": "jquery/1. jQuery 시작.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jquery/2. 비교 - JavaScript JQuery.md"
+                "file": "jquery/1. jQuery 시작.md"
               }
             }
           }
@@ -146,19 +166,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7f3614f9cf5d7f11",
+  "active": "633234728b2f75f3",
   "lastOpenFiles": [
-    "jquery/1. jQuery 시작.md",
     "jquery/2. 비교 - JavaScript JQuery.md",
+    "사용 이미지/JSP/JSP 동작과정.png",
+    "jquery/1. jQuery 시작.md",
     "JSP/3. 액션(Standard Actions).md",
     "jquery",
     "JSP/0. 시작하기.md",
     "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
     "JSP/기타. JSP 실습 2.md",
     "JSP/기타. JSP 실습 1.md",
-    "JSP 실습 2 - include 지시어 결과.png",
-    "JSP 실습 2 - include 액션 (2).png",
-    "JSP 실습 2 - include 액션 (1).png",
+    "사용 이미지/JSP/JSP 실습 2 - include 지시어 결과.png",
+    "사용 이미지/JSP/JSP 실습 2 - include 액션 (2).png",
+    "사용 이미지/JSP/JSP 실습 2 - include 액션 (1).png",
     "JSP/2. 지시어(Standard Directives).md",
     "JSP/4. 스크립트 요소(Script Element).md",
     "사용 이미지/JSP/JSP 실습 1 결과.png",
@@ -178,7 +199,6 @@
     "JavaScript & TypeScript/Cookie, Session, Web Storage.md",
     "JSP/3. include 지시어와.md",
     "일정 관리/2023.md",
-    "사용 이미지/JSP/JSP 동작과정.png",
     "일정 관리/2024.md",
     "일정 관리/주간보고.md",
     "무제 파일 3.canvas",
@@ -186,7 +206,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "무제 파일 2.canvas",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "사용 이미지/JSP",
     "JSP",
     "backend/Spring 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
