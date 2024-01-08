@@ -13,6 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "일정 관리/IR 분석/API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6be7ad1a031d2581",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "590875916c2c4fe3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "일정 관리/IR 분석.md",
                 "mode": "source",
                 "source": false
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석.md",
+                "file": "일정 관리/IR 분석/API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석.md",
+                "file": "일정 관리/IR 분석/API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석.md"
+                "file": "일정 관리/IR 분석/API.md"
               }
             }
           }
@@ -148,11 +166,14 @@
   },
   "active": "2b8abd3c02810fb6",
   "lastOpenFiles": [
-    "일정 관리/주간보고.md",
+    "일정 관리/IR 분석/상수값 정의.md",
+    "일정 관리/IR 분석/API.md",
     "일정 관리/IR 분석.md",
-    "일정 관리/2023.md",
-    "일정 관리/일정 관리.md",
+    "일정 관리/IR 분석",
     "일정 관리/2024.md",
+    "일정 관리/2023.md",
+    "일정 관리/주간보고.md",
+    "일정 관리/일정 관리.md",
     "일정 관리/해야할 일.md",
     "jQuery/3. 래퍼(Wrapper).md",
     "jQuery/4. 선택자.md",
@@ -173,9 +194,7 @@
     "Next.js/기본개념/API routes.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/JSP/JSP 동작과정.png",
-    "JSP/3. 액션(Standard Actions).md",
     "jQuery",
-    "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
     "사용 이미지/JSP/JSP 실습 2 - include 지시어 결과.png",
     "사용 이미지/JSP/JSP 실습 2 - include 액션 (2).png",
     "사용 이미지/JSP/JSP 실습 2 - include 액션 (1).png",
@@ -194,7 +213,6 @@
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/강의자료/8. 다음으로.pdf",
     "backend/Spring 강의/강의자료/2. 스프링 웹 개발 기초.pdf",
-    "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
