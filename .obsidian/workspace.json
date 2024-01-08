@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/API.md",
+                "file": "일정 관리/IR 분석/API 요청.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석.md",
+                "file": "일정 관리/IR 분석/로그인.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/API.md",
+                "file": "일정 관리/IR 분석/API 요청.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/API.md",
+                "file": "일정 관리/IR 분석/API 요청.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/API.md"
+                "file": "일정 관리/IR 분석/API 요청.md"
               }
             }
           }
@@ -166,8 +166,9 @@
   },
   "active": "2b8abd3c02810fb6",
   "lastOpenFiles": [
+    "일정 관리/IR 분석/로그인.md",
+    "일정 관리/IR 분석/API 요청.md",
     "일정 관리/IR 분석/상수값 정의.md",
-    "일정 관리/IR 분석/API.md",
     "일정 관리/IR 분석.md",
     "일정 관리/IR 분석",
     "일정 관리/2024.md",
@@ -192,7 +193,6 @@
     "jQuery/1. jQuery 시작.md",
     "Next.js/기본개념/POST API ROUTE.md",
     "Next.js/기본개념/API routes.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/JSP/JSP 동작과정.png",
     "jQuery",
     "사용 이미지/JSP/JSP 실습 2 - include 지시어 결과.png",
