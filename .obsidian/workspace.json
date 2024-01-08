@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jQuery/4. 선택자.md",
+                "file": "jQuery/2. 비교 - JavaScript JQuery.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jQuery/4. 선택자.md",
+                "file": "jQuery/3. 래퍼(Wrapper).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jQuery/4. 선택자.md",
+                "file": "jQuery/3. 래퍼(Wrapper).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jQuery/4. 선택자.md"
+                "file": "jQuery/3. 래퍼(Wrapper).md"
               }
             }
           }
@@ -164,11 +164,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "59a573db4dfd2621",
+  "active": "2b8abd3c02810fb6",
   "lastOpenFiles": [
-    "jQuery/3. 래퍼(Wrapper).md",
-    "jQuery/4. 선택자.md",
     "jQuery/2. 비교 - JavaScript JQuery.md",
+    "jQuery/3. 래퍼(Wrapper).md",
+    "JSP/0. 시작하기.md",
+    "jQuery/4. 선택자.md",
     "jQuery/jQuery 백링크.md",
     "Next.js/Next.js 살펴보기.md",
     "Next.js/Server Action 사용하기.md",
@@ -186,7 +187,6 @@
     "사용 이미지/JSP/JSP 동작과정.png",
     "JSP/3. 액션(Standard Actions).md",
     "jQuery",
-    "JSP/0. 시작하기.md",
     "JSP/5. 커스텀 태그(Custom Tag)와 EL(Expression Language).md",
     "JSP/기타. JSP 실습 2.md",
     "JSP/기타. JSP 실습 1.md",
