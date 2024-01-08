@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jquery/2. 비교 - JavaScript JQuery.md",
+                "file": "jquery/3. 래퍼(Wrapper).md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jquery/2. 비교 - JavaScript JQuery.md",
+                "file": "jquery/3. 래퍼(Wrapper).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jquery/2. 비교 - JavaScript JQuery.md",
+                "file": "jquery/3. 래퍼(Wrapper).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jquery/2. 비교 - JavaScript JQuery.md"
+                "file": "jquery/3. 래퍼(Wrapper).md"
               }
             }
           }
@@ -168,8 +168,9 @@
   },
   "active": "8c99ec950ba3c215",
   "lastOpenFiles": [
-    "jquery/1. jQuery 시작.md",
     "jquery/2. 비교 - JavaScript JQuery.md",
+    "jquery/3. 래퍼(Wrapper).md",
+    "jquery/1. jQuery 시작.md",
     "사용 이미지/JSP/JSP 동작과정.png",
     "JSP/3. 액션(Standard Actions).md",
     "jquery",
