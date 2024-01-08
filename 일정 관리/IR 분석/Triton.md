@@ -4,3 +4,17 @@
  
  - `new` 생성자로 호출 시, `page` 정보 및 `optional attr값`을 포함하는 Triton 컴포넌트들이 생성되며, `page`에 `append`되는 과정에서 구조화되며 **페이지의 UI가 형성**된다.
 
+
+#### Triton 예시
+
+```javascript
+(function () {  
+    return {       
+  resultView: true,
+    },
+     
+})();
+```
+
+
+
