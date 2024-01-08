@@ -10,9 +10,8 @@
 ```javascript
 (function () {  
     return {       
-  resultView: true,
+	  resultView: true,
     },
-     
 })();
 ```
 
