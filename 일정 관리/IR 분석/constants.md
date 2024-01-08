@@ -4,5 +4,6 @@
 - `wisdomir/src/main/resources/META-INF/resources.res.carina.js/constants.js`
 
 ```javascript
+// page 내에서의 page_login_logo class명을 가진, element의 src 지정
 page.find('.page_login_logo').attr('src', ProjectSettings.Logo.logoImageUrl);
 ```
