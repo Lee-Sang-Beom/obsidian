@@ -332,487 +332,246 @@
         // appendToLeft 시, float:left인 triton_section 태그 하위에 요소가 추가되고, appendToRight 시, float:right인 곳에 추가된다.
         searchButtonSection.appendToRight(new Triton.FlatButton({
             content: '검색 조건 초기화',
-
             theme: Triton.FlatButton.Theme.Normal,
-
             page: page,
-
             onClick: function (e) {
-
-  
 
                 /**
-
                  * @arrayKeyToUnderscore : 객체의 키를 언더스코어 형식으로 변환한 새로운 객체를 반환.
-
                  * 주어진 객체의 각 키에 대해 "toUnderScore"함수를 사용하여, 언더스코어 형식으로 변환한 새로운 키를 생성하고, 이 새로운 key와 기존 value를 연결한 새로운 객체 반환
-
                  *
-
                  * @toUnderscore : 주어진 문자열에서 정규식에 해당하는 대문자를 찾고, 소문자 변경 및 언더하이프로 변환하여 반환한다.
-
                  *
-
                  * @extractFormData : 전달받은 인자로부터 "triton_form" 요소(jQuery객체)를 찾고, 요소를 for문으로 돌면서 extractFormData를 호출한다.
-
                  * find: 선택자(page) 기준 모든 하위요소인 .triton_form 검색 (선택된 요소의 하위요소를 찾음)
-
                  * filter: 선택자(page) 그 자체로 조회된 요소들 중, 특정 조건을 만족하는 하위 요소를 찾는 데 사용 (선택된 요소 그 자체나 조건을 만족하는 요소 탐색)
-
                  *
-
                  * @extractFormDataEach : "trition_form" class명을 포함하는 jQuery객체로부터 Triton 폼 요소(인스턴스), 폼 이름 등을 추출한다.
-
                  * 이후, 폼 요소(인스턴스)로부터 getValue으로 값을 얻고, formData[formNMAE] = value로, 인자로 전달한 formData의 key-value쌍 데이터를 하나씩 추가한다.
-
                  */
-
                 var item = FormatHelper.arrayKeyToUnderscore(Triton.extractFormData(page.get()));
-
   
-
                 // 사전에 사용자가 입력했던 내용이 있으니, 이미 있던 검색 조건을 초기화
-
                 for (var key in item) {
-
                     item[key] = '';
-
                 }
-
                 // page.startYearComboBox.setValue('');
-
                 // page.endYearComboBox.setValue('');
-
   
-
                 // page는 처음으로 고정해야함
-
                 item['page'] = 1;
-
                 // 폼 요소에서 선택한 값(검색조건)을 기반으로, 페이지 이동 수행
-
                 PageManager.cpcpm(item);
-
             }
-
         }));
-
         searchButtonSection.appendToRight(new Triton.FlatButton({
-
             content: '검색',
-
             theme: Triton.FlatButton.Theme.Normal,
-
             page: page,
-
             onClick: function (e) {
-
                 // e.data.page === page === jQuery.Page.Lia.Page
-
                 // page.get() === jPage (jQuery.Page.Lia.Page 내의 jPage property)
-
                 var page = e.data.page;
-
                 var item = FormatHelper.arrayKeyToUnderscore(Triton.extractFormData(page.get()));
-
                 item['page'] = 1;
-
   
-
                 // item : {start_year: '선택한값', end_year: '선택한값', page: 1}
-
                 PageManager.cpcpm(item);
-
             }
-
         }));
-
   
-
         // appendTo jContent 하위에 panel 추가
-
         var panel = new Triton.Panel({
-
             appendTo: appendTo,
-
             contentMinWidth: '2400px',
-
             css: {'margin-top': '20px', 'margin-bottom' : '10px'}
-
         });
-
   
-
         // panel jContent 하위에 detailTable 추가
-
         var detailTable = new Triton.DetailTable({
-
             appendTo: panel
-
         });
-
   
-
         // 테이블 row(num: 1) 추가
-
         detailTable.appendRow({});
-
         // 테이블 row(num: 1)에 해당하는 <th> 생성(appendKeyColumn) <td>는 (appendValueColumn)
-
         detailTable.appendKeyColumn({content: '성과지표', css: {'width' : '3%'},attr:{rowSpan:2}});
-
         detailTable.appendKeyColumn({content: '지표명', css: {'width' : '5%'},attr:{rowSpan:2}});
-
         detailTable.appendKeyColumn({content: '관점', css: {'width' : '3%'},attr:{rowSpan:2}});
-
         detailTable.appendKeyColumn({content: '요소', css: {'width' : '7%'},attr:{rowSpan:2}});
-
         detailTable.appendKeyColumn({content: '성과지표', css: {'width' : '15%'},attr:{rowSpan:2}});
-
         detailTable.appendKeyColumn({content: '2022년', css: {'width' : '11%'}, attr:{colSpan:3}});
-
         detailTable.appendKeyColumn({content: '2023년', css: {'width' : '11%'}, attr:{colSpan:3}});
-
         detailTable.appendKeyColumn({content: '2024년', css: {'width' : '11%'}, attr:{colSpan:3}});
-
         detailTable.appendKeyColumn({content: '2025년', css: {'width' : '11%'}, attr:{colSpan:3}});
-
         detailTable.appendKeyColumn({content: '2026년', css: {'width' : '11%'}, attr:{colSpan:3}});
-
         detailTable.appendKeyColumn({content: '2027년', css: {'width' : '11%'}, attr:{colSpan:3}});
-
   
-
         // 테이블 row(num: 2) 추가
-
         detailTable.appendRow({});
-
   
-
         // 테이블 row(num: 2)에 해당하는 <th> 생성(appendKeyColumn) <td>는 (appendValueColumn)
-
         detailTable.appendKeyColumn({content: '목표값'});
-
         detailTable.appendKeyColumn({content: '달성값'});
-
         detailTable.appendKeyColumn({content: '달성률'});
-
         detailTable.appendKeyColumn({content: '목표값'});
-
         detailTable.appendKeyColumn({content: '달성값'});
-
         detailTable.appendKeyColumn({content: '달성률'});
-
   
-
         detailTable.appendKeyColumn({content: '목표값'});
-
         detailTable.appendKeyColumn({content: '달성값'});
-
         detailTable.appendKeyColumn({content: '달성률'});
-
   
-
         detailTable.appendKeyColumn({content: '목표값'});
-
         detailTable.appendKeyColumn({content: '달성값'});
-
         detailTable.appendKeyColumn({content: '달성률'});
-
   
-
         detailTable.appendKeyColumn({content: '목표값'});
-
         detailTable.appendKeyColumn({content: '달성값'});
-
         detailTable.appendKeyColumn({content: '달성률'});
-
   
-
         detailTable.appendKeyColumn({content: '목표값'});
-
         detailTable.appendKeyColumn({content: '달성값'});
-
         detailTable.appendKeyColumn({content: '달성률'});
-
   
-
         // 테이블 row(num: 3) 추가
-
         detailTable.appendRow({});
-
   
-
         // 테이블 row(num: 3)에 해당하는 <th> 생성(appendKeyColumn) <td>는 (appendValueColumn)
-
         detailTable.appendKeyColumn({content: '3S지수', attr: {'rowspan' : '22'}});
-
         detailTable.appendKeyColumn({content: '진정성지수', attr: {'rowspan' : '11'}});
-
         detailTable.appendKeyColumn({content: '대학본부', attr: {'rowspan' : '4'}});
-
         detailTable.appendKeyColumn({content: '비대학본부관심도</br>(LINC→대학)', attr: {'rowspan' : '2'}});
-
         detailTable.appendValueColumn({content: 'LINC사업단인력중대학보직비율(%)'});
-
   
-
         //2022
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'goals'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'attainment'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'accomplishment_rate'});
-
   
-
         //2023
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'goals'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'attainment'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'accomplishment_rate'});
-
   
-
         //2024
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'goals'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'attainment'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'accomplishment_rate'});
-
   
-
         //2025
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'goals'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'attainment'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'accomplishment_rate'});
-
   
-
         // 2026
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'goals'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'attainment'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'accomplishment_rate'});
-
   
-
         // 2027
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'goals'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'attainment'});
-
         detailTable.appendValueColumn({content: '0' + '%', css: {'text-align' : 'center'}, addClass:'accomplishment_rate'});
-
-  
+ 
 
         /**
-
          * 기타 코드 작성
-
          */
-
   
-
         // 둘 다 null이면, 페이지 첫 진입일 수도 있으니, alert없이 알아서
-
         if(PageManager.pc('start_year') == null && PageManager.pc('end_year') == null){
-
             return;
-
         }
-
   
-
         // .pc로 얻은 데이터는 값이 없는경우 undefined임. 잘못 작성된 코드
-
         if(PageManager.pc('start_year') == null){
-
   
-
             // alert 출력
-
             PopupManager.alert('안내', '시작년도를 선택해주세요.');
-
             return;
-
         }
-
   
-
         // .pc로 얻은 데이터는 값이 없는경우 undefined임. 잘못 작성된 코드
-
         if(PageManager.pc('end_year') == null){
-
             PopupManager.alert('안내', '종료년도를 선택해주세요.');
-
             return;
-
         }
-
   
-
         /**
-
          * @awb : API 요청
-
          */
-
         Requester.awb(ProjectApiUrl.Project.GET_AUTONOMY_PERFORMANCE_INDICATOR_LIST, {
-
             // parameterMap
-
             startYear: page.startYearComboBox.getValue(),
-
             endYear: page.endYearComboBox.getValue(),
-
         }, function (status, data, request) {
-
             // onResponse callback fn
-
             if (status != Requester.Status.SUCCESS) {
-
                 return;
-
             }
-
   
-
             // data의 body property 출력
-
             var body = Lia.p(data, 'body');
-
   
-
             // data의 body, list property 출력
-
             var list = Lia.p(data, 'body', 'list');
-
   
-
             /**
-
              * @convertListToListMap : 2번째 인자로 전달한 key이름으로, 새로운 배열객체를 만들어 반환한다.
-
              * 1번째 인자로 전달한 list 내에, 2번째 인자로 전달한 key이름인 property명이 존재해야하며,
-
              * 아래 예제에서는 map이라는 배열을 만들고, map["year"]에 list의 구성 value이 반복문을 통해 push되는 과정을 거친다.
-
              *
-
              * ex) businessList = {2022: Array(93), 2023: Array(93)}
-
              */
-
             var businessList = Lia.convertListToListMap(list, 'year');
-
   
-
             for( var i in businessList){
-
                 var businessListItem = businessList[i];
-
                 var businessIndex;
-
   
-
                 // converListToListMap 메소드를 통해 배열 property명을 year로 구성한 이유임.
-
                 // businessIdx를 year기준으로 나눠, businessIndex 값을 구성함
-
                 switch (i){
-
                     case '2022': businessIndex = 0 ; break;
-
                     case '2023': businessIndex = 1 ; break;
-
                     case '2024': businessIndex = 2 ; break;
-
                     case '2025': businessIndex = 3 ; break;
-
                     case '2026': businessIndex = 4 ; break;
-
                     case '2027': businessIndex = 5 ; break;
-
                 }
-
   
-
                 for( var i in businessListItem){
-
                     // 연도별 데이터 하나하나 확인
-
                     var item = businessListItem[i];
-
                     if(Lia.p(item, 'elementDepth') != 1){
-
                         continue
-
                     }
-
   
-
                     /**
-
                      * @eq : 페이지에서 클래스가 '[class명]'인 모든 요소를 찾은 다음, return된요소 리스트에서 index에 해당하는 요소를 선택한다.
-
                      * @text : 선택된 요소의 텍스트 내용을 "text"로 설정
-
                      * @addComman : Formatting Func. number를 매개변수로 받고, 포맷이 적용된 숫자를 반환한다. (첫번째로 주어진 숫자를 1000단위로 쉼표를 삽입하여 formatting하며, 소수점 이하 부분도 포함되어 있으면 해당 부분도 함께 formatting)
-
                      * @p : 첫번째 매개변수로 전달한 object에서, 2번째 매개변수로 전달한 'key'값에 대응하는 value를 반환한다.
-
                      */
-
                     page.find('.goals').eq(businessIndex).text(ProjectFormatHelper.addComman(Lia.p(item, 'target_value')))
-
                     page.find('.attainment').eq(businessIndex).text(ProjectFormatHelper.addComman(Lia.p(item, 'achieved_value')))
-
                     page.find('.accomplishment_rate').eq(businessIndex).text(ProjectFormatHelper.addComman(Lia.p(item, 'achieved_rate'))+'%')
-
   
-
                     // 연속 출력을 위해 +6씩 추가
-
                     // 2022, 2023, 2024, 2025, 2026, 2027 총 6개연도 기준 출력이고, businessListItem도 'year'를 기준으로 재구성된 배열임
-
                     // 연도별 목표/달성값/달성률을 작성했으면, 동일연도의 다음 성과지표 데이터의 목표/달성값/달성률을 작성해야하므로 +6
-
                     businessIndex += 6;
-
-  
-
                 }
-
             }
-
   
-
         });
-
     },
-
-  
-
+ 
     onRelease: function (j) {
-
     }
-
-  
-
+ 
     },
-
 })();
 ```
 
