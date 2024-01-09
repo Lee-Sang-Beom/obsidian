@@ -1,7 +1,7 @@
 #### 1. Lia.p
 - **extractProperty**(추출) 형식
 	- `argument[0]`: 전달할 data
-	- `argument[1]`: 전달할 data에서 **특정** value를 반환받기 위한 **object key** 
+	- `argument[1, ...]`: 전달할 data에서 **특정** value를 반환받기 위한 **object key** 
 
 ```javascript
 var body = Lia.p(data, 'body');  

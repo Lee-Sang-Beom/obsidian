@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md",
+                "file": "일정 관리/IR 분석/Lia.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "resultView",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md",
+                "file": "일정 관리/IR 분석/Lia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md",
+                "file": "일정 관리/IR 분석/Lia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md"
+                "file": "일정 관리/IR 분석/Lia.md"
               }
             }
           }
@@ -147,10 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "38fb693a809a6c4a",
+  "active": "2b8abd3c02810fb6",
   "lastOpenFiles": [
-    "일정 관리/IR 분석/constants.md",
     "일정 관리/IR 분석/Triton.md",
+    "일정 관리/IR 분석/constants.md",
     "일정 관리/IR 분석/API.md",
     "일정 관리/IR 분석/Lia.md",
     "일정 관리/IR 분석/PageManager.md",
