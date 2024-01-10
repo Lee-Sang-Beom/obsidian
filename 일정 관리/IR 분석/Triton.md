@@ -355,6 +355,7 @@
                  * 이후, 폼 요소(인스턴스)로부터 getValue으로 값을 얻고, formData[formNMAE] = value로, 인자로 전달한 formData의 key-value쌍 데이터를 하나씩 추가한다.
                  */
                 var item = FormatHelper.arrayKeyToUnderscore(Triton.extractFormData(page.get()));
+                // var map = FormatHelper.arrayKeyToCamel(Triton.extractFormData(page.get())); // 이건 반대다.
   
                 // 사전에 사용자가 입력했던 내용이 있으니, 이미 있던 검색 조건을 초기화
                 for (var key in item) {
