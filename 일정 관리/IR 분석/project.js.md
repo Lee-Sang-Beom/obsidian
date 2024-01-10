@@ -1,8 +1,11 @@
 #### 경로
-- `carina-core-1.00.09.RELEASE.jar/META-INF/resources/res/carina/js/apis.js`
-- 해당 파일에서 정의된 
+- `src/main/webapp/res/lib/projdect.js`
 
-#### 정의
+#### 주요 사용
+- 프로젝트 내에서 주로 사용하는 파일자원 매핑 `(CSS, HTML, JS)`
+- API, PopupUrl과 같은 경로정의
+
+#### API 정의 
 - 해당 프로젝트에서는, `Requester.a`는 사용하지 않은 것으로 보임. 
 - API 요청 시, `Request.awb` 만 사용
 
@@ -34,7 +37,7 @@ Lia.Requester.prototype.ajax = function (url, parameterMap, onResponse, object, 
 	- `xhrFields`: `XMLHttpRequest` 객체의 필드를 설정하는 데 사용할 객체 (옵션)
 
 
-#### 사용
+#### API 사용
 
 ```javascript
 
