@@ -345,7 +345,7 @@
                  *
                  * @toUnderscore : 주어진 문자열에서 정규식에 해당하는 대문자를 찾고, 소문자 변경 및 언더하이프로 변환하여 반환한다.
                  *
-                 * @extractFormData : 전달받은 인자로부터 "triton_form" 요소(jQuery객체)를 찾고, 요소를 for문으로 돌면서 extractFormData를 호출한다.
+                 * @extractFormData : 전달받은 인자로부터 "triton_form" 요소(jQuery객체)를 찾고, 요소를 for문으로 돌면서 extractFormDataEach를 호출한다.
                  * find: 선택자(page) 기준 모든 하위요소인 .triton_form 검색 (선택된 요소의 하위요소를 찾음)
                  * filter: 선택자(page) 그 자체로 조회된 요소들 중, 특정 조건을 만족하는 하위 요소를 찾는 데 사용 (선택된 요소 그 자체나 조건을 만족하는 요소 탐색)
                  *
