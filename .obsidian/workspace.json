@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md",
+                "file": "일정 관리/IR 분석/팝업.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 562.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md",
+                "file": "일정 관리/IR 분석/팝업.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md",
+                "file": "일정 관리/IR 분석/팝업.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md"
+                "file": "일정 관리/IR 분석/팝업.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "2b8abd3c02810fb6",
   "lastOpenFiles": [
+    "일정 관리/IR 분석/Triton.md",
+    "일정 관리/IR 분석/팝업.md",
+    "일정 관리/IR 분석/팝업.md",
     "일정 관리/IR 분석/PageManager.md",
     "일정 관리/IR 분석/Lia.md",
     "일정 관리/2023.md",
@@ -157,7 +160,6 @@
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
-    "일정 관리/IR 분석/Triton.md",
     "일정 관리/IR 분석/API.md",
     "일정 관리/IR 분석/규칙.md",
     "일정 관리/IR 분석/엑셀 다운로드.md",
@@ -173,8 +175,6 @@
     "jQuery/3. 래퍼(Wrapper).md",
     "jQuery/2. 비교 - JavaScript JQuery.md",
     "JSP/0. 시작하기.md",
-    "Next.js/Next.js 살펴보기.md",
-    "Next.js/Server Action 사용하기.md",
     "사용 이미지/JSP/JSP 동작과정.png",
     "jQuery",
     "사용 이미지/JSP/JSP 실습 2 - include 지시어 결과.png",
