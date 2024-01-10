@@ -207,8 +207,6 @@
         searchDetailTable.appendValueColumn({
             content: page.startYearComboBox = new Triton.ComboBox({
             // 값 불러오기는 page.startYearComboBox.getValue(), PageManager.pc("startYearComboBox") 등으로 접근 가능
-            // 주의할 점은, pageManager.pc로 불러오는 값은 페이지 로드 시 정적으로 선택된 값이라는 것.
-            
             // 해당 태그(ComboBox) 자체의 존재여무 확인(!==null)이나 접근을 위해서는 PageManager.pc('year')로 접근가능
                 theme: Triton.ComboBox.Theme.Normal,
                 css: {'width': '150px', 'float': 'left'},
