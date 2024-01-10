@@ -138,7 +138,7 @@
          */
         var page = this;
   
-        // 비동기적 함수 수행
+        // 비동기적으로 함수를 수행하는 코드블록
         Requester.func(function () {
   
             // page.resultSection 객체가 참조하는 요소의 자식요소 모두 제거. (해당 section, container 모두 비움)
