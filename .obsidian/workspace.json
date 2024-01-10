@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "e9242a7763c87adc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "01fb9ed5421b9dc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "일정 관리/IR 분석/Lia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
