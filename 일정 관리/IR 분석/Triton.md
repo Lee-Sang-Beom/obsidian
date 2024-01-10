@@ -208,7 +208,7 @@
             content: page.startYearComboBox = new Triton.ComboBox({
                 theme: Triton.ComboBox.Theme.Normal,
                 css: {'width': '150px', 'float': 'left'},
-                form: {name: 'start_year'},
+                form: {name: 'start_year'}, // formName을 여기서 설정한다.
   
                 // querystring에서, start_year 불러오기
                 selectedValue: Lia.p(parameterMap, 'start_year'),
