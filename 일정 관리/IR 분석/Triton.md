@@ -206,7 +206,7 @@
         // appendValueColumn 뒤에 appendItem으로 추가되는 요소들은 triton_detail_table_column_value class 태그요소 하위(<td>와 같음)에 추가된다.
         searchDetailTable.appendValueColumn({
             content: page.startYearComboBox = new Triton.ComboBox({
-            // 값 접근시, page.startYearComboBox로 접근 가능
+            // 값 불러오기는 page.startYearComboBox.getValue(), 등으로 접근 가능
             // 해당 태그(ComboBox) 자체의 존재여무 확인(!==null)이나 접근을 위해서는 PageManager.pc('year')로 접근가능
                 theme: Triton.ComboBox.Theme.Normal,
                 css: {'width': '150px', 'float': 'left'},
