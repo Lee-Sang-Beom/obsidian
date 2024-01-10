@@ -318,6 +318,7 @@
         }));
   
         /**
+         * api 요청 전, 값을 마지막으로 세팅해주는 부분
          * @pc : Lia.PageManger 내부적으로 2회의 메소드를 거친다
          * @getParamter : 맵의 key에 해당하는 value값을 얻고 그 value 값을 반환한다(값이 없으면 빈 문자열 ''을 반환)
          * @getParameterWithChecking : 맵의 key에 해당하는 value값을 얻고 그 value 값을 반환한다(getParameter의 반환값을 이용하며, 빈 문자열 ''이 사전에 반환되었다면, 이를 undefined로 바꿔 반환한다)
