@@ -207,7 +207,7 @@
         searchDetailTable.appendValueColumn({
             content: page.startYearComboBox = new Triton.ComboBox({
             // 값 접근시, page.startYearComboBox로 접근 가능
-            // 해당 태그 자체의 존재여무나 접근을 위해서는 PageManager.pc('year')로 접근가능
+            // 해당 태그(ComboBox) 자체의 존재여무 확인(!==null)이나 접근을 위해서는 PageManager.pc('year')로 접근가능
                 theme: Triton.ComboBox.Theme.Normal,
                 css: {'width': '150px', 'float': 'left'},
                 form: {name: 'start_year'}, // formName을 여기서 설정한다.
