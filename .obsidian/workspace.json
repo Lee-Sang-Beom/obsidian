@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/엑셀 관리.md",
+                "file": "일정 관리/IR 분석/규칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/엑셀 관리.md",
+                "file": "일정 관리/IR 분석/규칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/엑셀 관리.md",
+                "file": "일정 관리/IR 분석/규칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/엑셀 관리.md"
+                "file": "일정 관리/IR 분석/규칙.md"
               }
             }
           }
@@ -163,10 +163,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "10e3309ced4f12bd",
+  "active": "656e3899e3c042d1",
   "lastOpenFiles": [
-    "일정 관리/IR 분석/Pagination.md",
     "일정 관리/IR 분석/엑셀 관리.md",
+    "일정 관리/IR 분석/Pagination.md",
     "일정 관리/IR 분석/Triton.md",
     "일정 관리/주간보고.md",
     "일정 관리/IR 분석/팝업.md",
