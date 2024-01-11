@@ -11,7 +11,7 @@
 (function () {  
     return {      
       resultView: true,
-  
+      // 팝업 초기화 중에 호출되는 메서드로, 파일의 비동기 다운로드를 처리하고 UI를 그에 맞게 업데이트하며 사용자가 파일 다운로드를 시작할 수 있는 버튼을 제공
       onInit: function (j) {
         // page 정보불러오기
         var page = this;

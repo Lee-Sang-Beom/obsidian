@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/주간보고.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/주간보고.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/주간보고.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/주간보고.md"
+                "file": "일정 관리/IR 분석/Triton.md"
               }
             }
           }
@@ -147,6 +147,7 @@
   },
   "active": "9ab6ee5ce9e08aa5",
   "lastOpenFiles": [
+    "일정 관리/주간보고.md",
     "일정 관리/IR 분석/팝업.md",
     "일정 관리/IR 분석/엑셀 다운로드.md",
     "일정 관리/IR 분석/Lia.md",
@@ -169,7 +170,6 @@
     "일정 관리/IR 분석.md",
     "일정 관리/IR 분석",
     "일정 관리/2024.md",
-    "일정 관리/주간보고.md",
     "일정 관리/일정 관리.md",
     "일정 관리/해야할 일.md",
     "jQuery/3. 래퍼(Wrapper).md",
