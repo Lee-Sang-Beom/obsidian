@@ -17,7 +17,7 @@
         var page = this;
   
         // Triton.Container (div.triton_container.triton_content)
-        // 페이지 구성 부분의 최고 부모영역 (여러 section을 감싼다)
+        // 페이지 구성 부분의 최고 부모영역 (여러 section을 감싼다)console.log("val is ", val)채ㅡ
         var container = new Triton.Container({
             // j == page.jPage
             appendTo: j
