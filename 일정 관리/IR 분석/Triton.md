@@ -588,6 +588,208 @@
 - 위의 예제에서는 input 요소가 없었는데, Input 요소를 사용한 예시는 아래와 같다.
 
 ```javascript
+(function () {
+  return {
+    htmlLoading: false,
+    cssLoading: false,
 
+    onConstruct: function (jLayout, path, object, jPopupListLayout) {
+      var popup = this;
+
+      PopupHelper.appendLayout(popup, {
+        title: "연차별 성과 및 통계 추가/편집",
+        css: { width: "880px" },
+      });
+    },
+
+    onInit: function (jLayout, path, object, jPopupListLayout) {
+      var page = this;
+      var popup = this;
+
+      var jContent = popup.find(".popup_content");
+      page.item = Lia.p(object, "item");
+
+      var section = new Triton.Section({
+        appendTo: jContent,
+      });
+
+      var panel = new Triton.Panel({
+        appendTo: section,
+      });
+
+      var detailTable = new Triton.DetailTable({
+        appendTo: panel,
+      });
+
+      // 일반적인 리스트를 뿌리는 용도가 아닌 불규칙한 테이블은 DetailTable 사용
+      // 일반적인 리스트를 뿌리는 테이블의 예시로는 Triton.ListTable이 있음 (엑셀 다운로드 예시코드 참고)
+      detailTable.appendRow({});
+      detailTable.appendKeyColumn({ content: "연차" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "year" },
+          value: Lia.pcd("", page.item, "year"),
+        }),
+      });
+      detailTable.appendRow({});
+      detailTable.appendKeyColumn({ content: "사업예산집행률(%)" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "business_budget_execution_rate" },
+          value: Lia.pcd("", page.item, "business_budget_execution_rate"),
+        }),
+      });
+      detailTable.appendKeyColumn({ content: "핵심성과지표 달성률(%)" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "core_performance_indicator_achievement_rate" },
+          value: Lia.pcd(
+            "",
+            page.item,
+            "core_performance_indicator_achievement_rate"
+          ),
+        }),
+      });
+      detailTable.appendKeyColumn({ content: "자율성과지표 달성률(%)" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "autonomous_performance_indicator_achievement_rate" },
+          value: Lia.pcd(
+            "",
+            page.item,
+            "autonomous_performance_indicator_achievement_rate"
+          ),
+        }),
+      });
+
+      detailTable.appendRow({});
+      detailTable.appendKeyColumn({ content: "AD" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "ad" },
+          value: Lia.pcd("", page.item, "ad"),
+        }),
+      });
+      detailTable.appendRow({});
+      detailTable.appendKeyColumn({ content: "PBL" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "pbl" },
+          value: Lia.pcd("", page.item, "pbl"),
+        }),
+      });
+      detailTable.appendRow({});
+      detailTable.appendKeyColumn({ content: "캡스톤디자인" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "capstone_design" },
+          value: Lia.pcd("", page.item, "capstone_design"),
+        }),
+      });
+      detailTable.appendRow({});
+      detailTable.appendKeyColumn({ content: "표준현장실습" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "standard_field_training" },
+          value: Lia.pcd("", page.item, "standard_field_training"),
+        }),
+      });
+      detailTable.appendRow({});
+      detailTable.appendKeyColumn({ content: "창업교과" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "entrepreneurship_course" },
+          value: Lia.pcd("", page.item, "entrepreneurship_course"),
+        }),
+      });
+      detailTable.appendRow({});
+      detailTable.appendKeyColumn({ content: "이수학생 수(명)" });
+      detailTable.appendValueColumn({
+        content: new Triton.TextInput({
+          theme: Triton.TextInput.Theme.Full,
+          form: { name: "graduated_students_count" },
+          value: Lia.pcd("", page.item, "graduated_students_count"),
+        }),
+      });
+
+      var buttonSection = new Triton.ButtonSection({
+        appendTo: section,
+      });
+
+      buttonSection.appendToRight(
+        new Triton.FlatButton({
+          theme: Triton.FlatButton.Theme.Normal,
+          content: "저장",
+          onClick: function () {
+            // page의 trition_form에 있는 데이터를 모두 formData 형태로 추출
+            // 이 때, property명은 new Triton.TextInput() 사용 시 전달한 form : {name: "이거"} option 이다.
+            var param = Triton.extractFormData(page.get());
+
+            // param의 property명을 카멜 케이스 식으로 변경 (언더스코어 x)
+            param = FormatHelper.arrayKeyToCamel(param);
+
+            if (page.item == undefined) {
+              Requester.awb(
+                ProjectApiUrl.Project.ADD_ANNUAL_PERFORMANCE_AND_STATISTICS,
+                param,
+                function (status, data, request) {
+                  LoadingPopupManager.hide();
+
+                  if (status != Requester.Status.SUCCESS) {
+                    return;
+                  }
+                  location.reload();
+                }
+              );
+            } else {
+              param["id"] = Lia.p(page.item, "id");
+
+              Requester.awb(
+                ProjectApiUrl.Project.EDIT_ANNUAL_PERFORMANCE_AND_STATISTICS,
+                param,
+                function (status, data, request) {
+                  LoadingPopupManager.hide();
+
+                  if (status != Requester.Status.SUCCESS) {
+                    return;
+                  }
+                  location.reload();
+                }
+              );
+            }
+
+            popup.hide();
+          },
+        })
+      );
+
+      buttonSection.appendToRight(
+        new Triton.FlatButton({
+          theme: Triton.FlatButton.Theme.Delete,
+          content: "취소",
+          onClick: function () {
+            popup.hide();
+          },
+        })
+      );
+
+      popup.adjustPopup();
+    },
+
+    onShow: function (jLayout, path, parameterMap, jPopupListLayout) {
+      var popup = this;
+    },
+    onHide: function (jLayout, path, parameterMap, jPopupListLayout) {},
+  };
+})();
 
 ```
