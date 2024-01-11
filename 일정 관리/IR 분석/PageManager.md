@@ -11,6 +11,7 @@
 
 ```javascript
 page.find('.resultSection').on('click',function (){  
+
     var indexPage = $(this).attr('indexPage')  
   
     if (indexPage == 1) {  
