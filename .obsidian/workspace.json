@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/팝업.md",
+                "file": "일정 관리/IR 분석/Lia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/팝업.md",
+                "file": "일정 관리/IR 분석/Lia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/팝업.md",
+                "file": "일정 관리/IR 분석/Lia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/팝업.md"
+                "file": "일정 관리/IR 분석/Lia.md"
               }
             }
           }
@@ -147,8 +147,8 @@
   },
   "active": "9ab6ee5ce9e08aa5",
   "lastOpenFiles": [
-    "일정 관리/IR 분석/엑셀 다운로드.md",
     "일정 관리/IR 분석/팝업.md",
+    "일정 관리/IR 분석/엑셀 다운로드.md",
     "일정 관리/IR 분석/constants.js.md",
     "일정 관리/IR 분석/Lia.md",
     "일정 관리/IR 분석/PageManager.md",
