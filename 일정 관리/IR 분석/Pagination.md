@@ -1,8 +1,10 @@
 
 #### Pagination 사용하기
 
-- 본 프로젝트에서 보편적으로 `new Tritgion.Section`  `Triton.Pager`가 위치할 박스를 만들어준 후 `appendTo()`로 Pager를 추가하는 것이 주로 사용되는 모습으로 보인다.
-- 
+- 본 프로젝트에서는, 보편적으로 `new Tritgion.Section`박스를 만든 후,  `Triton.Pager`를 해당 박스에`appendTo()`하여 Pager를 추가하는 것이 주로 사용되는 모습으로 보인다.
+
+- 사용방법과 페이지 예시는 아래와 같다.
+	- 본 예시에서 연결된 **팝업 리소스**는 엑셀 다운로드 예시파일과 연결된다.
 
 ```javascript
 (function () {
