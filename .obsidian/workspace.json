@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/ProjectFormatHelper.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/ProjectFormatHelper.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/ProjectFormatHelper.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/ProjectFormatHelper.md"
+                "file": "일정 관리/IR 분석/Triton.md"
               }
             }
           }
@@ -147,15 +147,16 @@
   },
   "active": "2b8abd3c02810fb6",
   "lastOpenFiles": [
-    "일정 관리/IR 분석/Triton.md",
-    "일정 관리/IR 분석/ProjectFormatHelper.md",
-    "일정 관리/IR 분석/팝업 사용.md",
-    "일정 관리/IR 분석/project.js.md",
-    "일정 관리/IR 분석/규칙.md",
-    "일정 관리/IR 분석/Lia.md",
-    "일정 관리/IR 분석/constants.md",
-    "일정 관리/IR 분석/PageManager.md",
     "일정 관리/2023.md",
+    "일정 관리/IR 분석/constants.md",
+    "일정 관리/IR 분석/Lia.md",
+    "일정 관리/IR 분석/PageManager.md",
+    "일정 관리/IR 분석/Pagination.md",
+    "일정 관리/IR 분석/project.js.md",
+    "일정 관리/IR 분석/ProjectFormatHelper.md",
+    "일정 관리/IR 분석/Triton.md",
+    "일정 관리/IR 분석/팝업 사용.md",
+    "일정 관리/IR 분석/규칙.md",
     "jQuery/jQuery 백링크.md",
     "jQuery/4. 선택자.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
@@ -173,7 +174,6 @@
     "일정 관리/해야할 일.md",
     "jQuery/3. 래퍼(Wrapper).md",
     "jQuery/2. 비교 - JavaScript JQuery.md",
-    "JSP/0. 시작하기.md",
     "사용 이미지/JSP/JSP 동작과정.png",
     "jQuery",
     "사용 이미지/JSP/JSP 실습 2 - include 지시어 결과.png",
