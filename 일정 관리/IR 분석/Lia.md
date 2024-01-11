@@ -58,3 +58,7 @@ new Triton.FlatButton({
 #### 4. Lia.extractFilename
 - 파일명 추출
 	- `argument[0]`: 파일
+
+
+#### 5. Lia.extractGetParameterMapFromUrl
+- URL 기준으로 들어온 파라미터 추출
