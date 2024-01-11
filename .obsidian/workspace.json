@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/팝업 사용.md",
+                "file": "일정 관리/IR 분석/Popup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3adbcdbcf4b8ff56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ab6ee5ce9e08aa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "일정 관리/IR 분석/Pagination.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/팝업 사용.md",
+                "file": "일정 관리/IR 분석/Pagination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/팝업 사용.md",
+                "file": "일정 관리/IR 분석/Pagination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/팝업 사용.md"
+                "file": "일정 관리/IR 분석/Pagination.md"
               }
             }
           }
@@ -145,17 +163,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2b8abd3c02810fb6",
+  "active": "9ab6ee5ce9e08aa5",
   "lastOpenFiles": [
-    "일정 관리/IR 분석/Triton.md",
-    "일정 관리/2023.md",
-    "일정 관리/IR 분석/constants.md",
-    "일정 관리/IR 분석/Lia.md",
-    "일정 관리/IR 분석/PageManager.md",
+    "일정 관리/IR 분석/Popup.md",
     "일정 관리/IR 분석/Pagination.md",
     "일정 관리/IR 분석/project.js.md",
+    "일정 관리/IR 분석/PageManager.md",
+    "일정 관리/IR 분석/Lia.md",
+    "일정 관리/IR 분석/constants.md",
+    "일정 관리/IR 분석/Triton.md",
+    "일정 관리/2023.md",
     "일정 관리/IR 분석/ProjectFormatHelper.md",
-    "일정 관리/IR 분석/팝업 사용.md",
     "일정 관리/IR 분석/규칙.md",
     "jQuery/jQuery 백링크.md",
     "jQuery/4. 선택자.md",

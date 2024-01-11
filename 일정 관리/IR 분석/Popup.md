@@ -4,7 +4,7 @@
 - 아래는, Triton.FlatButton을 `categorySection` VIew 하위에 추가하는 코드이다.
 - FlatButton onClick 이벤트 발생 시, `AjaxPopupManager.show()`메소드 호출
 	- 1번째 파라미터 : 팝업 리소스 자원 경로
-	- 2번째 파라미터 
+	- 2번째 파라미터 : 팝업 리소스 파일에서 `object` 인자로 받을 데이터 
 
 ```javascript
 new Triton.FlatButton({  
