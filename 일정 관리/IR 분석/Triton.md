@@ -5,7 +5,7 @@
  - `new` 생성자로 호출 시, `page` 정보 및 `optional attr값`을 포함하는 Triton 컴포넌트들이 생성되며, `page`에 `append`되는 과정에서 구조화되며 **페이지의 UI가 형성**된다.
 
 
-#### Triton 사용 예시
+#### Triton 사용 예시 1
 
 ```javascript
 (function () {  
@@ -347,7 +347,8 @@
                  *
                  * @toUnderscore : 주어진 문자열에서 정규식에 해당하는 대문자를 찾고, 소문자 변경 및 언더하이프로 변환하여 반환한다.
                  *
-                 * @extractFormData : 전달받은 인자로부터 "triton_form" 요소(jQuery객체)를 찾고, 요소를 for문으로 돌면서 extractFormDataEach를 호출한다.
+                 * @extractFormData : 전달받은 인자로부터 "triton_form" 요소(jQuery객체)를 찾고, 요소를 for문으로 돌면서 extractFormDataEach를 호출한다. (property명은 new Triton.TextInput() 사용 시 전달한 form : {name: "이거"} option)
+                 * 
                  * find: 선택자(page) 기준 모든 하위요소인 .triton_form 검색 (선택된 요소의 하위요소를 찾음)
                  * filter: 선택자(page) 그 자체로 조회된 요소들 중, 특정 조건을 만족하는 하위 요소를 찾는 데 사용 (선택된 요소 그 자체나 조건을 만족하는 요소 탐색)
                  *
@@ -583,5 +584,10 @@
 ```
 
 
-#### Triton Input
+#### Triton 사용예시 2
 - 위의 예제에서는 input 요소가 없었는데, Input 요소를 사용한 예시는 아래와 같다.
+
+```javascript
+
+
+```
