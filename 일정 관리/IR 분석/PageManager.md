@@ -171,6 +171,31 @@ searchButtonSection.appendToRight(
 ```
 
 
-#### PageManager.
-- ㅋㅋ
+#### PageManager.goCurrentPageWithCurrentParameterMap()
 
+- 현재 `queryString` 파라미터와 API response로 들어온 `body`내 `total_count` property, 사용자 클릭 pageNumber 정보를 조합하여, `Pager`를 구성할 때 주로 사용
+
+```javascript
+
+if (String.isNotBlank(requestCount)) {
+	var pagerSection = new Triton.Section({
+	  appendTo: appendTo,
+	  theme: Triton.Section.Theme.Pager,
+	});
+	
+	// pagerSection에 Pager 추가.
+	// queryString(paramterMap에서 가져옴)와 response 데이터, 사용자 클릭 pageNum을 이용해, Pager 구성
+	new Triton.Pager({
+	  appendTo: pagerSection,
+	  pageNumber: Lia.pcd(1, parameterMap, "page5"),
+	  countPerPage: requestCount,
+	  totalCount: Lia.p(data, "body", "total_count"),
+	  onPageSelected: function (pageNumber) {
+		PageManager.goCurrentPageWithCurrentParameterMap({
+		  page5: pageNumber,
+		});
+	  },
+	});
+}
+  
+```
