@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/규칙.md",
+                "file": "일정 관리/IR 분석/PageManager.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/규칙.md",
+                "file": "일정 관리/IR 분석/PageManager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/규칙.md",
+                "file": "일정 관리/IR 분석/PageManager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/규칙.md"
+                "file": "일정 관리/IR 분석/PageManager.md"
               }
             }
           }
@@ -147,11 +147,11 @@
   },
   "active": "10e3309ced4f12bd",
   "lastOpenFiles": [
+    "일정 관리/IR 분석/ProjectFormatHelper.md",
+    "일정 관리/IR 분석/규칙.md",
     "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스 삭제 예시.md",
     "일정 관리/IR 분석/PageManager.md",
-    "일정 관리/IR 분석/ProjectFormatHelper.md",
     "일정 관리/IR 분석/Triton.md",
-    "일정 관리/IR 분석/규칙.md",
     "일정 관리/IR 분석/Pagination.md",
     "일정 관리/IR 분석/project.js.md",
     "일정 관리/IR 분석/Lia.md",

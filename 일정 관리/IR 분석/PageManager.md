@@ -170,6 +170,16 @@ searchButtonSection.appendToRight(
       );
 ```
 
+```javascript
+
+// education/etc_education 디렉터리 경로 하위
+// [type].js를 찾고
+// page: 1 로 설정
+
+PageManager.cpm(['education/etc_education', type], {  
+    page: 1  
+});
+```
 
 #### PageManager.goCurrentPageWithCurrentParameterMap()
 
