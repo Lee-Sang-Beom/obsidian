@@ -7,7 +7,7 @@
 
 #### PageManager.go()
 
-- 단순히 페이지를 이동하기 위한 메소드이다.
+- 단순히 페이지를 이동하기 위한 메소드
 
 ```javascript
 var detailListTable = new Triton.ListTable({
