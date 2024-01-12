@@ -175,6 +175,7 @@ searchButtonSection.appendToRight(
 
 - 현재 `queryString` 파라미터와 API response로 들어온 `body`내 `total_count` property, 사용자 클릭 pageNumber 정보를 조합하여, `Pager`를 구성할 때 주로 사용
 
+- 현재 페이지가 보유하고 있는 url queryString에 전달하는 object를 추가하여 페이지 이동 처리를 진행하는 방식
 ```javascript
 
 if (String.isNotBlank(requestCount)) {
