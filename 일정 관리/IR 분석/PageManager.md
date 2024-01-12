@@ -137,3 +137,11 @@ page.find(".resultSection").on("click", function () {
 });
 
 ```
+
+
+#### PageManger.cpcpm()
+
+- URL queryString과 관련된 메소드
+- 페이지 및 탭 내에 구성된 `trition_form` 내 입력 요소들을 통해 pagination property를 구성하고, 이를 포함한 페이지 이동을 가능하게 하는 메소드
+- 페이지 이동의 경우, 입력요소의 formName을 underScore로 변환하는 작업을 사전적으로 요구한다.
+- 
