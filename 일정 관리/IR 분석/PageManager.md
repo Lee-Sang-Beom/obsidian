@@ -146,16 +146,26 @@ page.find(".resultSection").on("click", function () {
 - 페이지 이동의 경우, 입력요소의 formName을 underScore로 변환하는 작업을 사전적으로 요구한다.
 
 ```javascript
-searchButtonSection.appendToRight(new Triton.FlatButton({  
-    content: '검색',  
-    theme: Triton.FlatButton.Theme.Normal,  
-    page: page,  
-    onClick: function (e) {  
-  
-        var page = e.data.page;  
-        var item = FormatHelper.arrayKeyToUnderscore(Triton.extractFormData(page.get()));  
-        item['page5'] = 1;  
-        PageManager.cpcpm(item);  
-    }  
-}));
+searchButtonSection.appendToRight(
+        new Triton.FlatButton({
+          content: "검색",
+          theme: Triton.FlatButton.Theme.Normal,
+          page: page,
+          onClick: function (e) {
+            // 클릭한 요소를 포함하는 page를 가져옴 (그냥 page를 써도 무방하긴 함)
+            var page = e.data.page;
+
+            // url queryString을 만들 때는 보통 property name을 언더스코어로 구성
+            var item = FormatHelper.arrayKeyToUnderscore(
+              Triton.extractFormData(page.get())
+            );
+
+            // 1페이지 이상에서 요청이 발생할 수도 있으니, 맨 처음 페이지로 초기화
+            item["page5"] = 1;
+
+            // 입력된 데이터를 전달하여, 페이지 이동과 동시에 url queryString을 만들어 적용하는 함수
+            PageManager.cpcpm(item);
+          },
+        })
+      );
 ```
