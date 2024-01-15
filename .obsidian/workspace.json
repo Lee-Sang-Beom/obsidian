@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/기타 이용.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/기타 이용.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/기타 이용.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/기타 이용.md"
+                "file": "일정 관리/IR 분석/Triton.md"
               }
             }
           }
@@ -165,8 +165,8 @@
   },
   "active": "41dd9f28ea582140",
   "lastOpenFiles": [
-    "일정 관리/IR 분석/규칙.md",
     "일정 관리/IR 분석/기타 이용.md",
+    "일정 관리/IR 분석/규칙.md",
     "일정 관리/IR 분석/Triton.md",
     "일정 관리/IR 분석/ProjectFormatHelper.md",
     "일정 관리/IR 분석/project.js.md",
