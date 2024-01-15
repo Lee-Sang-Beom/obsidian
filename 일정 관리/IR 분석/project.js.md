@@ -1,5 +1,5 @@
 #### 경로
-- `src/main/webapp/res/lib/projdect.js`
+- `src/main/webapp/res/lib/project.js`
 
 #### 목적
 - 프로젝트 내에서 주로 사용하는 파일자원 매핑 `(CSS, HTML, JS)`
