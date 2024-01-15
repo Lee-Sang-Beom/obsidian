@@ -13,10 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/기타 이용.md",
+                "file": "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "39c44b9feb3709be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "846b6e0b0d31e843",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/기타 이용.md",
+                "file": "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/기타 이용.md",
+                "file": "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/기타 이용.md"
+                "file": "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md"
               }
             }
           }
@@ -148,8 +162,9 @@
   "active": "41dd9f28ea582140",
   "lastOpenFiles": [
     "일정 관리/IR 분석/규칙.md",
+    "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
+    "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
     "일정 관리/IR 분석/Triton.md",
-    "일정 관리/IR 분석/기타 이용.md",
     "일정 관리/IR 분석/ProjectFormatHelper.md",
     "일정 관리/IR 분석/project.js.md",
     "일정 관리/IR 분석/Pagination.md",
@@ -158,7 +173,6 @@
     "일정 관리/IR 분석/constants.js.md",
     "일정 관리/IR 분석/팝업.md",
     "일정 관리/IR 분석/파일 관리.md",
-    "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
     "일정 관리/IR 분석/인쇄.md",
     "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스 삭제 예시 1.md",
