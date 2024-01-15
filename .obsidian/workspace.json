@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "d81d3a9b7b5d93d7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "10e3309ced4f12bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "일정 관리/IR 분석/규칙.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "b90504449a972a3d",
         "type": "tabs",
         "children": [
