@@ -4,16 +4,20 @@
 - 대부분의 API 요청에는 `Requester`의 `awb` 메소드를 사용한다.
 - 현재 페이지에서의 ajax 요청을 수행하며, 빈 값이 아닌 `parameter`만을 골라내어 새로운 `parameterMap`을 생성하고, 해당 `parameterMap`으로 ajax 요청을 수행한다.
 	- **url (문자열)**: HTTP 요청을 보낼 대상 URL
-	- **parameterMap (객체)**: HTTP 요청에 포함될 파라미터들을 담고 있는 객체입니다. 이 객체의 속성과 값은 실제 HTTP 요청에서 파라미터의 이름과 값에 해당한다.
-	- **onResponse (함수)**: HTTP 요청에 대한 응답이 도착했을 때 호출될 콜백 함수입니다.
-	- **object**: 이벤트 콜백 함수에서 참조할 객체입니다. (어떤 객체에 속한 함수를 이벤트 콜백으로 사용할 때 필요)
-	- **noExecuteOnResponseWhenError**: 에러 발생 시 응답 콜백 함수를 실행하지 않을지 여부를 나타내는 부울 값입니다.
-	- **q**: 동일한 이름의 파라미터가 여러 개인 경우, 해당 파라미터의 값을 배열로 받습니다.
-	- **xhrFields**: XMLHttpRequest 객체의 필드를 설정하는 데 사용됩니다.
+	- **parameterMap (객체)**: HTTP 요청에 포함될 파라미터들을 담고 있는 객체로, 이 객체의 속성과 값은 실제 HTTP 요청에서의 `parameter`의 이름과 값에 해당한다.
+	- **onResponse (함수)**: HTTP 요청에 대한 응답이 도착했을 때 호출될 **콜백 함수**
+	- **object**: 이벤트 콜백 함수에서 참조할 객체 (어떤 객체에 속한 함수를 이벤트 콜백으로 사용할 때 필요)
+	- **noExecuteOnResponseWhenError**: 에러 발생 시 응답 콜백 함수를 실행하지 않을지 여부를 나타내는 booelan 값
+	- **q**: 동일한 이름의 파라미터가 여러 개인 경우, 해당 파라미터의 값을 배열로 받는다.
+	- **xhrFields**: XMLHttpRequest 객체의 필드를 설정하는 데 사용된다.
 
 ```javascript
 	   /**
          * @awb : API 요청
+         *  - ProjectApiUrl.Project.GET_AUTONOMY_PERFORMANCE_INDICATOR_LIST: 요청경로
+         *  - {startYear: ..., endYear: ...} : HTTP 요청에 포함될 객체
+         *  - function (status, data, request) {} : 응답 시 수행할 콜백함수
+         *    > 여기서, request는 보통 Pager에서 많이 쓴다.
          */
         Requester.awb(ProjectApiUrl.Project.GET_AUTONOMY_PERFORMANCE_INDICATOR_LIST, {
             // parameterMap
