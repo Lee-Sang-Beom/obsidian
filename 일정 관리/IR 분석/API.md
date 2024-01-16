@@ -92,8 +92,10 @@
 #### 2. Requester.owb
 
 - `Requester.awb`와 다르게, 새 창을 열면서 API 요청을 수행하는 방법을 사용한다.
-- 대표적으로 버튼형식의 **첨부파일**을 클릭했을 때, 바로 다운로드할 수 있도록 구성해야 할 때 사용할 수 있다.
-	- 아래 예제에서는 
+	- `window.open()`메소드로 URL 경로와,  `parameter object`를 전달하여, `URL QueryString`를 조합하는 방식을 사용한다.
+
+- 대표적으로 버튼형식의 **첨부파일**을 클릭하였을 때, 커스텀된 `URL QueryString`이 조합되어 API 요청이 완료되자마자 파일이 다운로드되도록 코드를 작성해야 할 때 사용할 수 있다.
+	- 아래 **예제**가 그 내용이다.
 
 ```javascript
 listTable.appendColumn({  
