@@ -1,5 +1,5 @@
 
-#### awb
+#### 1. Requester.awb
 
 - 대부분의 API 요청에는 `Requester`의 `awb` 메소드를 사용한다.
 - 현재 페이지에서의 ajax 요청을 수행하며, 빈 값이 아닌 `parameter`만을 골라내어 새로운 `parameterMap`을 생성하고, 해당 `parameterMap`으로 ajax 요청을 수행한다.
@@ -87,9 +87,14 @@
 ```
 
 
-#### api.js
+#### 2. Requester.owb
 
-- 웹사이트, 메시지, 엑셀, 유저, 파일 등 다양한 API 경로를 정의해 둔 파일로, 대분류의 CRUD 정리해둔 느낌이다.
+- 
+
+#### 3. api.js
+
+- 웹사이트, 메시지, 엑셀, 유저, 파일 등 다양한 API 경로를 정의해 둔 파일로, 대분류 한정 CRUD를 정리해둔 느낌이다.
+
 ```javascript
   
 var AdminApiUrl;  
