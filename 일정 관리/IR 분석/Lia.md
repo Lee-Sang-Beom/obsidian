@@ -7,6 +7,10 @@
 ```javascript
 var body = Lia.p(data, 'body');  
 var list = Lia.p(body, 'list');
+
+
+// 리스트의 idx번째 요소를 추출하는 방식으로도 쓸 수 있다.
+var attachmentListItem = Lia.p(attachmentList, idx);
 ```
 
 
