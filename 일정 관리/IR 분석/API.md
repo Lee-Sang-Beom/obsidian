@@ -91,7 +91,57 @@
 
 #### 2. Requester.owb
 
-- `Requester.awb`와 다르게, 
+- `Requester.awb`와 다르게, 새 창을 열면서 API 요청을 수행하는 방법을 사용한다.
+- 대표적으로 버튼형식의 **첨부파일** 
+
+```javascript
+listTable.appendColumn({  
+    content: Array.isNotEmpty(Lia.p(item, "attachment_list"))  
+        ? new Triton.FlatButton({  
+            theme: Triton.FlatButton.Theme.ListNormal,  
+            content: "첨부파일",  
+  
+            // e.data에 item property추가 및 item 데이터 기록  
+            item: item,  
+            onClick: function (e) {  
+                e.stopPropagation();  
+                e.preventDefault();  
+  
+                // e.data: FlatButton을 생성하면서 전달한 option
+                // e.data.item: option들 중 item (클릭으로 선택된 데이터를 의미)  
+                // table "row"에 해당하는 trition instance에서 해당 데이터를 꺼내려면, Lia.p(triton.getOptions(), 'item') 사용  
+  
+                var item = e.data.item;  
+                var attachmentList = Lia.p(item, "attachment_list");  
+                for (var idx in attachmentList) {  
+                    var attachmentListItem = Lia.p(attachmentList, idx);  
+  
+                    // 새 창을 열고, window객체의 open의 argument로 파일을 다운받기 위한 API 경로를 전달하는 방식으로 동작한다.  
+  
+                    // 두번째 인자로 전달하는 object는 property마다 URL의 QueryString에 추가된다.  
+                    Requester.owb(  
+                        // /api/file/get  
+                        ApiUrl.File.GET,  
+                        {  
+                            // 예시: /api/file/get?path=temporary/202401//388eb3d6-5707-40d9-99e4-b5b1ccb8bc88.png  
+                            path: Lia.p(attachmentListItem, "url"),  
+  
+                            // 예시: /api/file/get/path=temporary/202401//388eb3d6-5707-40d9-99e4-b5b1ccb8bc88.png&destFilename=board_sample.png  
+                            destFilename: Lia.p(  
+                                attachmentListItem,  
+                                "original_filename"  
+                            ),  
+                        },  
+                        function (status, data, request) {  
+                            if (status != Requester.Status.SUCCESS) {  
+                            }                        }  
+                    );  
+                }  
+            },  
+        })  
+        : "-",  
+});
+```
 
 #### 3. api.js
 
