@@ -1,3 +1,4 @@
+
 #### 1. Lia.p
 - **extractProperty**(추출) 형식
 	- `argument[0]`: 전달할 data
