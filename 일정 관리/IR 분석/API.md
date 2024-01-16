@@ -25,6 +25,8 @@
             endYear: page.endYearComboBox.getValue(),
         }, function (status, data, request) {
             // onResponse callback fn
+        
+	        // request: HTTP 요청 시 사용한 객체 정보로, 요청 API주소나 parameterMap, method 등이 있다.
             if (status != Requester.Status.SUCCESS) {
                 return;
             }
@@ -89,7 +91,7 @@
 
 #### 2. Requester.owb
 
-- 
+- `Requester.awb`와 다르게, 
 
 #### 3. api.js
 
