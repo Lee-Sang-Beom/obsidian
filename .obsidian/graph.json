@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"일정 관리\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14048348
-      }
-    },
-    {
       "query": "path:\"Next.js/Next.js 14\"  ",
       "color": {
         "a": 1,
@@ -76,6 +69,20 @@
         "a": 1,
         "rgb": 0
       }
+    },
+    {
+      "query": "path:\"일정 관리/IR 분석\" file:\"메인 백링크\"",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
     }
   ],
   "collapse-display": false,
@@ -88,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3064788394465001,
-  "close": true
+  "scale": 0.3064788394465005,
+  "close": false
 }
