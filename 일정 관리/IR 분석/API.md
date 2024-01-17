@@ -127,9 +127,11 @@ listTable.appendColumn({
                         ApiUrl.File.GET,  
                         {  
                             // 예시: /api/file/get?path=temporary/202401//388eb3d6-5707-40d9-99e4-b5b1ccb8bc88.png  
+                            // destFilename을 거치기 이전 temporaryFileNm을 가져 다운로드된다.
                             path: Lia.p(attachmentListItem, "url"),  
   
                             // 예시: /api/file/get?path=temporary/202401//388eb3d6-5707-40d9-99e4-b5b1ccb8bc88.png&destFilename=board_sample.png  
+                            // destFilename을 거쳐 queryString으로 연결된 파일명으로 다운로드된다.
                             destFilename: Lia.p(  
                                 attachmentListItem,  
                                 "original_filename"  

@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "d431ffdb56e8bc73",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c5dd32d88ad832c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "일정 관리/IR 분석/파일 관리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "7379f8e3000d40c6",
         "type": "tabs",
         "children": [
