@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "21b5257a3f2b7862",
+        "id": "080bebfd7c7093ad",
         "type": "tabs",
         "children": [
           {
-            "id": "dc310fcb8a27c30e",
+            "id": "08830c3ad60edcfd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "일정 관리/IR 분석/메인 백링크.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "일정 관리/IR 분석/메인 백링크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "일정 관리/IR 분석/메인 백링크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "일정 관리/IR 분석/메인 백링크.md"
+              }
             }
           }
         ]
@@ -137,13 +145,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dc310fcb8a27c30e",
+  "active": "08830c3ad60edcfd",
   "lastOpenFiles": [
+    "일정 관리/IR 분석/메인 백링크.md",
+    "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
+    "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/IR 분석/파일 관리.md",
     "일정 관리/IR 분석/팝업.md",
     "일정 관리/IR 분석/API.md",
-    "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
-    "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
     "일정 관리/IR 분석/인쇄.md",
     "일정 관리/IR 분석/constants.js.md",
@@ -164,7 +173,6 @@
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "일정 관리/IR 분석/로그인.md",
-    "일정 관리/IR 분석/API 요청.md",
     "일정 관리/IR 분석",
     "사용 이미지/JSP/JSP 동작과정.png",
     "jQuery",
