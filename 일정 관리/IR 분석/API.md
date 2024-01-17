@@ -6,7 +6,7 @@
 	- **url (문자열)**: HTTP 요청을 보낼 대상 URL
 	- **parameterMap (객체)**: HTTP 요청에 포함될 파라미터들을 담고 있는 객체로, 이 객체의 속성과 값은 실제 HTTP 요청에서의 `parameter`의 이름과 값에 해당한다.
 	- **onResponse (함수)**: HTTP 요청에 대한 응답이 도착했을 때 호출될 **콜백 함수**
-	- **object**: 이벤트 콜백 함수에서 참조할 객체 (어떤 객체에 속한 함수를 이벤트 콜백으로 사용할 때 필요)
+	- **object**: 이벤트 콜백 함수에서 참조 수 있는 객체 (어떤 객체에 속한 함수를 이벤트 콜백으로 사용할 때 필요)
 	- **noExecuteOnResponseWhenError**: 에러 발생 시 응답 콜백 함수를 실행하지 않을지 여부를 나타내는 booelan 값
 	- **q**: 동일한 이름의 파라미터가 여러 개인 경우, 해당 파라미터의 값을 배열로 받는다.
 	- **xhrFields**: XMLHttpRequest 객체의 필드를 설정하는 데 사용된다.
@@ -131,7 +131,7 @@ listTable.appendColumn({
                             path: Lia.p(attachmentListItem, "url"),  
   
                             // 예시: /api/file/get?path=temporary/202401//388eb3d6-5707-40d9-99e4-b5b1ccb8bc88.png&destFilename=board_sample.png  
-                            // destFilename을 거쳐 queryString으로 연결된 파일명으로 다운로드된다.
+                            // destFilename을 거쳐 지정한 파일명으로 다운로드된다.
                             destFilename: Lia.p(  
                                 attachmentListItem,  
                                 "original_filename"  
