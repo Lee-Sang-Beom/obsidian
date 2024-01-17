@@ -11,11 +11,14 @@
             "id": "b227c5869827e0b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md",
-                "mode": "source",
-                "source": false
+                "file": "무제 파일 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md",
+                "file": "무제 파일 1.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md",
+                "file": "무제 파일 1.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/Triton.md"
+                "file": "무제 파일 1.canvas"
               }
             }
           }
@@ -148,6 +151,8 @@
   },
   "active": "b227c5869827e0b9",
   "lastOpenFiles": [
+    "일정 관리/IR 분석/Triton.md",
+    "무제 파일 1.canvas",
     "일정 관리/IR 분석/메인 백링크.md",
     "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
     "일정 관리/IR 분석/엑셀 관리.md",
@@ -156,7 +161,6 @@
     "일정 관리/IR 분석/ProjectFormatHelper.md",
     "일정 관리/IR 분석/Pagination.md",
     "일정 관리/IR 분석/PageManager.md",
-    "일정 관리/IR 분석/Triton.md",
     "jQuery/jQuery 백링크.md",
     "jQuery/4. 선택자.md",
     "일정 관리/IR 분석/인쇄.md",
@@ -173,7 +177,6 @@
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
-    "일정 관리/IR 분석/로그인.md",
     "일정 관리/IR 분석",
     "사용 이미지/JSP/JSP 동작과정.png",
     "jQuery",
@@ -183,7 +186,6 @@
     "사용 이미지/JSP/JSP 실습 1 결과.png",
     "무제 파일.canvas",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
-    "무제 파일 1.canvas",
     "무제 파일 4.canvas",
     "기타",
     "무제 파일 3.canvas",
