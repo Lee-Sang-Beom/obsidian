@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/API.md",
+                "file": "일정 관리/IR 분석/팝업.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/API.md",
+                "file": "일정 관리/IR 분석/팝업.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/API.md",
+                "file": "일정 관리/IR 분석/팝업.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/API.md"
+                "file": "일정 관리/IR 분석/팝업.md"
               }
             }
           }
@@ -160,9 +160,9 @@
   },
   "active": "59cbc5c6e083f46f",
   "lastOpenFiles": [
+    "일정 관리/IR 분석/API.md",
     "일정 관리/IR 분석/파일 관리.md",
     "일정 관리/IR 분석/팝업.md",
-    "일정 관리/IR 분석/API.md",
     "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
     "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
