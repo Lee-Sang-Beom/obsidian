@@ -129,7 +129,7 @@ listTable.appendColumn({
                             // 예시: /api/file/get?path=temporary/202401//388eb3d6-5707-40d9-99e4-b5b1ccb8bc88.png  
                             path: Lia.p(attachmentListItem, "url"),  
   
-                            // 예시: /api/file/get/path=temporary/202401//388eb3d6-5707-40d9-99e4-b5b1ccb8bc88.png&destFilename=board_sample.png  
+                            // 예시: /api/file/get?path=temporary/202401//388eb3d6-5707-40d9-99e4-b5b1ccb8bc88.png&destFilename=board_sample.png  
                             destFilename: Lia.p(  
                                 attachmentListItem,  
                                 "original_filename"  
