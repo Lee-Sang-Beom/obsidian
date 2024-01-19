@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bf535c872b8b742c",
+        "id": "90f1c71eac3f6c30",
         "type": "tabs",
         "children": [
           {
-            "id": "7e3db6bf48845047",
+            "id": "8b38f8bf3860b3d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "일정 관리/주간보고.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/주간보고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/주간보고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "일정 관리/주간보고.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7e3db6bf48845047",
+  "active": "8b38f8bf3860b3d6",
   "lastOpenFiles": [
+    "일정 관리/주간보고.md",
     "일정 관리/2024.md",
     "일정 관리/IR 분석/인쇄.md",
     "일정 관리/IR 분석/엑셀 관리.md",
@@ -169,7 +162,6 @@
     "일정 관리/IR 분석/팝업.md",
     "일정 관리/IR 분석/규칙.md",
     "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스 삭제 예시 1.md",
-    "일정 관리/주간보고.md",
     "일정 관리/2023.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
