@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/보고/주간보고.md",
+                "file": "일정 관리/보고/2024년 01월/2024-01-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/보고/주간보고.md",
+                "file": "일정 관리/보고/2024년 01월/2024-01-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/보고/주간보고.md",
+                "file": "일정 관리/보고/2024년 01월/2024-01-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/보고/주간보고.md"
+                "file": "일정 관리/보고/2024년 01월/2024-01-22.md"
               }
             }
           }
@@ -146,15 +146,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "8b38f8bf3860b3d6",
   "lastOpenFiles": [
-    "일정 관리/보고/2024-2",
-    "일정 관리/보고/2024-1",
+    "일정 관리/보고/2024년 01월/2024-01-23.md",
+    "일정 관리/보고/2024년 01월/2024-01-22.md",
+    "일정 관리/보고/주간보고.md",
+    "일정 관리/보고/2024년 02월",
+    "일정 관리/보고/2024년 01월",
     "일정 관리/보고",
     "일정 관리/야근/2024.md",
     "일정 관리/야근",
     "일정 관리/야근/2023.md",
-    "일정 관리/보고/주간보고.md",
     "jQuery/jQuery 백링크.md",
     "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/IR 분석/인쇄.md",
@@ -177,7 +179,6 @@
     "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스 삭제 예시 1.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
-    "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
     "일정 관리/IR 분석",
     "사용 이미지/JSP/JSP 동작과정.png",
     "jQuery",
@@ -194,7 +195,6 @@
     "사용 이미지/JSP",
     "JSP",
     "backend/Spring 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
-    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
