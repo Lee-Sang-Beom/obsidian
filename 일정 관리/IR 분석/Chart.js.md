@@ -355,6 +355,7 @@
 setTimeout(()=>{  
     // type=bar  
     let newChart = new Chart(page.find(selectYearClassName), {  
+		// 이 plugins의 정상 import 때문에 헛짓거리 하지 않게 유의
         plugins: [ChartDataLabels],  
         type: 'bar',  
         data: {  
@@ -413,7 +414,9 @@ setTimeout(()=>{
     });  
   
     // type=line (다른 예시로, 위에서 정의한 식별자 내용을 주석처리 해야함)
-    let newChart = new Chart(page.find(selectYearClassName), {  
+    let newChart = new Chart(page.find(selectYearClassName), { 
+
+	// 이 plugins의 정상 import 때문에 헛짓거리 하지 않게 유의
     plugins: [ChartDataLabels],  
     type: 'line',  
     data: {  
@@ -423,9 +426,11 @@ setTimeout(()=>{
                 label: '일머리교육지수(명)',  
                 data: [ad,pbl,capstoneDesign,standardFieldTraining,entrepreneurshipCourse],  
                 borderRadius: 30,  
+                // 꺾은선 차트의 라인 색상
                 borderColor:"#00377e",  
                 backgroundColor:"#00377e",  
                 datalabels: {  
+	                // 수치표시영역의 스타일
                     backgroundColor: function(context) {  
                         return context.dataset.backgroundColor;  
                     },  
