@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/보고/2024년 01월/2024-01-22.md",
+                "file": "일정 관리/IR 분석/Chart.js.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/보고/2024년 01월/2024-01-22.md",
+                "file": "일정 관리/IR 분석/Chart.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/보고/2024년 01월/2024-01-22.md",
+                "file": "일정 관리/IR 분석/Chart.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/보고/2024년 01월/2024-01-22.md"
+                "file": "일정 관리/IR 분석/Chart.js.md"
               }
             }
           }
@@ -146,8 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "8b38f8bf3860b3d6",
   "lastOpenFiles": [
+    "일정 관리/보고/2024년 01월/2024-01-22.md",
+    "일정 관리/IR 분석/Chart.js.md",
     "일정 관리/보고/2024년 02월/4주차",
     "일정 관리/보고/2024년 02월/3주차",
     "일정 관리/보고/2024년 02월/2주차",
@@ -156,7 +158,6 @@
     "일정 관리/보고/2024년 01월/2024-01-26.md",
     "일정 관리/보고/2024년 01월/2024-01-25.md",
     "일정 관리/보고/2024년 01월/2024-01-24.md",
-    "일정 관리/보고/2024년 01월/2024-01-22.md",
     "일정 관리/야근/2023.md",
     "일정 관리/보고/주간보고.md",
     "일정 관리/보고/2024년 02월",
@@ -192,7 +193,6 @@
     "무제 파일.canvas",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
     "무제 파일 4.canvas",
-    "기타",
     "무제 파일 3.canvas",
     "무제 파일 2.canvas",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
