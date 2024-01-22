@@ -481,6 +481,7 @@ setTimeout(()=>{
         }  
     }  
 });
+	// 차트 관리를 위해 push
     page.allCharts.push(newChart)  
 },0)
 ```
