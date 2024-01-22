@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "90f1c71eac3f6c30",
+        "id": "c5c40ebc1d2acfd0",
         "type": "tabs",
         "children": [
           {
-            "id": "8b38f8bf3860b3d6",
+            "id": "63e63b3630799dad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "일정 관리/IR 분석/Chart.js.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/Chart.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/Chart.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "일정 관리/IR 분석/Chart.js.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8b38f8bf3860b3d6",
+  "active": "63e63b3630799dad",
   "lastOpenFiles": [
-    "일정 관리/보고/2024년 01월/2024-01-22.md",
+    "일정 관리/IR 분석/Triton.md",
     "일정 관리/IR 분석/Chart.js.md",
+    "일정 관리/보고/2024년 01월/2024-01-22.md",
     "일정 관리/보고/2024년 02월/4주차",
     "일정 관리/보고/2024년 02월/3주차",
     "일정 관리/보고/2024년 02월/2주차",
@@ -169,7 +162,6 @@
     "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/IR 분석/인쇄.md",
     "무제 파일 1.canvas",
-    "일정 관리/IR 분석/Triton.md",
     "일정 관리/IR 분석/메인 백링크.md",
     "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
     "일정 관리/IR 분석/API.md",
