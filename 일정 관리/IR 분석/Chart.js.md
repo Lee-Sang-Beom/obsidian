@@ -5,11 +5,11 @@
 	- 페이지 로드 후, 얻은 데이터로 차트를 그려야하는데 IIFE 특성을 고려한 **비동기 코드**가 작성되지 않았다.
 	- Chart.js 사용에 대한 스크립트 로드가 완벽하지 않다.
 
-#### Import
+#### HTML 코드에서 Import 하기
 
 - 먼저, 차트를 포함한 페이지의 HTML 코드 상단에 적절한 `script` 로드를 포함해야 한다.
 	- 코드 상단 `script` 태그 2개를 그대로 복사 및 붙여넣기 하면 된다.
-	- 이는 IIFE 코드에서 전역적으로 
+	- **`Chart.js`와 `ChartDataLabels` 플러그인이 이미 로드되어있는 상태에서 IIFE 코드가 스크립트에 접근**해야하기 때문에 필수적이다.
 
 ```html
 <link rel="stylesheet" type="text/css" href="/res/service/page/index/index.css?V=0029"/>  
@@ -283,12 +283,33 @@
 </div>
 ```
 
+
+#### 자바스크립트 코드에서 사용하기
+
 - IIFE로 자바스크립트를 구성하는 해당 프로젝트는 반드시 차트를 포함해야 하는 페이지를 만들어야 한다면, IIFE 코드 최상단에 `htmlLoading`값을 true로 입력해야 한다.
  ```javascript
 (function () {  
     return {  
         cssLoading: true,  
         htmlLoading: true,
+	}
+})
+```
+
+- `onInit` 함수에서는, 페이지 내에서 사용되는 모든 차트에 대한 접근이 가능하도록 차트 정보를 가지는 식별자를 만들어줘야 한다. 
+	- 이는 탭 이동에 따른 `canvas` 구성에 따른 충돌을 방지하기 위함으로, 배열로 관리할 수 있다
+
+```javascript
+
+(function () {  
+    return {  
+        cssLoading: true,  
+        htmlLoading: true,
+	    onInit: function(j) {
+		    ...
+		// 차트정보를 관리함과 동시에, 페이지 내를 구성하는 자바스크립트 코드에서 ㅈ
+		    page.allCharts = []
+	    }
 	}
 })
 ```
