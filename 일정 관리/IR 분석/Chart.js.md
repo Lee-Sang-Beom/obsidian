@@ -300,16 +300,50 @@
 	- 이는 탭 이동에 따른 `canvas` 구성에 따른 충돌을 방지하기 위함으로, 배열로 관리할 수 있다
 
 ```javascript
-
 (function () {  
     return {  
         cssLoading: true,  
         htmlLoading: true,
 	    onInit: function(j) {
-		    ...
-		// 차트정보를 관리함과 동시에, 페이지 내를 구성하는 자바스크립트 코드에서 ㅈ
+		    // ...
+		    
+		    // 차트정보를 관리함과 동시에, 페이지 내를 구성하는 자바스크립트 코드에서 언제나 접근할 수 있도록 page Triton 객체 하위 property로 구성
 		    page.allCharts = []
 	    }
 	}
 })
 ```
+
+- `destory()` 메소드는 `canvas`에 그려진 차트의 내용을 지우는 역할을 한다. 이는 탭 전환으로 이미 그려진 `canvas`에 차트가 중복적으로 그려지는 문제를 방지한다.
+
+```javascript
+(function () {  
+    return {  
+        cssLoading: true,  
+        htmlLoading: true,
+	    onInit: function(j) {
+		    // ...
+		    
+		    // 차트정보를 관리함과 동시에, 페이지 내를 구성하는 자바스크립트 코드에서 언제나 접근할 수 있도록 page Triton 객체 하위 property로 구성
+		    page.allCharts = []
+	    },
+	    onChange: function (appendTo, parameterMap) {
+	    // ...
+	    },
+	    detailPageOne: function (appendTo, parameterMap) {
+	    // ...
+	  
+		if(page.allCharts){  
+			page.allCharts.forEach(function(chart) {  
+				chart.destroy();  
+			});  
+		  
+			// 배열 비우기  
+			page.allCharts = [];  
+		}
+	    }
+	}
+})
+```
+
+- 이제 Chart.js 의 사용 가이드에 따라 차트를 그리면 된다ㅓ
