@@ -324,8 +324,6 @@
         htmlLoading: true,
 	    onInit: function(j) {
 		    // ...
-		    
-		    // 차트정보를 관리함과 동시에, 페이지 내를 구성하는 자바스크립트 코드에서 언제나 접근할 수 있도록 page Triton 객체 하위 property로 구성
 		    page.allCharts = []
 	    },
 	    onChange: function (appendTo, parameterMap) {
@@ -351,4 +349,133 @@
 	- 이 때, 주의할 점은, `datalabels script` 로드가 완료되지 않으면 offset과 같은 `label set`이 이루어지지 않는다는 점이다.
 	- 이는 HTML 파일에서 선언한 `script` 로드 이후에 이루어져야 하므로, 콜 스택과 Web API의 동작을 고려하여 차트 정의를 진행해야 한다.
 	- 제일 간단하게 이를 고려하는 방법은 `setTimeout()`을 사용하는 것이다.
+	- 아래는 사용 예시이다.
 
+```javascript
+setTimeout(()=>{  
+    // type=bar  
+    let newChart = new Chart(page.find(selectYearClassName), {  
+        plugins: [ChartDataLabels],  
+        type: 'bar',  
+        data: {  
+	        // 차트 각 요소에 연결된 label명
+            labels: ['AD', 'PBL', '캡스톤디자인', '표준현장실습','창업교과'],  
+            datasets: [  
+                {  
+                    label: '일머리교육지수(명)',  
+                    data: [ad,pbl,capstoneDesign,standardFieldTraining,entrepreneurshipCourse],  
+                    // 차트 radius
+                    borderRadius: 30,  
+                    backgroundColor:"#00377e",  
+                    datalabels: {  
+                        anchor: 'start',  
+                        align: 'start',  
+                        font: {  
+                            size: 18,  
+                            weight: 'bold'  
+                        },  
+                    }  
+                },  
+                {  
+                    label: '일머리교육지수(명)',  
+                    data: [ad-5,pbl+5,capstoneDesign+500,standardFieldTraining-20,entrepreneurshipCourse-300],  
+                    borderRadius: 30,  
+                    backgroundColor:"red",  
+                    datalabels: {  
+                        anchor: 'start',  
+                        align: 'start',  
+  
+                        font: {  
+                            size: 18,  
+                            weight: 'bold'  
+                        },  
+                    }  
+                }  
+            ],  
+        },  
+        options: {  
+            plugins: {  
+	            // 수치 표시와 관련된 plugin
+                datalabels: {  
+                    color: '#000',  
+                    // borderWidth: 2,  
+                    // borderColor: '#fff',
+                    
+                    // 차트와 수치상 거리로, margin이라고 생각
+                    offset: -30,  
+                    formatter: function(value, context) {  
+                        return value;  
+                    },  
+  
+                }  
+            }  
+        }  
+    });  
+  
+    // type=line (다른 예시로, 위에서 정의한 식별자 내용을 주석처리 해야함)
+    let newChart = new Chart(page.find(selectYearClassName), {  
+    plugins: [ChartDataLabels],  
+    type: 'line',  
+    data: {  
+        labels: ['AD', 'PBL', '캡스톤디자인', '표준현장실습','창업교과'],  
+        datasets: [  
+            {  
+                label: '일머리교육지수(명)',  
+                data: [ad,pbl,capstoneDesign,standardFieldTraining,entrepreneurshipCourse],  
+                borderRadius: 30,  
+                borderColor:"#00377e",  
+                backgroundColor:"#00377e",  
+                datalabels: {  
+                    backgroundColor: function(context) {  
+                        return context.dataset.backgroundColor;  
+                    },  
+                    align: ['right', 'top', 'top', 'top','left'],  
+                    anchor: 'center',  
+                    font:{  
+                        size: 18,  
+                        weight: 500  
+                    }  
+                }  
+            },  
+            {  
+                label: '일머리교육지수2(명)',  
+                data: [ad+100,pbl+200,capstoneDesign-500,standardFieldTraining+200,entrepreneurshipCourse-300],  
+                borderRadius: 30,  
+                borderColor:"red",  
+                backgroundColor:"red",  
+                datalabels: {  
+                    backgroundColor: function(context) {  
+                        return context.dataset.backgroundColor;  
+                    },  
+                    align: ['right', 'top', 'top', 'top','left'],  
+                    anchor: 'end',  
+                    font:{  
+                        size: 18,  
+                        weight: 500  
+                    }  
+                }  
+            }  
+        ],  
+  
+    },  
+    options: {  
+        plugins: {  
+            datalabels: {  
+                color: '#fff',  
+                padding: 10,  
+  
+                // 점과 수치의 거리  
+                offset: 10,  
+                // borderWidth: 1,  
+                // borderColor: 'blue',               borderRadius: 10,  
+                formatter: function(value, context) {  
+                    return value;  
+                },  
+  
+            }  
+        }  
+    }  
+});
+    page.allCharts.push(newChart)  
+},0)
+```
