@@ -4,7 +4,8 @@
 - 페이지 관련 정보를 불러오거나 이동을 위해 사용하는 메소드
 - 사용방법 및 예시는 아래와 같다.
 
-
+#### PageManager.pc(), PageManager.pcd()
+- 페이지 정보(URL)
 #### PageManager.go()
 
 - 단순히 페이지를 이동하기 위한 메소드
