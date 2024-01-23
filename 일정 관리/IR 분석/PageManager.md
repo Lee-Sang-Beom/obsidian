@@ -5,7 +5,34 @@
 - 사용방법 및 예시는 아래와 같다.
 
 #### PageManager.pc(), PageManager.pcd()
-- 페이지 정보(URL)
+
+- 페이지 정보(URL, URL QueryString으로 이해)에서 특정 key에 대한 value 값을 불러오기 위해 사용한다.
+- 만약, 특정 key에 대한 정보가 존재하지 않을 경우의 default 값을 정의하고 싶다면, `pcd()`메소드를 사용하면 되고, 그렇지 않으면 `.pc()`메소드를 사용하면 된다.
+
+```javascript
+Requester.awb(ProjectApiUrl.Project.GET_CAP_STONE_DESIGN_LECTURE_LIST, map, function (status, data, request) {  
+  
+    LoadingPopupManager.hide();  
+  
+    if (status != Requester.Status.SUCCESS) {  
+        return;  
+    }  
+  
+    detailTable.appendRow({});  
+    detailTable.appendKeyColumn({content: '교과목수(명)', css: {'width' : '33.3%'}});  
+    detailTable.appendKeyColumn({content: '참여학생수(명)', css: {'width' : '33.3%'}});  
+    detailTable.appendKeyColumn({content: '이수학생수(명)', css: {'width' : '33.3%'}});  
+    detailTable.appendRow({});  
+    detailTable.appendValueColumn({content: Lia.pcd(0,data,'body','total_count'), css: {'text-align' : 'center'}});  
+    detailTable.appendValueColumn({content: Lia.pcd(0,data,'body','total_count'), css: {'text-align' : 'center'}});  
+    detailTable.appendValueColumn({content: Lia.pcd(0,data,'body','total_count'), css: {'text-align' : 'center'}});  
+  
+	// querystring값에 count2라는 key에 대응하는 value값을 불러온다.
+	// 대응하는 value값이 없으면 countComboBox form의 값을 20으로 설정한다.
+    page.countComboBox.setValue(PageManager.pcd(20, 'count2'));
+    ...
+}
+```
 #### PageManager.go()
 
 - 단순히 페이지를 이동하기 위한 메소드
