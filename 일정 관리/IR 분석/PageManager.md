@@ -6,7 +6,7 @@
 
 #### PageManager.pc(), PageManager.pcd()
 
-- 페이지 정보(URL, URL QueryString으로 이해)에서 특정 key에 대한 value 값을 불러오기 위해 사용한다.
+- 페이지 정보(`URL QueryString`으로 이해)에서 특정 key에 대한 value 값을 불러오기 위해 사용한다.
 - 만약, 특정 key에 대한 정보가 존재하지 않을 경우의 default 값을 정의하고 싶다면, `pcd()`메소드를 사용하면 되고, 그렇지 않으면 `.pc()`메소드를 사용하면 된다.
 
 ```javascript
