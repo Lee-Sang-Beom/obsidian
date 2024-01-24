@@ -4,12 +4,12 @@
 - 먼저, 차트를 포함한 페이지의 HTML 코드 상단에 적절한 `script` 로드를 포함해야 한다.
 	- 현재, 수정된 프로젝트에서 `<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> `와 같은 CDN을 로드하게 되면, 차트 데이터 구현을 위한 라이브러리 충돌이 발생한다. 
 	- 다른 페이지에서, 차트 플러그인만 로드했다고 CDN 라이브러리를 추가로 로드하지 말고, 이제는 `chartjs-plugin-datalabels`만 로드하면 된다.
-	- **만약**, 되던 차트가 안되는 경우, 캐시 버스트를 의심할 수 있다.
+	- **만약**, 되던 차트가 안되는 경우, **캐시 버스트**를 의심할 수 있다.
 
 ```html
 <link rel="stylesheet" type="text/css" href="/res/service/page/index/index.css?V=0029"/>  
 
-// import
+%% import %%
 <script src="/res/service/page/index/chartjs-plugin-datalabels@2.js?V=0032" type="text/javascript" charset="utf-8"></script> 
 
 <style>  
