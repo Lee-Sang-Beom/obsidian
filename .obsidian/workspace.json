@@ -11,14 +11,11 @@
             "id": "5c46c9a97bdb3fb9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "무제 파일.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "일정 관리/보고/2024년 01월/2024-01-26.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "일정 관리/보고/2024년 01월/2024-01-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "무제 파일.canvas",
+                "file": "일정 관리/보고/2024년 01월/2024-01-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "무제 파일.canvas"
+                "file": "일정 관리/보고/2024년 01월/2024-01-26.md"
               }
             }
           }
@@ -151,8 +148,9 @@
   },
   "active": "5c46c9a97bdb3fb9",
   "lastOpenFiles": [
-    "무제 파일 1.canvas",
     "무제 파일 2.canvas",
+    "무제 파일 1.canvas",
+    "무제 파일.canvas",
     "일정 관리/IR 분석/Triton.md",
     "일정 관리/IR 분석/Chart.js.md",
     "일정 관리/보고/2024년 01월/2024-01-24.md",
@@ -193,7 +191,6 @@
     "사용 이미지/JSP/JSP 실습 2 - include 액션 (2).png",
     "사용 이미지/JSP/JSP 실습 2 - include 액션 (1).png",
     "사용 이미지/JSP/JSP 실습 1 결과.png",
-    "무제 파일.canvas",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
     "무제 파일 4.canvas",
     "무제 파일 3.canvas",
