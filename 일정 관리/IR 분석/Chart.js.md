@@ -343,6 +343,8 @@
 
 - 이제 Chart.js 의 사용 가이드에 따라 차트를 그리면 된다.
 	- 이 때, 주의할 점은, `datalabels script` 로드가 완료되지 않으면 offset과 같은 `label set`이 이루어지지 않는다는 점이다.
+		- 또한, 생성자로 새로운 차트를 생성할 때, 항상 plugins option에 `ChartDataLabels`를 함께 선언해주어야 한다는 점이다.
+		- . (dataLabels 기능을 사용하지 않으면 함께 선언할 필요 없음
 	- 이는 HTML 파일에서 선언한 `script` 로드 이후에 이루어져야 하므로, 콜 스택과 Web API의 동작을 고려하여 차트 정의를 진행해야 한다.
 	- 제일 간단하게 이를 고려하는 방법은 `setTimeout()`을 사용하는 것이다.
 	- 아래는 사용 예시의 전체 코드이다.
@@ -574,7 +576,7 @@
                     page.find('.edu-box li:eq(5) .list-num').html(graduatedStudentsCount);  
 
 
-					// 차트를 그리기 전, barCharts와 donutChart의 
+					// 차트를 그리기 전, barCharts와 donutChart의 캔버스 지우기 작업
                     if(page.barCharts){  
                         page.barCharts.forEach(function(chart) {  
                             chart.destroy();  
@@ -591,6 +593,7 @@
                         // 배열 비우기  
                         page.donutChart = [];  
                     }  
+                    
                     // Bar  
                     setTimeout(()=>{  
                         let barChart = new Chart(page.find(selectYearClassName), {  
