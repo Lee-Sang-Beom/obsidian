@@ -344,7 +344,7 @@
 - 이제 Chart.js 의 사용 가이드에 따라 차트를 그리면 된다.
 	- 이 때, 주의할 점은, `datalabels script` 로드가 완료되지 않으면 offset과 같은 `label set`이 이루어지지 않는다는 점이다.
 		- 또한, 생성자로 새로운 차트를 생성할 때, 항상 plugins option에 `ChartDataLabels`를 함께 선언해주어야 한다는 점이다.
-		- . (dataLabels 기능을 사용하지 않으면 함께 선언할 필요 없음
+		- dataLabels 기능을 사용하지 않으면 함께 선언할 필요 없는데, 설계서 보니까 써야할 것 같다.
 	- 이는 HTML 파일에서 선언한 `script` 로드 이후에 이루어져야 하므로, 콜 스택과 Web API의 동작을 고려하여 차트 정의를 진행해야 한다.
 	- 제일 간단하게 이를 고려하는 방법은 `setTimeout()`을 사용하는 것이다.
 	- 아래는 사용 예시의 전체 코드이다.
@@ -627,7 +627,9 @@
                             plugins: {  
                                 datalabels: {  
                                     // color: '#fff',  
-                                    // borderWidth: 2,                                    // borderColor: '#fff',                                    offset: -30,  
+                                    // borderWidth: 2,
+                                    // borderColor: '#fff',
+                                    offset: -30,  
                                     formatter: function(value, context) {  
                                         return value;  
                                     },  
@@ -780,6 +782,7 @@
         },  
   
         onRelease: function (j) {  
-        }    };  
+        }
+    };  
 })();
 ```
