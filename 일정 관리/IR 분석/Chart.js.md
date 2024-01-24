@@ -8,14 +8,15 @@
 #### HTML 코드에서 Import 하기
 
 - 먼저, 차트를 포함한 페이지의 HTML 코드 상단에 적절한 `script` 로드를 포함해야 한다.
-	- 코드 상단 `script` 태그 2개를 그대로 복사 및 붙여넣기 하면 된다.
-	- **`Chart.js`와 `ChartDataLabels` 플러그인이 이미 로드되어있는 상태에서 IIFE 코드가 스크립트에 접근**해야하기 때문에 필수적이다.
+	- 현재, 수정된 프로젝트에서 `<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> `와 같은 CDN을 로드하게 되면, 차트 데이터 구현을 위한 라이브러리 충돌이 발생한다. `chartjs-plugin-datalabels`만 로드하도록 하자.
+	- ㅗ
 
 ```html
 <link rel="stylesheet" type="text/css" href="/res/service/page/index/index.css?V=0029"/>  
-<!-- 여기 : 로드문제 수정-->  
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>  
-<script src="/res/service/page/index/chartjs-plugin-datalabels@2.js?V=0031" type="text/javascript" charset="utf-8"></script>  
+
+// import
+<script src="/res/service/page/index/chartjs-plugin-datalabels@2.js?V=0031" type="text/javascript" charset="utf-8"></script> 
+
 <style>  
     .statistics-frame {  
         clear: both;  
