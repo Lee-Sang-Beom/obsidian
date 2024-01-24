@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c5c40ebc1d2acfd0",
+        "id": "081382d85ba0fe7a",
         "type": "tabs",
         "children": [
           {
-            "id": "63e63b3630799dad",
+            "id": "5c46c9a97bdb3fb9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "일정 관리/보고/2024년 01월/2024-01-24.md",
-                "mode": "source",
-                "source": false
+                "file": "무제 파일.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/보고/2024년 01월/2024-01-24.md",
+                "file": "무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/보고/2024년 01월/2024-01-24.md",
+                "file": "무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/보고/2024년 01월/2024-01-24.md"
+                "file": "무제 파일.canvas"
               }
             }
           }
@@ -146,18 +149,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "63e63b3630799dad",
+  "active": "5c46c9a97bdb3fb9",
   "lastOpenFiles": [
+    "무제 파일 1.canvas",
+    "무제 파일 2.canvas",
     "일정 관리/IR 분석/Triton.md",
+    "일정 관리/IR 분석/Chart.js.md",
+    "일정 관리/보고/2024년 01월/2024-01-24.md",
     "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
     "일정 관리/보고/2024년 01월/2024-01-23.md",
     "일정 관리/보고/2024년 01월/2024-01-25.md",
     "일정 관리/보고/2024년 01월/2024-01-26.md",
-    "일정 관리/보고/2024년 01월/2024-01-24.md",
     "일정 관리/IR 분석/PageManager.md",
     "일정 관리/IR 분석/Pagination.md",
     "일정 관리/보고/2024년 01월/2024-01-22.md",
-    "일정 관리/IR 분석/Chart.js.md",
     "일정 관리/보고/2024년 02월/4주차",
     "일정 관리/보고/2024년 02월/3주차",
     "일정 관리/보고/2024년 02월/2주차",
@@ -172,7 +177,6 @@
     "jQuery/jQuery 백링크.md",
     "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/IR 분석/인쇄.md",
-    "무제 파일 1.canvas",
     "일정 관리/IR 분석/메인 백링크.md",
     "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
     "일정 관리/IR 분석/API.md",
@@ -182,7 +186,6 @@
     "일정 관리/IR 분석/constants.js.md",
     "일정 관리/IR 분석/Lia.md",
     "일정 관리/IR 분석/파일 관리.md",
-    "일정 관리/IR 분석/팝업.md",
     "일정 관리/IR 분석",
     "사용 이미지/JSP/JSP 동작과정.png",
     "jQuery",
@@ -194,7 +197,6 @@
     "사용 이미지/OpenLayers/Openlayers 구조.png",
     "무제 파일 4.canvas",
     "무제 파일 3.canvas",
-    "무제 파일 2.canvas",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
