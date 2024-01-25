@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/보고/주간보고.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/보고/주간보고.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/보고/주간보고.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/보고/주간보고.md"
+                "file": "일정 관리/IR 분석/Triton.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "5c46c9a97bdb3fb9",
   "lastOpenFiles": [
-    "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
     "일정 관리/보고/주간보고.md",
+    "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
     "일정 관리/보고/2024년 01월/2024-01-22.md",
     "일정 관리/보고/2024년 01월/2024-01-23.md",
     "일정 관리/보고/2024년 01월/2024-01-24.md",
