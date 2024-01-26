@@ -7,4 +7,3 @@
 - API, PopupUrl과 같은 경로 정의
 - UserRole 정의
 - key-value 형식의 변수 정의
-```
