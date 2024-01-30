@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/엑셀 관리.md",
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/엑셀 관리.md",
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/엑셀 관리.md",
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/엑셀 관리.md"
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "5c46c9a97bdb3fb9",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/보고/주간보고.md",
     "일정 관리/IR 임시코드/무제 파일.md",
     "일정 관리/보고/2024년 01월/2024-01-26.md",
@@ -157,7 +161,6 @@
     "일정 관리/IR 분석/ProjectFormatHelper.md",
     "일정 관리/IR 분석/Triton.md",
     "일정 관리/IR 분석/PageManager.md",
-    "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
     "일정 관리/IR 분석/인쇄.md",
     "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
@@ -183,9 +186,6 @@
     "일정 관리/보고/2024년 01월",
     "일정 관리/보고",
     "일정 관리/야근",
-    "jQuery/jQuery 백링크.md",
-    "일정 관리/IR 분석/메인 백링크.md",
-    "jQuery/4. 선택자.md",
     "일정 관리/IR 분석",
     "사용 이미지/JSP/JSP 동작과정.png",
     "사용 이미지/JSP/JSP 실습 2 - include 지시어 결과.png",
