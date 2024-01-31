@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
+                "file": "jquery/4. 선택자.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
+                "file": "jquery/4. 선택자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
+                "file": "jquery/4. 선택자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 변경점.md"
+                "file": "jquery/4. 선택자.md"
               }
             }
           }
@@ -148,9 +148,18 @@
   },
   "active": "5c46c9a97bdb3fb9",
   "lastOpenFiles": [
+    "jquery/5. chain.md",
+    "jquery/6. event.md",
+    "jquery/10. ajax.md",
+    "jquery/4. 선택자.md",
+    "jquery/9. 탐색.md",
+    "jquery/8. Form.md",
+    "jquery/7. 엘리먼트 제어.md",
+    "jquery/1. jQuery 시작.md",
+    "jquery/jQuery 백링크.md",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
     "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/보고/주간보고.md",
     "일정 관리/IR 임시코드/무제 파일.md",
@@ -165,16 +174,7 @@
     "일정 관리/IR 분석/인쇄.md",
     "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
     "일정 관리/IR 분석/파일 관리.md",
-    "일정 관리/IR 분석/Pagination.md",
     "일정 관리/IR 임시코드",
-    "일정 관리/IR 분석/constants.js.md",
-    "일정 관리/야근/2024.md",
-    "일정 관리/야근/2023.md",
-    "일정 관리/보고/2024년 01월/2024-01-22.md",
-    "일정 관리/보고/2024년 01월/2024-01-23.md",
-    "일정 관리/보고/2024년 01월/2024-01-24.md",
-    "일정 관리/보고/2024년 01월/2024-01-25.md",
-    "일정 관리/IR 분석/Chart.js.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
