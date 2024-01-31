@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "081382d85ba0fe7a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5c46c9a97bdb3fb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jquery/4. 선택자.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "4450a652ba934a46",
         "type": "tabs",
         "children": [
