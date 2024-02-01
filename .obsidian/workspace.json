@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "081382d85ba0fe7a",
+        "id": "0362308cb1d59eac",
         "type": "tabs",
         "children": [
           {
-            "id": "5c46c9a97bdb3fb9",
+            "id": "4e9c3ebc0b604e37",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jQuery/5. chain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0f01d5726d485edf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e82b66b98937cd0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jQuery/5. chain.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -103,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jQuery/5. chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jQuery/5. chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "jQuery/5. chain.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -164,13 +138,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5c46c9a97bdb3fb9",
+  "active": "4e9c3ebc0b604e37",
   "lastOpenFiles": [
-    "jQuery/6. event.md",
-    "jQuery/7. 엘리먼트 제어.md",
     "jQuery/5. chain.md",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "jQuery/7. 엘리먼트 제어.md",
     "jQuery/9. 탐색.md",
+    "jQuery/6. event.md",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
     "jQuery/8. Form.md",
     "jQuery/10. ajax.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
