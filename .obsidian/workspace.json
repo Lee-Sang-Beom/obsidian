@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 분석/API.md",
+                "file": "일정 관리/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 분석/API.md",
+                "file": "일정 관리/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 분석/API.md",
+                "file": "일정 관리/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 분석/API.md"
+                "file": "일정 관리/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "4e9c3ebc0b604e37",
   "lastOpenFiles": [
+    "일정 관리/IR 분석/API.md",
+    "일정 관리/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md",
     "일정 관리/IR 분석/Triton.md",
     "jQuery/7. 엘리먼트 제어.md",
     "jQuery/5. chain.md",
@@ -162,7 +164,6 @@
     "일정 관리/보고/주간보고.md",
     "일정 관리/IR 임시코드/무제 파일.md",
     "일정 관리/보고/2024년 01월/2024-01-26.md",
-    "일정 관리/IR 분석/API.md",
     "일정 관리/IR 임시코드/산학연협력 팝업 코드.md",
     "일정 관리/IR 분석/project.js.md",
     "일정 관리/IR 분석/ProjectFormatHelper.md",
@@ -174,7 +175,6 @@
     "일정 관리/IR 분석/Pagination.md",
     "일정 관리/IR 임시코드",
     "일정 관리/IR 분석/constants.js.md",
-    "일정 관리/야근/2024.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
