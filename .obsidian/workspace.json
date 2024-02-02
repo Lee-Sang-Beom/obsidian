@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jQuery/7. 엘리먼트 제어.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jQuery/7. 엘리먼트 제어.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jQuery/7. 엘리먼트 제어.md",
+                "file": "일정 관리/IR 분석/Triton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jQuery/7. 엘리먼트 제어.md"
+                "file": "일정 관리/IR 분석/Triton.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "4e9c3ebc0b604e37",
   "lastOpenFiles": [
-    "jQuery/5. chain.md",
     "jQuery/7. 엘리먼트 제어.md",
+    "jQuery/5. chain.md",
     "jQuery/9. 탐색.md",
     "jQuery/6. event.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
