@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0362308cb1d59eac",
+        "id": "4450a652ba934a46",
         "type": "tabs",
         "children": [
           {
-            "id": "4e9c3ebc0b604e37",
+            "id": "7b844eab26e782b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jQuery/8. Form.md",
+                "file": "jquery/8. Form.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jQuery/8. Form.md",
+                "file": "jquery/8. Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jQuery/8. Form.md",
+                "file": "jquery/8. Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jQuery/8. Form.md"
+                "file": "jquery/8. Form.md"
               }
             }
           }
@@ -138,43 +138,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "4e9c3ebc0b604e37",
+  "active": "7b844eab26e782b4",
   "lastOpenFiles": [
+    "jquery/7. 엘리먼트 제어.md",
+    "jquery/8. Form.md",
+    "jquery/6. event.md",
+    "jquery/5. chain.md",
     "일정 관리/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md",
-    "일정 관리/IR 분석/API.md",
-    "일정 관리/IR 분석/Triton.md",
-    "jQuery/7. 엘리먼트 제어.md",
-    "jQuery/5. chain.md",
-    "jQuery/9. 탐색.md",
-    "jQuery/6. event.md",
+    "jquery/4. 선택자.md",
+    "jquery/3. 래퍼(Wrapper).md",
+    "jquery/10. ajax.md",
+    "jquery/9. 탐색.md",
+    "jquery/1. jQuery 시작.md",
+    "jquery/jQuery 백링크.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
-    "jQuery/8. Form.md",
-    "jQuery/10. ajax.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/보고/주간보고.md",
     "일정 관리/IR 임시코드/무제 파일.md",
     "일정 관리/보고/2024년 01월/2024-01-26.md",
+    "일정 관리/IR 분석/API.md",
     "일정 관리/IR 임시코드/산학연협력 팝업 코드.md",
     "일정 관리/IR 분석/project.js.md",
     "일정 관리/IR 분석/ProjectFormatHelper.md",
+    "일정 관리/IR 분석/Triton.md",
     "일정 관리/IR 분석/PageManager.md",
     "일정 관리/IR 분석/이용 방법 및 분석 파일 경로.md",
     "일정 관리/IR 분석/인쇄.md",
-    "일정 관리/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
-    "일정 관리/IR 분석/파일 관리.md",
-    "일정 관리/IR 분석/Pagination.md",
     "일정 관리/IR 임시코드",
-    "일정 관리/IR 분석/constants.js.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
