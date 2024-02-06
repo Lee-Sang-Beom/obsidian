@@ -171,3 +171,6 @@
 입력 폼 정보, 비로그인 장바구니 : 세션 스토리지
 
 다시보기 팝업 : 쿠키
+
+
+- https://www.daleseo.com/http-cookies/
