@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jQuery/9. 탐색.md",
+                "file": "jQuery/9. 탐색 (traversing).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jQuery/9. 탐색.md",
+                "file": "jQuery/9. 탐색 (traversing).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jQuery/9. 탐색.md",
+                "file": "jQuery/9. 탐색 (traversing).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jQuery/9. 탐색.md"
+                "file": "jQuery/9. 탐색 (traversing).md"
               }
             }
           }
@@ -149,7 +149,8 @@
   "active": "7b844eab26e782b4",
   "lastOpenFiles": [
     "jQuery/5. chain.md",
-    "jQuery/9. 탐색.md",
+    "jQuery/6. event.md",
+    "jQuery/9. 탐색 (traversing).md",
     "JavaScript & TypeScript/Cookie, Session, Web Storage.md",
     "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
     "JavaScript & TypeScript/원시 타입과 참조 타입.md",
@@ -174,7 +175,6 @@
     "일정 관리/보고/주간보고.md",
     "일정 관리/IR 임시코드/무제 파일.md",
     "일정 관리/보고/2024년 01월/2024-01-26.md",
-    "일정 관리/IR 분석/API.md",
     "일정 관리/IR 임시코드",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
