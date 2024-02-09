@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/화학 분석.md",
+                "file": "jquery/10. ajax.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/화학 분석.md",
+                "file": "jquery/10. ajax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/화학 분석.md",
+                "file": "jquery/10. ajax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/화학 분석.md"
+                "file": "jquery/10. ajax.md"
               }
             }
           }
@@ -138,27 +138,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "7b844eab26e782b4",
   "lastOpenFiles": [
-    "jQuery/9. 탐색 (traversing).md",
-    "jQuery/5. chain.md",
-    "jQuery/6. event.md",
-    "JavaScript & TypeScript/Cookie, Session, Web Storage.md",
-    "JavaScript & TypeScript/알아놓으면 좋은 자바스크립트 문법.md",
-    "JavaScript & TypeScript/원시 타입과 참조 타입.md",
-    "JavaScript & TypeScript/Clsx 사용해보기.md",
-    "일정 관리/화학 분석.md",
-    "코드 임시저장",
-    "jquery/7. 엘리먼트 제어.md",
+    "jquery/9. 탐색 (traversing).md",
     "jquery/8. Form.md",
+    "일정 관리/화학 분석.md",
+    "jquery/7. 엘리먼트 제어.md",
     "jquery/6. event.md",
     "jquery/5. chain.md",
     "일정 관리/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md",
@@ -175,6 +168,12 @@
     "일정 관리/보고/주간보고.md",
     "일정 관리/IR 임시코드/무제 파일.md",
     "일정 관리/보고/2024년 01월/2024-01-26.md",
+    "일정 관리/IR 분석/API.md",
+    "일정 관리/IR 임시코드/산학연협력 팝업 코드.md",
+    "일정 관리/IR 분석/project.js.md",
+    "일정 관리/IR 분석/ProjectFormatHelper.md",
+    "일정 관리/IR 분석/Triton.md",
+    "일정 관리/IR 분석/PageManager.md",
     "일정 관리/IR 임시코드",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
@@ -187,6 +186,7 @@
     "일정 관리/보고/2024년 01월",
     "일정 관리/보고",
     "일정 관리/야근",
+    "일정 관리/IR 분석",
     "사용 이미지/JSP/JSP 동작과정.png",
     "사용 이미지/JSP/JSP 실습 2 - include 지시어 결과.png",
     "사용 이미지/JSP/JSP 실습 2 - include 액션 (2).png",
