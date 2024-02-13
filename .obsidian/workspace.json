@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/화학 분석.md",
+                "file": "내 프로젝트/내 프로젝트 (뎁스).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/화학 분석.md",
+                "file": "내 프로젝트/내 프로젝트 (뎁스).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/화학 분석.md",
+                "file": "내 프로젝트/내 프로젝트 (뎁스).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/화학 분석.md"
+                "file": "내 프로젝트/내 프로젝트 (뎁스).md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "7b844eab26e782b4",
   "lastOpenFiles": [
-    "jQuery/10. ajax.md",
     "일정 관리/화학 분석.md",
+    "내 프로젝트/내 프로젝트 (뎁스).md",
+    "내 프로젝트",
+    "jQuery/10. ajax.md",
     "jQuery/9. 탐색 (traversing).md",
     "jQuery/5. chain.md",
     "jQuery/6. event.md",
@@ -174,7 +176,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "일정 관리/IR 분석/엑셀 관리.md",
     "일정 관리/보고/주간보고.md",
-    "일정 관리/IR 임시코드/무제 파일.md",
     "일정 관리/IR 임시코드",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
@@ -186,7 +187,6 @@
     "일정 관리/보고/2024년 02월",
     "일정 관리/보고/2024년 01월",
     "일정 관리/보고",
-    "일정 관리/야근",
     "사용 이미지/JSP/JSP 동작과정.png",
     "사용 이미지/JSP/JSP 실습 2 - include 지시어 결과.png",
     "사용 이미지/JSP/JSP 실습 2 - include 액션 (2).png",
