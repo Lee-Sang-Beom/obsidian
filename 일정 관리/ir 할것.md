@@ -857,3 +857,36 @@
     };  
 })();
 ```
+
+
+- IR 프로젝트 통계분석 - 이런식으로 하면됨
+```javascript
+let map = {};  
+// map['yearList'] = yearList;  
+// map['departmentList'] = departmentList.join(",");  
+// map['collegeList'] = collegeList.join(",");  
+map['param'] = JSON.stringify({  
+    "yearList": [2022,2023],  
+    "isEvaluated": 1,  
+    "promotionStatus": 1,  
+    "performanceItemCount": 1,  
+    "collegeAndDepartmentList": [  
+        {            //   "college": "인문사회대학", //현재 데이터가 단과대 데이터로 들어가있지 않아서 추가 시 조회결과없음.  
+            "department": "사회복지학과"  
+        }  
+    ]})
+
+
+
+// 예시데이터
+const data = {  
+    "yearList": [2022,2023],  
+    "isEvaluated": 1,  
+    "promotionStatus": 1,  
+    "performanceItemCount": 1,  
+    "collegeAndDepartmentList": [  
+        {            //   "college": "인문사회대학", //현재 데이터가 단과대 데이터로 들어가있지 않아서 추가 시 조회결과없음.  
+            "department": "사회복지학과"  
+        }  
+    ]}
+```
