@@ -895,5 +895,50 @@ const data = {
 	- 통계분석 특정년도 데이터가 없어도, dto는 반환되게끔
 	- 통계분석 2
 
+- 학기 추가할거 ㅋㅋ
+
 ```
+searchDetailTable.appendRow({});  
+searchDetailTable.appendKeyColumn({  
+    addClass: 'key_column_semester',  
+    content: '학기',  
+});  
+searchDetailTable.appendValueColumn({  
+    css:{  
+        'border-right': '1px solid rgb(225, 225, 225)'  
+    },  
+    content: page.hakgiComboBox = new Triton.ComboBox({  
+        addClass: 'value_column_semester',  
+        theme: Triton.ComboBox.Theme.Full,  
+        css: {'width': '100%'},  
+        form: {name: 'hakgi'},  
+        optionList: [  
+            {  
+                name: '학기선택',  
+                value: ''  
+            },  
+            {  
+                name: '1학기',  
+                value: 10  
+            },  
+            {  
+                name: '하계 계절학기',  
+                value: 11  
+            },  
+            {  
+                name: '2학기',  
+                value: 20  
+            },  
+            {  
+                name: '동계 계절학기',  
+                value: 21  
+            }  
+        ],  
+        onKeyPress: function (e) {  
+            if (e.which == Lia.KeyCode.ENTER) {  
+                page.searchButton.trigger('click');  
+            }  
+        }  
+    })  
+});
 ```
