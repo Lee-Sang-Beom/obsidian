@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일정 관리/IR 할 것.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일정 관리/IR 할 것.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일정 관리/IR 할 것.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일정 관리/IR 할 것.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md"
               }
             }
           }
@@ -148,10 +148,15 @@
   },
   "active": "7b844eab26e782b4",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
+    "사용 이미지/Next.js/Next.js14.png",
+    "일정 관리/IR 할 것.md",
     "일정 관리/야근/2023.md",
     "일정 관리/야근/2024.md",
     "일정 관리/화학 분석.md",
-    "일정 관리/IR 할 것.md",
     "내 프로젝트/내 프로젝트 (뎁스).md",
     "내 프로젝트",
     "jQuery/10. ajax.md",
@@ -173,9 +178,6 @@
     "jquery/10. ajax.md",
     "jquery/9. 탐색.md",
     "jquery/1. jQuery 시작.md",
-    "jquery/jQuery 백링크.md",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "일정 관리/IR 임시코드",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
@@ -196,8 +198,6 @@
     "무제 파일 4.canvas",
     "무제 파일 3.canvas",
     "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard_layout.png",
-    "사용 이미지/Next.js/guide course/chapter 4/chapter4_dashboard.png",
-    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
-    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage 1.png"
+    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png"
   ]
 }
