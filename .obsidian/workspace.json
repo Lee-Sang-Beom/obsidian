@@ -23,9 +23,11 @@
             "id": "769aaac38ff7ac26",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.8"
+                "file": "일정 관리/IR 할 것.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
+                "file": "일정 관리/IR 할 것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
+                "file": "일정 관리/IR 할 것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md"
+                "file": "일정 관리/IR 할 것.md"
               }
             }
           }
@@ -159,6 +161,7 @@
   },
   "active": "769aaac38ff7ac26",
   "lastOpenFiles": [
+    "내 프로젝트/내 프로젝트 (뎁스).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
@@ -170,7 +173,6 @@
     "일정 관리/야근/2023.md",
     "일정 관리/야근/2024.md",
     "일정 관리/화학 분석.md",
-    "내 프로젝트/내 프로젝트 (뎁스).md",
     "내 프로젝트",
     "jQuery/10. ajax.md",
     "jQuery/9. 탐색 (traversing).md",
