@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 공식문서 정리/추천.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 공식문서 정리/추천.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 공식문서 정리/추천.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 공식문서 정리/추천.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "769aaac38ff7ac26",
   "lastOpenFiles": [
-    "Next.js/기본개념/POST API ROUTE.md",
     "Next.js/Next.js 공식문서 정리/추천.md",
+    "Next.js/기본개념/POST API ROUTE.md",
     "Next.js/Next.js 공식문서 정리",
     "Next.js/기본개념/API routes.md",
     "일정 관리/IR 할 것.md",
