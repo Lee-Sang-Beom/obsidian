@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4450a652ba934a46",
+        "id": "9920ba91104892ab",
         "type": "tabs",
         "children": [
           {
-            "id": "7b844eab26e782b4",
+            "id": "7897bebfcf1eee50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,20 +138,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7b844eab26e782b4",
+  "active": "7897bebfcf1eee50",
   "lastOpenFiles": [
-    "Pasted image 20240227154003.png",
-    "Pasted image 20240227154000.png",
-    "Pasted image 20240227152949.png",
-    "Pasted image 20240227152710.png",
-    "Pasted image 20240227152707.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
+    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227154651.png",
+    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227154003.png",
+    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227154000.png",
+    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227152949.png",
+    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227152710.png",
+    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227152707.png",
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151701.png",
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151524.png",
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151143.png",
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151120.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151040.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151025.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "사용 이미지/Next.js/guide course/chapter 6",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 공식문서 정리/추천.md",
