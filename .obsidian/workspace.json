@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e1846195646316a5",
+        "id": "225e3efd91c15a0c",
         "type": "tabs",
         "children": [
           {
-            "id": "eef00fffabe80d6f",
+            "id": "39ebec70501188ad",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304091701.png"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304091701.png",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304091701.png",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304091701.png"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md"
               }
             }
           }
@@ -144,13 +146,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "eef00fffabe80d6f",
+  "active": "39ebec70501188ad",
   "lastOpenFiles": [
+    "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304091701.png",
     "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304092943.png",
     "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304095014.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "사용 이미지/Next.js/guide course/chapter 7",
-    "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304091701.png",
     "내 프로젝트/내 프로젝트 (뎁스).md",
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227154651.png",
     "무제 파일.canvas",
