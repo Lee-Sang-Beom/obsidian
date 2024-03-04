@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8..md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8..md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8..md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8..md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "39ebec70501188ad",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8..md",
     "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304091701.png",
     "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304092943.png",
     "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304095014.png",
@@ -159,7 +160,6 @@
     "무제 파일.canvas",
     "2024-03-04.md",
     "일정 관리/화학 분석.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "일정 관리/IR 할 것.md",
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227154003.png",
