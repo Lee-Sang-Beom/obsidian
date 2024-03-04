@@ -2,16 +2,20 @@
 https://velog.io/@2ast/React-%EC%84%9C%EB%B2%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8React-Server-Component%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0
 
 
-
+##### RCC는 RSC를 직접 return해줄 수 없으며, 반드시 children prop의 형태로 넘겨주어야 한다.
 ```tsx
+const ChildServerComponent = () =>{
+	...
+  return <div>server component</div>;
+}
 
-export default function ParentRSC(){
-	return (
-	<>
-		<ChildRCC>
-		</ChildRCC>
-	</>
-	)
+const ParentClientComponent = () =>{
+	...
+	return <div><ChildServerComponent/></div>;
+}
+
+function ContainerServerComponent() {
+  return <ParentClientComponent/>;
 }
 ```
 
@@ -19,14 +23,15 @@ export default function ParentRSC(){
 - 하지만 children prop을 통해 RSC를 넘기게 되면, 사실상 공통 부모가 렌더링 되는 시점에 RSC가 실행이 되고, 그 결과값을 children으로 전달할 수 있다.
 
 ```tsx
-function ParentClientComponent({children}) {
-	...
-  return <div onChange={...}>{children}</div>;
-}
 
 function ChildServerComponent() {
 	...
   return <div>server component</div>;
+}
+
+function ParentClientComponent({children}) {
+	...
+  return <div onChange={...}>{children}</div>;
 }
 
 function ContainerServerComponent() {
