@@ -42,3 +42,12 @@ function ContainerServerComponent() {
 ```
 
 - 만약, 위와 같이 “**ChildServerComponent**”는 “**ParentClientComponent**”의 자식 컴포넌트이지만, 사실상 “**ContainerServerComponent**”를 공통부모로 갖고있기 때문에, “**ContainerServerComponent**”가 렌더링되는 시점에 “**ChildServerComponent**”도 함께 렌더링되어 그 결과값이 “**ParentClientComponent**”에 넘겨지고 있다.
+
+
+
+#### 2. ssr과 rsc
+- 전통적인 SSR: 서버에서 컴포넌트 해석하여, 매 페이지마다 서버에서 html 생성해서 받음
+- 전통적인 CSR: 빈 HTML, js 번들받고 클라이언트에서 컴포넌트 렌더링
+- nextjs SSR: 초기로딩시, 서버에서 html파일을 ssr방식으로 받아오고, js번들도 같이받아와(csr) 페이지 상호작용을 천천히 그려나감
+
+- rsc: 
