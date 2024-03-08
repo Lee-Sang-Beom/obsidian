@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CKEditor/CustomCKEditor.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CKEditor/CustomCKEditor.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CKEditor/CustomCKEditor.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CKEditor/CustomCKEditor.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md"
               }
             }
           }
@@ -148,12 +148,12 @@
   },
   "active": "6878dc4044a32e13",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "CKEditor/CustomCKEditor.md",
     "CKEditor/1. CustomCKEditor.md",
     "CKEditor",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
