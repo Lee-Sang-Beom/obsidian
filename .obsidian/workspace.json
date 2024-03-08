@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+                "file": "CKEditor/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+                "file": "CKEditor/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+                "file": "CKEditor/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md"
+                "file": "CKEditor/무제 파일.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "6878dc4044a32e13",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+    "CKEditor/무제 파일.md",
+    "CKEditor/1. CustomCKEditor.md",
+    "CKEditor",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
@@ -174,8 +177,6 @@
     "일정 관리/화학 분석.md",
     "Next.js/Server Action 사용하기.md",
     "Next.js/Next.js 공식문서 정리/추천.md",
-    "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
-    "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
     "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304091701.png",
     "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304092943.png",
     "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240304095014.png",
@@ -196,7 +197,6 @@
     "무제 파일 1.canvas",
     "일정 관리/보고/2024년 02월/4주차",
     "일정 관리/보고/2024년 02월/3주차",
-    "일정 관리/보고/2024년 02월/2주차",
     "무제 파일 4.canvas",
     "무제 파일 3.canvas"
   ]
