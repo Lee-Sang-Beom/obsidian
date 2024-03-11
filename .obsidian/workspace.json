@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/기본개념/SSR, CSR, RSC, RCC.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "c18387144a4c45b5",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
+    "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "ssr.png",
     "사용 이미지/Next.js/guide course/chapter 8/Pasted image 20240308150605.png",
@@ -160,8 +162,6 @@
     "CKEditor/CustomCKEditor.md",
     "CKEditor/1. CustomCKEditor.md",
     "CKEditor",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
-    "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
