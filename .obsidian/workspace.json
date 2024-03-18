@@ -6,7 +6,6 @@
       {
         "id": "846a2cf34ee2b4a7",
         "type": "tabs",
-        "dimension": 24.788902291917974,
         "children": [
           {
             "id": "04190b48e22c27eb",
@@ -18,21 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "2431b3d7c460737d",
-        "type": "tabs",
-        "dimension": 75.21109770808204,
-        "children": [
-          {
-            "id": "86bbf49095c8519e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -101,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md"
+              }
             }
           }
         ]
@@ -158,20 +146,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "86bbf49095c8519e",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "backend/Spring 강의/DAY 2.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-    "Pasted image 20240318173844.png",
+    "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318173844.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Pasted image 20240318103451.png",
-    "Pasted image 20240318103411.png",
+    "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318103451.png",
+    "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318103411.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
-    "Pasted image 20240318092909.png",
+    "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318092909.png",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
-    "Pasted image 20240316215612.png",
+    "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240316215612.png",
     "사용 이미지/Next.js/guide course/chapter 9/server-rendering-with-streaming-chart.avif",
     "사용 이미지/Next.js/guide course/chapter 9/server-rendering-with-streaming 1.avif",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240315131209.png",
@@ -193,7 +182,6 @@
     "Next.js/기본개념/API routes.md",
     "Next.js/기본개념/POST API ROUTE.md",
     "backend/Spring 강의/DAY 1.md",
-    "backend/Spring 강의/DAY 2.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "프론트엔드 기본지식/Oauth.md",
     "프론트엔드 기본지식/Cookie, Session, Web Storage.md",
