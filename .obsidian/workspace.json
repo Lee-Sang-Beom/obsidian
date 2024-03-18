@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "04190b48e22c27eb",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Pasted image 20240318103451.png",
     "Pasted image 20240318103411.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Pasted image 20240318092909.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
@@ -161,7 +161,6 @@
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240315131209.png",
     "사용 이미지/Next.js/guide course/chapter 9/ssr.png",
     "Pasted image 20240315131152.png",
-    "Pasted image 20240315131201.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
     "사용 이미지/Next.js/guide course/chapter 9",
