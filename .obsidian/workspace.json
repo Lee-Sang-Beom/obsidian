@@ -6,6 +6,7 @@
       {
         "id": "846a2cf34ee2b4a7",
         "type": "tabs",
+        "dimension": 24.788902291917974,
         "children": [
           {
             "id": "04190b48e22c27eb",
@@ -24,17 +25,14 @@
       {
         "id": "2431b3d7c460737d",
         "type": "tabs",
+        "dimension": 75.21109770808204,
         "children": [
           {
             "id": "86bbf49095c8519e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -103,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -166,9 +160,10 @@
   },
   "active": "86bbf49095c8519e",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Pasted image 20240318173844.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Pasted image 20240318103451.png",
@@ -188,7 +183,6 @@
     "CKEditor/CustomCKEditor.md",
     "CKEditor/1. CustomCKEditor.md",
     "CKEditor",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
