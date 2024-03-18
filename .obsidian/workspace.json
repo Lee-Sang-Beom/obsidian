@@ -11,11 +11,9 @@
             "id": "04190b48e22c27eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-                "mode": "source",
-                "source": false
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md"
+                "file": "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png"
               }
             }
           }
@@ -146,11 +144,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "04190b48e22c27eb",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Pasted image 20240316215612.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "사용 이미지/Next.js/guide course/chapter 9/server-rendering-with-streaming-chart.avif",
     "사용 이미지/Next.js/guide course/chapter 9/server-rendering-with-streaming 1.avif",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240315131209.png",
@@ -164,7 +162,6 @@
     "사용 이미지/Next.js/guide course/chapter 8/Pasted image 20240308150605.png",
     "사용 이미지/Next.js/guide course/chapter 9",
     "사용 이미지/Next.js/guide course/chapter 8",
-    "사용 이미지/Next.js/guide course/chapter 8/Pasted image 20240304142814.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "CKEditor/CustomCKEditor.md",
