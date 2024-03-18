@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md"
               }
             }
           }
@@ -148,12 +148,12 @@
   },
   "active": "04190b48e22c27eb",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Pasted image 20240318103451.png",
     "Pasted image 20240318103411.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Pasted image 20240318092909.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "Pasted image 20240316215612.png",
     "사용 이미지/Next.js/guide course/chapter 9/server-rendering-with-streaming-chart.avif",
