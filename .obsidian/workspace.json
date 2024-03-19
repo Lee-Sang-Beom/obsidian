@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a04344d529ac70b6",
+        "id": "1b8e98edaf763a37",
         "type": "tabs",
         "children": [
           {
-            "id": "06461fde6426cc30",
+            "id": "cf734aa8882337b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/Spring 강의/DAY 3.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "backend/Spring 강의/DAY 3.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,14 +138,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "06461fde6426cc30",
+  "active": "cf734aa8882337b4",
   "lastOpenFiles": [
+    "내 프로젝트/내 프로젝트 (뎁스).md",
+    "내 프로젝트/Portfolio.md",
     "backend/Spring 강의/DAY 5.md",
-    "backend/Spring 강의/DAY 4.md",
     "backend/Spring 강의/DAY 3.md",
+    "backend/Spring 강의/DAY 4.md",
     "backend/Spring 강의/DAY 2.md",
     "backend/Spring 강의/DAY 1.md",
-    "내 프로젝트/내 프로젝트 (뎁스).md",
     "backend/Spring 강의/DAY 8.md",
     "backend/Spring 강의/DAY 9.md",
     "backend/Spring 강의/DAY 7.md",
@@ -185,7 +178,6 @@
     "사용 이미지/Spring",
     "사용 이미지/무제 파일.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318173844.png",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318103451.png",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318103411.png",
