@@ -1,4 +1,4 @@
-#### View 환경설정 - Welcome Page 만들기
+### View 환경설정 - Welcome Page 만들기
 
 ##### 1. 정적 페이지 만들어보기
 

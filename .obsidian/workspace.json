@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 1.md",
+                "file": "backend/Spring 강의/DAY 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 1.md",
+                "file": "backend/Spring 강의/DAY 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 1.md",
+                "file": "backend/Spring 강의/DAY 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 1.md"
+                "file": "backend/Spring 강의/DAY 5.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "04190b48e22c27eb",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 2.md",
+    "backend/Spring 강의/DAY 3.md",
+    "backend/Spring 강의/DAY 5.md",
     "backend/Spring 강의/DAY 1.md",
+    "backend/Spring 강의/DAY 2.md",
+    "backend/Spring 강의/DAY 4.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
@@ -185,8 +188,6 @@
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "프론트엔드 기본지식/Oauth.md",
     "프론트엔드 기본지식/Cookie, Session, Web Storage.md",
-    "일정 관리/IR 할 것.md",
-    "일정 관리/화학 분석.md",
     "사용 이미지/Next.js/guide course/chapter 7",
     "무제 파일.canvas",
     "사용 이미지/Next.js/guide course/chapter 6",
