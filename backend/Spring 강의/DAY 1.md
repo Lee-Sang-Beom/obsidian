@@ -2,8 +2,7 @@
 
 > **Gradle**(groovy 기반 오픈소스로 공개된 빌드도구)은 의존관계가 있는 라이브러리를 함께 다운로드 한다. 
 
-
-**스프링 부트 라이브러리**
+##### **스프링 부트 라이브러리**
 
 - spring-boot-starter-web  
 	- spring-boot-starter-tomcat: **톰캣** (웹서버)  
@@ -18,7 +17,8 @@
     - logback, slf4j  
 
 
-**테스트 라이브러리**  
+
+##### **테스트 라이브러리**  
 
 - spring-boot-starter-test  
 	- **Junit**: **테스트 프레임워크** 

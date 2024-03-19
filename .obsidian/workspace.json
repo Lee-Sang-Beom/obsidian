@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 7.md",
+                "file": "backend/Spring 강의/DAY 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 7.md",
+                "file": "backend/Spring 강의/DAY 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 7.md",
+                "file": "backend/Spring 강의/DAY 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 7.md"
+                "file": "backend/Spring 강의/DAY 2.md"
               }
             }
           }
@@ -148,16 +148,16 @@
   },
   "active": "04190b48e22c27eb",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 8.md",
-    "backend/Spring 강의/DAY 9.md",
-    "backend/Spring 강의/DAY 10.md",
     "backend/Spring 강의/DAY 1.md",
-    "backend/Spring 강의/DAY 2.md",
-    "backend/Spring 강의/DAY 3.md",
     "backend/Spring 강의/DAY 4.md",
+    "backend/Spring 강의/DAY 3.md",
+    "backend/Spring 강의/DAY 2.md",
     "backend/Spring 강의/DAY 5.md",
     "backend/Spring 강의/DAY 6.md",
     "backend/Spring 강의/DAY 7.md",
+    "backend/Spring 강의/DAY 8.md",
+    "backend/Spring 강의/DAY 9.md",
+    "backend/Spring 강의/DAY 10.md",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093702.png",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093638.png",
     "사용 이미지/Spring/Day 6",

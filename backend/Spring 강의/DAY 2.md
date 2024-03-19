@@ -33,7 +33,7 @@
 	- [스프링 공식 튜토리얼](https://spring.io/guides/gs/serving-web-content/)  
 	- [스프링부트 메뉴얼](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-features.html#boot-features-spring-mvc-template-engines )
 
-- **src/main/java/hello/hellosptring/controller/HelloControll.java**
+- `(src/main/java/hello/hellosptring/controller/HelloControll.java)`
 ```java
 package hello.hellospring.controller;  
   
@@ -51,7 +51,7 @@ public class HelloController {
 }  
 ```  
 
-- **src/main/resources/templates/hello.html**
+- (`src/main/resources/templates/hello.html`)
 ```html
 <!DOCTYPE html>   
 <html xmlns:th="http://www.thymeleaf.org">  

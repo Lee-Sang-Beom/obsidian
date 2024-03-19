@@ -43,7 +43,7 @@ public class Member {
 
 ### 회원 리포지토리 인터페이스 만들기
 
-- `(main/java/hello.hellospring/domain/Member.class)`
+- `(main/java/hello.hellospring/repository/MemberRepository.interface)`
 
 ```java
 package hello.hellospring.repository;
@@ -73,6 +73,8 @@ public interface MemberRepository {
 ---
 
 ### 메소드 정의하기
+
+- `(main/java/hello.hellospring/repository/MemoryMemberRepository.class)`
 
 ```java
 package hello.hellospring.repository;
