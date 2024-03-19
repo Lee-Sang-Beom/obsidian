@@ -16,8 +16,7 @@
     - logback, slf4j  
 
 
-
-#### 2. 테스트 라이브러리**  
+#### 2. 테스트 라이브러리 
 
 - spring-boot-starter-test  
 	- **Junit**: **테스트 프레임워크** 

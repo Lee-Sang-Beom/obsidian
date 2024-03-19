@@ -1,17 +1,16 @@
-### View 환경설정 - Welcome Page 만들기
+### 1. View 환경설정 - Welcome Page 만들기
 
-##### 1. 정적 페이지 만들어보기
-
-- [참고자료: springboot의 index.html 설명](https://docs.spring.io/spring-boot/docs/current/reference/html/web.html#web)  
+#### 1-1. 정적 페이지 만들어보기
 
 - 스프링 부트는 정적 및 템플릿 시작 페이지를 지원한다.  
+	- [참고자료: springboot의 index.html 설명](https://docs.spring.io/spring-boot/docs/current/reference/html/web.html#web)  
 
 - 먼저, 구성된 정적 콘텐츠 위치(static)에서 **index.html** 파일을 찾는다. 
 	- 만약, 찾을 수 없으면 인덱스 템플릿(index.template)을 찾는다.  
 
 - 둘 중 하나가 발견되면 자동으로 애플리케이션의 시작 페이지로 사용된다.  
 
-- **resources/static/index.html**
+- (`resources/static/index.html`)
 ```    
 <html lang="en">  
 <head>  
@@ -24,7 +23,7 @@
 ```
 
 
-##### 2. Thymeleaf 템플릿 엔진 사용해보기
+#### 1-2. Thymeleaf 템플릿 엔진 사용해보기
 
 - Thymeleaf 템플릿 엔진이라는 이름에서 **템플릿 엔진**이란, HTML을 정적으로 전달하는 것이 아니라, HTML을 서버에서 동적으로 바꿔서 전달하게끔 도와주는 도구를 의미한다.
 
@@ -71,15 +70,15 @@ public class HelloController {
    - 먼저 웹 브라우저에서 `localhost:8080/hello` URL로 진입한다.
 
    - Spring Boot는 **Tomcat이라는 웹 서버**(정확히는 WAS)를 내장하고 있다.
-	   - 이 내장 Tomcat서버가 경로 slot이 "/hello"임을 확인하고 spring한테 해당 경로에 대해 물어본다.  
+	   - 이 내장 Tomcat서버가 경로 slot이 `/hello`임을 확인하고 spring한테 해당 경로에 대해 물어본다.  
    
-   - Spring은 **HelloController**에서 @GetMapping("hello")부분을 통해, "/hello"부분에서 GET 요청이 이루어짐을 확인하고 매칭을 시켜준다. 
-	   - 그 결과로 **public String hello 메소드**가 실행된다.
+   - Spring은 **HelloController**에서 `@GetMapping("hello")`부분을 통해, `/hello`부분에서 GET 요청이 이루어짐을 확인하고 매칭을 시켜준다. 
+	   - 그 결과로 `public String hello()` 메소드가 실행된다.
    
-   - **public String hello 메소드**가 실행되면서, Spring은 argument로 model을 사용할 수 있도록, 모델을 만들어서 넘겨준다. 
-	   - 그리고, hello메소드 내부에서는 넘겨받은 모델에 attributeName(key)와 attributeValue(value)라는 데이터를 추가한다.  
+   - `public String hello()` 메소드가 실행되면서, Spring은 argument로 model을 사용할 수 있도록, 모델을 만들어서 넘겨준다. 
+	   - 그리고, `hello()` 메소드 내부에서는 넘겨받은 모델에 `attributeName(key)`와 `attributeValue(value)`라는 데이터를 추가한다.  
    
-   - 마지막으로 public String hello 메소드는 return "hello"를 수행한다.
+   - 마지막으로 `public String hello()`메소드는 `return "hello"`를 수행한다.
 	   - 해당 return 문은 `resources/templates/hello.html` 파일을 연결시켜, 해당 파일을 렌더링 시켜 화면에 표시할 수 있도록 하는 구문이다. 
 	   - 이 때, 화면을 찾아 처리하는 것은 `viewResolver`라는 것이 진행해준다.   
 	
