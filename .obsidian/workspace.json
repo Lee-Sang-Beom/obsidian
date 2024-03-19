@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 3.md",
+                "file": "backend/Spring 강의/DAY 8.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 3.md",
+                "file": "backend/Spring 강의/DAY 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 3.md",
+                "file": "backend/Spring 강의/DAY 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 3.md"
+                "file": "backend/Spring 강의/DAY 8.md"
               }
             }
           }
@@ -148,9 +148,17 @@
   },
   "active": "04190b48e22c27eb",
   "lastOpenFiles": [
+    "backend/Spring 강의/DAY 9.md",
+    "backend/Spring 강의/DAY 8.md",
+    "backend/Spring 강의/DAY 7.md",
+    "backend/Spring 강의/DAY 6.md",
+    "backend/Spring 강의/DAY 10.md",
+    "backend/Spring 강의/DAY 5.md",
+    "backend/Spring 강의/DAY 4.md",
+    "사용 이미지/Spring/Day 3/Pasted image 20240319093257.png",
+    "backend/Spring 강의/DAY 3.md",
     "backend/Spring 강의/DAY 1.md",
     "backend/Spring 강의/DAY 2.md",
-    "backend/Spring 강의/DAY 3.md",
     "JSP/0. 시작하기.md",
     "JSP/JSP 백링크.md",
     "jQuery/jQuery 백링크.md",
@@ -162,19 +170,11 @@
     "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가/코드.md",
     "backend/Spring 강의/Spring 강의 학습 백링크.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
-    "backend/Spring 강의/DAY 10.md",
-    "backend/Spring 강의/DAY 9.md",
-    "backend/Spring 강의/DAY 8.md",
-    "backend/Spring 강의/DAY 7.md",
-    "backend/Spring 강의/DAY 6.md",
-    "backend/Spring 강의/DAY 4.md",
-    "backend/Spring 강의/DAY 5.md",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093702.png",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093638.png",
     "사용 이미지/Spring/Day 6",
     "사용 이미지/Spring/Day 5",
     "사용 이미지/Spring/Day 4/Pasted image 20240319093357.png",
-    "사용 이미지/Spring/Day 3/Pasted image 20240319093257.png",
     "Pasted image 20240319093356.png",
     "Pasted image 20240319093353.png",
     "사용 이미지/Spring/Day 5/Pasted image 20240319093438.png",
@@ -186,7 +186,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318173844.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318103451.png",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318103411.png",
     "사용 이미지/Next.js/guide course/chapter 9",
