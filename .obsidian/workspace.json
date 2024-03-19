@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "846a2cf34ee2b4a7",
+        "id": "a04344d529ac70b6",
         "type": "tabs",
         "children": [
           {
-            "id": "04190b48e22c27eb",
+            "id": "06461fde6426cc30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/Spring 강의/DAY 8.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "backend/Spring 강의/DAY 8.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "04190b48e22c27eb",
+  "active": "06461fde6426cc30",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 9.md",
     "backend/Spring 강의/DAY 8.md",
+    "backend/Spring 강의/DAY 9.md",
     "backend/Spring 강의/DAY 7.md",
     "backend/Spring 강의/DAY 6.md",
     "backend/Spring 강의/DAY 10.md",
