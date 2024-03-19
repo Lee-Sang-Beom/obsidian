@@ -1,5 +1,6 @@
 #### 1. gnhome
   - 모바일 작업
+  - 지속적 유지보수 참여
 #### 2. 일자리
 - 이력서관리 (이력서관리, 이력사항등록관리, 자소서 등록관리, 포폴 등록관리)
 - 입사지원관리
@@ -28,7 +29,15 @@
 
 #### 7. 옵시디언
 - 지금 여기 쓰고있는 곳
+	- jsp,jquery,nextjs14공식코스,spring등 학습
+	- 업무하면서 이해안되던 것들이나 저장해놔야겠는거 저장
+
 - https://github.com/Lee-Sang-Beom/obsidian
 
-#### 8. 보스 타이머
-- 
+#### 8. 보스 타이머 (TOSM)
+- https://github.com/Lee-Sang-Beom/TOS_M_BOSSTIMER
+
+#### 9. 스터디 (회사)
+ - https://github.com/taihwa/deps_blog
+
+#### 
