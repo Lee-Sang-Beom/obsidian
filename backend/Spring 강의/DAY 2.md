@@ -9,7 +9,7 @@
 - 먼저, 구성된 정적 콘텐츠 위치(static)에서 **index.html** 파일을 찾는다. 
 	- 만약, 찾을 수 없으면 인덱스 템플릿(index.template)을 찾는다.  
 
-- 둘 중 하나가 발[5. Navigation Between Pages]]견되면 자동으로 애플리케이션의 시작 페이지로 사용된다.  
+- 둘 중 하나가 발견되면 자동으로 애플리케이션의 시작 페이지로 사용된다.  
 
 - **resources/static/index.html**
 ```    
