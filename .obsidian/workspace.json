@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 6.md",
+                "file": "backend/Spring 강의/DAY 7.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 6.md",
+                "file": "backend/Spring 강의/DAY 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 6.md",
+                "file": "backend/Spring 강의/DAY 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 6.md"
+                "file": "backend/Spring 강의/DAY 7.md"
               }
             }
           }
@@ -148,25 +148,30 @@
   },
   "active": "04190b48e22c27eb",
   "lastOpenFiles": [
-    "사용 이미지/Spring/Day 6/Pasted image 20240319093638.png",
-    "사용 이미지/Spring/Day 6",
+    "backend/Spring 강의/DAY 8.md",
+    "backend/Spring 강의/DAY 9.md",
+    "backend/Spring 강의/DAY 10.md",
+    "backend/Spring 강의/DAY 1.md",
+    "backend/Spring 강의/DAY 2.md",
+    "backend/Spring 강의/DAY 3.md",
+    "backend/Spring 강의/DAY 4.md",
     "backend/Spring 강의/DAY 5.md",
     "backend/Spring 강의/DAY 6.md",
-    "backend/Spring 강의/DAY 4.md",
+    "backend/Spring 강의/DAY 7.md",
+    "사용 이미지/Spring/Day 6/Pasted image 20240319093702.png",
+    "사용 이미지/Spring/Day 6/Pasted image 20240319093638.png",
+    "사용 이미지/Spring/Day 6",
     "사용 이미지/Spring/Day 5",
     "사용 이미지/Spring/Day 4/Pasted image 20240319093357.png",
     "사용 이미지/Spring/Day 3/Pasted image 20240319093257.png",
     "Pasted image 20240319093356.png",
     "Pasted image 20240319093353.png",
     "사용 이미지/Spring/Day 5/Pasted image 20240319093438.png",
-    "backend/Spring 강의/DAY 3.md",
     "사용 이미지/Spring/Day 4",
     "사용 이미지/Spring/Day 3",
     "사용 이미지/Spring/무제 파일.md",
     "사용 이미지/Spring",
     "사용 이미지/무제 파일.md",
-    "backend/Spring 강의/DAY 1.md",
-    "backend/Spring 강의/DAY 2.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
@@ -176,8 +181,6 @@
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318103451.png",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318103411.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
-    "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318092909.png",
-    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
     "사용 이미지/Next.js/guide course/chapter 9",
     "사용 이미지/Next.js/guide course/chapter 8",
@@ -189,9 +192,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "프론트엔드 기본지식/인증토큰과 리프레시 토큰이란.md",
-    "기타/인증토큰과 리프레시 토큰이란.md",
-    "React/hook/useRef.md",
-    "Next.js/Next.js 살펴보기.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "사용 이미지/Next.js/guide course/chapter 7",
     "무제 파일.canvas",
