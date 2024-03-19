@@ -1,4 +1,5 @@
-
+- 접근제한 코드.
+- nextjs13에서의 미들웨어: [미들웨어](https://velog.io/@pds0309/nextjs-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4%EB%9E%80)
 ```tsx
 
 // 요청발생경로 http://localhost:3000/Sm/SysChemical?page=0&size=10&chemSearchType=ALL&searchKeyWord=&changwonYn=Y&sort=regDt&orderBy=DESC&active=0

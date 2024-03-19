@@ -41,10 +41,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-            <head>{/* ... */}</head>      <body>
-                <NextAuthSessionProvider>{children}</NextAuthSessionProvider>   
-         {" "}
-      </body>   {" "}
+	  <head>{/* ... */}</head>      
+	  <body>
+		<NextAuthSessionProvider>{children}</NextAuthSessionProvider>   
+      </body>  
     </html>
   );
 }
