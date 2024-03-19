@@ -4,6 +4,7 @@
 - `@ResponseBody`를 사용하면, ViewResolver를 사용하지 않는데, 이는 HTTP의 BODY에 문자 내용을 직접 반환한다는 뜻이다.
 - JSON 형식의 `{key: value , ...}` 형태의 값이 반환된다.
 
+
 #### Controller
 
 ```java
@@ -61,7 +62,8 @@ public class HelloController {
 
 ```
 
-#### API 처리 과정 (강의자료 이미지 참고)
+
+### 2. API 처리 과정 (강의자료 이미지 참고)
 
 1. 웹 브라우저에서 `localhost:8080/hello-api` 요청을 한다.
 2. 해당 요청은 내장 tomcat server에게 먼저 전달된다.

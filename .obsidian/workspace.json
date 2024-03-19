@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 2.md",
+                "file": "backend/Spring 강의/Spring 강의 학습 백링크.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ed6725d58788b628",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54dee37fedef7ca6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 2.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 2.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 2.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md"
               }
             }
           }
@@ -146,18 +164,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "04190b48e22c27eb",
+  "active": "54dee37fedef7ca6",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 1.md",
-    "backend/Spring 강의/DAY 4.md",
+    "backend/Spring 강의/Spring 강의 학습 백링크.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "backend/Spring 강의/DAY 10.md",
+    "backend/Spring 강의/DAY 9.md",
+    "backend/Spring 강의/DAY 8.md",
+    "backend/Spring 강의/DAY 7.md",
+    "backend/Spring 강의/DAY 6.md",
     "backend/Spring 강의/DAY 3.md",
+    "backend/Spring 강의/DAY 4.md",
     "backend/Spring 강의/DAY 2.md",
     "backend/Spring 강의/DAY 5.md",
-    "backend/Spring 강의/DAY 6.md",
-    "backend/Spring 강의/DAY 7.md",
-    "backend/Spring 강의/DAY 8.md",
-    "backend/Spring 강의/DAY 9.md",
-    "backend/Spring 강의/DAY 10.md",
+    "backend/Spring 강의/DAY 1.md",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093702.png",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093638.png",
     "사용 이미지/Spring/Day 6",
@@ -173,9 +194,7 @@
     "사용 이미지/Spring",
     "사용 이미지/무제 파일.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318173844.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318103451.png",
@@ -191,7 +210,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
-    "프론트엔드 기본지식/인증토큰과 리프레시 토큰이란.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "사용 이미지/Next.js/guide course/chapter 7",
     "무제 파일.canvas",

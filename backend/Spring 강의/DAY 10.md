@@ -6,9 +6,8 @@
 - 회원 서비스 개발
 - **회원 서비스 테스트 (여기)**
 
----
 
-### 작성 1. MemberSevice
+### 2. 작성 (1). MemberSevice
 
 - `(main/java/hello.hellospring/service/MemberService.class)
 `
@@ -86,9 +85,8 @@ public class MemberService {
 
 ```
 
----
 
-### 작성 2. MemberServiceTest 
+### 2. 작성 (2). MemberServiceTest 
 
 - `(test/java/hello.hellospring/service/MemberServiceTest.class)`
 

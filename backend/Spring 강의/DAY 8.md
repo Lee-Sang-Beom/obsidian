@@ -6,9 +6,8 @@
 - 회원 서비스 개발
 - 회원 서비스 테스트
 
----
 
-### 테스트 케이스
+### 1. 테스트 케이스
 
 - 개발 기능을 테스트하기위해, 자바의 **main() 메소드나, 웹 애플리케이션의 컨트롤러**를 통해 해당 기능을 실행할 수 있다.
 - 하지만, 이런 방법은 테스트 세팅과 실행이 오래걸린다. 또한 반복이 어렵고, 여러 테스트를 한 번에 실행하기 어렵다는 단점이 있다.
@@ -18,9 +17,7 @@
 - 테스트 순서에 의존관계가 있다면, 테스트 실행 방법이나 환경에 따라 테스트 결과가 달라지고 테스트 대상이 불분명해지기 때문이다.
 
 
----
-
-### 작성 1. MemoryMemberRepositoryTest
+### 2. 작성 (1). MemoryMemberRepositoryTest
 
 - `(test/java/hello.hellospring/repository/MemoryMemberRepositoryTest.class)`
 

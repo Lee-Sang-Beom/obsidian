@@ -6,9 +6,8 @@
 - 회원 서비스 개발
 - 회원 서비스 테스트
 
----
 
-### 회원 도메인 만들기
+### 1. 회원 도메인 만들기
 
 - `(main/java/hello.hellospring/domain/Member.class)`
 
@@ -39,9 +38,8 @@ public class Member {
 }
 ```
 
----
 
-### 회원 리포지토리 인터페이스 만들기
+### 2. 회원 리포지토리 인터페이스 만들기
 
 - `(main/java/hello.hellospring/repository/MemberRepository.interface)`
 
@@ -70,9 +68,8 @@ public interface MemberRepository {
 }
 ```
 
----
 
-### 메소드 정의하기
+### 3. 메소드 정의하기
 
 - `(main/java/hello.hellospring/repository/MemoryMemberRepository.class)`
 
