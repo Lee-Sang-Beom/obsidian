@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
+                "file": "Next.js/기본개념/middleware.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
+                "file": "Next.js/기본개념/middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
+                "file": "Next.js/기본개념/middleware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 변경점.md"
+                "file": "Next.js/기본개념/middleware.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "cf734aa8882337b4",
   "lastOpenFiles": [
+    "Next.js/기본개념/rewrite, redirect.md",
+    "Next.js/기본개념/middleware.md",
+    "Next.js/Next.js 공식문서 정리/추천.md",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "Next.js/Server Action 사용하기.md",
     "Next.js/NextAuth 사용하기/Middleware와 request.nextUrl.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
@@ -171,12 +176,7 @@
     "backend/Spring 강의/DAY 8.md",
     "backend/Spring 강의/DAY 9.md",
     "backend/Spring 강의/DAY 7.md",
-    "backend/Spring 강의/DAY 6.md",
-    "backend/Spring 강의/DAY 10.md",
     "사용 이미지/Spring/Day 3/Pasted image 20240319093257.png",
-    "JSP/0. 시작하기.md",
-    "JSP/JSP 백링크.md",
-    "jQuery/jQuery 백링크.md",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093702.png",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093638.png",
     "사용 이미지/Spring/Day 6",

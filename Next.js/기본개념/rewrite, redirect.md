@@ -1,0 +1,1 @@
+- https://velog.io/@deli-ght/nextrewrite%EC%99%80-redirect
