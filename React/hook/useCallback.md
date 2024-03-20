@@ -1,5 +1,5 @@
 
-#### 1. useCallback
+#### 1. `useCallback`이란?
 
 - 컴포넌트 최적화를 위한 React hook 중 하나이다.
 	- `useMemo`
@@ -8,11 +8,32 @@
 - 컴포넌트가 렌더링될 때마다 **동일한 값**을 반환하는 함수를 **계속 반복하여 호출하는 것**이 아니라는 점이 핵심이다.
 	- 처음으로 값을 계산할 때 해당 값을 메모리에 저장한 다음, 그 값이 필요할 때마다 다시 계산하지 않고 **메모리에서 꺼내서 재사용**할 수 있도록 한다.
 	- 의존성 배열에 포함된 값이 **업데이트**될 때, 메모리에 저장된 값이 업데이트된다.
-	- `useCallback`과 다르게, `useMemo`는 **함수의 결과를 반환하는 것에 주목할 필요**가 있다.
+	- `useMemo`과 다르게, `useCallback`은 1번째 인자로 전달한 **콜백 함수 자체를 반환하는 것에 주목할 필요**가 있다.
 
 
+#### 2. `useCallback`의 구조
 
- 2. 예제 1
+- 구조 또한, `useMemo`와 동일하다.
+
+ - **인자 1**
+	 - **callback 함수**이다.
+	 - **memorization**할 값을 계산해 return하는 함수이다.
+
+ - **인자 2**
+	 - 의존성배열(dependancyArray): 배열 내 값이 업데이트될 때만 콜백함수를 호출해 memorization된 값을 업데이트하는 역할을 한다.
+
+- **사용 예시**
+```tsx
+// value값이 변할 때마다, calculate() 함수의 결과로 반환되는 값이 newValue에 들어간다.
+ const newValue = useMemo(()=> {
+    return calculate();
+ }, [value])
+```
+
+
+#### 2. 예제 1
+
+```jsx
 
 import logo from "./logo.svg";
 import "./App.css";
@@ -21,6 +42,7 @@ import { useState, useReducer, useEffect, useCallback } from "react";
 function App() {
   const [num, setNum] = useState(0);
   const [tog, setTog] = useState(true);
+  
   // const someFun = () => {
   //   console.log(num);
   // };
@@ -67,14 +89,13 @@ function App() {
 }
 
 export default App;
+```
 
 
-===
+#### 3. 예제 2 (obj 확인하기)
 
-3. 예제 2 (obj 확인하기)
-
-(3-1) app.js
-
+-  `app.js`
+```jsx
 import logo from "./logo.svg";
 import "./App.css";
 import { useState, useReducer, useEffect, useCallback } from "react";
@@ -126,16 +147,16 @@ function App() {
 }
 
 export default App;
+```
 
-===
-
-(3-2) box.js
-
+- `box.js`
+```jsx
 import { useEffect, useState } from "react";
 
 export default function Box({createBoxStyle}){
 
     const [style, setStyle] = useState({});
+    
     useEffect(()=>{
         console.log('box size 조절');
         setStyle(createBoxStyle());
@@ -143,7 +164,7 @@ export default function Box({createBoxStyle}){
 
     return(
         <div style={style}>
-            
         </div>
     );
 }
+```
