@@ -118,6 +118,9 @@ function App() {
   //   };
   // };
 
+
+  // size가 바뀌어야만 createBoxStyle()이 업데이트된다.
+  // 따라서, box.js의 useEffect 내의 console.log()는 size state에 의존하여 출력된다.
   const createBoxStyle = useCallback(()=>{
     return {
           backgroundColor: "pink",

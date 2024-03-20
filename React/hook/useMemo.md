@@ -159,3 +159,10 @@ function App() {
 
 export default App;
 ```
+
+
+#### 5. 프로젝트 내 사용경험 (TableHeader)
+
+- 값을 메모리제이션하는`useMemo` hook은 사용자의 이벤트에 의해 자주 바뀌지 않는 요소에 사용하면 좋을 것으로 판단했다.
+	- 자주 바뀌는 요소의 대표적 예시는 Form 요소(input, checkbox 등)
+- 
