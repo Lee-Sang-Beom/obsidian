@@ -5,7 +5,10 @@
 	- **`useMemo`**
 	- `useCallback`
 
-- 컴포넌트가 렌더링될 때마다 **동일한 값** 반환하는 함수를 **계속 반복하여 호출하는 것**이 아니라, 
+- 컴포넌트가 렌더링될 때마다 **동일한 값**을 반환하는 함수를 **계속 반복하여 호출하는 것**이 아니라는 점이 핵심이다.
+	- 처음으로 값을 계산할 때 해당 값을 메모리에 저장한 다음, 그 값이 필요할 때마다 다시 계산하지 않고 **메모리에서 꺼내서 재사용**할 수 있도록 한다.
+	- 의존성 배열에 포함된 값이 **업데이트**될 때, 메모리에 저장된 값이 업데이트된다.
+
 
 #### 2. `useMemo`의 구조
 
@@ -14,7 +17,7 @@
 	 - **memorization**할 값을 계산해 return하는 함수이다.
 
  - **인자 2**
-	 - 의존성배열: 배열 내 값이 업데이트될 때만 콜백함수를 호출해 memorization된 값을 업데이트하는 역할을 한다.
+	 - 의존성배열(dependancyArray): 배열 내 값이 업데이트될 때만 콜백함수를 호출해 memorization된 값을 업데이트하는 역할을 한다.
 
 - **사용 예시**
 ```tsx
@@ -23,9 +26,11 @@
     return calculate();
  }, [value])
 ```
-===
 
- 2. 예제 1 (계산기)
+
+#### 3. 예제 1 (계산기)
+
+```jsx
 import logo from "./logo.svg";
 import "./App.css";
 import { useState, useRef, useEffect, useMemo } from "react";
@@ -62,7 +67,8 @@ function App() {
       <span> + 10000 = {hardSum}</span>
 
 
-      <h3>계산기</h3> {/* APP컴토넌트가 함수형 컴포넌트라, EASY한 변경에도, hardSum이 초기화되면서 느려짐*/}
+      <h3>계산기</h3> 
+      {/* APP컴토넌트가 함수형 컴포넌트라, EASY한 변경에도, hardSum이 초기화되면서 느려짐*/}
       <input
         type="number"
         value={easyNum}
@@ -74,10 +80,12 @@ function App() {
 }
 
 export default App;
+```
 
-===
 
-3. 예제 2 (obj 확인하기)
+#### 4. 예제 2 (Object 확인하기)
+
+```jsx
 
 import logo from "./logo.svg";
 import "./App.css";
@@ -150,3 +158,4 @@ function App() {
 }
 
 export default App;
+```
