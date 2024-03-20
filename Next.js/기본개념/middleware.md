@@ -12,7 +12,8 @@ return NextResponse.redirect(new URL('/', request.nextUrl.origin))
 return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin))
 ```
 
-3. Next.js의 NextReponse에 대한 여러 메소드
+3. Next.js의 NextResponse에 대한 여러 메소드
+	- NextResponse의 모체는 [이거](https://developer.mozilla.org/ko/docs/Web/API/Response)임 (Web_api의 Response)
 ```
   
 Next.js에서는 웹 응답 API를 확장하여 추가적인 편의 기능을 제공하는 `NextResponse`를 제공합니다.
@@ -49,8 +50,10 @@ import { NextRequest, NextResponse } from 'next/server';
 export function middleware(request: NextRequest) {
   // 요청 객체에서 쿠키 뽑아내
   const { cookies } = request;
+  // accessToken 있는지 검사
   const hasCookie = cookies.has('accessToken');
   if (!hasCookie && request.nextUrl.pathname !== '/') {
+  // 2. 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 redirect시킨다.
     return NextResponse.redirect(new URL('/', request.nextUrl.origin));
   }
   if (hasCookie && request.nextUrl.pathname === '/') {
