@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/hook/useMemo.md",
+                "file": "React/hook/useCallback.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/hook/useRef.md",
+                "file": "React/hook/useMemo.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/hook/useMemo.md",
+                "file": "React/hook/useCallback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/hook/useMemo.md",
+                "file": "React/hook/useCallback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/hook/useMemo.md"
+                "file": "React/hook/useCallback.md"
               }
             }
           }
@@ -166,10 +166,12 @@
   },
   "active": "8f19d906aa966691",
   "lastOpenFiles": [
+    "React/hook/useMemo.md",
+    "React/hook/useCallback.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "React/hook/useRef.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 공식문서 정리/추천.md",
-    "React/hook/useMemo.md",
     "React/hook/백링크.md",
     "사용 이미지/React/hook/useRef/예제 2. 인쇄창.png",
     "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
@@ -201,8 +203,6 @@
     "내 프로젝트/Portfolio.md",
     "내 프로젝트/내 프로젝트 (뎁스).md",
     "backend/Spring 강의/DAY 5.md",
-    "backend/Spring 강의/DAY 3.md",
-    "backend/Spring 강의/DAY 4.md",
     "사용 이미지/Spring/Day 3/Pasted image 20240319093257.png",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093702.png",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093638.png",
