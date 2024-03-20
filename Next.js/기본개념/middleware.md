@@ -37,9 +37,9 @@ Next.js에서는 웹 응답 API를 확장하여 추가적인 편의 기능을 �
 
 4. 요구기능
 ```null
-- 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
-- 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 redirect시킨다.
-- 그 외에는 요청에 대해 그대로 응답한다.
+- 1. 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
+- 2. 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 redirect시킨다.
+- 3. 그 외에는 요청에 대해 그대로 응답한다.
 ```
 
 5. 구현
@@ -54,8 +54,11 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL('/', request.nextUrl.origin));
   }
   if (hasCookie && request.nextUrl.pathname === '/') {
+  // 1. 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
+  // rewrite로 URL은 요청경로를 그대로 보여주는데, 실 내용은 '/me/categories'로 보여준다
     return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin));
   }
+// 3. 그 외에는 요청에 대해 그대로 응답한다.
   return NextResponse.next();
 }
 
