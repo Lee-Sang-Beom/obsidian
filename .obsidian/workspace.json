@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/Middleware와 request.nextUrl.md",
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/Middleware와 request.nextUrl.md",
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/Middleware와 request.nextUrl.md",
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/Middleware와 request.nextUrl.md"
+                "file": "Next.js/Next.js 14/Next.js 14 변경점.md"
               }
             }
           }
@@ -148,12 +148,12 @@
   },
   "active": "cf734aa8882337b4",
   "lastOpenFiles": [
+    "Next.js/NextAuth 사용하기/Middleware와 request.nextUrl.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
-    "Next.js/NextAuth 사용하기/Middleware와 request.nextUrl.md",
     "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md",
     "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(RadiusMap.tsx).md",
     "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가/코드.md",
