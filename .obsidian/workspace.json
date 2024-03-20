@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "acbc1ddc10b435e1",
+        "id": "da0dc5c6b257d534",
         "type": "tabs",
         "children": [
           {
-            "id": "0a8dee221f3c43a5",
+            "id": "54506673156b3410",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "React/hook/useRef.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.5.11"
               }
             }
           }
@@ -85,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/hook/useRef.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/hook/useRef.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "React/hook/useRef.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,11 +140,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0a8dee221f3c43a5",
+  "active": "54506673156b3410",
   "lastOpenFiles": [
+    "React/hook/useRef.md",
+    "Pasted image 20240320104611.png",
     "예제 2. 프린트.png",
     "사용 이미지/React/hook/useRef/예제 2. 프린트 화면 및 버튼.png",
-    "React/hook/useRef.md",
     "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
     "사용 이미지/React/hook/useRef/예제 1. 스크롤 후.png",
     "사용 이미지/React/hook/useRef",
@@ -188,8 +183,6 @@
     "사용 이미지/Spring/Day 6/Pasted image 20240319093638.png",
     "사용 이미지/Spring/Day 6",
     "사용 이미지/Spring/Day 5",
-    "사용 이미지/Spring/Day 4/Pasted image 20240319093357.png",
-    "Pasted image 20240319093356.png",
     "사용 이미지/Spring/Day 4",
     "사용 이미지/Spring/Day 3",
     "사용 이미지/Spring",

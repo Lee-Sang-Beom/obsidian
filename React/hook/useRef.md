@@ -373,10 +373,12 @@ export default function MireGreet() {
   const divRef = useRef<HTMLDivElement>(null);
   const { setIsChange, setText, setStatus } = useAutoAlert();
 
+  // print 라이브러리: content로 divRef.current가 가리키는 element 전달
   const onPrint = useReactToPrint({
     content: () => divRef.current,
   });
 
+  // 스크롤이 내려가야 컨텐츠가 드러나는 애니메이션을 출력시키기 위해, 페이지를 맨 아래로 내림
   function scrollToBottom() {
     if (window) {
       // 문서의 높이
@@ -496,5 +498,8 @@ export default function MireGreet() {
 
 ```
 
+- 프린트할 화면
 ![[예제 2. 프린트.png]]
 
+- 인쇄 창
+![[Pasted image 20240320104611.png]]
