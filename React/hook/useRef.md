@@ -472,7 +472,7 @@ export default function MireGreet() {
         </div>
       </div>
 
-	  {/* .greet_wrap 기준으로, divRef 부여: 해당 영역 인쇄가능 */}
+	  {/* .greet_wrap 기준으로, divRef 부여: 해당 영역 인쇄가 */}
       <div className={Style.greet_wrap} ref={divRef}>
         <SectionOnScroll>
           {/* ... */}
