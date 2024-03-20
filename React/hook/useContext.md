@@ -155,4 +155,14 @@ export default Header;
 #### 3. 예제 2 (context 사용하기)
 
 - 먼저, `useContext hook`을 사용하기 위해서는, context를 관리할 컴포넌트 파일을 만들어야 한다.
-- `createContext()`는, .js(root)에서 Provider로 감싸면서 value를 전달할 때, value가 지정되지 않았을 때의 초기값을 의미합니다
+	- `createContext()`는 root에서 `Provider`로 감싸면서 원하는 value를 전달하고자 할 때 사용한다.
+	- 파라미터로 전달하는 값은 value가 지정되지 않았을 때의 초기값을 의미한다.
+```js
+import { createContext } from "react";
+export const ThemeContext = createContext(null);
+```
+
+- `App.js (root)`
+	- root 위치에서, context 관리 파일을 `import`하고, 부모 컴포넌트를 `<ComponentName.Provider>`로 묶어주어야 한다.
+	- 그리고, value로 접근 가능한 상태값을 넣어주면, Provider 하위 컴포넌트는 이 상태값들에 접근할 수 있게 됩니다.
+    - 아래 예제에서 ThemeContext.provider는 ThemeContext로 정의한 공간이 있고, 이 공간에 value값인 {isDark, setIsDark}를 집어넣었다고 생각하면 됩니다.
