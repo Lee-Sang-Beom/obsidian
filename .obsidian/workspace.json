@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0c5d3d48adaee5ad",
+        "id": "022878f08b505ab0",
         "type": "tabs",
         "children": [
           {
-            "id": "c9802e28be21de14",
+            "id": "bd210c6bb502ed20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/hook/useRef.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/hook/useRef.md",
+                "file": "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/hook/useRef.md",
+                "file": "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/hook/useRef.md"
+                "file": "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png"
               }
             }
           }
@@ -148,6 +144,11 @@
   },
   "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "React/hook/useRef.md",
+    "사용 이미지/React/hook/useRef/예제 1. 스크롤 후.png",
+    "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
+    "사용 이미지/React/hook/useRef",
+    "사용 이미지/React/hook",
     "사용 이미지/React",
     "CKEditor/CustomCKEditor.md",
     "사용 이미지/내 프로젝트/Pasted image 20240319171954.png",
@@ -185,15 +186,10 @@
     "사용 이미지/Spring/Day 4/Pasted image 20240319093357.png",
     "Pasted image 20240319093356.png",
     "Pasted image 20240319093353.png",
-    "사용 이미지/Spring/Day 5/Pasted image 20240319093438.png",
     "사용 이미지/Spring/Day 4",
     "사용 이미지/Spring/Day 3",
     "사용 이미지/Spring",
-    "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318173844.png",
     "사용 이미지/Next.js/guide course/chapter 9",
-    "사용 이미지/Next.js/guide course/chapter 8",
-    "CKEditor",
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
