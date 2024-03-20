@@ -20,15 +20,7 @@
 	 - **memorization**할 값을 계산해 return하는 함수이다.
 
  - **인자 2**
-	 - 의존성배열(dependancyArray): 배열 내 값이 업데이트될 때만 콜백함수를 호출해 memorization된 값을 업데이트하는 역할을 한다.
-
-- **사용 예시**
-```tsx
-// value값이 변할 때마다, calculate() 함수의 결과로 반환되는 값이 newValue에 들어간다.
- const newValue = useMemo(()=> {
-    return calculate();
- }, [value])
-```
+	 - 의존성배열(dependancyArray): 배열 내 값이 업데이트될 때만 콜백함수를 호출해 memorization된 함수를 업데이트하는 역할을 한다.
 
 
 #### 2. 예제 1
@@ -50,7 +42,8 @@ function App() {
   const someFun = useCallback(()=>{
     console.log(`${num}`);
     return;
-  }, [num]); 
+  }, [num]);
+   
   /*
     의존성배열 x 
      - 원래는, state num변경으로 재렌더링되면서, sumeFun의 초기화주소가 계속달라짐
@@ -82,8 +75,11 @@ function App() {
       />
 
       <br />
+      
       <button onClick={someFun}>call someFunc</button>
-      <button onClick={()=> setTog(!tog)}>test</button> {/* toggle버튼 클릭시에는, memorization된 함수를 계속사용함*/}
+
+	  {/* toggle버튼 클릭시에는, memorization된 함수를 계속사용함*/}
+	  <button onClick={()=> setTog(!tog)}>test</button> 
     </div>
   );
 }
