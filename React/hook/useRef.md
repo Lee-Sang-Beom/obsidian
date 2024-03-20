@@ -348,6 +348,6 @@ export default function SubTopMenu({
 ![[예제 1. 스크롤 후.png]]
 
 
-#### 4. 프로젝트 내 사용경험 2 (모바일 좌우 스크롤)
+#### 4. 프로젝트 내 사용경험 2 (프린트)
 
-- 
+- 특정 `element`에 `ref`를 부여하면, 해당 `element` 영역을 인쇄할 수 있다.

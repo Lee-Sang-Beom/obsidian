@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "022878f08b505ab0",
+        "id": "acbc1ddc10b435e1",
         "type": "tabs",
         "children": [
           {
-            "id": "bd210c6bb502ed20",
+            "id": "0a8dee221f3c43a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "React/hook/useRef.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "element",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
+                "file": "React/hook/useRef.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
+                "file": "React/hook/useRef.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png"
+                "file": "React/hook/useRef.md"
               }
             }
           }
@@ -142,11 +147,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "38fb693a809a6c4a",
   "lastOpenFiles": [
+    "사용 이미지/React/hook/useRef/예제 2. 프린트 화면 및 버튼.png",
     "React/hook/useRef.md",
-    "사용 이미지/React/hook/useRef/예제 1. 스크롤 후.png",
     "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
+    "사용 이미지/React/hook/useRef/예제 1. 스크롤 후.png",
     "사용 이미지/React/hook/useRef",
     "사용 이미지/React/hook",
     "사용 이미지/React",
@@ -177,7 +183,6 @@
     "backend/Spring 강의/DAY 4.md",
     "backend/Spring 강의/DAY 2.md",
     "backend/Spring 강의/DAY 1.md",
-    "backend/Spring 강의/DAY 8.md",
     "사용 이미지/Spring/Day 3/Pasted image 20240319093257.png",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093702.png",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093638.png",
@@ -185,7 +190,6 @@
     "사용 이미지/Spring/Day 5",
     "사용 이미지/Spring/Day 4/Pasted image 20240319093357.png",
     "Pasted image 20240319093356.png",
-    "Pasted image 20240319093353.png",
     "사용 이미지/Spring/Day 4",
     "사용 이미지/Spring/Day 3",
     "사용 이미지/Spring",
