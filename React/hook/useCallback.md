@@ -39,22 +39,21 @@ function App() {
   //   console.log(num);
   // };
 
-  const someFun = useCallback(()=>{
-    console.log(`${num}`);
-    return;
-  }, [num]);
-   
   /*
-    의존성배열 x 
+    의존성배열이 []일 때?
      - 원래는, state num변경으로 재렌더링되면서, sumeFun의 초기화주소가 계속달라짐
 
      - 하지만, 맨 처음 app 컴포넌트가 호출될 렌더링을 제외하고는, state변경 렌더링에는 useEffect가 불리지 x
        memorization된 함수를 반환 (덕분에 항상 같은 memorization된 함수의 주소를 가짐)
  
-     - 하지만 num이 바뀜에따라 항상 someFun은 memorization된 함수만을 계속 재사용하니, console.log()시, 0만 출력됨
-       그래서 num 변경때마다 계속 바꿔줄수있어야함
+     - 하지만 num이 바뀜에따라 항상 someFun은 memorization된 함수만을 계속 재사용한다. 그렇기 때문에, console.log(`${num}`) 실행 시 0만 출력되기 때문에, 최신의 num을 불러오기 위해서는 num 변경마다 계속 함수가 업데이트되도록 바꿔줘야 함
   */
-       
+  const someFun = useCallback(()=>{
+    console.log(`${num}`);
+    return;
+  }, [num]);
+   
+
   /*
     someFun이 변경될때마다 실행
     num 값이 변경될때마다 재렌더링 -> App() 호출 -> someFun도 함수 객체를 가진 변수로, 호출됨
@@ -102,7 +101,7 @@ function App() {
   const [isDark, setIsDark] = useState(false);
 
   /* 
-   - 아래처럼 하면, changeTheme 버튼으로 인한 재 렌더링으로, 
+   - 아래 주석코드처럼 진행하면, changeTheme 버튼으로 인한 재 렌더링으로, 
      app()이 재호출되면서 createBoxStyle이 재초기화 됨. 
 
    - 함수객체가 createBoxStyle이기때문에 메모리주소가 달라져,
