@@ -83,4 +83,331 @@ export default App;
 
 - `ref`는 위에서 언급했듯 **DOM**에 접근할 수 있는 인터페이스적 역할을 수행해주기 때문에 각종 `element`를 관리하고 추적하는 데에 용이하다.
 
-- 아래 작업은 `ref`를 `<a>`태그에 부여해 active Link가 무엇인지를 탐색하고, 현재 경로(`pathNm`)와  
+- 아래 작업은 `ref`를 `<a>`태그에 부여해 active Link가 무엇인지를 탐색하고, 현재 경로(`pathNm`)와 메뉴리스트 데이터를 이용하여 모바일에서 페이지 로드 시, `depth3` 선택 메뉴가 바로 보이게끔 좌우스크롤을 구현한 것이다. 
+
+```tsx
+"use client";
+
+import React, { useEffect, useRef, useState } from "react";
+import style from "./SubTopMenu.module.scss";
+import "./SubMenu.css";
+import { GoHome } from "react-icons/go";
+import { GrFormDown, GrFormNext, GrFormUp } from "react-icons/gr";
+import { useParams, usePathname, useRouter } from "next/navigation";
+import * as Select from "@radix-ui/react-select";
+import classnames from "classnames";
+import { AuthMenuTreeResponse } from "@/types/common/MenuType";
+import { menuByDepth } from "@/utils/utils";
+import { useSearchParams } from "next/navigation";
+import { User } from "next-auth";
+
+interface SubTopMenuProps {
+  menuData: AuthMenuTreeResponse[];
+  curUrl: string;
+  user: User | null;
+}
+export default function SubTopMenu({
+  menuData,
+  curUrl,
+  user,
+}: SubTopMenuProps) {
+  // 필요 변수
+  const pathNm = usePathname();
+  const [pathNmClass, setPathNmClass] = useState("/");
+  const router = useRouter();
+  const { depth1Menu, depth2Menu, depth3Menu } = menuByDepth(menuData);
+
+  const param = useSearchParams();
+
+  const [isMounted, setIsMounted] = useState<boolean>(false);
+  const [selectDepth1Menu, setSelectDepth1Menu] =
+    useState<AuthMenuTreeResponse>();
+  const [selectDepth2Menu, setSelectDepth2Menu] =
+    useState<AuthMenuTreeResponse>();
+
+  const [selectDepth3Menu, setSelectDepth3Menu] =
+    useState<AuthMenuTreeResponse>();
+
+  const [selectRootValue, setSelectRootValue] = useState<string>("");
+  const [selectSubRootValue, setSelectSubRootValue] = useState<string>("");
+
+  const [activeMenuIndex, setActiveMenuIndex] = useState<number>(-1);
+  const activeRef = useRef<any | null>(null);
+
+  // ...
+
+  useEffect(() => {
+    if (activeRef.current) {
+      const parentElement = document.querySelector(
+        `.${style.scroll_box}`
+      ) as HTMLElement;
+
+      const left = activeRef.current.offsetLeft - 10;
+      parentElement.style.scrollBehavior = "smooth";
+      parentElement.scrollLeft = left;
+    }
+  }, [activeMenuIndex]);
+
+  useEffect(() => {
+    if (!selectDepth2Menu) return;
+
+    if (menuData && menuData.length) {
+      if (pathNm && pathNm.includes("/searchtotal")) {
+      } else {
+        depth3Menu
+          .filter((depth3, idx) => {
+            return depth3.upMenuSeq === selectDepth2Menu?.menuSeq;
+          })
+          .sort(
+            (a: AuthMenuTreeResponse, b: AuthMenuTreeResponse) =>
+              a.sortNo - b.sortNo
+          )
+          .map((item, idx) => {
+            if (pathNm === item.menuUrl) {
+              setActiveMenuIndex(idx);
+            }
+          });
+      }
+    }
+  }, [selectDepth2Menu]);
+  
+  return (
+    <>
+      <div className={`${style.sub_visual} ${style[pathNmClass]}`}>
+        <div className={style.sub_title_box}>
+          <h2>
+            {pathNm?.includes("searchtotal")
+              ? "통합검색"
+              : pathNm?.includes("board")
+                ? param?.get("type") === "1"
+                  ? "공지사항"
+                  : param?.get("type") === "2"
+                    ? "사업단 주요일정"
+                    : param?.get("type") === "3"
+                      ? "자료실"
+                      : param?.get("type") === "5"
+                        ? "보도자료"
+                        : param?.get("type") === "6"
+                          ? "이주의 전국대학 LINC 3.0 소식"
+                          : param?.get("type") === "7"
+                            ? "가족회사 기사"
+                            : param?.get("type") === "8"
+                              ? "우수성과"
+                              : param?.get("type") === "9"
+                                ? "동영상"
+                                : "사진"
+                : menuData.find((menu) =>
+                    menu.menuUrl.includes(pathNm !== null ? pathNm : "")
+                  )?.menuNm ||
+                  menuData.find((menu) => {
+                    const split = pathNm?.split("/");
+                    split?.pop();
+
+                    return menu.menuUrl.includes(
+                      split && split[3]
+                        ? `${split[1]}/${split[2]}/${split[3]}`
+                        : split && !split[3]
+                          ? `${split[1]}/${split[2]}`
+                          : ""
+                    );
+                  })?.menuNm}
+          </h2>
+        </div>
+      </div>
+
+      {pathNm?.includes("/lg/") || pathNm?.includes("/searchtotal") ? (
+        <></>
+      ) : (
+        <div>
+          {/* ... */}
+          {pathNm && pathNm.includes("/searchtotal") ? (
+            <></>
+          ) : (
+            <div className={style.scroll_box}>
+              {" "}
+              <div className={style.depth_3_box}>
+                {depth3Menu.map((depth3) => {
+                  if (depth3.upMenuSeq === selectDepth2Menu?.menuSeq) {
+                    return (
+                      <a
+                        href={depth3.menuUrl}
+                        key={`3차_${depth3.menuSeq}_${Math.random()}`}
+                        ref={
+                          depth3.menuUrl.includes(
+                            pathNm?.split("/").length
+                              ? pathNm?.split("/").length < 5
+                                ? pathNm?.split("/")[
+                                    pathNm?.split("/").length - 1
+                                  ]
+                                : pathNm?.split("/")[
+                                    pathNm?.split("/").length - 2
+                                  ]
+                              : ""
+                          ) ||
+                          (pathNm?.includes("wis") &&
+                            depth3.menuUrl.includes(
+                              pathNm?.split("/")[
+                                pathNm?.split("/").length - 2
+                              ] || ""
+                            )) ||
+                          (pathNm?.includes("wis/") &&
+                            depth3.menuUrl.includes(
+                              pathNm?.split("/")[
+                                pathNm?.split("/").length - 3
+                              ] || ""
+                            ))
+                            ? activeRef
+                            : null
+                        }
+                        className={
+                          depth3.menuUrl.includes(
+                            pathNm?.split("/").length
+                              ? pathNm?.split("/").length < 5
+                                ? pathNm?.split("/")[
+                                    pathNm?.split("/").length - 1
+                                  ]
+                                : pathNm?.split("/")[
+                                    pathNm?.split("/").length - 2
+                                  ]
+                              : ""
+                          ) ||
+                          (pathNm?.includes("wis") &&
+                            depth3.menuUrl.includes(
+                              pathNm?.split("/")[
+                                pathNm?.split("/").length - 2
+                              ] || ""
+                            )) ||
+                          (pathNm?.includes("wis/") &&
+                            depth3.menuUrl.includes(
+                              pathNm?.split("/")[
+                                pathNm?.split("/").length - 3
+                              ] || ""
+                            ))
+                            ? style.active
+                            : ""
+                        }
+                      >
+                        {depth3.menuNm}
+                      </a>
+                    );
+                  } else if (
+                    pathNm?.includes("notice") ||
+                    param?.get("type") === "3" ||
+                    param?.get("type") === "1"
+                  ) {
+                    if (
+                      depth3.menuUrl === "/board?type=1" ||
+                      depth3.menuUrl.includes("type=3") ||
+                      depth3.menuUrl.includes("/notice/")
+                    )
+                      return (
+                        <a
+                          href={depth3.menuUrl}
+                          key={`공지사항_${depth3.menuSeq}_${Math.random()}`}
+                          className={
+                            depth3.menuUrl.includes(
+                              param?.get("type") || pathNm || ""
+                            )
+                              ? style.active
+                              : ""
+                          }
+                          ref={
+                            depth3.menuUrl.includes(
+                              param?.get("type") || pathNm || ""
+                            )
+                              ? activeRef
+                              : null
+                          }
+                        >
+                          {depth3.menuNm}
+                        </a>
+                      );
+                  } else if (
+                    param?.get("type") === "5" ||
+                    param?.get("type") === "6" ||
+                    param?.get("type") === "7" ||
+                    param?.get("type") === "8" ||
+                    param?.get("type") === "9" ||
+                    param?.get("type") === "10"
+                  ) {
+                    if (
+                      depth3.menuUrl.includes("type=5") ||
+                      depth3.menuUrl.includes("type=6") ||
+                      depth3.menuUrl.includes("type=7") ||
+                      depth3.menuUrl.includes("type=8") ||
+                      depth3.menuUrl.includes("type=9") ||
+                      depth3.menuUrl.includes("type=10")
+                    ) {
+                      return (
+                        <a
+                          href={depth3.menuUrl}
+                          key={`사업단_${depth3.menuSeq}_${Math.random()}`}
+                          className={
+                            depth3.menuUrl.includes(param.get("type") || "")
+                              ? style.active
+                              : ""
+                          }
+                          ref={
+                            depth3.menuUrl.includes(param.get("type") || "")
+                              ? activeRef
+                              : null
+                          }
+                        >
+                          {depth3.menuNm}
+                        </a>
+                      );
+                    }
+                  } else {
+                    return <></>;
+                  }
+                })}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </>
+  );
+}
+
+interface SelectProps extends React.HTMLAttributes<HTMLDivElement> {
+  children: any;
+  className?: string;
+  value: string | number;
+}
+const SelectItem = React.forwardRef(
+  (
+    { children, className, value, ...props }: SelectProps,
+    forwardedRef: React.Ref<HTMLDivElement>
+  ) => {
+    return (
+      <Select.Item
+        className={classnames("sub_SelectItem", className)}
+        style={{
+          width: "100%",
+          boxSizing: "border-box",
+        }}
+        value={String(value)}
+        ref={forwardedRef}
+        {...props}
+      >
+        <Select.ItemText
+          style={{
+            fontFamily: "Pretendard",
+            fontSize: "16px",
+            fontStyle: "normal",
+            fontWeight: 500,
+          }}
+        >
+          {children}
+        </Select.ItemText>
+        <Select.ItemIndicator className="sub_SelectItemIndicator">
+          {/* <CheckIcon /> */}
+        </Select.ItemIndicator>
+      </Select.Item>
+    );
+  }
+);
+SelectItem.displayName = "SelectItem";
+
+```
