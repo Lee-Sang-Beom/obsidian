@@ -79,7 +79,7 @@ export default App;
 ```
 
 
-#### 3. 프로젝트 내 사용경험
+#### 3. 프로젝트 내 사용경험 1 (모바일 좌우 스크롤)
 
 - `ref`는 위에서 언급했듯 **DOM**에 접근할 수 있는 인터페이스적 역할을 수행해주기 때문에 각종 `element`를 관리하고 추적하는 데에 용이하다.
 
@@ -173,49 +173,8 @@ export default function SubTopMenu({
   
   return (
     <>
-      <div className={`${style.sub_visual} ${style[pathNmClass]}`}>
-        <div className={style.sub_title_box}>
-          <h2>
-            {pathNm?.includes("searchtotal")
-              ? "통합검색"
-              : pathNm?.includes("board")
-                ? param?.get("type") === "1"
-                  ? "공지사항"
-                  : param?.get("type") === "2"
-                    ? "사업단 주요일정"
-                    : param?.get("type") === "3"
-                      ? "자료실"
-                      : param?.get("type") === "5"
-                        ? "보도자료"
-                        : param?.get("type") === "6"
-                          ? "이주의 전국대학 LINC 3.0 소식"
-                          : param?.get("type") === "7"
-                            ? "가족회사 기사"
-                            : param?.get("type") === "8"
-                              ? "우수성과"
-                              : param?.get("type") === "9"
-                                ? "동영상"
-                                : "사진"
-                : menuData.find((menu) =>
-                    menu.menuUrl.includes(pathNm !== null ? pathNm : "")
-                  )?.menuNm ||
-                  menuData.find((menu) => {
-                    const split = pathNm?.split("/");
-                    split?.pop();
-
-                    return menu.menuUrl.includes(
-                      split && split[3]
-                        ? `${split[1]}/${split[2]}/${split[3]}`
-                        : split && !split[3]
-                          ? `${split[1]}/${split[2]}`
-                          : ""
-                    );
-                  })?.menuNm}
-          </h2>
-        </div>
-      </div>
-
-      {pathNm?.includes("/lg/") || pathNm?.includes("/searchtotal") ? (
+      {/* ... */}
+      {pathNm?.includes("/lg") || pathNm?.includes("/searchtotal") ? (
         <></>
       ) : (
         <div>
@@ -224,7 +183,6 @@ export default function SubTopMenu({
             <></>
           ) : (
             <div className={style.scroll_box}>
-              {" "}
               <div className={style.depth_3_box}>
                 {depth3Menu.map((depth3) => {
                   if (depth3.upMenuSeq === selectDepth2Menu?.menuSeq) {
@@ -232,6 +190,8 @@ export default function SubTopMenu({
                       <a
                         href={depth3.menuUrl}
                         key={`3차_${depth3.menuSeq}_${Math.random()}`}
+	                    
+	                    {/* 현재 active 경로와 일치하는 a태그만 active를 부여 - className도 같음 */}
                         ref={
                           depth3.menuUrl.includes(
                             pathNm?.split("/").length
@@ -311,6 +271,8 @@ export default function SubTopMenu({
                               ? style.active
                               : ""
                           }
+                          
+	                      {/* 현재 active 경로와 일치하는 a태그만 active를 부여 - className도 같음 */}
                           ref={
                             depth3.menuUrl.includes(
                               param?.get("type") || pathNm || ""
@@ -347,6 +309,8 @@ export default function SubTopMenu({
                               ? style.active
                               : ""
                           }
+                          
+                          {/* 현재 active 경로와 일치하는 a태그만 active를 부여 - className도 같음 */}
                           ref={
                             depth3.menuUrl.includes(param.get("type") || "")
                               ? activeRef
@@ -370,44 +334,9 @@ export default function SubTopMenu({
   );
 }
 
-interface SelectProps extends React.HTMLAttributes<HTMLDivElement> {
-  children: any;
-  className?: string;
-  value: string | number;
-}
-const SelectItem = React.forwardRef(
-  (
-    { children, className, value, ...props }: SelectProps,
-    forwardedRef: React.Ref<HTMLDivElement>
-  ) => {
-    return (
-      <Select.Item
-        className={classnames("sub_SelectItem", className)}
-        style={{
-          width: "100%",
-          boxSizing: "border-box",
-        }}
-        value={String(value)}
-        ref={forwardedRef}
-        {...props}
-      >
-        <Select.ItemText
-          style={{
-            fontFamily: "Pretendard",
-            fontSize: "16px",
-            fontStyle: "normal",
-            fontWeight: 500,
-          }}
-        >
-          {children}
-        </Select.ItemText>
-        <Select.ItemIndicator className="sub_SelectItemIndicator">
-          {/* <CheckIcon /> */}
-        </Select.ItemIndicator>
-      </Select.Item>
-    );
-  }
-);
-SelectItem.displayName = "SelectItem";
+// ...
 
 ```
+
+
+#### 4. 프로젝트 내 사용경험 2 (모바일 좌우 스크롤)
