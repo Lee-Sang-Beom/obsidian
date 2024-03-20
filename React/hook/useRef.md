@@ -351,3 +351,655 @@ export default function SubTopMenu({
 #### 4. 프로젝트 내 사용경험 2 (프린트)
 
 - 특정 `element`에 `ref`를 부여하면, 해당 `element` 영역을 인쇄할 수 있다.
+```tsx
+"use client";
+
+import Style from "./page.module.css";
+import Link from "next/link";
+import { useAutoAlert } from "@/hooks/alert/useAutoAlert";
+import { useRouter } from "next/navigation";
+import { HiOutlineArrowLongRight } from "react-icons/hi2";
+import { IoIosArrowDown } from "react-icons/io";
+import SectionOnScroll from "@/components/common/SectionPopupOnScroll/SectionOnScroll";
+import { RiPrinterLine } from "react-icons/ri";
+import { Button } from "@/components/common/Button/Button";
+import moment from "moment";
+import { VscFilePdf } from "react-icons/vsc";
+import html2canvas from "html2canvas";
+import { useReactToPrint } from "react-to-print";
+import jsPDF from "jspdf";
+import { useEffect, useRef, useState } from "react";
+export default function MireGreet() {
+  const divRef = useRef<HTMLDivElement>(null);
+  const { setIsChange, setText, setStatus } = useAutoAlert();
+
+  const onPrint = useReactToPrint({
+    content: () => divRef.current,
+  });
+
+  function scrollToBottom() {
+    if (window) {
+      // 문서의 높이
+      const documentHeight = document.documentElement.scrollHeight;
+
+      // 현재 창의 높이
+      const windowHeight = window.innerHeight;
+
+      // 스크롤할 거리 계산
+      const scrollDistance = documentHeight - windowHeight;
+
+      // 맨 아래로 스크롤
+      window.scrollTo({
+        top: scrollDistance,
+        left: 0,
+        behavior: "smooth", // 부드러운 스크롤을 원하면 'smooth' 사용
+      });
+    }
+  }
+
+  return (
+    <>
+      <div className={Style.print_none}>
+        <Button
+          title={"PDF다운로드"}
+          btnColor={"white"}
+          btnSize={"md"}
+          btnStyle={"br_3"}
+          onClick={() => {
+            setIsChange(true);
+            setStatus("info");
+            setText("PDF 파일을 준비하고 있습니다. 잠시만 기다려주세요...");
+
+            scrollToBottom();
+
+            setTimeout(async () => {
+              if (divRef.current) {
+                const canvas = await html2canvas(divRef.current, {
+                  useCORS: true,
+                  logging: true,
+                });
+                const imageFile = canvas.toDataURL("image/png");
+                const doc = new jsPDF("p", "mm", "a4");
+                const pageWidth = doc.internal.pageSize.getWidth();
+                const pageHeight = doc.internal.pageSize.getHeight();
+
+                const widthRatio = pageWidth / canvas.width;
+                const customHeight = canvas.height * widthRatio;
+                doc.addImage(imageFile, "png", 0, 0, pageWidth, customHeight);
+                let heightLeft = customHeight;
+                let heightAdd = -pageHeight;
+
+                while (heightLeft >= pageHeight) {
+                  doc.addPage();
+                  doc.addImage(
+                    imageFile,
+                    "png",
+                    0,
+                    heightAdd,
+                    pageWidth,
+                    customHeight
+                  );
+                  heightLeft -= pageHeight;
+                  heightAdd -= pageHeight;
+                }
+
+                doc.save(
+                  `버추얼 기술소개_${moment().format("YYYY-MM-DD")}.pdf`
+                );
+              }
+            }, 1000);
+          }}
+        >
+          <VscFilePdf role="img" aria-label="pdf 아이콘" />
+          <span className={Style.mo_none}>PDF다운로드</span>
+        </Button>
+        <div className={Style.mo_none}>
+          <Button
+            title={"프린트"}
+            btnColor={"white"}
+            btnSize={"md"}
+            btnStyle={"br_3"}
+            onClick={() => {
+              scrollToBottom();
+              setTimeout(() => {
+                onPrint();
+              }, 1000);
+            }}
+          >
+            <RiPrinterLine role="img" aria-label="프린트 아이콘" />
+            프린트
+          </Button>
+        </div>
+      </div>
+
+      <div className={Style.greet_wrap} ref={divRef}>
+        <SectionOnScroll>
+          <section className={Style.greet_box1}>
+            <ul className={Style.top_info}>
+              <p className={Style.slogan1}>
+                버추얼 기반 미래차 부품 고도화 사업을 통해
+              </p>
+              <p className={Style.slogan2}>
+                미래차 사업전환을 촉진하며, 산업 생태계 구축에 기여하겠습니다.
+              </p>
+              <p className={Style.slogan3}>
+                The Advancement to Future Automobile Components with Virtual
+                Twin Technology
+              </p>
+              <li>
+                <p className={Style.info_tit}>부처/과제명</p>
+                <ul className={Style.info_list}>
+                  <li>
+                    <span>부처 : </span>
+                    <span>산업통상자원부</span>
+                  </li>
+                  <li>
+                    <span>과제명 : </span>
+                    <span>버추얼 기반 미래차 부품 고도화 사업</span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p className={Style.info_tit}>기간</p>
+                <p className={Style.info_txt}>2022.04~2024.12</p>
+              </li>
+              <li>
+                <p className={Style.info_tit}>주관기관 및 참여기관</p>
+                <ul className={Style.info_list}>
+                  <li>
+                    <span>주관기관 : </span>
+                    <span>경남테크노파크</span>
+                  </li>
+                  <li>
+                    <span>참여기관 : </span>
+                    <span>한국산업기술시험원, 인제대학교</span>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p className={Style.info_tit}>목적</p>
+                <p className={Style.info_txt}>
+                  경남도 부품사들의 미래차 전환을 위한 프로세스 및 장비 구축
+                </p>
+              </li>
+              <li>
+                <p className={Style.info_tit}>최종목표</p>
+                <ul className={Style.info_list}>
+                  <li>
+                    자동차 부품들의 버추얼 모델 개발 및 주행성능평가 기술 지원
+                  </li>
+                  <li>
+                    자동차부품기업의 디지털 전환과 버추얼 개발 프로세스 플랫폼
+                    구축
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p className={Style.title}>기대효과</p>
+            <div className={Style.bot_info}>
+              <dl>
+                <dt>
+                  <span>기술적 기대효과</span>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>
+                      실차주행시험을 대체할 수 있는 버추얼 개발 프로세스를
+                      도입하여 자동차 부품기업들의{" "}
+                      <span>해외시장 경쟁력 제고 가능</span>
+                    </li>
+                    <li>
+                      개발단계(설계, 성능검증)에서 최종 주행성능을 검증하고
+                      실차주행 평가를 최소화하여{" "}
+                      <span>비용 절감할 수 있음</span>
+                    </li>
+                    <li>
+                      제조기술과 IT기술을 융합 시키고, 부품간 기능 통합으로
+                      모듈수준의 생산능력을 갖춘 자동차 부품 중견기업의 출현
+                      가능성을 높이며, 이를 바탕으로{" "}
+                      <span>수평적 수요공급 구조를 형성하는데 기여</span>
+                    </li>
+                    <li>
+                      향후 ADAS 및 자율차 부품기업 유치와 미래차 부품 기업전환
+                      육성을 통해 버추얼 개발 프로세스 기반의{" "}
+                      <span>미래자동차 기술단지 조성 가능</span>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt>
+                  <span>경제적 기대효과</span>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>
+                      사업추진 시 2024년까지 <span>지원기업매출 증진</span> ·
+                      수혜기업 (현가, 제동, 조향, 파워 트레인 등 R&H, NVH
+                      관여부품) 지원으로 매출증대 예상
+                    </li>
+                    <li>
+                      지역 자동차부품기업의 종목다각화, 글로벌 시장진출을 통한{" "}
+                      <span>고용위기 타계</span>
+                    </li>
+                    <li>
+                      사업추진에 따른 일자리 <span>고용증진 효과</span>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </section>
+        </SectionOnScroll>
+        <SectionOnScroll>
+          <section className={Style.greet_box2}>
+            <p className={Style.title}>핵심사업</p>
+            <div className={Style.top_info}>
+              <dl>
+                <dt>
+                  <img src="/img/battery/greet_pic1.png" alt="" />
+                </dt>
+                <dd>
+                  <p>
+                    <span>센터 구축</span>
+                  </p>
+                  <ul>
+                    <li>신규전용공간 ‘미래자동차 버추얼 센터’ 구축</li>
+                    <li>경남도 미래차 전환과 시험평가를 위한 장비 구축</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt>
+                  <img src="/img/battery/greet_pic2.png" alt="" />
+                </dt>
+                <dd>
+                  <p>
+                    <span>플랫폼 구축</span>
+                  </p>
+                  <ul>
+                    <li>
+                      산·학·연 네트워크 구성 및 운영(기술공유세미나, 간담회,
+                      워크숍 등)
+                    </li>
+                    <li>
+                      네트워킹 운영으로 신사업진출, 미래자동차 협업체 구성
+                    </li>
+                    <li>경남도 미래차부품 전환을 위한 플랫폼 개발</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt>
+                  <img src="/img/battery/greet_pic3.png" alt="" />
+                </dt>
+                <dd>
+                  <p>
+                    <span>기술지원</span>
+                  </p>
+                  <ul>
+                    <li>
+                      미래차부품 디지털모델 개발 및 CAE개선 지원 등 버추얼 개발
+                      기초 기술지원
+                    </li>
+                    <li>
+                      지역의 현가, 제동, 조향분야 대표기업 선정 디지털모델개발
+                      지원
+                    </li>
+                    <li>기업지원 업체들 간 성과보고회 결과보고 개최</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt>
+                  <img src="/img/battery/greet_pic4.png" alt="" />
+                </dt>
+                <dd>
+                  <p>
+                    <span>전문인력양성</span>
+                  </p>
+                  <ul>
+                    <li>지원기업의 수요에 기반한 실무형 인력양성 교육 실시</li>
+                    <li>
+                      버추얼 개발 장비활용 및 미래차 부품 설계 전문 인력양성
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+            <p className={Style.title}>사업개요</p>
+            <div className={Style.bot_info}>
+              <div className={Style.info_l_img}>
+                <img src="/img/battery/greet_vision.png" alt="" />
+              </div>
+              <div className={Style.info_r_list}>
+                <dl>
+                  <dt>
+                    <p>01</p>
+                    <p>
+                      미래차 부품의 기술 고도화 및 다각화를 위한 개발 프로세서
+                      도입과 주행성능평가 기업지원 플랫폼 구축
+                    </p>
+                  </dt>
+                  <dd>
+                    <ul>
+                      <li>
+                        현가, 제동, 조향, 파워트레인 부품의 고도화 및 다각화
+                      </li>
+                      <li>
+                        자동차 부품의 작동과 감지 및 제어시스템이 연동되어
+                        조종성, 승차감, 주행 안전성과 편의성을 능동적으로
+                        추종하는 부품을 대상
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>
+                    <p>02</p>
+                    <p>
+                      개발단계별 기관보유 연구장비와 기술 및 전문인력을 활용하고
+                      인력양성과 기업지원을 제공하는 플랫폼 구축
+                    </p>
+                  </dt>
+                  <dd>
+                    <ul>
+                      <li>
+                        모델링(시스템 모델 및 시험평가환경구성 CAE개선 등),
+                        시뮬레이션 평가(SIL·HIL) 등 미래차 부품 고도화를 위한
+                        혁신기관 간 연계 체계 구축
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>
+                    <p>03</p>
+                    <p>
+                      미래차 부품화를 위한 버추얼 모델 개발과 기능기반 모델을
+                      접목한 실차성능예측 및 부품성능설계 장비구축
+                    </p>
+                  </dt>
+                  <dd>
+                    <ul>
+                      <li>
+                        버추얼 모델(시스템 모델)개발과 주행환경구성을 통해 차량
+                        주행 성능을 예측하는 부품사양설계 지원장비 확충
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </section>
+        </SectionOnScroll>
+        <SectionOnScroll>
+          <section className={Style.greet_box3}>
+            <p className={Style.title}>버추얼 기반 미래차 개발프로세스</p>
+            <div className={Style.top_info}>
+              <p className={Style.title_s}>완성차 개발시스템 변화</p>
+              <ul>
+                <li>
+                  <p>
+                    <span>INITIAL</span>
+                  </p>
+                  <p>기획</p>
+                </li>
+                <li>
+                  <p>
+                    <span>ARCHITECTURE</span>
+                  </p>
+                  <p>아키텍처 개발</p>
+                </li>
+                <li>
+                  <p>
+                    <span>CONCEPT DESIGN</span>
+                  </p>
+                  <p>디자인</p>
+                </li>
+                <li>
+                  <p>
+                    <span>INTEGRATION</span>
+                  </p>
+                  <p>
+                    <span>설계</span>
+                    <span>해석</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>VALIDATION</span>
+                  </p>
+                  <p>
+                    <span>시험</span>
+                    <span>파일럿</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span>SOP</span>
+                  </p>
+                  <p>
+                    <span>양산</span>
+                    <span>판매</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className={Style.bot_info}>
+              <dl>
+                <dt>모델</dt>
+                <dd>
+                  <div className={Style.process_m1}>형상기반모델(Geometry)</div>
+                  <span className={Style.arrow}>
+                    <img
+                      className={Style.arrow_pc}
+                      src="/img/battery/arrow.svg"
+                      alt="화살표 이미지"
+                    />
+                    <span className={Style.arrow_mo}>
+                      <IoIosArrowDown />
+                    </span>
+                  </span>
+                  <div className={Style.process_m2}>
+                    <span>기능기반 모델(Non-Geometry)</span>
+                  </div>
+                </dd>
+              </dl>
+              <dl>
+                <dt>구성</dt>
+                <dd>
+                  <div className={Style.process_m1}>FEM, MBO, CFD 모델</div>
+                  <span className={Style.arrow}>
+                    <img
+                      className={Style.arrow_pc}
+                      src="/img/battery/arrow.svg"
+                      alt="화살표 이미지"
+                    />
+                    <span className={Style.arrow_mo}>
+                      <IoIosArrowDown />
+                    </span>
+                  </span>
+                  <div className={Style.process_m2}>
+                    <span> DB기반 모델</span>, 시스템(특성, 제어, 센서)모델
+                  </div>
+                </dd>
+              </dl>
+              <dl>
+                <dt>성능</dt>
+                <dd>
+                  <div className={Style.process_m1}>
+                    충돌, 내구, NVH, R&H, 공기역학, 열유동
+                  </div>
+                  <span className={Style.arrow}>
+                    <img
+                      className={Style.arrow_pc}
+                      src="/img/battery/arrow.svg"
+                      alt=""
+                    />
+                    <span className={Style.arrow_mo}>
+                      <IoIosArrowDown />
+                    </span>
+                  </span>
+                  <div className={Style.process_m2}>
+                    <span>섀시제어, R&H</span>, PT동력, ADAS, 열관리
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div className={Style.process_txt}>
+              <p>버추얼 개발 프로세스란?</p>
+              <ul>
+                <li>
+                  최근 완성차사는 미래자동차 시대를 대비하여{" "}
+                  <span>저비용, 고성능 차량 개발</span>과 판매를 목적으로
+                  데이터를 기반으로{" "}
+                  <span>
+                    디지털 차량개발 및 운용 프로세스, 버추얼 개발 프로세스 도입
+                  </span>
+                  과 개선을 추진
+                </li>
+                <li>
+                  버추얼 개발이란 다양한 디지털 데이터를 바탕으로{" "}
+                  <span>
+                    가상모델 혹은 환경을 구축해 부품을 설계·조립·평가 등
+                    자동차를 개발하는 과정
+                  </span>
+                  을 상당 부분 대체하는 것
+                </li>
+                <li>
+                  설계자가 요구사양대로 DB를 활용하여 신속하게 설계사양을
+                  변경·검증할 수 있고,{" "}
+                  <span>
+                    제작 후 자동차에서 검증하기 힘든 오류 등을 빠르게 확인하고
+                    개선
+                  </span>
+                  해 자동차의 완성도를 높일 수 있는 기술
+                </li>
+              </ul>
+            </div>
+          </section>
+        </SectionOnScroll>
+        <SectionOnScroll>
+          <section className={Style.greet_box4}>
+            <p className={Style.title}>차량개발 절차</p>
+            <div className={Style.cycle_l}>
+              <p>
+                <span>AS-IS</span>
+              </p>
+              <img
+                className={Style.img_lg}
+                src="/img/greet_process1_lg.svg"
+                alt=""
+              />
+              <img
+                className={Style.img_sm}
+                src="/img/battery/greet_process1_sm.svg"
+                alt=""
+              />
+            </div>
+            <div className={Style.cycle_r}>
+              <p>
+                <span>TO-BE</span>
+              </p>
+              <img
+                className={Style.img_lg}
+                src="/img/greet_process2_lg.svg"
+                alt=""
+              />
+              <img
+                className={Style.img_sm}
+                src="/img/battery/greet_process2_sm.svg"
+                alt=""
+              />
+            </div>
+          </section>
+        </SectionOnScroll>
+        <SectionOnScroll>
+          <section className={Style.greet_box5}>
+            <p className={Style.title}>진행기관 소개 및 역할</p>
+            <div className={Style.top_info}>
+              <dl>
+                <dt>
+                  <img src="/img/battery/greet_pic5.png" alt="" />
+                </dt>
+                <dd>
+                  <div>
+                    <p>경남 테크노파크</p>
+                    <span> | 미래자동차본부</span>
+                  </div>
+                  <ul>
+                    <li>
+                      경남지역 산·학·연·관의 유기적인 협력체계를 구축하여
+                      지역혁신기관 간 연계조정 등 지역혁신거점기관으로서
+                      지역산업의 기술고도화와 기술집약적 기업의 혁신 성장을
+                      촉진하고 지역경제 활성화와 국가경제발전에 기여하는 역할
+                      수행
+                    </li>
+                    <li>
+                      디지털 트윈기술 바탕의 미래차 버추얼 부품개발 프로세스
+                      기술지원
+                    </li>
+                    <li>섀시 및 파워트레인 장비활용 기술지원(2016~)</li>
+                    <li>미래차부품산업 전환 및 버추얼 개발 기술지원(2022~)</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt>
+                  <img src="/img/battery/greet_pic6.png" alt="" />
+                </dt>
+                <dd>
+                  <div>
+                    <p>한국산업기술시험원</p>
+                    <span> | 기계소재기술센터</span>
+                  </div>
+                  <ul>
+                    <li>
+                      KTL은 산업통상자원부 산하 국내 유일 공공 종합시험
+                      인증기관, 기업의 기술 성과물 성능시험 및 전 산업분야에
+                      대한 시험평가, 측정 장비 교정 등 다양한 서비스 제공
+                    </li>
+                    <li>
+                      미래차 버추얼 부품개발 프로세스 환경 구축 및 기업지원
+                    </li>
+                    <li>경남도 미래차 버추얼 부품 산업 동향 (2022~)</li>
+                    <li>기업지원 및 기술 지도(2022~)</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt>
+                  <img src="/img/battery/greet_pic7.png" alt="" />
+                </dt>
+                <dd>
+                  <div>
+                    <p>인제대학교</p>
+                    <span> | 수송기계부품기술혁신센터</span>
+                  </div>
+                  <ul>
+                    <li>
+                      인제대학교 산하 수송기계부품기술혁신센터(TIC)는 자동차 및
+                      기계부품 관련 기업체를 대상으로 공동 연구장비 활용,
+                      공동연구 수행 및 재직자 교육을 지원
+                    </li>
+                    <li>
+                      미래차 버추얼 부품개발 프로세스 전문인력양성 및 기업지원
+                    </li>
+                    <li>디지털 모델개발 인력양성 프로그램 운영(2022~ )</li>
+                    <li>기업지원 및 교육 지도(2022~)</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </section>
+        </SectionOnScroll>
+      </div>
+    </>
+  );
+}
+
+```
+
+![[예제 2. 프린트.png]]
+

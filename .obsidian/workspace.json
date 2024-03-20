@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,8 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "38fb693a809a6c4a",
+  "active": "0a8dee221f3c43a5",
   "lastOpenFiles": [
+    "예제 2. 프린트.png",
     "사용 이미지/React/hook/useRef/예제 2. 프린트 화면 및 버튼.png",
     "React/hook/useRef.md",
     "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
