@@ -1,4 +1,5 @@
 ※ 주의: `className`이나 `variable`명은 프로젝트에 맞게 변경해야함
+- 해당 파일은 회사 프로젝트 내 `build-classic`의 css를 맞추기 위하여 사용됨
 
 #### 1. CustomCKEditor.tsx
 
