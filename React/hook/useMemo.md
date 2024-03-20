@@ -1,9 +1,13 @@
 
-- 컴포넌트 최적화를 위한 React hook
+#### 1. `useMemo`란?
+
+- 컴포넌트 최적화를 위한 React hook 중 하나이다.
 	- **`useMemo`**
 	- `useCallback`
 
-#### 1. `useMemo`의 구조
+- 컴포넌트가 렌더링될 때마다 **동일한 값** 반환하는 함수를 **계속 반복하여 호출하는 것**이 아니라, 
+
+#### 2. `useMemo`의 구조
 
  - **인자 1**
 	 - callback 함수이다.
@@ -14,7 +18,8 @@
 
 - **사용 예시**
 ```tsx
- const value = useMemo(()=> {
+// value값이 변할 때마다, calculate() 함수의 결과로 반환되는 값이 newValue에 들어간다.
+ const newValue = useMemo(()=> {
     return calculate();
  }, [value])
 ```
