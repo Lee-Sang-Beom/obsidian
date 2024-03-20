@@ -502,4 +502,4 @@ export default function MireGreet() {
 ![[예제 2. 프린트.png]]
 
 - 인쇄 창
-![[Pasted image 20240320104611.png]]
+![[예제 2. 인쇄창.png]]

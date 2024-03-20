@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "da0dc5c6b257d534",
+        "id": "0f8e7c45e8f2e2a5",
         "type": "tabs",
         "children": [
           {
-            "id": "54506673156b3410",
+            "id": "58f8c3b816f8c735",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md",
+                "file": "React/hook/useRef.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md",
+                "file": "React/hook/useRef.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md",
+                "file": "React/hook/useRef.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md"
+                "file": "React/hook/useRef.md"
               }
             }
           }
@@ -146,13 +146,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "54506673156b3410",
+  "active": "58f8c3b816f8c735",
   "lastOpenFiles": [
-    "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(RadiusMap.tsx).md",
-    "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md",
+    "사용 이미지/React/hook/useRef/예제 2. 인쇄창.png",
     "React/hook/useRef.md",
-    "Pasted image 20240320104611.png",
-    "예제 2. 프린트.png",
+    "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
+    "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가/코드.md",
+    "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md",
+    "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(RadiusMap.tsx).md",
+    "사용 이미지/React/hook/useRef/예제 2. 프린트.png",
     "사용 이미지/React/hook/useRef/예제 2. 프린트 화면 및 버튼.png",
     "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
     "사용 이미지/React/hook/useRef/예제 1. 스크롤 후.png",
@@ -173,9 +175,7 @@
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
-    "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가/코드.md",
     "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
-    "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
     "내 프로젝트/Portfolio.md",
     "내 프로젝트/내 프로젝트 (뎁스).md",
