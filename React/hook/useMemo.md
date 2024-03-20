@@ -167,4 +167,323 @@ export default App;
 	- 자주 바뀌는 요소의 대표적 예시는 Form 요소(input, checkbox 등)
 
 - 그래서, 값을 표시만 하는 **테이블 요소**에 적합하다고 판단하여 작성한 경험이 있다.
-	- 같은 페이지에 많은 Form 요소가 있으며 해당 요소가 상태로서 관리되어 컴포넌트에 재렌더링이 일어나도, 서버에서 받아온 `data`가 변하지 않는 이상 값을 반환하는 콜백함수는 다시 실행되지 않늗ㄷ
+	- 같은 페이지에 많은 Form 요소가 있으며 해당 요소가 상태로서 관리되어 컴포넌트에 재렌더링이 일어나도, 서버에서 받아온 `data`가 변하지 않는 이상 값을 반환하는 콜백함수는 다시 실행되지 않는다.
+
+```tsx
+  // ...
+
+  // STEP1
+  const step1InputListHeader: TableHeader[] = useMemo(() => {
+    return [
+      {
+        name: "사업장명",
+        value: "companyNm",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.companyNm || ""}</p>;
+        },
+        width: "30%",
+      },
+      {
+        name: "사업자등록번호",
+        value: "companyBizNo",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return (
+            <p>
+              {tr.companyBizNo
+                ? tr.companyBizNo.replace(/(\d{3})(\d{2})(\d{5})/, "$1-$2-$3")
+                : ""}
+            </p>
+          );
+        },
+      },
+      {
+        name: "업종",
+        value: "companyTpbizNm",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.companyTpbizNm ? tr.companyTpbizNm : ""}</p>;
+        },
+      },
+      {
+        name: "대표자",
+        value: "companyRprsvNm",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.companyRprsvNm ? tr.companyRprsvNm : ""}</p>;
+        },
+      },
+      {
+        name: "주소",
+        value: "companyRoadNmAddr",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.companyRoadNmAddr ? tr.companyRoadNmAddr : ""}</p>;
+        },
+      },
+      {
+        name: "연락처",
+        value: "companyTelNo",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return (
+            <p>
+              {tr.companyTelNo
+                ? tr.companyTelNo.replace(
+                    /(\d{2,3})(\d{3,4})(\d{4})/,
+                    "$1-$2-$3"
+                  )
+                : ""}
+            </p>
+          );
+        },
+      },
+      {
+        name: "면적",
+        value: "companyLdar",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return (
+            <p>
+              {tr.companyLdar !== null && tr.companyLdar !== undefined
+                ? `${tr.companyLdar}㎡`
+                : ""}
+            </p>
+          );
+        },
+      },
+    ];
+  }, [data]);
+
+  // STEP2
+  const step2InputListHeader: TableHeader[] = useMemo(() => {
+    return [
+      {
+        name: "화학물질명(국문)",
+        value: "mttrnmkor",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.mttrnmkor || ""}</p>;
+        },
+        width: "30%",
+      },
+      {
+        name: "화학물질명(영문)",
+        value: "mttrnmeng",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.mttrnmeng ? tr.mttrnmeng : ""}</p>;
+        },
+      },
+      {
+        name: "CAS 번호",
+        value: "casNo",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.casNo ? tr.casNo : ""}</p>;
+        },
+      },
+      {
+        name: "성상",
+        value: "i0202",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.i0202 ? tr.i0202 : ""}</p>;
+        },
+      },
+      {
+        name: "색상",
+        value: "i0204",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.i0204 ? tr.i0204 : ""}</p>;
+        },
+      },
+      {
+        name: "냄새",
+        value: "i04",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.i04 ? tr.i04 : ""}</p>;
+        },
+      },
+      {
+        name: "인화점",
+        value: "i14",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.i14 ? tr.i14 : ""}</p>;
+        },
+      },
+      {
+        name: "밀도(kg/m3)",
+        value: "i26",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.i26 ? tr.i26 : ""}</p>;
+        },
+      },
+      {
+        name: "점도(kg/m-s)",
+        value: "i36",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.i36 ? tr.i36 : ""}</p>;
+        },
+      },
+      {
+        name: "자연발화온도",
+        value: "i32",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.i32 ? tr.i32 : ""}</p>;
+        },
+      },
+      {
+        name: "저장탱크용량",
+        value: "strgTnkSz",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.strgTnkSz ? tr.strgTnkSz : ""}</p>;
+        },
+      },
+      {
+        name: "누출량",
+        value: "lkgSz",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.lkgSz ? tr.lkgSz : ""}</p>;
+        },
+      },
+      {
+        name: "누출시간(초)",
+        value: "lkgTime",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.lkgTime !== null ? tr.lkgTime.toString() : ""}</p>;
+        },
+      },
+      {
+        name: "분자량",
+        value: "mass",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.mass !== null ? tr.mass.toString() : ""}</p>;
+        },
+      },
+      {
+        name: "pac2(ppm)",
+        value: "pac2",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.pac2 !== null ? tr.pac2.toString() : ""}</p>;
+        },
+      },
+    ];
+  }, [data]);
+
+  // STEP3
+  const step3InputListHeader: TableHeader[] = useMemo(() => {
+    return [
+      {
+        name: "기준일시",
+        value: "mttrnmkor",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return (
+            <p>
+              {tr.stdDt
+                ? moment(tr.stdDt, "YYYYMMDDHHmm").format("YYYY-MM-DD HH:mm")
+                : ""}
+            </p>
+          );
+        },
+        width: "30%",
+      },
+      {
+        name: "기온(℃)",
+        value: "tmpr",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.tmpr ? tr.tmpr : ""}</p>;
+        },
+      },
+      {
+        name: "습도(%)",
+        value: "hmdt",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.hmdt ? tr.hmdt : ""}</p>;
+        },
+      },
+      {
+        name: "풍속(m/s)",
+        value: "wsd",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.wsd ? tr.wsd : ""}</p>;
+        },
+      },
+      {
+        name: "1시간 후 풍속(m/s)",
+        value: "wsd1h",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.wsd1h ? tr.wsd1h : ""}</p>;
+        },
+      },
+      {
+        name: "4시간 후 풍속(m/s)",
+        value: "wsd4h",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.wsd4h ? tr.wsd4h : ""}</p>;
+        },
+      },
+      {
+        name: "8시간 후 풍속(m/s)",
+        value: "wsd8h",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.wsd8h ? tr.wsd8h : ""}</p>;
+        },
+      },
+      {
+        name: "풍향",
+        value: "vec",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.vec ? tr.vec : ""}</p>;
+        },
+      },
+      {
+        name: "대기안정도",
+        value: "atmsStblPct",
+        accessFn: (tr: DmgeEfctStdResponse, index: number) => {
+          return <p>{tr.atmsStblPct ? tr.atmsStblPct : ""}</p>;
+        },
+      },
+    ];
+  }, [data]);
+
+  // ...
+
+return (
+	{/* ... */}
+	<div className={styles.report_wrap}>
+	  <div className={styles.report_group_left}>
+		{/* STEP1 */}
+		<div className={styles.box_group}>
+		  <p className={styles.sub_title}>1. 사업장 일반정보</p>
+		  <Table<DmgeEfctStdResponse>
+			tableCaption="사업장 정보 리스트"
+			data={[data.dmgeEfctStdResponse]}
+			headers={step1InputListHeader}
+			tableType={"horizontal"}
+			itemTitle={""}
+			ref={null}
+		  />
+		</div>
+	
+		{/* STEP2 */}
+		<div className={styles.box_group}>
+		  <p className={styles.sub_title}>2. 화학물질 정보</p>
+		  <Table<DmgeEfctStdResponse>
+			tableCaption="화학물질 상세정보 리스트"
+			data={[data.dmgeEfctStdResponse]}
+			headers={step2InputListHeader}
+			tableType={"horizontal"}
+			itemTitle={""}
+			ref={null}
+		  />
+		</div>
+	
+		{/* STEP3 */}
+		<div className={styles.box_group}>
+		  <p className={styles.sub_title}>3. 피해영향범위 기상 입력정보</p>
+		  <Table<DmgeEfctStdResponse>
+			tableCaption="화학물질 상세정보 리스트"
+			data={[data.dmgeEfctStdResponse]}
+			headers={step3InputListHeader}
+			tableType={"horizontal"}
+			itemTitle={""}
+			ref={null}
+		  />
+		</div>
+	  </div>
+	</div>
+{/* ... */}
+)
+
+```
