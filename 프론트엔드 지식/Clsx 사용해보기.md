@@ -1,5 +1,5 @@
 
-#### before (clsx 사용 이전)
+#### 1. before (clsx 사용 이전)
 ```tsx
 "use client";
 
@@ -57,7 +57,7 @@ export default function AutoAlert() {
 ```
 
 
-#### after (clsx 사용 이후)
+#### 2. after (clsx 사용 이후)
 ```tsx
 "use client";
 
