@@ -26,4 +26,81 @@
 		- `useState`의 `setState dispatch`와 다르게 `reducer` **함수를 실행시킨다는 점**에서 차이가 있다.
 
 
-- 
+#### 3. 예제 1 (예금 및 출금)
+
+```jsx
+"use client";
+import { useReducer, useState } from "react";
+
+// 상수값 정의
+const ACTION_TYPES = {
+  deposit: "deposit",
+  withdraw: "withdraw",
+};
+
+/**
+ * @reducer : useReducer에서 정의하는 데에 사용하고, dispatch로 인해 호출되는 함수
+ * @param state : 변경 이전의 기존 state값
+ * @param action : dispatch로 전달한 요소
+ * @returns : 변경된 state 값
+ */
+const reducer = (state, action) => {
+  switch (action.type) {
+    case ACTION_TYPES.deposit:
+      return state + action.payload;
+
+    case ACTION_TYPES.withdraw:
+      return state - action.payload;
+
+    default:
+      return state;
+  }
+};
+
+export default function Page() {
+  const [num, setNum] = useState(0);
+
+  // 호출될 reducer 함수 및 초기값을 설정하여 useReducer hook 사용
+  const [money, dispatch] = useReducer(reducer, 0);
+
+  return (
+    <div>
+      <h2>useReducer 은행예제</h2>
+      <p>잔고: {money}원</p>
+      <input
+        type="number"
+        value={num}
+        onChange={(e) => setNum(parseInt(e.target.value))}
+        step="1000"
+      />
+      <button
+        onClick={() => {
+          /**
+           * @dispatch : 실행 시, reducer함수 호출
+           *
+           * @type : 어떤 성격의 호출인가? (본 예제에서는 예금인지 출금인지)
+           * @payload : 사용자가 입력한 금액
+           */
+          dispatch({ type: ACTION_TYPES.deposit, payload: num });
+        }}
+      >
+        예금
+      </button>
+      <button
+        onClick={() => {
+          /**
+           * @dispatch : 실행 시, reducer함수 호출
+           *
+           * @type : 어떤 성격의 호출인가? (본 예제에서는 예금인지 출금인지)
+           * @payload : 사용자가 입력한 금액
+           */
+          dispatch({ type: ACTION_TYPES.withdraw, payload: num });
+        }}
+      >
+        출금
+      </button>
+    </div>
+  );
+}
+
+```
