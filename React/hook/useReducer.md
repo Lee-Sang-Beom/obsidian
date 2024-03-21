@@ -29,7 +29,10 @@
 #### 3. 예제 1 (예금 및 출금)
 
 ```jsx
+
+// next.js 14버전에서 테스트한 내용이라 지시어가 필요해서 넣음
 "use client";
+
 import { useReducer, useState } from "react";
 
 // 상수값 정의
