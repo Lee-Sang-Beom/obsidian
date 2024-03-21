@@ -162,7 +162,7 @@ import { createContext } from "react";
 export const ThemeContext = createContext(null);
 ```
 
-- `App.js (root)`
+- `App.js (react에서의 root)`
 	- **root** 위치에서, context 관리 파일을 `import`하고, 부모 컴포넌트를 `<ComponentName.Provider>`로 묶어주어야 한다.
 	- 그리고, `value` attribute로 접근 가능한 상태값을 넣어주면, `<Provider />` 하위 컴포넌트는 해당 상태값들에 접근할 수 있게 된다.
 ```jsx
