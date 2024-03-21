@@ -1,4 +1,7 @@
 
+#### 1. User Type 재정의하기
+
+- nextauth에서 관리되어야 할 User의 타입을 사용자가 원하는대로 재정의하기 위해서는 
 ```tsx
 
 // 파일경로: types/nextAuth/next-auth.ts

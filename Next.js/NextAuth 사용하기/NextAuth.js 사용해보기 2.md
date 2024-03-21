@@ -7,10 +7,10 @@
 - 다음으로, NextAuth.js 라이브러리를 설치한다.
 	- `npm install next-auth`
 
+
 #### 2. 프로젝트 세팅 (SessionProvider)
 
-- NextAuth.js에서 제공하는 `useSession()`을 사용하기 위해서는, **애플리케이션 최상단**에 `<SessionProvider/>`로 하위 요소들을 감싸줘야 한다.
-	- `next.js13`에서는 `layout`
+- NextAuth.js에서 제공하는 hook을 사용(예 : `useSession`)하기 위해서는, **애플리케이션 최상단**에 `<SessionProvider/>`로 하위 요소들을 감싸줘야 한다. 
 	- `useSession` : 클라이언트 컴포넌트에서 session 정보를 불러올 수 있는 `hook`
 
 - Next.js 13을 사용하면서, 필자는 이를 `layout.tsx` 파일에서 사용하고 싶었기 때문에, 아래의 방법을 사용했다. - 프로젝트 디렉터리에 `/provider/NextAuthSessionProvider.tsx`라는 파일을 만든 후, 아래의 코드를 입력한다.
@@ -29,7 +29,6 @@ return <SessionProvider>{children}</SessionProvider>;
 ```
 
 - 그 다음, 앞서 정의한 `NextAuthSessionProvider`컴포넌트로 `app/layout.tsx` 파일의 `{children}` 영역을 감싸준다.
-
 ```tsx
 import NextAuthSessionProvider from "@/provider/NextAuthSessionProvider";
 
@@ -49,15 +48,14 @@ export default function RootLayout({
 }
 ```
 
-#### 프로젝트 세팅 (route)
+
+#### 3. 프로젝트 세팅 (route)
 
 - Next.js 애플리케이션에서 NextAuth.js를 사용하기 위해서는, `/app/api/auth` 라는 약속된 경로 하위에 `[...nextauth].js`라는 파일을 만들어야 한다.
-
-  - 이는, `/api/auth/*` 경로로 들어오는 모든 요청을 NextAuth.js에 의해 자동으로 처리되도록 하기 위해서이다.
-  - 요청의 예시로는 `signIn, signOut, callback, 기타`) 등이 있는데, 이것들이 바로 NextAuth.js 에서 제공하고 있는 함수이다.
+	- 이는, `/api/auth/*` 경로로 들어오는 모든 요청을 **NextAuth.js에 의해 자동으로 처리되도록 하기 위해서**이다.
+	- 요청의 예시로는 `signIn, signOut, callback, ...`) 등이 있는데, 이것들이 바로 NextAuth.js 에서 제공하고 있는 함수이다.
 
 - NextAuth.js의 [공식문서](https://next-auth.js.org/getting-started/example)에는 아래와 같은 소스코드를 제공하고 있다.
-
 ```tsx
 import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
@@ -77,7 +75,6 @@ export default NextAuth(authOptions);
 ```
 
 - 필자의 경우, `/api/auth/[...nextauth]`경로 하위에 `route.ts`와 `AuthOptions.ts`라는 파일을 만들어 사용하였다.
-
 ```tsx
 // route.ts
 
