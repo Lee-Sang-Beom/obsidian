@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
+                "file": "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
+                "file": "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
+                "file": "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md"
+                "file": "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "63e6947ef1754a9f",
   "lastOpenFiles": [
+    "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
     "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 3.md",
-    "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 2.md",
-    "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
+    "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "Next.js/NextAuth 사용하기/Middleware와 request.nextUrl.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
