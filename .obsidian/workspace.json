@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
+                "file": "React/hook/useContext.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
+                "file": "React/hook/useContext.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/기본개념/SSR, CSR, RSC, RCC.md"
+                "file": "React/hook/useContext.md"
               }
             }
           }
@@ -164,8 +164,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "28a278a85c31618a",
+  "active": "63e6947ef1754a9f",
   "lastOpenFiles": [
+    "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
     "React/hook/useReducer.md",
     "React/hook/useContext.md",
     "React/Fragment.md",
@@ -201,7 +202,6 @@
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 3.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
-    "Next.js/NextAuth 사용하기/NextAuth.js 사용해보기 1.md",
     "사용 이미지/OpenLayers/Openlayers 구조.png",
     "사용 이미지/Spring/Day 3/Pasted image 20240319093257.png",
     "사용 이미지/Spring/Day 6/Pasted image 20240319093702.png",
