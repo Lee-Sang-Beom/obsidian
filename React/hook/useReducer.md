@@ -17,4 +17,7 @@
 	3. `action`: `reducer`에게 보내는 일련의 요구에 대한 **내용**
 
 - `useReducer`의 초기 정의는 컴포넌트 최상단에서 다음과 같이 이루어진다.
-	- `const [stateName, dispatch function] = useReducer(reducer func, state 초기값)`
+	- `const [stateName, dispatch function] = useReducer(reducer func, state 초기값);`
+	
+	- **첫 번째 인자**: `useReducer`는 배열을 반환하는데, 첫 번째 인자는 새로 만들어진 `state`이다.
+		- `useReducer`라고 별반 `useState`와 다르진 않으나, 이 `state`는 `reducer`함수를 
