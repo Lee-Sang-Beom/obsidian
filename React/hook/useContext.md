@@ -185,3 +185,28 @@ function App() {
 
 export default App;
 ```
+
+- `page.jsx`
+```jsx
+import React from "react";
+import Content from "./Content";
+import Footer from "./Footer";
+import Header from "./Header";
+
+function Page() {
+  return (
+    <div>
+      <div className="page">
+        <Header/>
+        <Content/>
+        <Footer/>
+      </div>
+    </div>
+  );
+}
+
+export default Page;
+```
+
+- `header.jsx`\
+	- `App.js(root)`에서 전달한 `value` context값
