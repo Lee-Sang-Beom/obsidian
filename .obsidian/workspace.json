@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "e32f70b8508e21df",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8f19d906aa966691",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/hook/useContext.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "d4db79a332bcd9bc",
         "type": "tabs",
         "children": [
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/hook/useContext.md",
+                "file": "React/hook/useMemo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/hook/useContext.md",
+                "file": "React/hook/useMemo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/hook/useContext.md"
+                "file": "React/hook/useMemo.md"
               }
             }
           }
@@ -164,11 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8f19d906aa966691",
+  "active": "28a278a85c31618a",
   "lastOpenFiles": [
+    "React/hook/useContext.md",
     "React/hook/key.md",
     "React/hook/useCallback.md",
-    "React/hook/useContext.md",
     "React/hook/useMemo.md",
     "React/hook/useRef.md",
     "React/hook/백링크.md",

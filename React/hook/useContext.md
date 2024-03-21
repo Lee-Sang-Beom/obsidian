@@ -293,6 +293,7 @@ function App() {
   const [isDark, setIsDark] = useState(false);
   return (
     <ThemeContext.Provider value={{isDark, setIsDark}}>
+      {/* value로 'user' text 전달 */}
       <UserContext.Provider value={'user'}>
         <Page/>
       </UserContext.Provider>
@@ -304,4 +305,29 @@ export default App;
 ```
 
 - `header.jsx`
+```jsx
+import React from "react";
+import { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext";
+import { UserContext } from "../context/UserContext";
+
+function Header() {
+  const {isDark} = useContext(ThemeContext);
+
+  // useContext로 context를 불러오겠다고 선언하고, 불러올 context를 관리하는 컴포넌트 파일의 context이름을 전달
+  const user = useContext(UserContext);
+  return (
+    <header
+      className="header"
+      style={{
+        backgroundColor: isDark ? "black" : "lightgray",
+        color: isDark ? "white" : "black",
+      }}
+    >
+      <h1>{`Welcome ${user}` }</h1>
+    </header>
+  );
+}
+
+export default Header;
 ```
