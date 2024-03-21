@@ -107,3 +107,172 @@ export default function Page() {
 }
 
 ```
+
+
+#### 예제 2 (학생 관리)
+
+- `page.tsx`
+```tsx
+"use client";
+import { useReducer, useState } from "react";
+import Student from "./Student";
+
+interface StudentType {
+  id: number;
+  name: string;
+  isHere: boolean;
+}
+
+interface StateType {
+  count: number;
+  students: StudentType[];
+}
+
+interface ActionType {
+  type: "ADD" | "CHECK" | "DEL";
+  id?: number;
+  data?: string;
+}
+
+const reducer = (state: StateType, action: ActionType) => {
+  switch (action.type) {
+    case "ADD":
+      const name = action.data;
+      const newStudent: StudentType = {
+        id: Date.now(),
+        name: name!,
+        isHere: false,
+      };
+
+      /**
+       * @return : 새로운 state
+       * @count : 기존 state.count(학생수) + 1
+       * @students : 새로 만든 newStudent를 기존 유저리스트 뒤에 추가
+       */
+      return {
+        count: state.count + 1,
+        students: [...state.students, newStudent],
+      };
+
+    case "DEL":
+      /**
+       * @return : 새로운 state
+       * @count : 기존 state.count(학생수) - 1
+       * @students : action에 전달된 id와 저장된 student들의 각 id를 비교해, 일치하지 않는 id를 가진 학생들만 반환하는 새로운 배열을 만들어 저장
+       */
+      return {
+        count: state.count - 1,
+        students: state.students.filter(
+          (student: StudentType) => student.id !== action.id
+        ),
+      };
+
+    case "CHECK":
+      /**
+       * @return : 새로운 state
+       * @count : 기존 state.count(학생수 유지
+       * @students : action에 전달된 id와 저장된 student들의 각 id를 비교해, 일치하는 student의 isHere을 토글시킴
+       */
+      return {
+        count: state.count,
+        students: state.students.map((student: StudentType) => {
+          if (student.id === action.id) {
+            return { ...student, isHere: !student.isHere };
+          }
+
+          return student;
+        }),
+      };
+
+    default:
+      return state;
+  }
+};
+
+export default function Page() {
+  const [name, setName] = useState("");
+  const initState: StateType = {
+    count: 0,
+    students: [],
+  };
+
+  const [studentState, dispatch] = useReducer(reducer, initState);
+
+  return (
+    <div>
+      <h1>출석부</h1>
+      <p>총 학생 수 : {studentState.count}</p>
+      <input
+        type="text"
+        placeholder="이름 입력"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+      <button
+        onClick={() => {
+          // reducer 함수 내, action.type === "ADD"인 로직 실행
+          dispatch({ type: "ADD", data: name });
+        }}
+      >
+        추가
+      </button>
+
+      <br />
+
+      {/* 학생 각각을 배열로 map함수로 돌리면서 element list를 반환 */}
+      {studentState.students.map((student: StudentType) => (
+        <Student
+          key={student.id}
+          name={student.name}
+          id={student.id}
+          dispatch={dispatch}
+          isHere={student.isHere}
+        />
+      ))}
+    </div>
+  );
+}
+```
+
+- `Student.tsx(<Student ... />`
+```tsx
+import React, { Dispatch } from "react";
+
+interface IProps {
+  key: number;
+  id: number;
+
+  name: string;
+  dispatch: Dispatch<any>;
+  isHere: boolean;
+}
+const Student = ({ key, name, dispatch, id, isHere }: IProps) => {
+  return (
+    <div key={key}>
+      <span
+        style={{
+          textDecoration: isHere ? "line-through" : "none",
+          color: isHere ? "gray" : "black",
+        }}
+        onClick={() => {
+          // reducer 함수 내, action.type === "CHECK"인 로직 실행
+          dispatch({ type: "CHECK", id: id });
+        }}
+      >
+        {name}
+      </span>
+      <button
+        onClick={() => {
+          // reducer 함수 내, action.type === "DEL"인 로직 실행
+          dispatch({ type: "DEL", id: id });
+        }}
+      >
+        삭제
+      </button>
+    </div>
+  );
+};
+
+export default Student;
+
+```
