@@ -219,6 +219,10 @@ import { ThemeContext } from "../context/ThemeContext";
 function Header() {
   // createContext로 만든 ThemeContext를 useContext hook의 파라미터로 전달하여, value값을 가져온다.
   // {}를 사용한 비구조화 할당으로, value값 중 isDark state만 가져온다.
+
+  // 쉽게 이해하기 위해 아래처럼 생각하자.
+  // 1. "context를 use하겠다" -> useContext()
+  // 2. "ThemeContext의 provider로 전달한 값을 불러오겠다 -> useContext(ThemeContext)"
   const {isDark} = useContext(ThemeContext);
 
   return (
@@ -270,3 +274,34 @@ export default Footer;
 
 #### 4. 예제 3 (`userContext` 추가하기)
 
+- `userContext.js`
+```js
+import { createContext } from "react";
+export const UserContext = createContext(null);
+```
+
+- `app.js`
+```jsx
+import logo from './logo.svg';
+import './App.css';
+import {useState} from "react";
+import Page from './component/Page';
+import {ThemeContext} from './context/ThemeContext';
+import {UserContext} from "./context/UserContext";
+
+function App() {
+  const [isDark, setIsDark] = useState(false);
+  return (
+    <ThemeContext.Provider value={{isDark, setIsDark}}>
+      <UserContext.Provider value={'user'}>
+        <Page/>
+      </UserContext.Provider>
+    </ThemeContext.Provider>
+  );
+}
+
+export default App;
+```
+
+- `header.jsx`
+```
