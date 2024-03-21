@@ -128,6 +128,7 @@ export const authOptions: AuthOptions = {
     }),
   ],
 
+  // 작업이 수행될 때 발생하는 작업을 제어하는 데 사용할 수 있는 비동기 함수
   callbacks: {
     async jwt({ token, user }: { token: JWT; user: User | AdapterUser }) {
       if (user) {
