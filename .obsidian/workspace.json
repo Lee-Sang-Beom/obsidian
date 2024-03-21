@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "d4db79a332bcd9bc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "28a278a85c31618a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "4f91a3a87641618a",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/hook/useContext.md",
+                "file": "React/hook/useReducer.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/hook/useContext.md",
+                "file": "React/hook/useReducer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/hook/useContext.md",
+                "file": "React/hook/useReducer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/hook/useContext.md"
+                "file": "React/hook/useReducer.md"
               }
             }
           }
@@ -166,9 +148,9 @@
   },
   "active": "63e6947ef1754a9f",
   "lastOpenFiles": [
+    "React/hook/useContext.md",
     "Next.js/기본개념/SSR, CSR, RSC, RCC.md",
     "React/hook/useReducer.md",
-    "React/hook/useContext.md",
     "React/Fragment.md",
     "React/hook/useMemo.md",
     "React/key.md",
