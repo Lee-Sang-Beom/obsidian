@@ -208,5 +208,65 @@ function Page() {
 export default Page;
 ```
 
-- `header.jsx`\
-	- `App.js(root)`에서 전달한 `value` context값
+- `header.jsx`
+	- `App.js(root)`에서 전달한 `value context`값은 `useContext hook`을 사용하여 불러와야 한다.
+	- 비구조화 할당을 함께 사용하면, 필요한 `value context`값만 선택하여 가져올 수 있다.
+```jsx
+import React from "react";
+import { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext";
+
+function Header() {
+  // createContext로 만든 ThemeContext를 useContext hook의 파라미터로 전달하여, value값을 가져온다.
+  // {}를 사용한 비구조화 할당으로, value값 중 isDark state만 가져온다.
+  const {isDark} = useContext(ThemeContext);
+
+  return (
+    <header
+      className="header"
+      style={{
+        backgroundColor: isDark ? "black" : "lightgray",
+        color: isDark ? "white" : "black",
+      }}
+    >
+      <h1>{`Welcome`}</h1>
+    </header>
+  );
+}
+
+export default Header;
+```
+
+- `footer.jsx`
+```jsx
+import React, { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext";
+
+function Footer() {
+  // createContext로 만든 ThemeContext를 useContext hook의 파라미터로 전달하여, value값을 가져온다.
+  // {}를 사용한 비구조화 할당으로, 필요한 value context 값을 가져온다.
+  const {isDark, setIsDark} = useContext(ThemeContext);
+  const toggle = () => {
+    setIsDark(!isDark);
+  };
+
+  return (
+    <footer
+      className="footer"
+      style={{
+        backgroundColor: isDark ? "black" : "lightgray",
+      }}
+    >
+      <button className="button" onClick={toggle}>
+        Dark Mode
+      </button>
+    </footer>
+  );
+}
+
+export default Footer;
+```
+
+
+#### 4. 예제 3 (`userContext` 추가하기)
+
