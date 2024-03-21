@@ -1,24 +1,23 @@
-#### Next.js 설치
+#### 1. Next.js 설치
 
-- NextAuth.js 라이브러리를 사용하기 위해서는 먼저, Next.js 애플리케이션 프로젝트를 만들어야 한다.
-
-  - `npx create-next-app@latest`
-  - 설치가 완료되면, `npm run dev` 명령어를 입력하여, 개발 서버가 정상적으로 실행되는지를 확인하자.
+- NextAuth.js 라이브러리를 사용하기 위해서는, 먼저, Next.js 애플리케이션 프로젝트를 만들어야 한다.
+	- `npx create-next-app@latest`
+	- 설치가 완료되면, `npm run dev` 명령어를 입력하여, 개발 서버가 정상적으로 실행되는지를 확인하자.
 
 - 다음으로, NextAuth.js 라이브러리를 설치한다.
-  - `npm install next-auth`
+	- `npm install next-auth`
 
-#### 프로젝트 세팅 (SessionProvider)
+#### 2. 프로젝트 세팅 (SessionProvider)
 
-- NextAuth.js에서 제공하는 `useSession()`을 사용하기 위해서는, 애플리케이션 최상단에 `SessionProvider`로 하위 요소들을 감싸줘야 한다.
-
-  - `useSession` : 클라이언트 컴포넌트에서 session 정보를 불러올 수 있는 `hook`
+- NextAuth.js에서 제공하는 `useSession()`을 사용하기 위해서는, **애플리케이션 최상단**에 `<SessionProvider/>`로 하위 요소들을 감싸줘야 한다.
+	- `next.js13`에서는 `layout`
+	- `useSession` : 클라이언트 컴포넌트에서 session 정보를 불러올 수 있는 `hook`
 
 - Next.js 13을 사용하면서, 필자는 이를 `layout.tsx` 파일에서 사용하고 싶었기 때문에, 아래의 방법을 사용했다. - 프로젝트 디렉터리에 `/provider/NextAuthSessionProvider.tsx`라는 파일을 만든 후, 아래의 코드를 입력한다.
-  ```tsx
-  "use client";
-  import React from "react";
-  import { SessionProvider } from "next-auth/react";
+```tsx
+"use client";
+import React from "react";
+import { SessionProvider } from "next-auth/react";
 
 export default function NextAuthSessionProvider({
 children,
