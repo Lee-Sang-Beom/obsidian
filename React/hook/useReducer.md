@@ -20,4 +20,10 @@
 	- `const [stateName, dispatch function] = useReducer(reducer func, state 초기값);`
 	
 	- **첫 번째 인자**: `useReducer`는 배열을 반환하는데, 첫 번째 인자는 새로 만들어진 `state`이다.
-		- `useReducer`라고 별반 `useState`와 다르진 않으나, 이 `state`는 `reducer`함수를 
+		- `useReducer`라고 별반 `useState`와 다르진 않으나, 이 `state`는 `reducer`함수를 통해 **변경**하여야 한다.
+
+	- **두 번째 인자**: `useReducer`가 만들어준 `dispatch`함수이다.
+		- `useState`의 `setState dispatch`와 다르게 `reducer` **함수를 실행시킨다는 점**에서 차이가 있다.
+
+
+- 
