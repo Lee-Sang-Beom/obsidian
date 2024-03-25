@@ -223,11 +223,13 @@ module.exports = {
 
 ##### 사용법
 
-- ㅋㅋ
+- `source`, `destination`은 `rewrite`와 동일하게 사용하면 된다.
+
 ```js
 module.exports = {
 // source path에 적용 여부를 나타낸다. 
 // `false`는 destination에 외부 링크가 사용된 경우에만 사용할 수 있는 속성이다.
+// redirect에 basePath: false를 추가하지 않는 한, 소스와 대상에 basePath가 자동으로 추가된다.
   basePath: '/docs',
 
   async redirects() {
@@ -246,8 +248,16 @@ module.exports = {
     ]
   },
 }
+
+// 위의 코드는 basePath 지원을 활용하는 리다이렉트 설정을 보여준다.
+// basePath를 '/docs'로 설정했으므로, 모든 리다이렉트 소스와 대상에는 '/docs'가 자동으로 접두사로 추가된다.
+
+// 첫 번째 redirect는 '/with-basePath'에서 '/docs/with-basePath'로 이동하고, '/another'에서 '/docs/another'로 이동합니다.
+
+// 두 번째 redirect는 basePath가 false로 설정되어 있으므로 '/without-basePath'는 '/docs'를 추가하지 않고 지정된 대상인 'https://example.com'으로 이동합니다.
 ```
 
+- 만약, `/old-blog/post1?hello=world`에서 요청이 들어왔으면, client는 `/blog/p`
 ##### Path Matching (경로일치)
 
 ##### Wildcard Path Matching (와일드카드 경로 일치)
