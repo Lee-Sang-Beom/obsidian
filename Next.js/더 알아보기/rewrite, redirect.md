@@ -144,7 +144,7 @@ module.exports = {
 }
 ```
 
-##### Path Matching(경로 일치)
+##### Path Matching (경로 일치)
 
 - 경로 일치는 `/blog/:slug`와 같은 매개변수를 사용하는 경로 패턴을 허용한다.
 	- 이것은 `/blog/hello-world`와 같은 경로를 의미하는데, **이것은 중첩된 경로는 허용하지 않으며,** 대신 동적인 `path`값을 받아오기에 유용하다
@@ -165,7 +165,7 @@ module.exports = {
 }
 
 ```
-##### Wildcard Path Matching(와일드카드 경로 일치)
+##### Wildcard Path Matching (와일드카드 경로 일치)
 
 - 와일드카드 경로를 일치시키려면 매개변수 뒤에 `*`를 사용할 수 있다.
 	- 예를 들어, `/blog/:slug*`는` /blog/a/b/c/d/hello-world`와 같은 경로와 일치한다.
@@ -185,7 +185,7 @@ module.exports = {
   },
 }
 ```
-##### Regex Path Matching(정규식 경로 일치)
+##### Regex Path Matching (정규식 경로 일치)
 
 - 정규식 경로를 일치시키려면 매개변수 뒤에 정규식을 괄호로 감싸면 된다. 
 	- 예를 들어, `/blog/:slug(\d{1,})`은 `/blog/123`과 같은 경로와 일치하지만, `/blog/abc`와 같은 경로와는 일치하지 않는다.
@@ -216,3 +216,40 @@ module.exports = {
 	- `permanent`: `true` or `false`의 값을 가지며, `redirection`에만 존재하는 속성값이다. 사용자나 검색 엔진에서 해당 `redirect` 값을 영구적으로 저장할 것인지에 대한 여부를 지정한다. 만약 이벤트 페이지 이거나 임시 페이지인 경우는 `false`로 지정해주면 된다.
 		- `true`: 308 상태 코드를 사용하여 클라이언트/검색 엔진에게 리디렉션을 영구적으로 캐시할 것을 지시한다.
 		- `false`: 307 상태 코드를 사용하여 일시적이며 캐시되지 않는다.
+	- `basePath`: `false` or `undefined`의 값을 가진다. `false`는 `basePath`가 일치할 때 포함되지 않으며, 외부 `redirect`에만 사용할 수 있음을 의미한다.
+	- `locale`: `false` or `undefined`의 값을 가진다. `locale`이 일치할 때 포함해야 하는지 여부이다.
+	- `has`:  `type`, `key`, `value` 속성을 가진 `has` 객체의 배열이다.
+	- `missing`: 유형, 키 및 값 속성을 가진 `missing`객체의 배열이다. `redirect`은 파일 시스템 (`pages` 및 `/public` 파일) 이전 단계에서 확인된다.
+
+##### 사용법
+
+- ㅋㅋ
+```js
+module.exports = {
+// source path에 적용 여부를 나타낸다. 
+// `false`는 destination에 외부 링크가 사용된 경우에만 사용할 수 있는 속성이다.
+  basePath: '/docs',
+
+  async redirects() {
+    return [
+      {
+        source: '/with-basePath', 
+        destination: '/another',
+        permanent: false,
+      },
+      {
+        source: '/without-basePath',
+        destination: 'https://example.com',
+        basePath: false,
+        permanent: false,
+      },
+    ]
+  },
+}
+```
+
+##### Path Matching (경로일치)
+
+##### Wildcard Path Matching (와일드카드 경로 일치)
+
+##### Regex Path Matching (정규식 경로 일치)
