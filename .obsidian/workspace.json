@@ -11,9 +11,11 @@
             "id": "2e8831970bf060a9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318173844.png"
+                "file": "내 프로젝트/Portfolio.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318173844.png",
+                "file": "내 프로젝트/Portfolio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318173844.png",
+                "file": "내 프로젝트/Portfolio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/Next.js/guide course/chapter 9/Pasted image 20240318173844.png"
+                "file": "내 프로젝트/Portfolio.md"
               }
             }
           }
@@ -146,20 +148,22 @@
   },
   "active": "2e8831970bf060a9",
   "lastOpenFiles": [
+    "사용 이미지/Spring/Day 6/예제 구현을 위한 백 설계화면.png",
+    "사용 이미지/Spring/Day 6/웹 애플리케이션 계층구조.png",
+    "사용 이미지/Spring/Day 5/스프링부트 - api and responsebody.png",
+    "사용 이미지/Spring/Day 4/스프링부트 - hello-template.png",
+    "사용 이미지/Spring/Day 3/스프링부트 - hello-static.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
+    "사용 이미지/Next.js/guide course/chapter 9/ssr.png",
+    "사용 이미지/Next.js/guide course/chapter 9/card-skeleton.png",
     "사용 이미지/Next.js/guide course/chapter 9/divide streaming.png",
     "사용 이미지/Next.js/guide course/chapter 9/skeleton allpage loading2.png",
     "사용 이미지/Next.js/guide course/chapter 9/skeleton allpage loading.png",
     "사용 이미지/Next.js/guide course/chapter 9/overview.png",
-    "사용 이미지/Next.js/guide course/chapter 9/allpage loading.png",
-    "사용 이미지/Next.js/guide course/chapter 8/terminal.png",
-    "사용 이미지/Next.js/guide course/chapter 8/cached data and uncached data.png",
-    "사용 이미지/Next.js/guide course/chapter 7/dashboard-card.png",
-    "사용 이미지/Next.js/guide course/chapter 7/dashboard-invoices.png",
-    "사용 이미지/Next.js/guide course/chapter 7/dashboard-revenue.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-    "사용 이미지/Next.js/guide course/chapter 6/create a vecel account and project.png",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
     "CKEditor/CustomCKEditor.md",
@@ -177,13 +181,11 @@
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
     "Next.js/개념 알아보기/API routes.md",
     "Next.js/개념 알아보기/POST API ROUTE.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "사용 이미지/Next.js/Next-auth",
     "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
     "React/env.md",
-    "Next.js/env.md",
     "사용 이미지/React/hook/useRef",
     "사용 이미지/React/hook",
     "사용 이미지/React",

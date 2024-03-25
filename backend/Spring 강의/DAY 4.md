@@ -93,7 +93,7 @@ public class HelloController {
 5. 해당 메서드는 `hello-template` 이름을 return하고, model에는 `(name: spring123)`에 대한 key-value 값을 전달한다. 이제 **viewResolver**라는 화면과 관련된 어떤 해결자가 동작(view를 찾아주고 템플릿 엔진과 연결시켜준다고 이해)한다.
 6. viewResolver는 `templates/` 경로 하위에서 앞서 return한 String 값(hello-template)과 똑같은 html 파일을 찾아 thymeleaf 템플릿 엔진에게 처리해달라고 넘긴다
 7. 템플릿 엔진은 해당 파일을 렌더링하고, 변환한 HTML을 웹 브라우저에게 반환한다. (정적일 때는 HTML을 그냥 반환했음)
-![[Pasted image 20240319093357.png]]
+![[스프링부트 - hello-template.png]]
 - (정리)
 	1. 사용자의 Request(요청)를 Controller가 받는다.
 	2. Controller는 Service에서 비즈니스 로직을 처리한 후 결과를 Model에 담는다.

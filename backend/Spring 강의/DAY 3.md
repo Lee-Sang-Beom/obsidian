@@ -23,4 +23,4 @@
 4. 만약 없으면, 스프링 부트는 "resources/static/testStatic.html"이 있는지 찾아본다.
 5. 만약 여기 있으면, 이 html 파일을 반환한다. 이것이 정적 컨텐츠의 동작 방식이다.
 ```
-![[Pasted image 20240319093257.png]]
+![[스프링부트 - hello-static.png]]
