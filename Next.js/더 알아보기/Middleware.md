@@ -43,48 +43,43 @@ export const config = { matcher: ['/((?!api|_next/static|_next/image|favicon.ico
 
 #### 4. NextResponse
 
-- 
+- Next.js에서는 웹 응답 API를 확장하여 추가적인 편의 기능을 제공하는 `NextResponse`를 제공한다.
 
+- NextReponse API는 아래와 같은 작업을 수행할 수 있도록 한다.
+	- 들어오는 요청을 다른 URL로 `redirection`할 수 있다.
+	- 주어진 URL을 표시하여 응답을 재작성할 수 있다.
+	- API route, rewrite 대상에 대한 요청 헤더를 설정할 수 있다.
+	- 응답 쿠키를 설정할 수 있다.
+	- 응답 헤더를 설정할 수 있다.
 
-
-
-
-#### 3. 사용 예시
-
-1. `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/`"로 `redirect`
+-  `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/`"로 `redirect`
 ```typescript
 // 요청된 url을 그대로 사용자에게 보여주지않고, '/'로 페이지를 이동시킴
 return NextResponse.redirect(new URL('/', request.nextUrl.origin))
 ```
 
-2. `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/me/categories`"로 `rewrite`
+-  `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/me/categories`"로 `rewrite`
 ```typescript
 // 요청된 url을 그대로 사용자에게 보여주지만, 컨텐츠는 /me/categories로 보여줌
 return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin))
 ```
 
-3. Next.js의 NextResponse에 대한 여러 메소드
-	- NextResponse의 모체는 [이거](https://developer.mozilla.org/ko/docs/Web/API/Response)임 (Web_api의 Response)
-```
-  
-Next.js에서는 웹 응답 API를 확장하여 추가적인 편의 기능을 제공하는 `NextResponse`를 제공합니다.
+- Next.js의 NextResponse에 대한 여러 메소드
+	- NextResponse의 모체는 [Web_api의 Response](https://developer.mozilla.org/ko/docs/Web/API/Response)이다. ```
+1.`cookies`: 응답의 Set-Cookie 헤더를 읽거나 변경할 수 있다.
+	> `set(name, value)`: 지정된 이름과 값을 사용하여 응답에 쿠키를 설정한다.
+    > `get(name)`: 지정된 쿠키 이름에 해당하는 쿠키 값을 반환한다. 찾지 못할 경우 `undefined`를 반환하며, 여러 개의 쿠키가 있는 경우 첫 번째 것을 반환한다.
+    > `getAll(name)`: 지정된 쿠키 이름에 해당하는 모든 쿠키 값을 반환한다. 이름이 주어지지 않으면 응답에 있는 모든 쿠키를 반환한다.
+    > `delete(name)`: 지정된 쿠키 이름에 해당하는 쿠키를 응답에서 삭제한다.
 
-- `cookies`: 응답의 Set-Cookie 헤더를 읽거나 변경할 수 있습니다.
+2.`json()`: 주어진 JSON body로 응답을 생성한다.
     
-    - `set(name, value)`: 지정된 이름과 값을 사용하여 응답에 쿠키를 설정합니다.
-    - `get(name)`: 지정된 쿠키 이름에 해당하는 쿠키 값을 반환합니다. 찾지 못할 경우 `undefined`를 반환하며, 여러 개의 쿠키가 있는 경우 첫 번째 것을 반환합니다.
-    - `getAll(name)`: 지정된 쿠키 이름에 해당하는 모든 쿠키 값을 반환합니다. 이름이 주어지지 않으면 응답에 있는 모든 쿠키를 반환합니다.
-    - `delete(name)`: 지정된 쿠키 이름에 해당하는 쿠키를 응답에서 삭제합니다.
-- `json()`: 주어진 JSON 바디로 응답을 생성합니다.
+3.`redirect()`: 지정된 URL로 리디렉션하는 응답을 생성한다.
     
-- `redirect()`: 지정된 URL로 리디렉션하는 응답을 생성합니다.
+4.`rewrite()`: 원래 URL을 보존하면서 지정된 URL을 재작성(프록시)하는 응답을 생성한다.
     
-- `rewrite()`: 원래 URL을 보존하면서 지정된 URL을 재작성(프록시)하는 응답을 생성합니다.
-    
-- `next()`: 미들웨어에서 사용되며, 라우팅을 계속하고자 할 때 사용됩니다. 요청을 현재 상태로 반환합니다.
-    
-
-또한, 응답을 생성할 때 헤더를 전달할 수 있습니다.
+5.`next()`: 미들웨어에서 사용되며, 라우팅을 계속하고자 할 때 사용됩니다. 요청을 현재 상태로 반환한다. 
+			- 또한, 응답을 생성할 때 헤더를 전달할 수 있습니다.
 ```
 
 4. 요구기능
