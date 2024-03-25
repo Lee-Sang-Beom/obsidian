@@ -101,16 +101,14 @@ module.exports = {
 }
 ```
 
-
 2. 그러나 대상에 매개변수가 사용되면, 쿼리에는 매개변수가 자동으로 전달되지 않는다.
 	- 예를 들어, `/docs/:path*`와 같은 `source`를 `/:path*`로 `rewrites`할 때, 대상에는 `:path` 매개변수가 사용되므로 쿼리에 매개변수가 자동으로 전달되지 않는다.
 
 	- [요청] : 만약, 사용자가 `/docs/some-page` 경로로 요청을 보낸다.
-	- [결과] : 소스(source) 경로는 "/docs/:path*"입니다. 이는 "/docs/" 다음에 오는 모든 것을 `:path` 매개변수로 인식합니다.
-- 목적지(destination) 경로는 "/:path*"입니다. 이 경우, 목적지(destination) 경로에는 `:path` 매개변수가 사용되었습니다.
-- 대상(destination) 경로에 매개변수가 사용되었으므로, 쿼리(query)에 매개변수가 자동으로 전달되지 않습니다.
-
-결론적으로, 위의 설정은 "/some-page" 경로로 요청을 처리합니다. 요청과 결과는 다음과 같습니다.
+	- [결과] : `source` 경로는 `/docs/:path*`이다. 이는 `/docs/` 다음에 오는 모든 것을 `:path` 매개변수로 인식한다.
+		- `destination` 경로는 `/:path*`이다. 이 경우, `destination`경로에는 `:path` 매개변수가 사용되었다.
+		- `destination` 경로에 매개변수가 사용되었으므로, 쿼리(query)에 매개변수가 자동으로 전달되지 않는다.
+		- 결론적으로, `/some-page`와 같이 요청을 처리한다.
 ```js
 module.exports = {
   async rewrites() {
@@ -145,10 +143,53 @@ module.exports = {
 }
 ```
 
+##### Path Matching(경로 일치)
 
+- 경로 일치는 `/blog/:slug`와 같은 매개변수를 사용하는 경로 패턴을 허용한다.
+	- 이것은 `/blog/hello-world`와 같은 경로를 의마하는데, 이것은 중첩된 경로를 허용하지 않는다.
+```js
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: '/blog/:slug',
+        destination: '/news/:slug', // Matched parameters can be used in the destination
+      },
+    ]
+  },
+}
+```
+##### Wildcard Path Matching(와일드카드 경로 일치)
 
+- 와일드카드 경로를 일치시키려면 매개변수 뒤에 `*`를 사용할 수 있다.
+	- 예를 들어, `/blog/:slug*`는` /blog/a/b/c/d/hello-world`와 같은 경로와 일치한다.
+```js
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: '/blog/:slug*',
+        destination: '/news/:slug*', // Matched parameters can be used in the destination
+      },
+    ]
+  },
+}
+```
+##### Regex Path Matching(정규식 경로 일치)
 
-
+- 경로 일치는 /blog/:slug와 같은 매개변수를 사용하는 경로 패턴을 허용합니다. 이것은 /blog/hello-world와 같은 경로와 일치합니다. 이것은 중첩된 경로를 허용하지 않습니다.
+```js
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: '/old-blog/:post(\\d{1,})',
+        destination: '/blog/:post', // Matched parameters can be used in the destination
+      },
+    ]
+  },
+}
+```
 
 
 #### 2. redirect
