@@ -19,44 +19,63 @@
 	- `has`: 요소에 대한 정보를 담은 객체의 배열이다. 각 객체는 `type`, `key`, `value` 속성을 가지고 있다.
 	- `missing`: 부재하는 요소에 대한 정보를 담은 객체의 배열이다. 각 객체는 `type`, `key`, `value` 속성을 가지고 있다.
 
-- 기본적인 사용법은 아랭
-
+- 기본적인 사용법은 아래와 같다. (`next.config.js`)
 ```js
 module.exports = {
+  // rewrite
   async rewrites() {
-    return {
-      beforeFiles: [
-        // 이 rewriteing은 헤더/리다이렉션 이후에 확인되며
-        // 페이지 파일을 override할 수 있도록 하기 위해
-        // _next/public 파일을 포함한 모든 파일 이전에 확인됩니다.
-        {
-          source: '/some-page',
-          destination: '/somewhere-else',
-          has: [{ type: 'query', key: 'overrideMe' }],
-        },
-      ],
-      afterFiles: [
-        // 이 rewriting은 페이지/퍼블릭 파일이 확인된 후에
-        // 동적 경로 이전에 확인됩니다.
-        {
-          source: '/non-existent',
-          destination: '/somewhere-else',
-        },
-      ],
-      fallback: [
-        // 이 rewriting은 page/public 파일과
-        // 동적 경로가 확인된 후에 확인됩니다.
-        {
-          source: '/:path*',
-          destination: `https://my-old-site.com/:path*`,
-        },
-      ],
-    }
+    return [
+      {
+        // source : 유저가 진입할 path
+        // destination : 유저가 이동할 path
+        source: '/about',
+        destination: '/',
+      },
+    ]
   },
 }
 ```
+
+-   `rewrites` 함수가 배열을 반환할 때, `rewrites`는 파일 시스템 (`pages` 및 `/public` 파일)을 확인한 후 동적 경로 이전에 적용된다고 한다. 
+	- 그러나 rewrites 함수가 특정 형태의 배열을 가진 객체를 반환하면, 이 동작을 변경하고 더 정교하게 제어할 수 있는데. 이는 Next.js의 v10.1부터 지원된다고 한다.
+	
+	```js
+module.exports = {
+  async rewrites() {
+	return {
+	  beforeFiles: [
+		// These rewrites are checked after headers/redirects
+		// and before all files including _next/public files which
+		// allows overriding page files
+		{
+		  source: '/some-page',
+		  destination: '/somewhere-else',
+		  has: [{ type: 'query', key: 'overrideMe' }],
+		},
+	  ],
+	  afterFiles: [
+		// These rewrites are checked after pages/public files
+		// are checked but before dynamic routes
+		{
+		  source: '/non-existent',
+		  destination: '/somewhere-else',
+		},
+	  ],
+	  fallback: [
+		// These rewrites are checked after both pages/public files
+		// and dynamic routes are checked
+		{
+		  source: '/:path*',
+		  destination: `https://my-old-site.com/:path*`,
+		},
+	  ],
+	}
+  },
+}
+	```
+
+
 #### 2. redirect
 
 - Next.js에서 제공하는 `redirect` 기능 또한 사용자가 특정 `path`로 이동 시, 정해진 화면이 보이도록 한다.
 - 다만, **주소창의 URL 자체가 이동하고자 하는 페이지의 URL로 변경**되어 이동하는 점이 `rewrite`와의 차이이다.
-
