@@ -1,1 +1,13 @@
-- https://velog.io/@deli-ght/nextrewrite%EC%99%80-redirect
+
+#### 1. rewrite
+
+- Next.js에서 제공하는 `rewrite` 기능은 사용자가 특정 `path`로 이동 시, 정해진 화면이 보이도록 한다.
+- 사용자가 입력한 **URL 자체는 그대로 보여지지만**, 실제 페이지는 **다른 페이지의 내용을 출력하도록 구현**된다.
+
+#### 2. redirect
+
+- Next.js에서 제공하는 `redirect` 기능 또한 사용자가 특정 `path`로 이동 시, 정해진 화면이 보이도록 한다.
+- 다만, **주소창의 URL 자체가 이동하고자 하는 페이지의 URL로 변경**되어 이동하는 점이 `rewrite`와의 차이이다.
+
+
+#### 3. 설정하기
