@@ -1,4 +1,3 @@
-- https://velog.io/@pds0309/nextjs-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4%EB%9E%80
 
 1. `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/`"로 `redirect`
 ```typescript
@@ -69,3 +68,7 @@ export const config = {
   matcher: ['/me/:path*', '/write/:path*', '/'],
 };
 ```
+
+#### 기타
+- [참고링크](https://velog.io/@pds0309/nextjs-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4%EB%9E%80)
+- **nextauth 백링크**: [[3. NextAuth.js 사용해보기 3]]
