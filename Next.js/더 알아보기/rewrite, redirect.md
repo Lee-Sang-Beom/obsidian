@@ -12,41 +12,51 @@
 			5. **서비스 접근 제어**: 특정 사용자나 IP 주소에서의 요청을 필터링하거나 차단하여 보안을 강화하거나 접근 권한을 관리할 수 있다.
 
 - 속성은 아래와 같다.
-	- `source`: 들어오는 요청 경로 패턴을 나타냅니다. 이는 문자열 형식으로 제공됩니다.
-	- `destination`: 해당 요청이 라우팅되어야 하는 대상 경로를 나타냅니다. 이 또한 문자열 형식으로 제공됩니다.
-	- `basePath`: 기본 경로를 설정합니다. 이 값을 false로 설정하면 basePath가 일치할 때 포함되지 않습니다. 주로 외부 리라이팅에 사용됩니다.
-	- `locale`: 로케일을 설정합니다. false 또는 undefined로 설정하면 매칭시 로케일이 포함되지 않습니다.
-	- `has`: 요소에 대한 정보를 담은 객체의 배열입니다. 각 객체는 type, key, value 속성을 가지고 있습니다.
-	- `missing`: 부재하는 요소에 대한 정보를 담은 객체의 배열입니다. 각 객체는 type, key, value 속성을 가지고 있습니다.
+	- `source`: 들어오는 요청 경로 패턴을 나타낸다.
+	- `destination`: 해당 요청이 라우팅되어야 하는 대상 경로를 나타낸다.
+	- `basePath`: 주로 외부 리라이팅에 사용되며, 기본 경로를 설정하는 속성이다. 이 값을 false로 설정하면 `basePath`가 일치할 때 포함되지 않는다. 
+	- `locale`: `locale`을 설정한다. `false` 또는 `undefined`로 설정하면 매칭 시 `locale`이 포함되지 않는다.
+	- `has`: 요소에 대한 정보를 담은 객체의 배열이다. 각 객체는 `type`, `key`, `value` 속성을 가지고 있다.
+	- `missing`: 부재하는 요소에 대한 정보를 담은 객체의 배열이다. 각 객체는 `type`, `key`, `value` 속성을 가지고 있다.
+
+- 기본적인 사용법은 아랭
+
+```js
+module.exports = {
+  async rewrites() {
+    return {
+      beforeFiles: [
+        // 이 rewriteing은 헤더/리다이렉션 이후에 확인되며
+        // 페이지 파일을 override할 수 있도록 하기 위해
+        // _next/public 파일을 포함한 모든 파일 이전에 확인됩니다.
+        {
+          source: '/some-page',
+          destination: '/somewhere-else',
+          has: [{ type: 'query', key: 'overrideMe' }],
+        },
+      ],
+      afterFiles: [
+        // 이 rewriting은 페이지/퍼블릭 파일이 확인된 후에
+        // 동적 경로 이전에 확인됩니다.
+        {
+          source: '/non-existent',
+          destination: '/somewhere-else',
+        },
+      ],
+      fallback: [
+        // 이 rewriting은 page/public 파일과
+        // 동적 경로가 확인된 후에 확인됩니다.
+        {
+          source: '/:path*',
+          destination: `https://my-old-site.com/:path*`,
+        },
+      ],
+    }
+  },
+}
+```
 #### 2. redirect
 
 - Next.js에서 제공하는 `redirect` 기능 또한 사용자가 특정 `path`로 이동 시, 정해진 화면이 보이도록 한다.
 - 다만, **주소창의 URL 자체가 이동하고자 하는 페이지의 URL로 변경**되어 이동하는 점이 `rewrite`와의 차이이다.
 
-
-#### 3. 설정하기
-
-- 설정을 위해서는, `next.config.js` 파일에 아래와 같은 설정키를 추가해주면 된다.
-```js
-module.exports = {
-  // rewrite
-  async rewrites() {
-    return [
-      {
-        source: '/about',
-        destination: '/',
-      },
-    ]
-  },
-  // redirect
-  async redirects() {
-    return [
-      {
-        source: '/about',
-        destination: '/',
-        permanent: true,
-      },
-    ]
-  },
-}
-```
