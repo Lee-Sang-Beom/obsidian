@@ -54,40 +54,32 @@ export const config = { matcher: ['/((?!api|_next/static|_next/image|favicon.ico
 
 - Next.js의 `NextResponse`에 대한 여러 메소드
 	- `NextResponse`의 모체는 [Web_api의 Response](https://developer.mozilla.org/ko/docs/Web/API/Response)이다.
-```
-
-
-2.`json()`: 주어진 JSON body로 응답을 생성한다.
-    
-3.`redirect()`: 지정된 URL로 리디렉션하는 응답을 생성한다.
-    
-4.`rewrite()`: 원래 URL을 보존하면서 지정된 URL을 재작성(프록시)하는 응답을 생성한다.
-    
-5.`next()`: 미들웨어에서 사용되며, 라우팅을 계속하고자 할 때 사용됩니다. 요청을 현재 상태로 반환한다. 
-			- 또한, 응답을 생성할 때 헤더를 전달할 수 있습니다.
-```
-
--  `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/`"로 `redirect`
 ```typescript
+// `redirect()`: 지정된 URL로 리디렉션하는 응답을 생성한다.
 // 요청된 url을 그대로 사용자에게 보여주지않고, '/'로 페이지를 이동시킴
 return NextResponse.redirect(new URL('/', request.nextUrl.origin))
 ```
 
 -  `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/me/categories`"로 `rewrite`
 ```typescript
+// `rewrite()`: 원래 URL을 보존하면서 지정된 URL을 재작성(프록시)하는 응답을 생성한다.
 // 요청된 url을 그대로 사용자에게 보여주지만, 컨텐츠는 /me/categories로 보여줌
 return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin))
 ```
 
 -  Next.js는 `NextRequest`, `NextResponse`의 `cookies` 확장을 통해, `cookies`에 쉽게 접근하고 조작할 수 있는 편리한 방법을 제공한다.
-	- 들어오는 요청`(request)`에 대해, `cookies`는 다음과 같은 메서드가 있다.
-		- get, getAll, set, delete cookies. has를 사용하여 쿠키의 존재 여부를 확인
-		- clear를 사용하여 모든 쿠키를 제거
-		- 나가는 응답에 대해, cookies에는 get, getAll, set, delete와 같은 메서드가 있습니다.
+	- 들어오는 요청`(request)`에 대해, `cookies`에는 다음과 같은 메서드가 있다.
+		1. `get(name)` : 지정된 쿠키 이름에 해당하는 쿠키 값을 반환한다. 찾지 못할 경우 `undefined`를 반환하며, 여러 개의 쿠키가 있는 경우 첫 번째 것을 반환한다.
+		2. `set(name, value)`: 지정된 이름과 값을 사용하여 응답에 쿠키를 설정한다.
+		3. `getAll(name)`: 지정된 쿠키 이름에 해당하는 모든 쿠키 값을 반환한다. 이름이 주어지지 않으면 응답에 있는 모든 쿠키를 반환한다.
+		4. `delete(name)`: 지정된 쿠키 이름에 해당하는 쿠키를 응답에서 삭제한다.
+		5. `clear()`: 모든 쿠키를 제거한다. 
 
+> **요청 및 응답헤더** 예시:  (출처: [Inpa Dev님의 포스트](https://inpa.tistory.com/entry/HTTP-%F0%9F%8C%90-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EC%BF%A0%ED%82%A4-%EA%B0%9C%EB%85%90-Cookie-%ED%97%A4%EB%8D%94-%EB%8B%A4%EB%A3%A8%EA%B8%B0#cookie_%EC%9A%94%EC%B2%AD_%ED%97%A4%EB%8D%94))
+![[Pasted image 20240325135110.png]]
+![[Pasted image 20240325135200.png]]
 
-
-4. 요구기능
+2. 요구기능
 ```null
 - 1. 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
 - 2. 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 redirect시킨다.
