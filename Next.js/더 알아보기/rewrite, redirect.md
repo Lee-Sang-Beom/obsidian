@@ -19,6 +19,8 @@
 	- `has`: 요소에 대한 정보를 담은 객체의 배열이다. 각 객체는 `type`, `key`, `value` 속성을 가지고 있다.
 	- `missing`: 부재하는 요소에 대한 정보를 담은 객체의 배열이다. 각 객체는 `type`, `key`, `value` 속성을 가지고 있다.
 
+##### 사용법
+
 - 기본적인 사용법은 아래와 같다. (`next.config.js`)
 ```js
 module.exports = {
@@ -73,6 +75,23 @@ module.exports = {
   },
 }
 	```
+
+##### Rewrite parameters (rewriting 매개변수)
+
+- `rewrites`에서 매개변수 사용 시, `destination`에 매개변수가 사용되지 않았다면, 기본적으로 쿼리에 매개변수가 전달된다.
+	- 예를 들어, `/old-about/:path*`와 같은 `source`를 `/about`로 `rewrites`할 때, `destination`에는 `:path` 매개변수가 사용되지 않기 때문에 자동으로 쿼리에 매개변수가 전달된다.
+	- 그러나 대상에 매개변수가 사용되면, 쿼리에는 매개변수가 자동으로 전달되지 않습니다.
+
+예를 들어, '/docs/:path*'와 같은 소스를 '/:path*'로 리라이팅할 때, 대상에는 ':path' 매개변수가 사용되므로 쿼리에 매개변수가 자동으로 전달되지 않습니다.
+
+
+
+
+
+
+
+
+
 
 
 #### 2. redirect
