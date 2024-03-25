@@ -55,6 +55,8 @@ export const config = { matcher: ['/((?!api|_next/static|_next/image|favicon.ico
 		- `next()`: 미들웨어에서 사용되며, 라우팅을 계속하고자 할 때 사용됩니다. 요청을 현재 상태로 반환한다. 
 			- 또한, 응답을 생성할 때 헤더를 전달할 수 있다.
 
+##### `redirect`
+
 - Next.js의 `NextResponse`에 대한 여러 메소드
 	- `NextResponse`의 모체는 [Web_api의 Response](https://developer.mozilla.org/ko/docs/Web/API/Response)이다.
 ```typescript
@@ -63,12 +65,16 @@ export const config = { matcher: ['/((?!api|_next/static|_next/image|favicon.ico
 return NextResponse.redirect(new URL('/', request.nextUrl.origin))
 ```
 
+##### `rewrite`
+
 -  `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/me/categories`"로 `rewrite`
 ```typescript
 // `rewrite()`: 원래 URL을 보존하면서 지정된 URL을 재작성(프록시)하는 응답을 생성한다.
 // 요청된 url을 그대로 사용자에게 보여주지만, 컨텐츠는 /me/categories로 보여줌
 return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin))
 ```
+
+##### `cookies`
 
 -  Next.js는 `NextRequest`, `NextResponse`의 `cookies` 확장을 통해, `cookies`에 쉽게 접근하고 조작할 수 있는 편리한 방법을 제공한다.
 	- 들어오는 요청`(request)`에 대해, `cookies`에는 다음과 같은 메서드가 있다.
@@ -81,6 +87,8 @@ return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin))
 > **요청 및 응답헤더** 예시:  (출처: [Inpa Dev님의 포스트](https://inpa.tistory.com/entry/HTTP-%F0%9F%8C%90-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EC%BF%A0%ED%82%A4-%EA%B0%9C%EB%85%90-Cookie-%ED%97%A4%EB%8D%94-%EB%8B%A4%EB%A3%A8%EA%B8%B0#cookie_%EC%9A%94%EC%B2%AD_%ED%97%A4%EB%8D%94))
 ![[Pasted image 20240325135110.png]]
 ![[Pasted image 20240325135200.png]]
+
+##### `CORS`
 
 - 공식문서에서는 CORS 헤더를 설정하여 간단한 요청 및 `preflighted` 요청을 포함한 교차 출처 요청을 허용할 수 있다고 한다.
 ```ts
@@ -128,7 +136,30 @@ export const config = {
 }
 ```
 
-- 
+##### `Producing a Response`
+- 아래는 `/api`로 시작하는 경로에 대해서만 `middleware` 실행 코드를 적용하도록 설정한 예제이다. (`matcher` 속성).
+- 그리고 `middleware` 함수 내에서는 요청이 인증되었는지를 확인하기 위해 `isAuthenticated` 함수를 호출한다. 
+	- 인증에 실패할 경우, 401 상태 코드와 함께 'authentication failed' 메시지를 가진 `JSON 응답`을 반환한다.
+```ts
+import { NextRequest } from 'next/server'
+import { isAuthenticated } from '@lib/auth'
+
+// match로 middleware내의 
+export const config = {
+  matcher: '/api/:function*',
+}
+ 
+export function middleware(request: NextRequest) {
+  // Call our authentication function to check the request
+  if (!isAuthenticated(request)) {
+    // Respond with JSON indicating an error message
+    return Response.json(
+      { success: false, message: 'authentication failed' },
+      { status: 401 }
+    )
+  }
+}
+```
 #### 5. 예시
 
  - [예시 및 구현코드를 포함하는 포스트 출처](https://velog.io/@pds0309/nextjs-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4%EB%9E%80)
