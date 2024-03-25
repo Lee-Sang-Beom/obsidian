@@ -1,7 +1,7 @@
 #### 1. Next.js Middleware
 
 - `middleware`는 클라이언트 요청이 완료되기 전, 코드를 실행할 수 있도록 한다. 그런 다음, 들어오는 요청에 따라 응답을 재작성하게 하거나, `redirection`하거나, 요청 및 응답 헤더를 수정하거나, 직접 응답할 수도 있다.
-	- `middleware`는 캐시된 콘텐츠와 라우트가 일치하기 전에 실행된다고 한다. (페이지 렌더링 전)
+	- `middleware`는 캐시된 콘텐츠와 라우트가 일치하기 전에 실행된다고 한다. 
 
 - `middleware`의 정의는 프로젝트 루트에 `middleware.ts(또는 .js)`파일을 사용하여야 한다.
 
@@ -9,7 +9,35 @@
 #### 2. Matching Paths
 
 - `middleware`는 기본적으로 모든 라우트에 대해 아래와 같이 순차적으로 동작한다고 한다. 
-	1. 
+	1. `next.config.js`에서의 **`header`** 동작
+	2. `next.config.js`에서의 **`redirection`** 동작
+	3. `middleware`에서의 동작 **`예시: rewrite, rediection`**
+	4. `next.config.js`에서의 `beforeFiles` (재작성)
+	5. 파일 시스템 `route`(라우트) `(public/, _next/static/, pages/, app/ 등)`
+	6. `next.config.js`에서의 `afterFiles` (재작성)
+	7. 동적 경로 (/blog/[slug])
+	8. `next.config.js`에서의 `fallback` (재작성)
+
+- 여기서 3번째 단계에서의 `middleware` 동작은 **파일 시스템 라우트, 동적 경로** 등의 동작보다 빨리 이루어진다.
+
+
+#### 3. Matcher
+
+- Matcher를 사용하면, 특정 경로에서 `middleware`를 필터링하여 실행할 수 있다.
+```ts
+
+export const config = {
+	matcher: '/about/:path*'
+}
+
+// 배열 구문을 사용하여 단일 경로 또는 여러 경로를 일치시킬 수 있다.
+export const config = { matcher: ['/about/:path*', '/dashboard/:path*'], }
+```
+
+
+
+
+
 
 
 
