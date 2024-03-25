@@ -51,6 +51,9 @@ export const config = { matcher: ['/((?!api|_next/static|_next/image|favicon.ico
 	3. API route, rewrite 대상에 대한 요청 헤더를 설정할 수 있다.
 	4. 응답 쿠키를 설정할 수 있다.
 	5. 응답 헤더를 설정할 수 있다.
+	6. 물론, `next()`메소드를 사용하여, 그대로 진행할 수도 있다.
+		- `next()`: 미들웨어에서 사용되며, 라우팅을 계속하고자 할 때 사용됩니다. 요청을 현재 상태로 반환한다. 
+			- 또한, 응답을 생성할 때 헤더를 전달할 수 있다.
 
 - Next.js의 `NextResponse`에 대한 여러 메소드
 	- `NextResponse`의 모체는 [Web_api의 Response](https://developer.mozilla.org/ko/docs/Web/API/Response)이다.
@@ -79,26 +82,77 @@ return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin))
 ![[Pasted image 20240325135110.png]]
 ![[Pasted image 20240325135200.png]]
 
-2. 요구기능
-```null
-- 1. 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
-- 2. 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 redirect시킨다.
-- 3. 그 외에는 요청에 대해 그대로 응답한다.
+- 공식문서에서는 CORS 헤더를 설정하여 간단한 요청 및 `preflighted` 요청을 포함한 교차 출처 요청을 허용할 수 있다고 한다.
+```ts
+import { NextRequest, NextResponse } from 'next/server'
+ 
+const allowedOrigins = ['https://acme.com', 'https://my-app.org']
+ 
+const corsOptions = {
+  'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+}
+ 
+export function middleware(request: NextRequest) {
+  // 요청에서 origin 확인
+  const origin = request.headers.get('origin') ?? ''
+  const isAllowedOrigin = allowedOrigins.includes(origin)
+ 
+  // `preflighted` 요청 처리
+  const isPreflight = request.method === 'OPTIONS'
+ 
+  if (isPreflight) {
+    const preflightHeaders = {
+      ...(isAllowedOrigin && { 'Access-Control-Allow-Origin': origin }),
+      ...corsOptions,
+    }
+    return NextResponse.json({}, { headers: preflightHeaders })
+  }
+ 
+  // 간단한 요청 처리
+  const response = NextResponse.next()
+ 
+  if (isAllowedOrigin) {
+    response.headers.set('Access-Control-Allow-Origin', origin)
+  }
+ 
+  Object.entries(corsOptions).forEach(([key, value]) => {
+    response.headers.set(key, value)
+  })
+ 
+  return response
+}
+ 
+export const config = {
+  matcher: '/api/:path*',
+}
 ```
 
-5. 구현
+#### 5. 예시
+
+-  요구기능
+	1. 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
+	2. 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 `redirect`시킨다.
+	3. 그 외에는 요청에 대해 그대로 응답한다.
+
+- 구현
  ```typescript
 import { NextRequest, NextResponse } from 'next/server';
 
 export function middleware(request: NextRequest) {
-  // 요청 객체에서 쿠키 뽑아내
+  // 요청 객체에서 쿠키 뽑아내기
   const { cookies } = request;
   // accessToken 있는지 검사
   const hasCookie = cookies.has('accessToken');
+
+
+  // 쿠키도없고, 요청 URL이 home(/)이 아닌경우(dl)
   if (!hasCookie && request.nextUrl.pathname !== '/') {
   // 2. 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 redirect시킨다.
     return NextResponse.redirect(new URL('/', request.nextUrl.origin));
   }
+
+  // 쿠키있고, 요청 URL이 home(/)인 경우
   if (hasCookie && request.nextUrl.pathname === '/') {
   // 1. 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
   // rewrite로 URL은 요청경로를 그대로 보여주는데, 실 내용은 '/me/categories'로 보여준다
