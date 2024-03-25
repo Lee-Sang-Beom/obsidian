@@ -80,13 +80,49 @@ module.exports = {
 
 - `rewrites`에서 매개변수 사용 시, `destination`에 매개변수가 사용되지 않았다면, 기본적으로 쿼리에 매개변수가 전달된다.
 	- 예를 들어, `/old-about/:path*`와 같은 `source`를 `/about`로 `rewrites`할 때, `destination`에는 `:path` 매개변수가 사용되지 않기 때문에 자동으로 쿼리에 매개변수가 전달된다.
-	- 그러나 대상에 매개변수가 사용되면, 쿼리에는 매개변수가 자동으로 전달되지 않습니다.
+```js
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: '/old-about/:path*',
+        
+        // The :path parameter isn't used here so will be automatically passed in the query
+        destination: '/about', 
+      },
+    ]
+  },
+}
+```
+- 그러나 대상에 매개변수가 사용되면, 쿼리에는 매개변수가 자동으로 전달되지 않는다.
+	- 예를 들어, `/docs/:path*`와 같은 `source`를 `/:path*`로 `rewrites`할 때, 대상에는 `:path` 매개변수가 사용되므로 쿼리에 매개변수가 자동으로 전달되지 않는다.
+```js
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: '/docs/:path*',
 
-예를 들어, '/docs/:path*'와 같은 소스를 '/:path*'로 리라이팅할 때, 대상에는 ':path' 매개변수가 사용되므로 쿼리에 매개변수가 자동으로 전달되지 않습니다.
+		// The :path parameter is used here so will not be automatically passed in the query
+        destination: '/:path*', 
+      },
+    ]
+  },
+}
+```
 
-
-
-
+- 만약 `destination`경로에 이미 매개변수가 사용되고 있다면, 명시적으로 `destination`에 쿼리를 지정하여 매개변수를 수동으로 전달할 수 있다. 이것은 매개변수가 중복되는 상황에서도 쿼리에 추가적인 매개변수를 전달하고자 할 때 사용된다.
+```js
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: '/:first/:second',
+        destination: '/:first?second=:second',
+    ]
+  },
+}
+```
 
 
 
