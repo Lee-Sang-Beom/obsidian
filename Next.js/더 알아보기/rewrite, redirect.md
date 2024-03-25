@@ -305,4 +305,41 @@ module.exports = {
 }
 ```
 
+- 다른 예시는 아래와 같다. 이 설정은 `/category`로 시작하고 `:category*`와 `:slug*` 매개변수를 포함하는 모든 경로를 `/posts`로 영구적으로 `redirect`한다.
+	- [요청] : `/category/technology/article-1`
+	- [결과] : `/posts/article-1`
+```js
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/category/:category*/:slug*',
+        destination: '/posts/:slug*',
+        permanent: true,
+      },
+    ]
+  },
+}
+```
+
 ##### Regex Path Matching (정규식 경로 일치)
+
+- `rewrites`처럼 정규식 또한 사용 가능하다
+	- [요청] : `/post/123`
+	- [결과] : `/news/123`
+
+- 만약, `/post/abc`와 같은 요청이 들어오면 `/post/:slug(\\d{1,})`에 일치하지 않으므로, `redirect`가 발생하지 않는다.
+	- 이 `redirect` 설정 및 실행은 숫자로 된 1개 이상의 문자열을 가진 경로에만 일치합니다.
+```js
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/post/:slug(\\d{1,})',
+        destination: '/news/:slug',
+        permanent: true,
+      },
+    ]
+  },
+}
+```
