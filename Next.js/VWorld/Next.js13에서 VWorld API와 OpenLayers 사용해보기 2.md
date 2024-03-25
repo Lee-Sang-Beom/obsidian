@@ -11,6 +11,8 @@ const MapContext = React.createContext({});
 export default MapContext;
 ```
 
+- 본인이 진행한 프로젝트의 `layout.tsx` 하위 페이지에는 총 4개의 `map object`가 필요했기 때문에, 총 4개의 context를 생성했다.
+	- `selectMapContext`, `fireMapContext`, `explMapContext`, `dfsnMapContext`
 
 #### MapComponent.tsx 생성
 
@@ -60,4 +62,11 @@ const MapComponent = ({ children }: any) => {
   
 
 export default MapComponent;
+```
+
+- 마찬가지로, 본인이 진행한 프로젝트의 `layout.tsx` 하위 페이지에는 총 4개의 `map object`가 필요했기 때문에, 총 4개의 context에 해당하는 `Component`를 생성했다.
+	- `selectMapComponent`, `fireMapComponent`, `explMapComponent`, `dfsnMapComponent`
+	- `fireMapComponent`내용은 아래와 같다.
+```tsx
+
 ```
