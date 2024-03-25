@@ -128,11 +128,14 @@ export const config = {
 }
 ```
 
+- 
 #### 5. 예시
 
+ - [예시 및 구현코드를 포함하는 포스트 출처](https://velog.io/@pds0309/nextjs-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4%EB%9E%80)
+
 -  요구기능
-	1. 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
-	2. 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 `redirect`시킨다.
+	1. 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 `redirect`시킨다.
+	2. 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
 	3. 그 외에는 요청에 대해 그대로 응답한다.
 
 - 구현
@@ -146,19 +149,20 @@ export function middleware(request: NextRequest) {
   const hasCookie = cookies.has('accessToken');
 
 
-  // 쿠키도없고, 요청 URL이 home(/)이 아닌경우(dl)
+  // 1. 쿠키도없고, 요청 URL이 home(/)이 아닌경우(인증된 사용자만 접근 가능한 페이지인경우)
+  // 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 redirect시킨다
   if (!hasCookie && request.nextUrl.pathname !== '/') {
-  // 2. 인증된 사용자만 접근할 수 있는 페이지에 토큰이 없는 사용자가 접근할 경우 메인페이지로 redirect시킨다.
     return NextResponse.redirect(new URL('/', request.nextUrl.origin));
   }
 
-  // 쿠키있고, 요청 URL이 home(/)인 경우
+  // 2. 쿠키있고, 요청 URL이 home(/)인 경우
+  // 로그인을 한 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
+  // 아래 예제에서는 rewrite로 URL은 요청한 경로 그대로를 보여주는데, 실 내용은 '/me/categories'로 보여준다
   if (hasCookie && request.nextUrl.pathname === '/') {
-  // 1. 로그인을 했던 사용자에게는 메인페이지 접근 시 본인 카테고리 목록 조회 페이지를 보여줘야한다.
-  // rewrite로 URL은 요청경로를 그대로 보여주는데, 실 내용은 '/me/categories'로 보여준다
     return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin));
   }
-// 3. 그 외에는 요청에 대해 그대로 응답한다.
+  
+  // 3. 그 외에는 요청에 대해 그대로 응답한다.
   return NextResponse.next();
 }
 
@@ -168,5 +172,4 @@ export const config = {
 ```
 
 #### 기타
-- [참고링크](https://velog.io/@pds0309/nextjs-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4%EB%9E%80)
 - **nextauth 백링크**: [[3. NextAuth.js 사용해보기 3]]
