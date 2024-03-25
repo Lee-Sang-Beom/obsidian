@@ -146,7 +146,11 @@ module.exports = {
 ##### Path Matching(경로 일치)
 
 - 경로 일치는 `/blog/:slug`와 같은 매개변수를 사용하는 경로 패턴을 허용한다.
-	- 이것은 `/blog/hello-world`와 같은 경로를 의마하는데, 이것은 중첩된 경로를 허용하지 않는다.
+	- 이것은 `/blog/hello-world`와 같은 경로를 의미하는데, **이것은 중첩된 경로는 허용하지 않으며,** 대신 동적인 `path`값을 받아오기에 유용하다
+
+- `/blog/apple` -> `/news/apple` (o)
+- `/blog/banana` -> `/news/banana` (o)
+- `/blog/apple/green` (x)
 ```js
 module.exports = {
   async rewrites() {
@@ -158,11 +162,16 @@ module.exports = {
     ]
   },
 }
+
 ```
 ##### Wildcard Path Matching(와일드카드 경로 일치)
 
 - 와일드카드 경로를 일치시키려면 매개변수 뒤에 `*`를 사용할 수 있다.
 	- 예를 들어, `/blog/:slug*`는` /blog/a/b/c/d/hello-world`와 같은 경로와 일치한다.
+	- 이것은 **중첩된 경로를 허용한다.**
+
+- `/blog/apple/green` -> `/news/apple/green` (o)
+- `/blog/apple/green/delicious` -> `/news/apple/green/delicious`  (o)
 ```js
 module.exports = {
   async rewrites() {
@@ -177,12 +186,14 @@ module.exports = {
 ```
 ##### Regex Path Matching(정규식 경로 일치)
 
-- 경로 일치는 /blog/:slug와 같은 매개변수를 사용하는 경로 패턴을 허용합니다. 이것은 /blog/hello-world와 같은 경로와 일치합니다. 이것은 중첩된 경로를 허용하지 않습니다.
+- 정규식 경로를 일치시키려면 매개변수 뒤에 정규식을 괄호로 감싸면 된다. 
+	- 예를 들어, `/blog/:slug(\d{1,})`은 `/blog/123`과 같은 경로와 일치하지만, `/blog/abc`와 같은 경로와는 일치하지 않는다.
 ```js
 module.exports = {
   async rewrites() {
     return [
       {
+	    // `(\\d{1,})`에서, `\d`는 숫자를 나타내고 `{1,}`는 최소한 한 자리 이상의 숫자를 나타낸다.
         source: '/old-blog/:post(\\d{1,})',
         destination: '/blog/:post', // Matched parameters can be used in the destination
       },
