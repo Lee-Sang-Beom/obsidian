@@ -78,8 +78,10 @@ module.exports = {
 
 ##### Rewrite parameters (rewriting 매개변수)
 
-- `rewrites`에서 매개변수 사용 시, `destination`에 매개변수가 사용되지 않았다면, 기본적으로 쿼리에 매개변수가 전달된다.
+1. `rewrites`에서 매개변수 사용 시, `destination`에 매개변수가 사용되지 않았다면, 기본적으로 쿼리에 매개변수가 전달된다.
 	- 예를 들어, `/old-about/:path*`와 같은 `source`를 `/about`로 `rewrites`할 때, `destination`에는 `:path` 매개변수가 사용되지 않기 때문에 자동으로 쿼리에 매개변수가 전달된다.
+
+- 
 ```js
 module.exports = {
   async rewrites() {
@@ -94,7 +96,9 @@ module.exports = {
   },
 }
 ```
-- 그러나 대상에 매개변수가 사용되면, 쿼리에는 매개변수가 자동으로 전달되지 않는다.
+
+
+2. 그러나 대상에 매개변수가 사용되면, 쿼리에는 매개변수가 자동으로 전달되지 않는다.
 	- 예를 들어, `/docs/:path*`와 같은 `source`를 `/:path*`로 `rewrites`할 때, 대상에는 `:path` 매개변수가 사용되므로 쿼리에 매개변수가 자동으로 전달되지 않는다.
 ```js
 module.exports = {
@@ -111,14 +115,20 @@ module.exports = {
 }
 ```
 
-- 만약 `destination`경로에 이미 매개변수가 사용되고 있다면, 명시적으로 `destination`에 쿼리를 지정하여 매개변수를 수동으로 전달할 수 있다. 이것은 매개변수가 중복되는 상황에서도 쿼리에 추가적인 매개변수를 전달하고자 할 때 사용된다.
+3. 만약 `destination`경로에 이미 매개변수가 사용되고 있다면, 명시적으로 `destination`에 쿼리를 지정하여 매개변수를 수동으로 전달할 수 있다. 이것은 매개변수가 중복되는 상황에서도 쿼리에 추가적인 매개변수를 전달하고자 할 때 사용된다.
+	- [요청]:  만약, 사용자가 `/apple/banana`로 요청을 보낸다.
+	- [결과]:  `source` 경로는 `/:first/:second`이다. 이는 첫 번째 매개변수인 `:first`와 두 번째 매개변수인 `:second`를 포함한다.
+		- `destination`경로는 `/:first?second=:second`이다. 이 경우, `:first` 매개변수가 이미 `destination` 경로에 사용되었으니, `:second` 매개변수는 쿼리(query)에 자동으로 추가되지 않는다.
+		- 따라서, `/apple/banana` 경로의 요청에서 `:second` 매개변수를 전달하려면 명시적으로 `destination`에 쿼리를 지정해야 한다.
+		- 결론적으로, 위의 설정은 `/apple/banana?second=banana`와 같이 요청을 처리한다.
 ```js
 module.exports = {
   async rewrites() {
     return [
       {
-        source: '/:first/:second',
-        destination: '/:first?second=:second',
+		source: '/:first/:second', 
+		destination: '/:first?second=:second',
+	  },
     ]
   },
 }
