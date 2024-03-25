@@ -85,8 +85,8 @@ return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin))
 		5. `clear()`: 모든 쿠키를 제거한다. 
 
 > **요청 및 응답헤더** 예시:  (출처: [Inpa Dev님의 포스트](https://inpa.tistory.com/entry/HTTP-%F0%9F%8C%90-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EC%BF%A0%ED%82%A4-%EA%B0%9C%EB%85%90-Cookie-%ED%97%A4%EB%8D%94-%EB%8B%A4%EB%A3%A8%EA%B8%B0#cookie_%EC%9A%94%EC%B2%AD_%ED%97%A4%EB%8D%94))
-![[Pasted image 20240325135110.png]]
-![[Pasted image 20240325135200.png]]
+![[http request cookie.png]]
+![[http response set-cookie.png]]
 
 ##### `CORS`
 
@@ -161,6 +161,8 @@ export function middleware(request: NextRequest) {
   }
 }
 ```
+
+
 #### 5. 예시
 
  - [예시 및 구현코드를 포함하는 포스트 출처](https://velog.io/@pds0309/nextjs-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4%EB%9E%80)
