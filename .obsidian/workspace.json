@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "39204302b768a710",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a477f6e88e8b9185",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
