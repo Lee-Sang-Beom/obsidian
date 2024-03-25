@@ -1,5 +1,11 @@
 
-https://velog.io/@2ast/React-%EC%84%9C%EB%B2%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8React-Server-Component%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0
+#### Next.js 의 RSC, RCC, SSR, CSR 알아보기
+
+##### [포스트](https://velog.io/@2ast/React-%EC%84%9C%EB%B2%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8React-Server-Component%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0)
+
+- 위에서 링크한 포스트에서는, Next.js의 RSC(React Server Component), RCC(React Client Component)의 동작과 이것들이 Next.js의 SSR과 어떻게 맞물리는지를 굉장히 알기 쉽게 설명하고 있다.
+
+- 여기서는, 링크한 포스트에서 주의깊게 살펴보아야 할 내용을 요약하고, 잘 이해되지 않았던 내용을 다시금 정리하며 Next.js의 컴포넌트 동작에 대해 좀 더 자세히 알아가보고자 한다.
 
 #### 왜 함수는 직렬화못함?
 
