@@ -2,6 +2,7 @@
 #### 1. rewrite
 
 - Next.js에서 제공하는 `rewrite` 기능은 사용자가 특정 `path`로 이동 시, 정해진 화면이 보이도록 한다.
+
 - 사용자가 입력한 **URL 자체는 그대로 보여지지만**, 실제 페이지는 **다른 페이지의 내용을 출력하도록 구현**된다.
 	- 즉, 대상 경로를 숨기고 사용자가 사이트에서의 위치를 변경하지 않은 것처럼 **URL 프록시** 역할을 한다.
 		- **URL 프록시** : 클라이언트와 서버 간의 통신에서 중간에 위치하여 클라이언트로부터의 요청을 받아서 서버로 전달하고, 서버로부터의 응답을 클라이언트로 전달해주는 서비스이다. 이는 클라이언트가 직접 서버와 통신하지 않고 중간 프록시를 통해 통신하게 되는 구조를 말한다.
@@ -171,7 +172,7 @@ module.exports = {
 	- 이것은 **중첩된 경로를 허용한다.**
 
 - `/blog/apple/green` -> `/news/apple/green` (o)
-- `/blog/apple/green/delicious` -> `/news/apple/green/delicious`  (o)
+- `/blog/apple/green/delicious` -> `/news/apple/green/delicious` (o)
 ```js
 module.exports = {
   async rewrites() {
@@ -206,4 +207,12 @@ module.exports = {
 #### 2. redirect
 
 - Next.js에서 제공하는 `redirect` 기능 또한 사용자가 특정 `path`로 이동 시, 정해진 화면이 보이도록 한다.
+
 - 다만, **주소창의 URL 자체가 이동하고자 하는 페이지의 URL로 변경**되어 이동하는 점이 `rewrite`와의 차이이다.
+
+- 속성은 아래와 같다.
+	- `source`: 들어오는 요청 경로 패턴을 나타낸다.
+	- `destination`: 해당 요청의 라우팅할 경로를 나타낸다.
+	- `permanent`: `true` or `false`의 값을 가지며, `redirection`에만 존재하는 속성값이다. 사용자나 검색 엔진에서 해당 `redirect` 값을 영구적으로 저장할 것인지에 대한 여부를 지정한다. 만약 이벤트 페이지 이거나 임시 페이지인 경우는 `false`로 지정해주면 된다.
+		- `true`: 308 상태 코드를 사용하여 클라이언트/검색 엔진에게 리디렉션을 영구적으로 캐시할 것을 지시한다.
+		- `false`: 307 상태 코드를 사용하여 일시적이며 캐시되지 않는다.

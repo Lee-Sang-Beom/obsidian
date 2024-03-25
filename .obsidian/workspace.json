@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "075129fdfddb7d23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8df19f502d6ec858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next.js/더 알아보기/rewrite, redirect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +164,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4d8a6e45f3420ff9",
+  "active": "8df19f502d6ec858",
   "lastOpenFiles": [
     "Next.js/더 알아보기/Middleware.md",
     "Next.js/더 알아보기/rewrite, redirect.md",
