@@ -46,11 +46,26 @@ export const config = { matcher: ['/((?!api|_next/static|_next/image|favicon.ico
 - Next.js에서는 웹 응답 API를 확장하여 추가적인 편의 기능을 제공하는 `NextResponse`를 제공한다.
 
 - NextReponse API는 아래와 같은 작업을 수행할 수 있도록 한다.
-	- 들어오는 요청을 다른 URL로 `redirection`할 수 있다.
-	- 주어진 URL을 표시하여 응답을 재작성할 수 있다.
-	- API route, rewrite 대상에 대한 요청 헤더를 설정할 수 있다.
-	- 응답 쿠키를 설정할 수 있다.
-	- 응답 헤더를 설정할 수 있다.
+	1. 들어오는 요청을 다른 URL로 `redirection`할 수 있다.
+	2. 주어진 URL을 표시하여 응답을 재작성할 수 있다.
+	3. API route, rewrite 대상에 대한 요청 헤더를 설정할 수 있다.
+	4. 응답 쿠키를 설정할 수 있다.
+	5. 응답 헤더를 설정할 수 있다.
+
+- Next.js의 `NextResponse`에 대한 여러 메소드
+	- `NextResponse`의 모체는 [Web_api의 Response](https://developer.mozilla.org/ko/docs/Web/API/Response)이다.
+```
+
+
+2.`json()`: 주어진 JSON body로 응답을 생성한다.
+    
+3.`redirect()`: 지정된 URL로 리디렉션하는 응답을 생성한다.
+    
+4.`rewrite()`: 원래 URL을 보존하면서 지정된 URL을 재작성(프록시)하는 응답을 생성한다.
+    
+5.`next()`: 미들웨어에서 사용되며, 라우팅을 계속하고자 할 때 사용됩니다. 요청을 현재 상태로 반환한다. 
+			- 또한, 응답을 생성할 때 헤더를 전달할 수 있습니다.
+```
 
 -  `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/`"로 `redirect`
 ```typescript
@@ -64,23 +79,13 @@ return NextResponse.redirect(new URL('/', request.nextUrl.origin))
 return NextResponse.rewrite(new URL('/me/categories', request.nextUrl.origin))
 ```
 
-- Next.js의 NextResponse에 대한 여러 메소드
-	- NextResponse의 모체는 [Web_api의 Response](https://developer.mozilla.org/ko/docs/Web/API/Response)이다. ```
-1.`cookies`: 응답의 Set-Cookie 헤더를 읽거나 변경할 수 있다.
-	> `set(name, value)`: 지정된 이름과 값을 사용하여 응답에 쿠키를 설정한다.
-    > `get(name)`: 지정된 쿠키 이름에 해당하는 쿠키 값을 반환한다. 찾지 못할 경우 `undefined`를 반환하며, 여러 개의 쿠키가 있는 경우 첫 번째 것을 반환한다.
-    > `getAll(name)`: 지정된 쿠키 이름에 해당하는 모든 쿠키 값을 반환한다. 이름이 주어지지 않으면 응답에 있는 모든 쿠키를 반환한다.
-    > `delete(name)`: 지정된 쿠키 이름에 해당하는 쿠키를 응답에서 삭제한다.
+-  Next.js는 `NextRequest`, `NextResponse`의 `cookies` 확장을 통해, `cookies`에 쉽게 접근하고 조작할 수 있는 편리한 방법을 제공한다.
+	- 들어오는 요청`(request)`에 대해, `cookies`는 다음과 같은 메서드가 있다.
+		- get, getAll, set, delete cookies. has를 사용하여 쿠키의 존재 여부를 확인
+		- clear를 사용하여 모든 쿠키를 제거
+		- 나가는 응답에 대해, cookies에는 get, getAll, set, delete와 같은 메서드가 있습니다.
 
-2.`json()`: 주어진 JSON body로 응답을 생성한다.
-    
-3.`redirect()`: 지정된 URL로 리디렉션하는 응답을 생성한다.
-    
-4.`rewrite()`: 원래 URL을 보존하면서 지정된 URL을 재작성(프록시)하는 응답을 생성한다.
-    
-5.`next()`: 미들웨어에서 사용되며, 라우팅을 계속하고자 할 때 사용됩니다. 요청을 현재 상태로 반환한다. 
-			- 또한, 응답을 생성할 때 헤더를 전달할 수 있습니다.
-```
+
 
 4. 요구기능
 ```null
