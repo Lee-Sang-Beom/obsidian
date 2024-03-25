@@ -1,3 +1,19 @@
+#### 1. Next.js Middleware
+
+- `middleware`는 클라이언트 요청이 완료되기 전, 코드를 실행할 수 있도록 한다. 그런 다음, 들어오는 요청에 따라 응답을 재작성하게 하거나, `redirection`하거나, 요청 및 응답 헤더를 수정하거나, 직접 응답할 수도 있다.
+	- `middleware`는 캐시된 콘텐츠와 라우트가 일치하기 전에 실행된다고 한다. (페이지 렌더링 전)
+
+- `middleware`의 정의는 프로젝트 루트에 `middleware.ts(또는 .js)`파일을 사용하여야 한다.
+
+
+#### 2. Matching Paths
+
+- `middleware`는 기본적으로 모든 라우트에 대해 아래와 같이 순차적으로 동작한다고 한다. 
+	1. 
+
+
+
+#### 3. 사용 예시
 
 1. `request.nextUrl.origin`에서 오는 요청에 대한 경로를 "`/`"로 `redirect`
 ```typescript
