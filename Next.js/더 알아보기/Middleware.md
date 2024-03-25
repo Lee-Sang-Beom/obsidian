@@ -12,19 +12,19 @@
 - `middleware`는 기본적으로 모든 라우트에 대해 아래와 같이 순차적으로 동작한다고 한다. 
 	1. `next.config.js`에서의 **`header`** 동작
 	2. `next.config.js`에서의 **`redirection`** 동작
-	3. `middleware`에서의 동작 **`예시: rewrite, rediection`**
-	4. `next.config.js`에서의 `beforeFiles` (재작성)
-	5. 파일 시스템 `route`(라우트) `(public/, _next/static/, pages/, app/ 등)`
-	6. `next.config.js`에서의 `afterFiles` (재작성)
-	7. 동적 경로 (/blog/[slug])
-	8. `next.config.js`에서의 `fallback` (재작성)
+	3. `middleware`에서의 동작 `(rewrite, rediection )`
+	4. `next.config.js`에서의 `beforeFiles` `(rewrite)`
+	5. 파일 시스템 `route``(public/, _next/static/, pages/, app/ 등)`
+	6. `next.config.js`에서의 `afterFiles` `(rewrite)`
+	7. 동적 경로 `(/blog/[slug])`
+	8. `next.config.js`에서의 `fallback` `(rewrite)`
 
 - 여기서 3번째 단계에서의 `middleware` 동작은 **파일 시스템 라우트, 동적 경로** 등의 동작보다 빨리 이루어진다.
 
 
 #### 3. Matcher
 
-- Matcher를 사용하면, 특정 경로에서 `middleware`를 필터링하여 실행할 수 있다.
+- `match`를 사용하면, 특정 경로에서 `middleware`를 필터링하여 실행할 수 있다.
 ```ts
 
 export const config = {
