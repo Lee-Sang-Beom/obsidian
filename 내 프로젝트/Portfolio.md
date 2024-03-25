@@ -30,7 +30,7 @@
 #### 5. IR 성과관리시스템
 - http://deps.iptime.org:8929/dev1/wisdomir.git
 - 프론트 분석
-![[Pasted image 20240319171954.png]]
+![[IR 작업.png]]
 
 #### 6. WISDOM
 - http://wisdom.lksmart.co.kr/

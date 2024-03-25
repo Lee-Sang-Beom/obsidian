@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1c47ab0aca4ce04b",
+        "id": "a512eebf70673cc9",
         "type": "tabs",
         "children": [
           {
-            "id": "e6ac78bf592ed262",
+            "id": "6043e6c4e31ad806",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "사용 이미지/Next.js/더 알아보기/http request cookie.png"
+                "file": "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151040.png"
               }
             }
           }
@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 579.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/Next.js/더 알아보기/http request cookie.png",
+                "file": "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151040.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/Next.js/더 알아보기/http request cookie.png",
+                "file": "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151040.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/Next.js/더 알아보기/http request cookie.png"
+                "file": "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151040.png"
               }
             }
           }
@@ -144,31 +144,39 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "6043e6c4e31ad806",
   "lastOpenFiles": [
-    "Next.js/더 알아보기/Middleware.md",
+    "사용 이미지/Next.js/guide course/chapter 6/storage guide - connect store btn.png",
+    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151120.png",
+    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151040.png",
+    "사용 이미지/Next.js/guide course/chapter 6/vercel storage.png",
+    "사용 이미지/Next.js/guide course/chapter 6/production deployment project.png",
+    "사용 이미지/Next.js/guide course/chapter 6/create a vecel account and project.png",
+    "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "사용 이미지/Next.js/더 알아보기/http request cookie.png",
-    "Pasted image 20240325135107.png",
-    "사용 이미지/Next.js/더 알아보기/http response set-cookie.png",
-    "Next.js/더 알아보기/더 알아보기 백링크.md",
-    "사용 이미지/Next.js/더 알아보기",
-    "Next.js/더 알아보기/rewrite, redirect.md",
+    "사용 이미지/내 프로젝트/IR 작업.png",
+    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151143.png",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "Next.js/더 알아보기/Server Action 사용하기.md",
+    "CKEditor/CustomCKEditor.md",
+    "내 프로젝트/Portfolio.md",
+    "Next.js/더 알아보기/더 알아보기 백링크.md",
+    "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
     "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
+    "Next.js/더 알아보기/rewrite, redirect.md",
+    "Next.js/더 알아보기/Middleware.md",
+    "Pasted image 20240325135107.png",
+    "사용 이미지/Next.js/더 알아보기",
+    "Next.js/Next.js 14/Next.js 14 변경점.md",
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
-    "Next.js/VWorld/Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
     "Next.js/개념 알아보기/API routes.md",
     "Next.js/개념 알아보기/POST API ROUTE.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
-    "사용 이미지/Next.js/Next-auth/middleware.ts.png",
-    "사용 이미지/Next.js/Next.js14.png",
-    "사용 이미지/Next.js/Next-auth/nextauth.png",
     "사용 이미지/Next.js/Next-auth",
     "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
     "React/env.md",
@@ -176,13 +184,6 @@
     "Next.js/NextAuth 사용하기/Middleware와 request.nextUrl.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 2.md",
     "Next.js/Next.js 공식문서 정리/추천.md",
-    "Next.js/Server Action 사용하기.md",
-    "내 프로젝트/Portfolio.md",
-    "내 프로젝트/내 프로젝트 (뎁스).md",
-    "사용 이미지/React/hook/useRef/예제 2. 인쇄창.png",
-    "사용 이미지/React/hook/useRef/예제 2. 프린트.png",
-    "사용 이미지/React/hook/useRef/예제 2. 프린트 화면 및 버튼.png",
-    "사용 이미지/React/hook/useRef/예제 1. 스크롤 전.png",
     "사용 이미지/React/hook/useRef",
     "사용 이미지/React/hook",
     "사용 이미지/React",
