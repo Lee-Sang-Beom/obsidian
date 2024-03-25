@@ -27,15 +27,23 @@
 ```ts
 
 export const config = {
-	matcher: '/about/:path*'
+	// matcher: '/about/:path' >> /about/a (o) | /about/a/b (x)
+	matcher: '/about/:path*' // /about/a (o) | /about/a/b (o)
 }
 
 // 배열 구문을 사용하여 단일 경로 또는 여러 경로를 일치시킬 수 있다.
 export const config = { matcher: ['/about/:path*', '/dashboard/:path*'], }
+
+// 매처 구성은 전체 정규식을 허용하므로 부정적인 전방 탐색 또는 문자 일치와 같은 매칭이 지원된다.
+// 특정 경로를 제외한 모든 것을 일치시키기 위한 예는 아래와 같다.
+export const config = { matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)', ],}
+
 ```
 
 
+#### 4. NextResponse
 
+- 
 
 
 
