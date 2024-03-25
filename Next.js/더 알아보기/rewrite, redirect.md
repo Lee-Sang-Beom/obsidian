@@ -257,9 +257,52 @@ module.exports = {
 // 두 번째 redirect는 basePath가 false로 설정되어 있으므로 '/without-basePath'는 '/docs'를 추가하지 않고 지정된 대상인 'https://example.com'으로 이동합니다.
 ```
 
-- 만약, `/old-blog/post1?hello=world`에서 요청이 들어왔으면, client는 `/blog/p`
-##### Path Matching (경로일치)
+- 만약, `/old-blog/post-1?hello=world`에서 요청이 들어왔으면, client는 `/blog/post-1?hello=world`로 URL이 이동할 것이다.
+```js
+{
+ // `/old-blog/post-1?hello=world` -> `/blog/post-1?hello=world`
+  source: '/old-blog/:path*',
+  destination: '/blog/:path*',
+  permanent: false
+}
+```
+
+##### Path Matching (경로 일치)
+
+- 경로 일치는 `rewrites`와 마찬가지로, 중첩 경로는 불가능하다.
+	- [요청] : `old-blog/hello-world
+	- [결과] : `news/hello-world`
+```js
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/old-blog/:slug',
+        destination: '/news/:slug', 
+        permanent: true,
+      },
+    ]
+  },
+}
+```
 
 ##### Wildcard Path Matching (와일드카드 경로 일치)
+
+- 와일드카드 경로 일치는 `rewrites`와 마찬가지로, `*`를 사용하여, 중첩 경로를 허용할 수 있도록 한다.
+	- [요청] : `/blog/hello-world/posts/javascript`
+	- [결과] : `/news/hello-world/posts/javascript`
+```js
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/blog/:slug*/:category*',
+        destination:'/news/:slug*/:category*',
+        permanent: true,
+      },
+    ]
+  },
+}
+```
 
 ##### Regex Path Matching (정규식 경로 일치)
