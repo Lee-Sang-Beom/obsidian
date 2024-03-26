@@ -11,11 +11,9 @@
             "id": "2a8ac7c867a3c1c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "내 프로젝트/Portfolio.md",
-                "mode": "source",
-                "source": false
+                "file": "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "내 프로젝트/Portfolio.md",
+                "file": "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "내 프로젝트/Portfolio.md",
+                "file": "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "내 프로젝트/Portfolio.md"
+                "file": "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png"
               }
             }
           }
@@ -146,8 +144,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a8ac7c867a3c1c6",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "내 프로젝트/Portfolio.md",
     "사용 이미지/내 프로젝트/IR 작업.png",
     "무제 파일.canvas",
     "사용 이미지/Next.js/Next.js14.png",
@@ -180,10 +179,8 @@
     "CKEditor/CustomCKEditor.md",
     "jQuery/1. jQuery 시작.md",
     "사용 이미지/이미지 경로 접근하기.md",
-    "내 프로젝트/Portfolio.md",
     "사용 이미지/Spring/Day 6/예제 구현을 위한 백 설계화면.png",
     "사용 이미지/Spring/Day 6/웹 애플리케이션 계층구조.png",
-    "사용 이미지/Spring/Day 5/스프링부트 - api and responsebody.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "사용 이미지/Next.js/더 알아보기",
