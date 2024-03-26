@@ -11,8 +11,66 @@
             "id": "2a8ac7c867a3c1c6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "내 프로젝트/IR 분석/엑셀 관리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "625e9ad319c7a67d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "362bbfa1276094d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "내 프로젝트/IR 분석/ProjectFormatHelper.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c54c08d9aa1e8fb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5158f589cb76ea9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "내 프로젝트/IR 분석/PageManager.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0094709a17fbdbac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d57ff94d53de9967",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 200
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -81,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md"
+              }
             }
           }
         ]
@@ -138,8 +200,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a8ac7c867a3c1c6",
+  "active": "d57ff94d53de9967",
   "lastOpenFiles": [
+    "내 프로젝트/IR 분석/PageManager.md",
+    "내 프로젝트/IR 분석/ProjectFormatHelper.md",
+    "내 프로젝트/IR 분석/project.js.md",
+    "내 프로젝트/IR 분석/엑셀 관리.md",
+    "내 프로젝트/IR 분석/메인 백링크.md",
     "backend/Spring 강의/DAY 4.md",
     "backend/Spring 강의/DAY 2.md",
     "backend/Spring 강의/DAY 1.md",
@@ -171,11 +238,6 @@
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-    "CKEditor/CustomCKEditor.md",
-    "jQuery/1. jQuery 시작.md",
-    "사용 이미지/이미지 경로 접근하기.md",
     "사용 이미지/Spring/Day 6/예제 구현을 위한 백 설계화면.png",
     "사용 이미지/Spring/Day 6/웹 애플리케이션 계층구조.png",
     "사용 이미지/Next.js/더 알아보기",
