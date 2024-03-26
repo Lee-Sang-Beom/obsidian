@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f0ef35d67db6e19d",
+        "id": "d6eccb9de24d0383",
         "type": "tabs",
         "children": [
           {
-            "id": "2a8ac7c867a3c1c6",
+            "id": "378b72204ecddd7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "내 프로젝트/IR 분석/엑셀 관리.md",
+                "file": "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,52 +22,16 @@
         ]
       },
       {
-        "id": "625e9ad319c7a67d",
+        "id": "e3a108708b9ea8b7",
         "type": "tabs",
         "children": [
           {
-            "id": "362bbfa1276094d5",
+            "id": "d87616b1d469e200",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "내 프로젝트/IR 분석/ProjectFormatHelper.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "c54c08d9aa1e8fb2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5158f589cb76ea9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "내 프로젝트/IR 분석/PageManager.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0094709a17fbdbac",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d57ff94d53de9967",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
+                "file": "Next.js/VWorld and OpenLayers/3. Next.js13에서 VWorld API와 OpenLayers 사용해보기 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
+                "file": "Next.js/VWorld and OpenLayers/3. Next.js13에서 VWorld API와 OpenLayers 사용해보기 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
+                "file": "Next.js/VWorld and OpenLayers/3. Next.js13에서 VWorld API와 OpenLayers 사용해보기 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md"
+                "file": "Next.js/VWorld and OpenLayers/3. Next.js13에서 VWorld API와 OpenLayers 사용해보기 3.md"
               }
             }
           }
@@ -200,8 +164,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d57ff94d53de9967",
+  "active": "d87616b1d469e200",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+    "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+    "Next.js/VWorld and OpenLayers/2. Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
+    "Next.js/VWorld and OpenLayers/3. Next.js13에서 VWorld API와 OpenLayers 사용해보기 3.md",
+    "프론트엔드 지식/원시 타입과 참조 타입.md",
+    "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
     "내 프로젝트/IR 분석/PageManager.md",
     "내 프로젝트/IR 분석/ProjectFormatHelper.md",
     "내 프로젝트/IR 분석/project.js.md",
@@ -217,10 +187,7 @@
     "사용 이미지/Next.js/Next.js14.png",
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
     "Next.js/VWorld and OpenLayers/5. Next.js13에서 VWorld API와 OpenLayers 사용해보기 5.md",
-    "Next.js/VWorld and OpenLayers/3. Next.js13에서 VWorld API와 OpenLayers 사용해보기 3.md",
     "Next.js/VWorld and OpenLayers/4. Next.js13에서 VWorld API와 OpenLayers 사용해보기 4.md",
-    "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
-    "Next.js/VWorld and OpenLayers/2. Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/Openlayers 구조.png",
     "Next.js/더 알아보기/더 알아보기 백링크.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/returnDfsnDmgeVectorLayer.png",
@@ -235,9 +202,6 @@
     "React/hook/useContext.md",
     "Next.js/더 알아보기/Middleware.md",
     "Next.js/더 알아보기/rewrite, redirect.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "Next.js/더 알아보기/Server Action 사용하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "사용 이미지/Spring/Day 6/예제 구현을 위한 백 설계화면.png",
     "사용 이미지/Spring/Day 6/웹 애플리케이션 계층구조.png",
     "사용 이미지/Next.js/더 알아보기",
