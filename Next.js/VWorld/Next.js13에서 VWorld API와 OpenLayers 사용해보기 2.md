@@ -198,3 +198,8 @@ export default async function SubLayout({
     </div>
   );
 ```
+
+
+#### 4. 사용할 Layer 정의하기
+
+- 지도의 일반보기, 위성보기 기능을 사용하기 위하여 `TileLayer`
