@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md"
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md"
               }
             }
           }
@@ -166,9 +166,21 @@
   },
   "active": "378b72204ecddd7c",
   "lastOpenFiles": [
-    "React/env.md",
-    "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
+    "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
+    "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
+    "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
+    "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
     "Next.js/VWorld and OpenLayers/5. Next.js13에서 VWorld API와 OpenLayers 사용해보기 5.md",
+    "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
+    "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
+    "React/env.md",
     "Pasted image 20240326162008.png",
     "Pasted image 20240326161954.png",
     "사용 이미지/Next.js/VWorld and OpenLayers/returnFireDmgeVectorLayer.png",
@@ -183,27 +195,15 @@
     "내 프로젝트/IR 분석/PageManager.md",
     "내 프로젝트/IR 분석/ProjectFormatHelper.md",
     "내 프로젝트/IR 분석/project.js.md",
-    "내 프로젝트/IR 분석/메인 백링크.md",
-    "backend/Spring 강의/DAY 4.md",
-    "backend/Spring 강의/DAY 2.md",
-    "backend/Spring 강의/DAY 1.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png",
-    "내 프로젝트/Portfolio.md",
     "사용 이미지/내 프로젝트/IR 작업.png",
     "무제 파일.canvas",
     "사용 이미지/Next.js/Next.js14.png",
-    "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
-    "Next.js/VWorld and OpenLayers/4. Next.js13에서 VWorld API와 OpenLayers 사용해보기 4.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/Openlayers 구조.png",
-    "Next.js/더 알아보기/더 알아보기 백링크.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/returnDfsnDmgeVectorLayer.png",
     "사용 이미지/Next.js/VWorld and OpenLayers/returnExplDmgeVectorLayer.png",
-    "Next.js/VWorld/사용 예제/1. 3종류 데이터에 대하여 마커 만들기 및 클릭 팝업 추가/코드.md",
     "Pasted image 20240326105559.png",
-    "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(TestRadiusMap.ts).md",
-    "Next.js/VWorld/사용 예제/2. 300M 범위의 원 그리기/임시저장(RadiusMap.tsx).md",
     "React/react-hook-form",
-    "React/무제 파일.md",
     "사용 이미지/Next.js/더 알아보기",
     "사용 이미지/Next.js/Next-auth",
     "사용 이미지/React/hook/useRef",
