@@ -106,30 +106,36 @@
 #### 4. 저장된 localStorage 값 불러오기 및 제거
 
 - `localStorage`에 저장된 `key`를 `getItem()` 메소드와 함께 사용하면, `key`에 해당하는`value` 값을 가져올 수 있다.
-	- 이 때, `localStorage`에서 값을 가져온 이후에는,  해당 `key`에 대한 `removeItem()`메소드를 사용해주어야 한다. 
-
+	- 이 때, `localStorage`에서 값을 가져온 이후에는,  해당 `key`에 대한 `removeItem()`메소드를 사용해주어야 한다. 그 이유는 아래와 같다.
+		1. **데이터 유지의 명확성**: 만약 더 이상 필요하지 않은 데이터가 로컬 스토리지에 남아있는 경우, 이는 코드의 가독성과 유지 보수를 어렵게 만들 수 있다. 이전 페이지의 URL과 같은 임시 데이터가 계속해서 스토리지에 남아있으면, 코드를 이해하는 데 혼란을 줄 수 있다.
+		
+		2. **보안**: 사용자 데이터가 불필요하게 로컬 스토리지에 남아있으면 보안 위험을 초래할 수 있다. 예를 들어, 사용자의 개인 정보나 민감한 정보가 스토리지에 저장되어 있을 경우, 이 정보가 노출될 수 있다.
+		
+		3. **자원 관리**: `localStorage`는 브라우저의 제한된 용량을 가지고 있으며, 불필요한 데이터로 인해 이 용량이 과도하게 소모될 수 있다. 따라서 불필요한 데이터를 제거함으로써 용량을 효율적으로 관리할 수 있다.
 ```tsx
-     <Button
-	  title={"목록으로 이동"}
-	  btnColor={"white"}
-	  btnSize={"md"}
-	  btnStyle={"br_6"}
-	  onClick={() => {
-		const previousPageUrl = localStorage.getItem("previousPage");
-		if (previousPageUrl) {
-		  localStorage.removeItem("previousPage");
+ <Button
+  title={"목록으로 이동"}
+  btnColor={"white"}
+  btnSize={"md"}
+  btnStyle={"br_6"}
+  onClick={() => {
+	// 이전 url 불러오기
+	const previousPageUrl = localStorage.getItem("previousPage");
+	if (previousPageUrl) {
+	  // 이전 url이 존재할 경우, key에 해당하는 localStorage item 제거
+	  localStorage.removeItem("previousPage");
 
-		  if (previousPageUrl == "/") {
-			router.push("/Ci/ChemiInquiry");
-			router.refresh();
-		  } else {
-			router.back();
-		  }
-		} else {
-		  router.back();
-		}
-	  }}
+	  if (previousPageUrl == "/") {
+		router.push("/Ci/ChemiInquiry");
+		router.refresh();
+	  } else {
+		router.back();
+	  }
+	} else {
+	  router.back();
+	}
+  }}
 >
-	  목록
-	</Button>
+  목록
+</Button>
 ```

@@ -11,12 +11,8 @@
             "id": "3787f5de94381bb6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,10 +140,10 @@
   },
   "active": "3787f5de94381bb6",
   "lastOpenFiles": [
-    "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
-    "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
+    "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
+    "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "내 프로젝트/IR 분석/IR 분석 백링크.md",
     "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
     "jQuery/jQuery 백링크.md",
