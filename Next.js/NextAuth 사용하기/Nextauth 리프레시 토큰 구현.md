@@ -137,3 +137,70 @@ export const authOptions: AuthOptions = {
 };
 
 ```
+
+
+### 이태화차장님 코드
+```
+
+  callbacks: {
+    //@ts-ignore
+    jwt: async ({ token, user, account, profile, session, trigger }) => {
+      if (user) {
+        const decodeUser = decode(user.accessToken);
+        console.log(decodeUser);
+        token.accessToken = user.accessToken;
+        token.refreshToken = user.refreshToken;
+        //@ts-ignore
+        token.accessTokenExpires = decodeUser?.exp * 1000;
+        return token;
+      }
+      if (Date.now() > token.accessTokenExpires) {
+        //@ts-ignore
+        const newToken = await rotateToken(token);
+        if (newToken === null)
+          return {
+            error: "refreshTokenExpired",
+          };
+        //@ts-ignore
+        token = newToken;
+      }
+      return token;
+    },
+    
+```
+
+```
+async function rotateToken(token: Jwt) {
+  try {
+    const response = await fetch(
+      process.env.BACKEND_URL + "/auth/token/access",
+      {
+        method: "POST",
+        headers: {
+          //@ts-ignore
+          authorization: `Bearer ${token.refreshToken}`,
+        },
+      }
+    );
+
+    const refreshedTokenResponse = await response.json();
+    if (refreshedTokenResponse.statusCode === 401) {
+      return null;
+      // return signout();
+    }
+    const decodeUser = decode(refreshedTokenResponse.accessToken);
+    return {
+      ...token,
+      accessToken: refreshedTokenResponse.accessToken,
+      //@ts-ignore
+      accessTokenExpires: decodeUser?.exp * 1000,
+    };
+  } catch (e) {
+    console.error("Refresh token error", e);
+    return {
+      …token,
+      error: "RefreshAccessTokenError",
+    };
+  }
+}
+```
