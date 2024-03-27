@@ -5,12 +5,16 @@
 	- **부수동작**이란 `컴포넌트가 처음 마운트될 때`,`컴포넌트가 업데이트될 때`, `컴포넌트가 언마운트될 때` 일어나는 모든 동작을 의미한다.
 	- 작성에 필요한 참고자료의 출처는 [여기](https://c17an.netlify.app/blog/React/useEffect-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/article/)이다
 
-- 즉, 쉽게 말해 `useEffect hook`이 포함된 컴포넌트가 처음 마운트되거나, 컴포넌트가 리렌더링 될 때, 또는 선언된 변수의 값 등이 변경될 때 실행할 구문들을 정의해놓은 함수`(hook)`이다.
+- 즉, 쉽게 말해 `useEffect hook`이 포함된 컴포넌트가 처음 **마운트**되거나, 컴포넌트가 **렌더링** 및 **리렌더링**될 때, 또는 선언된 변수의 값 등이 변경될 때 실행할 구문들을 정의해놓은 함수`(hook)`이다.
+
+- 마운트(mount), 언마운트(unmount), 렌더링(rendering) 및 리렌더링(rerendering)에 대한 용어는 아래 포스트에서 참고할 수 있다.
+	- 리액트 컴포넌트 생명주기 :https://lktprogrammer.tistory.com/130)는 
+	- [여기](https://medium.com/@heoh06/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8-1c6050d87c8b)는 면접질문을 모아놓은 [uoayop](https://velog.io/@uoayop/posts)님의 포스트인데, 볼만한 게 많다.
 
 
 #### 2. 사용 방법
 
-- `useEffect`의 사용 형태는 아래와 같다.
+- `useEffect`의 구조는 아래와 같다.
 ```tsx
 useEffect(() => { 
  `실행할 로직` 
@@ -19,10 +23,11 @@ useEffect(() => {
 
  - **인자 1**
 	 - **callback 함수**이다.
-	 - **의존성 배열에 선언된 값이 바뀔 때마다** 숳 return하는 함수이다.
+	 - **의존성 배열에 선언된 값이 바뀔 때마다** 수행되는 로직을 포함한다.
 
  - **인자 2**
-	 - 의존성배열(dependancyArray): 배열 내 값이 업데이트될 때만 콜백함수를 호출해 memorization된 값을 업데이트하는 역할을 한다.
+	 - 의존성배열(dependancyArray): 배열 내 값이 업데이트될 때만 콜백함수를 호출한다.
+	 - 여러 값을 넣을 수 있다.
 
 - **사용 예시**
 ```tsx
@@ -31,6 +36,10 @@ useEffect(() => {
     return calculate();
  }, [value])
 ```
+
+- 또한, callback 함수에는  **클린업 함수**를 넣을 수도 있는데, 이 함수는 아래와 같은 상황에서 호출된다.
+	- 이펙트 함수가 호출되기 전
+	- 컴포넌트가 언마운트될때
 
 
 ```js
