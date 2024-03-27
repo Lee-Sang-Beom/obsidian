@@ -105,7 +105,8 @@
 
 #### 4. 저장된 localStorage 값 불러오기 및 제거
 
-- 
+- `localStorage`에 저장된 `key`를 `getItem()` 메소드와 함께 사용하면, `key`에 해당하는`value` 값을 가져올 수 있다.
+	- 이 때, `localStorage`에서 값을 가져온 이후에는,  해당 `key`에 대한 `removeItem()`메소드를 사용해주어야 한다. 
 
 ```tsx
      <Button
