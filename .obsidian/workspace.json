@@ -13,6 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "React/hook/useMemo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "bf46be4f9130ea3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "691b08e9631b308b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "React/hook/useEffect.md",
                 "mode": "source",
                 "source": false
@@ -146,10 +164,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4002da13e42401fb",
+  "active": "691b08e9631b308b",
   "lastOpenFiles": [
-    "React/hook/useReducer.md",
+    "React/hook/useMemo.md",
+    "React/hook/useContext.md",
     "React/hook/useEffect.md",
+    "React/hook/useReducer.md",
     "React/hook/React hook 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "jQuery/jQuery 백링크.md",
@@ -178,8 +198,6 @@
     "Next.js/NextAuth 사용하기/내가 변경한 리프레스 토큰.md",
     "Next.js/NextAuth 사용하기/Nextauth 리프레시 토큰 구현.md",
     "Next.js/NextAuth 사용하기/원래있던 토큰.md",
-    "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
-    "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/returnFireDmgeVectorLayer.png",
     "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png",
     "사용 이미지/Next.js/Next.js14.png",
