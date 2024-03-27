@@ -106,3 +106,29 @@
 #### 4. 저장된 localStorage 값 불러오기 및 제거
 
 - 
+
+```tsx
+     <Button
+	  title={"목록으로 이동"}
+	  btnColor={"white"}
+	  btnSize={"md"}
+	  btnStyle={"br_6"}
+	  onClick={() => {
+		const previousPageUrl = localStorage.getItem("previousPage");
+		if (previousPageUrl) {
+		  localStorage.removeItem("previousPage");
+
+		  if (previousPageUrl == "/") {
+			router.push("/Ci/ChemiInquiry");
+			router.refresh();
+		  } else {
+			router.back();
+		  }
+		} else {
+		  router.back();
+		}
+	  }}
+>
+	  목록
+	</Button>
+```
