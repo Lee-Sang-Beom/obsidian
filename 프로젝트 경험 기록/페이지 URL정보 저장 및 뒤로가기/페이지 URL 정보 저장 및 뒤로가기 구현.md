@@ -58,3 +58,37 @@
 
 - 예전에는 웹 브라우저에서 이전 주소를 확인하는 방법으로 `window.history` 객체를 사용하여 이전 페이지의 URL을 얻어올 수 있었다고 한다. 
 	- 그러나 이 방법은 보안 상의 이유로 최근에 변경되어, 현재는 사용자가 **이전 페이지의 URL에 액세스하는 것을 제한**하고 있다고 한다.
+
+- 그래서, 현재로서는 `recoil`, `useContext`와 같은 상태관리 라이브러리,  `hook`을 사용하거나 `localStorage`를 사용하는 방법을 선택해야 한다.
+	- 여기서는 `localStorage`를 사용한 방법을 소개한다.
+
+- 일단, 링크를 클릭하는 위치에서는, `localStorage`에 아래와 같은 정보를 저장해야 한다. 이것이 이전 URL 정보이다.
+```tsx
+// path="/"인 Home에서 링크 클릭
+<Link
+  href={
+	activeSeq === 0
+	  ? `/`
+	  : `/Ci/ChemiInquiry/ChemiInquiryDetail/${activeSeq}`
+  }
+  className={Style.btn_visual_more}
+  prefetch={false}
+  style={{ zIndex: 99999 }}
+  title={buttonLinkTitle}
+  onClick={() => {
+    // here
+	localStorage.setItem("previousPage", "/");
+  }}
+>
+  자세히 보기{" "}
+  <AiOutlineSwapRight
+	size={30}
+	role="img"
+	aria-label="오른쪽 화살표 아이콘"
+  />
+</Link>
+
+
+
+
+```
