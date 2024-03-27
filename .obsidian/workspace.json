@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1e14c0410400bc0b",
+        "id": "dc1e5af73f41cc50",
         "type": "tabs",
         "children": [
           {
-            "id": "4002da13e42401fb",
+            "id": "cf59698d1580621a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/hook/useMemo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "bf46be4f9130ea3b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "691b08e9631b308b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/hook/useEffect.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -103,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/hook/useEffect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/hook/useEffect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "React/hook/useEffect.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -164,7 +138,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "691b08e9631b308b",
+  "active": "cf59698d1580621a",
   "lastOpenFiles": [
     "React/hook/useMemo.md",
     "React/hook/useEffect.md",
