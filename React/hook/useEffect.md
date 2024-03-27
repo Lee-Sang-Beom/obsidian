@@ -1,4 +1,9 @@
 
+#### 1. useEffect란?
+
+- `useEffect hook` 은 컴포넌트의 `부수동작(effect)` 을 관리하는 `hook`으로 기본 `hook` 중에서도 가장 중요한 `hook`이라 할 수 있다.
+	- 부수동작이란 `컴포넌트가 처음 마운트될 때`,`컴포넌트가 업데이트될 때`, `컴포넌트가 언마운트될 때` 일어나는 모든 동작을 의미한다.
+
 - https://c17an.netlify.app/blog/React/useEffect-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/article/
 ```js
 import React, {useEffect} from 'react'
