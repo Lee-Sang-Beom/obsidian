@@ -8,7 +8,7 @@
 - 즉, 쉽게 말해 `useEffect hook`이 포함된 컴포넌트가 처음 **마운트**되거나, 컴포넌트가 **렌더링** 및 **리렌더링**될 때, 또는 선언된 변수의 값 등이 변경될 때 실행할 구문들을 정의해놓은 함수`(hook)`이다.
 
 - 마운트(mount), 언마운트(unmount), 렌더링(rendering) 및 리렌더링(rerendering)에 대한 용어는 아래 포스트에서 참고할 수 있다.
-	- 리액트 컴포넌트 생명주기 :https://lktprogrammer.tistory.com/130)는 
+	- [리액트 컴포넌트 생명주기](https://lktprogrammer.tistory.com/130) 
 	- [여기](https://medium.com/@heoh06/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8-1c6050d87c8b)는 면접질문을 모아놓은 [uoayop](https://velog.io/@uoayop/posts)님의 포스트인데, 볼만한 게 많다.
 
 
@@ -26,31 +26,33 @@ useEffect(() => {
 	 - **의존성 배열에 선언된 값이 바뀔 때마다** 수행되는 로직을 포함한다.
 
  - **인자 2**
-	 - 의존성배열(dependancyArray): 배열 내 값이 업데이트될 때만 콜백함수를 호출한다.
+	 - 의존성 배열(dependancyArray): 배열 내 값이 업데이트될 때만 콜백함수를 호출한다.
 	 - 여러 값을 넣을 수 있다.
+	 - 의존성 배열이 빈 배열이면, 컴포넌트가 **처음으로 마운트**되었을 때 실행된다.
 
 - **사용 예시**
 ```tsx
-// value값이 변할 때마다, calculate() 함수의 결과로 반환되는 값이 newValue에 들어간다.
- const newValue = useMemo(()=> {
-    return calculate();
- }, [value])
+  useEffect(() => {
+    setIsMount(true);
+  }, []);
 ```
 
-- 또한, callback 함수에는  **클린업 함수**를 넣을 수도 있는데, 이 함수는 아래와 같은 상황에서 호출된다.
+- 또한, callback 함수에는  **클린업 함수**(cleanup)를 넣을 수도 있는데, 이 함수는 아래와 같은 상황에서 호출된다.
 	- 이펙트 함수가 호출되기 전
-	- 컴포넌트가 언마운트될때
+	- 컴포넌트가 언마운트될 때
 
 
 ```js
 import React, {useEffect} from 'react'
 
   useEffect(
-    (이펙트 함수)
+    // ...
     return {
-      (클린업 함수)
+      // (클린업 함수)
     }
-  }, [의존값]);
+  }, [
+  // ...
+  ]);
 
   // 이펙트 함수 호출시점 : 컴포넌트가 처음 마운트될 때, 의존값으로 주어진 값이 변경될 때
   // 클린업 함수 호출시점 : 이펙트 함수가 호출되기 전, 컴포넌트가 언마운트될때 각각 클린업이 호출된다.
