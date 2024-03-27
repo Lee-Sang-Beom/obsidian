@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md"
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md"
               }
             }
           }
@@ -148,9 +148,20 @@
   },
   "active": "3787f5de94381bb6",
   "lastOpenFiles": [
-    "프론트엔드 지식/Cookie, Session, Web Storage.md",
-    "프론트엔드 지식/Oauth.md",
+    "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
+    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
+    "내 프로젝트/IR 분석/IR 분석 백링크.md",
+    "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
+    "jQuery/jQuery 백링크.md",
+    "backend/Spring 강의/Spring 강의 학습 백링크.md",
+    "프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
+    "프론트엔드 지식/원시 타입과 참조 타입.md",
+    "프론트엔드 지식/인증토큰과 리프레시 토큰이란.md",
+    "프론트엔드 지식/Clsx 사용해보기.md",
+    "프론트엔드 지식/Cookie, Session, Web Storage.md",
+    "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
+    "프론트엔드 지식/Oauth.md",
     "프로젝트 경험 기록/CKEditor/CustomCKEditor.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/expl off.png",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
@@ -158,8 +169,6 @@
     "무제 파일.canvas",
     "사용 이미지/Next.js/VWorld and OpenLayers/expl on.png",
     "사용 이미지/내 프로젝트/IR 작업.png",
-    "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
-    "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
     "Next.js/NextAuth 사용하기/내가 변경한 리프레스 토큰.md",
     "Next.js/NextAuth 사용하기/Nextauth 리프레시 토큰 구현.md",
@@ -171,15 +180,6 @@
     "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
     "Next.js/VWorld and OpenLayers/3. Next.js13에서 VWorld API와 OpenLayers 사용해보기 3.md",
     "Next.js/VWorld and OpenLayers/4. Next.js13에서 VWorld API와 OpenLayers 사용해보기 4.md",
-    "Next.js/VWorld and OpenLayers/5. Next.js13에서 VWorld API와 OpenLayers 사용해보기 5.md",
-    "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/returnFireDmgeVectorLayer.png",
     "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png",
     "사용 이미지/Next.js/Next.js14.png",

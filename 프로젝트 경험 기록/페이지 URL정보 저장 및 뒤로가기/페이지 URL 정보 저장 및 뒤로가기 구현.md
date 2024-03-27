@@ -64,7 +64,7 @@
 
 - 일단, 링크를 클릭하는 위치에서는, `localStorage`에 아래와 같은 정보를 저장해야 한다. 이것이 이전 URL 정보이다.
 ```tsx
-// path="/"인 Home에서 링크 클릭
+// 1. path="/"인 Home에서 링크 클릭
 <Link
   href={
 	activeSeq === 0
@@ -89,6 +89,20 @@
 </Link>
 
 
-
-
+// 2. path="/Ci/ChemiInquiry" 인 위치에서 링크 클릭
+<Link
+	href={`${url}/${tr.chemSeq}`}
+	prefetch={false}
+	aria-label={`${tr.mttrnmeng} 상세보기 페이지 이동`}
+	onClick={() => {
+	  localStorage.setItem("previousPage", "/Ci/ChemiInquiry");
+	}}
+>	
+	{tr.mttrnmkor}
+</Link>
 ```
+
+
+#### 4. 저장된 localStorage 값 불러오기 및 제거
+
+- 
