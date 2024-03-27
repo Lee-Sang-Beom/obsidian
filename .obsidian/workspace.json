@@ -11,8 +11,12 @@
             "id": "cf59698d1580621a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "React/hook/useEffect.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "React/hook/useEffect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "React/hook/useEffect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "React/hook/useEffect.md"
+              }
             }
           }
         ]
@@ -140,9 +148,10 @@
   },
   "active": "cf59698d1580621a",
   "lastOpenFiles": [
+    "React/hook/useCallback.md",
+    "React/hook/useContext.md",
     "React/hook/useMemo.md",
     "React/hook/useEffect.md",
-    "React/hook/useContext.md",
     "React/hook/useReducer.md",
     "React/hook/React hook 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
@@ -171,7 +180,6 @@
     "사용 이미지/내 프로젝트/IR 작업.png",
     "Next.js/NextAuth 사용하기/내가 변경한 리프레스 토큰.md",
     "Next.js/NextAuth 사용하기/Nextauth 리프레시 토큰 구현.md",
-    "Next.js/NextAuth 사용하기/원래있던 토큰.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/returnFireDmgeVectorLayer.png",
     "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png",
     "사용 이미지/Next.js/Next.js14.png",
