@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/CustomCKEditor.md",
+                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/CustomCKEditor.md",
+                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/CustomCKEditor.md",
+                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/CustomCKEditor.md"
+                "file": "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "3787f5de94381bb6",
   "lastOpenFiles": [
+    "프론트엔드 지식/Cookie, Session, Web Storage.md",
+    "프론트엔드 지식/Oauth.md",
+    "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
+    "프로젝트 경험 기록/CKEditor/CustomCKEditor.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/expl off.png",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
     "프로젝트 경험 기록",
@@ -161,7 +165,6 @@
     "Next.js/NextAuth 사용하기/Nextauth 리프레시 토큰 구현.md",
     "Next.js/NextAuth 사용하기/원래있던 토큰.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
-    "프로젝트 경험 기록/CKEditor/CustomCKEditor.md",
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "Next.js/Next.js 14/Next.js 14 변경점.md",
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
@@ -177,9 +180,7 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
-    "React/env.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/returnFireDmgeVectorLayer.png",
-    "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png",
     "사용 이미지/Next.js/Next.js14.png",
     "사용 이미지/Next.js/VWorld and OpenLayers/Openlayers 구조.png",
