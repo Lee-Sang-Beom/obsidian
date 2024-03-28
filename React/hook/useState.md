@@ -35,4 +35,4 @@ const [chemSearchKeyWord, setChemSearchKeyWord] = useState<string>("");
 
 #### 4. 예제 2 (객체 관리 - `object`)
 
-- `useState`는 단일 `string`, `number`
+- `useState`는 단일 `string`, `number` 외에도 객체 또한 관리할 수 있다.
