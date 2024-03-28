@@ -51,7 +51,9 @@ useState<SearchCompanyCommand>({
 ```
 
 - `setState`의 경우, 아래와 같이 사용할 수 있다.
-	- `setState` 시 중요한 것은, 새로운 값으로 갱신할 때 이전 상태`(prevState)`를 고려해
+	- `setState` 시 중요한 것은, 새로운 값으로 갱신할 때 이전 상태`(prevState)`를 고려해야 한다는 점이다.
+	- `setState` 에 콜백 함수를 전달할 경우, `prev` 인자를 통해 이전 값이 무엇이었는지를 불러올 수 있다.
+		- 아래와 같이, `...prev`로 이전 값 세팅을 진행한 후, 덮어쓰기 할 데이터를 입력해주면 객체의 모든 값 중 변경된 값만 재적용이 가능하다.
 ```tsx
   setCompanySearchObj((prev) => {
 	return {
@@ -64,3 +66,25 @@ useState<SearchCompanyCommand>({
 	};
   });
 ```
+
+#### 5. `useState`에서, `setState` 사용 시 주의할 점
+
+- `setState`는 기본적으로 상태 변경 시 비동기로 동작한다.
+```tsx
+
+const [count, setCount] = useState<number>(0);
+
+return (
+	{/* ... */}
+	<button
+	onClick={()=>{
+		setCount(prev => prev+1);
+		if(count < 5) {
+			console.log('count is ', count);
+		}
+	}}>
+	</button>
+)
+```
+
+- 위의 코드에서, 
