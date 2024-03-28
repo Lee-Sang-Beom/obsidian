@@ -23,4 +23,16 @@ const [state, setState] = useState(initialState);
 ```
 
 
-#### 3. 예제 1
+#### 3. 예제 1 (문자열 관리 - `string`)
+
+- 사용자가 입력하는 특정 검색어를 관리할 때 유용하다.
+	- 즉, `Form`에서 사용하기 용이하다.
+	- **입력 요소가 많을 때**는, 여러 개의 `useState`를 호출하는 것 보다는, `react-hook-form`을 사용하는 것이 좀 더 편하다고 생각한다.
+
+```tsx
+const [chemSearchKeyWord, setChemSearchKeyWord] = useState<string>("");
+```
+
+#### 4. 예제 2 (객체 관리 - `object`)
+
+- `useState`는 단일 `string`, `number`
