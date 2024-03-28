@@ -79,8 +79,8 @@ return (
 	<button
 	onClick={()=>{
 		setCount(prev => prev+1);
-		if(count < 5) {
-			console.log('count is ', count);
+		if(count === 5) {
+			console.log('count is 5 : ', count);
 		}
 	}}>
 	</button>
