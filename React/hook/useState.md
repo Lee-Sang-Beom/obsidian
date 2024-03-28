@@ -50,4 +50,17 @@ useState<SearchCompanyCommand>({
 });
 ```
 
-- set
+- `setState`의 경우, 아래와 같이 사용할 수 있다.
+	- `setState` 시 중요한 것은, 새로운 값으로 갱신할 때 이전 상태`(prevState)`를 고려해
+```tsx
+  setCompanySearchObj((prev) => {
+	return {
+	  ...prev,
+	  page: 0,
+
+	  companySearchType:
+		selectCompanySearchType,
+	  searchKeyWord: searchCompanyKeyWord,
+	};
+  });
+```
