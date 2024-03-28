@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/hook/useState.md",
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/hook/useState.md",
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/hook/useState.md",
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/hook/useState.md"
+                "file": "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md"
               }
             }
           }
@@ -148,14 +148,19 @@
   },
   "active": "cf59698d1580621a",
   "lastOpenFiles": [
-    "React/hook/useCallback.md",
+    "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
+    "React/React 백링크.md",
+    "React/env.md",
+    "React/key.md",
+    "React/Fragment.md",
+    "React/hook/React hook 백링크.md",
     "React/hook/useState.md",
+    "React/hook/useCallback.md",
     "React/hook/useContext.md",
     "React/hook/useRef.md",
     "React/hook/useEffect.md",
     "React/hook/useMemo.md",
     "React/hook/useReducer.md",
-    "React/hook/React hook 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "jQuery/jQuery 백링크.md",
     "JSP/JSP 백링크.md",
@@ -165,15 +170,10 @@
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
-    "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
     "프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
     "프론트엔드 지식/원시 타입과 참조 타입.md",
     "프론트엔드 지식/인증토큰과 리프레시 토큰이란.md",
     "프론트엔드 지식/Clsx 사용해보기.md",
-    "프론트엔드 지식/Cookie, Session, Web Storage.md",
-    "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
-    "프론트엔드 지식/Oauth.md",
-    "프로젝트 경험 기록/CKEditor/CustomCKEditor.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/expl off.png",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
     "프로젝트 경험 기록",
