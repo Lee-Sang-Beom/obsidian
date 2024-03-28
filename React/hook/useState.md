@@ -70,6 +70,7 @@ useState<SearchCompanyCommand>({
 #### 5. `useState`에서, `setState` 사용 시 주의할 점 (1)
 
 - `setState`는 기본적으로 상태 변경 시 비동기로 동작한다.
+- 
 ```tsx
 
 const [count, setCount] = useState<number>(0);
@@ -131,4 +132,24 @@ return (
   );
 ```
 
-- 정답은 `3`이다. `setState`문은 비동기적으로 동작하며, 변경된 값들을 모아 한번에 업데이트를 진행하여 렌더링을 줄이고자 **배치(Batch) 기능**을 사용해 비동기로 작동한다
+- 정답은 `3`이다. `setState`문은 비동기적으로 동작하며, 변경된 값들을 모아 한번에 업데이트를 진행하여 렌더링을 줄이고자 **배치(Batch) 기능**을 사용해 비동기로 작동한다.
+	- 때문에, 위와 같이 코드를 작성할 경우 제일 마지막 코드만 작동하는 것이다.
+	- 그렇다면, 이전 값을 계속 더하려면 어떻게 해야할까?
+
+```tsx
+// ...
+return (
+    <button
+      onClick={() => {
+        setCount((prev) => prev + 1);
+        setCount((prev) => prev + 2);
+        setCount((prev) => prev + 3);
+      }}
+    >
+      {count}
+    </button>
+  );
+```
+
+- 정답은 react의 `setState` 사용 시, 이전 상태를 가져오는 `prev` 매커니즘을 사용하는 것이다.
+	- 이 매커니즘은 `React`에 내장되어 있으며, 이전 상태를 직접적으로 참조하고, 이전 상태를 새로운 상태를 계산하는 데 화룡ㅇ함으로써,
