@@ -70,7 +70,6 @@ useState<SearchCompanyCommand>({
 #### 5. `useState`에서, `setState` 사용 시 주의할 점 (1)
 
 - `setState`는 기본적으로 상태 변경 시 비동기로 동작한다.
-- 
 ```tsx
 
 const [count, setCount] = useState<number>(0);
