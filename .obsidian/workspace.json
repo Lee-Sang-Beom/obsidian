@@ -148,6 +148,7 @@
   },
   "active": "c856a54c59f2e0ad",
   "lastOpenFiles": [
+    "React/hook/useState.md",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
     "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
     "React/React 백링크.md",
@@ -155,7 +156,6 @@
     "React/key.md",
     "React/Fragment.md",
     "React/hook/React hook 백링크.md",
-    "React/hook/useState.md",
     "React/hook/useCallback.md",
     "React/hook/useContext.md",
     "React/hook/useRef.md",

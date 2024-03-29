@@ -87,4 +87,74 @@ return (
 )
 ```
 
-- 때문에, 위의 코드에서 버튼을 5회 클릭해 `count` 값이 5가 되면 바로 `console.log(...)`가 출력이 useEffect이다.
+- 때문에, 위의 코드에서 버튼을 5회 클릭해 `count` 값이 5가 되면 바로 `console.log(...)`가 출력되지 않고, 1번 더 클릭해야 출력된다.
+	- 즉, `setCount(...)`가 비동기적으로 동작하여, `if(count)===5`조건문이 **이전 값**을 바라보면서 통과되지 않는 것이다.
+
+
+#### 5. `useState`에서, `setState` 사용 시 주의할 점 (2)
+
+- `setState`는 기본적으로 상태 변경 시 비동기로 동작한다고 언급했다.
+	- 그럼 아래 코드에서 버튼을 클릭하면 `count`는 뭐라고 출력될까?
+```tsx
+
+const [count, setCount] = useState<number>(0);
+
+return (
+	{/* ... */}
+	<button
+	onClick={()=>{
+		setCount(prev => prev+1);
+		if(count === 5) {
+			console.log('count is 5 : ', count);
+		}
+	}}>
+	</button>
+)
+```
+
+- 때문에, 위의 코드에서 버튼을 5회 클릭해 `count` 값이 5가 되면 바로 `console.log(...)`가 출력되지 않고, 1번 더 클릭해야 출력된다.
+	- 즉, `setCount(...)`가 비동기적으로 동작하여, `if(count)===5`조건문이 **이전 값**을 바라보면서 통과되지 않는 것이다.
+
+```tsx
+// ...
+  const [count, setCount] = useState<number>(0);
+  return (
+    <button
+      onClick={() => {
+        setCount(count + 1);
+        setCount(count + 2);
+        setCount(count + 3);
+      }}
+    >
+      {count}
+    </button>
+  );
+```
+
+- 정답은 `3`이다. `setState`문은 비동기적으로 동작하며, 변경된 값들을 모아 한번에 업데이트를 진행하여 렌더링을 줄이고자 **배치(Batch) 기능**을 사용해 비동기로 작동한다.
+	- 때문에, 위와 같이 코드를 작성할 경우 제일 마지막 코드만 작동하는 것이다.
+	- 그렇다면, 이전 값을 계속 더하려면 어떻게 해야할까?
+
+```tsx
+// ...
+return (
+    <button
+      onClick={() => {
+        setCount((prev) => prev + 1);
+        setCount((prev) => prev + 2);
+        setCount((prev) => prev + 3);
+      }}
+    >
+      {count}
+    </button>
+  );
+```
+
+- 정답은 react의 `setState` 사용 시, 이전 상태를 가져오는 `prev` **매커니즘**을 사용하는 것이다.
+	- 이 매커니즘은 `React`에 내장되어 있으며, 이전 상태를 직접적으로 참조하고 이전 상태를 새로운 상태를 계산하는 데 활용하는 데에 유용하다.
+
+- **클래스형 컴포넌트**에서는 `setState` 함수가 콜백 기능을 제공한다고 한다. 하지만, **함수형 컴포넌트**에서는 이야기가 조금 다르다.
+	-  **함수형 컴포넌트**에서 사용하는 `useState`에는 순차적 동작을 위한 콜백 함수를 넣어줄 수 없다.
+		- `[ex: setState(새 상태, 콜백함수)]`
+	- Promise 또한 반환하지 않기 때문에, `async, await`을 사용할 수 없다.
+	- 그래서, 클래스형 컴포넌트에서 사용한 `callback`처럼 코드 흐름을 구현하기 위해, 별도로 등장한 `hook`이 있는데, 그것이 `useEffect`이다.
