@@ -165,7 +165,7 @@ const [state, setState] = useState();
 setState(newState, callbackFunction); // 이 경우 콜백 함수가 호출되지 않고 경고가 발생
 ```
 
-	-  **함수형 컴포넌트**에서 사용하는 `useState`에는 순차적 동작을 위한 콜백 함수를 넣어줄 수 없다.
-		- `[ex: setState(새 상태, 콜백함수)]`
+-  **함수형 컴포넌트**에서 사용하는 `useState`에는 순차적 동작을 위한 콜백 함수를 넣어줄 수 없다.
 	- Promise 또한 반환하지 않기 때문에, `async, await`을 사용할 수 없다.
-	- 그래서, 클래스형 컴포넌트에서 사용한 `callback`처럼 코드 흐름을 구현하기 위해, 별도로 등장한 `hook`이 있는데, 그것이 `useEffect`이다.
+	- 그래서, 클래스형 컴포넌트에서 사용한 `setState`의 콜백 함수처럼 `state`의 상태가 업데이트될 때마다 호출할 수 있는 코드 흐름을 구현하기 위해 별도로 등장한 `hook`이 있다.
+		- 그것이 `useEffect`이다.
