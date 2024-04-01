@@ -53,25 +53,25 @@
 1. .env 파일
 - 가장 우선순위가 낮다. 모든 환경에서 공통으로 사용할 디폴트 키를 관리한다.
 NEXT_PUBLIC_API_KEY=default_api_key
-NODE_VALUE=default_value  
+NEXT_VWORLD_LOCAL_SECRET=SECRET_KEY
 
 2. .env.development 파일
 - 개발환경(process.env.NODE_ENV === 'development')에서 사용할 키를 등록한다. 
 - 개발환경일 경우, .env에 같은 환경변수가 있다면 덮어쓴다.
 NEXT_PUBLIC_API_KEY=dev_api_key
-NODE_VALUE=dev_value
+NEXT_VWORLD_LOCAL_SECRET=SECRET_KEY
 
 3. .env.production 파일
 - 배포/빌드환경(process.env.NODE_ENV === 'production')에서 사용할 키를 등록한다. 
 - 배포환경일 경우, .env에 같은 환경변수가 있다면 덮어쓴다.
 NEXT_PUBLIC_API_KEY=prod_api_key
-NODE_VALUE=prod_value
+NEXT_VWORLD_LOCAL_SECRET=SECRET_KEY
 
 4. .env.local 파일
 - 모든 환경에서 최우선순위로 적용할 환경변수를 정의한다.
 - 모든 .env.* 파일보다 우선순위가 높다.(같은 환경변수가 있다면 모두 덮어쓴다.)
 NEXT_PUBLIC_API_KEY=local_api_key
-NODE_VALUE=local_value
+NEXT_VWORLD_LOCAL_SECRET=SECRET_KEY
 ```
 
 
@@ -82,3 +82,18 @@ NODE_VALUE=local_value
 
 - 즉, 환경변수 생성 시, `NEXT_PUBLIC_[VAL]`형태로 생성하면 된다.
 	- 환경변수 참조 시에도, `NEXT_PUBLIC_[VAL]` 으로 사용해야 한다.
+
+```tsx
+// NEXT_PUBLIC_이 없는 변수는 브라우저에서 참조할 수 없다.
+console.log(process.env.NEXT_VWORLD_LOCAL_SECRET); // undefined
+
+// NEXT_PUBLIC_ prefix 사용 시, 해당 변수는 브라우저에서도 참조 가능.
+console.log(process.env.NEXT_PUBLIC_API_KEY); //default_api_key
+```
+
+
+#### 5. 참고문서
+
+- [공식 참고문서](https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables)
+- [포스트](https://curryyou.tistory.com/503)
+- 
