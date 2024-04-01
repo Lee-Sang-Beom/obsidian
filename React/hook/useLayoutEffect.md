@@ -27,7 +27,9 @@ useLayoutEffect(()=>{
 
 - `useLayoutEffect`를 사용하면, `effect`실행 후 화면이 업데이트되기 때문에, 사용자에게 보여지는 UI 변화를 좀 더 정교하게 다룰 수 있다.
 
-
+-
+- `useEffect`의 `effect`는 컴포넌트의 재렌더링 후, 다른 작업을 blocking하지 않고 비동기적으로 실행된다.
+- 
 #### 3. 사용해보기
 
 - 아래 예제에서 `useLayoutEffect`가 `useEffect`보다 먼저 출력되는 것을 확인할 수 있다.
@@ -61,4 +63,3 @@ export default function Component() {
 ```
 ![[useLayoutEffect(1).png]]
 
-- 
