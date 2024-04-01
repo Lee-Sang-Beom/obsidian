@@ -12,6 +12,7 @@ console.log("id", id); // :Rammmkq:
 #### 2. 예제 1. 여러 컴포넌트에 id 부여하기 
 
 - 다음과 같이 접근성을 고려한 `id`부여에 용이하다.
+	- 하지만, 이 방법은 여러 개의 컴포넌트가 반환되는 경우 `id`가 겹치게 되는 문제가 발생한다.
 ```tsx
 "use client";
 
@@ -35,8 +36,6 @@ export default function Component() {
   );
 }
 ```
-
-- 하지만, 이 방법은 여러 개의 컴포넌트가 반환되는 경우 `id`가 겹치게 되는 문제가 발생한다.
 
 - `MyInput` 컴포넌트 안에서 `useId hook`을 호출하면 어떻게 될까?
 	- 각 컴포넌트마다 고유한 `id`가 생성되어 `input`에 들어가게 된다.
@@ -68,7 +67,7 @@ export default function Component() {
 ![[useId(1).png]]
 
 
-#### 4. 예제 2. 한 컴포넌트 내에서 여러 `id` 관리
+#### 3. 예제 2. 한 컴포넌트 내에서 여러 `id` 관리
 
 - 그럼, 만약 한 컴포넌트 내에서 여러 `id`를 관리해야한다면 어떻게 해야할까?
 	- 먼저, `useId`를 여러 번 호출하는 방법이 있다.
@@ -147,4 +146,10 @@ export default function Component() {
 ![[useId(2).png]]
 
 
-#### 5. `useId` 사용 장점
+#### 4. `useId` 사용 장점
+
+1. 아이디의 생김새
+	- `useId`가 만든 `id`는 **항상** `:`를 포함한다.
+	- 이는 `document.querySelector(id)`와 같은 형태로 `id`를 불러오지 못하게 만든다. 
+		- react에서는 특정 `element`에 접근하는 방법으로 이미 `useRef`라는 `hook`을 제공하고 있다.
+		- react에서 `querySelector`를 사용하는 것은 좋은 방법이 아니다. 이미 여러가지 경우를 대빟
