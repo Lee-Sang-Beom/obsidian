@@ -1,4 +1,18 @@
 
+#### 1. 환경변수
+
+- Next.js는 아래의 3가지 방식으로 환경변수 기능을 지원한다.
+ **1. process.env.NODE_ENV** : 구동환경 체크용 환경변수
+	**2. .env 파일** : 구동 환경별 환경변수 적용 파일
+	**3. NEXT_PUBLIC_** : 브라우저에서 참조하기 위한 Prefix
+
+출처: [https://curryyou.tistory.com/503](https://curryyou.tistory.com/503) [카레유:티스토리]
+
+- Next.js는 내장된 `.env.local`에서 환경 변수를 `process.env`로 로드할 수 있는 기능을 제공한다.
+- 기본적으로 환경 변수는 브라우저에 표시되지 않기 때문에 Node.js 환경에서만 사용할 수 있다.
+	- 브라우저에 변수를 노출하려면 변수를 `NEXT_PUBLIC_`로 접두사를 붙여 주어야 한다.
+
+#### 2. 
 ```null
 1. **.env 파일**:
     - .env(모든 환경)에서 사용됩니다.
