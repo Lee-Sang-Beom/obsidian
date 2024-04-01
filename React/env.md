@@ -96,4 +96,3 @@ console.log(process.env.NEXT_PUBLIC_API_KEY); //default_api_key
 
 - [공식 참고문서](https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables)
 - [포스트](https://curryyou.tistory.com/503)
-- 
