@@ -9,7 +9,7 @@ console.log("id", id); // :Rammmkq:
 ```
 
 
-#### 2. 예제 1.  
+#### 2. 예제 1. 여러 컴포넌트에 id 부여하기 
 
 - 다음과 같이 접근성을 고려한 `id`부여에 용이하다.
 ```tsx
@@ -72,3 +72,46 @@ export default function Component() {
 
 
 #### 4. 예제 2. 한 컴포넌트 내에서 여러 `id` 관리
+
+- 그럼, 만약 한 컴포넌트 내에서 여러 `id`를 관리해야한다면 어떻게 해야할까?
+	- 먼저, `useId`를 여러 번 호출하는 방법이 있다.
+```tsx
+"use client";
+import { useId } from "react";
+export default function Component() {
+  function MyInput() {
+    const id = useId();
+    const id2 = useId();
+    const id3 = useId();
+
+    return (
+      <div>
+        {/* 1 */}
+        <label htmlFor={`${id}`}>이름</label>
+        <input id={`${id}`} />
+
+        {/* 2 */}
+        <label htmlFor={`${id2}`}>이름</label>
+        <input id={`${id2}`} />
+
+        {/* 3 */}
+        <label htmlFor={`${id3}`}>이름</label>
+        <input id={`${id3}`} />
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <MyInput />
+    </div>
+  );
+}
+```
+
+- 하지만, 이런 경우 `input`태그가 너무 많으면, `useId`를 너무 많이 호출해야 할 수도 있다.
+	- 이는 굉장히 비효율적이다.
+	- 그럼 `useId`를 1회만 호출하는 방법은 없을까?
+
+- 정답은 **의미있는 문자열**을 뒤에 연결하는 방법을 사용하는 것이다.
+	- 이렇게 하면, `id`를 한 번만 호출할 수 있을 뿐더러, `id`가 어떤 의미를 가진 것으로서 연결되어 있는를 쉽게 확인할 수도 있다.
