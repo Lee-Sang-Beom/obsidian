@@ -199,9 +199,36 @@ export default function Component() {
 
 - 반면, `useId`를 사용한 `id`는 **컴포넌트의 렌더링이 발생해도 유지된다는 특징**이 있다.
 	- 이 점에서, 안정적이라고 볼 수 있다.
+```tsx
+"use client";
+import { useEffect, useId } from "react";
+export default function Component() {
+  function MyInput() {
+    // 매번 새로운 id 생성 (렌더링 시에도 새로 생성)
+    const id = Math.random();
 
+    return (
+      <div>
+        <button id="btn">버튼</button>
+        <label htmlFor={`${id}`}>이름</label>
+        <input id={`${id}`} />
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <MyInput />
+    </div>
+  );
+}
+```
 
 ###### 3. 서버사이드 렌더링과 hydration
 
-- **서버사이드 렌더링**: 페이지를 서버에서 렌더링한 후 클라이언트로 전달하는 방법을 의미한다.
-- **hydration**: 클라이언트에서는 서버에서 전달한 페이지를 상호작용이 가능한 페이지로 렌더링하는데, 이러한 과정을 `hydration`이라고 한다.
+- **서버사이드 렌더링**이란, 페이지를 서버에서 렌더링한 후 클라이언트로 전달하는 방법을 의미한다. 그리고, 클라이언트에서는 서버에서 전달한 페이지를 상호작용이 가능한 페이지로 렌더링하는데, 이러한 과정을 **hydration**이라고 한다.
+
+- **서버사이드 렌더링**으로 개발하다보면, 서버에서 렌더링한 **결과물**과 클라이언트에서 렌더링한 **결과물**이 일치하지 않아 문제가 일어나는 경우가 있다.
+	- **문제발생 예시: ** 서버사이드 렌더링된 **Form** 요소의 `id` !== 클라이언트 렌더링 **Form** 요소의 `id`
+
+- `useId`를 사용하면 서버와 클라이언트에서 모두 동일한, **안정적인** `id`를 생성해주기 때문에, 위의 문제를 회피할 수 있다.
