@@ -148,8 +148,45 @@ export default function Component() {
 
 #### 4. `useId` 사용 장점
 
-1. 아이디의 생김새
-	- `useId`가 만든 `id`는 **항상** `:`를 포함한다.
+###### 1. 아이디의 생김새
+
+- `useId`가 만든 `id`는 **항상** `:`를 포함한다.
 	- 이는 `document.querySelector(id)`와 같은 형태로 `id`를 불러오지 못하게 만든다. 
-		- react에서는 특정 `element`에 접근하는 방법으로 이미 `useRef`라는 `hook`을 제공하고 있다.
-		- react에서 `querySelector`를 사용하는 것은 좋은 방법이 아니다. 이미 여러가지 경우를 대빟
+		- react에서 `querySelector`를 사용하는 것은 **좋은 방법이 아니다.** 이미 여러가지 경우를 대비해서, **잘 설계된** `ref`라는 기능을 제공하고 있다
+
+- react에서는 특정 `element`에 접근하는 방법으로 이미 **잘 설계된** `useRef`라는 `hook`을 제공하고 있다. 
+	- 따라서, `useId`는 의도적으로 `querySelector`의 사용을 막음으로써 react 개발자로서 더 나은 코드를 개발할 수 있도록 돕는다고 볼 수 있다.
+	- 약간, **더 좋은 게 있는데, 굳이 위험한 코드를 쓰지 말라는** 의도같다.
+		- 실제로, `document`객체는 `useEffect`를 사용하여 DOM이 있을 때만 접근이 가능했기 때문에, 완전 공감이 간다.
+```tsx
+"use client";
+import { useEffect, useId } from "react";
+export default function Component() {
+  function MyInput() {
+    const id = useId();
+
+    useEffect(() => {
+      // 불가
+      const element = document.querySelector(id);
+      console.log("element : ", element);
+    }, []);
+
+    return (
+      <div>
+        <button id="btn">버튼</button>
+        <label htmlFor={`${id}`}>이름</label>
+        <input id={`${id}`} />
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <MyInput />
+    </div>
+  );
+}
+
+```
+
+###### 2. 안정
