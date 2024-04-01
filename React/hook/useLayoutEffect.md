@@ -130,4 +130,57 @@ export default function Component() {
 	- 그렇다면 **정확한 시점에, 정교하게 UI를 변경**하려면 어떻게 해야할까?
 
 
+```tsx
+"use client";
+import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 
+function getNumbers() {
+  return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+}
+export default function Component() {
+  const ref = useRef<HTMLDivElement | null>(null);
+  const [numbers, setNumbers] = useState<number[]>([]);
+
+  useEffect(() => {
+    const nums = getNumbers();
+    setNumbers(nums);
+  }, []);
+
+  // 페이지 로드 시, 마지막 숫자가 있는 곳까지 스크롤을 맨 아래로 구성
+  useLayoutEffect(() => {
+    if (!numbers.length) {
+      return;
+    }
+
+    // 의도적 딜레이
+    for (let i = 0; i < 3000000000; i++) {}
+
+    // 의도적 딜레이 때문에, 데이터가 로드되어 화면에 표시되고, for문이 끝나야 스크롤 이벤트가 발생하는 것을 확인 가능
+    if (ref && ref.current) {
+      ref.current.scrollTop = ref.current.scrollHeight;
+    }
+  }, [numbers]);
+
+  return (
+    <>
+      <button onClick={() => setNumbers([])}>reset</button>
+      <div
+        ref={ref}
+        style={{
+          height: "300px",
+          border: "1px solid black",
+
+          // 숫자 표시 영역을 스크롤할 수 있도록
+          overflow: "scroll",
+        }}
+      >
+        {numbers.map((number, idx) => {
+          return <p key={number}>{number}</p>;
+        })}
+      </div>
+    </>
+  );
+}
+```
+
+- `use`
