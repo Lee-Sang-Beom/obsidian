@@ -84,10 +84,10 @@ NEXT_VWORLD_LOCAL_SECRET=SECRET_KEY
 	- 환경변수 참조 시에도, `NEXT_PUBLIC_[VAL]` 으로 사용해야 한다.
 
 ```tsx
-// NEXT_PUBLIC_이 없는 변수는 브라우저에서 참조할 수 없다.
+// NEXT_PUBLIC_ prefix 미사용 시, 해당 변수는 브라우저에서 참조 불가능.
 console.log(process.env.NEXT_VWORLD_LOCAL_SECRET); // undefined
 
-// NEXT_PUBLIC_ prefix 사용 시, 해당 변수는 브라우저에서도 참조 가능.
+// NEXT_PUBLIC_ prefix 사용 시, 해당 변수는 브라우저에서도 참조 가능
 console.log(process.env.NEXT_PUBLIC_API_KEY); //default_api_key
 ```
 
