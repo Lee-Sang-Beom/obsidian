@@ -70,4 +70,60 @@ export default function Component() {
 	- 무거운 작업이 있을 때는, 사용에 유의해야 한다.
 
 
-#### 4. 예제 1
+#### 4. 예제 1. `useEffect`
+
+```tsx
+"use client";
+import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
+
+function getNumbers() {
+  return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+}
+export default function Component() {
+  const ref = useRef<HTMLDivElement | null>(null);
+  const [numbers, setNumbers] = useState<number[]>([]);
+
+  useEffect(() => {
+    const nums = getNumbers();
+    setNumbers(nums);
+  }, []);
+
+  // 페이지 로드 시, 마지막 숫자가 있는 곳까지 스크롤을 맨 아래로 구성
+  useEffect(() => {
+    if (!numbers.length) {
+      return;
+    }
+
+    // 의도적 딜레이
+    for (let i = 0; i < 300000000000000000; i++) {}
+
+    // 의도적 딜레이 때문에, 데이터가 로드되어 화면에 표시되고, for문이 끝나야 스크롤 이벤트가 발생하는 것을 확인 가능
+    if (ref && ref.current) {
+      ref.current.scrollTop = ref.current.scrollHeight;
+    }
+  }, [numbers]);
+
+  return (
+    <div
+      ref={ref}
+      style={{
+        height: "300px",
+        border: "1px solid black",
+
+        // 숫자 표시 영역을 스크롤할 수 있도록
+        overflow: "scroll",
+      }}
+    >
+      {numbers.map((number, idx) => {
+        return <p key={number}>{number}</p>;
+      })}
+    </div>
+  );
+}
+```
+
+- 위의 예제는, 페이지 로드 시 마지막 숫자가 있는 영역까지 **스크롤을 자동으로 내리게끔 구성한 예제**이다.
+	- `useEffect`는 콜백 함수로 전달한 `effect`를 컴포넌트가 화면에 그려진 후,(화면 업데이트 후) 비동기적으로 실행하는 특징이 있다.
+	- 때문에, `useEffect`내의 복잡한 로직이 구성되어 있다면, **본 예제에서 원하는 UI 이벤트가 의도치 않게 작동**할 수 있다.
+
+- 이는 사용자에게 정교한 UI를 보여주어야 할 경우, `useEffect`의 단점을 여실히 보여준다. 
