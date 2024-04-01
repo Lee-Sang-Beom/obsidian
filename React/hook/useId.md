@@ -9,7 +9,7 @@ console.log("id", id); // :Rammmkq:
 ```
 
 
-#### 2. 예제 1. 
+#### 2. 예제 1.  
 
 - 다음과 같이 접근성을 고려한 `id`부여에 용이하다.
 ```tsx
@@ -69,3 +69,6 @@ export default function Component() {
 
 ```
 ![[useId(1).png]]
+
+
+#### 4. 예제 2. 한 컴포넌트 내에서 여러 `id` 관리
