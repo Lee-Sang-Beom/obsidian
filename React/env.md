@@ -9,8 +9,7 @@
 - Next.js는 내장된 `.env.local`에서 환경 변수를 `process.env`로 로드할 수 있는 기능을 제공한다.
 
 - 기본적으로 환경 변수는 브라우저에 표시되지 않기 때문에 Node.js 환경에서만 사용할 수 있다.
-	- 브라우저에 변수를 노출하려면 변수를 `NEXT_PUBLIC_`로 접두사를 붙여 주어야 한다.
-
+	- 브라우저에 변수를 노출하려면 변수를 `NEXT_PUBLIC_`로 접두사(`prefix`)를 붙여 주어야 한다.
 
 #### 2. `process.env.NODE_ENV`
 
@@ -47,5 +46,39 @@
 
 5. **.env.local**
 	- 가장 우선순위가 높다.
-	- 다른 파일들에 정의된  값을 모두 override한다.
+	- 다른 파일들에 정의된 값을 모두 override한다.
 ```
+
+```null
+1. .env 파일
+- 가장 우선순위가 낮다. 모든 환경에서 공통으로 사용할 디폴트 키를 관리한다.
+NEXT_PUBLIC_API_KEY=default_api_key
+NODE_VALUE=default_value  
+
+2. .env.development 파일
+- 개발환경(process.env.NODE_ENV === 'development')에서 사용할 키를 등록한다. 
+- 개발환경일 경우, .env에 같은 환경변수가 있다면 덮어쓴다.
+NEXT_PUBLIC_API_KEY=dev_api_key
+NODE_VALUE=dev_value
+
+3. .env.production 파일
+- 배포/빌드환경(process.env.NODE_ENV === 'production')에서 사용할 키를 등록한다. 
+- 배포환경일 경우, .env에 같은 환경변수가 있다면 덮어쓴다.
+NEXT_PUBLIC_API_KEY=prod_api_key
+NODE_VALUE=prod_value
+
+4. .env.local 파일
+- 모든 환경에서 최우선순위로 적용할 환경변수를 정의한다.
+- 모든 .env.* 파일보다 우선순위가 높다.(같은 환경변수가 있다면 모두 덮어쓴다.)
+NEXT_PUBLIC_API_KEY=local_api_key
+NODE_VALUE=local_value
+```
+
+
+#### 4. `NEXT_PUBLIC_`
+
+- 기본적으로 환경변수는 서버에서만 참조할 수 있다.
+	- 만약, 서버 및 브라우저 모두에서 환경변수를 사용하고 싶다면, 변수명 앞에 `NEXT_PUBLIC` 이라는 `prefix`를 붙여줘야 한다.
+
+- 즉, 환경변수 생성 시, `NEXT_PUBLIC_[VAL]`형태로 생성하면 된다.
+	- 환경변수 참조 시에도, `NEXT_PUBLIC_[VAL]` 으로 사용해야 한다.
