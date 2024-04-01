@@ -69,3 +69,5 @@ export default function Component() {
 	- 이 말은, `useLayoutEffect`의 `effect`문이 실행되는 동안에는 화면이 업데이트되지 않는다. (blocking)
 	- 무거운 작업이 있을 때는, 사용에 유의해야 한다.
 
+
+#### 4. 예제 1
