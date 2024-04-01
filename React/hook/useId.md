@@ -38,9 +38,6 @@ export default function Component() {
 
 - 하지만, 이 방법은 여러 개의 컴포넌트가 반환되는 경우 `id`가 겹치게 되는 문제가 발생한다.
 
-
-#### 3. 예제 1. 문제해결
-
 - `MyInput` 컴포넌트 안에서 `useId hook`을 호출하면 어떻게 될까?
 	- 각 컴포넌트마다 고유한 `id`가 생성되어 `input`에 들어가게 된다.
 ```tsx
@@ -115,3 +112,39 @@ export default function Component() {
 
 - 정답은 **의미있는 문자열**을 뒤에 연결하는 방법을 사용하는 것이다.
 	- 이렇게 하면, `id`를 한 번만 호출할 수 있을 뿐더러, `id`가 어떤 의미를 가진 것으로서 연결되어 있는를 쉽게 확인할 수도 있다.
+```tsx
+"use client";
+import { useId } from "react";
+export default function Component() {
+  function MyInput() {
+    const id = useId();
+
+    return (
+      <div>
+        {/* 1 */}
+        <label htmlFor={`${id}_name`}>이름</label>
+        <input id={`${id}_name`} />
+
+        {/* 2 */}
+        <label htmlFor={`${id}_phoneNum`}>전화번호</label>
+        <input id={`${id}_phoneNum`} />
+
+        {/* 3 */}
+        <label htmlFor={`${id}_age`}>나이</label>
+        <input id={`${id}_age`} />
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <MyInput />
+    </div>
+  );
+}
+
+```
+![[useId(2).png]]
+
+
+#### 5. `useId` 사용 장점
