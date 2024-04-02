@@ -10,4 +10,3 @@
 
 1. `dev` -> `assertPrefix`
 2. `api key (vworld)`
-3. 
