@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "55fc58c3327003bf",
+        "id": "b870bfa9e93df94d",
         "type": "tabs",
         "children": [
           {
-            "id": "c856a54c59f2e0ad",
+            "id": "f2389063615d5769",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 세미나/Next.js 프로젝트 초기 세팅.md",
+                "file": "회사 세미나/GitLab, Jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 200
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회사 세미나/Next.js 프로젝트 초기 세팅.md",
+                "file": "회사 세미나/GitLab, Jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회사 세미나/Next.js 프로젝트 초기 세팅.md",
+                "file": "회사 세미나/GitLab, Jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회사 세미나/Next.js 프로젝트 초기 세팅.md"
+                "file": "회사 세미나/GitLab, Jenkins.md"
               }
             }
           }
@@ -146,14 +146,24 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c856a54c59f2e0ad",
+  "active": "f2389063615d5769",
   "lastOpenFiles": [
-    "회사 세미나/학습.md",
+    "web_hook.png",
+    "사용 이미지/회사 세미나",
+    "jenkins_buildstep.png",
+    "회사 세미나/GitLab, Jenkins.md",
     "회사 세미나/Next.js 프로젝트 초기 세팅.md",
+    "nginx.png",
+    "회사 세미나/Nginx(역방향 프록시).md",
+    "회사 세미나/Docker.md",
+    "회사 세미나/도메인과 네임서버.md",
+    "회사 세미나/프로토콜, 포트번호.md",
+    "회사 세미나/서버와 클라이언트.md",
+    "회사 세미나/서버(Server).md",
+    "회사 세미나/학습.md",
     "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
     "내 프로젝트/Portfolio.md",
     "회사 세미나",
-    "Pasted image 20240402141720.png",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
     "Next.js/더 알아보기/rewrite, redirect.md",
@@ -174,14 +184,6 @@
     "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
     "React/hook/useState.md",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
-    "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
-    "React/React 백링크.md",
-    "React/key.md",
-    "React/Fragment.md",
-    "React/hook/useCallback.md",
-    "React/hook/useContext.md",
-    "React/hook/useRef.md",
-    "React/hook/useMemo.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/expl off.png",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
     "프로젝트 경험 기록",
@@ -189,12 +191,9 @@
     "사용 이미지/Next.js/VWorld and OpenLayers/expl on.png",
     "사용 이미지/내 프로젝트/IR 작업.png",
     "사용 이미지/Next.js/VWorld and OpenLayers/returnFireDmgeVectorLayer.png",
-    "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png",
-    "사용 이미지/Next.js/Next.js14.png",
     "React/react-hook-form",
     "사용 이미지/Next.js/더 알아보기",
     "사용 이미지/Next.js/Next-auth",
-    "사용 이미지/React/hook/useRef",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",

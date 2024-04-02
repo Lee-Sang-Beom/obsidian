@@ -1,0 +1,143 @@
+
+참고 URL : [](https://khj93.tistory.com/entry/Docker-Docker-%EA%B0%9C%EB%85%90)[https://khj93.tistory.com/entry/Docker-Docker-개념](https://khj93.tistory.com/entry/Docker-Docker-%EA%B0%9C%EB%85%90)
+
+우리가 구현한 서비스(프론트엔드, 백엔드)를 사용자가 사용할 수 있게 하려면, 서버에 배포하고, 서비스를 사용할 수 있게 하여야 한다.
+
+프론트엔드 기준 Next.js를 배포하려면, 서버에 Node.js 설치를 하고, 포트번호도 변경하고, npm install도 하고… 해야할 게 많다.
+
+심지어 서버를 변경해야 하면 해당 배포 및 환경 세팅 작업을 다시 진행하여야 한다.
+
+Docker는 이러한 불편함을 해결하기 위해 만들어졌다.
+
+### Docker란
+
+Docker는 리눅스 컨테이너 기반으로 운영되는 오픈소스 가상화 플랫폼이다.
+
+정의만으로는 이해하기 어려우니, 사진과 함께 이해를 해보자.
+
+여기 Linux기반으로 되어 있는 서버가 있다.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6eddd06d-eb3a-490d-91c2-3d9623fa4f02/b373aa81-0a0a-4501-91ba-91079cf9ce9a/Untitled.png)
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6eddd06d-eb3a-490d-91c2-3d9623fa4f02/b373aa81-0a0a-4501-91ba-91079cf9ce9a/Untitled.png)
+
+해당 서버에는 Node.js, Tomcat, DB, 기타 등등 여러 서비스가 구동 중이라고 가정해보자.
+
+여기에 Docker를 사용하게 된다면, 그림은 다음과 같이 변한다.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6eddd06d-eb3a-490d-91c2-3d9623fa4f02/fc7187f9-4e77-4b0e-a5b2-fbfa1e07d118/Untitled.png)
+
+각각의 컨테이너는 리눅스 기반으로 가상화 되어 있으며, 컨테이너 바깥쪽 서버와 격리된 프로세스를 가진다.
+
+또한 각각의 컨테이너도 독립적으로 작동하게 된다.
+
+즉 리눅스 기반 컴퓨터 내부에 컨테이너 개수만큼 새롭게 리눅스 서버가 생기는 것이다.
+
+컨테이너에 대해 조금 더 자세히 살펴보자.
+
+### Docker Container
+
+우리는 각 서비스 혹은 프로세스가 컴퓨터 안에서 고유한 포트번호를 가지고, 네트워크 통신 시에 해당 포트번호로 서비스를 구분한다고 배웠다. 만약 서비스를 도커 컨테이너로 구동중일때, 특정 서비스에 대한 통신은 어떻게 진행하게 될까? 이 역시 사진으로 이해해보자.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6eddd06d-eb3a-490d-91c2-3d9623fa4f02/86b590f3-fd42-4bc8-a4f2-0d9dcbc136d8/Untitled.png)
+
+예를 들어 위의 사진 처럼, 컨테이너 내부에 Node.js 기반 서비스가 구동중이라고 가정하자.
+
+컨테이너에는 외부 포트와 내부 포트 개념이 존재한다.
+
+- 외부 포트 번호: Docker 바깥 리눅스 서버에서 사용하는 컨테이너의 포트 번호
+- 내부 포트 번호: 컨테이너 내부에서 서비스가 사용하는 서비스의 포트 번호
+
+컨테이너를 만들 때, 외부 포트와 내부 포트를 연결하게 된다.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6eddd06d-eb3a-490d-91c2-3d9623fa4f02/19442d32-3204-4423-9898-5a40ded64c58/Untitled.png)
+
+만약, 해당 서버의 1234번 포트에 요청을 보내면,
+
+해당 1234번 포트를 사용하고 있는 컨테이너와 연결 되어 있는 내부 포트를 사용하는 컨테이너 내부 서비스에 요청이 전해지게 된다.
+
+실제 리눅스 서버 내부 Docker Container들을 살펴보자.
+
+```bash
+// 서버에 현재 구동중인 모든 컨테이너를 보는 명령어
+docker ps -a
+```
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6eddd06d-eb3a-490d-91c2-3d9623fa4f02/4aaa5680-52ce-4d2c-a072-240f968a8d92/Untitled.png)
+
+(뎁스 내부 10.10.10.213 서버에 구동되고 있는 도커 컨테이너 리스트)
+
+붉은색 내부를 보면 두개의 포트번호가 보인다.
+
+차례대로 외부 포트 번호 → 내부 포트 번호이다.
+
+그렇다면 컨테이너는 어떻게 만들어 질까?
+
+### Docker Image
+
+컨테이너를 만드려면 Docker Image가 필요하다.
+
+Docker Image란 컨테이너를 실행 시키기 위한 실행파일, 설정 값들을 가지고 있는 것이다.
+
+즉, 컨테이너 내부 서비스를 실행 시키기 위한 설정 값 및 파일 모음집이라고 생각하면 된다.
+
+현재 뎁스에서 개발 하는 프론트엔드 웹 서비스를 예로 들어보자.
+
+Next.js 기반으로 만드는 프론트엔드 웹 서비스를 배포하기 위해선 다음과 같은 소프트웨어 및 실행 과정이 필요하다.
+
+- Node.js
+- 빌드된 프로젝트 소스 코드 (외부 라이브러리 포함)
+- Node.js가 빌드된 프로젝트 소스 코드를 실행 시키는 명령어
+
+해당 내용을 하나의 묶어 이름을 지정하면 Docker Image가 된다.
+
+이후 구현한 이미지를 가지고 컨테이너를 만들게 된다.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6eddd06d-eb3a-490d-91c2-3d9623fa4f02/c835e1dd-5775-498c-a427-140f5514505e/Untitled.png)
+
+실제 리눅스 서버 내부 Docker Image들을 살펴보자.
+
+```bash
+// 서버에 등록되어 있는 Docker Image 리스트를 보는 명령어
+docker images
+```
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6eddd06d-eb3a-490d-91c2-3d9623fa4f02/af5d901b-10e8-4f50-a546-bb9737ae96c0/Untitled.png)
+
+(뎁스 내부 10.10.10.213 서버에 등록 되어 있는 이미지 리스트)
+
+다시 상단에 있는 이미지를 살펴보자.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6eddd06d-eb3a-490d-91c2-3d9623fa4f02/aad09e39-b90c-42fb-86c3-d90e703c5ed8/Untitled.png)
+
+해당 항목에 대한 내용은 다음과 같다.
+
+- CONTAINER ID : 각 컨테이너에 대한 고유 ID 값
+- IMAGE : 해당 컨테이너가 사용 중인 Docker Image의 이름
+- COMMAND : 해당 컨테이너가 사용 중인 이미지에서 컨테이너를 실행 시킬때 실행하는 명령어
+- CREATED : 해당 컨테이너가 만들어진 시점
+- STATUS : 해당 컨테이너의 현재 상태
+- PORTS : 해당 컨테이너의 외부 포트와 내부 포트 정보 및 외부 포트와 내부 포트 연결 정보
+- NAMES : 해당 컨테이너의 이름
+
+그렇다면 또 Docker Image는 어떻게 만들까?
+
+### Dockerfile
+
+Docker Image는 Dockerfile이라고 하는 특수한 이름의 파일로 만들어진다.
+
+뎁스의 프론트엔드 프로젝트 내부를 보면 항상 Dockerfile이라는 파일이 존재한다.
+
+우리가 GitLab에 Push Event를 발생시키면 Jenkins가 자동으로 빌드 및 배포를 진행한다고 했다.
+
+해당 Jenkins가 배포를 진행하는 과정 중 하나가, 해당 Dockerfile 파일을 가지고 이미지를 제작하는 것이다.
+
+Dockerfile에 대한 자세한 내용 프론트엔드 프로젝트 내부 Dockerfile 및 하단 링크를 참고하자.
+
+[](https://khj93.tistory.com/entry/Docker-Docker-File-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-%EB%AA%85%EB%A0%B9%EC%96%B4)[https://khj93.tistory.com/entry/Docker-Docker-File-작성하기-명령어](https://khj93.tistory.com/entry/Docker-Docker-File-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-%EB%AA%85%EB%A0%B9%EC%96%B4)
+
+### Docker의 장점
+
+- 각 서비스에 대한 포트 번호 변경 세팅이 필요없이, 외부 포트 번호를 필요한 포트 번호로 설정해주면 실제 서비스의 포트 번호 변경과 똑같이 된다.
+    - Node.js 설정을 건드려 3000에서 80으로 바꿔야 할 때, Docker는 Node.js는 그대로, 해당 Node.js를 구동하는 컨테이너의 외부 포트만 80으로 변경하면 된다.
+- 서버가 변경될 경우 원래 구동 시키던 컨테이너의 이미지 파일 혹은 Dockerfile만 가지고 있으면 변경할 서버에 Docker 설치 후, 같은 환경으로 서비스를 구동시킬 수 있다.
