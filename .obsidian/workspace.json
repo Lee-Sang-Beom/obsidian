@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8467314eef3a53fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "회사 세미나/학습.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "af7d0678e9467728",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,6 +148,9 @@
   },
   "active": "af7d0678e9467728",
   "lastOpenFiles": [
+    "사용 이미지/회사 세미나/nginx/포워드 프록시.png",
+    "회사 세미나/Nginx(역방향 프록시).md",
+    "사용 이미지/회사 세미나/nginx/리버스 프록시.png",
     "내 프로젝트/Portfolio.md",
     "내 프로젝트/IR 분석/IR 분석 백링크.md",
     "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
@@ -177,7 +167,6 @@
     "React/React 백링크.md",
     "React/hook/React hook 백링크.md",
     "React/hook/useCallback.md",
-    "회사 세미나/Nginx(역방향 프록시).md",
     "회사 세미나/서버(Server).md",
     "회사 세미나/서버와 클라이언트.md",
     "사용 이미지/회사 세미나/nginx/일반적인 클라이언트와 서버의 통신과정.png",
@@ -194,8 +183,6 @@
     "사용 이미지/회사 세미나/docker/213서버 구동 도커컨테이너 리스트.png",
     "사용 이미지/회사 세미나/docker/213서버 구동 도커컨테이너 리스트.png",
     "사용 이미지/회사 세미나/docker/도커 사용 전 리눅스서버.png",
-    "사용 이미지/회사 세미나/docker/도커 이미지와 컨테이너.png",
-    "사용 이미지/회사 세미나/docker/실제리눅스서버 내부 도커 이미지.png",
     "회사 세미나/GitLab, Jenkins.md",
     "사용 이미지/회사 세미나/nginx",
     "사용 이미지/회사 세미나/GitLab, Jenkins",
@@ -203,7 +190,6 @@
     "회사 세미나/Next.js 프로젝트 초기 세팅.md",
     "회사 세미나/학습.md",
     "회사 세미나",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "내 프로젝트/화학 알리미",
     "사용 이미지/React/hook/useLayoutEffect",
     "사용 이미지/React/hook/useId",
