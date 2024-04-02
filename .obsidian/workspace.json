@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/hook/useLayoutEffect.md",
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/hook/useLayoutEffect.md",
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/hook/useLayoutEffect.md",
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/hook/useLayoutEffect.md"
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md"
               }
             }
           }
@@ -146,11 +146,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "c856a54c59f2e0ad",
   "lastOpenFiles": [
+    "React/hook/useLayoutEffect.md",
+    "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
+    "내 프로젝트/화학 알리미",
     "사용 이미지/React/hook/useLayoutEffect",
     "사용 이미지/React/hook/useLayoutEffect/useLayoutEffect(1).png",
-    "React/hook/useLayoutEffect.md",
     "React/hook/useId.md",
     "React/hook/React hook 백링크.md",
     "사용 이미지/React/hook/useId",
@@ -193,8 +195,6 @@
     "사용 이미지/Next.js/Next-auth",
     "사용 이미지/React/hook/useRef",
     "사용 이미지/React/hook",
-    "사용 이미지/React",
-    "사용 이미지/내 프로젝트",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",
