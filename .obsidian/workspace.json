@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b870bfa9e93df94d",
+        "id": "846505e9e5301f46",
         "type": "tabs",
         "children": [
           {
-            "id": "f2389063615d5769",
+            "id": "8467314eef3a53fe",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "213서버 구동 도커컨테이너 리스트.png"
+                "file": "회사 세미나/학습.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "213서버 구동 도커컨테이너 리스트.png",
+                "file": "회사 세미나/학습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "213서버 구동 도커컨테이너 리스트.png",
+                "file": "회사 세미나/학습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "213서버 구동 도커컨테이너 리스트.png"
+                "file": "회사 세미나/학습.md"
               }
             }
           }
@@ -144,27 +146,30 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f2389063615d5769",
+  "active": "8467314eef3a53fe",
   "lastOpenFiles": [
-    "213서버 구동 도커컨테이너 리스트.png",
-    "213서버 구동 도커컨테이너 리스트.png",
-    "도커 사용 전 리눅스서버.png",
-    "도커 이미지와 컨테이너.png",
-    "실제리눅스서버 내부 도커 이미지.png",
-    "리눅스에 도커를 올릴 때 구성.png",
-    "외부포트와내부포트.png",
-    "가정-컨테이너내부node.js 서비스구동.png",
+    "회사 세미나/도메인과 네임서버.md",
+    "회사 세미나/프로토콜, 포트번호.md",
+    "사용 이미지/회사 세미나/프로토콜, 포트번호",
+    "사용 이미지/회사 세미나/프로토콜, 포트번호/아파트.png",
+    "사용 이미지/회사 세미나/프로토콜, 포트번호/response header.png",
+    "사용 이미지/회사 세미나/프로토콜, 포트번호/request header.png",
+    "사용 이미지/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
+    "사용 이미지/회사 세미나/도메인과 네임서버",
+    "사용 이미지/회사 세미나/docker",
     "회사 세미나/Docker.md",
+    "사용 이미지/회사 세미나/docker/213서버 구동 도커컨테이너 리스트.png",
+    "사용 이미지/회사 세미나/docker/213서버 구동 도커컨테이너 리스트.png",
+    "사용 이미지/회사 세미나/docker/도커 사용 전 리눅스서버.png",
+    "사용 이미지/회사 세미나/docker/도커 이미지와 컨테이너.png",
+    "사용 이미지/회사 세미나/docker/실제리눅스서버 내부 도커 이미지.png",
+    "사용 이미지/회사 세미나/docker/리눅스에 도커를 올릴 때 구성.png",
     "회사 세미나/GitLab, Jenkins.md",
     "사용 이미지/회사 세미나/nginx",
     "사용 이미지/회사 세미나/GitLab, Jenkins",
-    "사용 이미지/회사 세미나/GitLab, Jenkins/web_hook.png",
     "사용 이미지/회사 세미나",
-    "사용 이미지/회사 세미나/GitLab, Jenkins/jenkins_buildstep.png",
     "회사 세미나/Next.js 프로젝트 초기 세팅.md",
     "회사 세미나/Nginx(역방향 프록시).md",
-    "회사 세미나/도메인과 네임서버.md",
-    "회사 세미나/프로토콜, 포트번호.md",
     "회사 세미나/서버와 클라이언트.md",
     "회사 세미나/서버(Server).md",
     "회사 세미나/학습.md",
@@ -188,10 +193,7 @@
     "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
     "React/hook/useState.md",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
-    "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
-    "프로젝트 경험 기록",
     "무제 파일.canvas",
-    "React/react-hook-form",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",
