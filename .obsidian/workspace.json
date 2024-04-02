@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "af7d0678e9467728",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8467314eef3a53fe",
+  "active": "af7d0678e9467728",
   "lastOpenFiles": [
     "회사 세미나/도메인과 네임서버.md",
     "회사 세미나/프로토콜, 포트번호.md",
