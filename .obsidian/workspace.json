@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 세미나/학습.md",
+                "file": "회사 세미나/Next.js 프로젝트 초기 세팅.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회사 세미나/학습.md",
+                "file": "회사 세미나/Next.js 프로젝트 초기 세팅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회사 세미나/학습.md",
+                "file": "회사 세미나/Next.js 프로젝트 초기 세팅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회사 세미나/학습.md"
+                "file": "회사 세미나/Next.js 프로젝트 초기 세팅.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "c856a54c59f2e0ad",
   "lastOpenFiles": [
-    "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
     "회사 세미나/학습.md",
+    "회사 세미나/Next.js 프로젝트 초기 세팅.md",
+    "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
     "내 프로젝트/Portfolio.md",
     "회사 세미나",
     "Pasted image 20240402141720.png",
@@ -181,7 +182,6 @@
     "React/hook/useContext.md",
     "React/hook/useRef.md",
     "React/hook/useMemo.md",
-    "React/hook/useReducer.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/expl off.png",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
     "프로젝트 경험 기록",
