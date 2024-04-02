@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 세미나/Nginx(역방향 프록시).md",
+                "file": "회사 세미나/학습.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회사 세미나/Nginx(역방향 프록시).md",
+                "file": "회사 세미나/학습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회사 세미나/Nginx(역방향 프록시).md",
+                "file": "회사 세미나/학습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회사 세미나/Nginx(역방향 프록시).md"
+                "file": "회사 세미나/학습.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "af7d0678e9467728",
   "lastOpenFiles": [
-    "사용 이미지/회사 세미나/nginx/포워드 프록시.png",
     "회사 세미나/Nginx(역방향 프록시).md",
+    "사용 이미지/회사 세미나/nginx/포워드 프록시.png",
     "사용 이미지/회사 세미나/nginx/리버스 프록시.png",
     "내 프로젝트/Portfolio.md",
     "내 프로젝트/IR 분석/IR 분석 백링크.md",
