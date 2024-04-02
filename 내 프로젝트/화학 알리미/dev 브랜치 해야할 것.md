@@ -1,48 +1,13 @@
 
-#### 1. 정적파일 경로
+- 공통
+	- localhost 미포함 시, `/cwchemical` path 맨 앞에 추가
 
-- `next-config.js` 파일 중 아래의 내용이 있다. (라이브임)
-```ts
-const path = require("path");
+1. `api` 주소문자열 감싸는 func 하나 만들고 모두 적용 (serversidefetch 제외)
+2. dev `public/cwchemial` `app/cwchemical/...` 디렉터리 구조 변경
+3. `sessionProvider` basepath 변경
+	1. dev (/cwchemical 추가)
+	2. local (내버려둠)
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  // experimental: {
-  //   appDir: true,
-  // },
-  sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
-  },
-  images: {
-    domains: ["http://cca.lksmart.co.kr"],
-    remotePatterns: [
-      {
-        protocol: "http",
-        hostname: "localhost",
-      },
-      {
-        protocol: "http",
-        hostname: "cca.lksmart.co.kr",
-      },
-      {
-        protocol: "https",
-        hostname: "cca.lksmart.co.kr",
-      },
-    ],
-  },
-
-  // 라이브에서만 추가
-  // basePath: "/cwchemical",
-  assetPrefix: "/cwchemical/",
-
-  output: "standalone",
-};
-
-module.exports = nextConfig;
-```
-
-- 여기서 `assetPrefix`는 
-
-#### 2. func
- - api 문자열 감싸는 func만듦
- - 
+1. `dev` -> `assertPrefix`
+2. `api key (vworld)`
+3. 
