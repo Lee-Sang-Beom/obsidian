@@ -42,3 +42,7 @@ module.exports = nextConfig;
 ```
 
 - 여기서 `assetPrefix`는 
+
+#### 2. func
+ - api 문자열 감싸는 func만듦
+ - 
