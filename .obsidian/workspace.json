@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
+                "file": "회사 세미나/학습.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
+                "file": "회사 세미나/학습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
+                "file": "회사 세미나/학습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md"
+                "file": "회사 세미나/학습.md"
               }
             }
           }
@@ -148,12 +148,15 @@
   },
   "active": "c856a54c59f2e0ad",
   "lastOpenFiles": [
+    "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
+    "회사 세미나/학습.md",
+    "내 프로젝트/Portfolio.md",
+    "회사 세미나",
     "Pasted image 20240402141720.png",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
     "Next.js/더 알아보기/rewrite, redirect.md",
     "Next.js/더 알아보기/Middleware.md",
-    "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
     "React/hook/useLayoutEffect.md",
     "내 프로젝트/화학 알리미",
     "사용 이미지/React/hook/useLayoutEffect",
@@ -179,7 +182,6 @@
     "React/hook/useRef.md",
     "React/hook/useMemo.md",
     "React/hook/useReducer.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/expl off.png",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
     "프로젝트 경험 기록",
@@ -189,12 +191,10 @@
     "사용 이미지/Next.js/VWorld and OpenLayers/returnFireDmgeVectorLayer.png",
     "사용 이미지/Next.js/VWorld and OpenLayers/MapControl Component.png",
     "사용 이미지/Next.js/Next.js14.png",
-    "사용 이미지/Next.js/VWorld and OpenLayers/Openlayers 구조.png",
     "React/react-hook-form",
     "사용 이미지/Next.js/더 알아보기",
     "사용 이미지/Next.js/Next-auth",
     "사용 이미지/React/hook/useRef",
-    "사용 이미지/React/hook",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일 4.canvas",
