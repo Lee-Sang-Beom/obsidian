@@ -62,7 +62,6 @@ npx create-next-app@latest
 ? What import alias would you like configured? » @/*
 ```
 
-
 ##### 2-2. git 설정
 - git 설정은 터미널에서 진행한다.
 	-  프로젝트 root경로로 이동하여, 아래와 같이 git 초기 세팅을 진행하면 된다.
@@ -77,18 +76,16 @@ git branch -m master main
 ```
 
 - 다음으로, 파일 탐색기에서 프로젝트의 `.git` 내부 hooks 디렉토리에 다음 두 개의 파일을 추가해야 한다.
-	- 해당 내용은 git repository으로 공유되지 않rl, 프로젝트 개발 진행하는 모든 인원이 직접 작업이 요구된다.
+	- 해당 내용은 git repository으로 공유되지 않기 때문에, 개발을 진행하는 개발자 모두가 직접 작업해야한다.
 
-pre-push
-
+- `pre-push`
 ```powershell
 #!/bin/sh
 
 cmd.exe /c ".git\\hooks\\pre-push.cmd"
 ```
 
-pre-push.cmd
-
+- `pre-push.cmd`
 ```powershell
 @echo off
 npm run build
@@ -99,8 +96,7 @@ if %ERRORLEVEL% EQU 0 (
 )
 ```
 
-main 및 dev branch에 push를 진행한다.
-
+- 마지막으로, `main` 및 `dev` branch에 push를 진행한다.
 ```powershell
 git add -A
 git commit -m "initial commit"
@@ -109,9 +105,10 @@ git checkout -b dev
 git push origin dev
 ```
 
-이후 각자의 브랜치를 만들고 개발을 진행하면 된다.
+- 이후에는, `git issue` 등록 및 각자의 `branch`로 `checkout`하여 개발을 진행하면 된다.
 
-### 프로젝트 디렉토리 구조 생성
+
+#### 3. 프로젝트 내 디렉토리 구조 생성
 
 app 디렉토리에 대한 구조 생성은 다음을 참고하자.
 
