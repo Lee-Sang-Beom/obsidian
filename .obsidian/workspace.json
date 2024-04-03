@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+                "file": "Next.js/더 알아보기/Server Action 사용하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+                "file": "Next.js/더 알아보기/Server Action 사용하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+                "file": "Next.js/더 알아보기/Server Action 사용하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
+                "file": "Next.js/더 알아보기/Server Action 사용하기.md"
               }
             }
           }
@@ -166,6 +166,8 @@
   },
   "active": "af7d0678e9467728",
   "lastOpenFiles": [
+    "Next.js/더 알아보기/rewrite, redirect.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "회사 세미나/Docker.md",
     "회사 세미나/프로토콜, 포트번호.md",
     "회사 세미나/도메인과 네임서버.md",
@@ -206,7 +208,6 @@
     "사용 이미지/회사 세미나/nginx",
     "사용 이미지/회사 세미나/GitLab, Jenkins",
     "사용 이미지/회사 세미나",
-    "회사 세미나/Next.js 프로젝트 초기 세팅.md",
     "회사 세미나",
     "내 프로젝트/화학 알리미",
     "사용 이미지/React/hook/useLayoutEffect",
