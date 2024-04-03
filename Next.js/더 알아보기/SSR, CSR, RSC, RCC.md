@@ -56,9 +56,9 @@
 	- [이미지 출처 - 2ast님의 포스트](https://velog.io/@2ast/React-%EC%84%9C%EB%B2%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8React-Server-Component%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0)
 ![[직렬화 후 클라이언트 및 서버 컴포넌트.png]]
 
-
-
-
+- 직렬화 작업 결과물(JSON Tree)은 이후, `Stream` 형태로 클라이언트가 전달받게 된다
+	- 클라이언트는 함께 다운로드 한 `JS Bundle`을 참조하여 `module reference` 타입이 등장할 때마다 RCC를 렌더링한다.
+	- RCC를 렌더링하면서, 서버 측에서 전달하지 못빈 공간을 채워놓은 뒤, DOM에 반영하면 실제 화면에 보여지게 된다.
 
 
 

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6c39b36d25e2754b",
+        "id": "6ad7fab17bd36204",
         "type": "tabs",
         "children": [
           {
-            "id": "37d4833f80b677a9",
+            "id": "6cbbf432f9a18b5a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
+              }
             }
           }
         ]
@@ -138,8 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "37d4833f80b677a9",
+  "active": "6cbbf432f9a18b5a",
   "lastOpenFiles": [
+    "사용 이미지/Next.js/Next.js14.png",
     "사용 이미지/Next.js/더 알아보기/직렬화 후 클라이언트 및 서버 컴포넌트.png",
     "사용 이미지/Next.js/더 알아보기/직렬화 전 클라이언트 및 서버 컴포넌트.png",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
