@@ -52,21 +52,22 @@
 
 - 그리고, 이러한 **리버스 프록시**를 구현하게 하는 대표적인 소프트웨어가 바로 **Nginx**이다.
 
-### Nginx
+#### 4. Nginx
 
 - **Nginx**는 트래픽이 많은 **WAS**와 같은 웹 서버를 도와주는 비동기 이벤트 기반구조의 경량화 웹 서버 소프트웨어이다.
 	- Nginx는 웹에서 사용하는 **정적** 파일들을 응답해주는 HTTP Web Server로 활용할 수 있지만, 리버스 프록시 기능 또한 포함하고 있기 때문에, 리버스 프록시 서버로 활용되기도 한다.
+	
+	- **WAS**: 클라이언트 요청에 대한 동적 처리가 이뤄진 후 응답해주는 서버
+	- **Web Server**: 단순히 정적파일을 응답해주는 서버
 
 ![[nginx.png]]
-해당 사진은 nginx의 설정파일이다.
-
-해당 nginx의 listen 포트로 들어오는 모든 경로(location /)에 대해서 proxy_pass에 설정되어있는 서버로 재 요청을 보낸다.
-
-해당 재 요청 시, 추가로 http 요청의 header에 추가 값을 담는 로직도 포함되어 있다.
+- 위의 사진은 Nginx의 설정 파일 예시이다.
+	- 여기서는 해당 Nginx의 `listen` 포트로 들어오는 모든 경로`(location /)`에 대하여,` proxy_pass`에 설정되어있는 서버로 재 요청을 보낸다.
+	- 또한, 재 요청 시에 추가로 http 요청의 header에 추가 값을 담아줄 수도 있다.
 
 
+#### 5. 참고 및 이미지 출처
 
-#### 참고 및 이미지 출처
 - [프록시란?]([https://engineer-mole.tistory.com/288](https://engineer-mole.tistory.com/288)
 - [포워드 프록시와 리버스 프록시](https://inpa.tistory.com/entry/NETWORK-%F0%9F%93%A1-Reverse-Proxy-Forward-Proxy-%EC%A0%95%EC%9D%98-%EC%B0%A8%EC%9D%B4-%EC%A0%95%EB%A6%AC)
 - [Nginx란?](https://dkswnkk.tistory.com/513)
