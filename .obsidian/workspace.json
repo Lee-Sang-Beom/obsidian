@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 세미나/Docker.md",
+                "file": "Next.js/더 알아보기/rewrite, redirect.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회사 세미나/Docker.md",
+                "file": "Next.js/더 알아보기/rewrite, redirect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회사 세미나/Docker.md",
+                "file": "Next.js/더 알아보기/rewrite, redirect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회사 세미나/Docker.md"
+                "file": "Next.js/더 알아보기/rewrite, redirect.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "af7d0678e9467728",
   "lastOpenFiles": [
+    "회사 세미나/Docker.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "React/hook/useLayoutEffect.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-    "회사 세미나/Docker.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/더 알아보기/Middleware.md",
