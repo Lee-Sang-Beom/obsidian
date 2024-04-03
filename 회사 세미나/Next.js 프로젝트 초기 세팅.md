@@ -37,11 +37,9 @@
 	3. 프로젝트 디렉토리 구조 생성
 	4. 기본적인 라이브러리 설치 및 세팅
 
-### 프로젝트 생성
-
-프로젝트는 npx create-next-app 명령어를 사용하여 생성한다. (node.js 설치 필수)
-
-윈도우는 cmd(혹은 powershell), mac os는 터미널을 실행 한 뒤, 프로젝트를 만들 디렉토리로 이동하여 다음 과정을 진행한다.
+##### 2-1. 프로젝트 생성
+- Next.js 프로젝트는 `npx create-next-app` 명령어를 사용하여 생성한다. (node.js 설치 필수)
+	-  아래의 설정에 맞게 프로젝트를 만들면 된다.
 
 ```powershell
 //@ 뒤에 붙는 것은 next의 버전. latest는 최신 버전을 의미한다
@@ -64,13 +62,10 @@ npx create-next-app@latest
 ? What import alias would you like configured? » @/*
 ```
 
-이후 해당 설정에 맞게 프로젝트가 만들어진다.
 
-### git 설정
-
-git 설정은 터미널에서 진행한다.
-
-해당 프로젝트를 Vscode 혹은 Intellij IDE로 Open하여 터미널을 실행한다. (해당 IDE가 아닌 다른 IDE 사용 시 프로젝트 생성에서 사용했던 터미널을 실행하여 해당 프로젝트 디렉토리로 이동 후 진행한다.)
+##### 2-2. git 설정
+- git 설정은 터미널에서 진행한다.
+	-  프로젝트 root경로로 이동하여, 아래와 같이 git 초기 세팅을 진행하면 된다.
 
 ```powershell
 // git 기본 세팅
@@ -81,7 +76,8 @@ git remote add origin (git repository 주소)
 git branch -m master main
 ```
 
-프로젝트의 .git 내부 hooks 디렉토리에 다음 두 개의 파일을 추가한다. (윈도우 기준) (해당 내용은 git으로 공유 되지 않아, 프로젝트 개발 진행하는 모든 인원이 직접 작업 필요함)
+- 다음으로, 파일 탐색기에서 프로젝트의 `.git` 내부 hooks 디렉토리에 다음 두 개의 파일을 추가해야 한다.
+	- 해당 내용은 git repository으로 공유되지 않rl, 프로젝트 개발 진행하는 모든 인원이 직접 작업이 요구된다.
 
 pre-push
 
