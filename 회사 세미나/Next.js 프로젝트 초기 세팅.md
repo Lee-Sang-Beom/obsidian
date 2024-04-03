@@ -110,29 +110,22 @@ git push origin dev
 
 #### 3. 프로젝트 내 디렉토리 구조 생성
 
-app 디렉토리에 대한 구조 생성은 다음을 참고하자.
+- Next.js 프로젝트에서 회사 내 프론트엔드 개발 시, 전통적으로 추가로 만들어 주어야 하는 디렉토리와 그에 대한 설명은 아래와 같다.
+	- `components`: 공통 컴포넌트 모음
+	- `fonts`: 적용할 폰트 모음
+	- `hooks`: 커스텀 hook 모음
+	- `lib`: 라이브러리 관련 모음
+	- `styles`: global style
+	- `types`: Interface, type 정의 파일 모음
+	- `utils`: 기타 추가 기능 파일 모음
 
-[https://nextjs.org/docs/app/building-your-application/routing](https://nextjs.org/docs/app/building-your-application/routing)
+- 또한, 추가로 만들어야 하는 파일이 있다.
+	- `.env.development`: 개발 모드시`(npm run dev)` 적용되는 환경변수 파일
+	- `deploy-build.sh`, `Dockerfile`: 무중단 배포에 사용되는 파일
+	- `middleware.ts` 모든 요청에 대해 공통으로 적용하는 로직을 구현한 파일 (필요 시 사용)
 
-프로젝트에서 추가로 만들어 주어야 하는 디렉토리는 다음과 같다.
 
-- components: 공통 컴포넌트 모음 디렉토리
-- fonts: 적용할 폰트 모음 디렉토리
-- hooks: 커스텀 훅 디렉토리
-- lib: 라이브러리 관련 디렉토리
-- styles: global style 관련 디렉토리
-- types: Interface, type 정의 파일 모음 디렉토리
-- utils: 기타 추가 기능 파일 모음 디렉토리
-
-또한, 추가로 만들어야 하는 파일은 다음과 같다.
-
-- .env.development: 개발 모드시(npm run dev) 적용되는 .env
-- [deploy-build.sh](http://deploy-build.sh), Dockerfile: 무중단 배포에 사용되는 파일
-- middleware.ts(필요시): 모든 요청에 대해 공통으로 적용하는 로직을 구현한 파일
-
-해당 디렉토리 및 파일들을 필요한 기능에 맞춰 구현하면 된다.
-
-대표적으로 생성해야할 파일의 목록은 다음과 같다.
+- 대표적으로 생성해야할 파일의 목록은 다음과 같다.
 
 - app > api > […slug] > route.ts
     - Next.js 내부 라우팅 파일1
