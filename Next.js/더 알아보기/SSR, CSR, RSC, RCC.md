@@ -10,7 +10,10 @@
 #### 2. RSC(React Server Component) vs RCC(React Client Component)
 
 - RSC(React Server Component)란, 서버에서 렌더링되는 컴포넌트를 의미한다. RSC에서는, `async`, `await`을 사용하여 비동기 데이터를 가져와 렌더링하는 것이 가능하다.
-	- 해당 개념이 등장하기 이전의 **Next.js**에서는, 서버에 접근해 데이터를 Fetch한 후 하위 컴포넌트에 데이터를 넘겨주기 위해서는 페이지 최상단에서 `getServerSidePros`함수를 사용하여 일일히 넘겨줘야 했다.
+	- 해당 개념이 등장하기 이전의 **Next.js**에서는, 서버에 접근해 데이터를 **Fetch**한 후 하위 컴포넌트에 데이터를 넘겨주기 위해서는 페이지 최상단에서 `getServerSidePros`함수를 사용하여 일일히 넘겨줘야 했다.
+	- 하지만, **서버에서 동작하는 컴포넌트**라면? 서버에서 Fetch를 수행하기 때문에 굳이 `getServerSideProps`를 사용하지 않아도 되게 된다.
+
+- RCC(React Client Component)는, Next.js12버전까지 사용했던 모든 컴포넌트이다.
 #### n. 왜 함수는 직렬화하지 못할까?
 
 함수는 일반적으로 직렬화할 수 없습니다. 직렬화는 데이터나 객체를 바이트 스트림 또는 문자열로 변환하는 과정을 말합니다. 이것은 데이터를 저장하거나 전송하기 쉽게 만들어줍니다.
