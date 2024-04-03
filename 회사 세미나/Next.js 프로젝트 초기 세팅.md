@@ -1,16 +1,15 @@
 
-# 초기 세팅은 크게 두 가지로 나눌 수 있다.
+#### 0. 시작하기 전에
 
-- Gitlab 세팅
-- 프로젝트 세팅
+- 초기 세팅은 크게 2가지로 분류할 수 있다.
+	- gitLab 세팅
+	- 프로젝트 세팅
 
-# GitLab
+#### 1. gitLab
 
-Repository를 만들면 이미 뎁스 개발자들은 그룹으로 묶여있어 자동 push, pull 권한 가지고 있게 된다.
-
-### Repository 만들기
-
-1. [http://gitlab.deps.kr/](http://gitlab.deps.kr/) 접속
+- Repository를 만들면 이미 회사 내의 개발자들은 그룹으로 묶여있어, 자동으로 push 및 pull 등의 권한을 가지게 된다.
+##### 1-1. Repository 만들기
+1. [회사 내부 gitLab](http://gitlab.deps.kr/) 접속
 2. 우측 상단 New project 버튼 클릭
 3. Create blank project 클릭
 4. Project name에 해당 프로젝트를 나타내는 이름 입력(ex. 일자리포털 프론트엔드)
