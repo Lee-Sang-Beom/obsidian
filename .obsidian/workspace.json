@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 세미나/Nginx(역방향 프록시).md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회사 세미나/Nginx(역방향 프록시).md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회사 세미나/Nginx(역방향 프록시).md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회사 세미나/Nginx(역방향 프록시).md"
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
               }
             }
           }
@@ -166,9 +166,11 @@
   },
   "active": "af7d0678e9467728",
   "lastOpenFiles": [
-    "회사 세미나/학습.md",
     "회사 세미나/Docker.md",
+    "회사 세미나/프로토콜, 포트번호.md",
+    "회사 세미나/도메인과 네임서버.md",
     "회사 세미나/Nginx(역방향 프록시).md",
+    "회사 세미나/학습.md",
     "사용 이미지/회사 세미나/nginx/포워드 프록시.png",
     "사용 이미지/회사 세미나/nginx/리버스 프록시.png",
     "내 프로젝트/Portfolio.md",
@@ -190,8 +192,6 @@
     "회사 세미나/서버(Server).md",
     "회사 세미나/서버와 클라이언트.md",
     "사용 이미지/회사 세미나/nginx/일반적인 클라이언트와 서버의 통신과정.png",
-    "회사 세미나/도메인과 네임서버.md",
-    "회사 세미나/프로토콜, 포트번호.md",
     "사용 이미지/회사 세미나/프로토콜, 포트번호",
     "사용 이미지/회사 세미나/프로토콜, 포트번호/아파트.png",
     "사용 이미지/회사 세미나/프로토콜, 포트번호/response header.png",
