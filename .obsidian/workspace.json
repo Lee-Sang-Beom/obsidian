@@ -6,29 +6,9 @@
       {
         "id": "e2e44e8b001deec9",
         "type": "tabs",
-        "dimension": 27.267303102625302,
         "children": [
           {
             "id": "af7d0678e9467728",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "5f6b1773319471be",
-        "type": "tabs",
-        "dimension": 72.73269689737471,
-        "children": [
-          {
-            "id": "156720d54796e130",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,14 +146,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "156720d54796e130",
+  "active": "af7d0678e9467728",
   "lastOpenFiles": [
-    "회사 세미나/Docker.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+    "회사 세미나/Docker.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/더 알아보기/Middleware.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
     "Next.js/더 알아보기/rewrite, redirect.md",
     "회사 세미나/프로토콜, 포트번호.md",
