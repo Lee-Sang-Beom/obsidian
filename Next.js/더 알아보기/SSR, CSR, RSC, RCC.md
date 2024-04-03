@@ -69,7 +69,21 @@
 
 ##### 4-1. RSC에서 RCC로 `function`과 같은 직렬화 불가능한 객체를 `prop`으로 넘겨줄 수 없다.
 
-- RSC는 서버에서 해석되어 **직렬화된 JSON 형태**로 변환된다. 그래서 서버 컴포넌트의 구성 요소는 '직렬화 가능해야 한다’는 전제조건이 붙는다. 만약 RSC가 child에게 function을 prop으로 넘겨주면 위와같이 JSON에 이 사실이 명시되어야 하므로, 에러가 발생할 수 있다.
+- RSC는 서버에서 해석되어 **직렬화된 JSON 형태**로 변환된다. 
+	- 그래서 **서버 컴포넌트의 구성 요소는 직렬화 가능해야 한다**라는 전제조건이 붙는다. 
+
+- 만약 RSC가 자식 컴포넌트에게 함수를 props으로 넘겨주면, 서버에 의해 해석된 서버 컴포넌트의 직렬화된 JSON 데이터에 이 사실이 명시되어야 하므로, 에러가 발생할 수 있다.
+```tsx
+export default function Page(){
+	function eventFunc(){
+		// ...
+	}
+	
+	return <ChildComponent func={func} ... />
+}
+```
+
+
 ##### 4-2. RCC는 RSC를 직접 return해줄 수 없으며, 반드시 `children prop`의 형태로 넘겨주어야 한다.
 
 
