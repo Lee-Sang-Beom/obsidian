@@ -136,10 +136,7 @@ const ServerComponent = ()=>{
 	- **`'use server'` 지시문**: 클라이언트 컴포넌트에서 서버 컴포넌트로 함수를 전달하려면, 해당 함수가 "use server" 지시문을 사용하여 정의되어야 한다. 이렇게 하면 해당 함수가 서버 환경에서 실행될 것으로 표시되어 클라이언트 컴포넌트에서도 사용할 수 있게 되기 때문이다.
 	- `server action`에 대한 자세한 내용은 [여기](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)를 참조하자.
 
-
-
 ##### 4-2. RCC는 RSC를 직접 return해줄 수 없으며, 반드시 `children prop`의 형태로 넘겨주어야 한다.
-
 ```tsx
 const ChildServerComponent = () =>{
 	...
@@ -156,7 +153,7 @@ function ContainerServerComponent() {
 }
 ```
 
-- 서버에서 모든 RSC가 순차적으로 실행되며, 중간에 RCC를 만나면 placeholder로 표시해두고 넘어간다고 했다. 즉, RCC는 실행되지 않기 때문에 RCC 내부에서 반환되는 RSC또한 (서버 컴포넌트임에도 불구하고) 서버에서 실행되지 못한다. 이러한 경우 해당 RSC는 RCC와 동일하게 클라이언트에서 동작하게 된다.
+- **서버**에서는 모든 RSC가 순차적으로 해석되다가, 중간에 **RCC**를 만나면 `placeholder`로 표시해두고 넘어간다고 했다. 즉, RCC는 실행되지 않기 때문에 RCC 내부에서 반환되는 RSC또한 (서버 컴포넌트임에도 불구하고) 서버에서 실행되지 못한다. 이러한 경우 해당 RSC는 RCC와 동일하게 클라이언트에서 동작하게 된다.
 - 하지만 children prop을 통해 RSC를 넘기게 되면, 사실상 공통 부모가 렌더링 되는 시점에 RSC가 실행이 되고, 그 결과값을 children으로 전달할 수 있다.
 
 ```tsx
