@@ -115,7 +115,7 @@ export default function Page(){
 		- 어차피 서버에서 렌더링되는 RSC간의 함수 전달을 굳이 클라이언트 측으로 넘기는 `Stream`에 서술할 필요가 없다.
 	- 이에 따라 **RSC 간에 함수를 전달하더라도 클라이언트 측에서는 이 함수를 직접 사용할 수 없기 때문에 클라이언트에서 함수가 실행되어야 하는 상황에서 단순히 결과만 받게되는 문제가 아예 발생하지 않는 것**이다.
 
-###### - 예외
+> **예외**
 ```tsx
 const ServerComponent = ()=>{
   const add = async (a:number,b:number) =>{
@@ -133,21 +133,13 @@ const ServerComponent = ()=>{
 	 - 이 때, 해당 함수의 `params`와 `return data`은 모두 직렬화가 가능해야 한다. 
 
 - 이 때, RSC에서 RCC로 함수를 전달할 수 있는 이유는 **"use server" 지시문**과 관련이 있다고 예상할 수 있다.
-	1. **`'use server'` 지시문**: 클라이언트 컴포넌트에서 서버 컴포넌트로 함수를 전달하려면, 해당 함수가 "use server" 지시문을 사용하여 정의되어야 한다. 이렇게 하면 해당 함수가 서버 환경에서 실행될 것으로 표시되어 클라이언트 컴포넌트에서도 사용할 수 있게 되기 때문이다.
-	2. **RCC에서의 모듈 import**: RCC에서는, `'use server'` 지시문을 사용하여 정의된 `server action`문을 import할 수 있다. 
+	- **`'use server'` 지시문**: 클라이언트 컴포넌트에서 서버 컴포넌트로 함수를 전달하려면, 해당 함수가 "use server" 지시문을 사용하여 정의되어야 한다. 이렇게 하면 해당 함수가 서버 환경에서 실행될 것으로 표시되어 클라이언트 컴포넌트에서도 사용할 수 있게 되기 때문이다.
+	- `server action`에 대한 자세한 내용은 [여기](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)를 참조하자.
 
 
 
 ##### 4-2. RCC는 RSC를 직접 return해줄 수 없으며, 반드시 `children prop`의 형태로 넘겨주어야 한다.
 
-- 
-
-
-
-
-
-
-##### RCC는 RSC를 직접 return해줄 수 없으며, 반드시 children prop의 형태로 넘겨주어야 한다.
 ```tsx
 const ChildServerComponent = () =>{
 	...
