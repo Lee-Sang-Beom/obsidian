@@ -154,12 +154,9 @@ function ContainerServerComponent() {
 ```
 
 - **서버**에서는 모든 RSC가 순차적으로 해석되다가, 중간에 **RCC**를 만나면 `placeholder`로 표시해두고 넘어간다고 언급했다. 
-	- 즉, RCC는 서버 측에서 해석되지 않기 때문에, RCC 내부에서 반환되는 **children RSC**가 있다면, RSC임에도 불구하고 서버에서 해석되지 못한다. 이러한 경우 해당 RSC는 RCC와 동일하게 클라이언트에서 렌더링된다.
-	
-- 하지만 `children prop`을 통해 **children RSC**를 넘기게 되면, 사실상 공통 부모가 서버에서 해석(렌더링)되는 시점에 **children RSC**가 실행이 되고, 그 결과값을 `children`으로 전달할 수 있다.
+	- 즉, RCC는 서버 측에서 해석되지 않기 때문에, RCC(예제의 `<ParentClientComponent/>`) 내부에서 반환되는 **children RSC**(예제의 `<ChildServerComponent />`) 가 있다면, RSC임에도 불구하고 서버에서 해석되지 못한다. 이러한 경우 해당 RSC는 RCC와 동일하게 클라이언트에서 렌더링된다.
 
 ```tsx
-
 function ChildServerComponent() {
 	...
   return <div>server component</div>;
@@ -176,6 +173,9 @@ function ContainerServerComponent() {
 	</ParentClientComponent>;
 }
 ```
+- 하지만 `children propS`을 통해 **children RSC**(예제의 `<ChildServerComponent />`)를 넘기게 되면, 사실상 공통 부모(예제의 `<ContainerServerComponent />`)가 서버에서 렌더링되는 시점에 **children RSC**(예제의 `<ChildServerComponent />`)가 렌더링되어
+
+
 
 - 만약, 위와 같이 “**ChildServerComponent**”는 “**ParentClientComponent**”의 자식 컴포넌트이지만, 사실상 “**ContainerServerComponent**”를 공통부모로 갖고있기 때문에, “**ContainerServerComponent**”가 렌더링되는 시점에 “**ChildServerComponent**”도 함께 렌더링되어 그 결과값이 “**ParentClientComponent**”에 넘겨지고 있다.
 
