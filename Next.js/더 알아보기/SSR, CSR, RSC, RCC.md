@@ -103,6 +103,7 @@ export default function Page(){
  }
 ```
 
+- 하지만, RSC에서 다른 RSC로 function을 넘기는 것은 문제가 없다. 정확한 이유는 모르
 ##### 4-2. RCC는 RSC를 직접 return해줄 수 없으며, 반드시 `children prop`의 형태로 넘겨주어야 한다.
 
 - 
