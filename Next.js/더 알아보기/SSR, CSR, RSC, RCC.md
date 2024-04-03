@@ -173,10 +173,8 @@ function ContainerServerComponent() {
 	</ParentClientComponent>;
 }
 ```
-- 하지만 `children propS`을 통해 **children RSC**(`<ChildServerComponent />`)를 넘기게 되면, 이야기가 다르다.
+- 하지만 `children props`을 통해 **children RSC**(`<ChildServerComponent />`)를 넘기게 되면, 이야기가 다르다.
 	- 사실상 `<ContainerServerComponent />`를 공통 부모로 갖고 있기 때문에, 공통 부모인 `<ContainerServerComponent />`가 서버에서 렌더링되는 시점에 **children RSC**(`<ChildServerComponent />`)도 함께 렌더링된다.
-
-
 
 - 만약, 위와 같이 “**ChildServerComponent**”는 “**ParentClientComponent**”의 자식 컴포넌트이지만, 사실상 “**ContainerServerComponent**”를 공통부모로 갖고있기 때문에, “**ContainerServerComponent**”가 렌더링되는 시점에 “**ChildServerComponent**”도 함께 렌더링되어 그 결과값이 “**ParentClientComponent**”에 넘겨지고 있다.
 
