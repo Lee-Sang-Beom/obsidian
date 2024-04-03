@@ -54,9 +54,7 @@
 
 ### Nginx
 
-참고 URL : [https://dkswnkk.tistory.com/513](https://dkswnkk.tistory.com/513)
-
-Nginx란 트래픽이 많은 웹사이트의 서버(WAS)를 도와주는 비동기 이벤트 기반구조의 경량화 웹 서버 소프트웨어이다.
+- **Nginx**는 트래픽이 많은 웹 사이트의 서버(WAS)를 도와주는 비동기 이벤트 기반구조의 경량화 웹 서버 소프트웨어이다.
 
 때문에 Nginx는 웹에서 사용하는 정적 파일들을 응답해주는 HTTP Web Server로 활용할 수 있지만, Nginx는 역방향 프록시 기능을 탑재하고 있어 역방향 프록시 서버로 활용이 되기도 한다.
 
@@ -75,3 +73,4 @@ Nginx란 트래픽이 많은 웹사이트의 서버(WAS)를 도와주는 비동�
 #### 참고 및 이미지 출처
 - [프록시란?]([https://engineer-mole.tistory.com/288](https://engineer-mole.tistory.com/288)
 - [포워드 프록시와 리버스 프록시](https://inpa.tistory.com/entry/NETWORK-%F0%9F%93%A1-Reverse-Proxy-Forward-Proxy-%EC%A0%95%EC%9D%98-%EC%B0%A8%EC%9D%B4-%EC%A0%95%EB%A6%AC)
+- [Nginx란?](https://dkswnkk.tistory.com/513)
