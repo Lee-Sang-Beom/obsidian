@@ -6,6 +6,7 @@
       {
         "id": "e2e44e8b001deec9",
         "type": "tabs",
+        "dimension": 22.0763723150358,
         "children": [
           {
             "id": "af7d0678e9467728",
@@ -24,6 +25,7 @@
       {
         "id": "5f6b1773319471be",
         "type": "tabs",
+        "dimension": 77.9236276849642,
         "children": [
           {
             "id": "156720d54796e130",
@@ -31,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 세미나/Docker.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md"
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
               }
             }
           }
@@ -164,15 +166,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "af7d0678e9467728",
+  "active": "156720d54796e130",
   "lastOpenFiles": [
+    "회사 세미나/Docker.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/더 알아보기/Middleware.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
     "Next.js/더 알아보기/rewrite, redirect.md",
-    "회사 세미나/Docker.md",
     "회사 세미나/프로토콜, 포트번호.md",
     "회사 세미나/도메인과 네임서버.md",
     "회사 세미나/Nginx(역방향 프록시).md",
@@ -193,7 +196,6 @@
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
     "React/React 백링크.md",
-    "React/hook/React hook 백링크.md",
     "사용 이미지/회사 세미나/nginx/일반적인 클라이언트와 서버의 통신과정.png",
     "사용 이미지/회사 세미나/프로토콜, 포트번호",
     "사용 이미지/회사 세미나/프로토콜, 포트번호/아파트.png",
