@@ -8,37 +8,34 @@
 #### 1. gitLab
 
 - Repository를 만들면 이미 회사 내의 개발자들은 그룹으로 묶여있어, 자동으로 push 및 pull 등의 권한을 가지게 된다.
+
 ##### 1-1. Repository 만들기
 1. [회사 내부 gitLab](http://gitlab.deps.kr/) 접속
-2. 우측 상단 New project 버튼 클릭
-3. Create blank project 클릭
-4. Project name에 해당 프로젝트를 나타내는 이름 입력(ex. 일자리포털 프론트엔드)
-5. Project slug에 해당 프로젝트의 영문 이름 입력(ex.gnwp-front)
-6. Visibility Level: Private(해당 repository의 접속 권한. 우리끼리 사용할 것이니 Private로 함)
-7. Initialize repository with a README 체크 해제
-8. Create project 클릭
+2. 우측 상단 **New project** 버튼 클릭
+3. **Create blank project** 클릭
+4. **Project name**에 해당 프로젝트를 나타내는 이름 입력(ex. 일자리포털 프론트엔드)
+5. **Project slug**에 해당 프로젝트의 영문 이름 입력(ex.gnwp-front)
+6. Visibility Level: **Private**(해당 repository의 접속 권한. 우리끼리 사용할 것이니 Private로 함)
+7. Initialize repository with a README **체크 해제**
+8. **Create project**클릭
 
-### Webhook 세팅
+##### 1-2. Webhook 세팅
+- 관리자(admin) 권한을 가지고 있는 사용자가 **webhook** 세팅 및 자동 배포를 위한 **Jenkins** 연동 작업을 진행해야 한다.
 
-- admin권한을 가지고 있는 사용자가 webhook 세팅은 자동 배포를 위한 Jenkins와 연동 작업을 진행 해야 한다.
-- Gitlab, Jenkins 문서 참고.
+##### 1-3. 기타
+- Repository의 **pipeline**을 비활성화 하기 위해 다음과 같은 과정을 수행한다.
+	- `Settings → CI/CD → Auto DevOps → Default to Auto DevOps pipeline 체크 해제`
 
-### 기타
 
-Repository의 Pipeline을 비활성화 하기 위해 다음과 같은 과정을 따른다.
+#### 2. 프로젝트 세팅
 
-- Settings → CI/CD → Auto DevOps → Default to Auto DevOps pipeline 체크 해제
+- 해당 문서에서는 Vercel의 Next.js 13 버전을 기준으로 정리한다.
 
-# 프로젝트 세팅
-
-이 문서에서는 Vercel의 Next.js 13 버전을 기준으로 정리한다.
-
-프로젝트의 기본 세팅은 다음과 같이 나눌 수 있다.
-
-- 프로젝트 생성
-- git 설정
-- 프로젝트 디렉토리 구조 생성
-- 기본적인 라이브러리 설치 및 세팅
+- 프로젝트의 기본 세팅은 다음과 같이 분류할 수 있다.
+	- 프로젝트 생성
+	- git 설정
+	- 프로젝트 디렉토리 구조 생성
+	- 기본적인 라이브러리 설치 및 세팅
 
 ### 프로젝트 생성
 
