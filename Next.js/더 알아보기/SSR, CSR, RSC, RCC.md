@@ -72,15 +72,35 @@
 - RSC는 서버에서 해석되어 **직렬화된 JSON 형태**로 변환된다. 
 	- 그래서 **서버 컴포넌트의 구성 요소는 직렬화 가능해야 한다**라는 전제조건이 붙는다. 
 
-- 만약 RSC가 자식 컴포넌트에게 함수를 props으로 넘겨주면, 서버에 의해 해석된 서버 컴포넌트의 직렬화된 JSON 데이터에 이 사실이 명시되어야 하므로, 에러가 발생할 수 있다.
+- 만약, RSC가 자식 컴포넌트인 RCC에게 함수를 `props`로 넘겨주면, 서버에 의해 해석된 서버 컴포넌트의 직렬화된 JSON 데이터에 이 사실이 명시되어야 하므로, 에러가 발생할 수 있다.
 ```tsx
 export default function Page(){
 	function eventFunc(){
 		// ...
 	}
 	
-	return <ChildComponent func={func} ... />
+	return <ClientComponent func={func} ... />
 }
+```
+
+```tsx
+ {
+   $$typeof: Symbol(react.element),
+   type: "div",
+   props: { 
+ 		children: {
+ 		  $$typeof: Symbol(react.element),
+           type: {
+             $$typeof: Symbol(react.module.reference),
+             name: "page",
+             filename: "./src/ClientComponent.js"
+           },
+ 		  props: {callback:function}, // 이처럼 JSON에 function이 명시되어야만 한다.
+ 		  ...
+ 		}
+ 	},
+   ...
+ }
 ```
 
 
