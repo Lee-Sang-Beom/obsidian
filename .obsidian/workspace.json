@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/더 알아보기/Server Action 사용하기.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/더 알아보기/Server Action 사용하기.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/더 알아보기/Server Action 사용하기.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/더 알아보기/Server Action 사용하기.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md"
               }
             }
           }
@@ -166,8 +166,12 @@
   },
   "active": "af7d0678e9467728",
   "lastOpenFiles": [
-    "Next.js/더 알아보기/rewrite, redirect.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
+    "Next.js/더 알아보기/Middleware.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+    "Next.js/더 알아보기/Server Action 사용하기.md",
+    "Next.js/더 알아보기/rewrite, redirect.md",
     "회사 세미나/Docker.md",
     "회사 세미나/프로토콜, 포트번호.md",
     "회사 세미나/도메인과 네임서버.md",
@@ -190,9 +194,6 @@
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
     "React/React 백링크.md",
     "React/hook/React hook 백링크.md",
-    "React/hook/useCallback.md",
-    "회사 세미나/서버(Server).md",
-    "회사 세미나/서버와 클라이언트.md",
     "사용 이미지/회사 세미나/nginx/일반적인 클라이언트와 서버의 통신과정.png",
     "사용 이미지/회사 세미나/프로토콜, 포트번호",
     "사용 이미지/회사 세미나/프로토콜, 포트번호/아파트.png",
@@ -204,7 +205,6 @@
     "사용 이미지/회사 세미나/docker/213서버 구동 도커컨테이너 리스트.png",
     "사용 이미지/회사 세미나/docker/213서버 구동 도커컨테이너 리스트.png",
     "사용 이미지/회사 세미나/docker/도커 사용 전 리눅스서버.png",
-    "회사 세미나/GitLab, Jenkins.md",
     "사용 이미지/회사 세미나/nginx",
     "사용 이미지/회사 세미나/GitLab, Jenkins",
     "사용 이미지/회사 세미나",
