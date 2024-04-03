@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "75dbb18964c140f9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c9aa896ee3ef6eca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/env.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
