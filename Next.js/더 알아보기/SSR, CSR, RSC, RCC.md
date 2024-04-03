@@ -181,12 +181,10 @@ function ContainerServerComponent() {
 
 ##### 5-1. CSR
 - 전통적인 CSR: 빈 HTML, js 번들받고 클라이언트에서 컴포넌트 렌더링
-
-##### 5-2. SSR
 - 전통적인 SSR: 서버에서 컴포넌트 해석하여, 매 페이지마다 서버에서 html 생성해서 받음
 
-
-
+##### 5-2. SSR
+\
 
 
 - nextjs SSR: 초기로딩시, 서버에서 html파일을 ssr방식으로 받아오고, js번들도 같이받아와(csr) 페이지 상호작용을 천천히 그려나감
