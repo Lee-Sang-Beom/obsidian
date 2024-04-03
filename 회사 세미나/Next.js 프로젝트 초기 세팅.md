@@ -126,29 +126,32 @@ git push origin dev
 
 - 디렉토리 내에 추가적으로 생성해야 할 파일도 있는데, 그 목록은 아래와 같다.
 	- `app` > `api` > `[…slug]` >`route.ts`
-	    - Next.js 내부의 1번째 라우팅 파일
+	    - Next.js 내부의 1번째 **라우팅 파일**
 	    - 프론트엔드는 API 요청시 내부 라우팅을 거쳐 백엔드로 요청을 던진다.
 	    - 해당 파일은 GET, POST 요청에 대해 사용자의 jwt 토큰 값을 헤더에 담아 던지는 로직이 구현되어 있다.
+	    
 	- `components`: 파일 이름이 `components`가 아니라, 공통 컴포넌트로 사용할 것들을 추가한다.
-			- `<Input/>`, `<Dialog/>`, `<Select/>` 등
-	- pages > api > file > […slug].ts
-	    - Next.js 내부 라우팅 파일2
-	    - POST에 formData를 통해 파일을 담아 요청 보낼때 작동하는 내부 라우팅 파일
-	- styles > reset.css
-	    - 웹 요소의 스타일 초기화를 담당하는 css 파일
-	- utils > serverSideFetch.ts
-	    - next-auth를 사용하게 되면 서버사이드 컴포넌트와 클라이언트사이드 컴포넌트에서의 유저 세션 정보를 가져오는 방식이 달라진다.
-	    - 또한 서버사이드 컴포넌트에서 내부 라우팅으로 거칠때, 세션 정보에 접근 할 수 없어, 토큰 정보가 올바르게 담기지 않는 현상이 존재한다.
-	    - 따라서, 해당 함수는 서버사이드에서 api 요청시 세션에 저장되어있는 토큰값을 올바르게 담아 요청 할 수 있도록 구현되어 있다.
-	- utils > utils.ts
-	    - 프로젝트를 진행하는데에 있어서 필요한 util 함수 모음 파일
+		- `<Input/>`, `<Dialog/>`, `<Select/>` 등
+		
+	- `pages` > `api` > `file` > `[…slug].ts`
+	    - Next.js 내부의 2번째 **라우팅 파일**
+	    - POST에 `formData`를 포함하는 경우에 작동하는 내부 라우팅 파일
+		
+	- `styles` > `reset.css`
+	    - 웹 요소의 **스타일 초기화**를 담당하는 css 파일
+	    
+	- `utils` > `serverSideFetch.ts`
+	    - **next-auth**를 사용하게 되면 RSC와 RCC에서 사용자 Session 정보를 가져오는 방식이 달라진다.
+	    - 또한 RSC에서는 내부 라우팅을 거칠때, Session 정보에 접근할 수 없어, 토큰 정보가 올바르게 담기지 않는 현상이 존재한다.
+	    - 따라서, 해당 함수는 서버사이드에서 API 요청 시 Session에 저장되어있는 token값을 올바르게 담아 요청 할 수 있도록 구현되어 있다.
+		
+	- `utils` > `utils.ts`
+	    - 프로젝트를 진행하는데에 있어서 필요한 유틸적인 함수 모음 파일
 
-### 기본적인 라이브러리 설치 및 세팅
 
-프로젝트를 진행하는데 필요한 라이브러리 설치를 진행해야 한다.
+#### 4. 기본적인 라이브러리 설치 및 세팅
 
-기본적으로 react, next 등은 설치가 되어있겠지만,
+- 마지막으로, 프로젝트를 진행하는데 필요한 라이브러리 설치를 진행해야 한다.
 
-거의 필수로 사용하는 몇개의 라이브러리는 기본적으로 설치 하면 좋다
-
-ex) axios, lodash, moment, prettier, react-icons
+- 기본적인 react, next.js 실행환경과 관련된 라이브러리들은 설치가 되어있겠지만, 거의 필수로 사용하는 라이브러리는 기본적으로 설치하면 편하다.
+	- ex) axios, lodash, moment, prettier, react-icons
