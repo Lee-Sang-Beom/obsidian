@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "9ac90381faa51cb3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c1dfb51353dab6cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
