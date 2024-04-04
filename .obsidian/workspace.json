@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md"
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "6cbbf432f9a18b5a",
   "lastOpenFiles": [
+    "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
     "사용 이미지/Next.js/더 알아보기/직렬화 후 해석된 클라이언트 및 서버 컴포넌트.png",
