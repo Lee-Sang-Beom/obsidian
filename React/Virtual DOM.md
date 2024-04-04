@@ -89,4 +89,5 @@
 
 #### 5. Virtual DOM
 
-- 지금까지, Virtual DOM(가상 DOM)에 대한 개념을 이해하기 위
+- 지금까지, Virtual DOM(가상 DOM)에 대한 개념을 이해하기 위해 DOM이 무엇인지 알아보았다. 그럼 지금부터는 Virtual DOM이 무엇인지 알아보도록 하자.
+
