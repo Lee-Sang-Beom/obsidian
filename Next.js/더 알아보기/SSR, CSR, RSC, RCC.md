@@ -237,4 +237,11 @@ function ContainerServerComponent() {
 	- 즉, RSC의 소스파일, RSC에서만 사용하는 **외부 라이브러리**들은 Bundle에 포함될 필요가 없기 때문에 Bundle size를 줄일 수 있다.
 
 ##### > No more getServerSideProps / getStaticProps
-- Next.js v12까지는 서버에 접근하는 함수로 `getServerSideProps`와 `getStaticProps`를 사용
+- Next.js v12까지는 서버에 접근하는 함수로 `getServerSideProps`와 `getStaticProps`를 사용했다. Data fetch를 수행할 때는 페이지 최상단에서 이 함수를 사용하여야만 했다.
+
+- 하지만, RSC는 서버에서 실행되는 컴포넌트이기 때문에, 더이상 **서버에 접근하기 위한 목적**으로 `getServerSideProps`와 `getStaticProps`를 사용할 필요가 없어졌다. 즉, RSC 내부에서 Data Fetch를 실행해도 문제가 없다는 뜻이다.
+
+##### > Progressive Rendering
+- Next.js v13부터는 컴포넌트가 서버에서 한차례 렌더링되는 과정에서, 직렬화된 JSON이 수행된다. 그리고 클라이언트 측에서는 그 결과물을 `stream` 형태로 수신한다.
+
+- 데이터가 `stream`형태로 전달되면 
