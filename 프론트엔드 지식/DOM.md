@@ -87,6 +87,3 @@
 	6. 자바스크립트로 HTML 문서에 작성된 HTML 이벤트에 대해 반응할 때
 
 
-#### 5. Virtual DOM
-
-- 지금까지, Virtual DOM(가상 DOM)에 대한 개념을 이해하기 위

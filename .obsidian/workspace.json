@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "6ad7fab17bd36204",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6cbbf432f9a18b5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Virtual DOM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "449878b73489970b",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/key.md",
+                "file": "React/Virtual DOM.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 473.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -164,12 +146,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6cbbf432f9a18b5a",
+  "active": "362f2801c9713b7a",
   "lastOpenFiles": [
-    "Pasted image 20240404164712.png",
+    "사용 이미지/React/virtual dom/DOM.png",
+    "프론트엔드 지식/DOM.md",
+    "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
+    "프론트엔드 지식/Oauth.md",
+    "프론트엔드 지식/Cookie, Session, Web Storage.md",
+    "프론트엔드 지식/Clsx 사용해보기.md",
+    "프론트엔드 지식/인증토큰과 리프레시 토큰이란.md",
+    "프론트엔드 지식/원시 타입과 참조 타입.md",
+    "프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
+    "사용 이미지/React/virtual dom",
+    "React/Virtual DOM.md",
     "React/key.md",
     "React/React 백링크.md",
-    "React/Virtual DOM.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
     "Next.js/더 알아보기/더 알아보기 백링크.md",
     "Next.js/더 알아보기/Middleware.md",
@@ -184,13 +175,6 @@
     "사용 이미지/Next.js/더 알아보기/http response set-cookie.png",
     "사용 이미지/Next.js/더 알아보기/http request cookie.png",
     "사용 이미지/Next.js/더 알아보기/서버 컴포넌트와 클라이언트 컴포넌트.png",
-    "프론트엔드 지식/Clsx 사용해보기.md",
-    "프론트엔드 지식/Cookie, Session, Web Storage.md",
-    "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
-    "프론트엔드 지식/인증토큰과 리프레시 토큰이란.md",
-    "프론트엔드 지식/원시 타입과 참조 타입.md",
-    "프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
-    "프론트엔드 지식/Oauth.md",
     "내 프로젝트/IR 분석/테이블 체크박스 구성과 테이블 체크박스  요소 삭제 예시.md",
     "내 프로젝트/IR 분석/IR 분석 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
@@ -198,10 +182,8 @@
     "회사 세미나/9. 흐름 학습.md",
     "회사 세미나/8. Nginx(역방향 프록시).md",
     "회사 세미나/7. Docker.md",
-    "회사 세미나/6. GitLab, Jenkins.md",
     "사용 이미지/회사 세미나/nginx/포워드 프록시.png",
     "사용 이미지/회사 세미나/nginx/리버스 프록시.png",
-    "사용 이미지/회사 세미나/nginx/일반적인 클라이언트와 서버의 통신과정.png",
     "사용 이미지/회사 세미나/프로토콜, 포트번호",
     "사용 이미지/회사 세미나/도메인과 네임서버",
     "사용 이미지/회사 세미나/docker",
@@ -211,7 +193,6 @@
     "회사 세미나",
     "내 프로젝트/화학 알리미",
     "사용 이미지/React/hook/useLayoutEffect",
-    "사용 이미지/React/hook/useId",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
