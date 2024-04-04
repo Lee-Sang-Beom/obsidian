@@ -238,16 +238,16 @@ function ContainerServerComponent() {
 
 - Next.js의 RSC는 SSR과 함께 사용될 경우, 이점이 극대화될 수 있다. 그 내용은 아래와 같다.
 
-##### > Zero Bundle Size
+##### ※ Zero Bundle Size
 - RSC는 서버에서 이미 모두 실행된 후 직렬화된 JSON 형태로 전달되기 때문에 **Bundle에 포함될 필요가 없다.**
 	- 즉, RSC의 소스파일, RSC에서만 사용하는 **외부 라이브러리**들은 Bundle에 포함될 필요가 없기 때문에 Bundle size를 줄일 수 있다.
 
-##### > No more getServerSideProps / getStaticProps
+##### ※ No more getServerSideProps / getStaticProps
 - Next.js v12까지는 서버에 접근하는 함수로 `getServerSideProps`와 `getStaticProps`를 사용했다. Data fetch를 수행할 때는 페이지 최상단에서 이 함수를 사용하여야만 했다.
 
 - 하지만, RSC는 서버에서 실행되는 컴포넌트이기 때문에, 더이상 **서버에 접근하기 위한 목적**으로 `getServerSideProps`와 `getStaticProps`를 사용할 필요가 없어졌다. 즉, RSC 내부에서 Data Fetch를 실행해도 문제가 없다는 뜻이다.
 
-##### > Progressive Rendering
+##### ※ Progressive Rendering
 - Next.js v13부터는 컴포넌트가 서버에서 한차례 렌더링되는 과정에서, 직렬화된 JSON이 수행된다. 그리고 클라이언트 측에서는 그 결과물을 `stream` 형태로 수신한다.
 
 - 데이터가 `stream`형태로 전달되면, 클라이언트는 스크린의 모든 화면정보를 수신할 때까지 기다릴 필요가 없어진다.
@@ -259,7 +259,7 @@ function ContainerServerComponent() {
 	- 이는 응용 프로그램 일부의 렌더링 부분을, 일부 조건을 충족할 때까지 지연시킬 수 있다는 의미이다.
 	- 정리하면, **Streaming** 기술 중 Suspense라는 것을 사용하면 **모든 데이터를 기다릴 필요 없이 먼저 그릴 수 있는 부분을 반영하여 뷰를 로드한 뒤, data fetch가 완료되면 그 결과가 즉각적으로 스트림에 반영**할 수 있다.
 
-##### > 컴포넌트 단위 refetch
+##### ※ 컴포넌트 단위 refetch
 - 전통적인 SSR의 경우 완성된 HTML파일을 내려주기 때문에 작은 변경사항이 발생하더라도 전체 페이지를 전부 새로 그려서 받아와야 했다. 하지만 RSC를 사용하는 경우, 서버가 클라이언트에게 전달하는 최종 결과물이 직렬화(JSON)된 `stream` 형태라고 말했다.
 
 - 그리고 클라이언트는 이 `stream`을 해석하여 **virtualDOM**을 형성하고, **Reconciliation**이라는 과정을 통해 뷰를 갱신한다.
@@ -270,5 +270,40 @@ function ContainerServerComponent() {
 #### 7. 더 알아보기 (SSR과 SSG)
 
 - SSG(Static Site Generation)은 Static Rendering이라고도 불리며, 서버에서 HTML을 보내준다는 차원에서는 SSR과 유사하지만, 언제 만들어지는지가 다르다.
-- SSR은 요청 시 서버에서 즉시 HTML을 만들어 응답하기에 데이터가 달라지거나 자주 바뀌어서 미리 만들어두기 어려운 페이지에 적합하다
-- SSG는 페이지들을 모두 서버에 만들어둔 후 요청 시에 해당 페이지를 응답하는 것이기에 바뀔 일 없이 캐싱해두면 좋을 페이지에 사용하기 좋다.
+##### ※ SSR
+- SSR은 요청 시 서버에서 즉시 HTML을 만들어 응답하기 때문에, **데이터가 달라지거나 자주 바뀌어서 미리 만들어두기 어려운 페이지에 적합**하다.
+##### ※ SSG
+- SSG는 **페이지들을 모두 서버에 만들어둔 후 요청 시에 해당 페이지를 응답하는 것**이기 때문에, 바뀔 일 없이 캐싱해두면 좋을 페이지에 사용하기 좋다.
+
+
+#### 8. 더 알아보기 (렌더링)
+
+###### 1. 이전까지의 렌더링 방식은?
+- 예전에는 **SSR을 사용한 MPA방식**을 사용했다.
+	- 페이지 이동마다 페이지를 재생성해야했기 때문에, 서버 부하가 존재했고, 사용자가 페이지를 이동할 때마다 초기에 흰 화면을 보는 문제가 있었다.
+###### 2. React는?
+-  React는 CSR을 사용한 SPA 방식을 사용한다.
+	- 초기 로딩시간은 길지만, 초기 로딩 이후 페이지 전환이 빠르고 UX가 부드럽다. 
+	- 그러나 SEO에 불리하다.
+###### 3. Next.js 프레임워크
+- Next.js는 원래 SSR이 가장 큰 기능이었기에 페이지 단위로 HTML을 생성하는 방법을 사용했다. 그러나, React 18버전 개발당시 RSC(React Server component)라는 개념이 등장하면서
+
+- RSC 방식은 어떤 문제를 해결했는데?
+	- 서버 컴포넌트는 컴포넌트 단위로 방식을 결정할 수 있다. 
+		- 특정 컴포넌트는 캐시된 데이터만 사용하고, 어떤 컴포넌트는 늘 새로 그리게 하는 등... 서버의 부하를 조절 가능하다. 
+	- TTI(Time to Interactive)와 번들 사이즈 등도 개선 가능하다.
+		- Time to Interactive란, 사용자가 웹 브라우저에서 인터렉션 할 수 있는 시점을 말한다.
+
+- Next.js에서 서버 컴포넌트를 사용하려면 13버전 이상, App Router를 사용해야하나. 
+- ## RSC
+	- React Server Component
+	- useEffect, useState 등의 훅을 사용할 수 없고, 브라우저 단의 이벤트도 사용할 수 없다. 서버 쪽에 접근해 데이터를 가져올 수 있다. 
+	- React 18버전에 들어서며 컴포넌트 단위로 서버 코드를 작성할 수 있게 되었다. Next.js와 협업해서 만들어진 기능으로, Next.js 13버전 이상부터 app router와 함께 적용된다. 
+	- 기존 Next.js(13버전 이전까지)에서는 서버/클라이언트 컴포넌트 구분이 없었기 때문에 서버단의 데이터를 가져오려면 getServerSideProps 또는 getStaticProps를 이용해야했다. (함수 단위)
+	- 그러나 13버전부터는 서버의 동작을 아예 컴포넌트 단위로 분리해내어 서버 접근 전용 함수를 사용하지 않고도 서버에서의 동작을 자유롭게 작성할 수 있게 되었다. 렌더링 방식도 기존의 SSR 방식과는 다르다.
+		- RSC는 직렬화되어 서버가 해석할 수 있는 형태로 만들어지고, 클라이언트에서는 이 데이터를 받을 때 Stream 형식으로 받게 된다.
+		- Stream 형태로 받게 되면 Next.js에서 제공하는 기능 중 하나인 Streaming을 사용할 수 있다.(추정) 먼저 받아올 수 있는 데이터부터 화면에 보여줄 수 있다. 
+- ## RCC 
+	- React Client Component
+	- useState useEffect 등의 훅, 클릭 이벤트 등을 사용할 수 있다. 서버에 직접 접근은 불가하다. 
+	- React 18버전에 들어서며 RSC가 등장했고, 우리가 지금까지 사용해왔던 컴포넌트를 RCC로 분리하게 되었다. 기존처럼 클라이언트 단에서 동작하는 컴포넌트이다.
