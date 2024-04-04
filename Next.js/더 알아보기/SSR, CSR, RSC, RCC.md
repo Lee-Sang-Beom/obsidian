@@ -268,3 +268,7 @@ function ContainerServerComponent() {
 
 
 #### 7. 더 알아보기 (SSR과 SSG)
+
+- SSG(Static Site Generation)은 Static Rendering이라고도 불리며, 서버에서 HTML을 보내준다는 차원에서는 SSR과 유사하지만, 언제 만들어지는지가 다르다.
+- SSR은 요청 시 서버에서 즉시 HTML을 만들어 응답하기에 데이터가 달라지거나 자주 바뀌어서 미리 만들어두기 어려운 페이지에 적합하다
+- SSG는 페이지들을 모두 서버에 만들어둔 후 요청 시에 해당 페이지를 응답하는 것이기에 바뀔 일 없이 캐싱해두면 좋을 페이지에 사용하기 좋다.
