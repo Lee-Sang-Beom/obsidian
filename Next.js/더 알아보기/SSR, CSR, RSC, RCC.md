@@ -231,7 +231,8 @@ function ContainerServerComponent() {
 	- Next.js는 초기 로딩속도가 느리다는 CSR 단점을 보완하기 위해서, **서버에서 HTML 파일을 SSR방식으로 빠르게 받아오고**, 병렬적으로 자바스크립트 번들(Javascript Bundle)을 함께 다운로드하여 미리 받아온 HTML 파일과 병합하는 **Hydration 과정**을 거치게 된다.
 
 - Next.js의 RSC는 SSR과 함께 사용될 경우, 이점이 극대화될 수 있다. 그 내용은 아래와 같다.
+##### > Zero Bundle Size
+- RSC는 서버에서 이미 모두 실행된 후 직렬화된 JSON 형태로 전달되기 때문에 **Bundle에 포함될 필요가 없다.**
+	- 즉, RSC의 소스파일, RSC에서만 사용하는 **외부 라이브러리**들은 Bundle에 포함될 필요가 없기 때문에 Bundle size를 줄일 수 있다.
 
-###### Zero Bundle Size
-- RSC는 서버에서 이미 모두 실행된 후 직렬화된 JSON 형태로 전달되기 때문에 **어떠한 Bundle도 필요하지 않다**. 즉, RSC의 컴포넌트 소스파일 뿐만아니라, RSC에서만 사용하는 **외부 라이브러리** 또한 Bundle에 포함될 필요가 없기 때문에 번들사이즈를 획기적으로 감량할 수 있다.
-
+##### > 
