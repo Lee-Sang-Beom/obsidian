@@ -13,6 +13,7 @@
 - `dev` -> `assertPrefix` 삭제
 - `api key (vworld)`
 
+[중요]
 #### 완료
 1. sessionProvider basePath 변경
 2. app 하위요소 및 이미지 접근경로 cwchemical 추가
