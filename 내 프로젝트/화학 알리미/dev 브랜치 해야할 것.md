@@ -7,7 +7,9 @@
 - `api` 주소문자열 감싸는 func 하나 만들고 모두 적용 (serversidefetch 제외)
 	-`main`: `cwchemical` 추가
 	-`dev`: `cwchemical` 추가
-	-`localhost`: `cwchemical` 추가
+	-`localhost`: `cwchemical` 빼기
+
+
 - dev `public/cwchemial` `app/cwchemical/...` 디렉터리 구조 변경
 - `sessionProvider` basepath 변경 (OK)
 
