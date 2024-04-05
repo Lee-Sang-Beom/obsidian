@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Virtual DOM.md",
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Virtual DOM.md",
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Virtual DOM.md",
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Virtual DOM.md"
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "362f2801c9713b7a",
   "lastOpenFiles": [
+    "React/Virtual DOM.md",
     "사용 이미지/React/virtual dom/DOM.png",
     "프론트엔드 지식/DOM.md",
     "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
@@ -158,7 +159,6 @@
     "프론트엔드 지식/원시 타입과 참조 타입.md",
     "프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
     "사용 이미지/React/virtual dom",
-    "React/Virtual DOM.md",
     "React/key.md",
     "React/React 백링크.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
