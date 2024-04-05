@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 이관작업.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 이관작업.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 이관작업.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md"
+                "file": "내 프로젝트/화학 알리미/dev 브랜치 이관작업.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "362f2801c9713b7a",
   "lastOpenFiles": [
+    "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
-    "내 프로젝트/화학 알리미/dev 브랜치 해야할 것.md",
+    "내 프로젝트/화학 알리미/dev 브랜치 이관작업.md",
     "React/Virtual DOM.md",
     "사용 이미지/React/virtual dom/DOM.png",
     "프론트엔드 지식/DOM.md",
@@ -182,7 +183,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "회사 세미나/회사 세미나 백링크.md",
     "회사 세미나/9. 흐름 학습.md",
-    "회사 세미나/8. Nginx(역방향 프록시).md",
     "사용 이미지/회사 세미나/nginx/포워드 프록시.png",
     "사용 이미지/회사 세미나/nginx/리버스 프록시.png",
     "사용 이미지/회사 세미나/프로토콜, 포트번호",
