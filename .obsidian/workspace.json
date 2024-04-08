@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e2b661daa8a90e21",
+        "id": "a3c10b651a487d3c",
         "type": "tabs",
         "children": [
           {
-            "id": "bf00eca574342fe3",
+            "id": "ef38145bcc26087a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
+              }
             }
           }
         ]
@@ -138,8 +146,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bf00eca574342fe3",
+  "active": "ef38145bcc26087a",
   "lastOpenFiles": [
+    "Next.js/더 알아보기/Route Segment.md",
+    "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
+    "프론트엔드 지식/Oauth.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
+    "사용 이미지/Next.js/guide course/chapter 6/storage guide - connect store btn.png",
+    "사용 이미지/Next.js/guide course/chapter 6/production deployment project.png",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
     "내 프로젝트/IR 분석/IR 분석 백링크.md",
@@ -147,7 +161,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Next.js/더 알아보기/더 알아보기 백링크.md",
-    "Next.js/더 알아보기/Route Segment.md",
     "사용 이미지/Next.js/Next.js14.png",
     "내 프로젝트/Portfolio.md",
     "내 프로젝트/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md",
@@ -172,14 +185,9 @@
     "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending 클라이언트 미클릭.png",
     "사용 이미지/Next.js/Server Action/4. 추가 인수 전달/serveraction 추가인수전달.png",
     "Pasted image 20240408170056.png",
-    "Pasted image 20240408170147.png",
-    "Pasted image 20240408170145.png",
     "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "React/Virtual DOM.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "Next.js/더 알아보기/rewrite, redirect.md",
-    "Next.js/더 알아보기/Middleware.md",
     "사용 이미지/React/virtual dom",
     "사용 이미지/회사 세미나/프로토콜, 포트번호",
     "사용 이미지/회사 세미나/도메인과 네임서버",
