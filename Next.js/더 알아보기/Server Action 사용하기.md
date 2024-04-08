@@ -118,4 +118,8 @@ export function Button() {
 	- Server Action은 페이지나 레이아웃의  **Route Segment**설정을 활용하여, 적절한 동작을 수행하거나 이러한 설정을 고려할 수 있다.
 
 
-#### 5. 예
+#### 5. 예시 - Forms
+
+- React는 HTML `<form>` 요소를 확장하여 Server Action을 action 속성으로 호출할 수 있게 한다.
+
+	- Form에서 호출될 때 action은 자동으로 FormData객체를 받는데, 필드를 관리하기 위해 **React의 `useState hook`을 사용할 필요가 없으며, 대신 네이티브 FormData 메소드를 사용**하여 데이터를 추출할 수 있다.
