@@ -104,6 +104,7 @@ export function Button() {
 6. 내부적으로 액션은 **POST** method를 사용하며, 이 HTTP method만이 액션을 호출할 수 있다. 
 
 7. Server Action의 인수(argument) 및 반환 값(return value)은 **React에 의해 직렬화될 수 있어야 한다.**
+	- 직렬화는 [[SSR, CSR, RSC, RCC]] 내용을 참고해보자.
 
 8. Server Action은 **함수**이기 때문에, 애플리케이션의 어디에서나 재사용될 수 있다.
 
@@ -115,3 +116,4 @@ export function Button() {
 	- **Route segment**에 대한 내용은 [Route Segment]를 참고하자. 
 	- Route Segment Config에는 페이지나 레이아웃의 **Route Segment**에 대한 설정이 포함된다.
 	- Server Action은 페이지나 레이아웃의  **Route Segment**설정을 활용하여, 적절한 동작을 수행하거나 이러한 설정을 고려할 수 있다.
+
