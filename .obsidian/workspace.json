@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
+                "file": "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
+                "file": "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
+                "file": "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/2. 규칙 및 동작.md"
+                "file": "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "ef38145bcc26087a",
   "lastOpenFiles": [
-    "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
     "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
+    "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
+    "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
     "Next.js/Server Action 사용하기/3. Forms 사용.md",
     "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/5. Pending States.md",
@@ -187,7 +188,6 @@
     "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending 클라이언트 미클릭.png",
     "사용 이미지/Next.js/Server Action/4. 추가 인수 전달/serveraction 추가인수전달.png",
     "Pasted image 20240408170056.png",
-    "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
     "사용 이미지/React/virtual dom",
     "사용 이미지/회사 세미나/프로토콜, 포트번호",
     "사용 이미지/회사 세미나/도메인과 네임서버",
