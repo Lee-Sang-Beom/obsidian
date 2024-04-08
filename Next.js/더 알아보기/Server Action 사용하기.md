@@ -362,4 +362,37 @@ export default ClientComponent;
 ```
 
 - 다음으로, `<SubmitButton />` 컴포넌트를 추가해야 한다. 
-	- `useFormStatus hook`의 `pending`요소를 꺼내와, action으로 전달한 `s`
+	- 아래 코드에서는, `useFormStatus hook`의 `pending`요소를 꺼내와, `<button/>`태그에 전달하고 있다.
+	- 이를 통해, action으로 전달한 Server Action 메소드가 처리가 되었는지 여부를 확인할 수 있다.
+```tsx
+"use client";
+
+import { useFormStatus } from "react-dom";
+
+export function SubmitButton() {
+  const { pending } = useFormStatus();
+  console.log("pending is ", pending);
+  return (
+    <button type="submit" disabled={pending}>
+      Update
+    </button>
+  );
+}
+```
+
+- 마지막으로, Server Action으로 지정한 메소드에 `for문`으로 의도적인 지연시간을 넣어줄 것이다.
+	- 자바스크립트의 `for문`은 동기적인 형태를 띄기 때문에, 다음 코드는 `for문`의 동작이 완료되어야 수행될 것이다.
+	- 그리고, `updateUser` 내부 동작이 실행될 동안에는 `pending === true`일 것이다.
+```ts
+"use server";
+
+export async function updateUser(userId: string, formData: any) {
+  for (let i = 0; i < 999999999; i++) {}
+  console.log("userId : ", userId);
+  console.log("formData userNm : ", formData.get("userNm"));
+  console.log("formData age : ", formData.get("age"));
+
+  // ...
+
+}
+```
