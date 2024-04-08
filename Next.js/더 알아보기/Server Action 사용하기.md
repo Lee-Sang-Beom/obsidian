@@ -260,3 +260,57 @@ export default function Login2({ to }: { to?: boolean }) {
   );
 }
 ```
+
+- 서버 컴포넌트에서는, 로그인된 정보를 받아온 후, Client Component로 UserID를 전달한다.
+	- nextauth에서는, 서버 컴포넌트 측에서 `getServerSession(...)` 메소드를 사용하면, Session 정보를 얻어올 수 있다.
+```tsx
+export const dynamic = "force-dynamic";
+
+import { getServerSession } from "next-auth/next";
+import ClientComponent from "./ClientComponent";
+import { authOption } from "../api/auth/[...nextauth]/AuthOptions";
+
+// Server Component
+export default async function Page() {
+  const session = await getServerSession(authOption);
+
+  // 유저 정보 불러오기
+  return (
+    <ClientComponent
+      userId={session && session.user ? session.user.userId : "null"}
+    />
+  );
+}
+```
+
+- 클라이언트 컴포넌트에서는 Server Action 함수를 import하고, `<form>`태그를 추가해, 사용자 이벤트를 관리하고 있다.
+```tsx
+"use client";
+
+import React from "react";
+import { updateUser } from "../utils/action/actions";
+
+const ClientComponent = ({ userId }: { userId: string | null }) => {
+  if (!userId) {
+    return null;
+  }
+
+  const updateUserWithId = updateUser.bind(null, userId);
+  return (
+    <form action={updateUserWithId}>
+      <input type="text" name="userNm" />
+      <input type="password" name="password" />
+      <input type="text" name="age" />
+      <button type="submit">Update User</button>
+    </form>
+  );
+};
+
+export default ClientComponent;
+```
+
+- `actions.ts`파일에 따로 저장한 `updateUser`는 아래와 같이 구성했다. 
+	- 만약 ClientComponent에서 `action`이 실행되면 `console.log` 함수가 실행될 것이다.
+```
+
+```
