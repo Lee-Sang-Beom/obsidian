@@ -1,6 +1,7 @@
 ### 1. Overview
 
- - [Next.js14](https://nextjs.org/blog/next-14#nextjs-learn-course)버전에 대한 업데이트 내용을 보던 중 **server-action(stable)** 이라는 내용이 문득 눈에 띄었다. 평소 써보지 않았던 기능이기 때문에, 이게 뭔지 참 궁금했다.
+ - [Next.js14](https://nextjs.org/blog/next-14#nextjs-learn-course)버전에 대한 업데이트 내용을 보던 중 **server-action(stable)** 이라는 내용이 문득 눈에 띄었다. 
+	 - 안정화되지 안평소 써보지 않았던 기능이기 때문에, 이게 뭔지 참 궁금했다.
  
  - 이 참에 사용해보면서 해당 기능에 대해 알아보고, 거기다 기록까지 해 두면 금상첨화일 것 같아 포스트를 작성하게 되었다.
 
