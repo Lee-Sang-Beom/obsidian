@@ -54,7 +54,24 @@ export default function Page() {
 #### 3-2. Client Componets
 
 - 클라이언트 컴포넌트는 **모듈 레벨**의 `"use server"` 지시문을 사용하는 액션만 가져올 수 있다.
+```ts
+"use server";
 
+export async function create() {
+  const res = fetch("https://jsonplaceholder.typicode.com/todos/1").then(
+    (response) => response.json()
+  );
+  
+  return res;
+}
+```
 - 클라이언트 컴포넌트에서 Server Action을 호출하려면, 새 파일을 만들고 맨 위에 `"use server"` 지시문을 추가하여야 한다.
 	- **파일 내의 모든 함수**는 클라이언트 및 서버 컴포넌트에서 재사용될 수 있는 Server Action으로 표시된다.
+```tsx
+// import
+import { create } from "@/app/utils/action/actions";
 
+export function Button() {
+  return <div>{/* ... */}</div>;
+}
+```
