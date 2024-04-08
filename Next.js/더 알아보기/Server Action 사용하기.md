@@ -177,5 +177,32 @@ export default function Page() {
 #### 6. 추가 인수 전달
 
 - 자바스크립트의 `bind` 메소드를 사용하면, Server Action에 추가 인수를 전달할 수 있다.
+```js
+const boundFunction = someFunction.bind(thisArg, arg1, arg2, ...);
+```
 
-- ``
+##### 6-1. `.bind()` 메소드
+
+- `bind()` 메소드는 JavaScript의 내장된 메소드 중 하나로, 함수를 호출할 때 특정한 컨텍스트로 설정하고, 해당 함수에 인수를 전달할 때 사용된다.
+	1. `someFunction`: 바인딩할 함수이다.
+	2. `thisArg`: 함수 내부에서 `this` 키워드가 참조할 객체이다. 이는 바인딩된 함수가 호출될 때 함수 내부에서 `this`로 사용된다.
+	3. `arg1`, `arg2`, `...`: 바인딩된 함수에 전달할 추가 인수
+
+- `.bind()` 메소드를 사용하면 원본 함수를 호출하는 대신 새로운 함수를 생성한다.
+	- 이 새로운 함수는 지정된 `this` 값으로 호출될 때 원본 함수의 복사본이며, 추가 인수가 바인딩된 함수에 전달된다.
+	- 예시는 아래와 같다.
+
+```js
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+const greetBob = greet.bind(null, 'Bob');
+greetBob(); // 출력: Hello, Bob!
+```
+- 위의 예제는 `bind()` 메소드를 사용하여 `greet()` 함수에 'Bob'이라는 인수를 고정시켜 새로운 함수 `greetBob`을 생성하고 있다. 
+	- 이렇게 생성된 `greetBob` 함수는 항상 'Bob'을 인수로 받아 호출된다.
+
+#### 6-2. Server Action 예제
+
+- 이제, `bind()` 메소드에 대해 알아봤으니, Server Action 예제를 살펴보자.
