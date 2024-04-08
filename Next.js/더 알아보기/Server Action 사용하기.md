@@ -34,3 +34,19 @@
 
 - 서버 컴포넌트는 **인라인 함수 레벨(단위) 또는 모듈 레벨(단위)** 의 `"use server"` 지시문을 사용할 수 있다.
 	- Server Action을 인라인으로 추가하려면 함수 본문의 맨 위에 `"use server"`를 추가하면 된다.
+
+```tsx
+import ClientComponent from "./ClientComponent";
+
+// Server Component
+export default function Page() {
+  // Server Action
+  async function create() {
+    "use server";
+
+    // ...
+  }
+
+  return <>{/* ... */}</>;
+}
+```
