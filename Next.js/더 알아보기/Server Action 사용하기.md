@@ -258,7 +258,7 @@ export default function Login2({ to }: { to?: boolean }) {
 }
 ```
 
-- 서버 컴포넌트에서는, 로그인된 정보를 받아온 후, Client Component로 UserID를 전달한다.
+- 서버 컴포넌트에서는, 로그인된 정보를 받아온 후, 클라이언트 컴포넌트로 `userId`를 전달한다.
 	- nextauth에서는, 서버 컴포넌트 측에서 `getServerSession(...)` 메소드를 사용하면, Session 정보를 얻어올 수 있다.
 ```tsx
 export const dynamic = "force-dynamic";
@@ -333,3 +333,33 @@ export async function updateUser(userId: string, formData: any) {
 - React의 `useFormStatus hook`을 사용하면, Form이 제출되는 동안 보류 중인 상태를 표시할 수 있다.
 	-  이 때, `useFormStatus`는 특정 `<form>`에 대한 상태를 반환하므로, **꼭** `<form>` 요소의 자식으로 정의되어야 한다.
 	- 그리고 당연히, `useFormStatus`는 React `hook`이므로 클라이언트 컴포넌트에서 사용되어야 한다.
+
+- 바로 위의 예제에서, **클라이언트 컴포넌트에 조금의 변경**을 가해보자.
+```tsx
+"use client";
+
+import React from "react";
+import { updateUser } from "../utils/action/actions";
+import { SubmitButton } from "./SubmitButton";
+
+const ClientComponent = ({ userId }: { userId: string | null }) => {
+  if (!userId) {
+    return null;
+  }
+
+  const updateUserWithId = updateUser.bind(null, userId);
+  return (
+    <form action={updateUserWithId}>
+      <input type="text" name="userNm" />
+      <input type="text" name="age" />
+	  {/* 변경 */}
+      <SubmitButton />
+    </form>
+  );
+};
+
+export default ClientComponent;
+```
+
+- 다음으로, `<SubmitButton />` 컴포넌트를 추가해야 한다. 
+	- `useFormStatus hook`의 `pending`요소를 꺼내와, action으로 전달한 `s`
