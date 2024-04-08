@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/더 알아보기/Server Action 사용하기.md",
+                "file": "React/Virtual DOM.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/더 알아보기/Server Action 사용하기.md",
+                "file": "React/Virtual DOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/더 알아보기/Server Action 사용하기.md",
+                "file": "React/Virtual DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/더 알아보기/Server Action 사용하기.md"
+                "file": "React/Virtual DOM.md"
               }
             }
           }
@@ -166,8 +166,8 @@
   },
   "active": "362f2801c9713b7a",
   "lastOpenFiles": [
-    "Next.js/더 알아보기/Route Segment.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
+    "Next.js/더 알아보기/Route Segment.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/rewrite, redirect.md",
     "Next.js/더 알아보기/Middleware.md",
