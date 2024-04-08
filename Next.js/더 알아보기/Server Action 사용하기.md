@@ -299,7 +299,6 @@ const ClientComponent = ({ userId }: { userId: string | null }) => {
   return (
     <form action={updateUserWithId}>
       <input type="text" name="userNm" />
-      <input type="password" name="password" />
       <input type="text" name="age" />
       <button type="submit">Update User</button>
     </form>
@@ -309,8 +308,25 @@ const ClientComponent = ({ userId }: { userId: string | null }) => {
 export default ClientComponent;
 ```
 
-- `actions.ts`파일에 따로 저장한 `updateUser`는 아래와 같이 구성했다. 
-	- 만약 ClientComponent에서 `action`이 실행되면 `console.log` 함수가 실행될 것이다.
+- `actions.ts`파일에 따로 저장한 `updateUser()` 메소드는 아래와 같이 구성했다. 
+	- 만약 ClientComponent에서 `action`이 실행되면, 해당 함수 내의 `console.log` 함수가 실행될 것이다.
+```ts
+"use server";
+
+export async function updateUser(userId: string, formData: any) {
+  console.log("userId : ", userId);
+  console.log("formData userNm : ", formData.get("userNm"));
+  console.log("formData age : ", formData.get("age"));
+  
+  // ...
+}
 ```
 
-```
+
+- 과연 잘 입력되었을까?
+	1. 클라이언트 컴포넌트에서 구성한 Form의 입력
+	![[Pasted image 20240408163100.png]]
+
+	2. `updateUser()` 메소드 출력결과
+
+![[Pasted image 20240408163117.png]]
