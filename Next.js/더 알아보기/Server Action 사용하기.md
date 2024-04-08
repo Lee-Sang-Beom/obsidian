@@ -21,6 +21,11 @@
 	- 서버에서 실행되는 비동기 함수가 어떻게 Form 제출 및 데이터 변경과 연관될 수 있는가?
 	- 지금까지 사용자 입력 이벤트로 인해 저장되어야 하는 데이터는 ***react hooks in RCC***들로 관리를 해왔었기에, 적어도 나는 이 개념에 대해 **굉.장.히** 궁금했다.
 
+- Next.js v13.4 이상에서 작동하며, stable 버전인 Next.js v14.0.0 이상이 아니라면 아래의 코드를 `next.config.js`에 추가해주어야 한다.
+```js
+module.exports = { experimental: { serverActions: true, }, };
+```
+
 
 #### 3. 규칙
 
