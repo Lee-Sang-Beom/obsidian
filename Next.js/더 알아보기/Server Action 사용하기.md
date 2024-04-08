@@ -53,7 +53,8 @@ export default function Page() {
 
 #### 3-2. Client Componets
 
-- 클라이언트 컴포넌트는 **모듈 레벨**의 `"use server"` 지시문을 사용하는 액션만 가져올 수 있다.
+- 클라이언트 컴포넌트는 **모듈 레벨**의 `"use server"` 지시문을 사용하는 액션만 가져올 수 있다. 
+- ***완전 중요!! 클라이언트 컴포넌트는 모듈 레벨의 use server 지시문으로 사용된 액션만 가져올 수 있다!***
 ```ts
 "use server";
 
@@ -65,6 +66,7 @@ export async function create() {
   return res;
 }
 ```
+
 - 클라이언트 컴포넌트에서 Server Action을 호출하려면, 새 파일을 만들고 맨 위에 `"use server"` 지시문을 추가하여야 한다.
 	- **파일 내의 모든 함수**는 클라이언트 및 서버 컴포넌트에서 재사용될 수 있는 Server Action으로 표시된다.
 ```tsx
@@ -75,3 +77,8 @@ export function Button() {
   return <div>{/* ... */}</div>;
 }
 ```
+
+- Server Action은 클라이언트 컴포넌트에 `props`로도 전달할 수 있다.
+	- 이 내용이 은근히 중요하다.서버 컴포넌트에서 사용할 수 있는 Data Fetch와 같은 함수는 클라이언트 컴포넌트로 `props`를 전달할 수 없다.
+	- 왜냐하면, 서버 컴포넌트는 서버에서 해석되는 과정에서 **직렬화**의 과정을 거치기 때문이다. 그리고 함수는 직렬화할 수 없는 대표적인 요소이다.
+	- 그런데, 서버에서 정의될만한 함수 요소가 모듈 형태로 `"use server"`지시문과 함께 Server Action으로 지정되면 클라이언트 
