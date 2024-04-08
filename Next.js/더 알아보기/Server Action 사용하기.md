@@ -117,3 +117,5 @@ export function Button() {
 	- Route Segment Config에는 페이지나 레이아웃의 **Route Segment**에 대한 설정이 포함된다.
 	- Server Action은 페이지나 레이아웃의  **Route Segment**설정을 활용하여, 적절한 동작을 수행하거나 이러한 설정을 고려할 수 있다.
 
+
+#### 5. 예
