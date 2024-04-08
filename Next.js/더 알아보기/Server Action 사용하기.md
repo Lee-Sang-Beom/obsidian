@@ -206,3 +206,57 @@ greetBob(); // 출력: Hello, Bob!
 #### 6-2. Server Action 예제
 
 - 이제, `bind()` 메소드에 대해 알아봤으니, Server Action 예제를 살펴보자.
+
+- 먼저, Server Action을 사용하지 않는 방법으로 아이디와 비밀번호로 로그인 화면을 만들어보았다.
+	- `nextauth`를 함께 사용하면, AuthOption으로 지정한 방법대로 세션 정보를 불러올 수 있을 것이다.
+```tsx
+"use client";
+
+import { signIn } from "next-auth/react";
+import { useState } from "react";
+export default function Login2({ to }: { to?: boolean }) {
+  const [id, setId] = useState<string>("");
+  const [pw, setPw] = useState<string>("");
+
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        padding: "5px",
+        gap: "1rem",
+      }}
+    >
+      <input
+        value={id}
+        style={{ width: "100%", height: "40px" }}
+        onChange={(e) => {
+          setId(e.currentTarget.value);
+        }}
+      />
+      <input
+        value={pw}
+        style={{ width: "100%", height: "40px" }}
+        onChange={(e) => {
+          setPw(e.currentTarget.value);
+        }}
+      />
+
+      <button
+        style={{ width: "100px", height: "40px" }}
+        onClick={() => {
+          signIn("credentials", {
+            userId: id,
+            userPw: pw,
+            redirect: false,
+          }).then((res) => {
+            window.location.href = "/";
+          });
+        }}
+      >
+        로그인
+      </button>
+    </div>
+  );
+}
+```
