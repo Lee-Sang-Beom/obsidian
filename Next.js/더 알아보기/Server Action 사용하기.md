@@ -33,7 +33,7 @@
 #### 3-1. Server Components
 
 - 서버 컴포넌트는 **인라인 함수 레벨(단위) 또는 모듈 레벨(단위)** 의 `"use server"` 지시문을 사용할 수 있다.
-	- Server Action을 인라인으로 추가하려면 함수 본문의 맨 위에 `"use server"`를 추가하면 된다.
+	- Server Action을 인라인으로 추가하려면, 아래 코드와 같이 함수 본문의 맨 위에 `"use server"`를 추가하면 된다.
 
 ```tsx
 import ClientComponent from "./ClientComponent";
@@ -50,3 +50,11 @@ export default function Page() {
   return <>{/* ... */}</>;
 }
 ```
+
+#### 3-2. Client Componets
+
+- 클라이언트 컴포넌트는 **모듈 레벨**의 `"use server"` 지시문을 사용하는 액션만 가져올 수 있다.
+
+- 클라이언트 컴포넌트에서 Server Action을 호출하려면, 새 파일을 만들고 맨 위에 `"use server"` 지시문을 추가하여야 한다.
+	- **파일 내의 모든 함수**는 클라이언트 및 서버 컴포넌트에서 재사용될 수 있는 Server Action으로 표시된다.
+
