@@ -259,7 +259,7 @@ export default function Login2({ to }: { to?: boolean }) {
 ```
 
 - 서버 컴포넌트에서는, 로그인된 정보를 받아온 후, 클라이언트 컴포넌트로 `userId`를 전달한다.
-	- nextauth에서는, 서버 컴포넌트 측에서 `getServerSession(...)` 메소드를 사용하면, Session 정보를 얻어올 수 있다.
+	- nextauth에서는, 서버 컴포넌트 측에서 `getServerSession()` 메소드를 사용하면, Session 정보를 얻어올 수 있다.
 ```tsx
 export const dynamic = "force-dynamic";
 
@@ -403,12 +403,16 @@ export async function updateUser(userId: string, formData: any) {
 
 - 결과는 아래와 같다.
 	1. 먼저, 아래와 같은 입력이 발생했다.
-	![[Pasted image 20240408165954.png]]
+	![[serveraction pending 클라이언트 미클릭.png]]
 	
-	1. Update 버튼을 누르면, `pending`이 `true`가 된다.
-	![[Pasted image 20240408170056.png]]
+	2. Update 버튼을 누르면, `updateUser()`메소드의 처리를 수행한다.
+	![[serveraction pending 터미널.png]]
 	
-	1. `updateUser()`메소드의 처리를 수행한다.
-	![[Pasted image 20240408170149.png]]
+	3. `updateUser()`메소드가 실행되는 동안에는, `pending`이 `true`가 된다. 
+	![[serveraction pending true.png]]
 	
-	1. `updateUser()`메소드 수행이 종료되면, `pending`이 false가 된다.
+	4. 이 때, 사용자(클라이언트)는 화면에 표시된 버튼이 disabled 처리되는 것을 확인하게 된다.
+	![[serveraction pending 클라이언트 클릭.png]]
+	
+	5. `updateUser()`메소드 수행이 종료되면, `pending`이 `false`가 된다.
+	![[serveraction pending false.png]]
