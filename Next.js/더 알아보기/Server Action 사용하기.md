@@ -94,7 +94,6 @@ export function Button() {
 - Server Action을 사용한 요소의 동작은 아래의 특징을 가진다..
 
 1. Server Action은 `<form>` 요소의 **action** 속성을 사용하여 호출할 수 있다.
-
 2. 서버 컴포넌트는 기본적으로 점진적인 개선을 지원한다. 즉, JavaScript가 아직로드되지 않았거나 비활성화되어 있더라도 Form이 제출된다는 것이다.
 
 3. 클라이언트 컴포넌트에서 Server Action을 호출하는 Form은 JavaScript가 아직 로드되지 않은 경우 제출을 대기시킨다, 
@@ -107,12 +106,10 @@ export function Button() {
 	- 액션이 호출될 때 Next.js는 단일 서버 라운드트립에서 업데이트된 UI와 새 데이터를 동시에 반환할 수 있다.
 
 6. 내부적으로 액션은 **POST** method를 사용하며, 이 HTTP method만이 액션을 호출할 수 있다. 
-
 7. Server Action의 인수(argument) 및 반환 값(return value)은 **React에 의해 직렬화될 수 있어야 한다.**
 	- 직렬화는 [[SSR, CSR, RSC, RCC]] 내용을 참고해보자.
 
 8. Server Action은 **함수**이기 때문에, 애플리케이션의 어디에서나 재사용될 수 있다.
-
 9. Server Action은 사용되는 페이지나 레이아웃으로부터 **런타임을 상속받는다.**
 	- 이는, Server Action은 실행될 때 **해당 페이지나 레이아웃이 사용하는 실행 환경을 그대로 이어받는다는 의미**이다.
 	- Server Action은 페이지나 레이아웃에서 사용되는 컨텍스트와 설정 등을 **공유**할 수 있게 해준다.
@@ -324,10 +321,15 @@ export async function updateUser(userId: string, formData: any) {
 
 - **결과는 아래와 같다.**
 	1. 클라이언트 컴포넌트에서 구성한 Form의 입력
-	![[Pasted image 20240408163407.png]]
+	![[serveraction 추가인수전달 클라이언트.png]]
 	2. `updateUser()` 메소드 출력결과
-	![[Pasted image 20240408163353.png]]
+	![[serveraction 추가인수전달.png]]
 	
 	- **formData** 뿐 아니라, **추가적으로 전달한 유저 ID** 또한 잘 전달되고 있다.
 
 
+#### 7. 예제: Pending State
+
+- React의 `useFormStatus hook`을 사용하면, Form이 제출되는 동안 보류 중인 상태를 표시할 수 있다.
+	-  이 때, `useFormStatus`는 특정 `<form>`에 대한 상태를 반환하므로, **꼭** `<form>` 요소의 자식으로 정의되어야 한다.
+	- 그리고 당연히, `useFormStatus`는 React `hook`이므로 클라이언트 컴포넌트에서 사용되어야 한다.
