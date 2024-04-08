@@ -95,7 +95,7 @@ export function Button() {
 3. 클라이언트 컴포넌트에서 Server Action을 호출하는 Form은 JavaScript가 아직 로드되지 않은 경우 제출을 대기시킨다, 
 	- 이는 클라이언트 컴포넌트에서의 Hydration 과정을 우선시한다는 뜻이다. 
 	- Hydration 후에는 브라우저가 Form 제출 시 리프레시하는 과정이 없다. 
-	
+
 4. Server Action은 `<form>`에만 제한되지 않으며, **이벤트 핸들러, useEffect, 서드파티 라이브러리** 및 `<button>`과 같은 다른 Form 요소에서 호출될 수 있다.
 
 5. Server Action은 Next.js의 Caching(캐싱) 및 revalidation 아키텍처와 통합되어 사용된다.
@@ -105,6 +105,13 @@ export function Button() {
 
 7. Server Action의 인수(argument) 및 반환 값(return value)은 React에 의해 직렬화될 수 있어야 한다. 
 
-8. Server Action은 **함수**이기 때문에,. 이는 애플리케이션의 어디에서나 재사용될 수 있음을 의미합니다. 
-- Server Action은 사용되는 페이지나 레이아웃으로부터 런타임을 상속받습니다. 
-- Server Action은 사용되는 페이지나 레이아웃으로부터 Route Segment Config를 상속받습니다. 이는 maxDuration과 같은 필드를 포함합니다.
+8. Server Action은 **함수**이기 때문에, 애플리케이션의 어디에서나 재사용될 수 있다.
+
+9. Server Action은 사용되는 페이지나 레이아웃으로부터 런타임을 상속받는다. 
+	- 이는, Server Action은 실행될 때 해당 페이지나 레이아웃이 사용하는 실행 환경을 그대로 이어받는다는 의미이다.
+	- Server Action이 페이지나 레이아웃에서 사용되는 컨텍스트와 설정 등을 공유할 수 있게 해준다.
+
+10. Server Action은 사용되는 페이지나 레이아웃으로부터 Route Segment Config를 상속받는다. 이는 maxDuration과 같은 필드를 포함한다.
+	- Route Segment Config에는 페이지나 레이아웃의 Route Segment에 대한 설정이 포함된다.
+	- 이 설정은 일반적으로 라우팅과 관련이 있으며, 예를 들어 maxDuration과 같은 필드가 있을 수 있다.
+	- maxDuration은 캐시된 페이지나 데이터의 최대 유효 기간을 나타내는 값일 수 있다. 따라서 Server Action은 페이지나 레이아웃의 경로 세그먼트 설정을 활용하여 적절한 동작을 수행하거나 이러한 설정을 고려할 수 있다.
