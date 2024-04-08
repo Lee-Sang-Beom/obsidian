@@ -111,7 +111,4 @@ export function Button() {
 	- 이는, Server Action은 실행될 때 해당 페이지나 레이아웃이 사용하는 실행 환경을 그대로 이어받는다는 의미이다.
 	- Server Action이 페이지나 레이아웃에서 사용되는 컨텍스트와 설정 등을 공유할 수 있게 해준다.
 
-10. Server Action은 사용되는 페이지나 레이아웃으로부터 Route Segment Config를 상속받는다. 이는 maxDuration과 같은 필드를 포함한다.
-	- Route Segment Config에는 페이지나 레이아웃의 Route Segment에 대한 설정이 포함된다.
-	- 이 설정은 일반적으로 라우팅과 관련이 있으며, 예를 들어 maxDuration과 같은 필드가 있을 수 있다.
-	- maxDuration은 캐시된 페이지나 데이터의 최대 유효 기간을 나타내는 값일 수 있다. 따라서 Server Action은 페이지나 레이아웃의 경로 세그먼트 설정을 활용하여 적절한 동작을 수행하거나 이러한 설정을 고려할 수 있다.
+10. Server Action은 사용되는 페이지나 레이아웃으로부터 Route Segment Config를 상속받는다. 
