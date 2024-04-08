@@ -371,7 +371,7 @@ import { useFormStatus } from "react-dom";
 
 export function SubmitButton() {
   const { pending } = useFormStatus();
-  console.log("pending is ", pending);
+    console.log("pending: ", pending, " date is ", new Date());
   return (
     <button type="submit" disabled={pending}>
       Update
@@ -387,12 +387,28 @@ export function SubmitButton() {
 "use server";
 
 export async function updateUser(userId: string, formData: any) {
+  console.log("isStart: ", new Date());
+
   for (let i = 0; i < 999999999; i++) {}
+  
   console.log("userId : ", userId);
   console.log("formData userNm : ", formData.get("userNm"));
   console.log("formData age : ", formData.get("age"));
 
+  console.log("isEnd: ", new Date());
   // ...
 
 }
 ```
+
+- 결과는 아래와 같다.
+	1. 먼저, 아래와 같은 입력이 발생했다.
+	![[Pasted image 20240408165954.png]]
+	
+	1. Update 버튼을 누르면, `pending`이 `true`가 된다.
+	![[Pasted image 20240408170056.png]]
+	
+	1. `updateUser()`메소드의 처리를 수행한다.
+	![[Pasted image 20240408170149.png]]
+	
+	1. `updateUser()`메소드 수행이 종료되면, `pending`이 false가 된다.
