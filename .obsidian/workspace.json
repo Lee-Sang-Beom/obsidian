@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "449878b73489970b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "362f2801c9713b7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/Virtual DOM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "769fe7b6e62a847a",
         "type": "tabs",
         "children": [
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Virtual DOM.md",
+                "file": "Next.js/더 알아보기/Route Segment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Virtual DOM.md",
+                "file": "Next.js/더 알아보기/Route Segment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Virtual DOM.md"
+                "file": "Next.js/더 알아보기/Route Segment.md"
               }
             }
           }
@@ -164,8 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "362f2801c9713b7a",
+  "active": "af4e8d705fcfc664",
   "lastOpenFiles": [
+    "React/Virtual DOM.md",
     "Next.js/더 알아보기/Server Action 사용하기.md",
     "Next.js/더 알아보기/Route Segment.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
@@ -176,7 +159,6 @@
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
-    "React/Virtual DOM.md",
     "사용 이미지/React/virtual dom/DOM.png",
     "프론트엔드 지식/DOM.md",
     "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
