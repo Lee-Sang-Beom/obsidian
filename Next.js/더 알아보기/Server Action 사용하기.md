@@ -88,13 +88,23 @@ export function Button() {
 
 - Server Action을 사용한 요소의 동작은 아래의 특징을 가진다..
 
-- Server Action은 `<form>` 요소의 **action** 속성을 사용하여 호출할 수 있다.
-- 서버 컴포넌트는 기본적으로 점진적인 개선을 지원한다. 즉, JavaScript가 아직로드되지 않았거나 비활성화되어 있더라도 Form이 제출된다는 것이다..
-- 클라이언트 컴포넌트에서 Server Action을 호출하는 Form은 JavaScript가 아직 로드되지 않은 경우 제출을 대기시킨다, 클라이언트 수분화를 우선시합니다. 
-- 수분화 후에는 브라우저가 폼 제출 시 새로 고치지 않습니다. Server Action은 `<form>`에만 제한되지 않으며, 이벤트 핸들러, useEffect, 서드파티 라이브러리 및 `<button>`과 같은 다른 폼 요소에서 호출될 수 있습니다.
-- Server Action은 Next.js의 캐싱 및 다시 유효화 아키텍처와 통합됩니다. 액션이 호출될 때 Next.js는 단일 서버 라운드트립에서 업데이트된 UI 및 새 데이터를 동시에 반환할 수 있습니다. 
-- 내부적으로 액션은 POST 메서드를 사용하며, 이 HTTP 메서드만이 액션을 호출할 수 있습니다. 
-- Server Action의 인수 및 반환 값은 React에 의해 직렬화될 수 있어야 합니다. 직렬화 가능한 인수 및 값 목록은 React 문서를 참조하십시오. 
-- Server Action은 함수입니다. 이는 애플리케이션의 어디에서나 재사용될 수 있음을 의미합니다. 
+1. Server Action은 `<form>` 요소의 **action** 속성을 사용하여 호출할 수 있다.
+
+2. 서버 컴포넌트는 기본적으로 점진적인 개선을 지원한다. 즉, JavaScript가 아직로드되지 않았거나 비활성화되어 있더라도 Form이 제출된다는 것이다.
+
+3. 클라이언트 컴포넌트에서 Server Action을 호출하는 Form은 JavaScript가 아직 로드되지 않은 경우 제출을 대기시킨다, 
+	- 이는 클라이언트 컴포넌트에서의 Hydration 과정을 우선시한다는 뜻이다. 
+	- Hydration 후에는 브라우저가 Form 제출 시 리프레시하는 과정이 없다. 
+	
+4. Server Action은 `<form>`에만 제한되지 않으며, **이벤트 핸들러, useEffect, 서드파티 라이브러리** 및 `<button>`과 같은 다른 Form 요소에서 호출될 수 있다.
+
+5. Server Action은 Next.js의 Caching(캐싱) 및 revalidation 아키텍처와 통합되어 사용된다.
+	- 액션이 호출될 때 Next.js는 단일 서버 라운드트립에서 업데이트된 UI와 새 데이터를 동시에 반환할 수 있다.
+
+6. 내부적으로 액션은 **POST** method를 사용하며, 이 HTTP method만이 액션을 호출할 수 있다. 
+
+7. Server Action의 인수(argument) 및 반환 값(return value)은 React에 의해 직렬화될 수 있어야 한다. 
+
+8. Server Action은 **함수**이기 때문에,. 이는 애플리케이션의 어디에서나 재사용될 수 있음을 의미합니다. 
 - Server Action은 사용되는 페이지나 레이아웃으로부터 런타임을 상속받습니다. 
 - Server Action은 사용되는 페이지나 레이아웃으로부터 Route Segment Config를 상속받습니다. 이는 maxDuration과 같은 필드를 포함합니다.
