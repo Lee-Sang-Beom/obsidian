@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "23152efac19a9409",
+        "id": "95698380dac7d4ea",
         "type": "tabs",
         "children": [
           {
-            "id": "82992238c69aad53",
+            "id": "187224db2718b02c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/5. Pending State.md",
+                "file": "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/5. Pending State.md",
+                "file": "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/5. Pending State.md",
+                "file": "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/5. Pending State.md"
+                "file": "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md"
               }
             }
           }
@@ -146,14 +146,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "82992238c69aad53",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "backend/Spring 강의/Spring 강의 학습 백링크.md",
+    "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+    "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
+    "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
+    "Next.js/Server Action 사용하기/5. Pending State.md",
     "Next.js/Server Action 사용하기/3. Forms 사용.md",
     "사용 이미지/Next.js/Server Action/5. Pending State",
     "사용 이미지/Next.js/Server Action/4. 추가 인수 전달",
     "사용 이미지/Next.js/Server Action",
     "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
-    "Next.js/Server Action 사용하기/5. Pending State.md",
     "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
     "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
     "Next.js/더 알아보기/더 알아보기 백링크.md",
@@ -170,7 +175,6 @@
     "사용 이미지/Next.js/Server Action/4. 추가 인수 전달/serveraction 추가인수전달 클라이언트.png",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
     "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
-    "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "Next.js/더 알아보기/Route Segment.md",
     "React/Virtual DOM.md",
@@ -184,9 +188,6 @@
     "프론트엔드 지식/DOM.md",
     "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
     "프론트엔드 지식/Oauth.md",
-    "프론트엔드 지식/Cookie, Session, Web Storage.md",
-    "프론트엔드 지식/Clsx 사용해보기.md",
-    "프론트엔드 지식/인증토큰과 리프레시 토큰이란.md",
     "사용 이미지/React/virtual dom",
     "사용 이미지/회사 세미나/프로토콜, 포트번호",
     "사용 이미지/회사 세미나/도메인과 네임서버",
