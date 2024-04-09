@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
+                "file": "Next.js/더 알아보기/Middleware.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
+                "file": "Next.js/더 알아보기/Middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
+                "file": "Next.js/더 알아보기/Middleware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md"
+                "file": "Next.js/더 알아보기/Middleware.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "3370a45067c74122",
   "lastOpenFiles": [
+    "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
-    "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
