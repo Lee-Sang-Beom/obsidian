@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
+                "file": "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
+                "file": "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
+                "file": "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md"
+                "file": "Next.js/Server Action 사용하기/1. OverView of Server Action.md"
               }
             }
           }
@@ -166,9 +166,9 @@
   },
   "active": "642301ac347ece4d",
   "lastOpenFiles": [
+    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/5. Pending States.md",
     "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
-    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
     "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
     "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
