@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "05152f068f0583df",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "68442d6fcf9fecbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
