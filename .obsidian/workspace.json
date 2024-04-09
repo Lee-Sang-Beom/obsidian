@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/12. Revalidation data.md",
+                "file": "Next.js/Server Action 사용하기/12. Revalidation data 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/12. Revalidation data.md",
+                "file": "Next.js/Server Action 사용하기/12. Revalidation data 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/12. Revalidation data.md",
+                "file": "Next.js/Server Action 사용하기/12. Revalidation data 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/12. Revalidation data.md"
+                "file": "Next.js/Server Action 사용하기/12. Revalidation data 1.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "3370a45067c74122",
   "lastOpenFiles": [
+    "Next.js/Server Action 사용하기/12. Revalidation data.md",
+    "Next.js/Server Action 사용하기/12. Revalidation data 1.md",
     "Next.js/Server Action 사용하기/11. Error Handling.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
     "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/9. Non-form Elements - Event Handlers.md",
@@ -178,7 +179,6 @@
     "내 프로젝트/IR 분석/Chart.js.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
-    "Next.js/더 알아보기/더 알아보기 백링크.md",
     "사용 이미지/Next.js/Next.js14.png",
     "사용 이미지/Next.js/Server Action/5. Pending State",
     "사용 이미지/Next.js/Server Action/4. 추가 인수 전달",
