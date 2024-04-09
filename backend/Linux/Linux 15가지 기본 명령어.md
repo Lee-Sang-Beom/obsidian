@@ -97,7 +97,6 @@
 - `Space`를 누르면, 다음 페이지로 이동하며, `B`를 누르면 앞 페이지로 이동한다.
 - `Q`를 누르면 명령을 종료한다.
 
-> [!note] head, tail
-> - `head anaconda-ks.cfg`: 해당 파일의 앞 10행을 화면에 출력
-> - `head -3 anaconda-ks.cfg`: 해당 파일의 앞 3행만 화면에 출력
-> - `tail -5 anaconda-ks.cfg`: 해당 파일의 맨 뒤 5행만 화면에 출력
+> [!note] more
+> - `more anaconda-ks.cfg`: 파일 내용을 터미널에 출력
+> - `more +30 anaconda-ks.cfg`: 30행부터 출력
