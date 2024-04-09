@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/더 알아보기/Middleware.md",
+                "file": "React/Virtual DOM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/더 알아보기/Middleware.md",
+                "file": "React/Virtual DOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/더 알아보기/Middleware.md",
+                "file": "React/Virtual DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/더 알아보기/Middleware.md"
+                "file": "React/Virtual DOM.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "3370a45067c74122",
   "lastOpenFiles": [
+    "Next.js/더 알아보기/Middleware.md",
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
@@ -177,7 +178,6 @@
     "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
     "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
     "Next.js/더 알아보기/Route Segment.md",
-    "프론트엔드 지식/Oauth.md",
     "사용 이미지/Next.js/guide course/chapter 6/storage guide - connect store btn.png",
     "사용 이미지/Next.js/guide course/chapter 6/production deployment project.png",
     "사용 이미지/Next.js/Next.js14.png",
