@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Linux/Linux 15가지 기본 명령어.md",
+                "file": "Next.js/Server Action 사용하기/12. Revalidation data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Linux/Linux 15가지 기본 명령어.md",
+                "file": "Next.js/Server Action 사용하기/12. Revalidation data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Linux/Linux 15가지 기본 명령어.md"
+                "file": "Next.js/Server Action 사용하기/12. Revalidation data.md"
               }
             }
           }
@@ -164,10 +164,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5517b9f6a6dde969",
+  "active": "04e1bd4fb061a6a9",
   "lastOpenFiles": [
-    "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "backend/Linux/Linux 15가지 기본 명령어.md",
+    "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
     "backend/Linux/무제 폴더",
     "React/Virtual DOM.md",
