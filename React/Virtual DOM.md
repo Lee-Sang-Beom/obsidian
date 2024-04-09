@@ -109,6 +109,10 @@
 
 #### 6. Virtual DOM의 동작
 
+> [이미지 출처: 별코딩님의 React 가상돔](https://www.youtube.com/watch?v=gc-kXt0tjTM&t=57s)
+
+![[diffing과 reconciliation.png]]
+
 1. React는 **렌더링이 발생될 상황**에 놓일 때마다, 실제 브라우저 화면에 그려지기 이전에 새로운 화면에 들어갈 내용이 담긴 Virtual DOM을 생성한다.
 	- Virtual DOM은 실제 DOM의 복사본으로, JavaScript 객체 형태로 메모리 내에 존재한다.
 	- React는 항상 2가지 Virtual DOM 객체를 가지고 있다.
@@ -139,5 +143,6 @@
 
 - 이렇게 **Virtual DOM** 은 실제 DOM을 직접 조작하는 대신, 간접적으로 조작하면서 **렌더링 성능을 향상**시키는 역할을 한다.
 
+> [이미지 출처: 별코딩님의 React 가상돔](https://www.youtube.com/watch?v=gc-kXt0tjTM&t=57s)
 
-[이미지 출처: 별코딩님의 React 가상돔]()
+![[가상 DOM(별코딩).png]]
