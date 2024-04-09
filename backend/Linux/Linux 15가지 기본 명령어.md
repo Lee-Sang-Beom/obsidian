@@ -58,5 +58,16 @@
 
 > [!note] mv
 > - `mv abc.txt /etc/sysconfig/`: `abc.txt`를 `/etc/sysconfig/` 디렉터리로 이동
+> - `mv aaa bbb`: `aaa` 파일을 `bbb` 파일로 변경
+> - `mv abc.txt www.txt`: `abc.txt`파일 이름을 `www.txt`로 변경
+
+#### 8. `mkdir`
+- `make directory`의 약자로, 새로운 디렉터리를 생성한다.
+- 른 디렉터리로 옮길 때 사용하는 명령이다.
+
+> [!note] mv
+> - `mv abc.txt /etc/sysconfig/`: `abc.txt`를 `/etc/sysconfig/` 디렉터리로 이동
+> - `mv aaa bbb`: `aaa` 파일을 `bbb` 파일로 변경
+> - `mv abc.txt www.txt`: `abc.txt`파일 이름을 `www.txt`로 변경
 
 
