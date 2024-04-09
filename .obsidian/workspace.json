@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
+                "file": "Next.js/Server Action 사용하기/9. Non-form Elements - Event Handlers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
+                "file": "Next.js/Server Action 사용하기/9. Non-form Elements - Event Handlers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
+                "file": "Next.js/Server Action 사용하기/9. Non-form Elements - Event Handlers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/8. Programmatic form submission.md"
+                "file": "Next.js/Server Action 사용하기/9. Non-form Elements - Event Handlers.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "1506b689cb4e5164",
   "lastOpenFiles": [
-    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
+    "Next.js/Server Action 사용하기/9. Non-form Elements - Event Handlers.md",
+    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/7. Optimistic updates.md",
     "Next.js/Server Action 사용하기/무제 폴더",
     "Next.js/Server Action 사용하기/5. Pending States.md",
@@ -179,7 +180,6 @@
     "내 프로젝트/Portfolio.md",
     "내 프로젝트/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md",
     "내 프로젝트/화학 알리미/dev 브랜치 이관작업.md",
-    "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
     "사용 이미지/Next.js/Server Action/5. Pending State",
     "사용 이미지/Next.js/Server Action/4. 추가 인수 전달",
     "사용 이미지/Next.js/Server Action",
