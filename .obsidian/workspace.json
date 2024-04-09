@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/11. Error Handling.md",
+                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/11. Error Handling.md",
+                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/11. Error Handling.md",
+                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/11. Error Handling.md"
+                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md"
               }
             }
           }
@@ -148,14 +148,14 @@
   },
   "active": "0d8cfe2718fbadb7",
   "lastOpenFiles": [
-    "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
-    "Next.js/Server Action 사용하기/11. Error Handling.md",
-    "Next.js/Server Action 사용하기/10. Non-form Elements - useEffect.md",
     "Next.js/Server Action 사용하기/9. Non-form Elements - Event Handlers.md",
-    "Next.js/Server Action 사용하기/5. Pending States.md",
-    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
-    "Next.js/Server Action 사용하기/7. Optimistic updates.md",
     "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
+    "Next.js/Server Action 사용하기/7. Optimistic updates.md",
+    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
+    "Next.js/Server Action 사용하기/10. Non-form Elements - useEffect.md",
+    "Next.js/Server Action 사용하기/11. Error Handling.md",
+    "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
+    "Next.js/Server Action 사용하기/5. Pending States.md",
     "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
     "Next.js/Server Action 사용하기/3. Forms 사용.md",
     "Next.js/Server Action 사용하기/무제 폴더",
