@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
+                "file": "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
+                "file": "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
+                "file": "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md"
+                "file": "Next.js/Server Action 사용하기/8. Programmatic form submission.md"
               }
             }
           }
@@ -166,10 +166,10 @@
   },
   "active": "1506b689cb4e5164",
   "lastOpenFiles": [
+    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
     "Next.js/Server Action 사용하기/7. Optimistic updates.md",
     "Next.js/Server Action 사용하기/무제 폴더",
-    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/5. Pending States.md",
     "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
     "useFormState 실패.png",
