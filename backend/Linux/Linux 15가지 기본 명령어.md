@@ -78,10 +78,26 @@
 > [!note] rmdir
 > - `rmdir abc`: `/abc`디렉터리 삭제
 
-#### 9. `rmdir`
-- `remove directory`의 약자로, 기존 디렉터리를 삭제한다.
-- 해당 디렉터리의 삭제 권한이 있어야 하며 디렉터리는 비어 있어야 한다.
-- 파일이 있는 디렉터리를 삭제하려면 `rm -r` 명령을 실행해야 한다.
+#### 10. `cat`
+- 파일의 내용을 화면에 출력한다
 
-> [!note] rmdir
-> - `rmdir abc`: `/abc`디렉터리 삭제
+> [!note] cat
+> - `cat a.txt`: `a.txt`파일 내용을 화면에 출력한다.
+
+#### 11. `head, tail`
+- 텍스트 형식으로 작성된 파일의 **맨 앞 10행** 혹은 **맨 뒤 10행**만 화면에 출력한다.
+
+> [!note] head, tail
+> - `head anaconda-ks.cfg`: 해당 파일의 앞 10행을 화면에 출력
+> - `head -3 anaconda-ks.cfg`: 해당 파일의 앞 3행만 화면에 출력
+> - `tail -5 anaconda-ks.cfg`: 해당 파일의 맨 뒤 5행만 화면에 출력
+
+#### 12. `more`
+- 텍스트 형식으로 작성된 파일을 페이지 단위로 화면에 출력한다.
+- `Space`를 누르면, 다음 페이지로 이동하며, `B`를 누르면 앞 페이지로 이동한다.
+- `Q`를 누르면 명령을 종료한다.
+
+> [!note] head, tail
+> - `head anaconda-ks.cfg`: 해당 파일의 앞 10행을 화면에 출력
+> - `head -3 anaconda-ks.cfg`: 해당 파일의 앞 3행만 화면에 출력
+> - `tail -5 anaconda-ks.cfg`: 해당 파일의 맨 뒤 5행만 화면에 출력
