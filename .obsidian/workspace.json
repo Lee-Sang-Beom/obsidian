@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "4f045073890bb21b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "642301ac347ece4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "ec28cd1692860dea",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/5. Pending States.md",
+                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
+                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
+                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/1. OverView of Server Action.md"
+                "file": "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md"
               }
             }
           }
@@ -164,16 +146,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "642301ac347ece4d",
+  "active": "1506b689cb4e5164",
   "lastOpenFiles": [
-    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/5. Pending States.md",
+    "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
+    "Next.js/Server Action 사용하기/6. Server-side validation and errror handling.md",
     "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
     "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
     "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
     "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
     "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
-    "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
     "Next.js/Server Action 사용하기/3. Forms 사용.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/Route Segment.md",
