@@ -63,11 +63,25 @@
 
 #### 8. `mkdir`
 - `make directory`의 약자로, 새로운 디렉터리를 생성한다.
-- 른 디렉터리로 옮길 때 사용하는 명령이다.
+- 생성된 디렉터리는 명령을 실행한 사용자의 소유가 된다.
 
-> [!note] mv
-> - `mv abc.txt /etc/sysconfig/`: `abc.txt`를 `/etc/sysconfig/` 디렉터리로 이동
-> - `mv aaa bbb`: `aaa` 파일을 `bbb` 파일로 변경
-> - `mv abc.txt www.txt`: `abc.txt`파일 이름을 `www.txt`로 변경
+> [!note] mkdir
+> - `mkdir abc`: 현재 디렉터리 아래에 `/abc` 이름의 디렉터리 생성
+> - `mkdir -p /def/fgh`: `/def/fgh` 디렉터리를 생성한다. 만약, `/def`디렉터리가 없으면 자동 생성
+> 	- `-p`옵션은 필요한 경우 중간 디렉터리를 생성하도록 지시하도록 한다.
 
+#### 9. `rmdir`
+- `remove directory`의 약자로, 기존 디렉터리를 삭제한다.
+- 해당 디렉터리의 삭제 권한이 있어야 하며 디렉터리는 비어 있어야 한다.
+- 파일이 있는 디렉터리를 삭제하려면 `rm -r` 명령을 실행해야 한다.
 
+> [!note] rmdir
+> - `rmdir abc`: `/abc`디렉터리 삭제
+
+#### 9. `rmdir`
+- `remove directory`의 약자로, 기존 디렉터리를 삭제한다.
+- 해당 디렉터리의 삭제 권한이 있어야 하며 디렉터리는 비어 있어야 한다.
+- 파일이 있는 디렉터리를 삭제하려면 `rm -r` 명령을 실행해야 한다.
+
+> [!note] rmdir
+> - `rmdir abc`: `/abc`디렉터리 삭제
