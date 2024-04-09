@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/3. Forms 사용.md",
+                "file": "React/Virtual DOM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/3. Forms 사용.md",
+                "file": "React/Virtual DOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/3. Forms 사용.md",
+                "file": "React/Virtual DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/3. Forms 사용.md"
+                "file": "React/Virtual DOM.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "3370a45067c74122",
   "lastOpenFiles": [
+    "React/React 백링크.md",
+    "Next.js/Server Action 사용하기/3. Forms 사용.md",
     "React/Virtual DOM.md",
     "Next.js/더 알아보기/Middleware.md",
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
@@ -170,14 +172,12 @@
     "Next.js/Server Action 사용하기/10. Non-form Elements - useEffect.md",
     "Next.js/Server Action 사용하기/5. Pending States.md",
     "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
-    "Next.js/Server Action 사용하기/3. Forms 사용.md",
     "Next.js/Server Action 사용하기/무제 폴더",
     "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling/useFormState 실패.png",
     "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling/useFormState 성공.png",
     "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
     "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
     "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
-    "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
     "사용 이미지/Next.js/guide course/chapter 6/storage guide - connect store btn.png",
     "사용 이미지/Next.js/guide course/chapter 6/production deployment project.png",
     "사용 이미지/Next.js/Next.js14.png",
