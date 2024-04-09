@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74cfcc77120e3cd7",
+        "id": "c579490f2e025095",
         "type": "tabs",
         "children": [
           {
-            "id": "3370a45067c74122",
+            "id": "69125379d89c4869",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +146,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3370a45067c74122",
+  "active": "69125379d89c4869",
   "lastOpenFiles": [
+    "Next.js/Server Action 사용하기/12. Revalidation data.md",
+    "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
+    "React/Virtual DOM.md",
     "React/React 백링크.md",
     "Next.js/Server Action 사용하기/3. Forms 사용.md",
-    "React/Virtual DOM.md",
     "Next.js/더 알아보기/Middleware.md",
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
@@ -165,9 +167,7 @@
     "Next.js/Server Action 사용하기/7. Optimistic updates.md",
     "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
     "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
-    "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "Next.js/Server Action 사용하기/11. Error Handling.md",
-    "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
     "Next.js/Server Action 사용하기/9. Non-form Elements - Event Handlers.md",
     "Next.js/Server Action 사용하기/10. Non-form Elements - useEffect.md",
     "Next.js/Server Action 사용하기/5. Pending States.md",
