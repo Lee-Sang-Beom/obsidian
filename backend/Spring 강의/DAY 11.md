@@ -1,6 +1,6 @@
 ### 1. 스프링 빈을 등록하고, 의존 관계 설정하기
 
-- 지금까지, Member 객체를 만들고, `MemberService`와 `MemoryMemberRepository` 등을 만들었다.
+- 지금까지, **Member** 객체를 만들고, `MemberService`와 `MemoryMemberRepository` 등을 만들었다.
 	- 그리고 서비스를 통해 회원가입을 진행했고, 그 과정에서 리포지토리 내 데이터를 저장하거나 불러오는 과정도 수행했다.
 	- 또, 테스트도 진행했다.
 
@@ -277,5 +277,6 @@ public class MemoryMemberRepository implements MemberRepository {
 		- 스프링이 실행될 때, `memberController`가 `memberService`를 사용할 수 있게 해주고, `memberService`가 `memberRepository`를 사용할 수 있게 해준다.
 	- **이렇게 스프링 빈을 등록하는 방법이 컴포넌트 스캔** 방법이다.
 
-
-### 3. 자바 코드로 직접 스프링 빈 등록하기
+- 스프링은 스프링 컨테이너에 스프링 빈을 등록할 때, 기본적으로 **싱글톤**으로 등록한다.
+	- 유일하게 하나만 등록해서 공유한다는 뜻이다.
+	- 따라서 **같은 스프링 빈이면 모두 같은 인스턴스이다**. (메모리 절약)
