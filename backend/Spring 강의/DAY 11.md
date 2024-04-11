@@ -140,7 +140,8 @@ public class MemberService {
     private final MemberRepository memberRepository;  
   
     // 내부에서 MemberRepository를 new로 생성하는게 아니라, 외부에서 넣어주도록 변경  
-    // 이것을 dependency injection(DI)라고 함  
+    // 이것을 dependency injection(DI)라고 함
+    @Autowired  
     public MemberService(MemberRepository memberRepository){  
         this.memberRepository = memberRepository;  
     }  
@@ -253,4 +254,8 @@ public class MemoryMemberRepository implements MemberRepository {
 - 스프링 빈 등록 이미지를 보고, 과정을 이해해보자.
 	1. 컨트롤러와 서비스를 연결시켜줘야한다. 
 		- 컨트롤러에서 생성자에 `@Autowired`를 쓰면 `MemberController`가 생성될 때, Spring Bean에 등록되어 있는 `MemberService` 객체를 가져와 연결해준다. 
-		- 이게, Depend
+		- 이게, **Dependency Injection**으로, 의존관계를 주입해준 것이다.
+
+	2.  `MemberService`도 `MemberRepository`가 필요하다. 
+		- 스프링이 `MemberService`를 생성할 때 `@Service`를 보고 스프링이 **"이게 Service구나!"** 라고 인지하고 스프링 컨테이너에 등록을 한다.
+		- 등록하면서 생성자를 호출하다가, 서비스 생성자에 `@Autowired`가 있으면,
