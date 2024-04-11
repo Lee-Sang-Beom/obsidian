@@ -263,4 +263,5 @@ public class MemoryMemberRepository implements MemberRepository {
 
 - 여기서는, `memberService`와 `memberRepository`가 스프링 컨테이너에 **스프링 빈(Spring bean)** 으로 등록된 것이다.
 	- 이렇게 **스프링이 처음 실행될 때**, 컴포넌트와 관련된 **annotation**(`@Controller`, `@Service`, `@Repository`)을 발견하면, 스프링이 annotation이 연결된 객체(`@Controller`, `@Service`, `@Repository`)를 생성해 스프링 컨테이너에 등록을 해준다.
-	-  
+	-  `@Autowired`는 말 그대로 연관 관계(선을 연결 한다고 생각)를 생성한다. 스프링이 실행될 때, `memberController`가 `memberService`를 사용할 수 있게 해주고, `memberService`가 `memberRepository`를 사용할 수 있게 해준다.
+	- **이렇게 스프링 빈을 등록하는 방법이 컴포넌트 스캔** 방법이다.
