@@ -45,7 +45,7 @@ public class SpringConfig {
 - 이렇게 하면 스프링이 처음 뜰 때,  `@Configuration` annotation을 확인하고, `@Bean` annotation으로 설정된 `memberService, memberRepository`를 스프링 컨테이너에 스프링 빈으로 등록한다.
 	- 본 예제에서는, `memberService` Bean을 만들기 위해 필요한 `memberRepository`의 구현체인 `memorymemberRepository`를 `new memberService()`의 인자로 넘겨준다.
 	- 이 부분이 컴포넌트 스캔의 `Autowried`와 유사하다.
-	
+
 - 그렇게 딱 위 이미지의 그림이 완성되었다.
 
 ```java
@@ -57,7 +57,6 @@ import org.springframework.stereotype.Controller;
   
 @Controller  
 public class MemberController {  
-  
 .  
     private final MemberService memberService;  
   
