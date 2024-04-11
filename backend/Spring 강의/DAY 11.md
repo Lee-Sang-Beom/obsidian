@@ -99,9 +99,6 @@ public class MemberController {
     }
 
 
-// swagger 와  ㄷㄷ ㄷㄷㄷㄷ
-
-// @POST
 
   
 }
@@ -119,4 +116,5 @@ public class MemberController {
 ##### 2. Spring bean 등록
 
 ![[Pasted image 20240411134500.png]]
-- 
+- `MemberService`는 그냥 **순수한 자바 클래스**이다. 
+	- `MemberController`는 annotation이 있으니, 스프링이 동작할 때  **스프링 컨트롤러**에 의해 관리되는 규칙이 있으나, `MemberService`는 그런 것이 없다.
