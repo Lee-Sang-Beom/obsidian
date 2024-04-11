@@ -96,10 +96,15 @@ public class MemberController {
   
         // 1. 스프링은 동작할 때 MemberController 객체를 생성한다.  
         // 2. 이 때, 이 생성자를 호출한다.  
-        // 3. 생성자에 @Autowired이 있으면, memberService를 스프링이 스프링 컨테이너에 있는 memberService를 가져와서 연결시켜준다.  
+        // 3. 생성자에 @Autowired이 있으면, memberService를 스프링이 스프링 컨테이너에 있는 memberService를 가져와서 연결시켜준다. (스프링 컨테이너에서 를 가져온다.)  
         this.memberService = memberService;  
     }  
   
 }
 ```
-- 스프링에서는, 동스프링 컨테이너에 있는 필요한 요소를 받아 사용하는 방식으로 동작한다.
+- `MemberController`에서는 여러 인스턴스를 생성할 필요가 없다. (하나만 생성해놓고 공용으로 쓰면됨)
+	- 따라서, `private final MemberService memberService = new MemberService();`와 같이 사용하면 안된다.
+
+- 생성자에 `@Autowired`가 있으면, 스프링이 연관된 객체를 스프링 컨테이너에서 찾아서 넣어준다.  
+	- 이렇게 **객체 의존관계**를 외부에서 넣어주는 것을 **DI(Dependency Injection)** - [의존성 주입]이라 한다.  
+	- 이전 테스트에서는 개발자가 직접 주입했고, 여기서는 `@Autowired`에 의해 스프링이 주입해준다.
