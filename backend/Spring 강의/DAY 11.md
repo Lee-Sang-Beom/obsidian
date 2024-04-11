@@ -96,7 +96,13 @@ public class MemberController {
         // 2. 이 때, 이 생성자를 호출한다.  
         // 3. 생성자에 @Autowired이 있으면, memberService를 스프링이 스프링 컨테이너에 있는 memberService를 가져와서 연결시켜준다.
         this.memberService = memberService;  
-    }  
+    }
+
+
+// swagger 와  ㄷㄷ ㄷㄷㄷㄷ
+
+// @POST
+
   
 }
 ```
