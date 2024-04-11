@@ -11,9 +11,11 @@
             "id": "5517b9f6a6dde969",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf"
+                "file": "backend/Spring 강의/DAY 11.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
+                "file": "backend/Spring 강의/DAY 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
+                "file": "backend/Spring 강의/DAY 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf"
+                "file": "backend/Spring 강의/DAY 11.md"
               }
             }
           }
@@ -146,13 +148,15 @@
   },
   "active": "5517b9f6a6dde969",
   "lastOpenFiles": [
+    "backend/Spring 강의/DAY 10.md",
+    "backend/Spring 강의/DAY 11.md",
+    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
     "backend/Spring 강의/강의자료/1. 프로젝트 환경 설정.pdf",
     "backend/Spring 강의/Spring 강의 학습 백링크.md",
     "backend/Spring 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
-    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "backend/Spring 강의/DAY 6.md",
     "backend/Spring 강의/DAY 4.md",
-    "backend/Spring 강의/DAY 10.md",
     "backend/Spring 강의/DAY 9.md",
     "backend/Spring 강의/DAY 8.md",
     "backend/Spring 강의/DAY 7.md",
@@ -187,11 +191,9 @@
     "사용 이미지/Next.js/Server Action/5. Pending State",
     "사용 이미지/Next.js/Server Action/4. 추가 인수 전달",
     "사용 이미지/Next.js/Server Action",
-    "Next.js/Server Action 사용하기",
     "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending 터미널.png",
     "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending true.png",
     "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending false.png",
-    "사용 이미지/React/virtual dom",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
