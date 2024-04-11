@@ -48,4 +48,5 @@ public class SpringConfig {
 	
 - 그렇게 딱 위 이미지의 그림이 완성되었다.
 
-- 이 때, 컨트롤러는 아래와 같이 컴포넌트 스캔 방식 유지해야한다.
+- 이 때, 컨트롤러는 아래와 같이 컴포넌트 스캔 방식을 유지해 주어야한다. (여기부터 다시 학습 ㄱㄱ)
+- https://www.inflearn.com/course/lecture?courseSlug=%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8&unitId=49587&tab=curriculum&category=questionDetail
