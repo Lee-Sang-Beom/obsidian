@@ -1,6 +1,6 @@
 ### 1. 스프링 빈을 등록하고, 의존 관계 설정하기
 
-- 지금까지, Member 객체를 만들고, MemberService와 MemoryMemberRepository 등을 만들었다.
+- 지금까지, Member 객체를 만들고, `MemberService`와 `MemoryMemberRepository` 등을 만들었다.
 	- 그리고 서비스를 통해 회원가입을 진행했고, 그 과정에서 리포지토리 내 데이터를 저장하거나 불러오는 과정도 수행했다.
 	- 또, 테스트도 진행했다.
 
@@ -43,7 +43,12 @@
 	- 사용자가 회원가입하고, 회원가입된 결과를 HTML로 뿌려줘야하니까...
 	- 이렇게 하려면, 일단 Controller(예제에서는, `MemberController`)를 먼저 만들어야한다.
 
-- 예제
+- 예제에서 사용할 `MemberController`는 우리가 원하는 동작을 하게끔 만들어주어야 한다.
+	- `Memberservice`를 통해 회원가입하고, 데이터를 조회할 수 있는 기능
+	- **이런 관계를 `MemberController`가 `MemberController`를 의존한다**고 표현한다.
+	- 그리고 우리는 Spring에서 의존관계를 추가해 주어야 한다.
+
+
 ### 2. 작성 (1). MemberSevice
 
 - `(main/java/hello.hellospring/service/MemberService.class)
