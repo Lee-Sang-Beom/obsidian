@@ -51,7 +51,7 @@
 
 ### 2. 컴포넌트 스캔과 자동 의존관계 설정
 
-##### 1.  Annotation : `@Controller`
+##### 2-1.  Annotation : `@Controller`
 ```java
 package hello.hellospring.controller;  
   
@@ -64,7 +64,6 @@ public class MemberController {
 
 - `@Controller`라는 annotation이 있으면, 스프링은 동작할 때 `MemberController` 객체를 생성하여 가지고있는다.  
 	- 이를 스프링 컨테이너에서, **spring bean이 관리된다고 표현한다.**  
-
 ![[스프링부트 - api and responsebody.png]]
 - 위 이미지와 같이, `@Controller`라는 annotation이 있으면 스프링이 실행될 때, 자기가 알아서 관리를 한다고 알아두자.
 	- 이제 곧 만들어볼 `MemberController`도 annotation이 있으면, **스프링 컨트롤러**에 의해 관리된다.
@@ -113,7 +112,8 @@ public class MemberController {
 - 하지만, 위의 코드는 실행되지 않는다.
 ![[스프링 빈 터미널오류.png]]
 ![[스프링 빈 실행 오류.png]]
-##### 2. Spring bean 등록
+
+##### 2-2. Spring bean 등록
 
 ![[스프링 컨테이너 스프링 빈 도식화오류.png]]
 - `MemberService`는 그냥 **순수한 자바 클래스**이다. 
@@ -265,3 +265,11 @@ public class MemoryMemberRepository implements MemberRepository {
 	- 이렇게 **스프링이 처음 실행될 때**, 컴포넌트와 관련된 **annotation**(`@Controller`, `@Service`, `@Repository`)을 발견하면, 스프링이 annotation이 연결된 객체(`@Controller`, `@Service`, `@Repository`)를 생성해 스프링 컨테이너에 등록을 해준다.
 	-  `@Autowired`는 말 그대로 연관 관계(선을 연결 한다고 생각)를 생성한다. 스프링이 실행될 때, `memberController`가 `memberService`를 사용할 수 있게 해주고, `memberService`가 `memberRepository`를 사용할 수 있게 해준다.
 	- **이렇게 스프링 빈을 등록하는 방법이 컴포넌트 스캔** 방법이다.
+
+- **컴포넌트 스캔 원리**는 아래와 같다.
+	- `@Component`: 해당 annotation이 있으면, 스프링 빈으로 자동 등록된다.
+		- `@Controller` 컨트롤러가 스프링 빈으로 자동으로 등록된 이유도 컴포넌트 스캔 때문이다.
+		- `@Controller, @Service, @Repository`들은 `@Component`를 포함하기 때문에 자동으로 스프링 빈으로 등록된다.
+	
+	- 위에서는 **생성자에 `@Autowired` 를 사용하면**, ***객체 생성 시점에 스프링 컨테이너에서 해당 스프링 빈을 찾아서 주입해준다고 언급***했다. 생성자가 1개만 있으면 `@Autowired` 는 생략할 수 있다
+### 3. 

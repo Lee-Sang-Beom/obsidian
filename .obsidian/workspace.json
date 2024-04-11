@@ -11,9 +11,11 @@
             "id": "b6d409a691c98f84",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf"
+                "file": "backend/Spring 강의/DAY 11.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -162,7 +164,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "73ea9356e020beb7",
+  "active": "b6d409a691c98f84",
   "lastOpenFiles": [
     "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "backend/Spring 강의/DAY 11.md",
