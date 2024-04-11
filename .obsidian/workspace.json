@@ -11,22 +11,6 @@
             "id": "5517b9f6a6dde969",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "f35e2b77bafcdf81",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3a914561260aa151",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "backend/Spring 강의/DAY 11.md",
@@ -162,13 +146,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3a914561260aa151",
+  "active": "5517b9f6a6dde969",
   "lastOpenFiles": [
     "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "backend/Spring 강의/DAY 3.md",
+    "backend/Spring 강의/DAY 7.md",
     "backend/Spring 강의/DAY 11.md",
     "backend/Spring 강의/DAY 5.md",
     "backend/Spring 강의/DAY 6.md",
-    "backend/Spring 강의/DAY 7.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/DAY 8.md",
@@ -197,7 +182,6 @@
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
     "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
-    "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
     "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling",
     "Next.js/Server Action 사용하기/무제 폴더",
     "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling/useFormState 실패.png",

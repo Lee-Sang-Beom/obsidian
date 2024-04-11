@@ -64,9 +64,9 @@ public class MemberController {
 ```
 
 - `controller`라는 annotation이 있으면, 스프링은 동작할 때 `MemberController`객체를 생성하여 가지고있는다.  
-	- 이를, spring container에서, spring bean이 관리된다고 표현한다.  
+	- 이를, 스프링 컨테이너에서, spring bean이 관리된다고 표현한다.  
 
 ![[스프링부트 - api and responsebody.png]]
 - 위 이미지와 같이, `@Controller`라는 annotation이 있으면 스프링이 실행될 때, 자기가 알아서 관리를 한다고 알아두자.
-	- 이제 곧 만들어볼 `MemberController`도 annotation이 있으면, spring container에 의해 관리된다.
+	- 이제 곧 만들어볼 `MemberController`도 annotation이 있으면, **스프링 컨트롤러**에 의해 관리된다.
 
