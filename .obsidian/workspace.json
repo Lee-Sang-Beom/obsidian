@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+                "file": "backend/Spring 강의/DAY 12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+                "file": "backend/Spring 강의/DAY 12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf"
+                "file": "backend/Spring 강의/DAY 12.md"
               }
             }
           }
@@ -162,12 +162,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "73ea9356e020beb7",
+  "active": "b6d409a691c98f84",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 11.md",
-    "backend/Spring 강의/DAY 12.md",
-    "backend/Spring 강의/DAY 4.md",
     "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "backend/Spring 강의/DAY 12.md",
+    "backend/Spring 강의/DAY 11.md",
+    "backend/Spring 강의/DAY 4.md",
     "사용 이미지/Spring/DAY 11",
     "사용 이미지/Spring/DAY 11/스프링 빈 실행 오류.png",
     "사용 이미지/Spring/DAY 11/스프링 빈 등록 이미지.png",
