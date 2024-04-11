@@ -68,5 +68,5 @@ public class MemberController {
 
 ![[스프링부트 - api and responsebody.png]]
 - 위 이미지와 같이, `@Controller`라는 annotation이 있으면 spring이 실행될 때, 자기가 알아서 관리를 한다고 알아두자.
-	- 이제 곧 만들어
+	- 이제 곧 만들어볼 `MemberController`도 annotation이 있으면, spring container에 의해 관리된다.
 
