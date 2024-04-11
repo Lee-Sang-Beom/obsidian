@@ -51,7 +51,7 @@
 
 ### 2. 컴포넌트 스캔과 자동 의존관계 설정
 
-##### 1.  `@Controller`
+##### 1.  Annotation : `@Controller`
 ```java
 package hello.hellospring.controller;  
   
@@ -62,7 +62,7 @@ public class MemberController {
 }
 ```
 
-- `controller`라는 annotation이 있으면, 스프링은 동작할 때 `MemberController`객체를 생성하여 가지고있는다.  
+- `@Controller`라는 annotation이 있으면, 스프링은 동작할 때 `MemberController` 객체를 생성하여 가지고있는다.  
 	- 이를, 스프링 컨테이너에서, spring bean이 관리된다고 표현한다.  
 
 ![[스프링부트 - api and responsebody.png]]
@@ -110,3 +110,8 @@ public class MemberController {
 
 - 하지만, 위의 코드는 실행되지 않는다.
 ![[Pasted image 20240411134152.png]]
+
+##### 2. Spring bean 등록
+
+![[Pasted image 20240411134500.png]]
+- 

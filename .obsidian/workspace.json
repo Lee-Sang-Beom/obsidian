@@ -11,6 +11,22 @@
             "id": "5517b9f6a6dde969",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "43b68648448a1b77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6d409a691c98f84",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "backend/Spring 강의/DAY 11.md",
@@ -146,13 +162,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5517b9f6a6dde969",
+  "active": "b6d409a691c98f84",
   "lastOpenFiles": [
-    "Pasted image 20240411134152.png",
+    "Pasted image 20240411134500.png",
     "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "backend/Spring 강의/DAY 11.md",
+    "Pasted image 20240411134152.png",
     "backend/Spring 강의/DAY 3.md",
     "backend/Spring 강의/DAY 7.md",
-    "backend/Spring 강의/DAY 11.md",
     "backend/Spring 강의/DAY 5.md",
     "backend/Spring 강의/DAY 6.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
@@ -193,7 +210,6 @@
     "사용 이미지/Next.js/Server Action/5. Pending State",
     "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending 터미널.png",
     "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending true.png",
-    "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending false.png",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
