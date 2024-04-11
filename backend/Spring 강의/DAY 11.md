@@ -46,7 +46,7 @@
 - 예제에서 사용할 `MemberController`는 우리가 원하는 동작을 하게끔 만들어주어야 한다.
 	- `Memberservice`를 통해 회원가입하고, 데이터를 조회할 수 있는 기능
 	- **이런 관계를 `MemberController`가 `MemberController`를 의존한다**고 표현한다.
-	- 그리고 우리는 Spring에서 의존관계를 추가해 주어야 한다.
+	- 그리고 우리는 스프링에서 의존관계를 추가해 주어야 한다.
 
 
 ### 2. 컴포넌트 스캔과 자동 의존관계 설정
@@ -63,10 +63,10 @@ public class MemberController {
 }
 ```
 
-- `controller`라는 annotation이 있으면, spring은 동작할 때 `MemberController`객체를 생성하여 가지고있는다.  
+- `controller`라는 annotation이 있으면, 스프링은 동작할 때 `MemberController`객체를 생성하여 가지고있는다.  
 	- 이를, spring container에서, spring bean이 관리된다고 표현한다.  
 
 ![[스프링부트 - api and responsebody.png]]
-- 위 이미지와 같이, `@Controller`라는 annotation이 있으면 spring이 실행될 때, 자기가 알아서 관리를 한다고 알아두자.
+- 위 이미지와 같이, `@Controller`라는 annotation이 있으면 스프링이 실행될 때, 자기가 알아서 관리를 한다고 알아두자.
 	- 이제 곧 만들어볼 `MemberController`도 annotation이 있으면, spring container에 의해 관리된다.
 
