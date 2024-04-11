@@ -127,7 +127,8 @@ public class MemberController {
 ![[스프링 컨테이너 스프링 빈 도식화오류.png]]
 - `MemberService`는 그냥 **순수한 자바 클래스**이다. 
 	- `MemberController`는 annotation이 있으니, 스프링이 동작할 때  **스프링 컨트롤러**에 의해 관리되는 규칙이 있으나, `MemberService`는 그런 것이 없다.
-	- 그래서, 스프링이 실행될 때 스프링 컨테이너에 MemberController만 올라오고, MemberService는 안올라오는 것이다.
+	- 스프링이 스프링 컨테이너에서 필요한 스프링 빈을 찾아서 넣어주는 게 `@Autowired`인데, 애초에 `MemberSerive`는 스프링 빈으로 등록되지 않았다.
+		- 그래서, 스프링이 실행될 때 스프링 컨테이너에 `MemberController`만 올라오고, `MemberService`는 안올라온 것이다.
 
 - 그럼 어떻게 해야할까? 
 	- `@Service`라는 annotation을 서비스 클래스인 `MemberService` 위에 달아주면 된다.
