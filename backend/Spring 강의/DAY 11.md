@@ -76,15 +76,15 @@ import hello.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;  
 import org.springframework.stereotype.Controller;  
   
-
+@Controller
 public class MemberController {  
   
     // 스프링이 관리를 하게되면, 스프링 컨테이너에 특정 요소를 다 등록하고, 이후 전부다 스프링 컨테이너에서 요소를 받아서 사용하여야한다.  
   
     // 여기서 사용하는 memberService는 여러 인스턴스를 생성할 필요가 없다. (하나만 생성해놓고 공용으로 쓰면됨)  
-    // private final MemberService memberService = new MemberService();  
+    // private final MemberService memberService = new MemberService();
     // 이제, 스프링 컨테이너에 MemberService 인스턴스를 1개만 등록해보자.  
-    private final MemberService memberService;  
+    private final MemberService memberService;
   
   
     // 생성자에 @Autowired가 있으면, 스프링이 연관된 객체를 스프링 컨테이너에서 찾아서 넣어준다.  

@@ -11,9 +11,11 @@
             "id": "5517b9f6a6dde969",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf"
+                "file": "backend/Spring 강의/DAY 11.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -164,14 +166,14 @@
   },
   "active": "b6d409a691c98f84",
   "lastOpenFiles": [
-    "Pasted image 20240411134500.png",
-    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "backend/Spring 강의/DAY 6.md",
     "backend/Spring 강의/DAY 11.md",
+    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "Pasted image 20240411134500.png",
     "Pasted image 20240411134152.png",
     "backend/Spring 강의/DAY 3.md",
     "backend/Spring 강의/DAY 7.md",
     "backend/Spring 강의/DAY 5.md",
-    "backend/Spring 강의/DAY 6.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/DAY 8.md",
@@ -209,7 +211,6 @@
     "사용 이미지/Next.js/Next.js14.png",
     "사용 이미지/Next.js/Server Action/5. Pending State",
     "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending 터미널.png",
-    "사용 이미지/Next.js/Server Action/5. Pending State/serveraction pending true.png",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
