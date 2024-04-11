@@ -262,4 +262,5 @@ public class MemoryMemberRepository implements MemberRepository {
 		- 이 때, 구현(implements)체가 `MemoryMemberRepository`이므로, 이것이 서비스에 주입이 된다.
 
 - 여기서는, `memberService`와 `memberRepository`가 스프링 컨테이너에 **스프링 빈(Spring bean)** 으로 등록된 것이다.
-	- 이렇게 `@Controller`, `@Service`, `@Repository`를 사용하여, 스프링이 처음 실행될 때 컴포넌트와 관련된 annotation을 발견하면 
+	- 이렇게 **스프링이 처음 실행될 때**, 컴포넌트와 관련된 **annotation**(`@Controller`, `@Service`, `@Repository`)을 발견하면, 스프링이 annotation이 연결된 객체(`@Controller`, `@Service`, `@Repository`)를 생성해 스프링 컨테이너에 등록을 해준다.
+	-  
