@@ -109,3 +109,15 @@
 > - `less anaconda-ks.cfg`: 파일 내용을 터미널에 출력
 > - `more +30 anaconda-ks.cfg`: 파일 내용을 30줄부터 출력
 
+#### 14. `file`
+- 파일의 종류를 표시한다.
+
+> [!note] file
+> - `file anaconda-ks.cfg`: `anaconda-ks.cfg`는 텍스트 파일이기 때문에, 아스키 파일(ASCII)로 표시된다.
+> - `file /dev/sr0`: `sr0`은 DVD 장치이므로, block special로 표시된다.
+
+#### 15. `clear`
+- 현재 사용 중인 터미널 화면을 지운다.
+
+> [!note] clear
+> - `clear`
