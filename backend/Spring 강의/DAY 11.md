@@ -49,6 +49,19 @@
 	- 그리고 우리는 Spring에서 의존관계를 추가해 주어야 한다.
 
 
-### 2. 작성 (1). MemberSevice
+### 2. 컴포넌트 스캔과 자동 의존관계 설정
 
-- `(main/java/hello.hellospring/service/MemberService.class)
+##### 1.  `@Controller`
+```java
+package hello.hellospring.controller;  
+  
+import org.springframework.stereotype.Controller;  
+  
+// annotation: @controller 
+@Controller  
+public class MemberController {  
+}
+```
+
+- `controller`라는 annotation이 있으면, spring은 동작할 때 `MemberController`객체를 생성하여 가지고있는다.  
+	- 이를, spring container에서, spring bean이 관리된다고 표현한다.  
