@@ -57,7 +57,6 @@ package hello.hellospring.controller;
   
 import org.springframework.stereotype.Controller;  
   
-// annotation: @Controller 
 @Controller  
 public class MemberController {  
 }
@@ -96,7 +95,7 @@ public class MemberController {
   
         // 1. 스프링은 동작할 때 MemberController 객체를 생성한다.  
         // 2. 이 때, 이 생성자를 호출한다.  
-        // 3. 생성자에 @Autowired이 있으면, memberService를 스프링이 스프링 컨테이너에 있는 memberService를 가져와서 연결시켜준다. (스프링 컨테이너에서 를 가져온다.)  
+        // 3. 생성자에 @Autowired이 있으면, memberService를 스프링이 스프링 컨테이너에 있는 memberService를 가져와서 연결시켜준다.
         this.memberService = memberService;  
     }  
   
@@ -108,3 +107,6 @@ public class MemberController {
 - 생성자에 `@Autowired`가 있으면, 스프링이 연관된 객체를 스프링 컨테이너에서 찾아서 넣어준다.  
 	- 이렇게 **객체 의존관계**를 외부에서 넣어주는 것을 **DI(Dependency Injection)** - [의존성 주입]이라 한다.  
 	- 이전 테스트에서는 개발자가 직접 주입했고, 여기서는 `@Autowired`에 의해 스프링이 주입해준다.
+
+- 하지만, 위의 코드는 실행되지 않는다.
+![[Pasted image 20240411134152.png]]
