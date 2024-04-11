@@ -111,11 +111,11 @@ public class MemberController {
 	- 이전 테스트에서는 개발자가 직접 주입했고, 여기서는 `@Autowired`에 의해 스프링이 주입해준다.
 
 - 하지만, 위의 코드는 실행되지 않는다.
-![[Pasted image 20240411134152.png]]
-
+![[스프링 빈 터미널오류.png]]
+![[스프링 빈 실행 오류.png]]
 ##### 2. Spring bean 등록
 
-![[Pasted image 20240411134500.png]]
+![[스프링 컨테이너 스프링 빈 도식화오류.png]]
 - `MemberService`는 그냥 **순수한 자바 클래스**이다. 
 	- `MemberController`는 annotation이 있으니, 스프링이 동작할 때  **스프링 컨트롤러**에 의해 관리되는 규칙이 있으나, `MemberService`는 그런 것이 없다.
 	- 그래서, 스프링이 실행될 때 스프링 컨테이너에 MemberController만 올라오고, MemberService는 안올라오는 것이다.
@@ -250,7 +250,7 @@ public class MemoryMemberRepository implements MemberRepository {
 
 - 컨트롤러로 **외부 요청**을 받고, 서비스에서 비즈니스 로직을 만들고, 리포지토리에서 데이터를 저장하는 과정은 **정형화된 과정**이다.
 
-![[Pasted image 20240411144646.png]]
+![[스프링 빈 등록 이미지.png]]
 - 스프링 빈 등록 이미지를 보고, 과정을 이해해보자.
 	1. 컨트롤러와 서비스를 연결시켜줘야한다. 
 		- 컨트롤러에서 생성자에 `@Autowired`를 쓰면 `MemberController`가 생성될 때, `MemberController`는 `MemberService`를 필요로 하는 것을 확인하고, **스프링 컨테이너에 등록**되어 있는 `MemberService` 객체를 가져와 연결해준다. 
@@ -262,3 +262,4 @@ public class MemoryMemberRepository implements MemberRepository {
 		- 이 때, 구현(implements)체가 `MemoryMemberRepository`이므로, 이것이 서비스에 주입이 된다.
 
 - 여기서는, `memberService`와 `memberRepository`가 스프링 컨테이너에 **스프링 빈(Spring bean)** 으로 등록된 것이다.
+	- 이렇게 `@Controller`, `@Service`, `@Repository`를 사용하여, 스프링이 처음 실행될 때 컴포넌트와 관련된 annotation을 발견하면 
