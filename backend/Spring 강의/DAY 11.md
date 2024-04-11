@@ -63,7 +63,7 @@ public class MemberController {
 ```
 
 - `@Controller`라는 annotation이 있으면, 스프링은 동작할 때 `MemberController` 객체를 생성하여 가지고있는다.  
-	- 이를, 스프링 컨테이너에서, spring bean이 관리된다고 표현한다.  
+	- 이를 스프링 컨테이너에서, **spring bean이 관리된다고 표현한다.**  
 
 ![[스프링부트 - api and responsebody.png]]
 - 위 이미지와 같이, `@Controller`라는 annotation이 있으면 스프링이 실행될 때, 자기가 알아서 관리를 한다고 알아두자.
@@ -253,9 +253,12 @@ public class MemoryMemberRepository implements MemberRepository {
 ![[Pasted image 20240411144646.png]]
 - 스프링 빈 등록 이미지를 보고, 과정을 이해해보자.
 	1. 컨트롤러와 서비스를 연결시켜줘야한다. 
-		- 컨트롤러에서 생성자에 `@Autowired`를 쓰면 `MemberController`가 생성될 때, Spring Bean에 등록되어 있는 `MemberService` 객체를 가져와 연결해준다. 
+		- 컨트롤러에서 생성자에 `@Autowired`를 쓰면 `MemberController`가 생성될 때, `MemberController`는 `MemberService`를 필요로 하는 것을 확인하고, **스프링 컨테이너에 등록**되어 있는 `MemberService` 객체를 가져와 연결해준다. 
 		- 이게, **Dependency Injection**으로, 의존관계를 주입해준 것이다.
 
 	2.  `MemberService`도 `MemberRepository`가 필요하다. 
 		- 스프링이 `MemberService`를 생성할 때 `@Service`를 보고 스프링이 **"이게 Service구나!"** 라고 인지하고 스프링 컨테이너에 등록을 한다.
-		- 등록하면서 생성자를 호출하다가, 서비스 생성자에 `@Autowired`가 있으면,
+		- 등록하면서 생성자를 호출하다가 `MemberService` 생성자에 `@Autowired`가 있으면, ``MemberService``가 생성될 때, ``MemberService``는 `MemberRepository`를 필요로 하는 것을 확인하고, **스프링 컨테이너에 등록**되어 있는 `MemberRepository` 객체를 가져와 연결해준다. 
+		- 이 때, 구현(implements)체가 `MemoryMemberRepository`이므로, 이것이 서비스에 주입이 된다.
+
+- 여기서는, `memberService`와 `memberRepository`가 스프링 컨테이너에 **스프링 빈(Spring bean)** 으로 등록된 것이다.
