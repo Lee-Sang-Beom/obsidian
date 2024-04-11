@@ -34,4 +34,12 @@ public class SpringConfig {
 }
 ```
 
-- 스프링이 실행될 때, @Configuration을 먼저 읽고, config 내부의 @Bean annotation으로 설정된 요소를 스프링이 스프링 컨테이너에 스프링 빈으로 등록한다.
+- 스프링이 실행될 때 `@Configuration` annotation이 있다면, 스프링은 이를 먼저 읽는다.
+	- 그 다음, config 내부의 `@Bean` annotation으로 설정된 요소를 만나면, 스프링은 이 요소를 스프링 컨테이너에 스프링 빈으로 등록한다.
+
+- 본 예제에서는 MemberController가 MemberService를 의존하고, MemberService가 MemberRepository를 의존한다.
+	- 따라서, 생성해야 할 Bean은 `MemberService`, `MemberRepository`이다.
+
+![[스프링 빈 등록 이미지.png]]
+
+- 이렇게 하면 스프링이 처음 뜰 때,  `@Configuration` annotation을 확인하고, `@Bean`
