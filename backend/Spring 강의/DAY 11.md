@@ -247,8 +247,10 @@ public class MemoryMemberRepository implements MemberRepository {
 }
 ```
 
-- 컨트롤러로 외부 요청을 받고, 서비스에서 비즈니스 로직을 만들고, 리포지토리에서 데이터를 저장하는 과정은 **정형화된 과정**이다.
+- 컨트롤러로 **외부 요청**을 받고, 서비스에서 비즈니스 로직을 만들고, 리포지토리에서 데이터를 저장하는 과정은 **정형화된 과정**이다.
 
 ![[Pasted image 20240411144646.png]]
 - 스프링 빈 등록 이미지를 보고, 과정을 이해해보자.
-	1. 컨트롤러와 서비스를 연결시켜줘야한다.
+	1. 컨트롤러와 서비스를 연결시켜줘야한다. 
+		- 컨트롤러에서 생성자에 `@Autowired`를 쓰면 `MemberController`가 생성될 때, Spring Bean에 등록되어 있는 `MemberService` 객체를 가져와 연결해준다. 
+		- 이게, Depend
