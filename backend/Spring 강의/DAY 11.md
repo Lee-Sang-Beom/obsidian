@@ -47,9 +47,18 @@
 	- `Memberservice`를 통해 회원가입하고, 데이터를 조회할 수 있는 기능
 	- **이런 관계를 `MemberController`가 `MemberController`를 의존한다**고 표현한다.
 	- 그리고 우리는 스프링에서 의존관계를 추가해 주어야 한다.
+		- 왜냐하면, 회원 컨트롤러(memberController)가 회원 서비스(memberService)와 회원 리포지토리(memberRepository)를 사용할 수 있어야 하기 떄문이다.
 
 
 ### 2. 컴포넌트 스캔과 자동 의존관계 설정하기
+
+- **컴포넌트 스캔 원리**는 아래와 같다.
+	- `@Component`: 해당 annotation이 있으면, 스프링 빈으로 자동 등록된다.
+		- `@Controller` 컨트롤러가 스프링 빈으로 자동으로 등록된 이유도 컴포넌트 스캔 때문이다.
+		- `@Controller, @Service, @Repository`들은 `@Component`를 포함하기 때문에 자동으로 스프링 빈으로 등록된다.
+	
+	- **생성자에 `@Autowired` 를 사용하면**, ***객체 생성 시점에 스프링 컨테이너에서 해당 스프링 빈을 찾아서 주입해준다.*** 
+		- 생성자가 1개만 있으면 `@Autowired` 는 생략할 수 있다
 
 ##### 2-1.  Annotation : `@Controller`
 ```java
@@ -65,7 +74,7 @@ public class MemberController {
 - `@Controller`라는 annotation이 있으면, 스프링은 동작할 때 `MemberController` 객체를 생성하여 가지고있는다.  
 	- 이를 스프링 컨테이너에서, **spring bean이 관리된다고 표현한다.**  
 ![[스프링부트 - api and responsebody.png]]
-- 위 이미지와 같이, `@Controller`라는 annotation이 있으면 스프링이 실행될 때, 자기가 알아서 관리를 한다고 알아두자.
+- `@Controller`라는 annotation이 있으면 스프링이 실행될 때, 자기가 알아서 관리를 한다고 알아두자.
 	- 이제 곧 만들어볼 `MemberController`도 annotation이 있으면, **스프링 컨트롤러**에 의해 관리된다.
 
 ```java
@@ -266,13 +275,6 @@ public class MemoryMemberRepository implements MemberRepository {
 	-  `@Autowired`는 말 그대로 **연관 관계**(선을 연결 한다고 생각)를 생성한다. 
 		- 스프링이 실행될 때, `memberController`가 `memberService`를 사용할 수 있게 해주고, `memberService`가 `memberRepository`를 사용할 수 있게 해준다.
 	- **이렇게 스프링 빈을 등록하는 방법이 컴포넌트 스캔** 방법이다.
-
-- **컴포넌트 스캔 원리**는 아래와 같다.
-	- `@Component`: 해당 annotation이 있으면, 스프링 빈으로 자동 등록된다.
-		- `@Controller` 컨트롤러가 스프링 빈으로 자동으로 등록된 이유도 컴포넌트 스캔 때문이다.
-		- `@Controller, @Service, @Repository`들은 `@Component`를 포함하기 때문에 자동으로 스프링 빈으로 등록된다.
-	
-	- 위에서는 **생성자에 `@Autowired` 를 사용하면**, ***객체 생성 시점에 스프링 컨테이너에서 해당 스프링 빈을 찾아서 주입해준다고 언급***했다. 생성자가 1개만 있으면 `@Autowired` 는 생략할 수 있다
 
 
 ### 3. 자바 코드로 직접 스프링 빈 등록하기
