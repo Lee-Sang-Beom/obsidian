@@ -118,3 +118,68 @@ public class MemberController {
 ![[Pasted image 20240411134500.png]]
 - `MemberService`는 그냥 **순수한 자바 클래스**이다. 
 	- `MemberController`는 annotation이 있으니, 스프링이 동작할 때  **스프링 컨트롤러**에 의해 관리되는 규칙이 있으나, `MemberService`는 그런 것이 없다.
+	- 그래서, 스프링이 실행될 때 스프링 컨테이너에 MemberController만 올라오고, MemberService는 안올라오는 것이다.
+
+- 그럼 어떻게 해야할까? 
+	- `@Service`라는 annotation을 서비스 클래스인 `MemberService` 위에 달아주면 된다.
+```java
+package hello.hellospring.service;  
+  
+import hello.hellospring.domain.Member;  
+import hello.hellospring.repository.MemberRepository;  
+import hello.hellospring.repository.MemoryMemberRepository;  
+import org.springframework.stereotype.Service;  
+  
+import java.util.List;  
+import java.util.Optional;  
+  
+// 서비스 클래스는 굉장히 비즈니스와 어울리는 기능과 네이밍을 가짐  
+// 반면 리포지토리 클래스는 단순히 저장소에 넣었다 뺐다 하는 기능과 네이밍을 가짐  
+@Service  
+public class MemberService {  
+    private final MemberRepository memberRepository;  
+  
+    // 내부에서 MemberRepository를 new로 생성하는게 아니라, 외부에서 넣어주도록 변경  
+    // 이것을 dependency injection(DI)라고 함  
+    public MemberService(MemberRepository memberRepository){  
+        this.memberRepository = memberRepository;  
+    }  
+    /**  
+     * 회원가입  
+     *  - 리포지토리에 member 저장 (단, 같은 이름의 중복회원이 있으면 안된다)  
+     *  - member의 id 반환 (임의)  
+     */    public Long join(Member member) {  
+        validateDuplicatedMember(member); // 중복회원 검증  
+        memberRepository.save(member);  
+        return member.getId();  
+    }  
+  
+    /**  
+     * 전체회원 조회  
+     */  
+    public List<Member> findMembers(){  
+        return memberRepository.findAll();  
+    }  
+  
+    public Optional<Member> findOne(Long memberId){  
+        return memberRepository.findById(memberId);  
+    }  
+  
+    /**  
+     * 아이디에 해당하는 유저 반환  
+     */  
+    public Optional<Member> findMember(Long memberId){  
+        return memberRepository.findById(memberId);  
+    }  
+  
+    /**  
+     * 같은 이름의 중복 회원이 있는지 먼저 검사  
+     */  
+    private void validateDuplicatedMember(Member member) {  
+	    memberRepository.findByName(member.getName()).ifPresent(m -> {  
+            throw new IllegalStateException("이미 존재하는 회원입니다.");  
+        });  
+    }  
+  
+}
+```
