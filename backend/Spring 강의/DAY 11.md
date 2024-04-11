@@ -49,7 +49,7 @@
 	- 그리고 우리는 스프링에서 의존관계를 추가해 주어야 한다.
 
 
-### 2. 컴포넌트 스캔과 자동 의존관계 설정
+### 2. 컴포넌트 스캔과 자동 의존관계 설정하기
 
 ##### 2-1.  Annotation : `@Controller`
 ```java
@@ -105,7 +105,7 @@ public class MemberController {
 - `MemberController`에서는 여러 인스턴스를 생성할 필요가 없다. (하나만 생성해놓고 공용으로 쓰면됨)
 	- 따라서, `private final MemberService memberService = new MemberService();`와 같이 사용하면 안된다.
 
-- 생성자에 `@Autowired`가 있으면, 스프링이 연관된 객체를 스프링 컨테이너에서 찾아서 넣어준다.  
+- 생성자에 `@Autowired`가 있으면 **생성자를 통해 객체를 생성하는 시점에, 스프링이 스프링 컨테이너에서 필요한 스프링 빈을 찾아서 넣어준다.**
 	- 이렇게 **객체 의존관계**를 외부에서 넣어주는 것을 **DI(Dependency Injection)** - [의존성 주입]이라 한다.  
 	- 이전 테스트에서는 개발자가 직접 주입했고, 여기서는 `@Autowired`에 의해 스프링이 주입해준다.
 
@@ -263,7 +263,8 @@ public class MemoryMemberRepository implements MemberRepository {
 
 - 여기서는, `memberService`와 `memberRepository`가 스프링 컨테이너에 **스프링 빈(Spring bean)** 으로 등록된 것이다.
 	- 이렇게 **스프링이 처음 실행될 때**, 컴포넌트와 관련된 **annotation**(`@Controller`, `@Service`, `@Repository`)을 발견하면, 스프링이 annotation이 연결된 객체(`@Controller`, `@Service`, `@Repository`)를 생성해 스프링 컨테이너에 등록을 해준다.
-	-  `@Autowired`는 말 그대로 연관 관계(선을 연결 한다고 생각)를 생성한다. 스프링이 실행될 때, `memberController`가 `memberService`를 사용할 수 있게 해주고, `memberService`가 `memberRepository`를 사용할 수 있게 해준다.
+	-  `@Autowired`는 말 그대로 **연관 관계**(선을 연결 한다고 생각)를 생성한다. 
+		- 스프링이 실행될 때, `memberController`가 `memberService`를 사용할 수 있게 해주고, `memberService`가 `memberRepository`를 사용할 수 있게 해준다.
 	- **이렇게 스프링 빈을 등록하는 방법이 컴포넌트 스캔** 방법이다.
 
 - **컴포넌트 스캔 원리**는 아래와 같다.
@@ -272,4 +273,6 @@ public class MemoryMemberRepository implements MemberRepository {
 		- `@Controller, @Service, @Repository`들은 `@Component`를 포함하기 때문에 자동으로 스프링 빈으로 등록된다.
 	
 	- 위에서는 **생성자에 `@Autowired` 를 사용하면**, ***객체 생성 시점에 스프링 컨테이너에서 해당 스프링 빈을 찾아서 주입해준다고 언급***했다. 생성자가 1개만 있으면 `@Autowired` 는 생략할 수 있다
-### 3. 
+
+
+### 3. 자바 코드로 직접 스프링 빈 등록하기
