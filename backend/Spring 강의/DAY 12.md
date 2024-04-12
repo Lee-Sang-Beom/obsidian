@@ -79,10 +79,9 @@ public class MemberController {
 > - DI에는 필드 주입, setter 주입, 생성자 주입의 3가지 방법이 있다. 의존 관계는 **실행 중에는 거의 변하지 않으므로** 생성자 주입을 권장한다.
 > - 본 예제에서는, 생성자를 통해 MemberService가 MemberController에 등록된다.
 
-> ![note] `@Autowired`
->  `@Autowired`를 통한 DI는 `helloController` , `memberService` 등과 같이 **스프링이 관리하는 객체**에서만 동작한다. 
->  스프링 빈으로 등록하지 않고, 본인이 직접 생성한 객체에서는 동작하지 않는다
-
+> [!note] `@Autowired`
+> - `@Autowired`를 통한 DI는 `helloController` , `memberService` 등과 같이 **스프링이 관리하는 객체**에서만 동작한다. 
+> - 스프링 빈으로 등록하지 않고, 본인이 직접 생성한 객체에서는 동작하지 않는다는 뜻이다.
 
 > [!note] 실무에서는?
 > - 실무에서는 주로 정형화된 컨트롤러, 서비스, 리포지토리 같은 코드는 컴포넌트 스캔을 사용한다.
