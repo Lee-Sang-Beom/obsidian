@@ -95,5 +95,18 @@ module.exports = nextConfig
 
 #### 7. Parallel and Intercepting Routes
 
+- Next.js 측에서는 계속해서 "**Parallel and Intercepting Routes**" 기능을 개선하고 있으며, 이제 클라이언트 측 라우터 캐시와의 통합을 향상시키고 있다고 설명하고 있다.
+
+-  "**Parallel and Intercepting Routes**"란, **Server Action**을 호출할 때 `revalidatePath` 또는 `revalidateTag`를 사용하는 route를 의미하며, 이러한 route는 캐시를 재검증하고 사용자의 현재 뷰를 유지하면서 보이는 슬롯을 새로 고친다.
+	- 마찬가지로, `router.refresh()`를 호출하면 현재 보이는 슬롯을 정확하게 새로 고칠 수 있으며, 동시에 현재 뷰를 유지할 수도 있다.
+
 
 #### 8. Errors DX Improvements
+
+- Next.js v14.1 버전에서는 오류 메시지 및 stack trace에 대한 가독성이 향상되었다. 
+	- 그리고 v14.2 버전에서는 개선된 오류 메시지, App Router 및 Pages Router에 대한 개선된 오버레이 디자인, 라이트 모드와 다크 모드 지원, 그리고 개발 및 빌드 과정에서 더 명확한 로그를 포함하도록 확장되었다.
+	
+- 예를 들어, React Hydration 오류가 있다.
+	-  React Hydration 불일치의 원인을 정확하게 파악하는 데 도움을 주기 위해, 아래 이미지와 같은 노력을 가했다고 한다.
+	- React 팀과 협력하여 핵심 오류 메시지를 개선하고 오류가 발생한 파일 이름을 표시하도록 노력하고 있다고 한다. 
+		- 개인적으로 어느 위치에 대한 에러 메시지인지 이제 한 눈에 확인이 가능해져서 **완전 편하다고 생각함.**
