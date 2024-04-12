@@ -1,5 +1,5 @@
 
-#### 1. [Turbopack for Development (Release Candidate)](https://nextjs.org/blog/next-14-2#turbopack-for-development-release-candidate)
+#### 1. Turbopack for Development (Release Candidate)
 
 - Next.js v14.2부터 Turbopack Release Candidate가 로컬 개발용으로 사용 가능하다고 한다.
 	- 로컬 서버 시작 속도 최대 76.7% 향상
