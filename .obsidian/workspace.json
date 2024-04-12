@@ -29,11 +29,9 @@
             "id": "4bd81bba42b6157d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "backend/Spring 강의/DAY 2.md",
-                "mode": "source",
-                "source": false
+                "file": "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf"
               }
             }
           }
@@ -103,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 2.md",
+                "file": "backend/Spring 강의/DAY 15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 2.md",
+                "file": "backend/Spring 강의/DAY 15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 2.md"
+                "file": "backend/Spring 강의/DAY 15.md"
               }
             }
           }
@@ -163,12 +161,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4bd81bba42b6157d",
+  "active": "c59cee679c3dac21",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 1.md",
-    "backend/Spring 강의/DAY 2.md",
-    "backend/Spring 강의/DAY 3.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
+    "backend/Spring 강의/DAY 2.md",
+    "backend/Spring 강의/DAY 1.md",
+    "backend/Spring 강의/DAY 3.md",
     "backend/Spring 강의/DAY 15.md",
     "backend/Spring 강의/DAY 14.md",
     "backend/Spring 강의/Spring 강의 학습 백링크.md",
