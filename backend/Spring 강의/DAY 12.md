@@ -71,3 +71,9 @@ public class MemberController {
 	- `MemberController`는 어딘가에서 `@Autowired`에 의해 스프링 컨테이너에 스프링 빈으로 저장되어, 불러와져야하는 요소가 아니다.
 
 - 여기서는 `MemberController`의 생성자 구문에서 `@Autowired`를 지정했으니, 스프링 컨테이너에서 스프링 빈으로 관리되고 있는 `memberService`를 가져와 넣어준다.
+
+
+### 2. 참고
+
+> [!note] DI 방법
+> - `revalidatePath('/posts')`는 Next.js의 캐시를 재유효화하기 위한 API 호출이다. 이 호출은 `/posts` 경로에 대한 캐시를 새로고침하도록 지시한다.
