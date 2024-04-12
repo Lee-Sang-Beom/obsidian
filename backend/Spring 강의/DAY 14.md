@@ -68,11 +68,62 @@ public class MemberController {
 
 ##### 2. 회원 등록 컨트롤러 
 
- >웹 등록 화면에서 데이터를 전달 받을 폼 객체
+ >웹 등록 화면에서 데이터를 전달 받을 폼 객체 (말그대로 Form에서 입력된 값을 다룰 객체)
 ```java
+package hello.hellospring.controller;  
+  
+  
+public class MemberForm {  
+private String name;  
+  
+    public String getName() {  
+        return name;  
+    }  
+  
+    public void setName(String name) {  
+        this.name = name;  
+    }  
+}
 ```
 
-> 회원 컨트롤러에서 회원을 실제 등록하는 기능
+> 회원 컨트롤러에서 회원을 실제 등록하는 기능 (추가: `create`메소드)
 ```java
+package hello.hellospring.controller;  
+  
+import hello.hellospring.domain.Member;  
+import hello.hellospring.service.MemberService;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.stereotype.Controller;  
+import org.springframework.web.bind.annotation.GetMapping;  
+import org.springframework.web.bind.annotation.Mapping;  
+import org.springframework.web.bind.annotation.PostMapping;  
+  
+@Controller  
+public class MemberController {  
+  
 
+    private final MemberService memberService;  
+  
+    @Autowired  
+    public MemberController(MemberService memberService){  
+        this.memberService = memberService;  
+    }  
+  
+    @GetMapping("/members/new")  
+    public String createForm(){  
+        return "members/createMemberForm";  
+    }  
+  
+    // /members/new 경로에서 발생한 POST 요청이 있는지를 검사하고, 있으면 아래의 create 메소드 실행  
+    @PostMapping("/members/new")  
+    public String create(MemberForm form){  
+        Member member = new Member();  
+        member.setName(form.getName());  
+        memberService.join(member);  
+          
+        // 홈 화면으로 사용자 이동  
+        return "redirect:/";  
+    }  
+  
+}
 ```
