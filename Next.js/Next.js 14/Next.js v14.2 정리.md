@@ -119,4 +119,4 @@ module.exports = nextConfig
 - 2월에, React 팀은 React 19가 곧 출시될 일정이라고 발표했다.
 	- React 19에 대비하여, 최신 기능과 개선 사항을 Next.js에 통합하는 작업을 진행 중이며, 이러한 변경 사항을 조율하기 위해 주요 버전을 출시할 계획이라고 한다.
 
-- 이제 [React 캐너리 채널](https://react.dev/blog/2023/05/03/react-canaries)에서, Action과 관련된 `hooks`와 같은 새로운 기능들이 Next.js 내에서 사용 가능했던 것들이 모든 React 애플리케이션(클라이언트 전용 애플리케이션 포함)에서 사용 가능하게 된다고 한다. 우리는 이러한 기능들이 React 생태계 전반에서 보다 널리 채택되는 것을 기대하고 있습니다.
+- 이제 [React 캐너리 채널](https://react.dev/blog/2023/05/03/react-canaries)에서, Next.js 내에서 사용할 수 있는 작업 및 관련 hook와 같은 새로운 기능을 이제 모든 React 애플리케이션(클라이언트 전용 애플리케이션 포함)에서 사용할 수 있다고 한다.
