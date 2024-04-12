@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 8.md",
+                "file": "backend/Spring 강의/DAY 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,8 +83,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 13.md",
+                "file": "backend/Spring 강의/DAY 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 13.md",
+                "file": "backend/Spring 강의/DAY 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 13.md"
+                "file": "backend/Spring 강의/DAY 2.md"
               }
             }
           }
@@ -164,8 +163,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c59cee679c3dac21",
+  "active": "4bd81bba42b6157d",
   "lastOpenFiles": [
+    "backend/Spring 강의/DAY 3.md",
+    "backend/Spring 강의/DAY 2.md",
+    "backend/Spring 강의/DAY 6.md",
+    "backend/Spring 강의/DAY 5.md",
+    "backend/Spring 강의/DAY 4.md",
+    "backend/Spring 강의/DAY 1.md",
     "backend/Spring 강의/DAY 8.md",
     "backend/Spring 강의/DAY 13.md",
     "backend/Spring 강의/DAY 12.md",
@@ -184,22 +189,16 @@
     "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/Spring 강의 학습 백링크.md",
-    "backend/Spring 강의/DAY 4.md",
     "사용 이미지/Spring/DAY 11",
     "사용 이미지/Spring/DAY 11/스프링 빈 실행 오류.png",
     "사용 이미지/Spring/DAY 11/스프링 빈 등록 이미지.png",
     "사용 이미지/Spring/DAY 11/스프링 컨테이너 스프링 빈 도식화오류.png",
     "사용 이미지/Spring/DAY 11/스프링 빈 터미널오류.png",
     "backend/Spring 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
-    "backend/Spring 강의/DAY 6.md",
-    "backend/Spring 강의/DAY 3.md",
     "backend/Spring 강의/DAY 7.md",
-    "backend/Spring 강의/DAY 5.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/DAY 9.md",
     "backend/Spring 강의/DAY 10.md",
-    "backend/Spring 강의/DAY 2.md",
-    "backend/Spring 강의/DAY 1.md",
     "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
     "backend/Spring 강의/강의자료/1. 프로젝트 환경 설정.pdf",
     "backend/Linux/Linux 15가지 기본 명령어.md",

@@ -42,9 +42,14 @@ import org.springframework.web.bind.annotation.GetMapping;
    
 @Controller  
 public class HelloController {  
+
+	// URL: hello 위치로 들어오는지 확인하고, 들어오면 hello method 실
     @GetMapping("hello")    
     public String hello(Model model){
         model.addAttribute("data","hello spring!");
+
+		// return하는 문자열을 이름으로 가지는 파일을 찾아 실행한다.
+		// 경로는 `src/main/resources/templates/...`
         return "hello";  
     }
 }  
