@@ -29,18 +29,17 @@ public class MemberController {
   
     private final MemberService memberService;  
   
-  
     @Autowired  
     public MemberController(MemberService memberService){  
         this.memberService = memberService;  
     } 
 	     
-	// 추가: members/createMemberForm
     @GetMapping("/members/new")  
     public String createForm(){  
         return "members/createMemberForm";  
-    }  
-  
+    }
+    
+  	// 추가: members/createMemberForm
     @GetMapping("/members")  
     public String list(Model model){  
         List<Member> members = memberService.findMembers();  
@@ -49,15 +48,11 @@ public class MemberController {
         return "members/memberList";  
     }  
   
-    // /members/new 경로에서 발생한 POST 요청이 있는지를 검사하고, 있으면 아래의 create 메소드 실행  
     @PostMapping("/members/new")  
     public String create(MemberForm form){  
         Member member = new Member();  
         member.setName(form.getName());  
         memberService.join(member);  
-  
-        // 홈 화면으로 사용자 이동  
-        // (example: /blog로 이동) -> redirect:/blog  
         return "redirect:/";  
     }  
   
