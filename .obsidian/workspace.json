@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 13.md",
+                "file": "backend/Spring 강의/DAY 14.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
+                "file": "backend/Spring 강의/DAY 14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
+                "file": "backend/Spring 강의/DAY 14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf"
+                "file": "backend/Spring 강의/DAY 14.md"
               }
             }
           }
@@ -161,10 +161,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4bd81bba42b6157d",
+  "active": "c59cee679c3dac21",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 13.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
+    "backend/Spring 강의/DAY 13.md",
+    "backend/Spring 강의/DAY 14.md",
     "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "backend/Spring 강의/DAY 3.md",
     "backend/Spring 강의/DAY 2.md",
@@ -206,7 +207,6 @@
     "사용 이미지/React/virtual dom/가상 DOM(별코딩).png",
     "React/hook/useState.md",
     "React/React 백링크.md",
-    "Next.js/Server Action 사용하기/3. Forms 사용.md",
     "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
