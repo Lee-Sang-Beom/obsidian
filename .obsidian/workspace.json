@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 12.md",
+                "file": "Next.js/Next.js 14/Next.js v14.2.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 12.md",
+                "file": "Next.js/Next.js 14/Next.js v14.2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 12.md",
+                "file": "Next.js/Next.js 14/Next.js v14.2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 12.md"
+                "file": "Next.js/Next.js 14/Next.js v14.2.md"
               }
             }
           }
@@ -163,8 +163,10 @@
   },
   "active": "73ea9356e020beb7",
   "lastOpenFiles": [
-    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js v14.2.md",
     "backend/Spring 강의/DAY 12.md",
+    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
@@ -201,7 +203,6 @@
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
-    "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
     "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling",
     "Next.js/Server Action 사용하기/무제 폴더",
     "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling/useFormState 실패.png",
