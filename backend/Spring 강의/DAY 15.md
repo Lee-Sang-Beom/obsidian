@@ -35,7 +35,7 @@ public class MemberController {
         this.memberService = memberService;  
     } 
 	     
-	// 추가: members/createMembe
+	// 추가: members/createMemberForm
     @GetMapping("/members/new")  
     public String createForm(){  
         return "members/createMemberForm";  
@@ -64,24 +64,36 @@ public class MemberController {
 }
 ```
 
-> 회원 등록 폼 HTML (`src/resources/templates/members/createMemberForm.html)
+> 회원 리스트 출력 HTML (`src/main/resources/templates/members/memberList.html)
 ```html
 <!DOCTYPE html>  
-<html lang="en">  
+  
+<!--스키마 선언: 해당 선언문이 있어야 템플릿 엔진 구문 사용 가능-->  
+<html xmlns:th="http://www.thymeleaf.org">  
 <head>  
     <meta charset="UTF-8">  
     <title>Title</title>  
 </head>  
 <body>  
-<div class="container">  
-    <form action="/members/new" method="post">  
-        <div class="form-group">  
-            <label for="name">이름</label>  
-            <input type="text" id="name" name="name" placeholder="이름을 입력하세요">  
-        </div>  
-        <button type="submit">등록</button>  
-    </form>  
-</div>  
+    <a href="/">돌아가기</a>  
+    <div>  
+        <table>  
+            <thead>  
+                <tr>  
+                    <th>#</th>  
+                    <th>이름</th>  
+                </tr>  
+            </thead>  
+            <tbody>  
+                <!--th:each는 Thymeleaf 템플릿 엔진에서 반복문을 처리하는 속성-->  
+                <!--td태그에서 사용할 member라는 변수는 model에 넣은 members 리스트 각각의 요소이다.-->  
+                <tr th:each="member : ${members}">  
+                    <td th:text="${member.id}"></td>  
+                    <td th:text="${member.name}"></td>  
+                </tr>  
+            </tbody>  
+        </table>  
+    </div>  
 </body>  
 </html>
 ```

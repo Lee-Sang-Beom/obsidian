@@ -27,7 +27,8 @@ public class HomeController {
          * 2. 스프링은 스프링 컨테이너 내부에, home.html과 맵핑된 컨트롤러가 있는지 먼저 찾아본다. (여기서는 HomeController에 GetMapping("/") 부분이 있음  
          * 3. 만약, 매핑된 컨트롤러가 있으면, 매핑된 컨트롤러 호출하고, 그 내부에서 return한 해당 html파일을 반환한다 (resources/templates/home.html)  
          * 4. 만약 매핑된 컨트롤러가 없으면, 스프링은 resources/static/home.html이 있는지를 확인한다.  
-         */        return "home";  
+         */
+        return "home";  
   
     }  
 }

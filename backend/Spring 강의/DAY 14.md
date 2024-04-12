@@ -44,7 +44,7 @@ public class MemberController {
 }
 ```
 
-> 회원 등록 폼 HTML (`src/resources/templates/members/createMemberForm.html)
+> 회원 등록 폼 HTML (`src/main/resources/templates/members/createMemberForm.html)
 ```html
 <!DOCTYPE html>  
 <html lang="en">  
