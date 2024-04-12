@@ -20,7 +20,7 @@
 1. 웹 브라우저가 localhost:8080/testStatic.html을 요청한다.
 2. 내장 Tomcat 서버가 최초로 요청을 받고, 해당 요청을 스프링에게 넘긴다.
 3. 스프링 컨테이너 내부에, testStatic.html과 맵핑된 컨트롤러가 있는지 먼저 찾아본다.
-4. 만약 없으면, 스프링 부트는 "resources/static/testStatic.html"이 있는지 찾아본다.
+4. 만약 없으면, 스프링 "resources/static/testStatic.html"이 있는지 찾아본다.
 5. 만약 여기 있으면, 이 html 파일을 반환한다. 이것이 정적 컨텐츠의 동작 방식이다.
 ```
 ![[스프링부트 - hello-static.png]]
