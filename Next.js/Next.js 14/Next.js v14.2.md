@@ -62,9 +62,38 @@ export function BaseButton() { return <button className={styles.primary} />; }
 
 - 이 변경이 대부분의 애플리케이션에 부정적인 영향을 미치지 않을 것으로 예상하지만, 버전 업그레이드 후, 상치 못한 스타일이 발생한다면 위에서 권장하는 대로 CSS import 순서를 검토해야 한다.
 
-- 예를 들어, 위의 코드는 `page.tsx`와` base-button.tsx`에서 CSS 모듈을 가져오는 변수명이 `styles`로  동일한 하다.
-	- 때문에, `page.module.css` 내용이 `base-button.module.css`의 내용을 덮어쓰게 됩니다.
+- 예를 들어, 위의 코드는 `page.tsx`와` base-button.tsx`에서 CSS 모듈을 가져오는 변수명이 `styles`로  동일하다.
+	- 때문에, `page.module.css` 내용이 `base-button.module.css`의 내용을 덮어쓰게 된다.
 
-이는 CSS 모듈이 각각의 컴포넌트 범위에 지역적으로 작용하기 때문에 발생합니다. 따라서 두 개 이상의 모듈에서 동일한 클래스명을 사용하더라도 각 모듈이 서로 영향을 주지 않고 독립적으로 동작합니다.
 
-그러나 이러한 작동 방식 때문에 동일한 클래스명을 사용할 때 주의가 필요합니다. 만약 두 모듈에서 같은 클래스명을 사용하는데 의도치 않게 스타일이 충돌한다면, 해당 클래스명을 고유하게 만들어야 합니다.
+#### 5. Caching Improvements -> `staleTimes`
+
+- **클라이언트 측 route cache**는 방문한 경로와 미리 가져온 경로를 클라이언트에 캐시하여, 빠른 네비게이션 경험을 제공하기 위해 설계된 캐싱 레이어이다.
+	- 커뮤니티 피드백을 기반으로, Next.js v14.2에서는 experimental `staleTimes` 옵션을 추가하여 클라이언트 측의 router cache의 무효화 기간을 구성할 수 있도록 했다.
+
+- 기본적으로, `prefetch prop`을 사용하지 않고 `<Link>` 컴포넌트를 통해 미리 가져온 경로는 30초 동안 캐시되며, `prefetch prop`이 `true`로 설정된 경우에는 5분 동안 캐시된다. 
+	- `next.config.js`에서는 사용자 정의 **재유효화 시간을 정의**하여 이러한 기본값을 덮어쓸 수 있다.
+
+```ts
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    staleTimes: {
+      dynamic: 30, // <Link>에서 prefetch prop이 지정되지 않은 경우에 사용된다. 기본값: 30초
+      static: 180, // <Link>에서 prefetch prop이 true로 설정되거나 router.prefetch를 호출한 경우에 사용된다. (기본값 5분)
+    },
+  },
+}
+
+module.exports = nextConfig
+```
+
+- 위 예제에 대한 설명은 아래와 같다.
+	1. `prefetch prop`가 지정되지 않은 `<Link>`에서는 30초동안 캐시된 페이지를 빠르게 확인할 수 있다.
+	2. `prefetch prop`이 `true`로 설정되거나, `router.prefetch`를 호출한 경우는 180초동안 캐시된 페이지를 빠르게 확인할 수 있다.
+
+
+#### 7. Parallel and Intercepting Routes
+
+
+#### 8. Errors DX Improvements
