@@ -11,7 +11,7 @@
 ##### 1. 회원 등록 폼(Form) 개발
 
 - 먼저, `MemberController`에 Mapping 작업을 수행한 후, 연결되는 HTML파일을 만들어주자.
-	- 이는, 특정 경로의 Mapping을 검사하고, 회원 등록 폼을 사용자에게 보여주기 위한 목적으로 사용된다.
+	- 이는 특정 경로의 Mapping을 검사하고, 회원 등록 폼을 사용자에게 보여주기 위한 목적으로 사용된다.
 
 > 회원 등록 폼 컨트롤러(`MemberController`)
 ```java
@@ -44,7 +44,7 @@ public class MemberController {
 }
 ```
 
-- 회원 등록 폼 HTML (`src/resources/templates/members/createMemberForm.html)
+> 회원 등록 폼 HTML (`src/resources/templates/members/createMemberForm.html)
 ```html
 <!DOCTYPE html>  
 <html lang="en">  
@@ -67,3 +67,12 @@ public class MemberController {
 ```
 
 ##### 2. 회원 등록 컨트롤러 
+
+ >웹 등록 화면에서 데이터를 전달 받을 폼 객체
+```java
+```
+
+> 회원 컨트롤러에서 회원을 실제 등록하는 기능
+```java
+
+```
