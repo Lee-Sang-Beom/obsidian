@@ -82,6 +82,8 @@ public class MemberController {
 > [!note] `@Autowired`
 > - `@Autowired`를 통한 DI는 `helloController` , `memberService` 등과 같이 **스프링이 관리하는 객체**에서만 동작한다. 
 > - 스프링 빈으로 등록하지 않고, 본인이 직접 생성한 객체에서는 동작하지 않는다는 뜻이다.
+> - 스프링 컨테이너에 올라가는 것들만 `@Autowired`가 동작한다.
+
 
 > [!note] 실무에서는?
 > - 실무에서는 주로 정형화된 컨트롤러, 서비스, 리포지토리 같은 코드는 컴포넌트 스캔을 사용한다.
