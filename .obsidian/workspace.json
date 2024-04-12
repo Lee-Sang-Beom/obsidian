@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js v14.2.md",
+                "file": "backend/Spring 강의/DAY 12.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,9 +29,11 @@
             "id": "1b08f5b1dfff7554",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf"
+                "file": "Next.js/Next.js 14/Next.js v14.2.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -161,12 +163,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "73ea9356e020beb7",
+  "active": "1b08f5b1dfff7554",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
-    "Next.js/Next.js 14/Next.js v14.2.md",
-    "backend/Spring 강의/DAY 12.md",
     "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "backend/Spring 강의/DAY 12.md",
+    "Next.js/Next.js 14/Next.js v14.2.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
@@ -202,7 +204,6 @@
     "Next.js/더 알아보기/Middleware.md",
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
-    "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling",
     "Next.js/Server Action 사용하기/무제 폴더",
     "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling/useFormState 실패.png",
