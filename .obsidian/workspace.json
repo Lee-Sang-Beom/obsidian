@@ -11,9 +11,11 @@
             "id": "788504116394500d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "사용 이미지/Next.js/Next.js v14.2/오류메시지 후.png"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/Next.js/Next.js v14.2/오류메시지 후.png",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/Next.js/Next.js v14.2/오류메시지 후.png",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/Next.js/Next.js v14.2/오류메시지 후.png"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md"
               }
             }
           }
@@ -145,9 +147,10 @@
   },
   "active": "788504116394500d",
   "lastOpenFiles": [
-    "사용 이미지/Next.js/Next.js v14.2/오류메시지 전.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js v14.2 정리.md",
     "사용 이미지/Next.js/Next.js v14.2/오류메시지 후.png",
+    "사용 이미지/Next.js/Next.js v14.2/오류메시지 전.png",
     "사용 이미지/Next.js/Next.js14.png",
     "사용 이미지/Next.js/Next.js v14.2",
     "backend/Spring 강의/DAY 12.md",
