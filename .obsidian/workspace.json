@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
+                "file": "React/env (환경변수).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
+                "file": "React/env (환경변수).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
+                "file": "React/env (환경변수).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회사 세미나/1. Next.js 프로젝트 초기 세팅.md"
+                "file": "React/env (환경변수).md"
               }
             }
           }
@@ -160,10 +160,11 @@
   },
   "active": "acf4984f27247f59",
   "lastOpenFiles": [
+    "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
+    "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
     "회사 세미나/2. 서버(Server).md",
     "사용 이미지/Next.js/Next.js v14.2/오류메시지 후.png",
     "사용 이미지/Next.js/Next.js v14.2/오류메시지 전.png",
-    "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
     "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
     "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
     "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
@@ -189,7 +190,6 @@
     "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "backend/Spring 강의/DAY 6.md",
     "backend/Spring 강의/DAY 5.md",
-    "backend/Spring 강의/DAY 4.md",
     "사용 이미지/Next.js/Next.js14.png",
     "사용 이미지/Next.js/Next.js v14.2",
     "Pasted image 20240412095358.png",
