@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "096701dd3cfe1ef8",
+        "id": "74b334fccfa07354",
         "type": "tabs",
         "children": [
           {
-            "id": "9a42a7e5540289ca",
+            "id": "c59cee679c3dac21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 살펴보기.md",
+                "file": "backend/Spring 강의/DAY 15.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 227.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 살펴보기.md",
+                "file": "backend/Spring 강의/DAY 15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 살펴보기.md",
+                "file": "backend/Spring 강의/DAY 15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 살펴보기.md"
+                "file": "backend/Spring 강의/DAY 15.md"
               }
             }
           }
@@ -133,70 +133,69 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9a42a7e5540289ca",
+  "active": "c59cee679c3dac21",
   "lastOpenFiles": [
-    "Next.js/Server Action 사용하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
-    "사용 이미지/Next.js/Next.js14.png",
-    "사용 이미지/JSP/JSP 동작과정.png",
-    "사용 이미지/Next.js/guide course/chapter 7",
-    "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240302112654.png",
+    "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
+    "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
+    "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
+    "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 공식문서 정리/추천.md",
-    "jquery/10. ajax.md",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227154651.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227154003.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227154000.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227152949.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227152707.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227152710.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151701.png",
-    "사용 이미지/Next.js/guide course/chapter 6",
-    "내 프로젝트/내 프로젝트 (뎁스).md",
-    "내 프로젝트",
-    "Next.js/Next.js 공식문서 정리",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-    "jquery/9. 탐색 (traversing).md",
-    "jquery/8. Form.md",
-    "일정 관리/화학 분석.md",
-    "jquery/7. 엘리먼트 제어.md",
-    "jquery/6. event.md",
-    "jquery/5. chain.md",
-    "일정 관리/IR 분석/코드저장 (참여학생관리 팝업수정 1,2).md",
-    "jquery/4. 선택자.md",
-    "jquery/3. 래퍼(Wrapper).md",
-    "jquery/9. 탐색.md",
-    "jquery/1. jQuery 시작.md",
-    "jquery/jQuery 백링크.md",
-    "Next.js/Next.js 14/Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
-    "일정 관리/IR 분석/엑셀 관리.md",
-    "일정 관리/보고/주간보고.md",
-    "일정 관리/IR 임시코드/무제 파일.md",
-    "일정 관리/보고/2024년 01월/2024-01-26.md",
-    "일정 관리/IR 임시코드",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+    "backend/Spring 강의/Spring 강의 학습 백링크.md",
+    "backend/Spring 강의/DAY 15.md",
+    "backend/Spring 강의/DAY 13.md",
+    "backend/Spring 강의/DAY 14.md",
+    "backend/Spring 강의/DAY 2.md",
+    "backend/Spring 강의/DAY 12.md",
+    "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
+    "backend/Spring 강의/DAY 1.md",
+    "backend/Spring 강의/DAY 3.md",
+    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
+    "backend/Spring 강의/DAY 6.md",
+    "backend/Spring 강의/DAY 5.md",
+    "backend/Spring 강의/DAY 4.md",
+    "backend/Spring 강의/DAY 8.md",
+    "backend/Spring 강의/DAY 11.md",
+    "사용 이미지/Next.js/Next.js v14.2/오류메시지 후.png",
+    "사용 이미지/Next.js/Next.js v14.2/오류메시지 전.png",
+    "사용 이미지/Next.js/Next.js14.png",
+    "사용 이미지/Next.js/Next.js v14.2",
+    "Pasted image 20240412095358.png",
+    "사용 이미지/Spring/DAY 11",
+    "사용 이미지/Spring/DAY 11/스프링 빈 실행 오류.png",
+    "사용 이미지/Spring/DAY 11/스프링 빈 등록 이미지.png",
+    "사용 이미지/Spring/DAY 11/스프링 컨테이너 스프링 빈 도식화오류.png",
+    "사용 이미지/Spring/DAY 11/스프링 빈 터미널오류.png",
+    "backend/Spring 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
+    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
+    "backend/Spring 강의/강의자료/1. 프로젝트 환경 설정.pdf",
+    "backend/Linux/무제 폴더",
+    "사용 이미지/React/virtual dom/diffing과 reconciliation.png",
+    "사용 이미지/React/virtual dom/가상 DOM(별코딩).png",
+    "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling",
+    "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
-    "무제 파일.canvas",
-    "일정 관리/보고/2024년 02월/4주차",
-    "일정 관리/보고/2024년 02월/3주차",
-    "일정 관리/보고/2024년 02월/2주차",
-    "일정 관리/보고/2024년 02월/1주차",
-    "일정 관리/보고/2024년 02월",
     "무제 파일 4.canvas",
     "무제 파일 3.canvas"
   ]
