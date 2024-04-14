@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4450a652ba934a46",
+        "id": "096701dd3cfe1ef8",
         "type": "tabs",
         "children": [
           {
-            "id": "7b844eab26e782b4",
+            "id": "9a42a7e5540289ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b844eab26e782b4",
+  "active": "9a42a7e5540289ca",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
+    "사용 이미지/Next.js/Next.js14.png",
+    "사용 이미지/JSP/JSP 동작과정.png",
+    "사용 이미지/Next.js/guide course/chapter 7",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
+    "사용 이미지/Next.js/guide course/chapter 7/Pasted image 20240302112654.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 공식문서 정리/추천.md",
     "jquery/10. ajax.md",
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227154651.png",
@@ -160,9 +164,6 @@
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227152707.png",
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227152710.png",
     "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151701.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151524.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151143.png",
-    "사용 이미지/Next.js/guide course/chapter 6/Pasted image 20240227151120.png",
     "사용 이미지/Next.js/guide course/chapter 6",
     "내 프로젝트/내 프로젝트 (뎁스).md",
     "내 프로젝트",
@@ -186,7 +187,6 @@
     "일정 관리/보고/주간보고.md",
     "일정 관리/IR 임시코드/무제 파일.md",
     "일정 관리/보고/2024년 01월/2024-01-26.md",
-    "일정 관리/IR 분석/API.md",
     "일정 관리/IR 임시코드",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
@@ -196,7 +196,6 @@
     "일정 관리/보고/2024년 02월/2주차",
     "일정 관리/보고/2024년 02월/1주차",
     "일정 관리/보고/2024년 02월",
-    "일정 관리/보고/2024년 01월",
     "무제 파일 4.canvas",
     "무제 파일 3.canvas"
   ]
