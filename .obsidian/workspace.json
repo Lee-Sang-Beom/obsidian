@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "009ff51d5598babc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f78f7dfd79077616",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프론트엔드 지식/npm과 npm 명령어.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
