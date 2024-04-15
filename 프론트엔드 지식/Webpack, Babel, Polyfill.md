@@ -78,9 +78,10 @@
 > 		- destructuring
 
 > [!note] 폴리필(Polyfill)
-> - 구 브라우저에서, 최신 자바스크립트 코드를 사용할 수 있도록 변환해주는 컴파일러(트랜스파일러)이다.
-> - ES5에서 자바스크립트 문법이 아니었던 ES6+의 문법들을 구 브라우저에서 사용할 수 있도록 변환해준다.
-> - **ES5의 global namespace(window)에 존재하지 않는 것은 폴리필이 필요하다.**
+> - 브라우저가 이해할 수 없는 코드에 대하여, 이해할 수 있는 코드 소스를 제공한다.
+> - 자바스크립트 문법으로 읽히지만, 정의되지 않은 객체/메소드/함수를 정의해준다.
+> - Babel이 컴파일하지 못한 전역 객체/메소드/함수들을 브라우저에서 실행되는 시점인 실행 시간(Run-time)에 변환해준다.
+> - **ES5의 global namespace(window/전역 객체)에 존재하지 않는 것은 폴리필이 필요하다.**
 > 	- 새로운 객체 (Promise, IntersectionObserver, Set, Map …)
 > 	- 기존 객체의 새로운 메서드 (Array.prototype.includes, Object.entries …)
 > 	- 새로운 함수 (fetch)
