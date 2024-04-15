@@ -1,4 +1,6 @@
-> 참고문서 및 내용출처: [삽질로그님의 포스트](https://velog.io/@goldbear2022/NextAuth%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%EA%B5%AC%EA%B8%80-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%97%B0%EB%8F%99-%EA%B0%80%EC%9E%85-%EA%B8%B0%EB%8A%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0-%E4%B8%8A#:~:text=OAuth%EB%8A%94%20%EC%9D%B8%ED%84%B0%EB%84%B7%20%EC%82%AC%EC%9A%A9%EC%9E%90%EB%93%A4%EC%9D%B4,%ED%95%B4%EC%A3%BC%EB%8A%94%20%EC%98%A4%ED%94%88%20%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C%EC%9D%B4%EB%8B%A4.)
+> 참고문서 및 내용출처 1: [삽질로그님의 포스트](https://velog.io/@goldbear2022/NextAuth%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%EA%B5%AC%EA%B8%80-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%97%B0%EB%8F%99-%EA%B0%80%EC%9E%85-%EA%B8%B0%EB%8A%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0-%E4%B8%8A#:~:text=OAuth%EB%8A%94%20%EC%9D%B8%ED%84%B0%EB%84%B7%20%EC%82%AC%EC%9A%A9%EC%9E%90%EB%93%A4%EC%9D%B4,%ED%95%B4%EC%A3%BC%EB%8A%94%20%EC%98%A4%ED%94%88%20%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C%EC%9D%B4%EB%8B%A4.)
+
+> 참고문서 및 내용출처2 : [Furo님의 포스트](https://iam.furo.one/post/concept-oauth)
 
 #### 1. OAuth(Open Authorization)
 
@@ -38,5 +40,5 @@
  
 > **Access Token**
 - Access Token(액세스 토큰)은 애플리케이션이 사용자(Resource Owner)에게 권한을 위임받은 이후 **리소스를 얻기위해 사용되는 인증 수단**이다.
-- Access Token(액세스 토큰)은 구글 서버에서 발급해주는 토큰으로, 먼저 애플리케이션에서 요청을 보내는 것으로 시작해야 한다. 
+- Access Token(액세스 토큰)은 인증 서버(Authorization Server)에서 발급해주며, 이를 받기 위해서는 애플리케이션에서 요청을 보내주어야 한다.
 	- 이 때, **등록 과정에서 만들었던 클라이언트 ID와 비밀번호를 함께 보내야 한다.**
