@@ -1,4 +1,5 @@
-### JavaScript & TypeScript 백링크
+
+#### JavaScript & TypeScript 백링크
 
 - [[알아놓으면 좋은 자바스크립트 문법]]
 - [[원시 타입과 참조 타입]]
