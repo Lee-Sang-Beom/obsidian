@@ -163,8 +163,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fd84208c69a49941",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill/babel.png",
+    "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill/webpack.jpg",
+    "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill",
+    "사용 이미지/프론트엔드 지식",
     "프론트엔드 지식/DOM.md",
     "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
     "프론트엔드 지식/Oauth.md",
@@ -191,7 +195,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "사용 이미지/Next.js/Next.js v14.2/오류메시지 후.png",
@@ -208,9 +211,6 @@
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
     "backend/Spring 강의/강의자료/1. 프로젝트 환경 설정.pdf",
-    "backend/Linux/무제 폴더",
-    "사용 이미지/React/virtual dom/diffing과 reconciliation.png",
-    "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
