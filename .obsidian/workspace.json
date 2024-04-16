@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a796d23ac636fb07",
+        "id": "209c3d048168d409",
         "type": "tabs",
         "children": [
           {
-            "id": "ebbb7b79475ee7d8",
+            "id": "8347d33234af0763",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) SPA, MPA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "db6ce1ce062d31b0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f0eb8740535f8f73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -103,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) SPA, MPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) SPA, MPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,12 +118,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) SPA, MPA.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,12 +138,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ebbb7b79475ee7d8",
+  "active": "8347d33234af0763",
   "lastOpenFiles": [
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) SPA, MPA.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Scope.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Node.js.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/SPA, MPA.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Scope.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) preset.md",
     "React/React 백링크.md",
     "React/(내용보완예정) JSX.md",
@@ -190,7 +166,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 렌더링 과정.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 라이브러리와 프레임워크.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 디자인 패턴.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
     "프론트엔드 지식/무제 폴더",
     "JWT structure.png",
     "사용 이미지/프론트엔드 지식/JWT",
