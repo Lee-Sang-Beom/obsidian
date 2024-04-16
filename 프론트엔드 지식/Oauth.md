@@ -57,3 +57,10 @@
 	7. Client는 Access Token을 가지고, **Resource Server**에 요청을 보낸다.
 	8. Resource Server는 Access Token의 유효성을 검사한 다음, 요청한 리소스를 Client에게 응답한다.
 	9. Client는 Resource Owner가 맨 처음 보냈던 서비스 이용 요청에 대한 응답을 전달한다.
+
+
+#### 4. 갱신
+
+- Access Token은 갱신 주기가 짧기 때문에, 만료 시마다 서버에 재요청을 진행해주어야 한다.
+	- 매번 짧은 갱신주기마다 Access Token을 재요청함으로써 발생하는  비효율성 문제는  해결하기 위해, Authorization Server에서는 Access Token 외에도 추가적으로, Reffresh Token이라는 것도 추가로 발급해준다.
+	- Refresh Token이 유효하면, Access Token을 재발급해준다.
