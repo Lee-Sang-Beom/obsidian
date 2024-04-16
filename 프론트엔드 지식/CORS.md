@@ -38,17 +38,20 @@
 	- 포트번호 (`:3000port !== :8000port`)
 
 
-#### 4. CORS 동작 과
+#### 4. CORS 동작 과정
 
+##### 1. 클라이언트에서, HTTP request header에 Origin을 담아 전달한다.
 
-- 먼저, 웹 애플리케이션이 다른 출처의 리소스에 접근 시, HTTP 프로토콜을 사용해 요청을 보내며, 요청 헤더 내의 origin 필드에 요청을 보내는 출처를 담아 보냅니다.
+> [이미지 출처: '김대은'님의 Velog 포스트 ](https://etloveguitar.tistory.com/83)
+![[requestHeaderOrigin.png]]
+- 먼저, 웹 애플리케이션이 다른 Origin(출처)의 리소스에 접근 ㅎ시, HTTP 프로토콜을 사용해 요청을 보내며, 요청 헤더 내의 origin 필드에 요청을 보내는 출처를 담아 보냅니다.
     
 - 이후, 서버는 **Access-control-allow-origin** 헤더에 **"리소스 접근을 허용할 출처"**를 포함하여 응답합니다.
     
 - 그리고 브라우저는 자신이 보냈던 Origin 헤더값이 **응답 헤더 Access-control-allow-origin 의 목록**에 포함되어있는지를 검사합니다.
-    
 
-
+> [이미지 출처: '김대은'님의 Velog 포스트 ](https://etloveguitar.tistory.com/83)
+![[responseHeaderOrigin.png]]
 ### CORS 에러 해결 방법
 
 
