@@ -11,8 +11,12 @@
             "id": "8347d33234af0763",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md"
+              }
             }
           }
         ],
@@ -140,8 +148,8 @@
   },
   "active": "8347d33234af0763",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Node.js.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Node.js.md",
     "짧게 정리한 프론트엔드 지식/SPA, MPA.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Scope.md",
