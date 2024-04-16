@@ -65,7 +65,7 @@
 > 	- 서버 측 로그에서는 정상 응답했다는 로그만 남으므로, CORS를 정확히 이해해야 이 Error를 해결할 수 있다.
 
 
-#### 5. CORS 실제 작동 방식 (단순 요청 : Simple Request)
+#### 5. CORS 실제 작동 시나리오  (단순 요청 : Simple Request)
 
 - CORS가 실질적으로 작동하는 유형은 총 3가지가 있는데, 여기서는 먼저 simple request에 대해 알아보자
 
@@ -81,11 +81,13 @@
 - 또한, user-agent가 자동으로 설정한 헤더 필드 외에, 수동으로 설정 가능한 헤더 필드는 **Fetch 명세에서 `CORS-safelisted request-header`로 정의된 것들만 사용할 수 있다.**
 	- `Accept, Accept-Language, Content-Language, Content-Type, DPR, Downlink, Save-Data, Width, Viewport-Width`
 
-- `Content-Type`을 사용하는 경우에는 다음의 값들만 허용된다.
-	- `application/x-www-form-urlencoded, multipart/form-data, text/plain`
+- `Content-Type(클라이언트가 서버에게 전송하는 본문 데이터의 유형)`을 사용하는 경우에는 다음의 값들만 허용된다.
+	- `application/x-www-form-urlencoded(HTML 폼데이터), multipart/form-data(파일 업로드와 같은 다중부분 폼 데이터), text/plain(텍스트데이터)`
+	- `application/json, application/xml`은 사용할 수 없다.
+		- 보통 POST method는 `apllication/json`을 많이 사용하기 때문에 그닥 잘 사용하지 않는 방식이다.
 
 
-#### 6. CORS 실제 작동 방식 (예비 요청 : Preflight Request()
+#### 6. CORS 실제 작동 시나리오 (예비 요청 : Preflight Request()
 
 - 해당 유형은 브라우저가 요청을 한번에 보내지 않고, **예비 요청과 본 요청을 나눠 전송**하는 방법이다.
 	- 대부분의 CORS 실제 작동은 해당 방식으로 이루어진다고 생각하면 된다. 
