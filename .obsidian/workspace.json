@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프론트엔드 지식/프론트엔드 지식 백링크.md",
+                "file": "프론트엔드 지식/Access Token과 Refresh Token.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프론트엔드 지식/프론트엔드 지식 백링크.md",
+                "file": "프론트엔드 지식/Access Token과 Refresh Token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프론트엔드 지식/프론트엔드 지식 백링크.md",
+                "file": "프론트엔드 지식/Access Token과 Refresh Token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프론트엔드 지식/프론트엔드 지식 백링크.md"
+                "file": "프론트엔드 지식/Access Token과 Refresh Token.md"
               }
             }
           }
@@ -147,6 +147,7 @@
   },
   "active": "13c61afbe02d8556",
   "lastOpenFiles": [
+    "프론트엔드 지식/프론트엔드 지식 백링크.md",
     "프론트엔드 지식/CORS.md",
     "preflight request.png",
     "simple request.png",
@@ -160,11 +161,10 @@
     "URL 1.png",
     "Pasted image 20240416103137.png",
     "URL.png",
-    "프론트엔드 지식/프론트엔드 지식 백링크.md",
     "사용 이미지/프론트엔드 지식/OAuth/oauth refreshtoken.png",
     "프론트엔드 지식/원시 타입과 참조 타입.md",
     "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
-    "프론트엔드 지식/인증토큰과 리프레시 토큰이란.md",
+    "프론트엔드 지식/Access Token과 Refresh Token.md",
     "프론트엔드 지식/Clsx 사용해보기.md",
     "프론트엔드 지식/Cookie, Session, Web Storage.md",
     "프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
