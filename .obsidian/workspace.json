@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9dd4ad4363627e90",
+        "id": "a796d23ac636fb07",
         "type": "tabs",
         "children": [
           {
-            "id": "1a1d058f6aa0b485",
+            "id": "ebbb7b79475ee7d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
+                "file": "짧게 정리한 프론트엔드 지식/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 455.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
+                "file": "짧게 정리한 프론트엔드 지식/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
+                "file": "짧게 정리한 프론트엔드 지식/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md"
+                "file": "짧게 정리한 프론트엔드 지식/무제 파일.md"
               }
             }
           }
@@ -145,10 +145,23 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1a1d058f6aa0b485",
+  "active": "ebbb7b79475ee7d8",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 반응형 웹과 적응형 웹.md",
+    "짧게 정리한 프론트엔드 지식/무제 파일.md",
+    "짧게 정리한 프론트엔드 지식/DOM.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 렌더링 과정.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 라이브러리와 프레임워크.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 디자인 패턴.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) CRUD & REST.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Garbage collection.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 고차함수.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) use strict.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) undefined, undeclared, null, NaN.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) this.md",
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Scope.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Require, Import.md",
@@ -160,19 +173,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP Method.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTML과 HTML5.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 제너레이터.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 함수 선언문과 함수 표현식.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) forEach()와 map().md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 루프.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) event.target과 event.currentTarget.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Display Property.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 캐스캐이딩(Cascading).md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) URI, URL.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) TypeScript.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) SPA, MPA.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Node.js.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Map과 Set.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) IIFE.md",
     "프론트엔드 지식/무제 폴더",
     "JWT structure.png",
     "사용 이미지/프론트엔드 지식/JWT",
