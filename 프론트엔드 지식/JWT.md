@@ -41,7 +41,11 @@
 > **2️⃣ Payload(페이로드)**
 
 - 토큰의 Payload에는 토큰에서 사용할 정보의 조각들을 일컫는 **클레임(Claim)** 이 포함되어 있다.
-	- 클레임은 등록된 클레임(Registered Claim), 공개 클레임(Public Claim), 비공개 클레임(Private Claim)으로 나뉘어진다.
+	- 클레임은 **등록된 클레임(Registered Claim)**, **공개 클레임(Public Claim)**, **비공개 클레임(Private Claim)** 으로 나뉘어진다.
 	- 클레임은 `key-value` 형태로 존재한다.
+
+> [!note] 등록된 클레임(Registered Claim)
+> - 토큰 정보를 표현하기 위하여 이미 정해진 종류의 데이터들이다. (사용 권장됨)
+
 
 > **3️⃣ Signature(서명)**
