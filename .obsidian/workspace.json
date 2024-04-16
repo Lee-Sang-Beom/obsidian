@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프론트엔드 지식/(작성예정) 콜백 함수.md",
+                "file": "프론트엔드 지식/(내용보완예정) preset.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프론트엔드 지식/(작성예정) 콜백 함수.md",
+                "file": "프론트엔드 지식/(내용보완예정) preset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프론트엔드 지식/(작성예정) 콜백 함수.md",
+                "file": "프론트엔드 지식/(내용보완예정) preset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프론트엔드 지식/(작성예정) 콜백 함수.md"
+                "file": "프론트엔드 지식/(내용보완예정) preset.md"
               }
             }
           }
@@ -147,33 +147,33 @@
   },
   "active": "13c61afbe02d8556",
   "lastOpenFiles": [
-    "프론트엔드 지식/(작성예정) bind, apply, call 메소드.md",
-    "프론트엔드 지식/(작성예정) 콜백 함수.md",
-    "프론트엔드 지식/(작성예정) Attribute와 Property.md",
-    "프론트엔드 지식/(작성예정) 일반 함수와 화살표 함수의 차이.md",
-    "프론트엔드 지식/(작성예정) URI, URL.md",
-    "프론트엔드 지식/(작성예정) TypeScript.md",
-    "프론트엔드 지식/(작성예정) SPA, MPA.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "프론트엔드 지식/(작성예정) Node.js.md",
-    "프론트엔드 지식/(작성예정) Map과 Set.md",
-    "프론트엔드 지식/(작성예정) 자바스크립트와 Dynamic.md",
-    "프론트엔드 지식/(작성예정) IIFE.md",
-    "프론트엔드 지식/(작성예정) Expression & Statement.md",
-    "프론트엔드 지식/(작성예정) ES.md",
-    "프론트엔드 지식/(작성예정) Data Binding.md",
+    "프론트엔드 지식/(내용보완예정) HTTP와 HTTPS.md",
+    "프론트엔드 지식/(내용보완예정) preset.md",
+    "프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
+    "프론트엔드 지식/(내용보완예정) HTTP Method.md",
+    "프론트엔드 지식/(내용보완예정) HTML과 HTML5.md",
+    "프론트엔드 지식/(내용보완예정) 제너레이터.md",
+    "프론트엔드 지식/(내용보완예정) 함수 선언문과 함수 표현식.md",
+    "프론트엔드 지식/(내용보완예정) forEach()와 map().md",
+    "프론트엔드 지식/(내용보완예정) 이벤트 루프.md",
+    "프론트엔드 지식/(내용보완예정) event.target과 event.currentTarget.md",
+    "프론트엔드 지식/(내용보완예정) Display Property.md",
+    "프론트엔드 지식/(내용보완예정) 캐스캐이딩(Cascading).md",
+    "프론트엔드 지식/(내용보완예정) URI, URL.md",
+    "프론트엔드 지식/(내용보완예정) TypeScript.md",
+    "프론트엔드 지식/(내용보완예정) SPA, MPA.md",
+    "프론트엔드 지식/(내용보완예정) Node.js.md",
+    "프론트엔드 지식/(내용보완예정) Map과 Set.md",
+    "프론트엔드 지식/(내용보완예정) IIFE.md",
+    "프론트엔드 지식/(내용보완예정) Expression & Statement.md",
+    "프론트엔드 지식/(내용보완예정) ESLint.md",
+    "프론트엔드 지식/(내용보완예정) CSS와 SASS,SCSS.md",
+    "프론트엔드 지식/(내용보완예정) ES.md",
+    "프론트엔드 지식/(내용보완예정) Data Binding.md",
+    "프론트엔드 지식/(내용보완예정) CRUD & REST.md",
+    "프론트엔드 지식/(내용보완예정) Blocking.md",
+    "프론트엔드 지식/(내용보완예정) bind, apply, call 메소드.md",
     "프론트엔드 지식/무제 폴더",
-    "프론트엔드 지식/(작성예정) Css와 Sass,Scss.md",
-    "프론트엔드 지식/(작성예정) CRUD & REST.md",
-    "프론트엔드 지식/(작성예정) Blocking.md",
-    "프론트엔드 지식/(작성예정) Async, Await.md",
-    "프론트엔드 지식/(작성예정) Ajax.md",
-    "프론트엔드 지식/(작성예정) API.md",
-    "프론트엔드 지식/(작성예정) ESLint.md",
-    "프론트엔드 지식/Clsx 사용해보기.md",
-    "프론트엔드 지식/JWT.md",
-    "프론트엔드 지식/CORS.md",
-    "backend/Spring 강의/DAY 15.md",
     "JWT structure.png",
     "사용 이미지/프론트엔드 지식/JWT",
     "사용 이미지/프론트엔드 지식/CORS",
