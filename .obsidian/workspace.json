@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프론트엔드 지식/JWT.md",
+                "file": "프론트엔드 지식/(작성예정) Expression & Statement.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프론트엔드 지식/JWT.md",
+                "file": "프론트엔드 지식/(작성예정) Expression & Statement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프론트엔드 지식/JWT.md",
+                "file": "프론트엔드 지식/(작성예정) Expression & Statement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프론트엔드 지식/JWT.md"
+                "file": "프론트엔드 지식/(작성예정) Expression & Statement.md"
               }
             }
           }
@@ -147,11 +147,23 @@
   },
   "active": "13c61afbe02d8556",
   "lastOpenFiles": [
+    "프론트엔드 지식/(작성예정) ES.md",
+    "프론트엔드 지식/(작성예정) Expression & Statement.md",
+    "프론트엔드 지식/(작성예정) Data Binding.md",
+    "프론트엔드 지식/무제 폴더",
+    "프론트엔드 지식/(작성예정) Css와 Sass,Scss.md",
+    "프론트엔드 지식/(작성예정) CRUD & REST.md",
+    "프론트엔드 지식/(작성예정) Blocking.md",
+    "프론트엔드 지식/(작성예정) Async, Await.md",
+    "프론트엔드 지식/(작성예정) Ajax.md",
+    "프론트엔드 지식/(작성예정) API.md",
+    "프론트엔드 지식/(작성예정) ESLint.md",
+    "프론트엔드 지식/Clsx 사용해보기.md",
+    "프론트엔드 지식/JWT.md",
     "프론트엔드 지식/CORS.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "backend/Spring 강의/DAY 15.md",
     "backend/Spring 강의/DAY 9.md",
-    "프론트엔드 지식/JWT.md",
     "backend/Spring 강의/DAY 10.md",
     "backend/Spring 강의/DAY 12.md",
     "backend/Spring 강의/DAY 14.md",
@@ -174,25 +186,13 @@
     "Pasted image 20240416103137.png",
     "사용 이미지/프론트엔드 지식/OAuth/oauth refreshtoken.png",
     "프론트엔드 지식/원시 타입과 참조 타입.md",
-    "프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
-    "프론트엔드 지식/Clsx 사용해보기.md",
-    "프론트엔드 지식/Cookie, Session, Web Storage.md",
-    "프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
     "사용 이미지/프론트엔드 지식/OAuth",
-    "React/hook/useEffect.md",
-    "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
-    "Next.js/더 알아보기/package.json과 package-lock.json.md",
-    "Next.js/더 알아보기/rewrite, redirect.md",
-    "Next.js/더 알아보기/Route Segment.md",
-    "Next.js/더 알아보기/Middleware.md",
-    "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill",
     "사용 이미지/프론트엔드 지식",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "사용 이미지/Next.js/Next.js v14.2",
     "사용 이미지/Spring/DAY 11",
-    "backend/Spring 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
