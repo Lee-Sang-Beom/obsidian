@@ -48,7 +48,7 @@
 
 ![[oauth 인증과정.png]]
 - 동작 과정은 위 이미지와 같으며, 그에 따른 설명은 아래와 같다.
-	1. **Resource Owner(User)** 가 Client 서비스를 이용하고자, Client에게 서비스 이용 요청읇 보낸다.
+	1. **Resource Owner(User)** 가 Client 서비스를 이용하고자, Client에게 서비스 이용 요청 보낸다.
 	2. **Client**는 **Authorization(Auth) Server** 측에 **Access Token**을 요청한다.
 	3. Authorization Server는 Resource Owner에게 Client 서비스 이용을 위한 인가 동의를 요청한다.
 	4. Resource Owner는 Authorization Server에게 인가 동의에 대한 응답을 진행한다
