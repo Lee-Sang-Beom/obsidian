@@ -1,16 +1,26 @@
 
-#### 1. SOP, CORS
+#### 1. SOP(Same Origin Policy)
 
 - **SOP**(Same Origin Policy): 다른 출처(Origin)의 리소스를 사용하는 것을 제한하는 보안 정책
 	- 즉, 같은 출처에서만 리소스를 공유할 수 있다는 의미를 가진 정책이다.
 
-- **CORS**(Cross-Origin Resource Sharing): 추가적인 HTTP Header를 사용하여, 한 출처에서 실행중인 웹 애플리케이션이 다른 출처에 있는 외부 리소스에 **접근할 수 있는 권한을 부여할 수 있도록 브라우저에게 알려주는 정책**
+- 브라우저는 기본적으로 **동일 출처 정책(SOP)** 을 지켜, 다른 **출처(Origin)** 의 리소스 접근을 금지한다.
+	- 개발환경이나 Postman을 사용하여 API를 테스트할 때는 문제가 없다가, 브라우저 상에서 API를 호출할 때 문제가 발생하는 이유가 브라우저가 SOP를 준수하기 때문인 것이다.
+
+- 출처(Origin)를 비교하는 로직은 서버에서 구현된 스펙이 아닌 **브라우저에 구현된 스펙이다.**  
+	- 그래서 CORS 정책을 위반하는 요청에 대해 서버가 정상적으로 응답을 하더라도, 브라우저가 이 응답을 분석하여 특정 요청이 CORS 정책에 위반된 것임을 확인하게 되면 그 응답은 정상적으로 처리하지 않게 된다.
+
+
+#### 2. CORS(Cross-Origin Resource Sharing)
 
 > [이미지 출처: '김대은'님의 Velog 포스트 ](https://etloveguitar.tistory.com/83)
 ![[cors err.png]]
 
-- 브라우저는 기본적으로 **동일 출처 정책(SOP)** 을 지켜, 다른 **Origin**의 리소스 접근을 금지한다.
-	- 개발환경이나 Postman을 사용하여 API를 테스트할 때는 문제가 없다가, 브라우저 상에서 API를 호출할 때 문제가 발생하는 이유가 브라우저가 SOP를 준수하기 때문인 것이다.
+- **CORS**(Cross-Origin Resource Sharing): 추가적인 HTTP Header를 사용하여, 한 출처에서 실행중인 웹 애플리케이션이 다른 출처에 있는 외부 리소스에 **접근할 수 있는 권한을 부여할 수 있도록 브라우저에게 알려주는 정책**
+	- CORS 에러는 CORS를 허용하여, 아무런 문제없이 다른 출처의 리소스 공유를 할 수 있도록 해달라는 권고사항과 비슷한 것이다.
+
+
+
 
 #### 2. Origin(출처)
 
@@ -18,8 +28,10 @@
 
 ![[URL.png]]
 - Origin(출처)는 위 이미지와 같은 URL 구조에서 **Protocol, Host, Port**를 합친 것을 의미한다.
+	- **Protocol, Host, Port**가 모두 일치하면, Same Origin이다.
+	- **Protocol, Host, Port** 중 하나라도 일치하지 않는다면 Cross Origin이다.
 
-- Cross-Origin은 다음 중 하나라도 다른 경우에 발생한다.
+- 정리하면, Cross-Origin은 다음 중 하나라도 다른 경우에 발생한다.
 	- 프로토콜 (`http !== https`)
 	- 도메인 (`domain.com !== other-domain.com`)
 	- 포트번호 (`:3000port !== :8000port`)
