@@ -40,14 +40,14 @@
 
 #### 4. CORS 동작 과정
 
-##### > STEP 1. 클라이언트에서, HTTP request header에 Origin을 담아 전달한다.
+##### > STEP 1. 클라이언트에서, HTTP request header(요청 헤더)에 Origin을 담아 전달한다.
 
 > [이미지 출처: '김대은'님의 Velog 포스트 ](https://etloveguitar.tistory.com/83)
 ![[requestHeaderOrigin.png]]
 - 먼저, 웹 애플리케이션이 다른 Origin(출처)의 리소스에 접근하려고 할 때, HTTP 프로토콜을 사용해 요청을 보낸다.
 	- 이 때, request header에는 **Origin** 필드에 요청을 보내는 출처를 포함시킨 상태로 보낸다.
 
-##### > STEP 2. 서버는 HTTP response header에 Access-Control-Allow-Origin을 담아 클라이언트에게 전달한다.
+##### > STEP 2. 서버는 HTTP response header(응답 헤더)에 Access-Control-Allow-Origin을 담아 클라이언트에게 전달한다.
 
 > [이미지 출처: '김대은'님의 Velog 포스트 ](https://etloveguitar.tistory.com/83)
 ![[responseHeaderOrigin.png]]
@@ -139,13 +139,13 @@
 	- 하지만, `fetch, ajax, axios` 등의 API를 사용하면서 서버로 쿠키를 함께 전송해야 하는 경우가 있을 수 있다.
 
 - 이 때, 인증과 관련된 정보를 담을 수 있게 해주는 헤더값이 있는데, 바로 `credentials` 이다. 사용 가능한 옵션은 아래와 같다.
-	1. `omit`: 브라우저는 요청에서 인증 정보를 제외하며, 기본값으로 사용된다.
-	2. `same-origin`: 브라우저는 같은 출처의 요청에 대해서만 인증 정보를 포함한다.
+	1. `omit`: 브라우저는 요청에서 인증 정보를 제외한다.
+	2. `same-origin`: 브라우저는 같은 출처의 요청에 대해서만 인증 정보를 포함한다. (기본값)
 	3. `include`: 브라우저는 모든 CORS 요청에 인증 정보를 포함한다.
 
-- 만약, `same-origin`이나, `include`와 같은 옵션을 사용하여 리소스 요청에 인증정보가 포함되게 되면, 브라우저는 외부 리소스를 요청할 때 `Access-control-allow-origin` 헤더값 이외에도 다양한 정보를  
-- 응답 시에는 **Access-control-allow-origin 헤더에는 와일드카드가 아닌 분명한 출처를 설정**해주어야 하고, **Access-Control-Allow-Credentials를 true**로 설정해주어야 합니다. 그렇지 않으면 **브라우저에 의해 응답이 거부**됩니다.
-
+- 만약 리소스 요청에 인증정보가 포함된 상태에서 다른 출처의 외부 리소스를 요청할 때, 브라우저는 CORS 정책 위반 여부를 검사하는 Rule에 아래 2가지를 추가적으로 검사하게 된다.
+	1. `Access-Control-Allow-Origin` 에는 모든 요청을 허용하는 `*`을 사용할 수 없으며, 명시적인 URL을 사용해야만 한다.
+	2. response header에는 반드시 `Access-Control-Allow-Credentails: true` 가 존재해야 한다
 
 
 
