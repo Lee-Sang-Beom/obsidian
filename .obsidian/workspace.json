@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프론트엔드 지식/(작성예정) Expression & Statement.md",
+                "file": "프론트엔드 지식/(작성예정) 콜백 함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프론트엔드 지식/(작성예정) Expression & Statement.md",
+                "file": "프론트엔드 지식/(작성예정) 콜백 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프론트엔드 지식/(작성예정) Expression & Statement.md",
+                "file": "프론트엔드 지식/(작성예정) 콜백 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프론트엔드 지식/(작성예정) Expression & Statement.md"
+                "file": "프론트엔드 지식/(작성예정) 콜백 함수.md"
               }
             }
           }
@@ -147,8 +147,20 @@
   },
   "active": "13c61afbe02d8556",
   "lastOpenFiles": [
-    "프론트엔드 지식/(작성예정) ES.md",
+    "프론트엔드 지식/(작성예정) bind, apply, call 메소드.md",
+    "프론트엔드 지식/(작성예정) 콜백 함수.md",
+    "프론트엔드 지식/(작성예정) Attribute와 Property.md",
+    "프론트엔드 지식/(작성예정) 일반 함수와 화살표 함수의 차이.md",
+    "프론트엔드 지식/(작성예정) URI, URL.md",
+    "프론트엔드 지식/(작성예정) TypeScript.md",
+    "프론트엔드 지식/(작성예정) SPA, MPA.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+    "프론트엔드 지식/(작성예정) Node.js.md",
+    "프론트엔드 지식/(작성예정) Map과 Set.md",
+    "프론트엔드 지식/(작성예정) 자바스크립트와 Dynamic.md",
+    "프론트엔드 지식/(작성예정) IIFE.md",
     "프론트엔드 지식/(작성예정) Expression & Statement.md",
+    "프론트엔드 지식/(작성예정) ES.md",
     "프론트엔드 지식/(작성예정) Data Binding.md",
     "프론트엔드 지식/무제 폴더",
     "프론트엔드 지식/(작성예정) Css와 Sass,Scss.md",
@@ -161,12 +173,7 @@
     "프론트엔드 지식/Clsx 사용해보기.md",
     "프론트엔드 지식/JWT.md",
     "프론트엔드 지식/CORS.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "backend/Spring 강의/DAY 15.md",
-    "backend/Spring 강의/DAY 9.md",
-    "backend/Spring 강의/DAY 10.md",
-    "backend/Spring 강의/DAY 12.md",
-    "backend/Spring 강의/DAY 14.md",
     "JWT structure.png",
     "사용 이미지/프론트엔드 지식/JWT",
     "사용 이미지/프론트엔드 지식/CORS",
@@ -174,18 +181,11 @@
     "사용 이미지/프론트엔드 지식/CORS/responseHeaderOrigin.png",
     "사용 이미지/프론트엔드 지식/CORS/simple request.png",
     "URL 1.png",
-    "프론트엔드 지식/Access Token과 Refresh Token.md",
-    "프론트엔드 지식/프론트엔드 지식 백링크.md",
     "사용 이미지/프론트엔드 지식/CORS/preflight request.png",
-    "프론트엔드 지식/Webpack, Babel, Polyfill.md",
-    "프론트엔드 지식/Oauth.md",
-    "프론트엔드 지식/npm과 npm 명령어.md",
-    "프론트엔드 지식/DOM.md",
     "사용 이미지/프론트엔드 지식/CORS/requestHeaderOrigin.png",
     "사용 이미지/프론트엔드 지식/CORS/cors err.png",
     "Pasted image 20240416103137.png",
     "사용 이미지/프론트엔드 지식/OAuth/oauth refreshtoken.png",
-    "프론트엔드 지식/원시 타입과 참조 타입.md",
     "사용 이미지/프론트엔드 지식/OAuth",
     "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill",
     "사용 이미지/프론트엔드 지식",
