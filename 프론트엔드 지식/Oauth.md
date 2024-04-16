@@ -48,8 +48,12 @@
 
 ![[oauth 인증과정.png]]
 - 동작 과정은 위 이미지와 같으며, 그에 따른 설명은 아래와 같다.
-	1. Resource Owner(User)가 클라이언트 서비스를 이용하고자, 서비스 이용 요청읇 보낸다.
-	2. 클라이언트는 Authorization(Auth) Server 측에 Access Token을 요청한다.
-	3. Authorization Server는 Resource Owner에게 클라이언트 서비스 이용을 위한 인가 동의를 요청한다.
+	1. **Resource Owner(User)** 가 Client 서비스를 이용하고자, Client에게 서비스 이용 요청읇 보낸다.
+	2. **Client**는 **Authorization(Auth) Server** 측에 **Access Token**을 요청한다.
+	3. Authorization Server는 Resource Owner에게 Client 서비스 이용을 위한 인가 동의를 요청한다.
 	4. Resource Owner는 Authorization Server에게 인가 동의에 대한 응답을 진행한다
-	5. Authorization Server는 Resource Owner에 대한 인가 동의 응답을 받
+	5. Authorization Server는 Resource Owner에 대한 인가 동의 응답을 받으면, **Access Token을 생성해, Client에게 전달**한다.
+	6. Client는 Access Token을 저장한다.
+	7. Client는 Access Token을 가지고, **Resource Server**에 요청을 보낸다.
+	8. Resource Server는 Access Token의 유효성을 검사한 다음, 요청한 리소스를 Client에게 응답한다.
+	9. Client는 Resource Owner가 맨 처음 보냈던 서비스 이용 요청에 대한 응답을 전달한다.
