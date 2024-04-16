@@ -55,7 +55,14 @@
 
 ##### > STEP 3. 클라이언트에서, 자신이 보냈던 요청의 Origin과 서버가 보내준 Access-Control-Allow-Origin을 비교한다.
 
-- 그리고 브라우저는 자신이 request header의 Origin 값이 **응답 헤더 Access-control-allow-origin 의 목록**에 포함되어있는지를 검사합니다.
+- 그리고 브라우저는 request header의 Origin 필드값과 response header의 Access-control-allow-origin 필드값을 비교한다.
+
+- 조금 더 정확히 말하자면, 브라우저는 response header의 Access-control-allow-origin 필드값 목록에 요청을 보낸 측의 출처(Origin)가 포함되어있는지를 검사하는 것이다.
+
+> [!note] 주의) 서버의 응답은 CORS 위반 여부와 관계없다.
+> - 위에서 여럿 말했듯, CORS 정책에 의하여, Origin을 비교하는 작업은 서버 측의 스펙이 아닌, 브라우저 측의 스펙이다.
+> - 따라서, 서버에서 정상적으로 200 status code를 보내도, 브라우저에서 이 응답이 CORS 정책을 위반했다고 분석할 수 있는 것이다.
+> 	- 서버 측 로그에서는 정상 응답했다는 로그만 남으므로, CORS를 정확히 이해해야 이 Error를 해결할 수 있다.
 
 
 ### CORS 에러 해결 방법
@@ -63,6 +70,7 @@
 
 - CORS 에러를 해결하고, 외부 리소스를 위해서는 서버의 응답에 특정 헤더를 포함하는 방식으로 해결할 수 있습니다.
 - 서버 측에서 **Access-Control-Allow-Origin** 헤더에 명시적으로 특정 출처값를 입력해주면, 입력한 해당 출처의 페이지에서는, 외부 리소스 접근이 가능하게 됩니다
+
 
 ##### **그 외)**
 
