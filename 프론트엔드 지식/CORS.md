@@ -69,13 +69,16 @@
 
 - CORS가 실질적으로 작동하는 유형은 총 3가지가 있는데, 여기서는 먼저 simple request에 대해 알아보자
 
-- **Simple Request**방식은 Preflight Request(예비 요청) 과정 없이 서버에 본 요청을 보내는 방법이다.
+> [이미지 출처: '김대은'님의 Velog 포스트 ](https://etloveguitar.tistory.com/83)
+![[simple request.png]]
+
+
+- **Simple Request**방식은 **Preflight Request**(예비 요청) 과정 없이 서버에 본 요청을 보내는 방법이다.
+	- 그리고, 서버가 reponse header에  **Access-control-allow-origin** 필드를 포함해 응답하면, 브라우저는 요청 시 request header에 포함했던 **Origin** 필드값과의 비교를 통해 CORS 정책 위반을 하였는지를 검사한다.
+
+- 이 때의 요청 메소드는 **GET, HEAD, POST** 중 하나여야만 한다.
+- 또한, 
     
-- 서버가 **Access-control-allow-origin** 헤더를 포함해 응답하면, 브라우저는 요청 시, Origin값과의 비교를 통해 CORS 정책 위반을 하였는지를 검사합니다.
-    
-- 이 때의 요청은, 메소드가 GET, HEAD, POST 중 하나여야 하고, 헤더 사용에 제한이 있다는 특징이 있습니다.
-    
-    - **이 조건을 만족해야 해당 요청이 안전한 요청으로 취급되기 때문**입니다.
 
 
 
