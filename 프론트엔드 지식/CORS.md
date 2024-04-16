@@ -77,15 +77,18 @@
 	- 그리고, 서버가 reponse header에  **Access-control-allow-origin** 필드를 포함해 응답하면, 브라우저는 요청 시 request header에 포함했던 **Origin** 필드값과의 비교를 통해 CORS 정책 위반을 하였는지를 검사한다.
 
 - 이 때의 요청 메소드는 **GET, HEAD, POST** 중 하나여야만 한다.
-- 또한, 
-    
 
+- 또한, user-agent가 자동으로 설정한 헤더 필드 외에, 수동으로 설정 가능한 헤더 필드는 **Fetch 명세에서 `CORS-safelisted request-header`로 정의된 것들만 사용할 수 있다.**
+	- `Accept, Accept-Language, Content-Language, Content-Type, DPR, Downlink, Save-Data, Width, Viewport-Width`
+
+- `Content-Type`을 사용하는 경우에는 다음의 값들만 허용된다.
+	- `application/x-www-form-urlencoded, multipart/form-data, text/plain`
 
 
 #### 6. CORS 실제 작동 방식 (예비 요청 : Preflight Request()
 
-
-- 해당 유형은 브라우저가 요청을 한번에 보내지 않고, **예비 요청과 본 요청을 나눠 전송**하는 방법입니다.
+- 해당 유형은 브라우저가 요청을 한번에 보내지 않고, **예비 요청과 본 요청을 나눠 전송**하는 방법이다.
+	- 대부분의 CORS 실제 작동은 해당 방식으로 이루어진다고 생각하면 된다. 
     
 - 이 예비 요청은 **Preflight**이라 부르고, 실제 요청에 사용할 메소드와 헤더 등을 포함하여 요청을 보냅니다. 이 때 **OPTION** 메소드가 사용됩니다.
     
