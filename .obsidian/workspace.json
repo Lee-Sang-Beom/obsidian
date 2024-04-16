@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "6da94de4393c74c7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "839893352e955d26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프론트엔드 지식/CORS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
