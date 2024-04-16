@@ -42,3 +42,14 @@
 - Access Token(액세스 토큰)은 애플리케이션이 사용자(Resource Owner)에게 권한을 위임받은 이후 **리소스를 얻기위해 사용되는 인증 수단**이다.
 - Access Token(액세스 토큰)은 인증 서버(Authorization Server)에서 발급해주며, 이를 받기 위해서는 애플리케이션에서 요청을 보내주어야 한다.
 	- 이 때, **등록 과정에서 만들었던 클라이언트 ID와 비밀번호를 함께 보내야 한다.**
+
+
+#### 3. 동작
+
+![[oauth 인증과정.png]]
+- 동작 과정은 위 이미지와 같으며, 그에 따른 설명은 아래와 같다.
+	1. Resource Owner(User)가 클라이언트 서비스를 이용하고자, 서비스 이용 요청읇 보낸다.
+	2. 클라이언트는 Authorization(Auth) Server 측에 Access Token을 요청한다.
+	3. Authorization Server는 Resource Owner에게 클라이언트 서비스 이용을 위한 인가 동의를 요청한다.
+	4. Resource Owner는 Authorization Server에게 인가 동의에 대한 응답을 진행한다
+	5. Authorization Server는 Resource Owner에 대한 인가 동의 응답을 받
