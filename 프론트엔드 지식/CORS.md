@@ -79,12 +79,22 @@
 - 이 때의 요청 메소드는 **GET, HEAD, POST** 중 하나여야만 한다.
 
 - 또한, user-agent가 자동으로 설정한 헤더 필드 외에, 수동으로 설정 가능한 헤더 필드는 **Fetch 명세에서 `CORS-safelisted request-header`로 정의된 것들만 사용할 수 있다.**
-	- `Accept, Accept-Language, Content-Language, Content-Type, DPR, Downlink, Save-Data, Width, Viewport-Width`
+	- `Accept(클라이언트가 지원하는 미디어 타입)`
+	- `Accept-Language(클라이언트가 선호하는 언어)`
+	- `Content-Language(해당 리소스의 언어)
+	- `Content-Type(클라이언트 측 본문 데이터 유형)`
+	- `DPR(디바이스 픽셀비율)`
+	- `Downlink(사용자 네트워크 다운링크 속도)`
+	- `Save-Data(사용자가 데이터를 절약하는 모드를 사용 중인가?)`
+	- `Width(뷰포트 너비)`
+	- `Viewport-Width(뷰포트 가로너비)`
 
 - `Content-Type(클라이언트가 서버에게 전송하는 본문 데이터의 유형)`을 사용하는 경우에는 다음의 값들만 허용된다.
 	- `application/x-www-form-urlencoded(HTML 폼데이터), multipart/form-data(파일 업로드와 같은 다중부분 폼 데이터), text/plain(텍스트데이터)`
 	- `application/json, application/xml`은 사용할 수 없다.
 		- 보통 POST method는 `apllication/json`을 많이 사용하기 때문에 그닥 잘 사용하지 않는 방식이다.
+
+- 헤더에 대하여 더 궁금하다면, [여기](https://velog.io/@leemember/HTTP-%ED%97%A4%EB%8D%94)를 참고하자.
 
 
 #### 6. CORS 실제 작동 시나리오 (예비 요청 : Preflight Request()
