@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7e772c4baac27eaa",
+        "id": "9dd4ad4363627e90",
         "type": "tabs",
         "children": [
           {
-            "id": "13c61afbe02d8556",
+            "id": "1a1d058f6aa0b485",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프론트엔드 지식/Webpack, Babel, Polyfill.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "bacec8e011c4b647",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "41b34b0875740c46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프론트엔드 지식/JWT.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프론트엔드 지식/Webpack, Babel, Polyfill.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프론트엔드 지식/Webpack, Babel, Polyfill.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프론트엔드 지식/Webpack, Babel, Polyfill.md"
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md"
               }
             }
           }
@@ -163,34 +145,34 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "13c61afbe02d8556",
+  "active": "1a1d058f6aa0b485",
   "lastOpenFiles": [
-    "프론트엔드 지식/JWT.md",
-    "프론트엔드 지식/Webpack, Babel, Polyfill.md",
-    "프론트엔드 지식/(내용보완예정) preset.md",
-    "프론트엔드 지식/(내용보완예정) HTTP와 HTTPS.md",
-    "프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
-    "프론트엔드 지식/(내용보완예정) HTTP Method.md",
-    "프론트엔드 지식/(내용보완예정) HTML과 HTML5.md",
-    "프론트엔드 지식/(내용보완예정) 제너레이터.md",
-    "프론트엔드 지식/(내용보완예정) 함수 선언문과 함수 표현식.md",
-    "프론트엔드 지식/(내용보완예정) forEach()와 map().md",
-    "프론트엔드 지식/(내용보완예정) 이벤트 루프.md",
-    "프론트엔드 지식/(내용보완예정) event.target과 event.currentTarget.md",
-    "프론트엔드 지식/(내용보완예정) Display Property.md",
-    "프론트엔드 지식/(내용보완예정) 캐스캐이딩(Cascading).md",
-    "프론트엔드 지식/(내용보완예정) URI, URL.md",
-    "프론트엔드 지식/(내용보완예정) TypeScript.md",
-    "프론트엔드 지식/(내용보완예정) SPA, MPA.md",
-    "프론트엔드 지식/(내용보완예정) Node.js.md",
-    "프론트엔드 지식/(내용보완예정) Map과 Set.md",
-    "프론트엔드 지식/(내용보완예정) IIFE.md",
-    "프론트엔드 지식/(내용보완예정) Expression & Statement.md",
-    "프론트엔드 지식/(내용보완예정) ESLint.md",
-    "프론트엔드 지식/(내용보완예정) CSS와 SASS,SCSS.md",
-    "프론트엔드 지식/(내용보완예정) ES.md",
-    "프론트엔드 지식/(내용보완예정) Data Binding.md",
-    "프론트엔드 지식/(내용보완예정) CRUD & REST.md",
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
+    "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Scope.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Require, Import.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Promise.md",
+    "짧게 정리한 프론트엔드 지식/JWT.md",
+    "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) preset.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP와 HTTPS.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP Method.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTML과 HTML5.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 제너레이터.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 함수 선언문과 함수 표현식.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) forEach()와 map().md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 루프.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) event.target과 event.currentTarget.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Display Property.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 캐스캐이딩(Cascading).md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) URI, URL.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) TypeScript.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) SPA, MPA.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Node.js.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Map과 Set.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) IIFE.md",
     "프론트엔드 지식/무제 폴더",
     "JWT structure.png",
     "사용 이미지/프론트엔드 지식/JWT",
