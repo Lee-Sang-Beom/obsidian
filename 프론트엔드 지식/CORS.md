@@ -12,7 +12,12 @@
 > [이미지 출처: 쿼카러버의 기술 블로그](https://etloveguitar.tistory.com/83)
 ![[Pasted image 20240416103137.png]]
 
-- 
+- Origin(출처)는 위 이미지와 같은 URL 구조에서 **Protocol, Host, Port**를 합친 것을 의미한다.
+
+- Cross-Origin은 다음 중 하나라도 다른 경우에 발생한다.
+	- 프로토콜 (`http !== https`)
+	- 도메인 (`domain.com !== other-domain.com`)
+	- 포트번호 (`:3000port !== :8000port`)
 ### CORS 에러 해결 방법
 
 
