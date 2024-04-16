@@ -73,10 +73,13 @@
 
 > **3️⃣ Signature(서명)**
 - 서명(Signature)은 **토큰을 인코딩**하거나 **유효성 검증**을 할 때 사용하는 고유한 암호화 코드이다.
-	- Header(헤더)와 Payload(페이로드), 그리고 비밀 키(서버가 갖고 있는 유일한 key값)를 기반으로 생성되며 **해당 토큰이 변조되지 않았음을 확인**하기 위한 메커니즘이다.
+	- 서명(Signature)은 Header(헤더)와 Payload(페이로드), 그리고 비밀 키(서버가 갖고 있는 유일한 key값)을 기반으로 생성된다.
+	- Header(헤더)에서 정의한 알고리즘(`alg`)으로 암호화를 진행한다.
 
-- Header와 Payload는 단순히 Base64로 인코딩되어 있을 뿐이라 누구나 쉽게 복호화가 가능하지만, Signature는 key가 없으면 복호화할 수 없다.
+- Header와 Payload는 단순히 Base64로 인코딩되어 있을 뿐이라 누구나 쉽게 복호화가 가능하지만,  서버 측에서 관리하는 비밀키가 유출되지 않는 이상 복호화할 수 없다
 	- 이를 통해 Signature는 **보안상 안전하다**는 특성을 가진다고 말할 수 있다.
+
+ - Signature(서명)는 **해당 토큰이 위조/변조되지 않았음을 확인**하는 데에 사용되는 **매커니즘**이다.
 
  **※ 서명 생성 과정**
 1. 헤더(Header)와 페이로드(Payload)의 값을 각각 **Base64**로 인코딩
@@ -105,6 +108,8 @@
 > https://liveyourit.tistory.com/183
 
 
+- 인증 과정은 아래와 같다. [출처 : inpa님의 개발블로그](https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-JWTjson-web-token-%EB%9E%80-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC#token_%EB%B0%A9%EC%8B%9D%EC%9D%98_%EB%8B%A8%EC%A0%90)
+![[Pasted image 20240416174317.png]]
 #### 5. 장점 및 단점
 
 > 장점
