@@ -72,3 +72,9 @@
 - OAuth의 동작 과정 중, "Client는 Access Token을 가지고, **Resource Server**에 요청을 보낸다." 과정을 기억하는가?
 	- 그 과정에서 만료된 **Access Token을 Resource Server에게 전달하면, 당연히 유효하지 않은 Token이기 때문에, Error가 발생**할 것이다.
 	- 이 때, Client는 Authorization Server에게 Refresh Token을 전달하여 Access Token을 달라고 요청하기만 하면, Authorization Server는 Access Token과 Refresh Token을 포함하여, 응답을 진행해준다.
+
+
+#### 5. 문제
+
+- OAuth 인터페이스에는 **유저 정보를 어떻게 보내야 한다**라는 표준이 없다. 
+	- 따라서, 각 서비스 제공자(Provider)마다 유저 데이터를 다른 방식으로 넘겨주기 때문에, 클라이언트가 각각의 인터페이스에 개별적으로 대응해야 한다는 불편이 있다.
