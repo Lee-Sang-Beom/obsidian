@@ -138,10 +138,28 @@
 - 일반적으로, 브라우저는 CORS 요청에서 인증정보를 자동으로 포함하지 않는다. 
 	- 하지만, `fetch, ajax, axios` 등의 API를 사용하면서 서버로 쿠키를 함께 전송해야 하는 경우가 있을 수 있다.
 
-- 이 때, 인증과 관련된 정보를 담을 수 있게 해주는 헤더값이 있는데, 바로 `credentials` 이다. 사용 가능한 옵션은 아래와 같다.
+- 이 때, 인증과 관련된 정보를 담을 수 있게 해주는 설정 값이 있는데, 바로 `credentials` 이다. 사용 가능한 옵션은 아래와 같다.
 	1. `omit`: 브라우저는 요청에서 인증 정보를 제외한다.
 	2. `same-origin`: 브라우저는 같은 출처의 요청에 대해서만 인증 정보를 포함한다. (기본값)
 	3. `include`: 브라우저는 모든 CORS 요청에 인증 정보를 포함한다.
+```js
+fetch('https://example.com/api/data', {
+  method: 'GET',
+  credentials: 'include' // 인증 정보를 포함하여 요청
+})
+.then(response => {
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
+  }
+  return response.json(); // JSON 데이터를 파싱하여 반환
+})
+.then(data => {
+  console.log('Received data:', data);
+})
+.catch(error => {
+  console.error('There was a problem with your fetch operation:', error);
+});
+```
 
 - 만약 리소스 요청에 인증정보가 포함된 상태에서 다른 출처의 외부 리소스를 요청할 때, 브라우저는 CORS 정책 위반 여부를 검사하는 Rule에 아래 2가지를 추가적으로 검사하게 된다.
 	1. `Access-Control-Allow-Origin` 에는 모든 요청을 허용하는 `*`을 사용할 수 없으며, 명시적인 URL을 사용해야만 한다.
@@ -151,6 +169,6 @@
 > - 서버가 요청에 대한 응답으로 인증정보를 포함하는 것을 허용할 지에 대한 여부를 나타내는 응답 헤더 중 하나이다.
 > - 이 헤더의 값이 `true`로 설정되어 있으면, 클라이언트 브라우저는 CORS 요청을 보낼 때 요청에 사용된 출처와 서버의 출처가 동일하거나 서버가 모든 출처로부터 요청을 허용하는 경우에만 응답을 수신할 때 인증 정보(예: 쿠키, HTTP 인증 등)를 전송한다.
 > - 만약, 이 헤더의 값이 `false`로 설정되어 있거나, 생략된 경우라면 클라이언트 브라우저는 인증 정보를 전송하지 않는다.
-> - 즉, `Access-Control-Allow-Credentials: true` 헤더는 CORS 요청에 대한 응답으로 서버가 인증 정보를 포함하는 것을 허용한다는 것을 클라이언트에게 알려줍니다. 이를 통해 클라이언트는 요청을 보낼 때 인증 정보를 포함하여 서버로부터 요청에 대한 적절한 응답을 받을 수 있습니다.
+> - 즉, `Access-Control-Allow-Credentials: true` 헤더는 CORS 요청에 대한 응답으로 서버가 인증 정보를 포함하는 것을 허용한다는 것을 클라이언트에게 알려준다. 이를 통해 클라이언트는 요청을 보낼 때 인증 정보를 포함하여 서버로부터 요청에 대한 적절한 응답을 받을 수 있다.
 
 
