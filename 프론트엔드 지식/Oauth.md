@@ -64,6 +64,8 @@
 ![[oauth refreshtoken.png]]
 - Access Token은 갱신 주기가 짧기 때문에, 만료 시마다 서버에 재요청을 진행해주어야 한다.
 	- 많은 **Resource Owner**가 존재한다고 가정하고, Client가 만료된 Access Token을 갱신하기 위해, Authorization Server에게 Access Tooken을 재발급받으려 하는 상황을 생각해보자. 
-		- 통신 횟수가 굉장히 많이 늘어나기 때문에 이러한 상황은 비효율적이라 볼 수 있다.
-	- 이런 문제를 해결하기 위해, Authorization Server에서는 Access Token 외에도 추가적으로, **Reffresh Token**이라는 것도 추가로 발급해준다.
-	- Refresh Token이 유효하면, Access Token을 재발급해준다.
+		- 통신 횟수가 굉장히 많이 늘어날 것 같지 않은가?
+	
+	- 이런 문제를 해결하기 위해, Authorization Server에서는 Client가 Access Token을 요청할 때, **Reffresh Token**이라는 것도 추가로 발급해준다.
+
+- 위 이미지를 보면, 
