@@ -6,6 +6,7 @@
       {
         "id": "840f9285e35026ef",
         "type": "tabs",
+        "dimension": 50.9375,
         "children": [
           {
             "id": "121865be62464047",
@@ -24,6 +25,7 @@
       {
         "id": "b309e30e8de50e22",
         "type": "tabs",
+        "dimension": 49.0625,
         "children": [
           {
             "id": "42b0997b42593f81",
@@ -101,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+                "file": "backend/Spring 강의/DAY 17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+                "file": "backend/Spring 강의/DAY 17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+                "file": "backend/Spring 강의/DAY 17.md"
               }
             }
           }
@@ -162,10 +164,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "42b0997b42593f81",
+  "active": "121865be62464047",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/DAY 16.md",
     "backend/Spring 강의/DAY 15.md",
     "backend/Spring 강의/DAY 14.md",
