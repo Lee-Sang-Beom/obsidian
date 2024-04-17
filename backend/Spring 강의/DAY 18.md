@@ -72,9 +72,13 @@ memberService.join(member1); // 최초 저장은 문제 없어야 함
 ```
 
 - 이미 데이터베이스에는 `user1`이라는 name으로 추가된 row가 있으므로, 에러가 발생한다.
-![[Pasted image 20240417140416.png]]
+![[join문 실패.png]]
 
 - 그럼, member table의 내용을 지워보자
 ```sql
+/* 테이블의 모든 행 삭제 */
 DELETE FROM MEMBER
+
+/* 만약 테이블 자체를 삭제하고 싶다면? */
+/* DROP TABLE MEMBER */
 ```

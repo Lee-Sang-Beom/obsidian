@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "840f9285e35026ef",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "121865be62464047",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/Spring 강의/DAY 18.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "a6a597dbf5127ff9",
         "type": "tabs",
         "children": [
@@ -29,9 +11,11 @@
             "id": "95e25259dfbf331a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+                "file": "backend/Spring 강의/DAY 18.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -162,16 +146,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "121865be62464047",
+  "active": "95e25259dfbf331a",
   "lastOpenFiles": [
-    "Pasted image 20240417140416.png",
-    "backend/Spring 강의/Spring 강의 학습 백링크.md",
-    "backend/Spring 강의/DAY 18.md",
+    "join문 실패.png",
+    "사용 이미지/Spring/DAY 17/구현 클래스 추가 이미지.png",
+    "사용 이미지/Spring/DAY 18",
     "backend/Spring 강의/DAY 17.md",
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
-    "Pasted image 20240417133316.png",
+    "사용 이미지/Spring/DAY 17/스프링 설정 이미지.png",
     "Pasted image 20240417133314.png",
-    "Pasted image 20240417133130.png",
+    "backend/Spring 강의/DAY 18.md",
+    "backend/Spring 강의/Spring 강의 학습 백링크.md",
+    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "사용 이미지/Spring/DAY 17/프로젝트 실행결과 1.png",
     "사용 이미지/Spring/DAY 17/프로젝트 실행결과 2.png",
     "사용 이미지/Spring/DAY 17",
@@ -191,7 +176,6 @@
     "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
     "backend/Spring 강의/DAY 2.md",
     "사용 이미지/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
-    "사용 이미지/JSP/JSP 실습 1 결과.png",
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
     "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
@@ -209,7 +193,6 @@
     "사용 이미지/프론트엔드 지식/CORS",
     "사용 이미지/프론트엔드 지식/OAuth",
     "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill",
-    "사용 이미지/프론트엔드 지식",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",

@@ -325,11 +325,11 @@ public class SpringConfig {
 
 > 구현 클래스 추가 이미지 
 - 데이터를 관리하는 리포지토리가 메모리를 사용하는 리포지토리와 JDBC 를 사용하는 리포지토리가 있다.
-![[Pasted image 20240417133130.png]]
+![[구현 클래스 추가 이미지.png]]
 
 > 스프링 설정 이미지 (스프링 빈에서, memberService는 JdbcMemberRepository 인스턴스 사용)
 
-![[Pasted image 20240417133316.png]]
+![[스프링 설정 이미지.png]]
 
 ```java
 package hello.hellospring;  
