@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md"
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "976820df6848f3d6",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "jwt process.webp",
     "비대칭키 동작.png",

@@ -134,9 +134,13 @@
 > JWT 동작과정 [(이미지 출처: opennaru 블로그)](http://www.opennaru.com/opennaru-blog/jwt-json-web-token/)
 
 ![[jwt process.webp]]
+1. 사용자가 ID/PW를 입력하여 로그인 요청
+2. 서버는 요청을 확인한 후, 비밀키를 이용하여 JWT를 만든다.
+	- JWT는 Access Token의 한 유형이다.
 
-- 
-
+3. 서버는 클라이언트에게 JWT를 전달한다.
+4. 이후, 클라이언트(사용자)는 서비스 이용과 같은 이유로 서버에게 JWT 전달
+	- 이 때, `fetch, ajax, axios`등의 API를 사용할 수 있으며, API를 요청하
 #### 6. 장점 및 단점
 
 > **장점**
