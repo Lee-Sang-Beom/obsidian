@@ -11,12 +11,8 @@
             "id": "976820df6848f3d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "짧게 정리한 프론트엔드 지식/JWT.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,15 +140,15 @@
   },
   "active": "976820df6848f3d6",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
+    "Pasted image 20240416174317.png",
+    "Pasted image 20240416174311.png",
     "짧게 정리한 프론트엔드 지식/JWT.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
     "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
     "jwt process.webp",
     "비대칭키 동작.png",
     "대칭키 동작.png",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
-    "Pasted image 20240416174317.png",
-    "Pasted image 20240416174311.png",
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) use strict.md",
@@ -178,7 +170,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 프로그래밍 방법론.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 자바스크립트의 배열.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 웹 표준.md",
     "프론트엔드 지식/무제 폴더",
     "JWT structure.png",
     "사용 이미지/프론트엔드 지식/JWT",
