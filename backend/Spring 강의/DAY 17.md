@@ -264,3 +264,51 @@ if (maybeName.isPresent()) {
     System.out.println("Name is not available.");
 }
 ```
+
+
+#### 3. 스프링 설정 변경
+
+```java
+package hello.hellospring;  
+  
+import hello.hellospring.repository.JdbcMemberRepository;  
+import hello.hellospring.repository.MemberRepository;  
+import hello.hellospring.repository.MemoryMemberRepository;  
+import hello.hellospring.service.MemberService;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.context.annotation.Bean;  
+import org.springframework.context.annotation.Configuration;  
+  
+import javax.sql.DataSource;  
+  
+ 
+@Configuration  
+public class SpringConfig {  
+  
+    private DataSource dataSource;  
+  
+    @Autowired  
+    public SpringConfig(DataSource dataSource){  
+        this.dataSource = dataSource;  
+    }  
+    
+    @Bean
+    public MemberService memberService(){  
+        return new MemberService(memberRepository());  
+    }  
+    @Bean  
+    public MemberRepository memberRepository(){  
+        return new JdbcMemberRepository(dataSource);  
+  
+    }  
+}
+```
+
+- `SpringConfig`는 `application.properties`에서 설정된 내용을 기반으로 스프링이 자체적으로 Bean을 생성해준다.
+	- 데이터베이스와 연결할 수 있는 DataSource를 만들어준다.
+	- DI를 위해, 위와 같이 구성해주면 된다.
+
+- 정리하면, 아래와 같다.
+	- DataSource는 데이터베이스 Connection을 획득할 때 사용하는 객체이다.
+	- 스프링 부트는 데이터베이스 Connection 정보를 바탕으로 DataSource를 생성하고, 스프링 빈으로 만들어둔다. 
+	- 그래서 DI를 받을 수 있다

@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "a6a597dbf5127ff9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95e25259dfbf331a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,12 +162,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "121865be62464047",
   "lastOpenFiles": [
-    "사용 이미지/Spring/DAY 17",
-    "사용 이미지/Spring/DAY 17/id and name table.png",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/DAY 17.md",
+    "사용 이미지/Spring/DAY 17",
+    "사용 이미지/Spring/DAY 17/id and name table.png",
     "backend/Spring 강의/DAY 16.md",
     "backend/Spring 강의/DAY 15.md",
     "backend/Spring 강의/DAY 14.md",
@@ -193,7 +209,6 @@
     "사용 이미지/프론트엔드 지식/OAuth",
     "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill",
     "사용 이미지/프론트엔드 지식",
-    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
