@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "2d4a4d61da4b7f49",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2089a1e852d35a3e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "204d81942790c738",
         "type": "tabs",
         "children": [
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+                "file": "backend/Spring 강의/DAY 16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+                "file": "backend/Spring 강의/DAY 16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+                "file": "backend/Spring 강의/DAY 16.md"
               }
             }
           }
@@ -162,10 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2089a1e852d35a3e",
+  "active": "6e63d869199b6f80",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 16.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 강의/DAY 16.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
     "backend/Spring 강의/DAY 15.md",
