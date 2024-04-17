@@ -77,4 +77,6 @@ select * from member;
 > 4. **TRUNCATE**: 테이블의 모든 데이터를 삭제한다.  DROP과 유사하지만, 테이블 구조는 유지된다. 
 > 5. **COMMENT**: 데이터베이스 객체에 대한 주석을 추가한다. 
 
-- 앞서 member table을 생성한 DDL문을, 프로젝트에서 관리하기 위해 `프로젝트명/sql/ddl.sql` 파일을 생성해보자.
+- 앞서 member table을 생성한 DDL문을, 프로젝트에서 관리해보자.
+	- `프로젝트명/sql` 경로 하위에 `ddl.sql`이라 파일을 생성한 후, DDL문을 저장하면 된다.
+![[ddl.sql 최초저장.png]]
