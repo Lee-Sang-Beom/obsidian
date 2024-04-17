@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 16.md",
+                "file": "Next.js/더 알아보기/Middleware.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 16.md",
+                "file": "Next.js/더 알아보기/Middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 16.md",
+                "file": "Next.js/더 알아보기/Middleware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 16.md"
+                "file": "Next.js/더 알아보기/Middleware.md"
               }
             }
           }
@@ -146,12 +146,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "6e63d869199b6f80",
   "lastOpenFiles": [
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+    "backend/Spring 강의/DAY 16.md",
     "insert 결과.png",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
-    "backend/Spring 강의/DAY 16.md",
     "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
     "backend/Spring 강의/DAY 15.md",
     "backend/Spring 강의/DAY 2.md",
@@ -175,7 +176,6 @@
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Node.js.md",
     "짧게 정리한 프론트엔드 지식/SPA, MPA.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Scope.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) preset.md",
     "React/React 백링크.md",
@@ -188,7 +188,6 @@
     "사용 이미지/프론트엔드 지식/JWT",
     "사용 이미지/프론트엔드 지식/CORS",
     "사용 이미지/프론트엔드 지식/CORS/URL.png",
-    "사용 이미지/프론트엔드 지식/CORS/responseHeaderOrigin.png",
     "사용 이미지/프론트엔드 지식/OAuth",
     "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill",
     "사용 이미지/프론트엔드 지식",
