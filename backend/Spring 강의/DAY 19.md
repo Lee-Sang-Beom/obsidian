@@ -79,7 +79,38 @@ spring.datasource.username=sa
 
 #### 3. `findById` 구현하기
 
-- 구현된 결과부터 확인해보자.
+- 이전에는 어땠을까?
+	- jdbcTemplate를 사용한 코드가 확실히 짧은 것을 체감할 수 있을 것이다.
+```java
+@Override  
+public Optional<Member> findById(Long id) {  
+	String sql = "select * from member where id = ?";  
+	Connection conn = null;  
+	PreparedStatement pstmt = null;  
+	ResultSet rs = null;  
+	try {  
+		conn = getConnection();  
+		pstmt = conn.prepareStatement(sql);  
+		pstmt.setLong(1, id);  
+		rs = pstmt.executeQuery();  
+		if (rs.next()) {  
+			Member member = new Member();  
+			member.setId(rs.getLong("id"));  
+			member.setName(rs.getString("name"));  
+			return Optional.of(member);  
+		} else {  
+			return Optional.empty();  
+		}  
+	} catch (Exception e) {  
+		throw new IllegalStateException(e);  
+	} finally {  
+		close(conn, pstmt, rs);  
+	}  
+}  
+
+```
+
+- 이제 구현 결과를 확인해보자.
 	- `jdbcTemplate.query` 메소드의 인자로, 원하는 쿼리와 함수를 전달하니, Member 타입의 List를 포함하는 `result`가 반환되는 것을 확인할 수 있다.
 ```java
 @Override  
@@ -87,8 +118,23 @@ public Optional<Member> findById(Long id) {
     List<Member> result = jdbcTemplate.query("select * from member where id = ?", memberRowMapper());  
     return result.stream().findAny();  
 }
+
+// ...
+
+private RowMapper<Member> memberRowMapper(){  
+    return (rs, rowNum) -> {  
+        Member member = new Member();  
+        member.setId(rs.getLong("id"));  
+        member.setName(rs.getString("name"));  
+        return member;  
+    };  
+}
+
 ```
 
-- 이전에는 어땠을까?
-```java
-```
+- `jdbcTemplate.query(String sql, RowMapper<T> rowMapper, Object... args)` 메소드는 `jdbcTemplate`를 사용하여 SQL 쿼리를 실행한 것이다.
+	- 첫 번째 매개변수인 `sql`은 실행할 SQL 쿼리문을 나타낸다.
+	- 두 번째 매개변수인 `memberRowMapper()`는 결과 집합을 매핑할 RowMapper를 제공한다.
+	- 세 번째 매개변수 `args`는 SQL 쿼리에 전달할 파라미터들을 나타낸다. 이 경우에는 `id`를 사용하여 SQL 쿼리에 바인딩된다.
+
+-  `memberRowMapper()` 메서드는 `RowMapper<Member>`를 반환합니다. 이는 결과 집합의 각 행(row)을 `Member` 객체로 매핑하는 데 사용됩니다. `RowMapper<Member>`는 `ResultSet`에서 각 행의 데이터를 추출하여 `Member` 객체로 변환하는 인터페이스입니다.
