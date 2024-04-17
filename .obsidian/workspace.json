@@ -6,7 +6,6 @@
       {
         "id": "840f9285e35026ef",
         "type": "tabs",
-        "dimension": 50.9375,
         "children": [
           {
             "id": "121865be62464047",
@@ -17,23 +16,6 @@
                 "file": "backend/Spring 강의/DAY 17.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "b309e30e8de50e22",
-        "type": "tabs",
-        "dimension": 49.0625,
-        "children": [
-          {
-            "id": "42b0997b42593f81",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
               }
             }
           }
@@ -166,6 +148,7 @@
   },
   "active": "121865be62464047",
   "lastOpenFiles": [
+    "Pasted image 20240417131231.png",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/DAY 16.md",

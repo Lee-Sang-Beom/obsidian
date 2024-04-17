@@ -214,10 +214,12 @@ try {
     pstmt.executeUpdate();
     
     // Statement.RETURN_GENERATED_KEYS를 사용함으로써, 자동으로 생성한 키를 반환받을 수 있음
+    // 4번 설명 
     rs = pstmt.getGeneratedKeys();
 
 	// rs.next()는 데이터베이스 결과 집합에서 다음 행으로 이동하고 해당 행이 있는지 여부를 확인하는 메서드  
-	if (rs.next()) {  
+	if (rs.next()) {
+	// `getLong(1)`은 ResultSet의 현재 행에서 지정된 인덱스(1부터 시작)에 해당하는 데이터를 long 형식으로 가져오는 메서드이다.  
     member.setId(rs.getLong(1));  
 	} else {  
 	    throw new SQLException("id 조회 실패");  
@@ -239,6 +241,12 @@ try {
 3. `pstmt.setString(1, member.getName());`에서의 `1`은 `placeholder`의 인덱스를 나타낸다.
 	- 이는 SQL 쿼리에서 `?`로 표시된 각 `placeholder`의 위치를 지정하는 것이다.
 	- 여기서는, `insert into member(name) values(member.getName())`이 될 것이다.
+
+4. `ResultSet` 객체는 데이터베이스 쿼리를 실행한 결과를 가리키는 커서 역할을 하며, 이를 통해 데이터베이스로부터 가져온 행(row)들을 하나씩 탐색하고 해당 행의 데이터를 가져올 수 있다.
+	- 만약, 아래와 같은 테이블이 있다고 가정해보자. 
+	- 맨 처음 행에 대하여 `resultSet`에서 데이터를 가져오는 부분이 아래와 같이 구현되어 있다면 아래 처럼 할당이 이루어질 것이다.
+		- `id = 1`, `name='user1'`
+![[Pasted image 20240417131231.png]]
 
 ###### ※ 참고 - **Optional**  
  * Optional은 Java 8에서 소개된 클래스로, 값이 있을 수도 있고 없을 수도 있는 값을 나타내는 컨테이너 클래스이다.  
