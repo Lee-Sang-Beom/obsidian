@@ -193,6 +193,8 @@ String sql = "insert into member(name) values(?)";
 		- 대개 `PreparedStatement` 클래스를 사용하여 이러한 작업을 수행합니다.
 
 ```java
+
+// 1번 설명
 String sql = "insert into member(name) values(?)";  
 Connection conn = null;  
 PreparedStatement pstmt = null;  
@@ -200,16 +202,24 @@ ResultSet rs = null;
 try {  
 	// DB와의 connection 정보를 가져온다.
     conn = getConnection();  
-
-	// sql 쿼리를 실행할 preparedstatement 생성
-	// `Statement.RETURN_GENERATED_KEYS`는 자동 생성된 키를 반환하도록 설정하는 부분
+    
+	// 2번 설명
     pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);  
+
+	// 3번 설명
     pstmt.setString(1, member.getName());  
     pstmt.executeUpdate();  
     rs = pstmt.getGeneratedKeys();
 } // ...
 ```
 
-- 위의 코드에서 `?`는 `PreparedStatement`에 전달되는 값을 나타내며, `PreparedStatement` 인터페이스의 `setString()` 메서드를 사용하여 이 값을 설정한다.
+1. 위의 코드에서 `?`는 `PreparedStatement`에 전달되는 값을 나타내며, `PreparedStatement` 인터페이스의 `setString()` 메서드를 사용하여 이 값을 설정한다.
 	- 이렇게 하면 사용자 입력 등으로부터의 **SQL 삽입 공격(SQL injection)** 을 방지할 수 있다.
 	- 사용자 입력에 직접 값을 삽입하는 대신 `PreparedStatement`를 사용하면, 입력 값이 이미 쿼리에 삽입되기 전에 적절하게 escape되어 쿼리의 일부로 해석되지 않는다.
+
+2. SQL 쿼리를 실행할 `preparedstatement` 객체를 생성한다.	
+	- 이 때, `Statement.RETURN_GENERATED_KEYS` 옵션을 설정하면, 데이터베이스가 **자동으로 생성한 키**를 반환하여 사용자가 이를 이용할 수 있게 한다.
+
+3. `pstmt.setString(1, member.getName());`에서의 `1`은 `placeholder`의 인덱스를 나타낸다.
+	- 이는 SQL 쿼리에서 `?`로 표시된 각 `placeholder`의 위치를 지정하는 것이다.
+	- 
