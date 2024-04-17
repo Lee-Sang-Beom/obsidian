@@ -137,4 +137,14 @@ private RowMapper<Member> memberRowMapper(){
 	- 두 번째 매개변수인 `memberRowMapper()`는 결과 집합을 매핑할 RowMapper를 제공한다.
 	- 세 번째 매개변수 `args`는 SQL 쿼리에 전달할 파라미터들을 나타낸다. 이 경우에는 `id`를 사용하여 SQL 쿼리에 바인딩된다.
 
--  `memberRowMapper()` 메서드는 `RowMapper<Member>`를 반환합니다. 이는 결과 집합의 각 행(row)을 `Member` 객체로 매핑하는 데 사용됩니다. `RowMapper<Member>`는 `ResultSet`에서 각 행의 데이터를 추출하여 `Member` 객체로 변환하는 인터페이스입니다.
+-  `memberRowMapper()` 메서드는 `RowMapper<Member>`를 반환한다. 이는 결과 집합의 각 행(row)을 `Member` 객체로 매핑하는 데 사용된다. 
+	- `RowMapper<Member>`는 `ResultSet`에서 각 행의 데이터를 추출하여 `Member` 객체로 변환하는 인터페이스이다.
+	- `RowMapper<Member>`를 람다 표현식으로 구현한 부분에서는 `ResultSet`에서 회원의 ID와 이름을 추출하여 새로운 `Member` 객체를 생성하고 반환한다.
+		- 이 때, 조회된 결과는 `List<Member>` 형태로 반환됩니다.
+
+- `result.stream().findAny()`는 스트림(Stream)에서 임의의 요소를 반환하는 메소드이다.
+	- `result`는 `List<Member>` 타입의 객체로, `stream()` 메소드를 호출하여 이 리스트를 스트림으로 변환한 후, `findAny()` 메서드를 호출하여 스트림에서 임의의 요소를 찾는다.
+	- 만약, 리스트가 비어있다면 빈 `Optional`을 반환합니다.
+
+
+#### 4. 나머지 코드 모두 
