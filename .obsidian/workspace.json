@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 18.md",
+                "file": "짧게 정리한 프론트엔드 지식/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 18.md",
+                "file": "짧게 정리한 프론트엔드 지식/CORS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 18.md"
+                "file": "짧게 정리한 프론트엔드 지식/CORS.md"
               }
             }
           }
@@ -164,12 +164,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "95e25259dfbf331a",
+  "active": "1d193eff4fc06985",
   "lastOpenFiles": [
+    "backend/Spring 강의/DAY 18.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
-    "backend/Spring 강의/DAY 18.md",
     "join문 성공.png",
     "join문 실패.png",
     "사용 이미지/Spring/DAY 17/구현 클래스 추가 이미지.png",
