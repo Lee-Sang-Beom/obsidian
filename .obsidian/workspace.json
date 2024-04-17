@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
+                "file": "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
+                "file": "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
+                "file": "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/JWT.md"
+                "file": "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "976820df6848f3d6",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "짧게 정리한 프론트엔드 지식/JWT.md",
+    "jwt process.webp",
+    "비대칭키 동작.png",
+    "대칭키 동작.png",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "Pasted image 20240416174317.png",
     "Pasted image 20240416174311.png",
     "짧게 정리한 프론트엔드 지식/CORS.md",
@@ -183,9 +186,6 @@
     "사용 이미지/프론트엔드 지식/CORS/responseHeaderOrigin.png",
     "사용 이미지/프론트엔드 지식/CORS/simple request.png",
     "URL 1.png",
-    "사용 이미지/프론트엔드 지식/CORS/preflight request.png",
-    "사용 이미지/프론트엔드 지식/CORS/requestHeaderOrigin.png",
-    "사용 이미지/프론트엔드 지식/CORS/cors err.png",
     "사용 이미지/프론트엔드 지식/OAuth",
     "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill",
     "사용 이미지/프론트엔드 지식",
