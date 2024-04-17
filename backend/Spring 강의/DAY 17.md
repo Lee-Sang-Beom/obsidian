@@ -23,7 +23,8 @@ spring.datasource.username=sa
 - 이를 알려주는 내용은 아래 내용을 붙여넣어야 하기 때문이다.
 
 - `src/main/java/hello/hellospring/repository` 경로에 `MemberRepository` interface를 상송받는 또다른 리포지토리인 `JdbcMemberRepository.java`파일을 만들어주자.
-	- 메모리에 member객체들을 저장하는 리포지토리는 `Memor`
+	- 메모리에 member객체들을 저장하는 리포지토리는 `MemoryMemberRepository.java`
+	- DB에 member객체들을 저장하는 리포지토리는 지금 생성하는 파일이라고 이해하면 된다.
 
 ```java
 package hello.hellospring.repository;  
@@ -46,6 +47,7 @@ public class JdbcMemberRepository implements MemberRepository {
   
     @Override  
     public Member save(Member member) {  
+	    //
         String sql = "insert into member(name) values(?)";  
         Connection conn = null;  
         PreparedStatement pstmt = null;  
@@ -178,3 +180,13 @@ public class JdbcMemberRepository implements MemberRepository {
     }  
 }
 ```
+
+- `insert`문 중 아래와 같은 쿼리가 보일 것이다.
+```java
+String sql = "insert into member(name) values(?)";  
+```
+
+- 위에서 `?`는 는 SQL 쿼리에서 사용되는 placeholder이다.
+	- 이것은 Prepared Statement 라이브러리를 사용할 때 유용하게 쓰입니다. 이 기술을 사용하면 쿼리의 일부로 직접 값을 삽입하는 것이 아니라, 쿼리와는 별도로 값을 전달할 수 있습니다. 이렇게 하면 보안 측면에서 더 안전하며, 쿼리 최적화 및 재사용성을 높일 수 있습니다. 대개 `PreparedStatement` 클래스를 사용하여 이러한 작업을 수행합니다.
+
+예를 들어, 위의 코드에서 `?`는 `PreparedStatement`에 전달되는 값을 나타내며, `PreparedStatement` 인터페이스의 `setXXX()` 메서드를 사용하여 이 값을 설정합니다. 이렇게 하면 사용자 입력 등으로부터의 SQL 삽입 공격을 방지할 수 있습니다. 사용자 입력에 직접 값을 삽입하는 대신 `PreparedStatement`를 사용하면, 입력 값이 이미 쿼리에 삽입되기 전에 적절하게 이스케이프되어 쿼리의 일부로 해석되지 않습니다.
