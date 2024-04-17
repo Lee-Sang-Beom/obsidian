@@ -210,7 +210,10 @@ try {
     pstmt.setString(1, member.getName());  
     pstmt.executeUpdate();  
     rs = pstmt.getGeneratedKeys();
-} // ...
+} catch(Exception e){
+// ...
+}
+// ...
 ```
 
 1. 위의 코드에서 `?`는 `PreparedStatement`에 전달되는 값을 나타내며, `PreparedStatement` 인터페이스의 `setString()` 메서드를 사용하여 이 값을 설정한다.
