@@ -67,6 +67,7 @@ public class JdbcMemberRepository implements MemberRepository {
         } catch (Exception e) {  
             throw new IllegalStateException(e);  
         } finally {  
+	        // 리소스반환
             close(conn, pstmt, rs);  
         }  
     }  
@@ -214,6 +215,13 @@ try {
     
     // Statement.RETURN_GENERATED_KEYS를 사용함으로써, 자동으로 생성한 키를 반환받을 수 있음
     rs = pstmt.getGeneratedKeys();
+
+	// rs.next()는 데이터베이스 결과 집합에서 다음 행으로 이동하고 해당 행이 있는지 여부를 확인하는 메서드  
+	if (rs.next()) {  
+    member.setId(rs.getLong(1));  
+	} else {  
+	    throw new SQLException("id 조회 실패");  
+	}
 } catch(Exception e){
 // ...
 }
@@ -232,3 +240,19 @@ try {
 	- 이는 SQL 쿼리에서 `?`로 표시된 각 `placeholder`의 위치를 지정하는 것이다.
 	- 여기서는, `insert into member(name) values(member.getName())`이 될 것이다.
 
+###### ※ 참고 - **Optional**  
+ * Optional은 Java 8에서 소개된 클래스로, 값이 있을 수도 있고 없을 수도 있는 값을 나타내는 컨테이너 클래스이다.  
+ 
+ * 이 클래스는 **NullPointerException**을 방지하고 코드의 명확성을 높이는 데 사용된다.  
+	 *  Optional은 값이 있을 때 그 값을 포함하고, 값이 없을 때는 빈 상태를 나타낸다.  
+	 * 이를 통해 메서드가 항상 `null`을 반환할 가능성이 있는 경우를 다룰 때 특히 유용하다.  
+```java
+Optional<String> maybeName = getName();
+
+if (maybeName.isPresent()) {
+    String name = maybeName.get();
+    System.out.println("Name is: " + name);
+} else {
+    System.out.println("Name is not available.");
+}
+```
