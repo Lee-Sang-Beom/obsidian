@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "7786c9fe2552cec4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d193eff4fc06985",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,8 +162,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "95e25259dfbf331a",
   "lastOpenFiles": [
+    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 강의/DAY 18.md",
     "join문 성공.png",
     "join문 실패.png",
     "사용 이미지/Spring/DAY 17/구현 클래스 추가 이미지.png",
@@ -155,9 +173,7 @@
     "backend/Spring 강의/DAY 17.md",
     "사용 이미지/Spring/DAY 17/스프링 설정 이미지.png",
     "Pasted image 20240417133314.png",
-    "backend/Spring 강의/DAY 18.md",
     "backend/Spring 강의/Spring 강의 학습 백링크.md",
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "사용 이미지/Spring/DAY 17/프로젝트 실행결과 1.png",
     "사용 이미지/Spring/DAY 17/프로젝트 실행결과 2.png",
     "사용 이미지/Spring/DAY 17",
@@ -176,7 +192,6 @@
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
     "backend/Spring 강의/DAY 2.md",
-    "사용 이미지/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
     "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
