@@ -14,6 +14,8 @@
 ---
 ### 2. 헤더
 
+> https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept
+
  - 헤더는 **HTTP 전송에 필요한 부가정보**를 가집니다. 
  - 콜론을 사용한 **key-value형식**을 가집니다.
  - 공통적으로 가지는 header도 있고, request, response 각각에만 있는 header도 존재합니다.
