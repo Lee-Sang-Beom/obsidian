@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 18.md",
+                "file": "backend/Spring 강의/DAY 19.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 18.md",
+                "file": "backend/Spring 강의/DAY 19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 18.md",
+                "file": "backend/Spring 강의/DAY 19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 18.md"
+                "file": "backend/Spring 강의/DAY 19.md"
               }
             }
           }
@@ -164,7 +164,10 @@
   },
   "active": "95e25259dfbf331a",
   "lastOpenFiles": [
+    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 강의/DAY 18.md",
     "backend/Spring 강의/DAY 19.md",
+    "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/DAY 11.md",
     "backend/Spring 강의/DAY 10.md",
     "backend/Spring 강의/DAY 9.md",
@@ -176,9 +179,6 @@
     "backend/Spring 강의/DAY 16.md",
     "backend/Spring 강의/DAY 15.md",
     "backend/Spring 강의/DAY 14.md",
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
-    "backend/Spring 강의/DAY 18.md",
-    "backend/Spring 강의/DAY 17.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "사용 이미지/Spring/DAY 18/테스트할 때 스프링 컨테이너를 실행하는 모습.png",
     "짧게 정리한 프론트엔드 지식/CORS.md",
@@ -205,7 +205,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
     "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
     "프론트엔드 지식/무제 폴더",
     "사용 이미지/프론트엔드 지식/JWT",
     "사용 이미지/프론트엔드 지식/CORS",

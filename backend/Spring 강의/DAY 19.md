@@ -56,3 +56,18 @@ public class JdbcTemplateMemberRepository implements MemberRepository{
     }  
 }
 ```
+
+- DAY 17에도 생성자에 `DataSource`가 들어오는 부분이 있었다. 이에 대한 설명을 해보자면 아래와 같다.
+> [!note] DataSource
+> - `DataSource`는 데이터베이스 연결을 관리하는 객체이다. 보통은 데이터베이스 서버에 연결하고 쿼리를 실행하기 위한 정보를 포함하고 있다.
+> - Spring 프레임워크에서는 데이터베이스 연동을 위해 DataSource 인터페이스를 사용한다. DataSource 인터페이스는 데이터베이스 연결을 설정하고 관리하는 메소드를 정의한다.
+> - Spring에서 JdbcTemplate을 사용할 때는 JdbcTemplate 생성자에 DataSource를 전달하여 데이터베이스와의 연결을 설정한다. JdbcTemplate은 데이터베이스와의 연결을 설정하고 JDBC 작업을 수행하는 데 사용된다.
+> - 따라서 `dataSource` 매개변수는, 여기선 JdbcTemplateMemberRepository 클래스의 생성자에 전달되는 DataSource 객체이다. 
+> 	- 이를 사용하여 JdbcTemplate을 초기화하고 데이터베이스와의 연결을 설정할 수 있다.
+> 	- 이후에는 JdbcTemplate을 사용하여 데이터베이스 쿼리를 실행하고 결과를 처리할 수 있다.
+
+- 즉, `@Autowired`가 생략되었지만, 실질적으로는 스프링 컨테이너가 스프링 빈으로써 `DataSource`를 넣어주는 것이다.
+	- 
+
+
+`
