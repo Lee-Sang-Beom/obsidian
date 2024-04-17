@@ -67,7 +67,12 @@ public class JdbcTemplateMemberRepository implements MemberRepository{
 > 	- 이후에는 JdbcTemplate을 사용하여 데이터베이스 쿼리를 실행하고 결과를 처리할 수 있다.
 
 - 즉, `@Autowired`가 생략되었지만, 실질적으로는 스프링 컨테이너가 스프링 빈으로써 `DataSource`를 넣어주는 것이다.
-	- 
 
+- 일반적으로 Spring Boot 애플리케이션에서는 `application.properties` 또는 `application.yml` 파일에 데이터베이스 연결 정보가 설정된다.
+	- Spring Boot는 이러한 설정 파일을 자동으로 읽어들여서 설정된 내용을 기반으로 DataSource 빈을 생성한다.
+```js
+spring.datasource.url=jdbc:h2:tcp://localhost/~/test  
+spring.datasource.driver-class-name=org.h2.Driver  
+spring.datasource.username=sa
+```
 
-`
