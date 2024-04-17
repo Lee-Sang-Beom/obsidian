@@ -43,3 +43,21 @@ name varchar(255),
 primary key (id)
 );
 ```
+
+
+#### 3. 데이터 Insert 해보기
+
+```sql
+%% 
+id를 추가하지 않은 경우 %%
+insert into member(name) values('user1');
+insert into member(name) values('user2');
+insert into member(name) values('user3');
+
+// id를 추가해준 경우
+insert into member values('4','user4');
+
+select * from member;
+```
+
+![[insert 결과.png]]
