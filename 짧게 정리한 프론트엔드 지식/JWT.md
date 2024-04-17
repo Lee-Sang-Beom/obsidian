@@ -134,13 +134,49 @@
 > JWT 동작과정 [(이미지 출처: opennaru 블로그)](http://www.opennaru.com/opennaru-blog/jwt-json-web-token/)
 
 ![[jwt process.webp]]
-1. 사용자가 ID/PW를 입력하여 로그인 요청
+ [!note] Token Process
+>1. 사용자가 ID/PW를 입력하여 로그인 요청
 2. 서버는 요청을 확인한 후, 비밀키를 이용하여 JWT를 만든다.
 	- JWT는 Access Token의 한 유형이다.
 
 3. 서버는 클라이언트에게 JWT를 전달한다.
 4. 이후, 클라이언트(사용자)는 서비스 이용과 같은 이유로 서버에게 JWT 전달
-	- 이 때, `fetch, ajax, axios`등의 API를 사용할 수 있으며, API를 요청할 때 
+	- 이 때, `fetch, ajax, axios`등의 API를 사용할 수 있으며, API를 요청할 때 `Authorization header: Access token`을 담아 보낸다.
+
+5. 서버는 전달받은 JWT의 Sigature를 체크(체크 과정은 위조 시나리오 참고)한 다음 , Payload로부터 사용자 정보를 확인한다.
+6. 서버는 클라이언트 요청에 대한 적절한 응답을 반환한다.
+
+
+
+
+- 추가적으로 API 사용 시, Authorization header에 Access-token을 담아 보내는 예제는 아래와 같다.
+```js
+fetch(
+      `https://dapi.kakao.com/v2/local/search/address.json?query=${address}`,
+      {
+        headers: {
+          Authorization: `KakaoAK ${ACCESS_TOKEN}`,
+        },
+      }
+    )
+      .then((result) => result.json())
+      .then((jsonResult) => {
+        if (jsonResult.documents.length !== 0) {
+          // 추후 x, y 좌표가 백엔드  request에 요구될 경우
+          setValue("lot", jsonResult.documents[0].x.toString());
+          setValue("lat", jsonResult.documents[0].y.toString());
+          setValue("roadNmAddr", address);
+
+          // setValue("zipCode", zoneCode);
+          // setValue("addr", address);
+          // setTimeout(async () => {
+          //   trigger("addr");
+          // }, 10);
+        } else {
+          alert("유효한 주소가 아닙니다.");
+        }
+      });
+```
 #### 6. 장점 및 단점
 
 > **장점**
