@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "818534b2319a6158",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ffde860876e3966",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,13 +164,13 @@
   },
   "active": "95e25259dfbf331a",
   "lastOpenFiles": [
+    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/DAY 19.md",
     "backend/Spring 강의/DAY 18.md",
     "backend/Spring 강의/DAY 17.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "사용 이미지/Spring/DAY 18/테스트할 때 스프링 컨테이너를 실행하는 모습.png",
     "짧게 정리한 프론트엔드 지식/CORS.md",
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "사용 이미지/Spring/DAY 18/join문 성공.png",
     "사용 이미지/Spring/DAY 18/join문 실패.png",
     "사용 이미지/Spring/DAY 17/구현 클래스 추가 이미지.png",
@@ -188,7 +204,6 @@
     "짧게 정리한 프론트엔드 지식/원시 타입과 참조 타입.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) URI, URL.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Node.js.md",
-    "짧게 정리한 프론트엔드 지식/SPA, MPA.md",
     "프론트엔드 지식/무제 폴더",
     "사용 이미지/프론트엔드 지식/JWT",
     "사용 이미지/프론트엔드 지식/CORS",
