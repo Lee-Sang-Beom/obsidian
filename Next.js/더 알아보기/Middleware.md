@@ -138,6 +138,7 @@ export const config = {
 ```
 
 ##### `Producing a Response`
+
 - 아래는 `/api`로 시작하는 경로에 대해서만 `middleware` 실행 코드를 적용하도록 설정한 예제이다. (`matcher` 속성).
 - 그리고 `middleware` 함수 내에서는 요청이 인증되었는지를 확인하기 위해 `isAuthenticated` 함수를 호출한다. 
 	- 인증에 실패할 경우, `401` 상태 코드와 함께 '`authentication failed`' 메시지를 가진 JSON 응답을 반환한다.
@@ -207,4 +208,5 @@ export const config = {
 ```
 
 #### 기타
+
 - **nextauth 백링크**: [[3. NextAuth.js 사용해보기 3]]
