@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4f1ed22f0e141642",
+        "id": "2d4a4d61da4b7f49",
         "type": "tabs",
         "children": [
           {
-            "id": "976820df6848f3d6",
+            "id": "2089a1e852d35a3e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,16 +138,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "976820df6848f3d6",
+  "active": "2089a1e852d35a3e",
   "lastOpenFiles": [
+    "사용 이미지/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
+    "사용 이미지/JSP/JSP 실습 1 결과.png",
     "Pasted image 20240416174317.png",
     "Pasted image 20240416174311.png",
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
     "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
-    "jwt process.webp",
-    "비대칭키 동작.png",
-    "대칭키 동작.png",
+    "사용 이미지/프론트엔드 지식/JWT/jwt process.webp",
+    "사용 이미지/프론트엔드 지식/JWT/비대칭키 동작.png",
+    "사용 이미지/프론트엔드 지식/JWT/대칭키 동작.png",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
@@ -171,13 +173,12 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 자바스크립트의 배열.md",
     "프론트엔드 지식/무제 폴더",
-    "JWT structure.png",
+    "사용 이미지/프론트엔드 지식/JWT/JWT structure.png",
     "사용 이미지/프론트엔드 지식/JWT",
     "사용 이미지/프론트엔드 지식/CORS",
     "사용 이미지/프론트엔드 지식/CORS/URL.png",
     "사용 이미지/프론트엔드 지식/CORS/responseHeaderOrigin.png",
     "사용 이미지/프론트엔드 지식/CORS/simple request.png",
-    "URL 1.png",
     "사용 이미지/프론트엔드 지식/OAuth",
     "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill",
     "사용 이미지/프론트엔드 지식",
