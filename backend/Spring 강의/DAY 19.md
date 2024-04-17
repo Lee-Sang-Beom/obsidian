@@ -76,3 +76,19 @@ spring.datasource.driver-class-name=org.h2.Driver
 spring.datasource.username=sa
 ```
 
+
+#### 3. `findById` 구현하기
+
+- 구현된 결과부터 확인해보자.
+	- `jdbcTemplate.query` 메소드의 인자로, 원하는 쿼리와 함수를 전달하니, Member 타입의 List를 포함하는 `result`가 반환되는 것을 확인할 수 있다.
+```java
+@Override  
+public Optional<Member> findById(Long id) {  
+    List<Member> result = jdbcTemplate.query("select * from member where id = ?", memberRowMapper());  
+    return result.stream().findAny();  
+}
+```
+
+- 이전에는 어땠을까?
+```java
+```
