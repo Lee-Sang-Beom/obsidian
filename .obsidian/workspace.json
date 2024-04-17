@@ -29,9 +29,11 @@
             "id": "1d193eff4fc06985",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+                "file": "짧게 정리한 프론트엔드 지식/CORS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -164,13 +166,14 @@
   },
   "active": "95e25259dfbf331a",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/CORS.md",
+    "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/DAY 18.md",
     "join문 성공.png",
     "join문 실패.png",
     "사용 이미지/Spring/DAY 17/구현 클래스 추가 이미지.png",
     "사용 이미지/Spring/DAY 18",
-    "backend/Spring 강의/DAY 17.md",
     "사용 이미지/Spring/DAY 17/스프링 설정 이미지.png",
     "Pasted image 20240417133314.png",
     "backend/Spring 강의/Spring 강의 학습 백링크.md",
@@ -186,7 +189,6 @@
     "사용 이미지/Spring/DAY 16/insert 결과.png",
     "사용 이미지/Spring/DAY 16",
     "사용 이미지/Spring/DAY 16.md",
-    "짧게 정리한 프론트엔드 지식/CORS.md",
     "Next.js/더 알아보기/Middleware.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
