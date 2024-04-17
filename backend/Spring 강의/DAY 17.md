@@ -356,7 +356,7 @@ public class SpringConfig {
     }  
     @Bean  
     public MemberService memberService(){  
-    // memberRepository()는 JdbcMemberRepository를 반환
+	    // memberRepository()는 JdbcMemberRepository를 반환
         return new MemberService(memberRepository());  
     }  
     @Bean  
@@ -366,3 +366,12 @@ public class SpringConfig {
     }  
 }
 ```
+
+- MemoryRepository를 사용하는 것에서 JdbcMemberRepository 사용하기 위해, 우리가 바꿔준 건 2가지 뿐이다.
+	- JdbcMemberRepository 구현
+	- 스프링 빈 파일 수정 (memberService가 JdbcMemberRepository를 사용할 수 있게 초기 세팅)
+	- 이 부분에서, **OCP**라는 것을
+
+- 개방-폐쇄 원칙(OCP, Open-Closed Principle) 확장에는 열려있고, 수정, 변경에는 닫혀있다. 
+- 스프링의 DI (Dependencies Injection)을 사용하면 **기존 코드를 전혀 손대지 않고, 설정만으로 구현 클래스를 변경**할 수 있다. 
+- 데이터를 DB에 저장하므로 스프링 서버를 다시 실행해도 데이터가 안전하게 저장된다.
