@@ -208,7 +208,11 @@ try {
 
 	// 3번 설명
     pstmt.setString(1, member.getName());  
-    pstmt.executeUpdate();  
+
+	// DB에 실제 쿼리 날아감
+    pstmt.executeUpdate();
+    
+    // Statement.RETURN_GENERATED_KEYS를 사용함으로써, 자동으로 생성한 키를 반환받을 수 있음
     rs = pstmt.getGeneratedKeys();
 } catch(Exception e){
 // ...
@@ -222,6 +226,7 @@ try {
 
 2. SQL 쿼리를 실행할 `preparedstatement` 객체를 생성한다.	
 	- 이 때, `Statement.RETURN_GENERATED_KEYS` 옵션을 설정하면, 데이터베이스가 **자동으로 생성한 키**를 반환하여 사용자가 이를 이용할 수 있게 한다.
+	- `pstmt.getGeneratedKeys()`메소드를 사용하면 된다.
 
 3. `pstmt.setString(1, member.getName());`에서의 `1`은 `placeholder`의 인덱스를 나타낸다.
 	- 이는 SQL 쿼리에서 `?`로 표시된 각 `placeholder`의 위치를 지정하는 것이다.
