@@ -11,12 +11,8 @@
             "id": "95e25259dfbf331a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/Spring 강의/DAY 18.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -103,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "backend/Spring 강의/DAY 18.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -166,12 +158,13 @@
   },
   "active": "95e25259dfbf331a",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/CORS.md",
     "backend/Spring 강의/DAY 18.md",
+    "사용 이미지/Spring/DAY 18/테스트할 때 스프링 컨테이너를 실행하는 모습.png",
+    "짧게 정리한 프론트엔드 지식/CORS.md",
     "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
-    "join문 성공.png",
-    "join문 실패.png",
+    "사용 이미지/Spring/DAY 18/join문 성공.png",
+    "사용 이미지/Spring/DAY 18/join문 실패.png",
     "사용 이미지/Spring/DAY 17/구현 클래스 추가 이미지.png",
     "사용 이미지/Spring/DAY 18",
     "사용 이미지/Spring/DAY 17/스프링 설정 이미지.png",
@@ -186,7 +179,6 @@
     "backend/Spring 강의/DAY 14.md",
     "backend/Spring 강의/DAY 13.md",
     "사용 이미지/Spring/DAY 16/ddl.sql 최초저장.png",
-    "사용 이미지/Spring/DAY 16/insert 결과.png",
     "사용 이미지/Spring/DAY 16",
     "사용 이미지/Spring/DAY 16.md",
     "Next.js/더 알아보기/Middleware.md",
