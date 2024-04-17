@@ -12,6 +12,47 @@
 - 순수 JDBC와 동일한 환경설정을 하면 된다. 
 
 
-#### 2. 스프링 JdbcTemplate 회원 리포지토리
+#### 2. 스프링 JdbcTemplate 회원 리포지토리 생성하기 (1)
 
-- 
+- 먼저, `src/main/java/hello/hellospring/repository` 하위에 `JdbcTemplateMemberRepository.java` 파일을 추가하고 아래처럼 작성해주자.
+```java
+package hello.hellospring.repository;  
+  
+import hello.hellospring.domain.Member;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.jdbc.core.JdbcTemplate;  
+  
+import javax.sql.DataSource;  
+import java.util.List;  
+import java.util.Optional;  
+  
+public class JdbcTemplateMemberRepository implements MemberRepository{  
+  
+    private final JdbcTemplate jdbcTemplate;  
+  
+    //  @Autowired : 생성자에 `@Autowired` 를 사용하면 객체 생성 시점에 스프링 컨테이너에서 해당 스프링 빈을 찾아서 주입 한다. 생성자가 1개만 있으면 `@Autowired` 는 생략할 수 있다  
+    public JdbcTemplateMemberRepository(DataSource dataSource) {  
+        this.jdbcTemplate = new JdbcTemplate(dataSource);  
+    }  
+  
+    @Override  
+    public Member save(Member member) {  
+        return null;  
+    }  
+  
+    @Override  
+    public Optional<Member> findById(Long id) {  
+        return Optional.empty();  
+    }  
+  
+    @Override  
+    public Optional<Member> findByName(String name) {  
+        return Optional.empty();  
+    }  
+  
+    @Override  
+    public List<Member> findAll() {  
+        return null;  
+    }  
+}
+```
