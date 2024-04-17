@@ -222,4 +222,5 @@ try {
 
 3. `pstmt.setString(1, member.getName());`에서의 `1`은 `placeholder`의 인덱스를 나타낸다.
 	- 이는 SQL 쿼리에서 `?`로 표시된 각 `placeholder`의 위치를 지정하는 것이다.
-	- 
+	- 여기서는, `insert into member(name) values(member.getName())`이 될 것이다.
+
