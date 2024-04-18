@@ -1,4 +1,77 @@
 
+#### 1. 자바스크립트 코드에서 함수 호출
+
+- 만약, 자바스크립트 코드에서 다음과 같이 API를 호출했다고 치자.
+```js
+AjaxPopupManager.show(PopupUrl.EXPORT_DOWNLOAD_PROGRESS, {  
+    url: ProjectApiUrl.Excel.GET_CAP_STONE_DESIGN_EXCEL_DOWNLOAD,  
+    requestMap: {year: PageManager.pc('year'),collegeName: Lia.pd(null, parameterMap, 'daehak_cd1'), searchOptionList: searchOption != null ? searchOption.get():null}  
+});
+```
+
+- 그럼, 이제 컨트롤러로 사용자 요청이 들어온다.
+```java
+@RequestMapping(value = "/getCapStoneDesignExcelDownload", method = RequestMethod.POST)  
+@ResponseBody  
+public String getCapStoneDesignExcelDownload(HttpServletRequest httpServletRequest,  
+                                             @RequestParam(value = "searchOptionList", required = false) String searchOptionListString,  
+                                             @RequestParam(value = "year", required = false) Integer year,  
+                                             @RequestParam(value = "collegeName", required = false) String collegeName,  
+                                             @SessionValue Session session,  
+                                             HttpServletResponse httpServletResponse) throws Exception {  
+  
+    Response response = null;  
+  
+    List<SearchOption> searchOptionList = SearchOptionUtils.parse(searchOptionListString,  
+                                                                  super.getDatabaseType());  
+  
+    try {AsyncTask asyncTask = this.educationService.getCapStoneDesignExcelDownload(session, httpServletRequest,year, searchOptionList,collegeName);  
+  
+        response = super.responseFactory.createResponse(Code.SUCCESS,  
+                                                        asyncTask.toJsonAware(),  
+                                                        httpServletRequest.getLocale());  
+  
+    } catch (CodedException e) {  
+  
+        response = super.responseFactory.createResponse(e,  
+                                                        httpServletRequest.getLocale());  
+    }  
+  
+    return response.toJSONString();  
+  
+}
+```
+
+- 그리고, 전달받은 인자로 `this.educationService.getCapStoneDesignExcelDownload()` 메소드를 사용하는 것을 볼 수 있다.
+```java
+try {AsyncTask asyncTask = this.educationService.getCapStoneDesignExcelDownload(session, httpServletRequest,year, searchOptionList,collegeName);  
+  
+    response = super.responseFactory.createResponse(Code.SUCCESS,  
+                                                    asyncTask.toJsonAware(),  
+                                                    httpServletRequest.getLocale());  
+  
+} catch (CodedException e) {  
+  
+    response = super.responseFactory.createResponse(e,  
+                                                    httpServletRequest.getLocale());  
+}
+```
+
+
+#### 2. 서비스로 이
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```xml
 <resultMap type="com.vsquare.carina.project.model.CapStu" id="capResultMap">  
     <id property="clubMngSeq" column="club_mng_seq"/>  
