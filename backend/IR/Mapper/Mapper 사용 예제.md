@@ -602,6 +602,26 @@ List<CapStu> selectCapForStudent(@Param("search_option_list") List<SearchOption>
 - `resultMap`은 SQL 쿼리 결과를 자바 객체로 변환하는 방법을 정의한다. 
 	- 즉, 쿼리의 각 열을 자바 객체의 필드에 매핑하는 역할을 한다. 이것은 쿼리 결과를 자바 객체로 변환하여 반환할 때 사용죈다.
 
+---
+
+```xml
+<resultMap type="com.vsquare.carina.project.model.CapStu" id="capResultMap"> ... </resultMap>
+```
+- 먼저 이 부분을 보자.
+	1. `type`
+		- `type="com.vsquare.carina.project.model.CapStu"`는 resultMap이 매핑할 자바 객체의 타입을 지정하는 것이다.
+		- 매핑할 자바 객체의 풀 패키지 경로에 해당하는 클래스로, 이 클래스의 객체는 SQL 쿼리 결과의 각 행을 표현하는 데 사용된다.
+		- `<resultMap>` 요소는 SQL 쿼리 결과 열과 자바 객체의 필드를 매핑하는 데 사용된다. 이 때, `type` 속성에 지정된 자바 클래스는 SQL 쿼리 결과를 매핑하기 위한 대상 자바 객체의 타입을 나타낸다.
+		- 따라서 위의 코드에서 `type="com.vsquare.carina.project.model.CapStu"`는 `capResultMap`이라는 resultMap이 `com.vsquare.carina.project.model.CapStu` 클래스의 객체에 매핑될 것임을 나타낸다.
+			- 결과적으로 SQL 쿼리 결과는 `CapStu` 클래스의 객체로 변환되어 반환될 것이다.
+	2. `id`
+		- `id`는 resultMap을 식별하는 고유한 이름을 지정하는 속성이다.
+		- 이 이름은 해당 resultMap을 참조할 때 사용된다. 여기서는 `id="capResultMap"`으로 설정되어 있으므로, 다른 부분에서 이 resultMap을 참조할 때 이 이름을 사용하여 지정한다.
+		- 예를 들어 쿼리의 `resultMap` 속성에서 이 이름을 사용하여 resultMap을 지정할 수 있다.
+		- `<select id="selectCapForStudent" resultMap="capResultMap">...</select>`에서의 `resultMap` 속성이 이 부분의 `id`와 같은 것이다.
+
+
+- 다음은 전체 코드이다.
 ```xml
 <resultMap type="com.vsquare.carina.project.model.CapStu" id="capResultMap">  
     <id property="clubMngSeq" column="club_mng_seq"/>  
@@ -624,18 +644,11 @@ List<CapStu> selectCapForStudent(@Param("search_option_list") List<SearchOption>
 </resultMap>
 ```
 
-- 먼저 이 부분을 보자.
-```xml
-<resultMap type="com.vsquare.carina.project.model.CapStu" id="capResultMap"> 
-```
-
-- 이 코드는 MyBatis XML Mapper 파일에서 결과 매핑을 정의한 부분입니다.
+- 이 코드는 MyBatis XML Mapper 파일에서 결과 매핑을 정의한 부분이다.
 	- 해당 코드는 `com.vsquare.carina.project.model.CapStu` 클래스에 대한 결과 매핑을 정의하고 있습니다.
-	- `<resultMap>` 태그는 결과 매핑을 정의할 때 사용되며, 여기서는 `capResultMap`이라는 이름의 resultMap을 정의하고 있습니다.
+	- `<resultMap>` 태그는 결과 매핑을 정의할 때 사용되며, 여기서는 `capResultMap`이라는 이름의 resultMap을 정의하고 있다.
 
-- `<id>` 태그는 주요 식별자(primary key)를 나타내는데 사용되며, 해당 클래스에서는 `clubMngSeq`를 주요 식별자로 사용하고 있습니다.
-- `<result>` 태그는 데이터베이스 열과 자바 객체의 속성을 매핑하는데 사용됩니다. 각각의 `<result>` 태그는 데이터베이스의 열 이름과 매핑될 자바 객체의 속성을 지정합니다.
-
-- 예를 들어, `<result property="yy" column="yy"/>`는 `yy` 열의 값을 자바 객체의 `yy` 속성에 매핑합니다.
-
-- 이와 같이 `<resultMap>`을 사용하여 데이터베이스 결과를 자바 객체에 매핑할 수 있습니다. 이러한 매핑을 통해 SQL 쿼리 결과를 자바 객체로 변환하여 사용할 수 있습니다.
+- `<id>` 태그는 주요 식별자(primary key)를 나타내는데 사용되며, 해당 클래스에서는 `clubMngSeq`를 주요 식별자로 사용하고 있다.
+- `<result>` 태그는 데이터베이스 열과 자바 객체의 속성을 매핑하는데 사용된다.
+	- 각각의 `<result>` 태그는 데이터베이스의 열 이름과 매핑될 자바 객체의 속성을 지정한다.
+	- 예를 들어 `<result property="deptNm" column="dept_nm"/>`는 데이터베이스에 있는 dept_nm이 자바 객체로 내보내지는 매핑과정에서 deptNm이 된다는 소리야?
