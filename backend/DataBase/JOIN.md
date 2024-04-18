@@ -18,9 +18,30 @@
 ![[INNERJOIN이전예제.png]]
 - 조인은 테이블을 결합하는 것이고, 내부조인은 교집합이라고 했다. 
 - 각 테이블을 살펴보면, **상품코드**라는 컬럼을 공통으로 가지고 있고 이를 결합 조건으로 하여 아래와 같이 쿼리문을 작성할 수 있다.
-```query
+	- `ON`: JOIN 시, 결합할 조건을 명시하는 부분이다.
+```sql
 SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고수량
 	FROM TableA as A 
     	INNER JOIN TableB as B
     	ON A.상품코드 = B.상품코드
 ```
+![[INNERJOIN이후예제.png]]
+
+- 여기서, 만약 WHERE 절을 추가하여, 특정 데이터만 골라내야 한다면 아래와 같이 작성하면 된다.
+	- `WHERE`: 데이터 필터링에 대한 조건
+```sql
+SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고수량 
+	FROM TableA as A       
+    	INNER JOIN TableB as B   
+    	ON A.상품코드 = B.상품코드
+    WHERE A.상품코드 = 1 
+```
+
+- 아래 조건은 헷갈리지 말자.
+> 1. ~를 기준으로 테이블 묶어줘~ -> **ON**
+> 2. ~한 데이터만 볼래! -> **WHERE**
+
+
+#### 3. OUTER JOIN
+
+- OUTER JOIN(외부 조인)
