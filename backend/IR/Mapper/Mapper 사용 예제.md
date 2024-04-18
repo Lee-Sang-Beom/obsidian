@@ -591,12 +591,16 @@ List<CapStu> selectCapForStudent(@Param("search_option_list") List<SearchOption>
 	- `id`는 매퍼 XML 파일에서 해당 쿼리를 식별하는 고유한 이름이다. 
 	- 이를 통해 Java 코드에서 매퍼 XML 파일에 정의된 쿼리를 호출할 수 있다.
 	- 여기서는 `selectCapForStudent`라는 이름을 사용하여 해당 쿼리를 식별한다.
-		- 즉, 매퍼 인터페이스 파일인 `PortalMapper.java`의 selectCapForStudent
+		- 즉, 매퍼 인터페이스 파일인 `PortalMapper.java`의 `selectCapForStudent()` 이름과 매핑된 것이다.
+		- 실제로, 매퍼 인터페이스에 정의된 메서드와 동일한 이름으로 설정해야 한다
     
 - `resultMap`은 쿼리의 실행 결과를 매핑하는 데 사용되는 resultMap의 이름이다.
 	- 이 resultMap은 동일한 매퍼 XML 파일 내에 정의된 `<resultMap>` 요소를 참조하여 결과 매핑을 수행한다.
-	- 결과 매핑은 쿼리 결과의 각 열을 자바 객체의 필드에 매핑하는 것을 의미한다. 
-	- 여기서는 `capResultMap`이라는 resultMap을 사용하여 결과를 매핑한다.
+	- 결과 매핑은 쿼리 결과의 각 열을 자바 객체의 필드에 매핑하는 것을 의미한다.
+	- 여기서는 `resultMap="capResultMap"` 부분에서, 매퍼 XML 파일에서 쿼리 실행 결과를 매핑하는데 사용되는 `capResultMap`이라는 이름의 resultMap을 참조합니다
+
+- `resultMap`은 SQL 쿼리 결과를 자바 객체로 변환하는 방법을 정의한다. 
+	- 즉, 쿼리의 각 열을 자바 객체의 필드에 매핑하는 역할을 한다. 이것은 쿼리 결과를 자바 객체로 변환하여 반환할 때 사용죈다.
 
 ```xml
 <resultMap type="com.vsquare.carina.project.model.CapStu" id="capResultMap">  
@@ -618,6 +622,11 @@ List<CapStu> selectCapForStudent(@Param("search_option_list") List<SearchOption>
     <result property="mark" column="mark"/>  
     <result property="companyNm" column="company_nm"/>  
 </resultMap>
+```
+
+- 먼저 이 부분을 보자.
+```xml
+<resultMap type="com.vsquare.carina.project.model.CapStu" id="capResultMap"> 
 ```
 
 - 이 코드는 MyBatis XML Mapper 파일에서 결과 매핑을 정의한 부분입니다.
