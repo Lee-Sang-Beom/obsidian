@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 20.md",
+                "file": "backend/DataBase/JOIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 20.md",
+                "file": "backend/DataBase/JOIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 20.md",
+                "file": "backend/DataBase/JOIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 20.md"
+                "file": "backend/DataBase/JOIN.md"
               }
             }
           }
@@ -146,11 +146,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "775aa506e67d5f49",
   "lastOpenFiles": [
-    "backend/무제 폴더",
-    "backend/Spring 강의/DAY 19.md",
+    "INNERJOIN.png",
     "backend/Spring 강의/DAY 20.md",
+    "backend/DataBase/JOIN.md",
+    "backend/DataBase",
+    "backend/Spring 강의/DAY 19.md",
     "사용 이미지/Spring/DAY 19/JDBCTemplate 테스트.png",
     "backend/IR/Mapper/Mapper 사용 예제.md",
     "backend/IR/Mapper",
@@ -192,8 +194,6 @@
     "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
     "backend/Spring 강의/DAY 2.md",
-    "짧게 정리한 프론트엔드 지식/JWT.md",
-    "프론트엔드 지식/무제 폴더",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
