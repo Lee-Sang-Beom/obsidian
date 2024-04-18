@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 19.md",
+                "file": "backend/IR/Mapper/Mapper 사용 예제.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 19.md",
+                "file": "backend/IR/Mapper/Mapper 사용 예제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 19.md",
+                "file": "backend/IR/Mapper/Mapper 사용 예제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 19.md"
+                "file": "backend/IR/Mapper/Mapper 사용 예제.md"
               }
             }
           }
@@ -146,11 +146,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "e609280d6e223945",
   "lastOpenFiles": [
+    "backend/Spring 강의/DAY 19.md",
+    "backend/IR/Mapper/Mapper 사용 예제.md",
+    "backend/IR/Mapper",
+    "backend/IR/무제 파일.md",
+    "backend/IR",
     "사용 이미지/Spring/DAY 19",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
-    "backend/Spring 강의/DAY 19.md",
     "사용 이미지/Spring/DAY 19/JDBCTemplate 테스트.png",
     "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/DAY 16.md",
@@ -189,11 +193,7 @@
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
     "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "프론트엔드 지식/무제 폴더",
-    "사용 이미지/프론트엔드 지식/JWT",
-    "사용 이미지/프론트엔드 지식/CORS",
-    "사용 이미지/프론트엔드 지식/OAuth",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
