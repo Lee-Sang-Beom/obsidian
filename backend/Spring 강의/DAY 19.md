@@ -217,3 +217,48 @@ public class JdbcTemplateMemberRepository implements MemberRepository {
     }  
 }
 ```
+
+- 다음으로, 테스트를 위해 `SpringConfig.java`파일에서 `memberRepository()` 메소드 내의 return값을 바꿔주자.
+
+```js
+package hello.hellospring;  
+  
+import hello.hellospring.repository.JdbcMemberRepository;  
+import hello.hellospring.repository.JdbcTemplateMemberRepository;  
+import hello.hellospring.repository.MemberRepository;  
+import hello.hellospring.repository.MemoryMemberRepository;  
+import hello.hellospring.service.MemberService;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.context.annotation.Bean;  
+import org.springframework.context.annotation.Configuration;  
+  
+import javax.sql.DataSource;  
+  
+
+@Configuration  
+public class SpringConfig {  
+  
+    private DataSource dataSource;  
+  
+    @Autowired  
+    public SpringConfig(DataSource dataSource){  
+        this.dataSource = dataSource;  
+    }  
+    // @Bean: 스프링 빈을 등록할 것이라는 annotation    @Bean  
+    public MemberService memberService(){  
+
+        return new MemberService(memberRepository());  
+    }  
+    @Bean  
+    public MemberRepository memberRepository(){  
+        // 구현체를 리턴해야함. 인터페이스 넣으면 안됨  
+        // return new MemoryMemberRepository();  
+        // return new JdbcMemberRepository(dataSource);        
+        return new JdbcTemplateMemberRepository(dataSource);  
+    }  
+}
+```
+
+- 이제, `MemberServiceIntegrationTest.java`파일의 회원가입 테스트를 진행해보자.
+	- 문제 없이 성공한 모습을 볼 수 있다.
+![[JDBCTemplate 테스트.png]]

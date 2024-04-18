@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a6a597dbf5127ff9",
+        "id": "e6ecd20b63973a95",
         "type": "tabs",
         "children": [
           {
-            "id": "95e25259dfbf331a",
+            "id": "e609280d6e223945",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,22 +16,6 @@
                 "file": "backend/Spring 강의/DAY 19.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "818534b2319a6158",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2ffde860876e3966",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
               }
             }
           }
@@ -162,13 +146,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "95e25259dfbf331a",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "사용 이미지/Spring/DAY 19",
+    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 강의/DAY 19.md",
+    "사용 이미지/Spring/DAY 19/JDBCTemplate 테스트.png",
     "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/DAY 16.md",
     "backend/Spring 강의/DAY 15.md",
-    "backend/Spring 강의/DAY 19.md",
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/DAY 18.md",
     "backend/Spring 강의/DAY 11.md",
     "backend/Spring 강의/DAY 10.md",
@@ -193,7 +179,6 @@
     "사용 이미지/Spring/DAY 17/프로젝트 실행결과 2.png",
     "사용 이미지/Spring/DAY 17",
     "사용 이미지/Spring/DAY 17/id and name table.png",
-    "사용 이미지/Spring/DAY 16/ddl.sql 최초저장.png",
     "사용 이미지/Spring/DAY 16",
     "사용 이미지/Spring/DAY 16.md",
     "Next.js/더 알아보기/Middleware.md",
