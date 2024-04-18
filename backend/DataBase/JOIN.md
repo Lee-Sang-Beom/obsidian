@@ -12,5 +12,7 @@
 - **교집합**을 말한다고 생각하자
 ![[INNERJOIN.png]]
 
-- 만약, 아래 이미지 처럼 Table A와 Table B가 있다고 가정하자.
-	- Tab
+- 만약, 아래 이미지처럼 **Table A와 Table B**가 있다고 가정하자.
+	- Table A: 상품 관리 테이블 (Column: 상품코드, 상품명)
+	- Table B: 상품 재고 관리 테이블 (Column: 상품코드, 재고수량)
+![[INNERJOIN이전예제.png]]
