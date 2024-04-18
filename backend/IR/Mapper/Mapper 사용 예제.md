@@ -648,7 +648,14 @@ List<CapStu> selectCapForStudent(@Param("search_option_list") List<SearchOption>
 	- 해당 코드는 `com.vsquare.carina.project.model.CapStu` 클래스에 대한 결과 매핑을 정의하고 있습니다.
 	- `<resultMap>` 태그는 결과 매핑을 정의할 때 사용되며, 여기서는 `capResultMap`이라는 이름의 resultMap을 정의하고 있다.
 
-- `<id>` 태그는 주요 식별자(primary key)를 나타내는데 사용되며, 해당 클래스에서는 `clubMngSeq`를 주요 식별자로 사용하고 있다.
-- `<result>` 태그는 데이터베이스 열과 자바 객체의 속성을 매핑하는데 사용된다.
-	- 각각의 `<result>` 태그는 데이터베이스의 열 이름과 매핑될 자바 객체의 속성을 지정한다.
-	- 예를 들어 `<result property="deptNm" column="dept_nm"/>`는 데이터베이스에 있는 dept_nm이 자바 객체로 내보내지는 매핑과정에서 deptNm이 된다는 소리야?
+- 두 가지 태그가 보이는가? `<id>`와 `<result>`말이다.
+	- `<id>` 태그는 주요 식별자(primary key)를 나타내는데 사용되며, 해당 클래스에서는 `clubMngSeq`를 주요 식별자로 사용하고 있다.
+	- `<result>` 태그는 데이터베이스 열과 자바 객체의 속성을 매핑하는데 사용된다.
+		- 각각의 `<result>` 태그는 데이터베이스의 열 이름과 매핑될 자바 객체의 속성을 지정한다.
+
+- 그리고 각 태그에는 `property`와 `column` 속성이 보인다.
+	- `property`는 resultMap에서 매핑된 자바 객체의 필드 이름을 지정하는 속성입니다. 이 속성은 SQL 쿼리 결과의 각 열을 매핑할 때 사용됩니다. 여기서 `property="yy"`는 자바 객체의 `yy`라는 필드에 해당하는 것을 의미합니다. 이 필드에는 SQL 쿼리 결과의 `yy` 열이 매핑됩니다.
+	
+	- `column`은 SQL 쿼리 결과의 열 이름을 지정하는 속성입니다. 여기서 `column="yy"`는 resultMap에서 매핑할 SQL 쿼리 결과의 열 이름을 지정합니다. 이 속성은 SQL 쿼리 결과의 열을 자바 객체의 필드에 매핑할 때 사용됩니다. 따라서 `column="yy"`는 SQL 쿼리 결과의 `yy` 열을 자바 객체의 `yy` 필드에 매핑한다는 것을 의미합니다.
+	
+	- 예를 들어 `<result property="deptNm" column="dept_nm"/>`는 데이터베이스에 있는 `dept_nm` column은 자바 객체로 내보내지는 매핑과정에서 `deptNm`이 된다는 의미이다.
