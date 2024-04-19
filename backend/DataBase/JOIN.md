@@ -1,4 +1,6 @@
-> 이미지 출처 및 참고자료: [나른한 개발자님의 포스트 - 테이블 이해하기](https://velog.io/@newdana01/Database-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%A1%B0%EC%9D%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+> 이미지 출처 및 참고자료 1: [나른한 개발자님의 포스트 - 테이블 이해하기](https://velog.io/@newdana01/Database-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%A1%B0%EC%9D%B8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
+> 이미지 출처 및 참고자료 2: [혼공](https://hongong.hanbit.co.kr/sql-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95-joininner-outer-cross-self-join/)[[OUTER-JOIN_더알아보기-1.png]]
+![[OUTER-JOIN_더알아보기-1 1.png]]
 
 #### 1. JOIN이란?
 
@@ -50,6 +52,8 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 - INNER JOIN(내부 조인)은 공통된 컬럼을 기준으로 테이블을 묶기 때문에 순서가 상관이 없었다
 	- 그러나, OUTER JOIN(외부 조인)에서는 순서가 중요하다.
 	- **어떤 테이블을 먼저 접근하느냐(드라이빙 테이블)** 에 따라 쿼리 성능에 영향을 미치므로 **더 적은 데이터를 추출하는 테이블을 드라이빙 테이블로 삼는 것이 좋다.**
+		- 조인에서 "드라이븐 테이블"은 조인 작업에서 기준이 되는 테이블을 의미한다.
+		- 일반적으로 SQL에서는 기준이 되는 테이블을 왼쪽에 위치시키고, 이를 기준으로 다른 테이블과 조인을 수행한다.
 
 
 #### 4. LEFT OUTER JOIN (LEFT JOIN)
