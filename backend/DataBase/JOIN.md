@@ -94,9 +94,6 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 > JOIN 이후
 ![[RIGHTJOIN.png]]
 - TableB의 상품코드 1,3,4 row는 TableA에 공통 데이터가 있으니, 상품명 데이터를 정상적으로 잘 불러왔다.
-	- 하지만, 상품코드 7,8 row는  
+	- 하지만, 상품코드 7,8 row는 오른쪽 테이블인 TableB에만 있고, TableA에서는 찾을 수 없다.
+	- 따라서, 
 
-SELECT A.code code,  A.name name, B.count count 
-	FROM TABLEA as A       
-    	RIGHT OUTER JOIN TABLEB as B   
-    	ON A.code = B.code
