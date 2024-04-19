@@ -56,10 +56,19 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 
 - 왼쪽 테이블을 기준으로 OUTER JOIN을 수행하는 것이다.
 
-- 아래 SQL문은 Table ㅁ
+- 아래는 TableA를 기준으로, 상품 코드 기준 **JOIN**을 진행하는 SQL문이다.
 ```sql
 SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고수량 
 	FROM TableA as A       
     	LEFT JOIN TableB as B   
     	ON A.상품코드 = B.상품코드
 ```
+
+> JOIN 이전
+![[INNERJOIN이전예제.png]]
+
+> JOIN 이후
+![[LEFTJOIN.png]]
+
+- TableA의 상품코드가 2,5인 row를 살펴보자.
+	- ableA는 TableB와 2,5번 상품코드row JOIN이 되지 않았으므로, 재고수량이 null로 표시되는 것을 볼 수 있다.
