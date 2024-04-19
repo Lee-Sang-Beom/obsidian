@@ -125,3 +125,14 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 	- 다만, 조인 대상이 자기 자신이다.
 	- 한 가지 주의해야 할 점은 자신과 같은 테이블 이름이 2회 나오기 때문에 반드시 ***alias***를 지정해줘야 한다는 점이다.
 
+- 먼저, 아래와 같은 테이블이 있다고 해보자.
+ ![[Pasted image 20240419144817.png]]
+
+- 위 테이블에서, **이상범**과 같은 **CUST_NAME**에 해당하는 사람을 추출해야 한다고 생각해보자.
+	- 먼저, 서브 쿼리를 이용한 방법이다.
+
+```sql
+select cust_id, cust_contact
+from customer
+where cust_name = (select cust_name from customer where cust_contact = '이상범');
+```
