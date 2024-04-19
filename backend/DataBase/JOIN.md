@@ -95,5 +95,21 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 ![[RIGHTJOIN.png]]
 - TableB의 상품코드 1,3,4 row는 TableA에 공통 데이터가 있으니, 상품명 데이터를 정상적으로 잘 불러왔다.
 	- 하지만, 상품코드 7,8 row는 오른쪽 테이블인 TableB에만 있고, TableA에서는 찾을 수 없다.
-	- 따라서, 
+	- 따라서, 오른쪽 테이블인 TableB를 기준으로 JOIN을 수행하므로, 결과적으로, TableA에서는 상품코드 2,5에 대한 row정보가 TableB에는 없으니 null로 출력된다.
 
+
+#### 6. FULL OUTER JOIN
+
+- **LEFT OUTER JOIN**과 **RIGHT OUTER JOIN**을 합한 결과를 조회할 수 있다.
+```sql
+SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고수량 
+	FROM TableA as A       
+    	FULL OUTER JOIN TableB as B   
+    	ON A.상품코드 = B.상품코드
+```
+
+> JOIN 이전
+![[INNERJOIN이전예제.png]]
+
+> JOIN 이후
+![[FULLJOIN.png]]
