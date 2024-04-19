@@ -165,9 +165,15 @@ where a.cust_name = b.cust_name and b.cust_contact = '이상범';
 SELECT DISTINCT a.cust_id AS ID, a.cust_contact AS NAME 
 FROM customer a INNER JOIN customer b 
 
-/* 테이블 `a`의 `cust_name` 열과 테이블 `b`의 `cust_name` 열이 동일한 값을 가질 때 두 테이블이 조인 */
+/* 
+LINE 3: 테이블 `a`의 `cust_name` 열과 테이블 `b`의 `cust_name` 열이 동일한 값을 가질 때 두 테이블이 조인 
+*/
+
 ON a.cust_name = b.cust_name 
 
-/* 조인된 결과에서 `b` 테이블의 `cust_contact` 열이 '이상범'인 행만 선택 */*
+/* LINE 4. 조인된 결과에서 `b` 테이블의 `cust_contact` 열이 '이상범'인 행만 선택 */*
 WHERE b.cust_contact = '이상범';
 ```
+
+- LINE 3 -> LINE 4가 이해가 안되면 아래 사진을 보자.
+![[Pasted image 20240419153556.png]]
