@@ -52,7 +52,7 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 	- **어떤 테이블을 먼저 접근하느냐(드라이빙 테이블)** 에 따라 쿼리 성능에 영향을 미치므로 **더 적은 데이터를 추출하는 테이블을 드라이빙 테이블로 삼는 것이 좋다.**
 
 
-#### 4. LEFT OUTER JOIN(LEFT JOIN)
+#### 4. LEFT OUTER JOIN (LEFT JOIN)
 
 - 왼쪽 테이블을 기준으로 OUTER JOIN을 수행하는 것이다.
 
@@ -60,7 +60,7 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 ```sql
 SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고수량 
 	FROM TableA as A       
-    	LEFT JOIN TableB as B   
+    	LEFT OUTER JOIN TableB as B   
     	ON A.상품코드 = B.상품코드
 ```
 
@@ -71,4 +71,28 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 ![[LEFTJOIN.png]]
 
 - TableA의 상품코드가 2,5인 row를 살펴보자.
-	- ableA는 TableB와 2,5번 상품코드row JOIN이 되지 않았으므로, 재고수량이 null로 표시되는 것을 볼 수 있다.
+	- TableA는 TableB와 2,5번 상품코드 row에서 공통 데이터가 발견되지 않았다.
+	- 따라서, 재고수량이 null로 표시되는 것을 볼 수 있다.
+
+- 정리하면, LEFT OUTER JOIN의 결과로, LEFT OUTER JOINANS 명령문 왼쪽에 위치한 테이블(Table A)을 기준으로 조인되었으며, 왼쪽 테이블의 모든 데이터와 오른쪽 테이블의 중복 데이터가 결합되었다.
+	- 이 때, 값이 없는 데이터는 null로 표시가 되었다.
+
+
+#### 5. RIGHT OUTER JOIN (RIGHT JOIN)
+
+- LEFT OUTER JOIN과 반대로, 오른쪽 테이블을 기준으로 JOIN한다.
+```sql
+SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고수량 
+	FROM TableA as A       
+    	RIGHT OUTER JOIN TableB as B   
+    	ON A.상품코드 = B.상품코드
+```
+
+> JOIN 이전
+![[INNERJOIN이전예제.png]]
+
+> JOIN 이후
+![[RIGHTJOIN.png]]
+- TableB의 1,3,4 row는 TableA에 공통 데이터가 있으니, 상품명 데이터를 정상적으로 잘 불러왔다.
+	- 하지만, 
+
