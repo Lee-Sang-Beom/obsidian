@@ -29,6 +29,9 @@ dependencies {
 ```
 
 - 스프링 부트(`resources/application.properties`)에 JPA 설정 추가
+	- `show-sql`: JPA가 생성하는 SQL 출력
+	- `ddl-auto`: JPA는 테이블을 자동으로 생성하는 기능을 제공하는데, `none` 사용 시 해당 기능을 끈다.
+		- `create` 사용 시, 엔티티 정보 기반으로, 테이블을 직접 생성한다.
 ```null
 spring.datasource.url=jdbc:h2:tcp://localhost/~/test  
 spring.datasource.driver-class-name=org.h2.Driver  
