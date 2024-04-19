@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+                "file": "backend/Spring 강의/DAY 20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+                "file": "backend/Spring 강의/DAY 20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+                "file": "backend/Spring 강의/DAY 20.md"
               }
             }
           }
@@ -162,10 +162,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3a088ce567009452",
+  "active": "6311442e184b2b31",
   "lastOpenFiles": [
-    "backend/Spring 강의/DAY 20.md",
     "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 강의/DAY 20.md",
     "backend/Spring 강의/Spring 강의 학습 백링크.md",
     "backend/DataBase/JOIN.md",
     "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png",

@@ -41,3 +41,5 @@ spring.datasource.username=sa
 spring.jpa.show-sql=true  
 spring.jpa.hibernate.ddl-auto=none
 ```
+
+- JPA를 쓰려면 `entity`라는 것을 매핑해야 한다.
