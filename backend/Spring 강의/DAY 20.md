@@ -16,3 +16,25 @@
 
 #### 2. JPA 환경 설정하기
 
+- `build.gradle` 파일에 JPA 관련 라이브러리 추가
+```gradle
+dependencies {  
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'  
+    implementation 'org.springframework.boot:spring-boot-starter-web'  
+    // implementation 'org.springframework.boot:spring-boot-starter-jdbc'  
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'  
+    runtimeOnly 'com.h2database:h2'  
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'  
+}
+```
+
+- 스프링 부트(`resources/application.properties`)에 JPA 설정 추가
+```null
+spring.datasource.url=jdbc:h2:tcp://localhost/~/test  
+spring.datasource.driver-class-name=org.h2.Driver  
+spring.datasource.username=sa  
+
+# 추가
+spring.jpa.show-sql=true  
+spring.jpa.hibernate.ddl-auto=none
+```

@@ -11,8 +11,28 @@
             "id": "6311442e184b2b31",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "backend/Spring 강의/DAY 20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "168b721852bbb2a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a088ce567009452",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+              }
             }
           }
         ]
@@ -81,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png",
+                "file": "backend/Spring 강의/DAY 20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png",
+                "file": "backend/Spring 강의/DAY 20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png"
+                "file": "backend/Spring 강의/DAY 20.md"
               }
             }
           }
@@ -142,13 +162,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "6311442e184b2b31",
   "lastOpenFiles": [
+    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 강의/DAY 20.md",
+    "backend/Spring 강의/Spring 강의 학습 백링크.md",
+    "backend/DataBase/JOIN.md",
+    "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png",
     "사용 이미지/backend/DataBase/JOIN/셀프조인 예제 테이블.png",
     "사용 이미지/backend/DataBase/JOIN/이해안되면 보는 셀프조인결과.png",
     "Pasted image 20240419144803.png",
-    "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png",
-    "backend/DataBase/JOIN.md",
     "사용 이미지/backend/DataBase/JOIN/OUTER-JOIN_더알아보기-1 1.png",
     "사용 이미지/backend/DataBase/JOIN/OUTER-JOIN_더알아보기-1.png",
     "사용 이미지/backend/DataBase/JOIN/FULLJOIN.png",
@@ -158,7 +181,6 @@
     "사용 이미지/backend",
     "사용 이미지/backend/DataBase/JOIN/INNERJOIN이후예제.png",
     "사용 이미지/backend/DataBase/JOIN/INNERJOIN이전예제.png",
-    "backend/Spring 강의/DAY 20.md",
     "backend/DataBase",
     "backend/Spring 강의/DAY 19.md",
     "backend/IR/Mapper/Mapper 사용 예제.md",
@@ -166,7 +188,6 @@
     "backend/IR/무제 파일.md",
     "backend/IR",
     "사용 이미지/backend/Spring/DAY 19",
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/DAY 16.md",
     "backend/Spring 강의/DAY 15.md",
@@ -183,7 +204,6 @@
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "사용 이미지/backend/Spring/DAY 18",
-    "backend/Spring 강의/Spring 강의 학습 백링크.md",
     "사용 이미지/Spring/DAY 16.md",
     "Next.js/더 알아보기/Middleware.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
