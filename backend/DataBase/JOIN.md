@@ -117,3 +117,11 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 
 > JOIN 이후
 ![[FULLJOIN.png]]
+
+
+#### 7. SELF JOIN
+
+- SELF JOIN도 **INNER JOIN, OUTER JOIN, CROSS JOIN** 등의 모든 JOIN Query를 적용 가능하다. 
+	- 다만, 조인 대상이 자기 자신이다.
+	- 한 가지 주의해야 할 점은 자신과 같은 테이블 이름이 2회 나오기 때문에 반드시 ***alias***를 지정해줘야 한다는 점이다.
+
