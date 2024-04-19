@@ -160,9 +160,8 @@ from customer a, customer b
 where a.cust_name = b.cust_name and b.cust_contact = '이상범';
 ```
 
+- 좀 더 명시적으로 올바르게 작성한다고 하면, 아래처럼 쓸 수 있다.
 ```sql
-
-
 SELECT DISTINCT a.cust_id AS ID, a.cust_contact AS NAME 
 FROM customer a INNER JOIN customer b 
 ON a.cust_name = b.cust_name 
