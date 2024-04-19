@@ -42,6 +42,9 @@ spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=none
 ```
 
+
+#### 3. Entity Mapping
+
 - JPA를 쓰려면 `entity`라는 것을 매핑해야 한다.
 	- JPA는 이러한 ORM 기술을 자바에서 사용할 수 있도록 표준화한 API이라고 했다. ORM은 Object Relational Mapping의 줄임말이다.
 	- **OOP(Object Oriented Programming)에서 쓰는 객체라는 개념을 구현한 클래스**와  **RDB(Relational DataBase)에서 쓰이는 데이터인 테이블을 매핑(연결)** 하는 작업을 필요로 한다.
@@ -95,3 +98,71 @@ name varchar(255),
 primary key (id)
 );
 ```
+
+
+#### 4. JpaMemberRepository 생성
+
+```java
+package hello.hellospring.repository;  
+  
+  
+import hello.hellospring.domain.Member;  
+import jakarta.persistence.EntityManager;  
+  
+import java.util.List;  
+import java.util.Optional;  
+  
+public class JpaMemberRepository implements MemberRepository {  
+    private final EntityManager em;  
+  
+    public JpaMemberRepository(EntityManager em) {  
+        this.em = em;  
+    }  
+  
+    public Member save(Member member) {  
+        em.persist(member);  
+        return member;  
+    }  
+  
+    public Optional<Member> findById(Long id) {  
+        Member member = em.find(Member.class, id);  
+        return Optional.ofNullable(member);  
+    }  
+  
+    public List<Member> findAll() {  
+        return em.createQuery("select m from Member m", Member.class).getResultList();  
+    }  
+  
+    public Optional<Member> findByName(String name) {  
+        List<Member> result = em.createQuery("select m from Member m where m.name = :name", Member.class).setParameter("name", name).getResultList();  
+        return result.stream().findAny();  
+    }  
+}
+```
+
+- 여기서는, JPA(Java Persistence API)를 사용하여 회원(Member) 엔터티를 데이터베이스와 상호 작용하는 Repository 클래스를 정의하고 있다.
+	- 이 Repository는 Member 엔터티의 CRUD(Create, Read, Update, Delete) 작업을 수행한다.
+
+- 여기서 사용된 기능과 메소드들은 아래와 같다.
+	-  **EntityManager**
+		- JPA에서 엔터티를 관리하고 데이터베이스와의 상호 작용을 처리하는 인터페이스이다.
+    
+	- **save(Member member)**
+		- `persist()` 메소드를 사용하여 영속성 컨텍스트에 엔티티를 추가하고 데이터베이스에 반영한다.
+    
+	- **findById(Long id)**
+		- 데이터베이스에서 해당 엔티티를 직접 조회하여 반환한다.
+    
+	- **findAll()**
+		- 데이터베이스에 있는 모든 Member 엔터티를 조회하여 리스트로 반환한다.
+		- JPQL(Java Persistence Query Language)을 사용하여 데이터베이스 쿼리를 작성하여 모든 Member를 검색한다.
+    
+	- **findByName(String name)**
+		- JPQL을 사용하여 이름으로 Member를 검색한다.
+
+- JPA 제공 기능에 대해 다시 알아보자
+1. 객체-관계 매핑(Object-Relational Mapping, ORM): JPA는 자바 객체와 데이터베이스 테이블 간의 매핑을 처리하여 객체 지향 프로그래밍 언어인 자바와 관계형 데이터베이스 간의 데이터 변환을 자동화합니다.
+    
+2. 영속성 컨텍스트(Persistence Context): JPA는 영속성 컨텍스트를 통해 엔터티 객체의 상태를 관리하고, 데이터베이스와의 상호 작용을 추상화합니다. 이를 통해 엔터티의 생명 주기를 관리하고, 변경을 추적하여 데이터베이스에 자동으로 반영할 수 있습니다.
+    
+3. JPQL(Java Persistence Query Language): JPA는 객체 지향적인 쿼리 언어인 JPQL을 제공하여 데이터베이스에 대한 쿼리를 수행할 수 있습니다. 이를 통해 데이터베이스에 대한 복잡한 쿼리를 객체 지향적으로 작성할 수 있습니다.
