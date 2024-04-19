@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9ef9457481e08d42",
+        "id": "0b93feb380f25030",
         "type": "tabs",
         "children": [
           {
-            "id": "775aa506e67d5f49",
+            "id": "6311442e184b2b31",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/DataBase/JOIN.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/DataBase/JOIN.md",
+                "file": "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/DataBase/JOIN.md",
+                "file": "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/DataBase/JOIN.md"
+                "file": "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png"
               }
             }
           }
@@ -146,24 +142,23 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "775aa506e67d5f49",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "Pasted image 20240419153556.png",
-    "Pasted image 20240419144817.png",
+    "사용 이미지/backend/DataBase/JOIN/셀프조인 예제 테이블.png",
+    "사용 이미지/backend/DataBase/JOIN/이해안되면 보는 셀프조인결과.png",
     "Pasted image 20240419144803.png",
-    "OUTER-JOIN_더알아보기-1 1.png",
-    "OUTER-JOIN_더알아보기-1.png",
-    "FULLJOIN.png",
-    "RIGHTJOIN.png",
-    "LEFTJOIN.png",
+    "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png",
+    "backend/DataBase/JOIN.md",
+    "사용 이미지/backend/DataBase/JOIN/OUTER-JOIN_더알아보기-1 1.png",
+    "사용 이미지/backend/DataBase/JOIN/OUTER-JOIN_더알아보기-1.png",
+    "사용 이미지/backend/DataBase/JOIN/FULLJOIN.png",
+    "사용 이미지/backend/DataBase/JOIN/LEFTJOIN.png",
     "사용 이미지/backend/DataBase/JOIN",
     "사용 이미지/backend/DataBase",
     "사용 이미지/backend",
     "사용 이미지/backend/DataBase/JOIN/INNERJOIN이후예제.png",
     "사용 이미지/backend/DataBase/JOIN/INNERJOIN이전예제.png",
-    "사용 이미지/backend/DataBase/JOIN/INNERJOIN.png",
     "backend/Spring 강의/DAY 20.md",
-    "backend/DataBase/JOIN.md",
     "backend/DataBase",
     "backend/Spring 강의/DAY 19.md",
     "backend/IR/Mapper/Mapper 사용 예제.md",
