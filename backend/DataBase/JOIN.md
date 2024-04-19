@@ -153,6 +153,10 @@ select cust_name from customer where cust_contact = '이상범'
 
 /* 1. customer a의 cust_id와 cust_contact를 출력한다. */
 select distinct a.cust_id as ID, a.cust_contact as NAME 
+
+/* 2. 셀프조인 (Alias) */
 from customer a, customer b
+
+/* 3. b.cust_contact이 이상범이면서, a, b의 cust_name이 동일한 것 반환 */
 where a.cust_name = b.cust_name and b.cust_contact = '이상범';
 ```
