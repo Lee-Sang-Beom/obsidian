@@ -52,4 +52,14 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 	- **어떤 테이블을 먼저 접근하느냐(드라이빙 테이블)** 에 따라 쿼리 성능에 영향을 미치므로 **더 적은 데이터를 추출하는 테이블을 드라이빙 테이블로 삼는 것이 좋다.**
 
 
-$$
+#### 4. LEFT OUTER JOIN(LEFT JOIN)
+
+- 왼쪽 테이블을 기준으로 OUTER JOIN을 수행하는 것이다.
+
+- 아래 SQL문은 Table ㅁ
+```sql
+SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고수량 
+	FROM TableA as A       
+    	LEFT JOIN TableB as B   
+    	ON A.상품코드 = B.상품코드
+```
