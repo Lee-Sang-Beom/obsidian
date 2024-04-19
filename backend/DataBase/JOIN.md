@@ -132,7 +132,17 @@ SELECT A.상품코드 상품코드, A.상품명 상품명, B.재고수량 재고
 	- 먼저, 서브 쿼리를 이용한 방법이다.
 
 ```sql
-select cust_id, cust_contact
+/* 1. 아이디와 이름을 테이블에 출력한다. */
+select cust_id as ID, cust_contact as NAME 
+
+/* 2. customer 테이블에서... */
 from customer
-where cust_name = (select cust_name from customer where cust_contact = '이상범');
+
+/* 3. cust_name이 동일한 것을 조건으로 찾는다. */
+where cust_name = ( 
+
+/* 4. customer 테이블에서 연락처가 "이상범"인 사람의 cust_name을 반환한다. */
+select cust_name from customer where cust_contact = '이상범' 
+);
+
 ```
