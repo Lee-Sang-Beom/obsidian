@@ -146,3 +146,13 @@ select cust_name from customer where cust_contact = '이상범'
 );
 
 ```
+
+- 다음으로, SELF JOIN을 이용한 방법이다.
+	- **이상범**과 같은 **CUST_NAME**에 해당하는 사람을 추출해야 한다.
+```sql
+
+/* 1. customer a의 cust_id와 cust_contact를 출력한다. */
+select distinct a.cust_id as ID, a.cust_contact as NAME 
+from customer a, customer b
+where a.cust_name = b.cust_name and b.cust_contact = '이상범';
+```
