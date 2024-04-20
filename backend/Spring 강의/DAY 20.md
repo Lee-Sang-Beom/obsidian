@@ -122,11 +122,15 @@ public class JpaMemberRepository implements MemberRepository {
     }  
   
     public Member save(Member member) {  
+	    // persist: 영속화 / 영구저장하다
+	    // jpa가 INSERT 쿼리 만들어서, DB에 알아서 저장 (setId까지 해줌)
         em.persist(member);  
         return member;  
     }  
   
     public Optional<Member> findById(Long id) {  
+	    // em.find메소드 사용: 조회할 type과 식별자 id로 조회
+	    // return 시, 값이 없을수도 있으므로, optional로 반
         Member member = em.find(Member.class, id);  
         return Optional.ofNullable(member);  
     }  
