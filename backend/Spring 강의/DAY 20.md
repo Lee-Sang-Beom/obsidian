@@ -112,7 +112,9 @@ import jakarta.persistence.EntityManager;
 import java.util.List;  
 import java.util.Optional;  
   
-public class JpaMemberRepository implements MemberRepository {  
+public class JpaMemberRepository implements MemberRepository {
+	// jpa는 entitymanager라는 걸 이용해서, 모든 게 동작
+	// `build.gradle`파일의 `dependencies`에 JPA implementation을 등록해주면 스프링부트가 자동으로 EntityManager를 생성해준다. (DB와 통신하는 거 얘 내부에서 알아서 처리함)
     private final EntityManager em;  
   
     public JpaMemberRepository(EntityManager em) {  
@@ -173,3 +175,4 @@ public class JpaMemberRepository implements MemberRepository {
 	3. **JPQL(Java Persistence Query Language)**
 		- JPA는 객체 지향적인 쿼리 언어인 JPQL을 제공하여 데이터베이스에 대한 쿼리를 수행할 수 있다.
 		- 이를 통해 데이터베이스에 대한 복잡한 쿼리를 객체 지향적으로 작성할 수 있다.
+
