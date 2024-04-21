@@ -129,13 +129,15 @@ public class JpaMemberRepository implements MemberRepository {
     }  
   
     public Optional<Member> findById(Long id) {  
-	    // em.find메소드 사용: 조회할 type과 식별자 id로 조회
+	    // em.find() 메소드 사용: 조회할 type과 식별자 id로 조회
 	    // return 시, 값이 없을수도 있으므로, optional로 반
         Member member = em.find(Member.class, id);  
         return Optional.ofNullable(member);  
     }  
   
     public List<Member> findAll() {  
+	    // 특별한 JPQL이라는 객체지향 쿼리언어를 써야함
+	    // select m from Member as m
         return em.createQuery("select m from Member m", Member.class).getResultList();  
     }  
   
