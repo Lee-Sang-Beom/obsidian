@@ -130,7 +130,7 @@ public class JpaMemberRepository implements MemberRepository {
   
     public Optional<Member> findById(Long id) {  
 	    // em.find() 메소드 사용: 조회할 type과 식별자 id로 조회
-	    // return 시, 값이 없을수도 있으므로, optional로 반
+	    // return 시, 값이 없을수도 있으므로, optional로 반환
         Member member = em.find(Member.class, id);  
         return Optional.ofNullable(member);  
     }  
@@ -182,3 +182,22 @@ public class JpaMemberRepository implements MemberRepository {
 		- JPA는 객체 지향적인 쿼리 언어인 JPQL을 제공하여 데이터베이스에 대한 쿼리를 수행할 수 있다.
 		- 이를 통해 데이터베이스에 대한 복잡한 쿼리를 객체 지향적으로 작성할 수 있다.
 
+
+#### 5. JPQL
+
+- JPQL 쿼리에 대해 알아보기 위해, 아래 코드를 살펴보자.
+```java
+ public List<Member> findAll() {  
+	// createQuery 1번째 인자: Query
+	// createQuery 2번째 인자: 반환 타입 (Member)
+	return em.createQuery("select m from Member m", Member.class).getResultList(); 
+}  
+```
+
+- JPQL에서는 SQL과는 달리 `SELECT *`를 사용하지 않는다. 
+	- 대신에 엔티티와 속성을 기반으로 쿼리를 작성한다.
+	- JPQL에서는 Entity의 속성을 명시적으로 지정하여 가져올 수 있다.
+	- 이는 객체지향 프로그래밍의 관점을 유지하면서 필요한 데이터만을 가져올 수 있게 한다.
+
+- 따라서 `select * from Member` 대신에 `select m from Member m`과 같이 사용한 것이다.
+	- 여기서 `m`은 Member Entity를 가리키는 변수이다.
