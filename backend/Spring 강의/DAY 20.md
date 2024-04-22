@@ -241,4 +241,100 @@ public Optional<Member> findByName(String name) {
 
 #### 7. Transcational
 
-- 데이터 저장
+- 데이터 저장 및 수정 시, 항상 `@Transcational` annotation이 필요하다.
+- 본 예제에서는, 데이터 저장 및 수정이 서비스 측 메소드에서 발생하므로 서비스 측에 걸어주면 된다.
+
+```java
+package hello.hellospring.service;  
+  
+import hello.hellospring.domain.Member;  
+import hello.hellospring.repository.MemberRepository;  
+import hello.hellospring.repository.MemoryMemberRepository;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.stereotype.Service;  
+import org.springframework.transaction.annotation.Transactional;  
+  
+import java.util.List;  
+import java.util.Optional;  
+  
+
+
+@Transactional  
+public class MemberService {  
+    private final MemberRepository memberRepository;  
+  
+    // @Autowired  
+    public MemberService(MemberRepository memberRepository){  
+        this.memberRepository = memberRepository;  
+    }  
+    public Long join(Member member) {  
+        validateDuplicatedMember(member); // 중복회원 검증  
+        memberRepository.save(member);  
+        return member.getId();  
+    }  
+  
+    /**  
+     * 전체회원 조회  
+     */  
+    public List<Member> findMembers(){  
+        return memberRepository.findAll();  
+    }  
+  
+    public Optional<Member> findOne(Long memberId){  
+        return memberRepository.findById(memberId);  
+    }  
+  
+    /**  
+     * 아이디에 해당하는 유저 반환  
+     */  
+    public Optional<Member> findMember(Long memberId){  
+        return memberRepository.findById(memberId);  
+    }  
+  
+    /**  
+     * 같은 이름의 중복 회원이 있는지 먼저 검사  
+     */  
+    private void validateDuplicatedMember(Member member) {  
+        memberRepository.findByName(member.getName()).ifPresent(m -> {  
+            throw new IllegalStateException("이미 존재하는 회원입니다.");  
+        });  
+    }  
+  
+}
+```
+
+#### 8. 테스트를 위한 `SpringConfig.java` 변경
+
+```java
+package hello.hellospring;  
+  
+import hello.hellospring.repository.*;  
+import hello.hellospring.service.MemberService;  
+import jakarta.persistence.EntityManager;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.context.annotation.Bean;  
+import org.springframework.context.annotation.Configuration;  
+  
+import javax.sql.DataSource;  
+  
+// 스프링이 실행될 때, Configuration을 먼저 읽고, config 내부의 @Bean annotation으로 설정된 요소를 스프링이 스프링 컨테이너에 스프링 빈으로 등록한다.  
+@Configuration  
+public class SpringConfig {  
+  
+    private EntityManager em;  
+
+     public SpringConfig(EntityManager em){  
+        this.em = em;  
+     }  
+  
+    // @Bean: 스프링 빈을 등록할 것이라는 annotation    @Bean  
+    public MemberService memberService(){  
+
+        return new MemberService(memberRepository());  
+    }  
+    @Bean  
+    public MemberRepository memberRepository(){  
+        
+    }  
+}
+```
