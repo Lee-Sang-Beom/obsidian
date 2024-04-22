@@ -90,4 +90,123 @@ public class SpringConfig {
 ![[스프링 데이터 JPA 테스트.png]]
 
 
-#### 4. 스프링 ㄷ
+#### 4. 스프링 데이터 JPA 제공 클래스
+
+![[스프링 데이터 JPA 제공 클래스.png]]
+
+- 어떻게 이게 가능한걸까?
+	- 모든 이유는 **JpaRepository**에 있다.
+	- JpaRepository에는 다음과 같은 기본 제공 메소드가 존재한다.
+
+> `JpaRepository.class`
+```java
+//  
+// Source code recreated from a .class file by IntelliJ IDEA  
+// (powered by FernFlower decompiler)  
+//  
+  
+package org.springframework.data.jpa.repository;  
+  
+import java.util.List;  
+import org.springframework.data.domain.Example;  
+import org.springframework.data.domain.Sort;  
+import org.springframework.data.repository.ListCrudRepository;  
+import org.springframework.data.repository.ListPagingAndSortingRepository;  
+import org.springframework.data.repository.NoRepositoryBean;  
+import org.springframework.data.repository.query.QueryByExampleExecutor;  
+  
+@NoRepositoryBean  
+public interface JpaRepository<T, ID> extends ListCrudRepository<T, ID>, ListPagingAndSortingRepository<T, ID>, QueryByExampleExecutor<T> {  
+    void flush();  
+  
+    <S extends T> S saveAndFlush(S entity);  
+  
+    <S extends T> List<S> saveAllAndFlush(Iterable<S> entities);  
+  
+    /** @deprecated */  
+    @Deprecated  
+    default void deleteInBatch(Iterable<T> entities) {  
+        this.deleteAllInBatch(entities);  
+    }  
+  
+    void deleteAllInBatch(Iterable<T> entities);  
+  
+    void deleteAllByIdInBatch(Iterable<ID> ids);  
+  
+    void deleteAllInBatch();  
+  
+    /** @deprecated */  
+    @Deprecated  
+    T getOne(ID id);  
+  
+    /** @deprecated */  
+    @Deprecated  
+    T getById(ID id);  
+  
+    T getReferenceById(ID id);  
+  
+    <S extends T> List<S> findAll(Example<S> example);  
+  
+    <S extends T> List<S> findAll(Example<S> example, Sort sort);  
+}
+```
+
+> `JpaRepository` 부모에 있는 `ListCrudRepository.class`
+```java
+//  
+// Source code recreated from a .class file by IntelliJ IDEA  
+// (powered by FernFlower decompiler)  
+//  
+  
+package org.springframework.data.repository;  
+  
+import java.util.List;  
+  
+@NoRepositoryBean  
+public interface ListCrudRepository<T, ID> extends CrudRepository<T, ID> {  
+    <S extends T> List<S> saveAll(Iterable<S> entities);  
+  
+    List<T> findAll();  
+  
+    List<T> findAllById(Iterable<ID> ids);  
+}
+```
+
+>  `ListCrudRepository.class`
+```java
+//  
+// Source code recreated from a .class file by IntelliJ IDEA  
+// (powered by FernFlower decompiler)  
+//  
+  
+package org.springframework.data.repository;  
+  
+import java.util.Optional;  
+  
+@NoRepositoryBean  
+public interface CrudRepository<T, ID> extends Repository<T, ID> {  
+    <S extends T> S save(S entity);  
+  
+    <S extends T> Iterable<S> saveAll(Iterable<S> entities);  
+  
+    Optional<T> findById(ID id);  
+  
+    boolean existsById(ID id);  
+  
+    Iterable<T> findAll();  
+  
+    Iterable<T> findAllById(Iterable<ID> ids);  
+  
+    long count();  
+  
+    void deleteById(ID id);  
+  
+    void delete(T entity);  
+  
+    void deleteAllById(Iterable<? extends ID> ids);  
+  
+    void deleteAll(Iterable<? extends T> entities);  
+  
+    void deleteAll();  
+}
+```
