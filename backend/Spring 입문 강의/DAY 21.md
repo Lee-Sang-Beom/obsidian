@@ -92,11 +92,14 @@ public class SpringConfig {
 
 #### 4. 스프링 데이터 JPA 제공 클래스
 
-![[스프링 데이터 JPA 제공 클래스.png]]
-
 - 어떻게 이게 가능한걸까?
 	- 모든 이유는 **JpaRepository**에 있다.
-	- JpaRepository에는 다음과 같은 기본 제공 메소드가 존재한다.
+
+- JpaRepository에는 다음과 같은 기본 제공 메소드가 존재한다.
+	- 또한, JpaRepository의 부모 클래스가 제공하는 기본 메소드도 살펴볼 수 있다.
+
+- 위 설명 중 `"스프링 데이터 JPA를 사용하면 **CRUD(Create, Read, Update, Delete)** 작업과 쿼리 메소드의 작성이 간편해지며, 반복적이고 일반적인 데이터 액세스 작업을 자동화할 수 있다."`라는 문장이 기억나는가?
+	- 아래 코드와 같은 메소드가 기본적으로 제공되고 있는 것을 확인했으니, 이제는 위의 문장을 좀 더 쉽게 이해할 수 있을 것이다.
 
 > `JpaRepository.class`
 ```java
@@ -172,7 +175,7 @@ public interface ListCrudRepository<T, ID> extends CrudRepository<T, ID> {
 }
 ```
 
->  `ListCrudRepository.class`
+>  `ListCrudRepository.class` 부모에 있는 `CrudRepository.class`
 ```java
 //  
 // Source code recreated from a .class file by IntelliJ IDEA  
@@ -210,3 +213,12 @@ public interface CrudRepository<T, ID> extends Repository<T, ID> {
     void deleteAll();  
 }
 ```
+
+- 대체적인 제공 클래스 내용은 아래 이미지와 같다.
+
+![[스프링 데이터 JPA 제공 클래스.png]]
+
+
+#### 5. 스프링 데이터 JPA 메소드 커스텀 
+
+- 그럼, 만약 JpaRepository가 제공하는 기본 메소드가 아니거나, 
