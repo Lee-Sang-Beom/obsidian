@@ -183,7 +183,7 @@ public class JpaMemberRepository implements MemberRepository {
 		- 이를 통해 데이터베이스에 대한 복잡한 쿼리를 객체 지향적으로 작성할 수 있다.
 
 
-#### 5. JPQL
+#### 5. JPQL 쿼리 1. findAll()
 
 - JPQL 쿼리에 대해 알아보기 위해, 아래 코드를 살펴보자.
 ```java
@@ -194,6 +194,10 @@ public class JpaMemberRepository implements MemberRepository {
 }  
 ```
 
+- `em.createQuery("select m from Member m", Member.class)` 부분은 JPQL(Java Persistence Query Language)을 사용하여 데이터베이스에 쿼리를 보내고, 이를 통해 Member Entity의 모든 레코드를 가져오는 쿼리를 생성한다.
+	- 여기서 `m`은 Member Entity를 가리키는 별칭(alias)이다.
+	- `getResultList()` 메서드는 이 쿼리를 실행하고, 결과를 `List<Member>` 형태로 반환한다.
+
 - JPQL에서는 SQL과는 달리 `SELECT *`를 사용하지 않는다. 
 	- 대신에 엔티티와 속성을 기반으로 쿼리를 작성한다.
 	- JPQL에서는 Entity의 속성을 명시적으로 지정하여 가져올 수 있다.
@@ -201,3 +205,28 @@ public class JpaMemberRepository implements MemberRepository {
 
 - 따라서 `select * from Member` 대신에 `select m from Member m`과 같이 사용한 것이다.
 	- 여기서 `m`은 Member Entity를 가리키는 변수이다.
+
+
+#### 6. JPQL 쿼리 2. findByName()
+
+- 이번에는, `findByName()` 메소드에 대해 알아보자.
+```java
+ public List<Member> findAll() {  
+	// createQuery 1번째 인자: Query
+	// createQuery 2번째 인자: 반환 타입 (Member)
+	return em.createQuery("select m from Member m", Member.class).getResultList(); 
+}  
+```
+
+- `em.createQuery("select m from Member m", Member.class)` 부분은 JPQL(Java Persistence Query Language)을 사용하여 데이터베이스에 쿼리를 보내고, 이를 통해 Member Entity의 모든 레코드를 가져오는 쿼리를 생성한다.
+	- 여기서 `m`은 Member Entity를 가리키는 별칭(alias)이다.
+	- `getResultList()` 메서드는 이 쿼리를 실행하고, 결과를 `List<Member>` 형태로 반환한다.
+
+- JPQL에서는 SQL과는 달리 `SELECT *`를 사용하지 않는다. 
+	- 대신에 엔티티와 속성을 기반으로 쿼리를 작성한다.
+	- JPQL에서는 Entity의 속성을 명시적으로 지정하여 가져올 수 있다.
+	- 이는 객체지향 프로그래밍의 관점을 유지하면서 필요한 데이터만을 가져올 수 있게 한다.
+
+- 따라서 `select * from Member` 대신에 `select m from Member m`과 같이 사용한 것이다.
+	- 여기서 `m`은 Member Entity를 가리키는 변수이다.
+
