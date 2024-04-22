@@ -221,4 +221,5 @@ public interface CrudRepository<T, ID> extends Repository<T, ID> {
 
 #### 5. 스프링 데이터 JPA 메소드 커스텀 
 
-- 그럼, 만약 JpaRepository가 제공하는 기본 메소드가 아니거나, 
+- 그럼, JpaRepository가 제공하는 기본 메소드가 아니거나, 내용 일부를 수정해야 하는 등의 비공통화처리의 경우는 어떻게 해야할까?
+	- 답은 메소드 이름을 활용는 것이다.
