@@ -45,12 +45,15 @@ spring.jpa.hibernate.ddl-auto=none
 
 #### 3. Entity Mapping
 
-- Entity(엔티티)는 객체 지향 프로그래밍에서 식별 가능한 개별적인 객체를 나타낸다.
-- 데이터베이스에서 테이블로 표현되는 개체에 대응합니다. 엔티티는 비즈니스 도메인에서 중요한 개념을 나타내며, 속성과 동작을 가질 수 있습니다.
+> [!note] Entity
+> - Entity(엔티티)는 객체 지향 프로그래밍에서 식별 가능한 개별적인 객체를 나타낸다.
+> 	- 이는, 데이터베이스에서 테이블로 표현되는 개체에 대응하는 개념이다.
+> 	- Entity(엔티티)는 비즈니스 도메인에서 중요한 개념을 나타내며, **Attribute**과 **Method**를 가질 수 있다. 
+> - 본 예제에서는, Member이라는 Entity(엔티티)는 회원의 정보를 표현한다. 
+> 	- 이 회원 엔티티는 id, name 등의 속성을 가지며, 회원가입 등의 동작을 수행할 수 있다.
+> 	- 엔티티는 애플리케이션에서 데이터를 표현하고 조작하는 데 사용된다.
 
-예를 들어, 회원(Member)이라는 엔티티가 있다고 가정해봅시다. 이 엔티티는 회원의 정보를 표현합니다. 이 회원 엔티티는 이름, 나이, 이메일 등의 속성을 가질 수 있으며, 로그인, 회원가입 등의 동작을 수행할 수 있습니다. 엔티티는 애플리케이션에서 데이터를 표현하고 조작하는 데 사용됩니다.
-
-- JPA를 쓰려면 `entity`라는 것을 매핑해야 한다.
+- JPA를 쓰려면, 이 **Entity**라는 것을 매핑해야 한다.
 	- JPA는 이러한 ORM 기술을 자바에서 사용할 수 있도록 표준화한 API이라고 했다. ORM은 Object Relational Mapping의 줄임말이다.
 	- **OOP(Object Oriented Programming)에서 쓰는 객체라는 개념을 구현한 클래스**와  **RDB(Relational DataBase)에서 쓰이는 데이터인 테이블을 매핑(연결)** 하는 작업을 필요로 한다.
 
@@ -228,7 +231,7 @@ public Optional<Member> findByName(String name) {
 	- 여기서 `:name`은 JPQL의 파라미터(named parameter)로, 나중에 설정될 값이다. 
 	- `m"` Member 엔티티를 가리키는 별칭이다.
 
--  `.setParameter("name", name)` 부분은 파라미터 ":name"에 값을 설정하는 부분이다.
+-  `.setParameter("name", name)` 부분은 파라미터 `:name`에 값을 설정하는 부분이다.
 	- 이 값을 통해 JPQL 쿼리가 실행될 때 실제로 주어진 이름과 일치하는 레코드를 찾는다.
 	-  `getResultList()` 메소드는 이 쿼리를 실행하고, 결과를 `List<Member>` 형태로 반환한다.
 
