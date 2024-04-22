@@ -241,10 +241,12 @@ public Optional<Member> findByName(String name) {
 
 #### 7. Transcational
 
-
-
 - 데이터 저장 및 수정 시, 항상 `@Transcational` annotation이 필요하다.
 - 본 예제에서는, 데이터 저장 및 수정이 서비스 측 메소드에서 발생하므로 서비스 측에 걸어주면 된다.
+	- `@Transcational` annotation을 걸어주면, 스프링은 해당 클래스의 메소드를 실행할 때 트랜잭션을 시작하고, 메서드가 정상 종료되면 트랜잭션을 **Commit**한다
+	- 만약 런타임 예외가 발생하면 롤백한다.
+
+- **JPA를 통한 모든 데이터 변경은 트랜잭션 안에서 실행해야 한다는 것을 명심하자
 
 ```java
 package hello.hellospring.service;  
