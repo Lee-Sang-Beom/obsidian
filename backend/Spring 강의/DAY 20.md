@@ -241,6 +241,8 @@ public Optional<Member> findByName(String name) {
 
 #### 7. Transcational
 
+
+
 - 데이터 저장 및 수정 시, 항상 `@Transcational` annotation이 필요하다.
 - 본 예제에서는, 데이터 저장 및 수정이 서비스 측 메소드에서 발생하므로 서비스 측에 걸어주면 된다.
 
@@ -334,3 +336,5 @@ public class SpringConfig {
     }  
 }
 ```
+
+![[테스트 결과.png]]

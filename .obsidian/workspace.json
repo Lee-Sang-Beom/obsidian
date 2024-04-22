@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0b93feb380f25030",
+        "id": "80af508737699741",
         "type": "tabs",
         "children": [
           {
-            "id": "6311442e184b2b31",
+            "id": "b10ccc0722dece6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "backend/Spring 강의/DAY 20.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "168b721852bbb2a7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3a088ce567009452",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -165,15 +146,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "38fb693a809a6c4a",
+  "active": "b10ccc0722dece6e",
   "lastOpenFiles": [
+    "backend/Spring 강의/DAY 19.md",
+    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
+    "backend/Spring 강의/DAY 20.md",
+    "사용 이미지/backend/Spring/DAY 20",
+    "사용 이미지/backend/Spring/DAY 20/테스트 결과.png",
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "backend/Spring 강의/DAY 10.md",
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
-    "backend/Spring 강의/DAY 20.md",
     "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
     "backend/Spring 강의/DAY 16.md",
-    "backend/Spring 강의/DAY 19.md",
     "backend/Spring 강의/DAY 17.md",
     "backend/Spring 강의/DAY 18.md",
     "backend/Spring 강의/Spring 강의 학습 백링크.md",
@@ -190,7 +174,6 @@
     "사용 이미지/backend/DataBase",
     "사용 이미지/backend",
     "사용 이미지/backend/DataBase/JOIN/INNERJOIN이후예제.png",
-    "사용 이미지/backend/DataBase/JOIN/INNERJOIN이전예제.png",
     "backend/DataBase",
     "backend/IR/Mapper/Mapper 사용 예제.md",
     "backend/IR/Mapper",
@@ -202,17 +185,14 @@
     "backend/Spring 강의/DAY 9.md",
     "backend/Spring 강의/DAY 8.md",
     "backend/Spring 강의/DAY 7.md",
-    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
     "backend/Spring 강의/DAY 12.md",
     "backend/Spring 강의/DAY 13.md",
     "backend/Spring 강의/DAY 14.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
-    "사용 이미지/backend/Spring/DAY 18",
     "사용 이미지/Spring/DAY 16.md",
     "Next.js/더 알아보기/Middleware.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "backend/Spring 강의/강의자료/Spring 강의자료 백링크.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
