@@ -9,4 +9,20 @@
 	- 또한 스프링 데이터 JPA는 리포지토리 인터페이스를 정의하여, 애플리케이션에서 데이터베이스와의 상호 작용을 추상화하고 단순화할 수 있도록 지원한다.
 
 
-#### 2. 
+#### 2. 스프링 데이터 JPA 회원 리포지토리
+
+```java
+package hello.hellospring.repository;  
+  
+import hello.hellospring.domain.Member;  
+import org.springframework.data.jpa.repository.JpaRepository;  
+  
+import java.util.Optional;  
+  
+// 인터페이스가 인터페이스를 받을 때는, extends  
+public interface SpringDataJpaMemberRepository extends JpaRepository<Member, Long>, MemberRepository {  
+    Optional<Member> findByName(String name);  
+}
+```
+
+- 
