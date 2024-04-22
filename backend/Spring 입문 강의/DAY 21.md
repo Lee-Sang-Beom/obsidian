@@ -49,4 +49,39 @@ public interface SpringDataJpaMemberRepository extends JpaRepository<Member, Lon
 
 #### 3. 스프링 데이터 JPA 회원 리포지토리를 사용하도록, 스프링 설정 변경
 
-- 다음으로, `SpringConfig`
+- 다음으로, `SpringConfig` 파일에서 스프링 데이터 JPA가 만들어준 스프링 빈을 가져다 쓸 수 있도록 해야 한다.
+	- 그 코드는 아래와 같다.
+
+```java
+package hello.hellospring;  
+  
+import hello.hellospring.repository.*;  
+import hello.hellospring.service.MemberService;  
+import jakarta.persistence.EntityManager;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.context.annotation.Bean;  
+import org.springframework.context.annotation.Configuration;  
+  
+import javax.sql.DataSource;  
+  
+// 스프링이 실행될 때, Configuration을 먼저 읽고, config 내부의 @Bean annotation으로 설정된 요소를 스프링이 스프링 컨테이너에 스프링 빈으로 등록한다.  
+@Configuration  
+public class SpringConfig {  
+  
+    private final MemberRepository memberRepository;  
+
+	// 객체 생성 시점에 스프링 컨테이너에서 해당 스프링 빈을 찾아서 주입해준다.
+    @Autowired  
+    public SpringConfig(MemberRepository memberRepository){  
+	    // 여기에서, 스프링 데이터 jpa가 구현체를 만든 것이 이리로 들어옴
+        this.memberRepository = memberRepository;  
+    }  
+  
+    @Bean  
+    public MemberService memberService(){  
+	    // 의존관계 세팅: MemberService > memberRepository
+        return new MemberService(memberRepository);  
+    }  
+  
+}
+```
