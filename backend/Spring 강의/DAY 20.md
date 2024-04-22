@@ -95,7 +95,7 @@ public class Member {
 
 - 이제 Mapping을 해보자. 살펴볼 것은 크게 3가지이다.
 	1. `@Entity`:  이 annotation은 해당 클래스가 JPA Entity임을 표시한다. 즉, 데이터베이스의 테이블과 매핑되는 클래스이다.
-	2. `@Id`: 이 annotation은 해당 필드가 엔티티의 기본 키(primary key)임을 나타낸다. 여기서는 `id` 필드가 기본 키로 사용된다.
+	2. `@Id`: 이 annotation은 해당 필드가 Entity의 기본 키(primary key)임을 나타낸다. 여기서는 `id` 필드가 기본 키로 사용된다.
 	3. `@GeneratedValue`: 이 annotation은 기본 키 값이 자동으로 생성되는 방식을 지정한다.
 		- 여기서는 데이터베이스가 기본 키를 자동으로 생성하도록 지정되었다.
 		- `id`는 아래 DDL문에 의해 자동 생성된 것을 기억할 것이다. (아마)
@@ -119,7 +119,6 @@ import jakarta.persistence.EntityManager;
   
 import java.util.List;  
 import java.util.Optional;  
-  
 public class JpaMemberRepository implements MemberRepository {
 	// jpa는 entitymanager라는 걸 이용해서, 모든 게 동작
 	// `build.gradle`파일의 `dependencies`에 JPA implementation을 등록해주면 스프링부트가 자동으로 EntityManager를 생성해준다. (DB와 통신하는 거 얘 내부에서 알아서 처리함)
@@ -156,23 +155,23 @@ public class JpaMemberRepository implements MemberRepository {
 }
 ```
 
-- 여기서는, JPA(Java Persistence API)를 사용하여 회원(Member)엔티티를 데이터베이스와 상호 작용하는 Repository 클래스를 정의하고 있다.
-	- 이 Repository는 Member 엔티티의 CRUD(Create, Read, Update, Delete) 작업을 수행한다.
+- 여기서는, JPA(Java Persistence API)를 사용하여 회원(Member) Entity를 데이터베이스와 상호 작용하는 Repository 클래스를 정의하고 있다.
+	- 이 Repository는 Member Entity의 CRUD(Create, Read, Update, Delete) 작업을 수행한다.
 
 - 여기서 사용된 기능과 메소드들은 아래와 같다.
 	-  **EntityManager**
-		- JPA에서 엔티티를 관리하고 데이터베이스와의 상호 작용을 처리하는 인터페이스이다.
+		- JPA에서 Entity를 관리하고 데이터베이스와의 상호 작용을 처리하는 인터페이스이다.
 		- JPA는 EntityManager라는 것으로 모든 게 동작한다.
 		- `build.gradle`파일의 `dependencies`에 JPA implementation을 등록해주면 스프링부트가 자동으로 EntityManager를 생성해준다. (DB와 통신하는 거 얘 내부에서 알아서 처리함)
     
 	- **save(Member member)**
-		- `persist()` 메소드를 사용하여 영속성 컨텍스트에 엔티티를 추가하고 데이터베이스에 반영한다.
+		- `persist()` 메소드를 사용하여 영속성 컨텍스트에 Entity를 추가하고 데이터베이스에 반영한다.
     
 	- **findById(Long id)**
-		- 데이터베이스에서 해당 엔티티를 직접 조회하여 반환한다.
+		- 데이터베이스에서 해당 Entity를 직접 조회하여 반환한다.
     
 	- **findAll()**
-		- 데이터베이스에 있는 모든 Member 엔티티를 조회하여 리스트로 반환한다.
+		- 데이터베이스에 있는 모든 Member Entity를 조회하여 리스트로 반환한다.
 		- JPQL(Java Persistence Query Language)을 사용하여 데이터베이스 쿼리를 작성하여 모든 Member를 검색한다.
     
 	- **findByName(String name)**
@@ -183,8 +182,8 @@ public class JpaMemberRepository implements MemberRepository {
 		- JPA는 자바 객체와 데이터베이스 테이블 간의 매핑을 처리하여 객체 지향 프로그래밍 언어인 자바와 관계형 데이터베이스 간의 데이터 변환을 자동화한다.
 	    
 	2. **영속성 컨텍스트(Persistence Context)**
-		- JPA는 영속성 컨텍스트를 통해 엔티티 객체의 상태를 관리하고, 데이터베이스와의 상호 작용을 추상화한다.
-		- 이를 통해 엔티티의 생명 주기를 관리하고, 변경을 추적하여 데이터베이스에 자동으로 반영할 수 있다.
+		- JPA는 영속성 컨텍스트를 통해 Entity 객체의 상태를 관리하고, 데이터베이스와의 상호 작용을 추상화한다.
+		- 이를 통해 Entity의 생명 주기를 관리하고, 변경을 추적하여 데이터베이스에 자동으로 반영할 수 있다.
 	    
 	3. **JPQL(Java Persistence Query Language)**
 		- JPA는 객체 지향적인 쿼리 언어인 JPQL을 제공하여 데이터베이스에 대한 쿼리를 수행할 수 있다.
@@ -237,4 +236,9 @@ public Optional<Member> findByName(String name) {
 
 - `result.stream().findAny()` 부분은 조회된 결과 리스트를 스트림으로 변환한 뒤, 그 중 임의의 요소를 반환하는 코드이다.
 	- 이때 `Optional<Member>`로 반환되는데, 이는 조회된 결과가 있을 수도 있고 없을 수도 있기 때문이다. 
-	- 따라서 이 메소드를 호출한 곳에서는 결과가 존재하는지 여부를 확인하고 처리할 수 있습니다.
+	- 따라서 이 메소드를 호출한 곳에서는 결과가 존재하는지 여부를 확인하고 처리할 수 있다.
+
+
+#### 7. Transcational
+
+- 데이터 저장
