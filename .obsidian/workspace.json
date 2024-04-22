@@ -11,8 +11,28 @@
             "id": "c61c5eacf41dc3f1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "backend/Spring 입문 강의/DAY 22.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ff2b2a8c77a551ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f36c9dab96cf1b43",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/Spring 입문 강의/강의자료/7. AOP.pdf"
+              }
             }
           }
         ]
@@ -81,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "backend/Spring 입문 강의/DAY 22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "backend/Spring 입문 강의/DAY 22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "backend/Spring 입문 강의/DAY 22.md"
+              }
             }
           }
         ],
@@ -140,10 +164,12 @@
   },
   "active": "c61c5eacf41dc3f1",
   "lastOpenFiles": [
+    "backend/Spring 입문 강의/강의자료/7. AOP.pdf",
+    "backend/Spring 입문 강의/DAY 22.md",
+    "backend/Spring 입문 강의/DAY 21.md",
     "backend/Spring 입문 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "backend/Spring 입문 강의/DAY 19.md",
     "backend/Spring 입문 강의/DAY 20.md",
-    "backend/Spring 입문 강의/DAY 21.md",
     "사용 이미지/backend/Spring 입문 강의/DAY 21",
     "사용 이미지/backend/Spring 입문 강의/DAY 21/스프링 데이터 JPA 제공 클래스.png",
     "사용 이미지/backend/Spring 입문 강의/DAY 21/스프링 데이터 JPA 테스트.png",
@@ -184,7 +210,6 @@
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "사용 이미지/Spring/DAY 16.md",
-    "Next.js/더 알아보기/Middleware.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
