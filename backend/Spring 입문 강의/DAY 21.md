@@ -222,4 +222,28 @@ public interface CrudRepository<T, ID> extends Repository<T, ID> {
 #### 5. 스프링 데이터 JPA 메소드 커스텀 
 
 - 그럼, JpaRepository가 제공하는 기본 메소드가 아니거나, 내용 일부를 수정해야 하는 등의 비공통화처리의 경우는 어떻게 해야할까?
-	- 답은 메소드 이름을 활용는 것이다.
+	- 답은 메소드 이름을 활용하는 것이다.
+ 
+-  Spring Data JPA에서는 메소드 이름을 통해 쿼리를 생성하는 규칙이 있다. 이 규칙은 메소드 이름을 분석하여 해당 메소드에 맞는 JPQL(Java Persistence Query Language) 쿼리를 자동으로 생성할 수 있도록 한다.
+	- 이를 통해 개발자는 별도의 JPQL 쿼리를 작성하지 않고도 간단한 쿼리 메소드를 정의하여 데이터베이스를 조회할 수 있다.
+
+- Spring Data JPA의 쿼리 메소드 생성 규칙은 다음과 같다.
+	1. 메소드 이름은 `find...By`, `read...By`, `query...By`, `count...By`, `get...By`로 시작해야 한다. 
+		- 이는 해당 메소드가 조회를 위한 메소드임을 나타낸다.
+    
+	2. `By` 다음에는 엔티티의 필드 이름이 옵니다. 이를 통해 해당 필드를 기준으로 조회할 수 있다.
+    
+	3. 필드 이름 뒤에는 검색 조건을 표현하는 키워드가 온다.
+		- 예를 들어, `Equals`, `IgnoreCase`, `Like`, `Between`, `GreaterThan`, `LessThan` 등이 있습니다.
+    
+	4. 필드 이름 뒤에 `And`, `Or`, `Between`, `LessThan`, `GreaterThan` 등을 사용하여 조건을 결합할 수 있다.
+    
+	5. 반환 타입은 해당 엔티티 타입이거나, 해당 필드에 대한 Projection이거나, 컬렉션 타입이다.
+    
+
+- 간단한 예를 들어보면, 아래와 같다.
+	- 이름으로 멤버를 찾는 경우: `Optional<Member> findByName(String name);`
+	- 나이가 특정 값보다 큰 멤버를 찾는 경우: `List<Member> findByAgeGreaterThan(int age);`
+	- 이름이 특정 문자열로 시작하는 멤버를 찾는 경우: `List<Member> findByNameStartingWith3(String prefix);`
+
+이런식으로 메소드 이름을 작성하면, Spring Data JPA는 해당 메소드에 맞는 JPQL 쿼리를 자동으로 생성하여 실행합니다.
