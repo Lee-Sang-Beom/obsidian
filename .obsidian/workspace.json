@@ -4,35 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "80af508737699741",
+        "id": "451908ce1f6b90a7",
         "type": "tabs",
         "children": [
           {
-            "id": "b10ccc0722dece6e",
+            "id": "c61c5eacf41dc3f1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/Spring 입문 강의/DAY 21.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ef61d39a0e38e3b8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4b38e282c25d8609",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "backend/Spring 입문 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "backend/Spring 입문 강의/DAY 21.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -162,9 +138,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b10ccc0722dece6e",
+  "active": "c61c5eacf41dc3f1",
   "lastOpenFiles": [
     "backend/Spring 입문 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 입문 강의/DAY 19.md",
+    "backend/Spring 입문 강의/DAY 20.md",
     "backend/Spring 입문 강의/DAY 21.md",
     "사용 이미지/backend/Spring 입문 강의/DAY 21",
     "사용 이미지/backend/Spring 입문 강의/DAY 21/스프링 데이터 JPA 제공 클래스.png",
@@ -172,8 +150,6 @@
     "backend/Spring 입문 강의/DAY 11.md",
     "backend/Spring 입문 강의/DAY 10.md",
     "backend/Spring 입문 강의/DAY 8.md",
-    "backend/Spring 입문 강의/DAY 20.md",
-    "backend/Spring 입문 강의/DAY 19.md",
     "backend/Spring 입문 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
     "사용 이미지/backend/Spring 입문 강의/DAY 20",
     "사용 이미지/backend/Spring 입문 강의/DAY 20/테스트 결과.png",
