@@ -83,7 +83,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,7 +165,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6311442e184b2b31",
+  "active": "38fb693a809a6c4a",
   "lastOpenFiles": [
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "backend/Spring 강의/DAY 10.md",

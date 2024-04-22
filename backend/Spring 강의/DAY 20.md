@@ -31,7 +31,7 @@ dependencies {
 - 스프링 부트(`resources/application.properties`)에 JPA 설정 추가
 	- `show-sql`: JPA가 생성하는 SQL 출력
 	- `ddl-auto`: JPA는 테이블을 자동으로 생성하는 기능을 제공하는데, `none` 사용 시 해당 기능을 끈다.
-		- `create` 사용 시, 엔티티 정보 기반으로, 테이블을 직접 생성한다.
+		- `create` 사용 시, Entity 정보 기반으로, 테이블을 직접 생성한다.
 ```null
 spring.datasource.url=jdbc:h2:tcp://localhost/~/test  
 spring.datasource.driver-class-name=org.h2.Driver  
@@ -50,7 +50,7 @@ spring.jpa.hibernate.ddl-auto=none
 > 	- 이는, 데이터베이스에서 테이블로 표현되는 개체에 대응하는 개념이다.
 > 	- Entity(엔티티)는 비즈니스 도메인에서 중요한 개념을 나타내며, **Attribute**과 **Method**를 가질 수 있다. 
 > - 본 예제에서는, Member이라는 Entity(엔티티)는 회원의 정보를 표현한다. 
-> 	- 이 회원 엔티티는 id, name 등의 속성을 가지며, 회원가입 등의 동작을 수행할 수 있다.
+> 	- 이 회원 Entity(엔티티)는 id, name 등의 속성을 가지며, 회원가입 등의 동작을 수행할 수 있다.
 > 	- 엔티티는 애플리케이션에서 데이터를 표현하고 조작하는 데 사용된다.
 
 - JPA를 쓰려면, 이 **Entity**라는 것을 매핑해야 한다.
@@ -94,7 +94,7 @@ public class Member {
 ```
 
 - 이제 Mapping을 해보자. 살펴볼 것은 크게 3가지이다.
-	1. `@Entity`:  이 annotation은 해당 클래스가 JPA 엔티티임을 표시한다. 즉, 데이터베이스의 테이블과 매핑되는 클래스이다.
+	1. `@Entity`:  이 annotation은 해당 클래스가 JPA Entity임을 표시한다. 즉, 데이터베이스의 테이블과 매핑되는 클래스이다.
 	2. `@Id`: 이 annotation은 해당 필드가 엔티티의 기본 키(primary key)임을 나타낸다. 여기서는 `id` 필드가 기본 키로 사용된다.
 	3. `@GeneratedValue`: 이 annotation은 기본 키 값이 자동으로 생성되는 방식을 지정한다.
 		- 여기서는 데이터베이스가 기본 키를 자동으로 생성하도록 지정되었다.
@@ -229,10 +229,12 @@ public Optional<Member> findByName(String name) {
 
 - `em.createQuery("select m from Member m where m.name = :name", Member.class)` 부분은 JPQL을 사용하여 데이터베이스에 쿼리를 보내고, 이를 통해 주어진 이름과 일치하는 Member Entiry를 가져오는 쿼리를 생성하는 부분이다.
 	- 여기서 `:name`은 JPQL의 파라미터(named parameter)로, 나중에 설정될 값이다. 
-	- `m"` Member 엔티티를 가리키는 별칭이다.
+	- `m"` Member Entity를 가리키는 별칭이다.
 
 -  `.setParameter("name", name)` 부분은 파라미터 `:name`에 값을 설정하는 부분이다.
 	- 이 값을 통해 JPQL 쿼리가 실행될 때 실제로 주어진 이름과 일치하는 레코드를 찾는다.
 	-  `getResultList()` 메소드는 이 쿼리를 실행하고, 결과를 `List<Member>` 형태로 반환한다.
 
-- `result.stream().findAny()` 부분은 조회된 결과 리스트를 스트림으로 변환한 뒤, 그 중 임의의 요소를 반환합니다. 이때 Optional<Member>로 반환되는데, 이는 조회된 결과가 있을 수도 있고 없을 수도 있기 때문입니다. 따라서 이 메서드를 호출한 곳에서는 결과가 존재하는지 여부를 확인하고 처리할 수 있습니다.
+- `result.stream().findAny()` 부분은 조회된 결과 리스트를 스트림으로 변환한 뒤, 그 중 임의의 요소를 반환하는 코드이다.
+	- 이때 `Optional<Member>`로 반환되는데, 이는 조회된 결과가 있을 수도 있고 없을 수도 있기 때문이다. 
+	- 따라서 이 메소드를 호출한 곳에서는 결과가 존재하는지 여부를 확인하고 처리할 수 있습니다.
