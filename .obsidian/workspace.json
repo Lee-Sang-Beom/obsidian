@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 22.md",
+                "file": "React/react-hook-form/사용 예제.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 22.md",
+                "file": "React/react-hook-form/사용 예제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 22.md",
+                "file": "React/react-hook-form/사용 예제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 22.md"
+                "file": "React/react-hook-form/사용 예제.md"
               }
             }
           }
@@ -162,11 +162,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "c61c5eacf41dc3f1",
   "lastOpenFiles": [
+    "backend/Spring 입문 강의/DAY 22.md",
+    "React/react-hook-form/사용 예제.md",
     "AOP 적용.png",
     "backend/Spring 입문 강의/강의자료/7. AOP.pdf",
-    "backend/Spring 입문 강의/DAY 22.md",
     "AOP 없이 findMembers 사용.png",
     "AOP가 필요한 상황.png",
     "backend/Spring 입문 강의/DAY 21.md",
@@ -193,7 +194,6 @@
     "사용 이미지/backend/DataBase/JOIN/셀프조인 예제 테이블.png",
     "사용 이미지/backend/DataBase/JOIN/이해안되면 보는 셀프조인결과.png",
     "Pasted image 20240419144803.png",
-    "사용 이미지/backend/DataBase/JOIN/OUTER-JOIN_더알아보기-1 1.png",
     "사용 이미지/backend/DataBase/JOIN",
     "사용 이미지/backend/DataBase",
     "사용 이미지/backend",
