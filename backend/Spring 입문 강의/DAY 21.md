@@ -239,11 +239,13 @@ public interface CrudRepository<T, ID> extends Repository<T, ID> {
 	4. 필드 이름 뒤에 `And`, `Or`, `Between`, `LessThan`, `GreaterThan` 등을 사용하여 조건을 결합할 수 있다.
     
 	5. 반환 타입은 해당 엔티티 타입이거나, 해당 필드에 대한 Projection이거나, 컬렉션 타입이다.
-    
 
 - 간단한 예를 들어보면, 아래와 같다.
 	- 이름으로 멤버를 찾는 경우: `Optional<Member> findByName(String name);`
 	- 나이가 특정 값보다 큰 멤버를 찾는 경우: `List<Member> findByAgeGreaterThan(int age);`
 	- 이름이 특정 문자열로 시작하는 멤버를 찾는 경우: `List<Member> findByNameStartingWith3(String prefix);`
 
-이런식으로 메소드 이름을 작성하면, Spring Data JPA는 해당 메소드에 맞는 JPQL 쿼리를 자동으로 생성하여 실행합니다.
+- 이런 식으로 메소드 이름을 작성하면, Spring Data JPA는 해당 메소드에 맞는 JPQL 쿼리를 자동으로 생성하여 실행한다.
+
+
+참고: 실무에서는 JPA와 스프링 데이터 JPA를 기본으로 사용하고, 복잡한 동적 쿼리는 Querydsl이라는 라이브 러리를 사용하면 된다. Querydsl을 사용하면 쿼리도 자바 코드로 안전하게 작성할 수 있고, 동적 쿼리도 편리하 게 작성할 수 있다. 이 조합으로 해결하기 어려운 쿼리는 JPA가 제공하는 네이티브 쿼리를 사용하거나, 앞서 학습 한 스프링 JdbcTemplate를 사용하면 된다
