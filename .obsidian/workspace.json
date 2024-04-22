@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 21.md",
+                "file": "backend/Spring 입문 강의/DAY 21.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
+                "file": "backend/Spring 입문 강의/강의자료/6. 스프링 DB 접근 기술.pdf"
               }
             }
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 21.md",
+                "file": "backend/Spring 입문 강의/DAY 21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 21.md",
+                "file": "backend/Spring 입문 강의/DAY 21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 21.md"
+                "file": "backend/Spring 입문 강의/DAY 21.md"
               }
             }
           }
@@ -164,20 +164,20 @@
   },
   "active": "b10ccc0722dece6e",
   "lastOpenFiles": [
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
-    "backend/Spring 강의/DAY 21.md",
-    "backend/Spring 강의/DAY 20.md",
-    "backend/Spring 강의/DAY 19.md",
-    "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
-    "사용 이미지/backend/Spring/DAY 20",
-    "사용 이미지/backend/Spring/DAY 20/테스트 결과.png",
+    "backend/Spring 입문 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
+    "backend/Spring 입문 강의/DAY 21.md",
+    "backend/Spring 입문 강의/DAY 20.md",
+    "backend/Spring 입문 강의/DAY 19.md",
+    "backend/Spring 입문 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
+    "사용 이미지/backend/Spring 입문 강의/DAY 20",
+    "사용 이미지/backend/Spring 입문 강의/DAY 20/테스트 결과.png",
     "짧게 정리한 프론트엔드 지식/JWT.md",
-    "backend/Spring 강의/DAY 10.md",
+    "backend/Spring 입문 강의/DAY 10.md",
     "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
-    "backend/Spring 강의/DAY 16.md",
-    "backend/Spring 강의/DAY 17.md",
-    "backend/Spring 강의/DAY 18.md",
-    "backend/Spring 강의/Spring 강의 학습 백링크.md",
+    "backend/Spring 입문 강의/DAY 16.md",
+    "backend/Spring 입문 강의/DAY 17.md",
+    "backend/Spring 입문 강의/DAY 18.md",
+    "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
     "backend/DataBase/JOIN.md",
     "사용 이미지/backend/DataBase/JOIN/RIGHTJOIN.png",
     "사용 이미지/backend/DataBase/JOIN/셀프조인 예제 테이블.png",
@@ -196,15 +196,15 @@
     "backend/IR/Mapper",
     "backend/IR/무제 파일.md",
     "backend/IR",
-    "사용 이미지/backend/Spring/DAY 19",
-    "backend/Spring 강의/DAY 15.md",
-    "backend/Spring 강의/DAY 11.md",
-    "backend/Spring 강의/DAY 9.md",
-    "backend/Spring 강의/DAY 8.md",
-    "backend/Spring 강의/DAY 7.md",
-    "backend/Spring 강의/DAY 12.md",
-    "backend/Spring 강의/DAY 13.md",
-    "backend/Spring 강의/DAY 14.md",
+    "사용 이미지/backend/Spring 입문 강의/DAY 19",
+    "backend/Spring 입문 강의/DAY 15.md",
+    "backend/Spring 입문 강의/DAY 11.md",
+    "backend/Spring 입문 강의/DAY 9.md",
+    "backend/Spring 입문 강의/DAY 8.md",
+    "backend/Spring 입문 강의/DAY 7.md",
+    "backend/Spring 입문 강의/DAY 12.md",
+    "backend/Spring 입문 강의/DAY 13.md",
+    "backend/Spring 입문 강의/DAY 14.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "사용 이미지/Spring/DAY 16.md",
