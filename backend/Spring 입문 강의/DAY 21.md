@@ -85,3 +85,9 @@ public class SpringConfig {
   
 }
 ```
+
+- 테스트를 통과했다.
+![[스프링 데이터 JPA 테스트.png]]
+
+
+#### 4. 스프링 ㄷ
