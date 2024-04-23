@@ -139,12 +139,18 @@ public class TimeTraceAop {
 4. `execute`: `execute` 메소드는 Advice 역할을 한다.
 	- Advice에는 언제, 어디서, 어떻게 Aspect를 적용할지를 정의한다. 
 	- 여기서는 `@Around` annotation을 사용하여 메소드 실행 전후에 Aspect를 적용하겠다고 선언하였다.
+		- execution 실행 경로에 정의된 메소드가 실행될 때마다 중간에서 인터셉트가 발생한다고 생각하자.
+	
+	- AOP로 호출될 때마다 Advice 역할을 하는 메소드는 `ProceedingJoinPoint joinPoint`를 전달받는다. 
+		- 이것을 가지고, 특정 메소드를 계속 실행시킬 수도 있고 실행을 멈춰줄 수도 있다.
 
 - 참고로, **execution** 명시자는 아래와 같은 규칙을 보유한다.
 
 >  [참고자료 명시자 구조 이미지 >> hstory0208님의 포스트](https://hstory0208.tistory.com/entry/Spring-%EC%8A%A4%ED%94%84%EB%A7%81-AOP-Pointcut-%ED%91%9C%ED%98%84%EC%8B%9D)
 >  [참고자료 명시자 설명 및 예시 이미지 >> ITisTrue님의 포스트](https://ittrue.tistory.com/233)
 
+
+#### 참rh execution 명시자
 ![[execution 명시자 규칙.png]]
  ![[execution 명시자.png]]
 
