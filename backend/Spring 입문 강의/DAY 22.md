@@ -113,14 +113,22 @@ public class TimeTraceAop {
 }
 ```
 
-- `@Aspect` : `@Aspect` annotation을 사용하면, `TimeTraceAop` 클래스가 Aspect로 사용됨을 나타내고 있다.
+1. `@Aspect` : `@Aspect` annotation을 사용하면, `TimeTraceAop` 클래스가 Aspect로 사용됨을 나타내고 있다.
 
-- `@Component` `@Component` annotation은 이 클래스가 스프링 컨테이너에 스프링 빈으로 등록될 것임을 나타낸다.
+2. `@Component` `@Component` annotation은 이 클래스가 스프링 컨테이너에 스프링 빈으로 등록될 것임을 나타낸다.
 
-- `@Around("execution(* hello.hellospring.*(..))")`: **Advice**를 적용할 대상을 지정한다.
-	- 여기서는 `hello.hellospring` 패키지와 그 하위 패키지에 속한 모든 메소드에 Aspect를 적용하겠다는 의미이다.
+3. `@Around("execution(* hello.hellospring.*(..))")`: **Advice**를 적용할 대상을 지정한다.
+	- Advice를 적용할 메소드를 지정하는 포인트컷(Pointcut) 표현식으로, 이 표현식은 Aspect를 적용할 메소드를 선별하기 위해 사용된다.
 
-- `execute`: `execute` 메소드는 Advice(조언) 역할을 한다.
-	- Advice는 언제, 어디서, 어떻게 Aspect를 적용할지를 정의한다. 
+```null
+>> execution(* hello.hellospring.*(..))
+
+1. `*`: 리턴 타입을 나타내며, 여기서는 어떤 리턴 타입이든 상관없다는 것을 의미한다.
+2. `hello.hellospring..*`: 메소드가 속한 클래스의 패키지 경로를 나타냅니다. `..`은 현재 패키지와 그 하위 패키지를 의미합니다. 즉, `hello.hellospring` 패키지와 그 하위 패키지에 있는 모든 클래스를 포함합니다.
+3. `*(..)`: 메소드 이름과 파라미터를 나타냅니다. `*`는 모든 메소드 이름을 의미하고, `(..)`는 모든 파라미터를 의미합니다. 따라서 이 부분은 모든 메소드를 대상으로 한다는 것을 의미합니다
+
+```
+4. `execute`: `execute` 메소드는 Advice 역할을 한다.
+	- Advice에는 언제, 어디서, 어떻게 Aspect를 적용할지를 정의한다. 
 	- 여기서는 `@Around` annotation을 사용하여 메소드 실행 전후에 Aspect를 적용하겠다고 선언하였다.
 
