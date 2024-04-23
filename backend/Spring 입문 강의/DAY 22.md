@@ -262,6 +262,8 @@ try {
 	- 이 때, AOP가 있으면 가짜 스프링 빈을 아래 이미지처럼 앞에 세워놓으며, 가짜 스프링 빈 내에서 `joinPoint.proceed()`가 실행되어야 진짜 스프링 빈이 실행된다.
 	- 여기서 핵심은, memberConroller가 호출하는 것은 프록시라는 기술로 발생하는 가짜 memberService라는 것이다.
 
+- 실제로, MemberController가 스프링 빈으로 등록되면서 생성된  콘솔에 찍어보면 
+
 > AOP 적용 전 전체 그림
 ![[AOP 적용 전 전체 그림.png]]
 
