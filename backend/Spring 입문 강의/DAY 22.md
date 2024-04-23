@@ -155,5 +155,47 @@ public class TimeTraceAop {
 
 #### 5. 프로젝트 적용 예시 살펴보기
 
+```java
+@Pointcut("execution(* egovframework.deps.*.controller.*.*(..)) || execution(* egovframework.deps.areas.company.controller.*.*(..))" )  
+public void webControllerPointcut() {  
+}  
+  
+@Around("webControllerPointcut()")  
+public Object doLogging(ProceedingJoinPoint joinPoint) throws Throwable {  
+  
+try {  
+  
+    HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes()).getRequest();  
+  
+    String controllerName = joinPoint.getSignature().getDeclaringType().getName();  
+    String methodName = joinPoint.getSignature().getName();  
+  
+  
+    logger.info("□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  REQUEST LOG CONSOLE START □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□");  
+    logger.info("ControllerName :{}", controllerName);  
+    logger.info("MethodName :{}", methodName);
+
+	// ...
+  
+    } catch (Exception e) {  
+        log.error("LoggerAspect error", e);  
+    }  
+  
+    return joinPoint.proceed();  
+  
+}
 ```
-```
+
+1. `@Pointcut` : 해당 annotation은 포인트컷(Pointcut)을 정의한다. 
+	- 포인트컷은 어드바이스(Advice)가 적용될 대상을 지정하는데 사용된다.
+	- 위의 코드에서는 두 개의 execution 표현식을 포인트컷으로 사용하여 `webControllerPointcut()` 메소드를 정의했다.
+    
+2. `@Around` 어노테이션은 Advice를 정의한다.
+	- Advice는 포인트컷에 정의된 대상 메소드를 감싸서 실행 전후에 추가 동작을 수행한다.
+	- 위의 코드에서는 `doLogging()` 메소드가 Around Advice를 정의한다.
+    
+3. `doLogging()` 메소드는 `webControllerPointcut()` 포인트컷에 정의된 대상 메소드를 실행하기 전후에 로깅 작업을 수행한다.
+	- 이는 HTTP 요청의 URI, 메소드, 요청 파라미터 등을 로깅하는 것으로 보인다.
+    
+4. `joinPoint.proceed()` 메소드는 실제 대상 메소드를 호출한다.
+	- 이 메소드 호출 전후에 로깅이 수행되는 것을 확인할 수 있습니다.
