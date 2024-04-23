@@ -86,3 +86,41 @@ public List<Member> findMembers() {
 
 ![[AOP 적용.png]]
 - 그럼 지금부터, 시간 측정 로직을 한 군데 모아놓고 **내가 원하는 곳에 지정**하는 방법을 알아보자.
+
+```java
+package hello.hellospring.aop;  
+  
+import org.aspectj.lang.ProceedingJoinPoint;  
+import org.aspectj.lang.annotation.Around;  
+import org.aspectj.lang.annotation.Aspect;  
+import org.springframework.stereotype.Component;  
+  
+@Aspect  
+@Component  
+public class TimeTraceAop {  
+    @Around("execution(* hello.hellospring..*(..))")  
+    public Object execute(ProceedingJoinPoint joinPoint) throws Throwable {  
+        long start = System.currentTimeMillis();  
+        System.out.println("START: " + joinPoint.toString());  
+        try {  
+            return joinPoint.proceed();  
+        } finally {  
+            long finish = System.currentTimeMillis();  
+            long timeMs = finish - start;  
+            System.out.println("END: " + joinPoint.toString() + " " + timeMs + "ms");  
+        }  
+    }  
+}
+```
+
+- `@Aspect` : `@Aspect` annotation을 사용하면, `TimeTraceAop` 클래스가 Aspect로 사용됨을 나타내고 있다.
+
+- `@Component` `@Component` annotation은 이 클래스가 스프링 컨테이너에 스프링 빈으로 등록될 것임을 나타낸다.
+
+- `@Around("execution(* hello.hellospring.*(..))")`: **Advice**를 적용할 대상을 지정한다.
+	- 여기서는 `hello.hellospring` 패키지와 그 하위 패키지에 속한 모든 메소드에 Aspect를 적용하겠다는 의미이다.
+
+- `execute`: `execute` 메소드는 Advice(조언) 역할을 한다.
+	- Advice는 언제, 어디서, 어떻게 Aspect를 적용할지를 정의한다. 
+	- 여기서는 `@Around` annotation을 사용하여 메소드 실행 전후에 Aspect를 적용하겠다고 선언하였다.
+
