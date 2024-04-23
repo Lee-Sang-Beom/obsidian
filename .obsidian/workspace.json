@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 22.md",
+                "file": "backend/Linux/Linux 15가지 기본 명령어.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 22.md",
+                "file": "backend/Linux/Linux 15가지 기본 명령어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 22.md",
+                "file": "backend/Linux/Linux 15가지 기본 명령어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 22.md"
+                "file": "backend/Linux/Linux 15가지 기본 명령어.md"
               }
             }
           }
@@ -164,6 +164,7 @@
   },
   "active": "c61c5eacf41dc3f1",
   "lastOpenFiles": [
+    "backend/Spring 입문 강의/DAY 22.md",
     "backend/Spring 입문 강의/DAY 11.md",
     "backend/Spring 입문 강의/DAY 12.md",
     "backend/Spring 입문 강의/DAY 14.md",
@@ -172,7 +173,6 @@
     "backend/Spring 입문 강의/DAY 13.md",
     "backend/Spring 입문 강의/DAY 17.md",
     "backend/Spring 입문 강의/DAY 19.md",
-    "backend/Spring 입문 강의/DAY 22.md",
     "회사 세미나/8. Nginx(역방향 프록시).md",
     "사용 이미지/backend/Spring 입문 강의/DAY 22/execution 명시자 규칙.png",
     "사용 이미지/backend/Spring 입문 강의/DAY 22",
