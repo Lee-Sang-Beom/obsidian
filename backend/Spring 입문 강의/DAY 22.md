@@ -147,3 +147,13 @@ public class TimeTraceAop {
 
 ![[execution 명시자 규칙.png]]
  ![[execution 명시자.png]]
+
+> AOP 실행 결과 
+
+![[AOP 실행결과.png]]
+
+
+#### 5. 프로젝트 적용 예시 살펴보기
+
+```
+```
