@@ -257,13 +257,14 @@ try {
 > AOP 적용 후 의존관계
 ![[AOP 적용 후 의존관계.png]]
 - 만약, AOP가 있으면, 가짜 memberService를 만들어낸다. (여기서는, 이를 프록시라 함)
+	- 이를, 프록시 방식의 AOP라고 한다.
 
 - 스프링이 올라올 때, 스프링 컨테이너에 스프링 빈을 등록한다고 했다.
 	- 이 때, AOP가 있으면 가짜 스프링 빈을 아래 이미지처럼 앞에 세워놓으며, 가짜 스프링 빈 내에서 `joinPoint.proceed()`가 실행되어야 진짜 스프링 빈이 실행된다.
 	- 여기서 핵심은, memberConroller가 호출하는 것은 프록시라는 기술로 발생하는 가짜 memberService라는 것이다.
 
 - 실제로, MemberController가 스프링 빈으로 등록되면서, 필요로 하는 MemberService가 호출될 때, 호출된 MemberSerive 인스턴스를 콘솔에 찍어보면 아래와 같다.
-	- MemberService를 찾아서 복제하는 기술이다.
+	- MemberService를 찾아서 복제하는 기술이며, 콘솔에 출력된 내용은 프록시이다.
 ```java
 memberService is class hello.hellospring.service.MemberService$$SpringCGLIB$$0
 ```
