@@ -196,8 +196,17 @@ try {
     
 3. `doLogging()` 메소드는 `webControllerPointcut()` 포인트컷에 정의된 대상 메소드를 실행하기 전후에 로깅 작업을 수행한다.
 	- `doLogging`은 AspectJ에서 Aspect에 의해 적용되는 Advice(조언)의 일종이다.
-		- 이 메소드는 `@Around` 어노테이션이 지정된 메소드로, Around Advice로 분류된다.
-	- 이는 HTTP 요청의 URI, 메소드, 요청 파라미터 등을 로깅하는 것으로 보인다.
+		- 이 메소드는 `@Around` 어노테이션이 지정된 메드로, Around Advice로 분류된다.
+
+	- `ProceedingJoinPoint` 매개변수는 Advice가 적용된 메서드를 호출하기 위해 사용된다. 이 객체를 통해 Advice가 적용된 메서드를 호출하고, 해당 메서드의 실행을 제어할 수 있다.
+
+	- 일반적으로 `ProceedingJoinPoint.proceed()` 메서드를 호출하여 Advice가 적용된 메서드를 실행한다.
+		- 이를 호출하면 Advice가 적용된 메서드의 실행이 시작되며, 반환 값은 Advice가 적용된 메서드의 반환 값이 된다.
+
+	- 따라서 `doLogging` 메서드는 Advice가 적용된 메서드의 실행 전후에 특정한 로깅 작업이나 추가적인 작업을 수행할 수 있다.
+		- 이를 통해 비즈니스 로직과는 별도로 Cross-cutting concern(관점 지향)을 구현할 수 있다.
+
+	- 여기서는 HTTP 요청의 URI, 메소드, 요청 파라미터 등을 로깅하는 것으로 보인다.
     
 4. `joinPoint.proceed()` 메소드는 실제 대상 메소드를 호출한다.
-	- 이 메소드 호출 전후에 로깅이 수행되는 것을 확인할 수 있습니다.
+	- 이 메소드 호출 전후에 로깅이 수행되는 것을 확인할 수 있다.
