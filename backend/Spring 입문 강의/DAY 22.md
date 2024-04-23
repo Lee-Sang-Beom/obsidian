@@ -124,18 +124,23 @@ public class TimeTraceAop {
 >> execution(* hello.hellospring..*(..))
 
 1. `*`: 리턴 타입을 나타내며, 여기서는 어떤 리턴 타입이든 상관없다는 것을 의미한다.
+
 2. `hello.hellospring..*`: 메소드가 속한 클래스의 패키지 경로를 나타낸다.
   > `..` : `..`은 현재 패키지와 그 하위 패키지를 의미한다.
-  > 즉, `hello.hellospring..`는 `hello.hellospring` 패키지와 그 하위 패키지까지의 범위를 의미한다.
-  > 그리고 뒤에 '*'기호는 해당 범위까지의 클래스를 의미한다.
-  > 따라서 `hello.hellospring..**는 `hello.heelospring` 패키지와, 그 하위 패키지까지의 범위에 있는 "클래스"를 포함한다는 뜻이다.
+  > `hello.hellospring..`:  `hello.hellospring..`는 `hello.hellospring` 패키지와 그 하위 패키지까지의 범위를 의미한다.
+  > `*`: 그리고 뒤에 '*'기호는 해당 범위까지의 클래스를 의미한다.
+  > hello.hellospring..*`: 따라서 `hello.hellospring..*`는 `hello.heelospring` 패키지와, 그 하위 패키지까지의 범위에 있는 "클래스"를 포함한다는 뜻이다.
   
 3. `*(..)`: 메소드 이름과 파라미터를 나타낸다.
   > `*`는 모든 메소드 이름을 의미하고, `(..)`는 모든 파라미터를 의미한다.
   > 따라서 이 부분은 모든 메소드를 대상으로 한다는 것을 의미한다.
-
 ```
+
 4. `execute`: `execute` 메소드는 Advice 역할을 한다.
 	- Advice에는 언제, 어디서, 어떻게 Aspect를 적용할지를 정의한다. 
 	- 여기서는 `@Around` annotation을 사용하여 메소드 실행 전후에 Aspect를 적용하겠다고 선언하였다.
 
+- 참고로, **execution** 명시자는 아래와 같은 규칙을 보유한다.
+>  [참고자료 출처 : ITisTrue님의 포스트](https://ittrue.tistory.com/233)
+
+ ![[execution 명시자.png]]
