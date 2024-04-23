@@ -144,8 +144,9 @@ public class TimeTraceAop {
 1. 모든 리턴 타입을 대상으로 한다.
 2. `hello.hellospring.service`경로를 기본으로 하되, `..`를 지정함으로써 `hello.hellospring.service` 패키지와 그 하위 패키지 경로까지를 execution의 실행범위에 포함시킨다는 뜻이다.
 
-- 추가적으로, *.*가 있는데, 그 경로 하위에 있는 [클래스(*).메소드(*)]에 대하여 모든 것을 대상으로 한다고 지정하였
-1. 
+- 추가적으로, *.*가 있는데, 그 경로 하위에 있는 [클래스(*).메소드(*)]에 대하여 모든 것을 대상으로 한다고 지정하였다.
+
+3. (..)는 메소드의 파라미터 타입을 나타낸다. ".."는 0개 이상을 파라미터로 받는 메소드를 대상으로 한다는 뜻이다.
 ```
 
 4. `execute`: `execute` 메소드는 Advice 역할을 한다.
@@ -249,9 +250,14 @@ try {
 
 
 > AOP 적용 전 의존관계 
+
+- 기존에는, memberConroller에서 memberService를 바로 호출했다.
+	- memberController가 memberService를 의존하는 관계
 ![[AOP 적용 전 의존관계.png]]
 
 > AOP 적용 후 의존관계
+
+- 
 ![[AOP 적용 후 의존관계.png]]
 
 > AOP 적용 전 전체 그림

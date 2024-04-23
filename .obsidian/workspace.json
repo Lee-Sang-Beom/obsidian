@@ -34,21 +34,8 @@
                 "file": "backend/Spring 입문 강의/강의자료/7. AOP.pdf"
               }
             }
-          },
-          {
-            "id": "edbee6b0dfdd3b1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "회사 세미나/8. Nginx(역방향 프록시).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
