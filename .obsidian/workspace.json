@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf"
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md"
               }
             }
           }
@@ -162,8 +162,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3b0778cea47b26f3",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "스프링부트 이니셜라이저 선택화면.png",
+    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/0. 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 v2023-12-04.pdf",
     "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md",
     "backend/Spring 입문 강의/DAY 22.md",
@@ -206,7 +208,6 @@
     "backend/Spring 입문 강의/DAY 18.md",
     "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
     "backend/DataBase/JOIN.md",
-    "사용 이미지/backend/DataBase/JOIN",
     "backend/IR/Mapper/Mapper 사용 예제.md",
     "backend/IR/무제 파일.md",
     "무제 파일.canvas",
