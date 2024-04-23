@@ -141,6 +141,9 @@ public class TimeTraceAop {
 	- 여기서는 `@Around` annotation을 사용하여 메소드 실행 전후에 Aspect를 적용하겠다고 선언하였다.
 
 - 참고로, **execution** 명시자는 아래와 같은 규칙을 보유한다.
->  [참고자료 출처 : ITisTrue님의 포스트](https://ittrue.tistory.com/233)
 
+>  [참고자료 명시자 구조 이미지 >> hstory0208님의 포스트](https://hstory0208.tistory.com/entry/Spring-%EC%8A%A4%ED%94%84%EB%A7%81-AOP-Pointcut-%ED%91%9C%ED%98%84%EC%8B%9D)
+>  [참고자료 명시자 설명 및 예시 이미지 >> ITisTrue님의 포스트](https://ittrue.tistory.com/233)
+
+![[execution 명시자 규칙.png]]
  ![[execution 명시자.png]]
