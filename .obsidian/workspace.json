@@ -34,8 +34,21 @@
                 "file": "backend/Spring 입문 강의/강의자료/7. AOP.pdf"
               }
             }
+          },
+          {
+            "id": "edbee6b0dfdd3b1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "회사 세미나/8. Nginx(역방향 프록시).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,8 +177,9 @@
   },
   "active": "c61c5eacf41dc3f1",
   "lastOpenFiles": [
-    "사용 이미지/backend/Spring 입문 강의/DAY 22/execution 명시자 규칙.png",
+    "회사 세미나/8. Nginx(역방향 프록시).md",
     "backend/Spring 입문 강의/DAY 22.md",
+    "사용 이미지/backend/Spring 입문 강의/DAY 22/execution 명시자 규칙.png",
     "사용 이미지/backend/Spring 입문 강의/DAY 22",
     "사용 이미지/backend/Spring 입문 강의/DAY 22/AOP 적용 후 전체 그림.png",
     "사용 이미지/backend/Spring 입문 강의/DAY 22/AOP 적용 전 전체 그림.png",
