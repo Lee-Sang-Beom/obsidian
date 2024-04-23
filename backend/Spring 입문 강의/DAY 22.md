@@ -121,7 +121,7 @@ public class TimeTraceAop {
 	- Advice를 적용할 메소드를 지정하는 포인트컷(Pointcut) 표현식으로, 이 표현식은 Aspect를 적용할 메소드를 선별하기 위해 사용된다.
 
 ```null
->> execution(* hello.hellospring..*(..))
+>> execution(* hello.hellospring..*.*(..))
 
 1. `*`: 리턴 타입을 나타내며, 여기서는 어떤 리턴 타입이든 상관없다는 것을 의미한다.
 
@@ -134,6 +134,18 @@ public class TimeTraceAop {
 3. `*(..)`: 메소드 이름과 파라미터를 나타낸다.
   > `*`는 모든 메소드 이름을 의미하고, `(..)`는 모든 파라미터를 의미한다.
   > 따라서 이 부분은 모든 메소드를 대상으로 한다는 것을 의미한다.
+  
+---
+
+그럼 아래는 뭘까?
+
+>> execution(* hello.hellospring.service..*.*(..))
+
+1. 모든 리턴 타입을 대상으로 한다.
+2. `hello.hellospring.service`경로를 기본으로 하되, `..`를 지정함으로써 `hello.hellospring.service` 패키지와 그 하위 패키지 경로까지를 execution의 실행범위에 포함시킨다는 뜻이다.
+
+- 추가적으로, *.*가 있는데, 그 경로 하위에 있는 [클래스(*).메소드(*)]에 대하여 모든 것을 대상으로 한다고 지정하였
+1. 
 ```
 
 4. `execute`: `execute` 메소드는 Advice 역할을 한다.
