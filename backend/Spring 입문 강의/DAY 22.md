@@ -195,6 +195,8 @@ try {
 	- 위의 코드에서는 `doLogging()` 메소드가 Around Advice를 정의한다.
     
 3. `doLogging()` 메소드는 `webControllerPointcut()` 포인트컷에 정의된 대상 메소드를 실행하기 전후에 로깅 작업을 수행한다.
+	- `doLogging`은 AspectJ에서 Aspect에 의해 적용되는 Advice(조언)의 일종이다.
+		- 이 메소드는 `@Around` 어노테이션이 지정된 메소드로, Around Advice로 분류된다.
 	- 이는 HTTP 요청의 URI, 메소드, 요청 파라미터 등을 로깅하는 것으로 보인다.
     
 4. `joinPoint.proceed()` 메소드는 실제 대상 메소드를 호출한다.
