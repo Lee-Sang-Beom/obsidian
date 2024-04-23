@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Linux/Linux 15가지 기본 명령어.md",
+                "file": "backend/Spring 입문 강의/DAY 22.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Linux/Linux 15가지 기본 명령어.md",
+                "file": "backend/Spring 입문 강의/DAY 22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Linux/Linux 15가지 기본 명령어.md",
+                "file": "backend/Spring 입문 강의/DAY 22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Linux/Linux 15가지 기본 명령어.md"
+                "file": "backend/Spring 입문 강의/DAY 22.md"
               }
             }
           }
@@ -164,6 +164,7 @@
   },
   "active": "c61c5eacf41dc3f1",
   "lastOpenFiles": [
+    "backend/Linux/Linux 15가지 기본 명령어.md",
     "backend/Spring 입문 강의/DAY 22.md",
     "backend/Spring 입문 강의/DAY 11.md",
     "backend/Spring 입문 강의/DAY 12.md",
@@ -209,7 +210,6 @@
     "backend/IR/무제 파일.md",
     "backend/Spring 입문 강의/DAY 9.md",
     "backend/Spring 입문 강의/DAY 7.md",
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",

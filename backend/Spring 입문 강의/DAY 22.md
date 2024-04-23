@@ -263,6 +263,7 @@ try {
 	- 여기서 핵심은, memberConroller가 호출하는 것은 프록시라는 기술로 발생하는 가짜 memberService라는 것이다.
 
 - 실제로, MemberController가 스프링 빈으로 등록되면서, 필요로 하는 MemberService가 호출될 때, 호출된 MemberSerive 인스턴스를 콘솔에 찍어보면 아래와 같다.
+	- MemberService를 찾아서 복제하는 기술이다.
 ```java
 memberService is class hello.hellospring.service.MemberService$$SpringCGLIB$$0
 ```
@@ -272,3 +273,4 @@ memberService is class hello.hellospring.service.MemberService$$SpringCGLIB$$0
 
 > AOP 적용 후 전체 그림
 ![[AOP 적용 후 전체 그림.png]]
+- 만약, `@Around("execution(* hello.hellospring..*(..))")`와 같이 설정하면, `hello.hellospring` 경로 및 해당 경로 하위의 모든 클래스의 메소드에 대해 위와 같은 그림이 그려진다.
