@@ -11,3 +11,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'  
 }
 ```
+
+- 그리고, 이와 관련된 Dependencies는 우측 Gradle에서 확인할 수 있다.
+![[gradleDependencies.png]]
+
