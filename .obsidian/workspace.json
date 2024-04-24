@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 11.md",
+                "file": "backend/Spring 입문 강의/DAY 20.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 11.md",
+                "file": "backend/Spring 입문 강의/DAY 20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 11.md",
+                "file": "backend/Spring 입문 강의/DAY 20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 11.md"
+                "file": "backend/Spring 입문 강의/DAY 20.md"
               }
             }
           }
@@ -148,6 +148,17 @@
   },
   "active": "945bd8493f13c7ce",
   "lastOpenFiles": [
+    "backend/Spring 입문 강의/DAY 21.md",
+    "backend/Spring 입문 강의/DAY 20.md",
+    "backend/Spring 입문 강의/DAY 19.md",
+    "backend/Spring 입문 강의/DAY 18.md",
+    "backend/Spring 입문 강의/DAY 17.md",
+    "backend/Spring 입문 강의/DAY 16.md",
+    "backend/Spring 입문 강의/DAY 15.md",
+    "backend/Spring 입문 강의/DAY 14.md",
+    "backend/Spring 입문 강의/DAY 13.md",
+    "backend/Spring 입문 강의/DAY 12.md",
+    "backend/Spring 입문 강의/DAY 11.md",
     "backend/Spring 입문 강의/DAY 10.md",
     "backend/Spring 입문 강의/DAY 9.md",
     "backend/Spring 입문 강의/DAY 8.md",
@@ -158,9 +169,6 @@
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/0. 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 v2023-12-04.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/7. 웹 계층 개발.pdf",
-    "backend/Spring 입문 강의/DAY 20.md",
-    "backend/Spring 입문 강의/DAY 19.md",
-    "backend/Spring 입문 강의/DAY 18.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
     "gradleDependencies.png",
     "gradleDependencies.png",
@@ -176,13 +184,6 @@
     "backend/Spring 입문 강의/DAY 22.md",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1",
     "backend/스프링 부트와 JPA 활용 1",
-    "backend/Spring 입문 강의/DAY 11.md",
-    "backend/Spring 입문 강의/DAY 12.md",
-    "backend/Spring 입문 강의/DAY 14.md",
-    "backend/Spring 입문 강의/DAY 16.md",
-    "backend/Spring 입문 강의/DAY 15.md",
-    "backend/Spring 입문 강의/DAY 13.md",
-    "backend/Spring 입문 강의/DAY 17.md",
     "회사 세미나/8. Nginx(역방향 프록시).md",
     "사용 이미지/backend/Spring 입문 강의/DAY 22/execution 명시자 규칙.png",
     "사용 이미지/backend/Spring 입문 강의/DAY 22",
@@ -191,7 +192,6 @@
     "사용 이미지/backend/Spring 입문 강의/DAY 22/AOP 적용 후 의존관계.png",
     "사용 이미지/backend/Spring 입문 강의/DAY 22/AOP 적용 전 의존관계.png",
     "backend/Spring 입문 강의/강의자료/7. AOP.pdf",
-    "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
     "backend/Spring 입문 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
     "사용 이미지/backend/Spring 입문 강의/DAY 21",
     "무제 파일.canvas",
