@@ -11,8 +11,12 @@
             "id": "fd393dbc92b352ab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/최초 import 화면.png",
+                "file": "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/최초 import 화면.png",
+                "file": "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/최초 import 화면.png"
+                "file": "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md"
               }
             }
           }
@@ -142,10 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "fd393dbc92b352ab",
   "lastOpenFiles": [
-    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/스프링부트 이니셜라이저 선택화면.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/최초 import 화면.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/스프링부트 이니셜라이저 선택화면.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/정상 설치 시, 초기 실행화면.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 2",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1",
