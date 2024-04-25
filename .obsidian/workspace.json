@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
+                "file": "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
+                "file": "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
+                "file": "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 입문 강의/Spring 강의 학습 백링크.md"
+                "file": "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "e6791738e2c6e015",
   "lastOpenFiles": [
+    "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
+    "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
+    "backend/프로젝트 코드 해석하기",
     "React/hook/useId.md",
     "backend/Spring 입문 강의/DAY 20.md",
     "backend/Spring 입문 강의/DAY 21.md",
@@ -178,11 +181,9 @@
     "React/react-hook-form/사용 예제.md",
     "React/react-hook-form/기초.md",
     "React/react-hook-form/watch와 getValues().md",
-    "React/react-hook-form/useWatch와 watch.md",
     "정상 설치 시, 초기 실행화면.png",
     "최초 import 화면.png",
     "스프링부트 이니셜라이저 선택화면.png",
-    "backend/Spring 입문 강의/DAY 22.md",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1",
     "backend/스프링 부트와 JPA 활용 1",
     "사용 이미지/backend/Spring 입문 강의/DAY 22/execution 명시자 규칙.png",
@@ -193,7 +194,6 @@
     "사용 이미지/backend/Spring 입문 강의/DAY 22/AOP 적용 전 의존관계.png",
     "backend/Spring 입문 강의/강의자료/7. AOP.pdf",
     "backend/Spring 입문 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
-    "사용 이미지/backend/Spring 입문 강의/DAY 21",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
