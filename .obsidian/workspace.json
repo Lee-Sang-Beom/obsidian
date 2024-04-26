@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 20.md",
+                "file": "React/react-hook-form/useWatch와 watch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 20.md",
+                "file": "React/react-hook-form/useWatch와 watch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 20.md",
+                "file": "React/react-hook-form/useWatch와 watch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 20.md"
+                "file": "React/react-hook-form/useWatch와 watch.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "1cd51f29305c84a5",
   "lastOpenFiles": [
-    "backend/Spring 입문 강의/DAY 19.md",
     "backend/Spring 입문 강의/DAY 20.md",
+    "backend/Spring 입문 강의/DAY 19.md",
     "backend/Spring 입문 강의/DAY 15.md",
     "backend/Spring 입문 강의/DAY 14.md",
     "backend/Spring 입문 강의/DAY 13.md",
