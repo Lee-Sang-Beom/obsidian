@@ -166,6 +166,8 @@ public class JpaMemberRepository implements MemberRepository {
     
 	- **save(Member member)**
 		- `persist()` 메소드를 사용하여 영속성 컨텍스트에 Entity를 추가하고 데이터베이스에 반영한다.
+			- `persist()` 메소드는 주어진 엔티티를 영속성 컨텍스트에 추가한다. 영속성 컨텍스트란 Entity를 관리하는 환경으로, 엔티티의 생명주기를 추적하고 관리한다.
+			- `save()` 메소드는 JPA의 추상화된 방법 중 하나로, `persist()`와 비슷한 역할을 한다. 주어진 Entity를 영속성 컨텍스트에 추가하고, 이를 데이터베이스에 반영하여 저장한다.
     
 	- **findById(Long id)**
 		- 데이터베이스에서 해당 Entity를 직접 조회하여 반환한다.
