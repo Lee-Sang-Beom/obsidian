@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 16.md",
+                "file": "backend/Spring 입문 강의/DAY 20.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "b13695171e34c054",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "baf480f8e60895f5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf"
               }
             }
           }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 16.md",
+                "file": "backend/Spring 입문 강의/DAY 20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 16.md",
+                "file": "backend/Spring 입문 강의/DAY 20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 16.md"
+                "file": "backend/Spring 입문 강의/DAY 20.md"
               }
             }
           }
@@ -164,6 +148,10 @@
   },
   "active": "1cd51f29305c84a5",
   "lastOpenFiles": [
+    "backend/Spring 입문 강의/DAY 19.md",
+    "backend/Spring 입문 강의/DAY 18.md",
+    "backend/Spring 입문 강의/DAY 17.md",
+    "backend/Spring 입문 강의/DAY 16.md",
     "backend/Spring 입문 강의/DAY 15.md",
     "backend/Spring 입문 강의/DAY 14.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
@@ -178,7 +166,6 @@
     "React/react-hook-form/watch와 getValues().md",
     "React/react-hook-form/useWatch와 watch.md",
     "backend/Spring 입문 강의/DAY 20.md",
-    "backend/Spring 입문 강의/DAY 19.md",
     "backend/Spring 입문 강의/DAY 13.md",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/최초 import 화면.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/스프링부트 이니셜라이저 선택화면.png",
@@ -190,9 +177,6 @@
     "backend/프로젝트 코드 해석하기",
     "React/hook/useId.md",
     "backend/Spring 입문 강의/DAY 21.md",
-    "backend/Spring 입문 강의/DAY 18.md",
-    "backend/Spring 입문 강의/DAY 17.md",
-    "backend/Spring 입문 강의/DAY 16.md",
     "backend/Spring 입문 강의/DAY 12.md",
     "backend/Spring 입문 강의/DAY 11.md",
     "backend/Spring 입문 강의/DAY 10.md",
