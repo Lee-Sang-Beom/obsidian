@@ -45,7 +45,7 @@ spring.jpa.hibernate.ddl-auto=none
 
 #### 3. Entity Mapping
 
-> [!note] Entity
+> [!note] Entity (매우 중요!!!)
 > - Entity(엔티티)는 객체 지향 프로그래밍에서 식별 가능한 개별적인 객체를 나타낸다.
 > 	- 이는, 데이터베이스에서 테이블로 표현되는 개체에 대응하는 개념이다.
 > 	- Entity(엔티티)는 비즈니스 도메인에서 중요한 개념을 나타내며, **Attribute**과 **Method**를 가질 수 있다. 
