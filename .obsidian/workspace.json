@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/DAY 3. View 환경설정.md",
+                "file": "backend/Spring 입문 강의/DAY 16.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+                "file": "backend/Spring 입문 강의/DAY 16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+                "file": "backend/Spring 입문 강의/DAY 16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf"
+                "file": "backend/Spring 입문 강의/DAY 16.md"
               }
             }
           }
@@ -162,12 +162,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "baf480f8e60895f5",
+  "active": "1cd51f29305c84a5",
   "lastOpenFiles": [
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/DAY 3. View 환경설정.md",
+    "backend/Spring 입문 강의/DAY 15.md",
+    "backend/Spring 입문 강의/DAY 14.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/DAY 3. View 환경설정.md",
+    "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md",
     "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
     "React/jsx.md",
     "React/Virtual DOM.md",
@@ -177,8 +179,6 @@
     "React/react-hook-form/useWatch와 watch.md",
     "backend/Spring 입문 강의/DAY 20.md",
     "backend/Spring 입문 강의/DAY 19.md",
-    "backend/Spring 입문 강의/DAY 15.md",
-    "backend/Spring 입문 강의/DAY 14.md",
     "backend/Spring 입문 강의/DAY 13.md",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/최초 import 화면.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/스프링부트 이니셜라이저 선택화면.png",
@@ -197,7 +197,6 @@
     "backend/Spring 입문 강의/DAY 11.md",
     "backend/Spring 입문 강의/DAY 10.md",
     "backend/Spring 입문 강의/DAY 9.md",
-    "backend/Spring 입문 강의/DAY 8.md",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/2. 도메인 분석 설계.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/0. 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 v2023-12-04.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/7. 웹 계층 개발.pdf",
