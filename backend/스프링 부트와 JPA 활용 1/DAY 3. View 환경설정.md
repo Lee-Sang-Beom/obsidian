@@ -69,3 +69,4 @@ public class HelloController {
 3. 스프링 컨테이너 내부에, index.html과 맵핑된 컨트롤러가 있는지 먼저 찾아본다.
 4. 만약 없으면, 스프링 "resources/static/index.html"이 있는지 찾아본다.
 5. 만약 여기 있으면, 이 html 파일을 반환한다. 이것이 정적 컨텐츠의 동작 방식이다.
+```
