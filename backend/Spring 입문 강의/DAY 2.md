@@ -46,6 +46,8 @@ public class HelloController {
 	// URL: hello 위치로 들어오는지 확인하고, 들어오면 hello method 실
     @GetMapping("hello")    
     public String hello(Model model){
+		// Model 객체는 스프링 MVC에서 컨트롤러가 뷰에 데이터를 전달할 때 사용되는 일종의 컨테이너로, 이 객체를 사용하여 컨트롤러에서 생성한 데이터를 뷰로 전달할 수 있다.
+		// model.addAttribute("data", "hello spring!")은 "data"라는 이름의 속성에 "hello spring!"라는 값을 추가하는 역할을 한다. 이렇게 추가된 데이터는 해당 요청에 대한 뷰 템플릿에서 사용될 수 있다. 뷰 템플릿에서는 data라는 이름으로 이 데이터를 참조할 수 있게 된다.
         model.addAttribute("data","hello spring!");
 
 		// return하는 문자열을 이름으로 가지는 파일을 찾아 실행한다.
