@@ -11,8 +11,28 @@
             "id": "100813ca6f39f354",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "82a5aa720162d9f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e625d2758cc66adf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf"
+              }
             }
           }
         ]
@@ -65,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 205.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -81,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md"
+              }
             }
           }
         ],
@@ -140,6 +164,13 @@
   },
   "active": "100813ca6f39f354",
   "lastOpenFiles": [
+    "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
+    "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
+    "backend/Spring 입문 강의/DAY 2.md",
+    "backend/Spring 입문 강의/DAY 3.md",
+    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+    "backend/Spring 입문 강의/DAY 1.md",
+    "backend/Spring 입문 강의/DAY 4.md",
     "backend/Spring 입문 강의/DAY 20.md",
     "backend/Spring 입문 강의/DAY 19.md",
     "backend/Spring 입문 강의/DAY 18.md",
@@ -147,9 +178,6 @@
     "backend/Spring 입문 강의/DAY 16.md",
     "backend/Spring 입문 강의/DAY 15.md",
     "backend/Spring 입문 강의/DAY 14.md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/DAY 3. View 환경설정.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md",
     "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
     "React/jsx.md",
@@ -169,10 +197,6 @@
     "backend/프로젝트 코드 해석하기",
     "React/hook/useId.md",
     "backend/Spring 입문 강의/DAY 21.md",
-    "backend/Spring 입문 강의/DAY 12.md",
-    "backend/Spring 입문 강의/DAY 11.md",
-    "backend/Spring 입문 강의/DAY 10.md",
-    "backend/Spring 입문 강의/DAY 9.md",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/2. 도메인 분석 설계.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/0. 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 v2023-12-04.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/7. 웹 계층 개발.pdf",
