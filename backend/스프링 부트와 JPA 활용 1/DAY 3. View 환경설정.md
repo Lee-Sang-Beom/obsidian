@@ -12,3 +12,5 @@
 	- [스프링부트 메뉴얼](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-features.html#boot-features-spring-mvc-template-engines )
 
 
+#### 2. 코드작성
+

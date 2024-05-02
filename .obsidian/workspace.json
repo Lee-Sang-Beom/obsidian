@@ -29,13 +29,26 @@
             "id": "e625d2758cc66adf",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/Spring 입문 강의/DAY 11.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "538b4fb5402ac620",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
                 "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 419.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -164,11 +177,14 @@
   },
   "active": "100813ca6f39f354",
   "lastOpenFiles": [
-    "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
+    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+    "backend/Spring 입문 강의/DAY 11.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
+    "backend/Spring 입문 강의/DAY 12.md",
+    "backend/Spring 입문 강의/DAY 13.md",
+    "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
     "backend/Spring 입문 강의/DAY 2.md",
     "backend/Spring 입문 강의/DAY 3.md",
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "backend/Spring 입문 강의/DAY 1.md",
     "backend/Spring 입문 강의/DAY 4.md",
     "backend/Spring 입문 강의/DAY 20.md",
@@ -186,7 +202,6 @@
     "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
     "React/react-hook-form/watch와 getValues().md",
     "React/react-hook-form/useWatch와 watch.md",
-    "backend/Spring 입문 강의/DAY 13.md",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/최초 import 화면.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/스프링부트 이니셜라이저 선택화면.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/정상 설치 시, 초기 실행화면.png",
@@ -195,8 +210,6 @@
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 2/gradleDependencies.png",
     "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
     "backend/프로젝트 코드 해석하기",
-    "React/hook/useId.md",
-    "backend/Spring 입문 강의/DAY 21.md",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/2. 도메인 분석 설계.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/0. 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 v2023-12-04.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/7. 웹 계층 개발.pdf",
