@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 2.md",
+                "file": "backend/Spring 입문 강의/DAY 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,8 +47,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,9 +176,10 @@
   },
   "active": "100813ca6f39f354",
   "lastOpenFiles": [
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
-    "backend/Spring 입문 강의/DAY 2.md",
     "backend/Spring 입문 강의/DAY 3.md",
+    "backend/Spring 입문 강의/DAY 2.md",
+    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+    "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
     "backend/Spring 입문 강의/DAY 4.md",
     "backend/Spring 입문 강의/DAY 5.md",
     "backend/Spring 입문 강의/DAY 6.md",
@@ -187,7 +187,6 @@
     "backend/Spring 입문 강의/DAY 8.md",
     "backend/Spring 입문 강의/DAY 9.md",
     "backend/Spring 입문 강의/DAY 11.md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
     "backend/Spring 입문 강의/DAY 12.md",
     "backend/Spring 입문 강의/DAY 13.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
