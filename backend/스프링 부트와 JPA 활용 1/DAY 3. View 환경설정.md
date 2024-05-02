@@ -70,3 +70,15 @@ public class HelloController {
 4. 만약 없으면, 스프링 "resources/static/index.html"이 있는지 찾아본다.
 5. 만약 여기 있으면, 이 html 파일을 반환한다. 이것이 정적 컨텐츠의 동작 방식이다.
 ```
+
+> `src/main/resources/static/index.html`
+```html
+<!DOCTYPE HTML>  
+<html xmlns:th="http://www.thymeleaf.org">  
+<head>
+	<title>Hello</title>  
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>  
+</head>  
+<body> Hello <a href="/api/hello">이동</a></body>  
+</html>
+```

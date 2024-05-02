@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf"
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md"
               }
             }
           }
@@ -175,12 +175,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "538b4fb5402ac620",
+  "active": "100813ca6f39f354",
   "lastOpenFiles": [
+    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
     "backend/Spring 입문 강의/DAY 3.md",
     "backend/Spring 입문 강의/DAY 2.md",
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "backend/Spring 입문 강의/DAY 4.md",
     "backend/Spring 입문 강의/DAY 5.md",
     "backend/Spring 입문 강의/DAY 6.md",
