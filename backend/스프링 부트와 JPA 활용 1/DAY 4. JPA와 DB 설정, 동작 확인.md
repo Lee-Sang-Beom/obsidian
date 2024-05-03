@@ -77,6 +77,8 @@ public class MemberRepository {
 ```
 
 > 테스트 코드 작성 (`/src/test/java/jpabook/jpashop/MemberRepositoryTest.java`)
+
+- 이 코드 자체만 작성하면 에러가 날 것이다.
 ```java
 package jpabook.jpashop;  
   
