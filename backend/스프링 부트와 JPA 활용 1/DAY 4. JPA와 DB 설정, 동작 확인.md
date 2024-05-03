@@ -198,3 +198,18 @@ public class MemberRepositoryTest {
 ```
 
 - 잘 되는 것을 확인할 수 있다.
+![[DAY3 테스트 성공.png]]
+
+- 추가적으로, h2 데이터베이스를 보면 만들지도 않았던 MEMBER 테이블이 생성된 것을 볼 수 있다.
+![[DAY3 DB 생성.png]]
+
+- 왜냐하면, `application.yml`에서, ddl-auto문을 `create`로 지정했기 때문이다.
+```yml
+# ...
+jpa:  
+  hibernate:  
+    ddl-auto: create
+#...
+```
+
+![[DAY3 자동 Create.png]]
