@@ -77,8 +77,6 @@ public class MemberRepository {
 ```
 
 > 테스트 코드 작성 (`/src/test/java/jpabook/jpashop/MemberRepositoryTest.java`)
-
-- 이 코드 자체만 작성하면 에러가 날 것이다.
 ```java
 package jpabook.jpashop;  
   
@@ -103,13 +101,15 @@ import static org.junit.jupiter.api.Assertions.*;
  * 이 annotation은 스프링 부트 애플리케이션의 테스트를 위해 사용됩니다.  
  * 이 애노테이션을 사용하면 테스트를 실행할 때 스프링 부트 애플리케이션의 전체 컨텍스트를 로드하게 됩니다.  
  *  즉, 스프링 부트 애플리케이션과 같은 환경에서 테스트를 수행할 수 있게 됩니다.  
- */  
+ */ 
+
 /**  
  * @Autowired  
  * 이 annotation은 스프링의 의존성 주입(Dependency Injection)을 수행합니다.  
  * MemberRepository 타입의 빈을 자동으로 주입하도록 지정합니다.  
  * 이 경우 MemberRepository는 스프링 컨텍스트에서 관리되는 빈이므로, 해당 빈을 자동으로 주입하여 테스트에서 사용할 수 있게 됩니다.  
- */@RunWith(SpringRunner.class)  
+ */
+@RunWith(SpringRunner.class)  
 @SpringBootTest  
 public class MemberRepositoryTest {  
     @Autowired MemberRepository memberRepository;  
@@ -132,3 +132,69 @@ public class MemberRepositoryTest {
 }
 ```
 
+
+#### 3. 에러 해결
+
+- 위의 테스트 코드를 실행하면, 아래와 같은 에러가 발생할 것이다.
+	- 왜냐하면, Entity Manager를 통한 모든 데이터 변경은 항상 트랜잭션 안에서 이루어져야 하기 때문이다.
+![[DAY3 테스트 에러.png]]
+
+- 일단은 아래 코드처럼, `testMember()` 메소드 자체에 `@Transactional` annotation을 걸어주자.
+```java
+package jpabook.jpashop;  
+  
+import org.junit.jupiter.api.Assertions;  
+import org.junit.jupiter.api.Test;  
+import org.junit.runner.RunWith;  
+import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.boot.test.context.SpringBootTest;  
+import org.springframework.test.context.junit4.SpringRunner;  
+import org.springframework.transaction.annotation.Transactional;  
+  
+import static org.assertj.core.api.Assertions.assertThat;  
+import static org.junit.jupiter.api.Assertions.*;  
+  
+/**  
+ * @RunWith  
+ * 이 annotation은 JUnit 테스트를 실행할 때 스프링의 테스트 컨텍스트 프레임워크를 사용하도록 지정합니다.  
+ * SpringRunner 클래스는 JUnit 테스트를 실행할 때 스프링의 테스트 지원을 활성화하는 역할을 합니다  
+ */  
+  
+/**  
+ * @SpringBootTest  
+ * 이 annotation은 스프링 부트 애플리케이션의 테스트를 위해 사용됩니다.  
+ * 이 애노테이션을 사용하면 테스트를 실행할 때 스프링 부트 애플리케이션의 전체 컨텍스트를 로드하게 됩니다.  
+ *  즉, 스프링 부트 애플리케이션과 같은 환경에서 테스트를 수행할 수 있게 됩니다.  
+ */  
+ 
+/**  
+ * @Autowired  
+ * 이 annotation은 스프링의 의존성 주입(Dependency Injection)을 수행합니다.  
+ * MemberRepository 타입의 빈을 자동으로 주입하도록 지정합니다.  
+ * 이 경우 MemberRepository는 스프링 컨텍스트에서 관리되는 빈이므로, 해당 빈을 자동으로 주입하여 테스트에서 사용할 수 있게 됩니다.  
+ */
+@RunWith(SpringRunner.class)  
+@SpringBootTest  
+public class MemberRepositoryTest {  
+    @Autowired MemberRepository memberRepository;  
+  
+    @Test  
+    @Transactional    
+    public void testMember() throws Exception {  
+        // given (준비): 테스트를 위해 준비하는 과정으로, 테스트에 사용하는 변수, 입력 값 등을 정의  
+        Member member = new Member();  
+        member.setUsername("memberA");  
+  
+        // when (실행) : 실제로 액션을 하는 테스트를 실행  
+        Long saveId = memberRepository.save(member);  
+        Member findMember = memberRepository.find(saveId);  
+  
+        // then (검증) : 테스트를 검증하는 과정으로 예상한 값, 실제 실행을 통해 나온 값의 비교  
+        assertThat(findMember.getId()).isEqualTo(member.getId());  
+        assertThat(findMember.getUsername()).isEqualTo(member.getUsername());  
+  
+    }  
+}
+```
+
+- 잘 되는 것을 확인할 수 있다.
