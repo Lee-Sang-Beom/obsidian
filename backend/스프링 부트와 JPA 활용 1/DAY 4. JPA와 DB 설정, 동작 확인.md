@@ -136,7 +136,7 @@ public class MemberRepositoryTest {
 #### 3. 에러 해결
 
 - 위의 테스트 코드를 실행하면, 아래와 같은 에러가 발생할 것이다.
-	- 왜냐하면, Entity Manager를 통한 모든 데이터 변경은 항상 트랜잭션 안에서 이루어져야 하기 때문이다.
+	- 왜냐하면, Entity Manager를 통한 **모든 데이터 변경은 항상 트랜잭션 안에서 이루어져야 하기 때문**이다.
 ![[DAY3 테스트 에러.png]]
 
 - 일단은 아래 코드처럼, `testMember()` 메소드 자체에 `@Transactional` annotation을 걸어주자.
@@ -200,7 +200,7 @@ public class MemberRepositoryTest {
 }
 ```
 
-- 잘 되는 것을 확인할 수 있다.
+- 잘 실행되는 것을 확인할 수 있다.
 ![[DAY3 테스트 성공.png]]
 
 - 추가적으로, h2 데이터베이스를 보면 만들지도 않았던 MEMBER 테이블이 생성된 것을 볼 수 있다.
