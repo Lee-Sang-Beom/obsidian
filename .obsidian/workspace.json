@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d4e05aad51ac3730",
+        "id": "c2d267675aa90068",
         "type": "tabs",
         "children": [
           {
-            "id": "ef1b653da964f3f8",
+            "id": "0f8e0d8e726f7222",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,13 +138,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "0f8e0d8e726f7222",
   "lastOpenFiles": [
-    "DAY3 자동 Create.png",
-    "DAY3 DB 생성.png",
     "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
-    "DAY3 테스트 성공.png",
-    "DAY3 테스트 에러.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 DB 생성.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 자동 Create.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 테스트 성공.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 테스트 에러.png",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "backend/Spring 입문 강의/DAY 8.md",
     "backend/Spring 입문 강의/DAY 6.md",
@@ -191,9 +184,6 @@
     "사용 이미지/backend/스프링 부트와 JPA 활용 1",
     "backend/스프링 부트와 JPA 활용 1",
     "사용 이미지/backend/Spring 입문 강의/DAY 22/execution 명시자 규칙.png",
-    "사용 이미지/backend/Spring 입문 강의/DAY 22",
-    "사용 이미지/backend/Spring 입문 강의/DAY 22/AOP 적용 후 전체 그림.png",
-    "사용 이미지/backend/Spring 입문 강의/DAY 22/AOP 적용 전 전체 그림.png",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",

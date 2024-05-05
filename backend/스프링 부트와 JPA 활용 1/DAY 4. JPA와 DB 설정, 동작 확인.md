@@ -177,9 +177,12 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest  
 public class MemberRepositoryTest {  
     @Autowired MemberRepository memberRepository;  
-  
+
+    // 테스트 코드에 Transactional을 걸어주면, 테스트 종료 후 DB를 롤백한다.
+    // 만약, 롤백을 바라지 않는다면 @Rollback(false)를 추가하면 된다.
     @Test  
-    @Transactional    
+    @Transactional  
+    // @Rollback(false)
     public void testMember() throws Exception {  
         // given (준비): 테스트를 위해 준비하는 과정으로, 테스트에 사용하는 변수, 입력 값 등을 정의  
         Member member = new Member();  
@@ -204,6 +207,7 @@ public class MemberRepositoryTest {
 ![[DAY3 DB 생성.png]]
 
 - 왜냐하면, `application.yml`에서, ddl-auto문을 `create`로 지정했기 때문이다.
+	- `drop` 문 후, `create`를 하는 과정을 거친다.
 ```yml
 # ...
 jpa:  
@@ -211,5 +215,4 @@ jpa:
     ddl-auto: create
 #...
 ```
-
 ![[DAY3 자동 Create.png]]
