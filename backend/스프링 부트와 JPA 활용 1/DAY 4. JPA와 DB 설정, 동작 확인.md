@@ -242,6 +242,7 @@ implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.9.0'
 ```
 
 - 다음으로, `application.yml`에 아래 구문을 추가한다.
+	- 이는, 쿼리 파라미터 로깅을 위한 설정을 진행해주는 것이다.
 ```null
 org.hibernate.orm.jdbc.bind: trace
 ```
