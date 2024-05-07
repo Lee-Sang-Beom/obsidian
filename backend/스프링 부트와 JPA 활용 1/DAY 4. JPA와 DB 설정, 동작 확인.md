@@ -198,7 +198,7 @@ public class MemberRepositoryTest {
 
 		// 같은 트랜잭션 내에서 저장 및 조회하는 것은 같은 영속성 컨텍스트를 가진다.
 		// 따라서, 같은 영속성 컨텍스트 내에서 id값이 같으면 같은 Entity로 식별되는 것이다. 
-		assertThat(findMember).isEqualTo(member);
+		assertThat(findMember).isEqualTo(member); //JPA 엔티티 동일성 보장
 		
     }  
 }
