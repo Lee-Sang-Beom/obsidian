@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "62add7e50e6e783e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37fbcd42d3c86fb3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,13 +164,13 @@
   },
   "active": "0f8e0d8e726f7222",
   "lastOpenFiles": [
+    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 DB 생성.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 자동 Create.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 테스트 성공.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 테스트 에러.png",
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "backend/Spring 입문 강의/DAY 8.md",
     "backend/Spring 입문 강의/DAY 6.md",
     "backend/Spring 입문 강의/DAY 5.md",
