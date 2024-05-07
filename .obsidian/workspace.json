@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "0190e4a552a71159",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "37fbcd42d3c86fb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "283ccb0a3ed13ffa",
         "type": "tabs",
         "children": [
@@ -29,9 +11,11 @@
             "id": "21b5528c1628dfaa",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/2. 도메인 분석 설계.pdf"
+                "file": "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
+                "file": "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
+                "file": "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md"
+                "file": "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md"
               }
             }
           }
@@ -162,25 +146,31 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "37fbcd42d3c86fb3",
+  "active": "21b5528c1628dfaa",
   "lastOpenFiles": [
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/2. 도메인 분석 설계.pdf",
+    "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
+    "backend/스프링 부트와 JPA 활용 1/스프링 부트와 JPA 활용 1 백링크.md",
+    "backend/스프링 부트와 JPA 활용 1/강의자료/2. 도메인 분석 설계.pdf",
+    "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 6/쿼리 파라미터 라이브러리 사용 결과.png",
+    "backend/JPA 노트/1. JPA.md",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 6",
     "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
+    "backend/JPA 노트",
     "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-    "회원 테이블 분석.png",
-    "회원 엔티티 분석.png",
-    "UML 다이어그램 (관계).png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 6/회원 테이블 분석.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 6/회원 엔티티 분석.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 6/UML 다이어그램 (관계).png",
     "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계 (요구사항 분석).md",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 5/DAY 5 - 요구사항 분석.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 5",
     "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/3. 애플리케이션 구현 준비.pdf",
+    "backend/스프링 부트와 JPA 활용 1/강의자료/3. 애플리케이션 구현 준비.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/무제 폴더",
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
-    "쿼리 파라미터 라이브러리 사용 결과.png",
+    "backend/스프링 부트와 JPA 활용 1/강의자료/1. 프로젝트 환경설정.pdf",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 4/clean 및 build.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 4/jar 파일 실행.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 4",
@@ -203,12 +193,7 @@
     "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
     "backend/Spring 입문 강의/DAY 1.md",
     "backend/Spring 입문 강의/DAY 20.md",
-    "backend/Spring 입문 강의/DAY 19.md",
-    "backend/Spring 입문 강의/DAY 18.md",
-    "backend/Spring 입문 강의/DAY 17.md",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 2",
-    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1",
-    "backend/프로젝트 코드 해석하기",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
