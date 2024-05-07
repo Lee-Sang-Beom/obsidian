@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계.md",
+                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계.md",
+                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계.md",
+                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계.md"
+                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/무제 파일.md"
               }
             }
           }
@@ -164,9 +164,10 @@
   },
   "active": "37fbcd42d3c86fb3",
   "lastOpenFiles": [
+    "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계 (요구사항 분석).md",
+    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/무제 파일.md",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/2. 도메인 분석 설계.pdf",
-    "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계.md",
-    "DAY 5 - 요구사항 분석.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 5/DAY 5 - 요구사항 분석.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 5",
     "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/3. 애플리케이션 구현 준비.pdf",
