@@ -162,8 +162,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "034b6bc3c684cf2d",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "엔티티 매니저와 영속성 컨텍스트의 관계.png",
     "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf",
     "backend/JPA 노트/2. 영속성 컨텍스트.md",
     "엔티티 매니저 팩토리와 엔티티 매니저.png",
