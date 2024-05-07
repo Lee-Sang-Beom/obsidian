@@ -236,4 +236,16 @@ jpa:
 
 #### 5. 쿼리 파라미터 로그 남기기
 
-- 
+- 먼저, 스프링 부트 3.0 이상을 사용하는 현재의 경우, `build.gradle`에 아래와 같은 의존성 라이브러리를 추가한다.
+```null
+implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.9.0'
+```
+
+- 다음으로, `application.yml`에 아래 구문을 추가한다.
+```null
+org.hibernate.orm.jdbc.bind: trace
+```
+
+- 사용 결과는 아래와 같다.
+	- `Rollback(false)` 를 추가해주어야 insert문이 확인된다.
+![[쿼리 파라미터 라이브러리 사용 결과.png]]
