@@ -222,6 +222,10 @@ jpa:
 ![[DAY3 자동 Create.png]]
 
 
-#### 4. 쿼리 파라미터 로그 남기기
+#### 4. clean 및 build 수행하기
 
-- 
+- 먼저, Gradle clean 및 build 과정을 수행한다.
+![[clean 및 build.png]]
+
+- 다음으로, cmd와 같은 환경에서 해당 프로젝트의 `/jpashop/build/libs` 경로 하위에 있는 `jpashop-0.0.1-SNAPSHOT-plain.jar` 파일에 접근한다. 
+	- 그리고, 아래와 같이 `jar`파일을 실행하자. (`h2`)
