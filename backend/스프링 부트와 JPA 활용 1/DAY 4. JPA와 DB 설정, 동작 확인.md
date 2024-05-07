@@ -195,7 +195,11 @@ public class MemberRepositoryTest {
         // then (검증) : 테스트를 검증하는 과정으로 예상한 값, 실제 실행을 통해 나온 값의 비교  
         assertThat(findMember.getId()).isEqualTo(member.getId());  
         assertThat(findMember.getUsername()).isEqualTo(member.getUsername());  
-  
+
+		// 같은 트랜잭션 내에서 저장 및 조회하는 것은 같은 영속성 컨텍스트를 가진다.
+		// 따라서, 같은 영속성 컨텍스트 내에서 id값이 같으면 같은 Entity로 식별되는 것이다. 
+		assertThat(findMember).isEqualTo(member);
+		
     }  
 }
 ```
