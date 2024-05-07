@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f8e0d8e726f7222",
+            "id": "cbbf2378ca25e543",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
+                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
+                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md"
+                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf"
               }
             }
           }
@@ -162,11 +162,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "37fbcd42d3c86fb3",
   "lastOpenFiles": [
-    "clean 및 build.png",
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 4/clean 및 build.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 4/jar 파일 실행.png",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 4",
+    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 4/jar 파일 실제 동작 확인.png",
+    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/1. 프로젝트 환경설정.pdf",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 DB 생성.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 3/DAY3 자동 Create.png",
@@ -201,14 +204,11 @@
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/정상 설치 시, 초기 실행화면.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 2",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1",
-    "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 2/gradleDependencies.png",
     "backend/프로젝트 코드 해석하기",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/2. 도메인 분석 설계.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/0. 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 v2023-12-04.pdf",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/7. 웹 계층 개발.pdf",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1",
-    "backend/스프링 부트와 JPA 활용 1",
-    "사용 이미지/backend/Spring 입문 강의/DAY 22/execution 명시자 규칙.png",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
