@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md"
+                "file": "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md"
               }
             }
           }
@@ -164,8 +164,9 @@
   },
   "active": "37fbcd42d3c86fb3",
   "lastOpenFiles": [
+    "Pasted image 20240507103253.png",
     "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계 (요구사항 분석).md",
-    "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
+    "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
     "backend/스프링 부트와 JPA 활용 1/springjpa1-v20231204/springjpa1-v20231204/2. 도메인 분석 설계.pdf",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 5/DAY 5 - 요구사항 분석.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 5",
@@ -205,7 +206,6 @@
     "backend/Spring 입문 강의/DAY 15.md",
     "backend/Spring 입문 강의/DAY 14.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md",
-    "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1/최초 import 화면.png",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 2",
     "사용 이미지/backend/스프링 부트와 JPA 활용 1/DAY 1",
