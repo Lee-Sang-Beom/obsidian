@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/JPA 노트/3. 플러시와 준영속.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,19 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/03. 영속성 관리.pdf"
+              }
+            }
+          },
+          {
+            "id": "4b9f3638d72624ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -101,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/JPA 노트/3. 플러시와 준영속.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/JPA 노트/3. 플러시와 준영속.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/JPA 노트/3. 플러시와 준영속.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md"
               }
             }
           }
@@ -164,33 +176,33 @@
   },
   "active": "5973411dcdb40f7c",
   "lastOpenFiles": [
-    "backend/JPA 노트/2. 영속성 컨텍스트.md",
-    "backend/JPA 노트/3. 플러시와 준영속.md",
-    "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 백링크.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/03. 영속성 관리.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
     "플러시 모드 옵션.png",
-    "사용 이미지/backend/JPA 노트/3. 플러시와 준영속",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/3. 플러시와 준영속",
     "React/react-hook-form/기초.md",
-    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png",
-    "backend/JPA 노트/JPA 노트 백링크.md",
-    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트",
-    "backend/JPA 노트/1. JPA.md",
-    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/영속성 컨텍스트 이점 4 - 변경 감지.png",
-    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/영속성 컨텍스트 이점 3 - 쓰기 지연.png",
-    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/영속성 컨텍스트 이점 1 - 1차 캐시.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/1. JPA.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/영속성 컨텍스트 이점 4 - 변경 감지.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/영속성 컨텍스트 이점 3 - 쓰기 지연.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/영속성 컨텍스트 이점 1 - 1차 캐시.png",
     "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
-    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/영속과 비영속.png",
-    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 생명주기.png",
-    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저와 영속성 컨텍스트의 관계.png",
-    "backend/JPA 노트/JPA 노트 강의자료/02. JPA 시작.pdf",
-    "backend/JPA 노트/JPA 노트 강의자료/01. JPA 소개.pdf",
-    "backend/JPA 노트/JPA 노트 강의자료/강의자료 백링크.md",
-    "backend/JPA 노트/JPA 노트 강의자료/05. 연관관계 매핑 기초.pdf",
-    "backend/JPA 노트/JPA 노트 강의자료/04. 엔티티 매핑.pdf",
-    "backend/JPA 노트/JPA 노트 강의자료/10. 객체지향 쿼리 언어.pdf",
-    "backend/JPA 노트/JPA 노트 강의자료/08. 프록시와 연관관계 관리.pdf",
-    "backend/JPA 노트/JPA 노트 강의자료/09. 값 타입.pdf",
-    "사용 이미지/backend/JPA 노트/1. JPA/JPA 노트 1 - 쓰기 지연.png",
-    "사용 이미지/backend/JPA 노트/1. JPA/JPA 노트 1 - 지연 로딩과 즉시 로딩.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/영속과 비영속.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/엔티티 생명주기.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/엔티티 매니저와 영속성 컨텍스트의 관계.png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/02. JPA 시작.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/01. JPA 소개.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/강의자료 백링크.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/10. 객체지향 쿼리 언어.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/08. 프록시와 연관관계 관리.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/09. 값 타입.pdf",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/1. JPA/JPA 노트 1 - 쓰기 지연.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/1. JPA/JPA 노트 1 - 지연 로딩과 즉시 로딩.png",
     "backend/Spring 입문 강의/DAY 20.md",
     "backend/Spring 입문 강의/DAY 21.md",
     "backend/Spring 입문 강의/DAY 19.md",
