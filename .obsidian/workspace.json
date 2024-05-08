@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/JPA 노트/3. 플러시와 준영속.md",
+                "file": "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/JPA 노트/3. 플러시와 준영속.md",
+                "file": "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/JPA 노트/3. 플러시와 준영속.md"
+                "file": "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf"
               }
             }
           }
@@ -162,12 +162,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5973411dcdb40f7c",
+  "active": "d6b56d2d3552657a",
   "lastOpenFiles": [
+    "backend/JPA 노트/3. 플러시와 준영속.md",
     "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf",
     "플러시 모드 옵션.png",
     "backend/JPA 노트/2. 영속성 컨텍스트.md",
-    "backend/JPA 노트/3. 플러시와 준영속.md",
     "사용 이미지/backend/JPA 노트/3. 플러시와 준영속",
     "React/react-hook-form/기초.md",
     "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png",
