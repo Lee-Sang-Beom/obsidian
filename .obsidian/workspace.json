@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "46bb8c9ea632601a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5973411dcdb40f7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "2b3711c6b9d338db",
         "type": "tabs",
         "children": [
@@ -29,9 +11,11 @@
             "id": "d6b56d2d3552657a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/03. 영속성 관리.pdf"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -113,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑.md"
               }
             }
           }
@@ -174,14 +158,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5973411dcdb40f7c",
+  "active": "d6b56d2d3552657a",
   "lastOpenFiles": [
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/03. 영속성 관리.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 백링크.md",
     "backend/Spring 입문 강의/DAY 18.md",
     "backend/Spring 입문 강의/DAY 20.md",
     "backend/Spring 입문 강의/DAY 21.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/03. 영속성 관리.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
     "플러시 모드 옵션.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/3. 플러시와 준영속",
@@ -220,8 +205,6 @@
     "backend/Spring 입문 강의/DAY 8.md",
     "backend/Spring 입문 강의/DAY 6.md",
     "backend/Spring 입문 강의/DAY 5.md",
-    "backend/Spring 입문 강의/DAY 4.md",
-    "backend/Spring 입문 강의/DAY 3.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
