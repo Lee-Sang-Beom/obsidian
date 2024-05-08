@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a84ecaf77d3b292f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/JPA 노트/2. 영속성 컨텍스트.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       },
@@ -176,9 +164,11 @@
   },
   "active": "5973411dcdb40f7c",
   "lastOpenFiles": [
+    "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf",
+    "플러시 모드 옵션.png",
     "backend/JPA 노트/2. 영속성 컨텍스트.md",
     "backend/JPA 노트/3. 플러시와 준영속.md",
-    "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf",
+    "사용 이미지/backend/JPA 노트/3. 플러시와 준영속",
     "React/react-hook-form/기초.md",
     "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png",
     "backend/JPA 노트/JPA 노트 백링크.md",
@@ -199,10 +189,8 @@
     "backend/JPA 노트/JPA 노트 강의자료/10. 객체지향 쿼리 언어.pdf",
     "backend/JPA 노트/JPA 노트 강의자료/08. 프록시와 연관관계 관리.pdf",
     "backend/JPA 노트/JPA 노트 강의자료/09. 값 타입.pdf",
-    "backend/JPA 노트/JPA 노트 강의자료/07. 고급 매핑.pdf",
     "사용 이미지/backend/JPA 노트/1. JPA/JPA 노트 1 - 쓰기 지연.png",
     "사용 이미지/backend/JPA 노트/1. JPA/JPA 노트 1 - 지연 로딩과 즉시 로딩.png",
-    "사용 이미지/backend/JPA 노트/1. JPA/JPA 노트 1 - 캐시.png",
     "backend/Spring 입문 강의/DAY 20.md",
     "backend/Spring 입문 강의/DAY 21.md",
     "backend/Spring 입문 강의/DAY 19.md",
