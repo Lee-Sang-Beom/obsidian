@@ -4,32 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "283ccb0a3ed13ffa",
+        "id": "46bb8c9ea632601a",
         "type": "tabs",
         "children": [
           {
-            "id": "21b5528c1628dfaa",
+            "id": "5973411dcdb40f7c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf"
+                "file": "backend/JPA 노트/3. 플러시와 준영속.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a84ecaf77d3b292f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/JPA 노트/2. 영속성 컨텍스트.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ]
       },
       {
-        "id": "619306b1cd613a1f",
+        "id": "2b3711c6b9d338db",
         "type": "tabs",
         "children": [
           {
-            "id": "94e35a0a4e6a8421",
+            "id": "d6b56d2d3552657a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png"
+                "file": "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf"
               }
             }
           }
@@ -99,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png",
+                "file": "backend/JPA 노트/3. 플러시와 준영속.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png",
+                "file": "backend/JPA 노트/3. 플러시와 준영속.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png"
+                "file": "backend/JPA 노트/3. 플러시와 준영속.md"
               }
             }
           }
@@ -160,13 +174,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "5973411dcdb40f7c",
   "lastOpenFiles": [
+    "backend/JPA 노트/2. 영속성 컨텍스트.md",
+    "backend/JPA 노트/3. 플러시와 준영속.md",
+    "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf",
+    "React/react-hook-form/기초.md",
+    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png",
     "backend/JPA 노트/JPA 노트 백링크.md",
     "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트",
-    "backend/JPA 노트/2. 영속성 컨텍스트.md",
     "backend/JPA 노트/1. JPA.md",
-    "backend/JPA 노트/JPA 노트 강의자료/03. 영속성 관리.pdf",
     "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/영속성 컨텍스트 이점 4 - 변경 감지.png",
     "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/영속성 컨텍스트 이점 3 - 쓰기 지연.png",
     "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/영속성 컨텍스트 이점 1 - 1차 캐시.png",
@@ -174,7 +191,6 @@
     "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/영속과 비영속.png",
     "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 생명주기.png",
     "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저와 영속성 컨텍스트의 관계.png",
-    "사용 이미지/backend/JPA 노트/2. 영속성 컨텍스트/엔티티 매니저 팩토리와 엔티티 매니저.png",
     "backend/JPA 노트/JPA 노트 강의자료/02. JPA 시작.pdf",
     "backend/JPA 노트/JPA 노트 강의자료/01. JPA 소개.pdf",
     "backend/JPA 노트/JPA 노트 강의자료/강의자료 백링크.md",
@@ -205,8 +221,6 @@
     "backend/Spring 입문 강의/DAY 5.md",
     "backend/Spring 입문 강의/DAY 4.md",
     "backend/Spring 입문 강의/DAY 3.md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
-    "backend/Spring 입문 강의/DAY 2.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
