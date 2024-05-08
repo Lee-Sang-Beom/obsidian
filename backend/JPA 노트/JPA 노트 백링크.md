@@ -2,3 +2,8 @@
 #### 백링크
 
 - [[1. JPA]]
+
+
+#### 참고자료 
+ > [스프링 데이터 JPA, 5분 만에 알아보기](https://yozm.wishket.com/magazine/detail/2160/#:~:text=%ED%95%98%EC%9D%B4%EB%B2%84%EB%84%A4%EC%9D%B4%ED%8A%B8%EB%8A%94%20JPA%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4,%EC%88%98%20%EC%9E%88%EA%B2%8C%20%ED%95%98%EB%8A%94%20%EB%8D%B0%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.)
+ 
