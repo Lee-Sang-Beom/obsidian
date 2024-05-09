@@ -162,8 +162,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d6b56d2d3552657a",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "매핑 어노테이션 정리.png",
+    "필드와 컬럼 매핑 기본 어노테이션 코드.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
@@ -189,7 +191,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/영속성 컨텍스트 이점 3 - 쓰기 지연.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/영속성 컨텍스트 이점 1 - 1차 캐시.png",
     "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트/영속과 비영속.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/02. JPA 시작.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/01. JPA 소개.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/강의자료 백링크.md",
@@ -209,7 +210,6 @@
     "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
     "backend/Spring 입문 강의/DAY 8.md",
     "backend/Spring 입문 강의/DAY 6.md",
-    "backend/Spring 입문 강의/DAY 5.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
