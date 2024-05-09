@@ -4,36 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "5c2fb090b7ccc715",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eaee3bb456698760",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcaceaca35c0369e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/Spring 입문 강의/DAY 20.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "f3b9cf3f873e608b",
         "type": "tabs",
         "children": [
@@ -51,9 +21,11 @@
             "id": "59b27c3a0e6c0014",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -124,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md"
               }
             }
           }
@@ -185,11 +157,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "eaee3bb456698760",
+  "active": "59b27c3a0e6c0014",
   "lastOpenFiles": [
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
     "backend/Spring 입문 강의/DAY 20.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "backend/Spring 입문 강의/DAY 19.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
     "객체지향 모델링 (참조로 연관관계 조회).png",
@@ -219,7 +192,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/4. 엔티티 매핑 (1)",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/03. 영속성 관리.pdf",
     "backend/Spring 입문 강의/DAY 18.md",
