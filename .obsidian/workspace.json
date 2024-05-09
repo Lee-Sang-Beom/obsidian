@@ -4,39 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "2b3711c6b9d338db",
+        "id": "5c2fb090b7ccc715",
         "type": "tabs",
         "children": [
           {
-            "id": "d6b56d2d3552657a",
+            "id": "eaee3bb456698760",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0a5e6ebe723fc931",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "@Enumerated ORDINAL (2).png"
               }
             }
           }
         ]
       },
       {
-        "id": "6155594476056a6c",
+        "id": "f3b9cf3f873e608b",
         "type": "tabs",
         "children": [
           {
-            "id": "6094d04addf8d02d",
+            "id": "195baa9cba9b7faa",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -111,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md"
               }
             }
           }
@@ -174,24 +164,29 @@
   },
   "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "@Temporal localDate and localDateTime.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
-    "@Enumerated ORDINAL (2).png",
-    "@Enumerated ORDINAL (1).png",
+    "기본 키 매핑 어노테이션.png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Temporal localDate and localDateTime.png",
+    "Pasted image 20240509114833.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Enumerated ORDINAL (2).png",
+    "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Column.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/6. 엔티티 매핑 (3)",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/무제 파일.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Enumerated ORDINAL (1).png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 백링크.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
-    "@Column columnDefinition.png",
-    "@Column unique.png",
-    "@Column not null.png",
-    "@Temporal.png",
-    "@Enumerated.png",
-    "@Column.png",
-    "Pasted image 20240509104126.png",
-    "필드와 컬럼 매핑 기본 어노테이션 코드 create table문.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/4. 엔티티 매핑",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Column columnDefinition.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Column unique.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Column not null.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Temporal.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Enumerated.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/4. 엔티티 매핑 (1)",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/03. 영속성 관리.pdf",
     "backend/Spring 입문 강의/DAY 18.md",
     "backend/Spring 입문 강의/DAY 20.md",
@@ -205,10 +200,7 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/01. JPA 소개.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/강의자료 백링크.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/10. 객체지향 쿼리 언어.pdf",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/08. 프록시와 연관관계 관리.pdf",
     "backend/Spring 입문 강의/DAY 19.md",
-    "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
     "backend/스프링 부트와 JPA 활용 1/스프링 부트와 JPA 활용 1 백링크.md",
     "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
@@ -218,8 +210,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계 (요구사항 분석).md",
     "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
-    "backend/Spring 입문 강의/DAY 8.md",
-    "backend/Spring 입문 강의/DAY 6.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
