@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f3b9cf3f873e608b",
+        "id": "941ebe165353ca37",
         "type": "tabs",
         "children": [
           {
-            "id": "195baa9cba9b7faa",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf"
-              }
-            }
-          },
-          {
-            "id": "59b27c3a0e6c0014",
+            "id": "356b27ce4adcc786",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
+                "file": "프로젝트.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
+                "file": "프로젝트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
+                "file": "프로젝트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md"
+                "file": "프로젝트.md"
               }
             }
           }
@@ -157,25 +146,26 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "59b27c3a0e6c0014",
+  "active": "356b27ce4adcc786",
   "lastOpenFiles": [
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체 연관관계 사용.png",
+    "프로젝트.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
     "backend/Spring 입문 강의/DAY 20.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "backend/Spring 입문 강의/DAY 19.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
-    "객체지향 모델링 (참조로 연관관계 조회).png",
-    "객체지향 모델링 (연관관계 저장).png",
-    "객체지향 모델링 (ORM 매핑).png",
-    "객체지향 모델링 (코드).png",
-    "객체 연관관계 사용.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체지향 모델링 (참조로 연관관계 조회).png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체지향 모델링 (연관관계 저장).png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체지향 모델링 (ORM 매핑).png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체지향 모델링 (코드).png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초",
     "backend/DataBase/JOIN.md",
-    "객체를 테이블에 맞춰 모델링 (식별자로 다시 조회).png",
-    "객체를 테이블에 맞춰 모델링 (외래키 식별자를 직접 다룸).png",
-    "객체를 테이블에 맞춰 모델링 (참조 대신 외래키를 그대로 사용).png",
-    "객체를 테이블에 맞춰 모델링.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체를 테이블에 맞춰 모델링 (식별자로 다시 조회).png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체를 테이블에 맞춰 모델링 (외래키 식별자를 직접 다룸).png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체를 테이블에 맞춰 모델링 (참조 대신 외래키를 그대로 사용).png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체를 테이블에 맞춰 모델링.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
     "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/6. 엔티티 매핑 (3)/기본 키 매핑 어노테이션.png",
@@ -203,7 +193,6 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/02. JPA 시작.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/강의자료 백링크.md",
     "backend/스프링 부트와 JPA 활용 1/스프링 부트와 JPA 활용 1 백링크.md",
-    "backend/Spring 입문 강의/Spring 강의 학습 백링크.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
