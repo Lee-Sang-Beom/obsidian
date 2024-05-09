@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a5e6ebe723fc931",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "6155594476056a6c",
@@ -164,6 +177,9 @@
   },
   "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "@Column columnDefinition.png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
     "@Column unique.png",
     "@Column not null.png",
     "@Temporal.png",
@@ -172,13 +188,10 @@
     "Pasted image 20240509104126.png",
     "필드와 컬럼 매핑 기본 어노테이션 코드 create table문.png",
     "Pasted image 20240509103907.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
     "매핑 어노테이션 정리.png",
     "필드와 컬럼 매핑 기본 어노테이션 코드.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 백링크.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/4. 엔티티 매핑/DB Schema 자동생성 속성2.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/4. 엔티티 매핑",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/03. 영속성 관리.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
