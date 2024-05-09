@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/7. 연관관계 매핑 기초.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,11 +31,22 @@
             "state": {
               "type": "pdf",
               "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf"
+              }
+            }
+          },
+          {
+            "id": "59b27c3a0e6c0014",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
                 "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/7. 연관관계 매핑 기초.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/7. 연관관계 매핑 기초.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/7. 연관관계 매핑 기초.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md"
               }
             }
           }
@@ -162,11 +173,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "eaee3bb456698760",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "객체를 테이블에 맞춰 모델링 (참조 대신 외래키를 그대로 사용).png",
+    "객체를 테이블에 맞춰 모델링.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/7. 연관관계 매핑 기초.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
     "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/6. 엔티티 매핑 (3)/기본 키 매핑 어노테이션.png",
@@ -185,7 +198,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/6. 엔티티 매핑 (3)/IDENTITY 전략 - 매핑.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)/@Temporal localDate and localDateTime.png",
-    "Pasted image 20240509114833.png",
     "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/6. 엔티티 매핑 (3)",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/무제 파일.md",
