@@ -11,8 +11,38 @@
             "id": "356b27ce4adcc786",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e845a2753d4cc19c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77a9ee3f0ac60731",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf"
+              }
+            }
+          },
+          {
+            "id": "715c9b1ddea602a1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf"
+              }
             }
           }
         ]
@@ -81,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md"
+              }
             }
           }
         ],
@@ -140,6 +174,11 @@
   },
   "active": "356b27ce4adcc786",
   "lastOpenFiles": [
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
+    "양방향 매핑 연관관계.png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "Pasted image 20240509172342.png",
     "Pasted image 20240509172544.png",
     "Pasted image 20240509172138.png",
@@ -150,13 +189,10 @@
     "Pasted image 20240509171641.png",
     "Pasted image 20240509171159.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체 연관관계 사용.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
     "backend/Spring 입문 강의/DAY 20.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
     "backend/Spring 입문 강의/DAY 19.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초/객체지향 모델링 (참조로 연관관계 조회).png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초",
     "backend/DataBase/JOIN.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
@@ -182,9 +218,7 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/2. 영속성 컨텍스트",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/1. JPA.md",
     "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/02. JPA 시작.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/강의자료 백링크.md",
-    "backend/스프링 부트와 JPA 활용 1/스프링 부트와 JPA 활용 1 백링크.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
