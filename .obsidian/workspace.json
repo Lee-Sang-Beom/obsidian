@@ -172,11 +172,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "356b27ce4adcc786",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "둘 중 하나로 외래키를 관리해야 한다..png",
+    "연관관계의 주인.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인 (1).md",
+    "둘 중 하나로 외래키를 관리해야 한다..png",
     "테이블의 양방향 관계.png",
     "Pasted image 20240510092427.png",
     "객체의 양방향 관계.png",
@@ -189,7 +190,6 @@
     "Pasted image 20240509170619.png",
     "Pasted image 20240509170501.png",
     "프로젝트.md",
-    "Pasted image 20240509172337.png",
     "backend/Spring 입문 강의/DAY 20.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
     "backend/Spring 입문 강의/DAY 19.md",
