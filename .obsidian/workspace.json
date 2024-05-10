@@ -190,8 +190,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 4039,
-        "y": 85,
+        "x": 4328,
+        "y": 128,
         "width": 759,
         "height": 800,
         "maximize": false,
@@ -199,11 +199,11 @@
       }
     ]
   },
-  "active": "2a1f51f51c426eec",
+  "active": "46056a874d1621ad",
   "lastOpenFiles": [
-    "일대다 단방향.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 일대다 관계.md",
+    "일대다 단방향.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 단방향.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계",
@@ -219,7 +219,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인/Team에서 연관객체 상태 변경.png",
     "Pasted image 20240510103437.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인/연관관계를 위한 setter 메소드 확장.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인/연관관계를 위한 setter 메소드 확장.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
     "프로젝트.md",
