@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e845a2753d4cc19c",
+        "id": "db7d406fe80f5b0c",
         "type": "tabs",
         "children": [
           {
-            "id": "77a9ee3f0ac60731",
+            "id": "01798205dafe2086",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md"
               }
             }
           }
@@ -146,12 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "77a9ee3f0ac60731",
+  "active": "01798205dafe2086",
   "lastOpenFiles": [
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
     "Team에서 연관객체 상태 변경.png",
     "Pasted image 20240510103437.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "연관관계를 위한 setter 메소드 확장.png",
     "연관관계를 위한 setter 메소드 확장.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 백링크.md",
