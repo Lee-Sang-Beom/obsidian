@@ -11,8 +11,12 @@
             "id": "879cd4934db3a0d0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "React/react-hook-form/1. React-hook-form.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "React/react-hook-form/1. React-hook-form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "React/react-hook-form/1. React-hook-form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "React/react-hook-form/1. React-hook-form.md"
+              }
             }
           }
         ],
@@ -138,60 +146,31 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "floating": {
-    "id": "34901450716da2eb",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d5bb345989f19048",
-        "type": "window",
-        "children": [
-          {
-            "id": "30a41ff9c8a7c681",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d864ae94cf32eb51",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 4360,
-        "y": 90,
-        "width": 759,
-        "height": 800,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "879cd4934db3a0d0",
   "lastOpenFiles": [
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 일대다 관계.md",
+    "React/react-hook-form/참고자료.md",
+    "React/react-hook-form/watch와 getValues().md",
+    "React/react-hook-form/useWatch와 watch.md",
+    "React/react-hook-form/1. React-hook-form.md",
+    "React/react-hook-form/기초.md",
+    "React/react-hook-form/사용 예제.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 양방향.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
-    "일대다 양방향.png",
-    "일대다 단방향 Member.java.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 단방향 Member.java.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
-    "일대다 단방향 Team.java.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 단방향 Team.java.png",
     "Pasted image 20240510135508.png",
-    "일대다 단방향.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 단방향.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 단방향.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 양방향 예시.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 양방향 예시.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 단방향예시.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 양방향.png",
-    "React/react-hook-form/사용 예제.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 백링크.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
@@ -204,9 +183,6 @@
     "backend/DataBase/JOIN.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
     "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
-    "React/react-hook-form/useWatch와 watch.md",
-    "React/react-hook-form/watch와 getValues().md",
-    "React/react-hook-form/기초.md",
     "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
     "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
@@ -216,10 +192,8 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/4. 엔티티 매핑 (1)",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/03. 영속성 관리.pdf",
     "backend/Spring 입문 강의/DAY 18.md",
     "backend/Spring 입문 강의/DAY 21.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/1. JPA.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
