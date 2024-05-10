@@ -148,9 +148,9 @@
   },
   "active": "879cd4934db3a0d0",
   "lastOpenFiles": [
-    "React/react-hook-form/watch와 getValues().md",
-    "React/react-hook-form/2. 주요 함수.md",
     "React/react-hook-form/1. React-hook-form 소개.md",
+    "React/react-hook-form/2. 주요 함수.md",
+    "React/react-hook-form/watch와 getValues().md",
     "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
     "React/react-hook-form/참고자료.md",
     "React/react-hook-form/useWatch와 watch.md",
