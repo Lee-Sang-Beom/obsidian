@@ -4,16 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "74b334fccfa07354",
+        "id": "a951b32cfee44399",
         "type": "tabs",
         "children": [
           {
-            "id": "c59cee679c3dac21",
+            "id": "879cd4934db3a0d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "backend/Spring 강의/DAY 15.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+                "file": "React/react-hook-form/2. 주요 함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 239.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -86,6 +91,7 @@
               "type": "backlink",
               "state": {
                 "file": "backend/Spring 강의/DAY 15.md",
+                "file": "React/react-hook-form/2. 주요 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +109,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "backend/Spring 강의/DAY 15.md",
+                "file": "React/react-hook-form/2. 주요 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,10 +133,12 @@
               "type": "outline",
               "state": {
                 "file": "backend/Spring 강의/DAY 15.md"
+                "file": "React/react-hook-form/2. 주요 함수.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -137,62 +146,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "c59cee679c3dac21",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "2024-05-10.md",
+    "React/react-hook-form/2. 주요 함수.md",
+    "React/react-hook-form/1. React-hook-form 소개.md",
     "React/env (환경변수).md",
-    "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
-    "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
-    "회사 세미나/2. 서버(Server).md",
-    "사용 이미지/Next.js/Next.js v14.2/오류메시지 후.png",
-    "사용 이미지/Next.js/Next.js v14.2/오류메시지 전.png",
-    "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
-    "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
-    "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
-    "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-    "backend/Spring 강의/Spring 강의 학습 백링크.md",
-    "backend/Spring 강의/DAY 15.md",
-    "backend/Spring 강의/DAY 13.md",
-    "backend/Spring 강의/DAY 14.md",
-    "backend/Spring 강의/DAY 2.md",
-    "backend/Spring 강의/DAY 12.md",
-    "backend/Spring 강의/강의자료/5. 회원 관리 예제 - 웹 MVC 개발.pdf",
-    "backend/Spring 강의/DAY 1.md",
-    "backend/Spring 강의/DAY 3.md",
-    "backend/Spring 강의/강의자료/4. 스프링 빈과 의존관계.pdf",
-    "backend/Spring 강의/DAY 6.md",
-    "사용 이미지/Next.js/Next.js14.png",
-    "사용 이미지/Next.js/Next.js v14.2",
-    "Pasted image 20240412095358.png",
-    "사용 이미지/Spring/DAY 11",
-    "사용 이미지/Spring/DAY 11/스프링 빈 실행 오류.png",
-    "사용 이미지/Spring/DAY 11/스프링 빈 등록 이미지.png",
-    "사용 이미지/Spring/DAY 11/스프링 컨테이너 스프링 빈 도식화오류.png",
-    "사용 이미지/Spring/DAY 11/스프링 빈 터미널오류.png",
-    "backend/Spring 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
-    "backend/Spring 강의/강의자료/6. 스프링 DB 접근 기술.pdf",
-    "backend/Spring 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
-    "backend/Spring 강의/강의자료/1. 프로젝트 환경 설정.pdf",
-    "backend/Linux/무제 폴더",
-    "사용 이미지/React/virtual dom/diffing과 reconciliation.png",
-    "사용 이미지/React/virtual dom/가상 DOM(별코딩).png",
-    "사용 이미지/Next.js/Server Action/6. Server-side validation and error handling",
+    "React/react-hook-form/watch와 getValues().md",
+    "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
+    "React/react-hook-form/참고자료.md",
+    "React/react-hook-form/useWatch와 watch.md",
+    "React/react-hook-form/기초.md",
+    "React/react-hook-form/사용 예제.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 양방향.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 단방향 Member.java.png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 단방향 Team.java.png",
+    "Pasted image 20240510135508.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 단방향.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 단방향.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 양방향 예시.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 양방향 예시.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 단방향예시.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 양방향.png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 백링크.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
+    "프로젝트.md",
+    "backend/Spring 입문 강의/DAY 20.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
+    "backend/Spring 입문 강의/DAY 19.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초",
+    "backend/DataBase/JOIN.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
+    "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
+    "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
+    "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/6. 엔티티 매핑 (3)",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/무제 파일.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/4. 엔티티 매핑 (1)",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
