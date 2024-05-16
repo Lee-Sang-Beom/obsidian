@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+                "file": "개발 테스트/테스트 내용.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+                "file": "개발 테스트/테스트 내용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+                "file": "개발 테스트/테스트 내용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md"
+                "file": "개발 테스트/테스트 내용.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "879cd4934db3a0d0",
   "lastOpenFiles": [
+    "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+    "개발 테스트/테스트 내용.md",
+    "개발 테스트",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "React/react-hook-form/2. 주요 함수.md",
     "React/react-hook-form/watch와 getValues().md",
@@ -189,11 +192,8 @@
     "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
     "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
-    "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/6. 엔티티 매핑 (3)",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/무제 파일.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/4. 엔티티 매핑 (1)",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
