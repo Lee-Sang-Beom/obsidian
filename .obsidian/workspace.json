@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/7. Next.js13에서 VWorld API와 OpenLayers 사용해보기 7.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/7. Next.js13에서 VWorld API와 OpenLayers 사용해보기 7.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/7. Next.js13에서 VWorld API와 OpenLayers 사용해보기 7.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/7. Next.js13에서 VWorld API와 OpenLayers 사용해보기 7.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md"
               }
             }
           }
@@ -148,14 +148,14 @@
   },
   "active": "879cd4934db3a0d0",
   "lastOpenFiles": [
-    "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "Next.js/VWorld and OpenLayers/7. Next.js13에서 VWorld API와 OpenLayers 사용해보기 7.md",
     "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
+    "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/CompanyAndPolygon.png",
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
     "Next.js/VWorld and OpenLayers/3. Next.js13에서 VWorld API와 OpenLayers 사용해보기 3.md",
     "Next.js/VWorld and OpenLayers/2. Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
