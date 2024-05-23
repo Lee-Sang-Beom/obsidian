@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "09a2306f9fef2468",
+        "id": "7214fdffb9879791",
         "type": "tabs",
         "children": [
           {
-            "id": "14bb4628df49d574",
+            "id": "5d1e958e37d81cb4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/react-hook-form/2. 주요 함수 및 객체.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/react-hook-form/2. 주요 함수 및 객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/react-hook-form/2. 주요 함수 및 객체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "React/react-hook-form/2. 주요 함수 및 객체.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,15 +138,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "14bb4628df49d574",
+  "active": "5d1e958e37d81cb4",
   "lastOpenFiles": [
+    "사용 이미지/React/react-hook-form/react-hook-form 사용하기 overview image(1).png",
+    "React/react-hook-form/2. 주요 함수 및 객체.md",
+    "사용 이미지/React/react-hook-form",
     "React/react-hook-form/4. react-hook-form 사용하기.md",
     "React/react-hook-form/watch와 getValues().md",
     "React/react-hook-form/참고자료.md",
-    "react-hook-form 사용하기 overview image(2).png",
-    "react-hook-form 사용하기 overview image(1).png",
+    "사용 이미지/React/react-hook-form/react-hook-form 사용하기 overview image(2).png",
     "React/react-hook-form/3. 실제 프로젝트 사용을 위한 베이스 로직 만들기.md",
-    "React/react-hook-form/2. 주요 함수 및 객체.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
@@ -192,7 +185,6 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/6. 엔티티 매핑 (3)",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
