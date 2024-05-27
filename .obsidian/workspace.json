@@ -11,9 +11,11 @@
             "id": "5f2de5d6e54cc064",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/주 테이블에 외래키를 넣고, 양방향.png"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/주 테이블에 외래키를 넣고, 양방향.png",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/주 테이블에 외래키를 넣고, 양방향.png",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/주 테이블에 외래키를 넣고, 양방향.png"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md"
               }
             }
           }
@@ -144,18 +146,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "5f2de5d6e54cc064",
   "lastOpenFiles": [
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/10. 객체지향 쿼리 언어.pdf",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/주 테이블에 외래키를 넣고, 양방향.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/대상 테이블에 외래키를 넣고, 양방향.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/대상 테이블에 외래키를 넣고, 단방향.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/주 테이블에 외래키를 넣고, 단방향.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/주 테이블에 외래키를 넣고, 양방향.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
     "사용 이미지/React/react-hook-form/react-hook-form 사용하기 overview image(1).png",
     "React/react-hook-form/2. 주요 함수 및 객체.md",
@@ -190,7 +193,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
