@@ -11,9 +11,11 @@
             "id": "ba20e7063729c9c0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 객체는 컬렉션을 사용해서 객체 2개로 다대다 관계 가능.png"
+                "file": "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 객체는 컬렉션을 사용해서 객체 2개로 다대다 관계 가능.png",
+                "file": "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 객체는 컬렉션을 사용해서 객체 2개로 다대다 관계 가능.png",
+                "file": "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 객체는 컬렉션을 사용해서 객체 2개로 다대다 관계 가능.png"
+                "file": "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md"
               }
             }
           }
@@ -144,8 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "ba20e7063729c9c0",
   "lastOpenFiles": [
+    "코드 임시저장 및 테스트 코드/화학물질 정보지도 클라이언트.md",
+    "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 객체는 컬렉션을 사용해서 객체 2개로 다대다 관계 가능.png",
     "코드 임시저장 및 테스트 코드",
     "개발 테스트/테스트 내용.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
@@ -153,7 +158,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 매핑의 한계극복.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 매핑의 한계.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 객체는 컬렉션을 사용해서 객체 2개로 다대다 관계 가능.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 관계형 DB는 정규화된 테이블로 다대다 관계 구현 불가.png",
     "Pasted image 20240527111253.png",
     "Pasted image 20240527111254.png",
@@ -188,10 +192,8 @@
     "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
     "React/react-hook-form/useWatch와 watch.md",
     "React/react-hook-form/기초.md",
-    "React/react-hook-form/사용 예제.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
