@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md"
               }
             }
           }
@@ -146,10 +146,50 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
+  "floating": {
+    "id": "2f7e35e29434bf48",
+    "type": "floating",
+    "children": [
+      {
+        "id": "72c966f5a9046b41",
+        "type": "window",
+        "children": [
+          {
+            "id": "6d92700de258663b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "64d81978a569a2ef",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2546,
+        "y": 90,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "ee3e3f5b41abd894",
   "lastOpenFiles": [
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
+    "배송과 카테고리 추가(엔티티 상세).png",
+    "배송과 카테고리 추가(ERD).png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
+    "배송과 카테고리 추가(엔티티).png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
     "React/env (환경변수).md",
     "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
     "코드 임시저장 및 테스트 코드/화학물질 정보지도 클라이언트.md",
@@ -159,7 +199,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 매핑의 한계극복.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 매핑의 한계.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 관계형 DB는 정규화된 테이블로 다대다 관계 구현 불가.png",
     "Pasted image 20240527111253.png",
     "Pasted image 20240527111254.png",
@@ -168,10 +207,7 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/주 테이블에 외래키를 넣고, 양방향.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/대상 테이블에 외래키를 넣고, 양방향.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/대상 테이블에 외래키를 넣고, 단방향.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계/주 테이블에 외래키를 넣고, 단방향.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
     "React/react-hook-form/2. 주요 함수 및 객체.md",
     "사용 이미지/React/react-hook-form",
@@ -190,8 +226,6 @@
     "2024-05-10.md",
     "React/react-hook-form/1. React-hook-form 소개.md",
     "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
-    "React/react-hook-form/useWatch와 watch.md",
-    "React/react-hook-form/기초.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계",
     "무제 파일.canvas",
