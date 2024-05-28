@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "9c6680d196e70b7b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "75f3b2ddf4419476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "592216d7c9021ef1",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md"
               }
             }
           }
@@ -199,7 +181,7 @@
       }
     ]
   },
-  "active": "75f3b2ddf4419476",
+  "active": "b8b56e8303894ab3",
   "lastOpenFiles": [
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
