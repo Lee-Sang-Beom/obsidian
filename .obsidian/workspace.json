@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/무제 파일.md",
+                "file": "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "babel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/무제 파일.md",
+                "file": "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/무제 파일.md",
+                "file": "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/무제 파일.md"
+                "file": "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md"
               }
             }
           }
@@ -148,8 +149,9 @@
   },
   "active": "c7f3cc58f0718a51",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "React/package.json과 package-lock.json.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
-    "React/무제 파일.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
@@ -190,7 +192,6 @@
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
     "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
     "Next.js/VWorld and OpenLayers/3. Next.js13에서 VWorld API와 OpenLayers 사용해보기 3.md",
-    "Next.js/VWorld and OpenLayers/2. Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
     "개발 테스트",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계",
