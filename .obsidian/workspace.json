@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5bf79e3bfa5be2b5",
+        "id": "e038b344c0d68315",
         "type": "tabs",
         "children": [
           {
-            "id": "2b4dc6ddfa47c5db",
+            "id": "fe6d9bc5352e60c2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240531124138.png"
+                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240531124138.png",
+                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240531124138.png",
+                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240531124138.png"
+                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md"
               }
             }
           }
@@ -144,50 +146,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "floating": {
-    "id": "7403838efdf6feba",
-    "type": "floating",
-    "children": [
-      {
-        "id": "70323cbfdc3e663a",
-        "type": "window",
-        "children": [
-          {
-            "id": "a8af5343af307a98",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fa855a9502a868e8",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 4082,
-        "y": 92,
-        "width": 656,
-        "height": 512,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "2b4dc6ddfa47c5db",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "사용 이미지/Next.js/VWorld and OpenLayers/CompanyAndPolygon.png",
+    "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
+    "사용 이미지/Next.js/VWorld and OpenLayers/CompanyAndPolygon.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑/객체상속과 슈퍼타입서브타입관계.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑/구현 클래스마다 테이블 전략.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
-    "Pasted image 20240531124138.png",
     "Pasted image 20240531124130.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
-    "단일 테이블 전략.png",
-    "조인전략.png",
-    "객체상속과 슈퍼타입서브타입관계.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑/단일 테이블 전략.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑/조인전략.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
@@ -214,7 +186,6 @@
     "React/env (환경변수).md",
     "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
     "코드 임시저장 및 테스트 코드/화학물질 정보지도 클라이언트.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 객체는 컬렉션을 사용해서 객체 2개로 다대다 관계 가능.png",
     "코드 임시저장 및 테스트 코드",
     "개발 테스트/테스트 내용.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계",
@@ -223,9 +194,6 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
     "React/react-hook-form/2. 주요 함수 및 객체.md",
     "사용 이미지/React/react-hook-form",
-    "React/react-hook-form/4. react-hook-form 사용하기.md",
-    "React/react-hook-form/watch와 getValues().md",
-    "개발 테스트",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
