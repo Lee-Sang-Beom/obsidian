@@ -20,35 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "589eef6c7b81f992",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2183925eaabd53fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e12f552c4fc348b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
