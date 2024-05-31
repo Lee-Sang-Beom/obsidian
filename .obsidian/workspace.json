@@ -172,8 +172,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 4143,
-        "y": 144,
+        "x": 4097,
+        "y": 121,
         "width": 1024,
         "height": 800,
         "maximize": false,
@@ -181,10 +181,12 @@
       }
     ]
   },
-  "active": "054ebe5e2549a2d5",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "조인전략.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
+    "객체상속과 슈퍼타입서브타입관계.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
@@ -219,7 +221,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 매핑의 한계.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계/다대다 관계 - 관계형 DB는 정규화된 테이블로 다대다 관계 구현 불가.png",
     "Pasted image 20240527111253.png",
-    "Pasted image 20240527111254.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/10. 객체지향 쿼리 언어.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
@@ -228,7 +229,6 @@
     "React/react-hook-form/4. react-hook-form 사용하기.md",
     "React/react-hook-form/watch와 getValues().md",
     "개발 테스트",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
