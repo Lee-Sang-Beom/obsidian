@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "787b3eaf92c6b4a2",
+        "id": "569caa5091b80651",
         "type": "tabs",
         "children": [
           {
-            "id": "3a97e84b75af89f6",
+            "id": "054ebe5e2549a2d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md"
               }
             }
           }
@@ -151,20 +151,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "2f7cf12d1202760c",
+        "id": "70323cbfdc3e663a",
         "type": "window",
         "children": [
           {
-            "id": "9e2a0b025c003370",
+            "id": "a8af5343af307a98",
             "type": "tabs",
             "children": [
               {
-                "id": "5fc3ca2d16d87b4f",
+                "id": "fa855a9502a868e8",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf"
+                    "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf"
                   }
                 }
               }
@@ -172,20 +172,25 @@
           }
         ],
         "direction": "vertical",
-        "x": 4296,
-        "y": 181,
+        "x": 4143,
+        "y": 144,
         "width": 1024,
         "height": 800,
-        "maximize": true,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "3a97e84b75af89f6",
+  "active": "054ebe5e2549a2d5",
   "lastOpenFiles": [
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
     "React/package.json과 package-lock.json.md",
     "backend/Spring 입문 강의/DAY 22.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
@@ -197,10 +202,7 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(엔티티 상세).png",
     "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
@@ -225,7 +227,6 @@
     "사용 이미지/React/react-hook-form",
     "React/react-hook-form/4. react-hook-form 사용하기.md",
     "React/react-hook-form/watch와 getValues().md",
-    "React/react-hook-form/참고자료.md",
     "개발 테스트",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계",
     "무제 파일.canvas",
