@@ -11,8 +11,10 @@
             "id": "5d7e277ff73087ee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(엔티티 상세).png"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(엔티티 상세).png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(엔티티 상세).png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(엔티티 상세).png"
+              }
             }
           }
         ],
@@ -140,6 +146,10 @@
   },
   "active": "5d7e277ff73087ee",
   "lastOpenFiles": [
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/부모카테고리와 자식카테고리 관계설명.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(ERD).png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(엔티티).png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(엔티티 상세).png",
     "Next.js/VWorld and OpenLayers/7. Next.js13에서 VWorld API와 OpenLayers 사용해보기 7.md",
     "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
     "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
@@ -156,7 +166,6 @@
     "Pasted image 20240531124130.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑/단일 테이블 전략.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑/조인전략.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
@@ -168,10 +177,8 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/부모카테고리와 자식카테고리 관계설명.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제",
     "backend/DataBase/JOIN.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(엔티티 상세).png",
     "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
@@ -179,7 +186,6 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/4. 엔티티 매핑 (1).md",
     "React/env (환경변수).md",
-    "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
     "코드 임시저장 및 테스트 코드",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/10. 객체지향 쿼리 언어.pdf",
