@@ -201,8 +201,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 2236,
-        "y": 86,
+        "x": 4296,
+        "y": 181,
         "width": 1024,
         "height": 800,
         "maximize": true,
@@ -213,8 +213,8 @@
   "active": "3a97e84b75af89f6",
   "lastOpenFiles": [
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
     "React/package.json과 package-lock.json.md",
     "backend/Spring 입문 강의/DAY 22.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
