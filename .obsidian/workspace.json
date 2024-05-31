@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md"
               }
             }
           }
@@ -176,15 +176,15 @@
         "y": 86,
         "width": 1024,
         "height": 800,
-        "maximize": false,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "5fc3ca2d16d87b4f",
+  "active": "3a97e84b75af89f6",
   "lastOpenFiles": [
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
     "React/package.json과 package-lock.json.md",
     "backend/Spring 입문 강의/DAY 22.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
