@@ -11,8 +11,10 @@
             "id": "2b4dc6ddfa47c5db",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20240531124138.png"
+              }
             }
           }
         ]
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
+                "file": "Pasted image 20240531124138.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
+                "file": "Pasted image 20240531124138.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md"
+                "file": "Pasted image 20240531124138.png"
               }
             }
           }
@@ -177,10 +179,10 @@
       }
     ]
   },
-  "active": "2a1f51f51c426eec",
+  "active": "2b4dc6ddfa47c5db",
   "lastOpenFiles": [
-    "Pasted image 20240531124138.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
+    "Pasted image 20240531124138.png",
     "Pasted image 20240531124130.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "단일 테이블 전략.png",
