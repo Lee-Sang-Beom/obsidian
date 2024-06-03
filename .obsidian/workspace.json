@@ -11,9 +11,11 @@
             "id": "5d7e277ff73087ee",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "backend/Spring 입문 강의/강의자료/2. 스프링 웹 개발 기초.pdf"
+                "file": "backend/Spring 입문 강의/DAY 3.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 입문 강의/강의자료/2. 스프링 웹 개발 기초.pdf",
+                "file": "backend/Spring 입문 강의/DAY 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 입문 강의/강의자료/2. 스프링 웹 개발 기초.pdf",
+                "file": "backend/Spring 입문 강의/DAY 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 입문 강의/강의자료/2. 스프링 웹 개발 기초.pdf"
+                "file": "backend/Spring 입문 강의/DAY 3.md"
               }
             }
           }
@@ -181,6 +183,13 @@
   },
   "active": "5d7e277ff73087ee",
   "lastOpenFiles": [
+    "backend/Spring 입문 강의/DAY 2.md",
+    "backend/Spring 입문 강의/DAY 3.md",
+    "backend/Spring 입문 강의/DAY 4.md",
+    "backend/Spring 입문 강의/DAY 5.md",
+    "backend/Spring 입문 강의/DAY 6.md",
+    "backend/Spring 입문 강의/강의자료/2. 스프링 웹 개발 기초.pdf",
+    "backend/Spring 입문 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
     "backend/Spring 입문 강의/강의자료/1. 프로젝트 환경 설정.pdf",
     "backend/Spring 입문 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
@@ -218,15 +227,8 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제",
     "backend/DataBase/JOIN.md",
-    "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "코드 임시저장 및 테스트 코드",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/12. 다양한 연관관계 매핑 - 다대다 관계",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/10. 객체지향 쿼리 언어.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/11. 다양한 연관관계 매핑 - 일대일 관계",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
