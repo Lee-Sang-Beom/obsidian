@@ -172,8 +172,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 2172,
-        "y": 344,
+        "x": 4268,
+        "y": 196,
         "width": 1024,
         "height": 800,
         "maximize": false,
@@ -181,11 +181,11 @@
       }
     ]
   },
-  "active": "2a1f51f51c426eec",
+  "active": "5d7e277ff73087ee",
   "lastOpenFiles": [
-    "주요 어노테이션.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
+    "주요 어노테이션.png",
     "React/react-hook-form/4. react-hook-form 사용하기.md",
     "React/react-hook-form/2. 주요 함수 및 객체.md",
     "React/react-hook-form/3. 실제 프로젝트 사용을 위한 베이스 로직 만들기.md",
@@ -205,7 +205,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑/구현 클래스마다 테이블 전략.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑",
-    "Pasted image 20240531124130.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
