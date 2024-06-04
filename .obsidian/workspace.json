@@ -151,15 +151,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "a8f32b6412dffeeb",
+        "id": "0c9819616cfefaf0",
         "type": "window",
         "children": [
           {
-            "id": "0ef0ad632725a173",
+            "id": "34a074d782c977e8",
             "type": "tabs",
             "children": [
               {
-                "id": "53d88b8305ee636a",
+                "id": "a1ccea2c9c07acf1",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
@@ -172,19 +172,20 @@
           }
         ],
         "direction": "vertical",
-        "x": 4106,
-        "y": 230,
-        "width": 819,
-        "height": 640,
-        "maximize": false,
+        "x": 3560,
+        "y": 379,
+        "width": 1024,
+        "height": 800,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
   "active": "5d7e277ff73087ee",
   "lastOpenFiles": [
-    "코드 임시저장 및 테스트 코드/네이버 맵스.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
+    "코드 임시저장 및 테스트 코드/네이버 맵스.md",
     "backend/Spring 입문 강의/DAY 3.md",
     "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
     "backend/Spring 입문 강의/DAY 2.md",
@@ -195,7 +196,6 @@
     "backend/Spring 입문 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
     "backend/Spring 입문 강의/강의자료/1. 프로젝트 환경 설정.pdf",
     "backend/Spring 입문 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
     "주요 어노테이션.png",
     "React/react-hook-form/4. react-hook-form 사용하기.md",
     "React/react-hook-form/2. 주요 함수 및 객체.md",
