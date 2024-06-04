@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/네이버 맵스.md",
+                "file": "코드 임시저장 및 테스트 코드/맵 알아보기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/네이버 맵스.md",
+                "file": "코드 임시저장 및 테스트 코드/맵 알아보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/네이버 맵스.md",
+                "file": "코드 임시저장 및 테스트 코드/맵 알아보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/네이버 맵스.md"
+                "file": "코드 임시저장 및 테스트 코드/맵 알아보기.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "5d7e277ff73087ee",
   "lastOpenFiles": [
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
-    "코드 임시저장 및 테스트 코드/네이버 맵스.md",
+    "코드 임시저장 및 테스트 코드/맵 알아보기.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "backend/Spring 입문 강의/DAY 3.md",
     "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
