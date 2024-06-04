@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 3.md",
+                "file": "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 3.md",
+                "file": "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 3.md",
+                "file": "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 입문 강의/DAY 3.md"
+                "file": "코드 임시저장 및 테스트 코드/화학물질 정보지도 서버컴포넌트.md"
               }
             }
           }
@@ -174,8 +174,8 @@
         "direction": "vertical",
         "x": 4268,
         "y": 196,
-        "width": 1024,
-        "height": 800,
+        "width": 819,
+        "height": 640,
         "maximize": false,
         "zoom": 0
       }
@@ -183,8 +183,8 @@
   },
   "active": "5d7e277ff73087ee",
   "lastOpenFiles": [
-    "backend/Spring 입문 강의/DAY 2.md",
     "backend/Spring 입문 강의/DAY 3.md",
+    "backend/Spring 입문 강의/DAY 2.md",
     "backend/Spring 입문 강의/DAY 4.md",
     "backend/Spring 입문 강의/DAY 5.md",
     "backend/Spring 입문 강의/DAY 6.md",
