@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/무제 파일.md",
+                "file": "코드 임시저장 및 테스트 코드/POST.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/무제 파일.md",
+                "file": "코드 임시저장 및 테스트 코드/POST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/무제 파일.md",
+                "file": "코드 임시저장 및 테스트 코드/POST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/무제 파일.md"
+                "file": "코드 임시저장 및 테스트 코드/POST.md"
               }
             }
           }
@@ -146,45 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "floating": {
-    "id": "7403838efdf6feba",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e239caf04753ef3b",
-        "type": "window",
-        "children": [
-          {
-            "id": "22bedacbece4153e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a2a05874908aae97",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 4312,
-        "y": 177,
-        "width": 1024,
-        "height": 800,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "5d7e277ff73087ee",
   "lastOpenFiles": [
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/15. @MappedSuperClass.md",
-    "코드 임시저장 및 테스트 코드/무제 파일.md",
+    "코드 임시저장 및 테스트 코드/POST.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
