@@ -11,9 +11,11 @@
             "id": "5d7e277ff73087ee",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "도메인 모델.png"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "도메인 모델.png",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "도메인 모델.png",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "도메인 모델.png"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md"
               }
             }
           }
@@ -144,51 +146,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "floating": {
-    "id": "b4cea1892ff636e8",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8cb1787e4a60cc68",
-        "type": "window",
-        "children": [
-          {
-            "id": "076e4dbaf93fc5c4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "89dde4aaf4018bc5",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1870,
-        "y": 218,
-        "width": 1024,
-        "height": 800,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "2a1f51f51c426eec",
+  "active": "5d7e277ff73087ee",
   "lastOpenFiles": [
-    "@MappedSuperClass.png",
-    "도메인 모델.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md",
-    "도메인 모델 상세.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/15. @MappedSuperClass.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/15. @MappedSuperClass.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/테이블 설계.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/도메인 모델.png",
     "코드 임시저장 및 테스트 코드/POST.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/15. @MappedSuperClass/@MappedSuperClass.png",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/도메인 모델 상세.png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/12. 다양한 연관관계 매핑 - 다대다 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑/주요 어노테이션.png",
@@ -217,7 +186,6 @@
     "Next.js/VWorld and OpenLayers/5. Next.js13에서 VWorld API와 OpenLayers 사용해보기 5.md",
     "Next.js/VWorld and OpenLayers/4. Next.js13에서 VWorld API와 OpenLayers 사용해보기 4.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/특정 zoom단계 circle and text feature layer.png",
-    "사용 이미지/Next.js/VWorld and OpenLayers/CompanyAndPolygon.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/14. 고급매핑 - 상속관계 매핑",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
@@ -225,7 +193,6 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제",
-    "코드 임시저장 및 테스트 코드",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
