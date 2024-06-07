@@ -28,5 +28,9 @@
 }
 ```
 
-3. 갖가지거 변경
-
+3. 갖가지 db변경
+- com_srvc : 서비스 변경
+- com_menu : 메뉴트리를 위한 베이스
+- menu_tree  : 메뉴트리 뷰
+- com_auth_menu : 권한별 메뉴 (authrt_menu_seq) : 여기서 use_yn을 yyyn으로 바꿔줘야 함
+- com_auth : 권한뭐있는지 확인
