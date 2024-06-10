@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/React Leaflet/1. React-Leaflet.md",
+                "file": "Next.js/React Leaflet/1. React-Leaflet과 GeoJson.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/React Leaflet/1. React-Leaflet.md",
+                "file": "Next.js/React Leaflet/1. React-Leaflet과 GeoJson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/React Leaflet/1. React-Leaflet.md",
+                "file": "Next.js/React Leaflet/1. React-Leaflet과 GeoJson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/React Leaflet/1. React-Leaflet.md"
+                "file": "Next.js/React Leaflet/1. React-Leaflet과 GeoJson.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "86df78a545358631",
   "lastOpenFiles": [
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md",
-    "Next.js/React Leaflet/1. React-Leaflet.md",
+    "Next.js/React Leaflet/1. React-Leaflet과 GeoJson.md",
     "Next.js/React Leaflet",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
