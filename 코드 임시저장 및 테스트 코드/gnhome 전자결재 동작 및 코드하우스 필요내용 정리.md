@@ -242,7 +242,7 @@ copy.docStateEnu = "PROGRESS";
 		- 문서분류 리스트 조회 : **ea_doctype_main** 테이블에서 **SELECT**
 		- 문서분류 추가 : **ea_doctype_main** 테이블에 **INSERT
 
-3. 기안문서작성 - 문서분류 데이터 불러오기
+3. 기안문서작성 - 문서분류 데이터 불러오기 (공용서식, 단지서식 전자결재문서 **리스트**)
 	 - 프론트 : **selEaDocfolderMain API** 
 		 - `/api/eadoc/selEaDocfolderMain?kaptCode=${kaptCode}&parentSeq`에서, 공용서식은 kaptCode = -1이며, 단지서식은 kaptCode가 유저의 kaptCode이다.
 		 
@@ -257,7 +257,7 @@ copy.docStateEnu = "PROGRESS";
 		 - 저장: **insEaDocapprovalMain API**
 		 - 업데이트: **udtEaDocapprovalMain API**
 	
-	 - 백엔드
+	 - 백엔드 (서식에 대해 상세하게 데이터를 작성하고 저장하는 게 ea_docapproval_main에 저장됨)
 		 - 저장 : `insEaDocapprovalMain()`사용: **ea_docapproval_main** 
 		 - 수정 : `udtEaDocapprovalMain()`사용: **ea_docapproval_main** 
 
@@ -266,7 +266,7 @@ copy.docStateEnu = "PROGRESS";
 		 - 저장: **insEaDocapprovalMain API**
 		 - 업데이트: **udtEaDocapprovalMain API**
 	
-	 - 백엔드
+	 - 백엔드 (서식에 대해 상세하게 데이터를 작성하고 저장하는 게 ea_docapproval_main에 저장됨)
 		 - 저장 : `insEaDocapprovalMain()`사용: **ea_docapproval_main** 
 		 - 수정 : `udtEaDocapprovalMain()`사용: **ea_docapproval_main** 
 
