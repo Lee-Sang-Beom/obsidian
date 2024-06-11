@@ -87,3 +87,10 @@ copy.docStateEnu = "PROGRESS";
 	 - `selEaDocapprovalMain` 메소드 내, `waDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);` 로 Page 인스턴스 생성
 	 - 이 때, 불러오는 테이블 대상은 `ea_docapproval_main`
 	 - 상세조회는 `selEaDocapprovalMainDetail` 메소드에서 `EaDocapprovalMainDto bySeq = eaDocapprovalMainService.findBySeq(eaDocapprovalMainSeq);` 사용
+
+
+###### 6. 전체문서
+
+- 프론트
+	- API : `/api/eadoc/selEaDocapprovalMain`
+	- param : 아래와 같다.
