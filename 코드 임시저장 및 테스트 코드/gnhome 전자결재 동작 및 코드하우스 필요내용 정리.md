@@ -248,11 +248,15 @@ copy.docStateEnu = "PROGRESS";
 		 
 	 - 백엔드 : **ea_docfolder_main** 테이블에서 **SELECT**
 
-4. 기안문서작성 - 공용/단지서식 - 서식 상세 데이터 불러오기
+4. 서식관리 - 서식 추가 및 수정
+	- 프론트 
+		- 추가 : insEaDocMain
+		- 수정 : udtEaDocMain
+1. 기안문서작성 - 공용/단지서식 - 서식 상세 데이터 불러오기
 	 - 프론트 : **selEaDocMainDetail API**
 	 - 백엔드 : **ea_doc_main** 테이블에서 **JOIN 포함 SELECT**
 
-5. 기안문서작성 -  공용/단지서식 - 서식 상세 데이터 - 임시저장
+2. 기안문서작성 -  공용/단지서식 - 서식 상세 데이터 - 임시저장
 	 - 프론트 (`docStateEnu="TEMP_SAVE"`)
 		 - 저장: **insEaDocapprovalMain API**
 		 - 업데이트: **udtEaDocapprovalMain API**
