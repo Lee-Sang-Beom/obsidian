@@ -86,7 +86,7 @@ copy.docStateEnu = "PROGRESS";
 ```
 
 - 백엔드
-	 - `selEaDocapprovalMain` 메소드 내, `waDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);` 로 Page 인스턴스 생성
+	 - `selEaDocapprovalMain` 메소드 내, `eaDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);` 로 Page 인스턴스 생성
 	 - 이 때, 불러오는 테이블 대상은 `ea_docapproval_main`
 	 - 상세조회는 `selEaDocapprovalMainDetail` 메소드에서 `EaDocapprovalMainDto bySeq = eaDocapprovalMainService.findBySeq(eaDocapprovalMainSeq);` 사용
 
@@ -237,7 +237,7 @@ copy.docStateEnu = "PROGRESS";
 	 - 백엔드 : **ea_doc_main** 테이블에서 **JOIN 포함 SELECT**
 
 4. 기안문서작성 -  공용/단지서식 - 서식 상세 데이터 - 임시저장
-	 - 프론트 (`docStateEnu`)
+	 - 프론트 (`docStateEnu="TEMP_SAVE"`)
 		 - 저장: **insEaDocapprovalMain API**
 		 - 업데이트: **udtEaDocapprovalMain API**
 	
@@ -246,10 +246,33 @@ copy.docStateEnu = "PROGRESS";
 		 - 수정 : `udtEaDocapprovalMain()`사용: **ea_docapproval_main** 
 
 5. 기안문서작성 -  공용/단지서식 - 서식 상세 데이터 - 상신
-	 - 프론트 
+	 - 프론트 (`docStateEnu="PROGRESS"`)
 		 - 저장: **insEaDocapprovalMain API**
 		 - 업데이트: **udtEaDocapprovalMain API**
 	
 	 - 백엔드
 		 - 저장 : `insEaDocapprovalMain()`사용: **ea_docapproval_main** 
 		 - 수정 : `udtEaDocapprovalMain()`사용: **ea_docapproval_main** 
+
+6. 임시저장 문서 조회
+	 - 프론트(`docStateList=TEMP_SAVE`) 
+		 - 리스트 조회 : **selEaDocapprovalMain API**
+		 - 상세 조회 : **selEaDocapprovalMainDetail API**
+	
+	 - 백엔드 : **ea_docapproval_main** 
+
+7. 전체문서 리스트 조회
+	- 프론트(`docStateList=""`) : **selEaDocapprovalMain API**
+	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
+
+8. 진행문서 리스트 조회
+	- 프론트(`docStateList="PROGRESS"`) : **selEaDocapprovalMain API**
+	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
+
+9. 전체문서 리스트 조회
+	- 프론트(`docStateList=""`) : **selEaDocapprovalMain API**
+	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
+
+10. 전체문서 리스트 조회
+	- 프론트(`docStateList=""`) : **selEaDocapprovalMain API**
+	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
