@@ -117,4 +117,8 @@ copy.docStateEnu = "PROGRESS";
 - 백엔드
 	- `selEaDocapprovalMain` 메소드 실행
 	- `Page<EaDocapprovalMainDto> eaDocapprovalMainDtos = eaDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);`을 이용한 응답값 생성
-	- 서비스 구현체에 `public Page<EaDocapprovalMainDto> selEaDocapprovalMain(EaDocapprovalSearchDto eaDocapprovalSearchDto) {...}`와 같은 내용이 있
+	- 서비스 구현체에 `public Page<EaDocapprovalMainDto> selEaDocapprovalMain(EaDocapprovalSearchDto eaDocapprovalSearchDto) {...}`와 같은 내용이 있음 (이건 jpa 동적쿼리로 구성됨)
+	- **ea_docapproval_main** 테이블 사용
+
+
+#### 7. 
