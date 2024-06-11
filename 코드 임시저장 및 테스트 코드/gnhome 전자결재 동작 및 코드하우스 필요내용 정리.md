@@ -224,6 +224,15 @@ copy.docStateEnu = "PROGRESS";
 
 #### 10. 사용 API 및 테이블 정리
 
+**요약**
+- 서식관리함 - 업무분류관리 - 리스트 조회 및 추가 테이블: ea_docwork_main
+- 서식관리함 - 문서유형관리 - 리스트 조회 및 추가 테이블 : ea_doctype_main
+- 기안문서작성 - 공용 및 단지서식 - 문서분류 리스트 불러오기 : ea_docfolder_main
+- 서식관리함 - 서식관리 - 서식 추가 및 수정 : ea_doc_main
+- 서식관리함 - 서식관리 - 서식 추가 및 수정 : ea_doc_main
+
+
+**정리**
 1. 서식관리함 - 업무분류관리
 	- 프론트 
 		- 업무분류 리스트 조회 : **selEaDocWorkMain API**
@@ -248,15 +257,20 @@ copy.docStateEnu = "PROGRESS";
 		 
 	 - 백엔드 : **ea_docfolder_main** 테이블에서 **SELECT**
 
-4. 서식관리 - 서식 추가 및 수정
+4. 서식관리 - 서식관리 - 서식 추가 및 수정
 	- 프론트 
-		- 추가 : insEaDocMain
-		- 수정 : udtEaDocMain
-1. 기안문서작성 - 공용/단지서식 - 서식 상세 데이터 불러오기
+		- 추가 : **insEaDocMain API**
+		- 수정 : **udtEaDocMain API**
+	
+	-  백엔드
+		- 추가 : **ea_doc_main** 테이블에 **INSERT** (`insEaDocMain`)
+		- 수정 : **ea_doc_main** 테이블에 **UPDATE** (`udtEaDocMain`)
+ 
+5. 기안문서작성 - 공용/단지서식 - 서식 상세 데이터 불러오기
 	 - 프론트 : **selEaDocMainDetail API**
 	 - 백엔드 : **ea_doc_main** 테이블에서 **JOIN 포함 SELECT**
 
-2. 기안문서작성 -  공용/단지서식 - 서식 상세 데이터 - 임시저장
+6. 기안문서작성 -  공용/단지서식 - 서식 상세 데이터 - 임시저장
 	 - 프론트 (`docStateEnu="TEMP_SAVE"`)
 		 - 저장: **insEaDocapprovalMain API**
 		 - 업데이트: **udtEaDocapprovalMain API**
@@ -265,7 +279,7 @@ copy.docStateEnu = "PROGRESS";
 		 - 저장 : `insEaDocapprovalMain()`사용: **ea_docapproval_main** 
 		 - 수정 : `udtEaDocapprovalMain()`사용: **ea_docapproval_main** 
 
-6. 기안문서작성 -  공용/단지서식 - 서식 상세 데이터 - 상신
+7. 기안문서작성 -  공용/단지서식 - 서식 상세 데이터 - 상신
 	 - 프론트 (`docStateEnu="PROGRESS"`)
 		 - 저장: **insEaDocapprovalMain API**
 		 - 업데이트: **udtEaDocapprovalMain API**
@@ -274,25 +288,25 @@ copy.docStateEnu = "PROGRESS";
 		 - 저장 : `insEaDocapprovalMain()`사용: **ea_docapproval_main** 
 		 - 수정 : `udtEaDocapprovalMain()`사용: **ea_docapproval_main** 
 
-7. 임시저장 문서 조회
+8. 임시저장 문서 조회
 	 - 프론트(`docStateList=TEMP_SAVE`) 
 		 - 리스트 조회 : **selEaDocapprovalMain API**
 		 - 상세 조회 : **selEaDocapprovalMainDetail API**
 	
 	 - 백엔드 : **ea_docapproval_main** 
 
-8. 전체문서 리스트 조회
+9. 전체문서 리스트 조회
 	- 프론트(`docStateList=""`) : **selEaDocapprovalMain API**
 	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
 
-9. 진행문서 리스트 조회
+10. 진행문서 리스트 조회
 	- 프론트(`docStateList="PROGRESS"`) : **selEaDocapprovalMain API**
 	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
 
-10. 완료문서 리스트 조회
+11. 완료문서 리스트 조회
 	- 프론트(`docStateList="FINISH"`) : **selEaDocapprovalMain API**
 	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
 
-11. 미처리문서 리스트 조회
+12. 미처리문서 리스트 조회
 	- 프론트(`docStateList="RETURN, WITHDRAW, CANCEL")` : **selEaDocapprovalMain API**
 	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
