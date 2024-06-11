@@ -15,11 +15,13 @@
  - 프론트 : insEaDocWorkMain API 사용 
  - 백엔드 : **ea_docwork_main**에 JPA 사용하여 insert
 
+
 ###### 2. 기안문서작성 - 문서분류 데이터 불러오기
  - 프론트 : selEaDocfolderMain API 사용 
  - 백엔드 : findByKaptCodeOrderByLvAsc 메소드를 이용하여, **ea_docfolder_main**에서 select
 
-###### 3. 선택서식 불러오기
+
+###### 3. 기안문서작성 - 문서분류 데이터 - 서식 상세 데이터 불러오기
  - 프론트 : `selectedDoc.eaDocMainSeq`를 이용해 selEaDocMainDetail API 호출
  - 백엔드 : EaDocMainRepository.findBySeq로 아래 SELECT문 수행
 ```sql
@@ -231,3 +233,5 @@ copy.docStateEnu = "PROGRESS";
 	 - 백엔드 : **ea_docfolder_main** 테이블에서 **SELECT**
 
 3. 기안문서작성 - 문서분류 데이터 - 서식 상세 데이터 불러오기
+	 - 프론트 : **selEaDocMainDetail API**
+	 - 백엔드 : **ea_doc_main** 테이블에서 **JOIN 포함 SELECT**
