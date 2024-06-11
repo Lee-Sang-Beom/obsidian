@@ -18,5 +18,14 @@
  - 프론트 : selEaDocfolderMain API 사용 
  - 백엔드 : findByKaptCodeOrderByLvAsc 메소드를 이용하여, ea_docfolder_main에서 select
 
-###### 3. 선택서식 작성
- - 프론트 : `selectedDoc.eaDocMainSeq`를 이용
+###### 3. 선택서식 불러오기
+ - 프론트 : `selectedDoc.eaDocMainSeq`를 이용해 selEaDocMainDetail API 호출
+ - 백엔드 : EaDocMainRepository.findBySeq로 아래 SELECT문 수행
+```sql
+@Query("select em from EaDocMain em " +  
+        "join fetch em.aptMain ap " +  
+        "left join fetch em.eaDocfolderMain ef " +  
+        "left join fetch em.eaDoctypeMain et " +  
+        "where em.seq = :seq ")
+Optional<EaDocMain> findBySeq(@Param("seq") Long seq);
+```
