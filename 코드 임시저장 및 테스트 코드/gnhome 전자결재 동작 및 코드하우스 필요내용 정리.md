@@ -121,4 +121,102 @@ copy.docStateEnu = "PROGRESS";
 	- **ea_docapproval_main** 테이블 사용
 
 
-#### 7. 
+###### 7. 진행문서 (전체문서와 동일)
+
+- 프론트
+	- API : `/api/eadoc/selEaDocapprovalMain`
+	- param : 아래와 같다. (`docStateList`가 "PROGRESS")
+```tsx
+1. approvalStateList: null
+2. approvalUserSeq: "94"
+3. docStateList: "PROGRESS"
+4. docTitle: ""
+5. eaDoctypeMainSeq: null
+6. eaDocworkMainSeq: null
+7. endDate: "2024-06-11 23:59:59"
+8. kaptCode: "A10026725"
+9. keyword: ""
+10. orderBy: "DESC"
+11. page: 0
+12. searchDateColumn: "submitDt"
+13. size: 10
+14. sort: "submitDt"
+15. startDate: "2024-03-11 00:00:00"
+16. writerList: ""
+17. writerSeq: "94"
+```
+
+- 백엔드
+	- `selEaDocapprovalMain` 메소드 실행
+	- `Page<EaDocapprovalMainDto> eaDocapprovalMainDtos = eaDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);`을 이용한 응답값 생성
+	- 서비스 구현체에 `public Page<EaDocapprovalMainDto> selEaDocapprovalMain(EaDocapprovalSearchDto eaDocapprovalSearchDto) {...}`와 같은 내용이 있음 (이건 jpa 동적쿼리로 구성됨)
+	- **ea_docapproval_main** 테이블 사용
+
+
+###### 7. 완료문서 (전체문서, 진행문서와 동일)
+
+- 프론트
+	- API : `/api/eadoc/selEaDocapprovalMain`
+	- param : 아래와 같다. (`docStateList`가 "FINISH")
+```tsx
+1. approvalStateList: ""
+2. approvalUserSeq: "94"
+3. docStateList: "FINISH"
+4. docTitle: ""
+5. eaDoctypeMainSeq: null
+6. eaDocworkMainSeq: null
+7. endDate: "2024-06-11 23:59:59"
+8. kaptCode: "A10026725"
+9. keyword: ""
+10. orderBy: "DESC"
+11. page: 0
+12. referenceUserSeq: null
+13. searchDateColumn: "finishDt"
+14. size: 10
+15. sort: "finishDt"
+16. startDate: "2024-03-11 00:00:00"
+17. writerList: ""
+18. writerSeq: "94"
+```
+
+- 백엔드
+	- `selEaDocapprovalMain` 메소드 실행
+	- `Page<EaDocapprovalMainDto> eaDocapprovalMainDtos = eaDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);`을 이용한 응답값 생성
+	- 서비스 구현체에 `public Page<EaDocapprovalMainDto> selEaDocapprovalMain(EaDocapprovalSearchDto eaDocapprovalSearchDto) {...}`와 같은 내용이 있음 (이건 jpa 동적쿼리로 구성됨)
+	- **ea_docapproval_main** 테이블 사용
+
+
+###### 8. 미처리문서 (전체문서, 진행문서, 완료문와 동일)
+
+- 프론트
+	- API : `/api/eadoc/selEaDocapprovalMain`
+	- param : 아래와 같다. (`docStateList`가 "RETURN, WITHDRAW, CANCEL") 
+		- 임시저장은 상신되지 않았으므로, 없다.
+```tsx
+1. approvalStateList: ""
+2. approvalUserSeq: null
+3. docStateList: "RETURN, WITHDRAW, CANCEL"
+4. docTitle: ""
+5. eaDoctypeMainSeq: null
+6. eaDocworkMainSeq: null
+7. endDate: "2024-06-11 23:59:59"
+8. kaptCode: "A10026725"
+9. keyword: ""
+10. orderBy: "DESC"
+11. page: 0
+12. referenceUserSeq: null
+13. searchDateColumn: "submitDt"
+14. size: 10
+15. sort: "submitDt"
+16. startDate: "2024-03-11 00:00:00"
+17. writerList: ""
+18. writerSeq: "94"
+```
+
+- 백엔드
+	- `selEaDocapprovalMain` 메소드 실행
+	- `Page<EaDocapprovalMainDto> eaDocapprovalMainDtos = eaDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);`을 이용한 응답값 생성
+	- 서비스 구현체에 `public Page<EaDocapprovalMainDto> selEaDocapprovalMain(EaDocapprovalSearchDto eaDocapprovalSearchDto) {...}`와 같은 내용이 있음 (이건 jpa 동적쿼리로 구성됨)
+	- **ea_docapproval_main** 테이블 사용
+
+
