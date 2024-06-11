@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a259552565e34ed5",
+        "id": "60cec45a85dd7731",
         "type": "tabs",
         "children": [
           {
-            "id": "69275662fa55a110",
+            "id": "e64e31bfd1e71288",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
+                "file": "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 649.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
+                "file": "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
+                "file": "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md"
+                "file": "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md"
               }
             }
           }
@@ -146,10 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "69275662fa55a110",
+  "active": "e64e31bfd1e71288",
   "lastOpenFiles": [
-    "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
+    "코드 임시저장 및 테스트 코드/POST.md",
+    "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
+    "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON/Geometries 형태 1.png",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON/Geometries 형태 2.png",
@@ -162,7 +164,6 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/15. @MappedSuperClass.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/테이블 설계.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/도메인 모델.png",
-    "코드 임시저장 및 테스트 코드/POST.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/15. @MappedSuperClass/@MappedSuperClass.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/도메인 모델 상세.png",
@@ -193,7 +194,6 @@
     "Next.js/VWorld and OpenLayers/5. Next.js13에서 VWorld API와 OpenLayers 사용해보기 5.md",
     "Next.js/VWorld and OpenLayers/4. Next.js13에서 VWorld API와 OpenLayers 사용해보기 4.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
