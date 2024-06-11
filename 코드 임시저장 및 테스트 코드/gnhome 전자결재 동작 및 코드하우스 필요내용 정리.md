@@ -225,12 +225,17 @@ copy.docStateEnu = "PROGRESS";
 #### 10. 사용 API 및 테이블 정리
 
 **요약**
-- 서식관리함 - 업무분류관리 - 리스트 조회 및 추가 테이블: ea_docwork_main
-- 서식관리함 - 문서유형관리 - 리스트 조회 및 추가 테이블 : ea_doctype_main
-- 기안문서작성 - 공용 및 단지서식 - 문서분류 리스트 불러오기 : ea_docfolder_main
-- 서식관리함 - 서식관리 - 서식 추가 및 수정 : ea_doc_main
-- 서식관리함 - 서식관리 - 서식 추가 및 수정 : ea_doc_main
-
+- 서식관리함 - 업무분류관리 - 리스트 조회 및 추가를 위한 대상 테이블: ea_docwork_main
+- 서식관리함 - 문서유형관리 - 리스트 조회 및 추가를 위한 대상 테이블 : ea_doctype_main
+- 기안문서작성 - 공용 및 단지서식 - 문서분류 리스트 불러오기를 위한 테이블 : ea_docfolder_main
+- 서식관리함 - 서식관리 - 서식 추가 및 수정을 위한 대상 테이블 : ea_doc_main
+- 서식관리함 - 서식관리 - 보유한 서식 별 입력된 상세 데이터를 불러오기 위 테이블 : ea_doc_main
+- 기안문서작성 -  공용/단지서식 -  보유한 서식 별 입력된 상세 데이터 조회 화면 - 임시저장 및 상신을 위한 대상 테이블 :  ea_docapproval_main
+- 기안문서작성 -  임시저장 문서 불러오기를 위한 테이블 : ea_docapproval_main
+- 전자문서 관리함 - 전체문서 리스트 조회 테이블 :  ea_docapproval_main
+- 전자문서 관리함 - 진행문서 리스트 조회 테이블 :  ea_docapproval_main
+- 전자문서 관리함 - 완료문서 리스트 조회 테이블 :  ea_docapproval_main
+- 전자문서 관리함 - 미처리문서 리스트 조회 테이블 :  ea_docapproval_main
 
 **정리**
 1. 서식관리함 - 업무분류관리
@@ -288,25 +293,25 @@ copy.docStateEnu = "PROGRESS";
 		 - 저장 : `insEaDocapprovalMain()`사용: **ea_docapproval_main** 
 		 - 수정 : `udtEaDocapprovalMain()`사용: **ea_docapproval_main** 
 
-8. 임시저장 문서 조회
+8. 기안문서작성 - 임시저장 문서 조회
 	 - 프론트(`docStateList=TEMP_SAVE`) 
 		 - 리스트 조회 : **selEaDocapprovalMain API**
 		 - 상세 조회 : **selEaDocapprovalMainDetail API**
 	
 	 - 백엔드 : **ea_docapproval_main** 
 
-9. 전체문서 리스트 조회
+9. 전자문서 관리함 - 전체문서 리스트 조회
 	- 프론트(`docStateList=""`) : **selEaDocapprovalMain API**
 	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
 
-10. 진행문서 리스트 조회
+10. 전자문서 관리함 - 진행문서 리스트 조회
 	- 프론트(`docStateList="PROGRESS"`) : **selEaDocapprovalMain API**
 	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
 
-11. 완료문서 리스트 조회
+11. 전자문서 관리함 - 완료문서 리스트 조회
 	- 프론트(`docStateList="FINISH"`) : **selEaDocapprovalMain API**
 	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
 
-12. 미처리문서 리스트 조회
+12. 전자문서 관리함 - 미처리문서 리스트 조회
 	- 프론트(`docStateList="RETURN, WITHDRAW, CANCEL")` : **selEaDocapprovalMain API**
 	- 백엔드 : `selEaDocapprovalMain()` 사용 : **ea_docapproval_main**
