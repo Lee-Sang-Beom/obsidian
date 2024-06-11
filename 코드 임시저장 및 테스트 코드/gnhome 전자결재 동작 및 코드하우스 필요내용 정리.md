@@ -254,19 +254,13 @@ copy.docStateEnu = "PROGRESS";
 2. 서식관리함 - 문서유형관리
 	- 프론트 
 		- 문서유형 리스트 조회 : **selEaDoctypeMain API**
-		- 문서분류 추가 : **insEaDoctypeMain API**
+		- 문서유형 추가 : **insEaDoctypeMain API**
 		  
 	- 백엔드 
-		- 문서분류 리스트 조회 : **ea_doctype_main** 테이블에서 **SELECT**
-		- 문서분류 추가 : **ea_doctype_main** 테이블에 **INSERT
+		- 문서유형 리스트 조회 : **ea_doctype_main** 테이블에서 **SELECT**
+		- 문서유형 추가 : **ea_doctype_main** 테이블에 **INSERT
 
-3. 기안문서작성 - 문서분류 데이터 불러오기 (공용서식, 단지서식 전자결재문서 **리스트**)
-	 - 프론트 : **selEaDocfolderMain API** 
-		 - `/api/eadoc/selEaDocfolderMain?kaptCode=${kaptCode}&parentSeq`에서, 공용서식은 kaptCode = -1이며, 단지서식은 kaptCode가 유저의 kaptCode이다.
-		 
-	 - 백엔드 : **ea_docfolder_main** 테이블에서 **SELECT**
-
-4. 서식관리 - 서식관리 - 서식 추가 및 수정
+5. 서식관리함 - 서식관리 - 서식 추가 및 수정
 	- 프론트 
 		- 추가 : **insEaDocMain API**
 		- 수정 : **udtEaDocMain API**
@@ -274,6 +268,20 @@ copy.docStateEnu = "PROGRESS";
 	-  백엔드
 		- 추가 : **ea_doc_main** 테이블에 **INSERT** (`insEaDocMain`)
 		- 수정 : **ea_doc_main** 테이블에 **UPDATE** (`udtEaDocMain`)
+
+1. 기안문서작성 - 공용서식 or 단지서식 - 문서분류 데이터 불러오기 (공용서식, 단지서식 전자결재문서 `oo관리` **리스트**)
+	 - 프론트 : **selEaDocfolderMain API** 
+		 - `/api/eadoc/selEaDocfolderMain?kaptCode=${kaptCode}&parentSeq`에서, 공용서식은 kaptCode = -1이며, 단지서식은 kaptCode가 유저의 kaptCode이다.
+		 
+	 - 백엔드 : **ea_docfolder_main** 테이블에서 **SELECT**
+
+
+4. 기안문서작성 - 공용서식 or 단지서식 - 특정 oo관리 및 기타 폴더 내에 어떤 데이터가 있는 지 불러오기
+	 - 프론트 : **selEaDocMain API** 
+		 - `/api/eadoc/selEaDocMain?eaDocfolderMainSeq={}`
+		 
+	 - 백엔드 : **ea_doc_main** 테이블에서 **SELECT**
+
  
 5. 기안문서작성 - 공용/단지서식 - 서식 상세 데이터 불러오기
 	 - 프론트 : **selEaDocMainDetail API**
