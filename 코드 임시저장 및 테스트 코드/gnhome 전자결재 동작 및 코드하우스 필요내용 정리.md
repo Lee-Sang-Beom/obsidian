@@ -226,11 +226,11 @@ copy.docStateEnu = "PROGRESS";
 
 1. 서식관리함 - 업무분류관리
 	- 프론트 
-		- 업무분류 리스트 조회 : 
+		- 업무분류 리스트 조회 : **selEaDocWorkMain API**
 		- 업무분류 추가 : **insEaDocWorkMain API**
 		  
 	- 백엔드 
-		- 업무분류 리스트 조회 : 
+		- 업무분류 리스트 조회 : **ea_docwork_main** 테이블에서 **SELECT**
 		- 업무분류 추가 : **ea_docwork_main** 테이블에 **INSERT**
 
 2. 서식관리함 - 문서유형관리
@@ -239,8 +239,8 @@ copy.docStateEnu = "PROGRESS";
 		- 문서분류 추가 : **insEaDoctypeMain API**
 		  
 	- 백엔드 
-		- 문서분류 리스트 조회 : **ea_doctype_main**
-		- 문서분류 추가 : 
+		- 문서분류 리스트 조회 : **ea_doctype_main** 테이블에서 **SELECT**
+		- 문서분류 추가 : **ea_doctype_main** 테이블에 **INSERT
 
 3. 기안문서작성 - 문서분류 데이터 불러오기
 	 - 프론트 : **selEaDocfolderMain API**
