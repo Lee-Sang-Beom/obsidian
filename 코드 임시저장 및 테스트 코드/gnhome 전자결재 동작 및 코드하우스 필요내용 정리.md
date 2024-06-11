@@ -243,7 +243,9 @@ copy.docStateEnu = "PROGRESS";
 		- 문서분류 추가 : **ea_doctype_main** 테이블에 **INSERT
 
 3. 기안문서작성 - 문서분류 데이터 불러오기
-	 - 프론트 : **selEaDocfolderMain API**
+	 - 프론트 : **selEaDocfolderMain API** 
+		 - `/api/eadoc/selEaDocfolderMain?kaptCode=${kaptCode}&parentSeq`에서, 공용서식은 kaptCode = -1이며, 단지서식은 kaptCode가 유저의 kaptCode이다.
+		 
 	 - 백엔드 : **ea_docfolder_main** 테이블에서 **SELECT**
 
 4. 기안문서작성 - 공용/단지서식 - 서식 상세 데이터 불러오기
