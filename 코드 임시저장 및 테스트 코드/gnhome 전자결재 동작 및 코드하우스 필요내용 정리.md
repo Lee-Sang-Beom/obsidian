@@ -14,6 +14,7 @@
 ###### 1. 업무분류관리 추가
  - 프론트 : insEaDocWorkMain API 사용 
  - 백엔드 : ea_docwork_main에 JPA 사용하여 insert
+
 ###### 2. 서식 문서분류 불러오기
  - 프론트 : selEaDocfolderMain API 사용 
  - 백엔드 : findByKaptCodeOrderByLvAsc 메소드를 이용하여, ea_docfolder_main에서 select
@@ -29,24 +30,29 @@
         "where em.seq = :seq ")
 Optional<EaDocMain> findBySeq(@Param("seq") Long seq);
 ```
+
+
 ###### 4. 공용서식/단지서식 임시저장 및 상신
 
 ※ **임시저장**
-- **프론트** : docStateEnu를 아래와 같이 지정하고 API 요청
+- 프론트 : docStateEnu를 아래와 같이 지정하고 API 요청
 	- 저장 : insEaDocapprovalMain (결재문서 생성)
 	- 업데이트 : udtEaDocapprovalMain (결재문서 수정)
 ```tsx
 copy.docStateEnu = "TEMP_SAVE"
 ```
+- 백엔드 (ea_docapproval_main TABLE에 저장)
+	- 저장 : 트랜잭션을 밖에 걸어두고 `public void insEaDocapprovalMain` 메소드 실행 
+	- 수정 : 트랜잭션을 밖에 걸어두고 `public void udtEaDocapprovalMain` 메소드 실행
 
-- 백엔드
 
-
-※ 상신
-- **프론트** : docStateEnu를 아래와 같이 지정하고 API 요청
+※ **상신**
+- 프론트 : docStateEnu를 아래와 같이 지정하고 API 요청
 	- 저장 : insEaDocapprovalMain
 	- 업데이트 : udtEaDocapprovalMain
 ```tsx
 copy.docStateEnu = "PROGRESS";
 ```
-- 백엔드
+- 백엔드 (ea_docapproval_main TABLE에 저장)
+	- 저장 : 트랜잭션을 밖에 걸어두고 `public void insEaDocapprovalMain` 메소드 실행 
+	- 수정 : 트랜잭션을 밖에 걸어두고 `public void udtEaDocapprovalMain` 메소드 실행
