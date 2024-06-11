@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "39469365e460c5c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5891c44d39606f33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +164,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e64e31bfd1e71288",
+  "active": "5891c44d39606f33",
   "lastOpenFiles": [
     "코드 임시저장 및 테스트 코드/POST.md",
     "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",

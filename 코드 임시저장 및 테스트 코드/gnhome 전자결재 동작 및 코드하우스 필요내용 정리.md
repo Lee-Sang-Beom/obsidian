@@ -11,13 +11,13 @@
 
 #### 2. GN-home 동작
 
-###### 1. 업무분류관리 추가
+###### 1. 서식관리함 - 업무분류 관리 - 업무분류관리 추가
  - 프론트 : insEaDocWorkMain API 사용 
- - 백엔드 : ea_docwork_main에 JPA 사용하여 insert
+ - 백엔드 : **ea_docwork_main**에 JPA 사용하여 insert
 
-###### 2. 서식 문서분류 불러오기
+###### 2. 기안문서작성 - 문서분류 데이터 불러오기
  - 프론트 : selEaDocfolderMain API 사용 
- - 백엔드 : findByKaptCodeOrderByLvAsc 메소드를 이용하여, ea_docfolder_main에서 select
+ - 백엔드 : findByKaptCodeOrderByLvAsc 메소드를 이용하여, **ea_docfolder_main**에서 select
 
 ###### 3. 선택서식 불러오기
  - 프론트 : `selectedDoc.eaDocMainSeq`를 이용해 selEaDocMainDetail API 호출
@@ -153,7 +153,7 @@ copy.docStateEnu = "PROGRESS";
 	- **ea_docapproval_main** 테이블 사용
 
 
-###### 7. 완료문서 (전체문서, 진행문서와 동일)
+###### 8. 완료문서 (전체문서, 진행문서와 동일)
 
 - 프론트
 	- API : `/api/eadoc/selEaDocapprovalMain`
@@ -186,7 +186,7 @@ copy.docStateEnu = "PROGRESS";
 	- **ea_docapproval_main** 테이블 사용
 
 
-###### 8. 미처리문서 (전체문서, 진행문서, 완료문와 동일)
+###### 9. 미처리문서 (전체문서, 진행문서, 완료문와 동일)
 
 - 프론트
 	- API : `/api/eadoc/selEaDocapprovalMain`
@@ -220,3 +220,14 @@ copy.docStateEnu = "PROGRESS";
 	- **ea_docapproval_main** 테이블 사용
 
 
+#### 10. 사용 API 및 테이블 정리
+
+1. 서식관리함 - 업무분류 관리 - 업무분류 추가
+	- 프론트 : **insEaDocWorkMain API**
+	- 백엔드 : **ea_docwork_main** 테이블에 **INSERT**
+
+2. 기안문서작성 - 문서분류 데이터 불러오기
+	 - 프론트 : **selEaDocfolderMain API**
+	 - 백엔드 : **ea_docfolder_main** 테이블에서 **SELECT**
+
+3. 기안문서작성 - 문서분류 데이터 - 서식 상세 데이터 불러오기
