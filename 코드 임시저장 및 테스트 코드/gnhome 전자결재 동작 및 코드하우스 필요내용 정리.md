@@ -93,4 +93,28 @@ copy.docStateEnu = "PROGRESS";
 
 - 프론트
 	- API : `/api/eadoc/selEaDocapprovalMain`
-	- param : 아래와 같다.
+	- param : 아래와 같다. (`docStateList`가 빈 문자)
+```tsx
+1. approvalStateList: null
+2. approvalUserSeq: null
+3. docStateList: ""
+4. docTitle: ""
+5. eaDoctypeMainSeq: null
+6. eaDocworkMainSeq: null
+7. endDate: "2024-06-11 23:59:59"
+8. kaptCode: "A10026725"
+9. keyword: ""
+10. orderBy: "DESC"
+11. page: 0
+12. searchDateColumn: "submitDt"
+13. size: 10
+14. sort: "submitDt"
+15. startDate: "2024-03-11 00:00:00"
+16. writerList: ""
+17. writerSeq: null
+```
+
+- 백엔드
+	- `selEaDocapprovalMain` 메소드 실행
+	- `Page<EaDocapprovalMainDto> eaDocapprovalMainDtos = eaDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);`을 이용한 응답값 생성
+	- 서비스 구현체에 `public Page<EaDocapprovalMainDto> selEaDocapprovalMain(EaDocapprovalSearchDto eaDocapprovalSearchDto) {...}`와 같은 내용이 있
