@@ -11,5 +11,12 @@
 
 #### 2. GN-home 동작
 
-1. 업무분류관리 추가 : insEaDocWorkMain API 사용 -> ea_docwork_main에 JPA 사용하여 insert
-2. 
+###### 1. 업무분류관리 추가
+ - 프론트 : insEaDocWorkMain API 사용 
+ - 백엔드 : ea_docwork_main에 JPA 사용하여 insert
+###### 2. 서식 문서분류 불러오기
+ - 프론트 : selEaDocfolderMain API 사용 
+ - 백엔드 : findByKaptCodeOrderByLvAsc 메소드를 이용하여, ea_docfolder_main에서 select
+
+###### 3. 선택서식 작성
+ - 프론트 : `selectedDoc.eaDocMainSeq`를 이용
