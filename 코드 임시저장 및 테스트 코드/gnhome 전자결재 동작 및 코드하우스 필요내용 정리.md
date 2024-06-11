@@ -29,3 +29,24 @@
         "where em.seq = :seq ")
 Optional<EaDocMain> findBySeq(@Param("seq") Long seq);
 ```
+###### 4. 공용서식/단지서식 임시저장 및 상신
+
+※ **임시저장**
+- **프론트** : docStateEnu를 아래와 같이 지정하고 API 요청
+	- 저장 : insEaDocapprovalMain (결재문서 생성)
+	- 업데이트 : udtEaDocapprovalMain (결재문서 수정)
+```tsx
+copy.docStateEnu = "TEMP_SAVE"
+```
+
+- 백엔드
+
+
+※ 상신
+- **프론트** : docStateEnu를 아래와 같이 지정하고 API 요청
+	- 저장 : insEaDocapprovalMain
+	- 업데이트 : udtEaDocapprovalMain
+```tsx
+copy.docStateEnu = "PROGRESS";
+```
+- 백엔드
