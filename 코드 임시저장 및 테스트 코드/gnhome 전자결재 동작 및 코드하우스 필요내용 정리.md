@@ -277,14 +277,12 @@ copy.docStateEnu = "PROGRESS";
 		 
 	 - 백엔드 : **ea_docfolder_main** 테이블에서 **SELECT**
 
-
 5. 기안문서작성 - 공용서식 or 단지서식 - 특정 oo관리 및 기타 폴더 내에 어떤 데이터가 있는 지 불러오기
 	 - 프론트 : **selEaDocMain API** 
 		 - `/api/eadoc/selEaDocMain?eaDocfolderMainSeq={}`
 		 
 	 - 백엔드 : **ea_doc_main** 테이블에서 **SELECT**
 
- 
 6. 기안문서작성 - 공용/단지서식 - 서식 상세 데이터 불러오기
 	 - 프론트 : **selEaDocMainDetail API**
 	 - 백엔드 : **ea_doc_main** 테이블에서 **JOIN 포함 SELECT**
