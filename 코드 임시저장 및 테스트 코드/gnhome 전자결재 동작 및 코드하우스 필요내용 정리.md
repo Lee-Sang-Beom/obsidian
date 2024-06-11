@@ -63,6 +63,7 @@ copy.docStateEnu = "PROGRESS";
 ###### 5. 임시저장 문서 조회
 
 - 프론트 : `docStateList`를 `TEMP_SAVE`로 지정한 다음 `/api/eadoc/selEaDocapprovalMain` API 요청 (아래는 적용 params)
+	- 상세조회는 `/api/eadoc/selEaDocapprovalMainDetail/${docSeq}` 사용
 ```tsx
 1. approvalUserSeq: null
 2. docStateList: "TEMP_SAVE"
@@ -85,3 +86,4 @@ copy.docStateEnu = "PROGRESS";
 - 백엔드
 	 - `selEaDocapprovalMain` 메소드 내, `waDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);` 로 Page 인스턴스 생성
 	 - 이 때, 불러오는 테이블 대상은 `ea_docapproval_main`
+	 - 상세조회는 `selEaDocapprovalMainDetail` 메소드에서 `EaDocapprovalMainDto bySeq = eaDocapprovalMainService.findBySeq(eaDocapprovalMainSeq);` 사용
