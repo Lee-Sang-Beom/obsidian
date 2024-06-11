@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
+                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 9.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
+                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
+                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md"
+                "file": "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 9.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "e64e31bfd1e71288",
   "lastOpenFiles": [
-    "Next.js/VWorld and OpenLayers/7. Next.js13에서 VWorld API와 OpenLayers 사용해보기 7.md",
     "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
+    "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 9.md",
+    "Next.js/VWorld and OpenLayers/7. Next.js13에서 VWorld API와 OpenLayers 사용해보기 7.md",
     "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "코드 임시저장 및 테스트 코드/POST.md",
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
@@ -193,7 +194,6 @@
     "Next.js/VWorld and OpenLayers/6. Next.js13에서 VWorld API와 OpenLayers 사용해보기 6.md",
     "Next.js/VWorld and OpenLayers/5. Next.js13에서 VWorld API와 OpenLayers 사용해보기 5.md",
     "Next.js/VWorld and OpenLayers/4. Next.js13에서 VWorld API와 OpenLayers 사용해보기 4.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
