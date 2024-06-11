@@ -83,4 +83,5 @@ copy.docStateEnu = "PROGRESS";
 ```
 
 - 백엔드
-	 - ``
+	 - `selEaDocapprovalMain` 메소드 내, `waDocapprovalMainService.selEaDocapprovalMain(eaDocapprovalSearchDto);` 로 Page 인스턴스 생성
+	 - 이 때, 불러오는 테이블 대상은 `ea_docapproval_main`
