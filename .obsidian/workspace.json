@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작.md"
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "e64e31bfd1e71288",
   "lastOpenFiles": [
-    "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
+    "Next.js/더 알아보기/package.json과 package-lock.json.md",
+    "Next.js/더 알아보기/rewrite, redirect.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작.md",
+    "코드 임시저장 및 테스트 코드/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "React/package.json과 package-lock.json.md",
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
     "Next.js/VWorld and OpenLayers/9. Next.js13에서 VWorld API와 OpenLayers 사용해보기 9.md",
@@ -165,7 +168,6 @@
     "사용 이미지/Next.js/React Leaflet",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md",
     "Next.js/React Leaflet",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/13. 다양한 연관관계 매핑 - 예제.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/15. @MappedSuperClass.md",
@@ -190,8 +192,6 @@
     "backend/Spring 입문 강의/강의자료/1. 프로젝트 환경 설정.pdf",
     "backend/Spring 입문 강의/강의자료/0. 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 v2023-11-27.pdf",
     "React/react-hook-form/4. react-hook-form 사용하기.md",
-    "React/react-hook-form/2. 주요 함수 및 객체.md",
-    "React/react-hook-form/3. 실제 프로젝트 사용을 위한 베이스 로직 만들기.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/배송과 카테고리 추가(엔티티 상세).png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/13. 다양한 연관관계 매핑 - 예제/부모카테고리와 자식카테고리 관계설명.png",
     "무제 파일.canvas",
