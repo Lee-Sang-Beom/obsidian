@@ -11,11 +11,9 @@
             "id": "4a5bc2dbbe3c6854",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
-                "mode": "source",
-                "source": false
+                "file": "window is not undefined.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
+                "file": "window is not undefined.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
+                "file": "window is not undefined.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/React Leaflet/2. 사용 환경 세팅하기.md"
+                "file": "window is not undefined.png"
               }
             }
           }
@@ -146,12 +144,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4a5bc2dbbe3c6854",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "지도 나온거.png",
-    "지도 안나온거.png",
+    "사용 이미지/Next.js/React Leaflet/2. 임포트",
     "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
-    "Pasted image 20240614131246.png",
+    "tilelayer network.png",
+    "지도 안나온거.png",
+    "window is not undefined.png",
+    "지도 나온거.png",
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "package.json.png",
@@ -186,8 +186,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/테이블 설계.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/도메인 모델.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/15. @MappedSuperClass/@MappedSuperClass.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/도메인 모델 상세.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/15. @MappedSuperClass",
     "backend/Spring 입문 강의/강의자료/2. 스프링 웹 개발 기초.pdf",
