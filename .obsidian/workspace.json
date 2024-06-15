@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a951b32cfee44399",
+        "id": "74b334fccfa07354",
         "type": "tabs",
         "children": [
           {
-            "id": "879cd4934db3a0d0",
+            "id": "c59cee679c3dac21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/Spring 강의/DAY 15.md",
-                "mode": "source",
-                "source": false
-              }
-            }
                 "file": "React/react-hook-form/2. 주요 함수.md",
                 "mode": "source",
                 "source": false
@@ -74,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 227.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -90,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/Spring 강의/DAY 15.md",
                 "file": "React/react-hook-form/2. 주요 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
@@ -108,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/Spring 강의/DAY 15.md",
                 "file": "React/react-hook-form/2. 주요 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
@@ -132,13 +125,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/Spring 강의/DAY 15.md"
                 "file": "React/react-hook-form/2. 주요 함수.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,63 +137,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "c59cee679c3dac21",
-  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "2024-05-10.md",
-    "React/react-hook-form/2. 주요 함수.md",
-    "React/react-hook-form/1. React-hook-form 소개.md",
-    "React/env (환경변수).md",
-    "React/react-hook-form/watch와 getValues().md",
-    "React/(내용보완예정) 제어 컴포넌트와 비제어 컴포넌트.md",
-    "React/react-hook-form/참고자료.md",
-    "React/react-hook-form/useWatch와 watch.md",
-    "React/react-hook-form/기초.md",
-    "React/react-hook-form/사용 예제.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 양방향.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/8. 양방향 연관관계와 연관관계의 주인.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/9. 다양한 연관관계 매핑 - 다대일 관계.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 단방향 Member.java.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/06. 다양한 연관관계 매핑.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 단방향 Team.java.png",
-    "Pasted image 20240510135508.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/10. 다양한 연관관계 매핑 - 일대다 관계/일대다 단방향.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 단방향.png",
+    "내 프로젝트/Portfolio.md",
+    "사용 이미지/JSP/JSP 동작과정.png",
+    "사용 이미지/Next.js/Next.js14.png",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 깊은 복사와 얕은 복사.md",
+    "프론트엔드 지식/원시 타입과 참조 타입.md",
+    "프론트엔드 지식/Clsx 사용해보기.md",
+    "프론트엔드 지식/DOM.md",
+    "프론트엔드 지식/Oauth.md",
+    "프론트엔드 지식/JavaScript & TypeScript 백링크.md",
+    "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
+    "backend/Spring 강의/DAY 15.md",
+    "backend/IR/Mapper/Mapper 사용 예제.md",
+    "backend/IR/Mapper",
+    "backend/IR",
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
+    "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
+    "짧게 정리한 프론트엔드 지식/DOM.md",
+    "짧게 정리한 프론트엔드 지식/원시 타입과 참조 타입.md",
+    "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
+    "짧게 정리한 프론트엔드 지식/SPA, MPA.md",
+    "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
+    "짧게 정리한 프론트엔드 지식/Oauth.md",
+    "짧게 정리한 프론트엔드 지식/JWT.md",
+    "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
+    "짧게 정리한 프론트엔드 지식/CORS.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 프로그래밍 방법론.md",
+    "짧게 정리한 프론트엔드 지식/Clsx 사용해보기.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 호이스팅.md",
+    "짧게 정리한 프론트엔드 지식/Access Token과 Refresh Token.md",
+    "짧게 정리한 프론트엔드 지식",
+    "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill/webpack.jpg",
+    "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill/babel.png",
+    "사용 이미지/프론트엔드 지식/JWT/JWT structure.png",
+    "사용 이미지/프론트엔드 지식/OAuth/oauth 인증과정.png",
+    "사용 이미지/프론트엔드 지식/OAuth/oauth refreshtoken.png",
+    "사용 이미지/프론트엔드 지식/JWT/비대칭키 동작.png",
+    "사용 이미지/프론트엔드 지식/JWT/대칭키 동작.png",
+    "사용 이미지/프론트엔드 지식/JWT/jwt process.webp",
+    "사용 이미지/프론트엔드 지식/Webpack, Babel, Polyfill",
+    "사용 이미지/프론트엔드 지식/OAuth",
+    "사용 이미지/프론트엔드 지식/JWT",
+    "사용 이미지/프론트엔드 지식/CORS",
+    "사용 이미지/프론트엔드 지식",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 양방향 예시.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 양방향 예시.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 단방향예시.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/9. 다양한 연관관계 매핑 - 다대일 관계/다대일 양방향.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 백링크.md",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/05. 연관관계 매핑 기초.pdf",
-    "프로젝트.md",
-    "backend/Spring 입문 강의/DAY 20.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
-    "backend/Spring 입문 강의/DAY 19.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/04. 엔티티 매핑.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/7. 연관관계 매핑 기초",
-    "backend/DataBase/JOIN.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/6. 엔티티 매핑 (3).md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
-    "backend/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
-    "backend/스프링 부트와 JPA 활용 1/강의자료/스프링 부트와 JPA 활용 1 강의자료 백링크.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/6. 엔티티 매핑 (3)",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/무제 파일.md",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/5. 엔티티 매핑 (2)",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/4. 엔티티 매핑 (1)",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
