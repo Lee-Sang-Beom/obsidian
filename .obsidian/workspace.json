@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c59cee679c3dac21",
+            "id": "01a45d10c04635df",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,9 +18,15 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "72673f6749878efa",
+        "type": "tabs",
+        "children": [
           {
-            "id": "01a45d10c04635df",
+            "id": "7db7eac154f91733",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,8 +163,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01a45d10c04635df",
+  "active": "7db7eac154f91733",
   "lastOpenFiles": [
+    "React/react-hook-form/1. React-hook-form 소개.md",
+    "React/제어 컴포넌트와 비제어 컴포넌트.md",
     "React/env (환경변수).md",
     "React/CRA.md",
     "React/react-hook-form/2. 주요 함수.md",
@@ -204,8 +211,6 @@
     "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
     "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
     "짧게 정리한 프론트엔드 지식/DOM.md",
-    "짧게 정리한 프론트엔드 지식/원시 타입과 참조 타입.md",
-    "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
