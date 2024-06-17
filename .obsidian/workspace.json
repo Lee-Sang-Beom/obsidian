@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
+                "file": "해야할 일/2024-06-17 해야할 일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
+                "file": "해야할 일/2024-06-17 해야할 일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
+                "file": "해야할 일/2024-06-17 해야할 일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md"
+                "file": "해야할 일/2024-06-17 해야할 일.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "f31fd85ba9cc1b86",
   "lastOpenFiles": [
-    "해야할 일/2024-06-17 해야할 일.md",
     "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
+    "해야할 일/2024-06-17 해야할 일.md",
     "해야할 일/gnhome 전자결재 동작.md",
     "프로젝트 경험 기록/CKEditor/1. CustomCKEditor CSS 변경.md",
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
