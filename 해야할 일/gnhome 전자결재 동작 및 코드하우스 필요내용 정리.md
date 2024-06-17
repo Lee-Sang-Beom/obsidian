@@ -224,7 +224,6 @@ copy.docStateEnu = "PROGRESS";
 
 #### 10. 사용 API 및 테이블 정리
 
-**정리**
 1. 서식관리함 - 업무분류관리
 	- 프론트 
 		- 업무분류 리스트 조회 : **selEaDocWorkMain API**
