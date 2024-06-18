@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a8dabcb9f5389541",
+        "id": "7fa43a046c569b36",
         "type": "tabs",
         "children": [
           {
-            "id": "f31fd85ba9cc1b86",
+            "id": "2bcff0edf2b0b727",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/제어 컴포넌트와 비제어 컴포넌트.md",
+                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/제어 컴포넌트와 비제어 컴포넌트.md",
+                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/제어 컴포넌트와 비제어 컴포넌트.md",
+                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/제어 컴포넌트와 비제어 컴포넌트.md"
+                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md"
               }
             }
           }
@@ -146,16 +146,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f31fd85ba9cc1b86",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "프로젝트 경험 기록/CKEditor/2. ckeditor5 파일 추가.md",
+    "ckeditor5 커스터마이징 온라인 빌더 step1.png",
+    "React/제어 컴포넌트와 비제어 컴포넌트.md",
+    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "해야할 일/2024-06-17 해야할 일.md",
     "해야할 일/gnhome 전자결재 동작.md",
     "프로젝트 경험 기록/CKEditor/1. CustomCKEditor CSS 변경.md",
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "backend/Linux/Linux 15가지 기본 명령어.md",
-    "React/제어 컴포넌트와 비제어 컴포넌트.md",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/지도 안나온거.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/package.json.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/지도 나온거.png",
@@ -180,7 +181,6 @@
     "회사 세미나/2. 서버(Server).md",
     "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
     "Next.js/더 알아보기/package.json과 package-lock.json.md",
-    "Next.js/더 알아보기/rewrite, redirect.md",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON/Geometries 형태 1.png",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON/Geometries 형태 2.png",
