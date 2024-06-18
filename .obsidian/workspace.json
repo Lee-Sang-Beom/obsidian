@@ -146,11 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "2bcff0edf2b0b727",
   "lastOpenFiles": [
+    "ckeditor5 커스터마이징 온라인 빌더 step2.png",
     "ckeditor5 커스터마이징 온라인 빌더 step1.png",
-    "React/제어 컴포넌트와 비제어 컴포넌트.md",
     "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+    "React/제어 컴포넌트와 비제어 컴포넌트.md",
     "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "해야할 일/2024-06-17 해야할 일.md",
     "해야할 일/gnhome 전자결재 동작.md",
@@ -186,8 +187,6 @@
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON/Geometries 형태 2.png",
     "사용 이미지/Next.js/React Leaflet",
     "Next.js/React Leaflet",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/테이블 설계.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제/도메인 모델.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/15. @MappedSuperClass",
