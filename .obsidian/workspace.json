@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7fa43a046c569b36",
+        "id": "bdfe5e43cd936b10",
         "type": "tabs",
         "children": [
           {
-            "id": "2bcff0edf2b0b727",
+            "id": "066892e3f5dec69f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+                "file": "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+                "file": "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+                "file": "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md"
+                "file": "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md"
               }
             }
           }
@@ -146,57 +146,47 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2bcff0edf2b0b727",
+  "active": "066892e3f5dec69f",
   "lastOpenFiles": [
+    "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
+    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
+    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
+    "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
+    "Next.js/더 알아보기/next.config.js (해야함).md",
+    "회사 세미나/4. 도메인과 네임서버.md",
+    "회사 세미나/5. 프로토콜, 포트번호.md",
+    "Next.js/더 알아보기/Route Segment.md",
     "ckeditor5 커스터마이징 온라인 빌더 step2.png",
     "ckeditor5 커스터마이징 온라인 빌더 step1.png",
-    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "React/제어 컴포넌트와 비제어 컴포넌트.md",
     "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "해야할 일/2024-06-17 해야할 일.md",
     "해야할 일/gnhome 전자결재 동작.md",
     "프로젝트 경험 기록/CKEditor/1. CustomCKEditor CSS 변경.md",
-    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "backend/Linux/Linux 15가지 기본 명령어.md",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/지도 안나온거.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/package.json.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/지도 나온거.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/window is not undefined.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
-    "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/tilelayer network.png",
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "사용 이미지/Next.js/VWorld and OpenLayers/vworld api dong res.png",
-    "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
     "Next.js/VWorld and OpenLayers/9. Next.js13에서 VWorld API와 OpenLayers 사용해보기 9.md",
     "React/hook/useLayoutEffect.md",
-    "회사 세미나/5. 프로토콜, 포트번호.md",
     "회사 세미나/3. 서버와 클라이언트.md",
-    "회사 세미나/4. 도메인과 네임서버.md",
     "회사 세미나/9. 흐름 학습.md",
     "회사 세미나/회사 세미나 백링크.md",
     "회사 세미나/8. Nginx(역방향 프록시).md",
     "회사 세미나/7. Docker.md",
-    "회사 세미나/6. GitLab, Jenkins.md",
-    "회사 세미나/2. 서버(Server).md",
-    "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
-    "Next.js/더 알아보기/package.json과 package-lock.json.md",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON/Geometries 형태 1.png",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON/Geometries 형태 2.png",
     "사용 이미지/Next.js/React Leaflet",
     "Next.js/React Leaflet",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/15. @MappedSuperClass",
-    "backend/Spring 입문 강의/강의자료/2. 스프링 웹 개발 기초.pdf",
-    "backend/Spring 입문 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
-    "backend/Spring 입문 강의/강의자료/1. 프로젝트 환경 설정.pdf",
-    "무제 파일.canvas",
-    "무제 파일 2.canvas",
-    "무제 파일 1.canvas",
-    "무제 파일 4.canvas",
-    "무제 파일 3.canvas"
-  ]
-}
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 �
