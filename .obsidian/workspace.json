@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "13ed0b0cff76009d",
+        "id": "4f5c89b3fe87b71f",
         "type": "tabs",
         "children": [
           {
-            "id": "67cad827d9c04e8c",
+            "id": "b7c0e15b3fb002bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,15 +138,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "b7c0e15b3fb002bb",
   "lastOpenFiles": [
-    "ckEditor 디렉터리.png",
-    "ckeditor5 커스터마이징 온라인 빌더 step5.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/ckEditor 디렉터리.png",
+    "사용 이미지/내 프로젝트/IR 작업.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor",
+    "사용 이미지/프로젝트 경험 기록",
     "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
-    "ckeditor5 커스터마이징 온라인 빌더 step4.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step5.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step4.png",
     "Pasted image 20240620122402.png",
-    "ckeditor5 커스터마이징 온라인 빌더 step2.png",
-    "ckeditor5 커스터마이징 온라인 빌더 step3.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step2.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step3.png",
     "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
     "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
@@ -166,7 +161,7 @@
     "회사 세미나/4. 도메인과 네임서버.md",
     "회사 세미나/5. 프로토콜, 포트번호.md",
     "Next.js/더 알아보기/Route Segment.md",
-    "ckeditor5 커스터마이징 온라인 빌더 step1.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step1.png",
     "React/제어 컴포넌트와 비제어 컴포넌트.md",
     "해야할 일/2024-06-17 해야할 일.md",
     "해야할 일/gnhome 전자결재 동작.md",
@@ -175,7 +170,6 @@
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/지도 안나온거.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/package.json.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/지도 나온거.png",
-    "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/window is not undefined.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
@@ -192,8 +186,6 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/15. @MappedSuperClass",
     "backend/Spring 입문 강의/강의자료/2. 스프링 웹 개발 기초.pdf",
-    "backend/Spring 입문 강의/강의자료/3. 회원 관리 예제 - 백엔드 개발.pdf",
-    "backend/Spring 입문 강의/강의자료/1. 프로젝트 환경 설정.pdf",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
