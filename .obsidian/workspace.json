@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md"
               }
             }
           }
@@ -146,14 +146,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b7c0e15b3fb002bb",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckEditor 디렉터리.png",
     "사용 이미지/내 프로젝트/IR 작업.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor",
     "사용 이미지/프로젝트 경험 기록",
-    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step5.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step4.png",
     "Pasted image 20240620122402.png",
