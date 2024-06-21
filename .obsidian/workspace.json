@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/무제 파일.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/무제 파일.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/무제 파일.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/무제 파일.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md"
               }
             }
           }
@@ -146,10 +146,49 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
+  "floating": {
+    "id": "13e1e6442c41b678",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0ddd7edd2981d52e",
+        "type": "window",
+        "children": [
+          {
+            "id": "51e282cde1353a59",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a9548a2d4e93d27a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 512,
+        "y": 216,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "fd6bf1ac08a7b851",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/무제 파일.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
     "Next.js/더 알아보기/next.config.js (해야함).md",
@@ -168,7 +207,6 @@
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step3.png",
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "회사 세미나/4. 도메인과 네임서버.md",
@@ -186,7 +224,6 @@
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/VWorld and OpenLayers/9. Next.js13에서 VWorld API와 OpenLayers 사용해보기 9.md",
-    "React/hook/useLayoutEffect.md",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "사용 이미지/Next.js/React Leaflet",
     "Next.js/React Leaflet",
