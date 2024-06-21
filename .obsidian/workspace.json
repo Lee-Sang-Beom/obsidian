@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
+                "file": "Next.js/React Leaflet/3..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
+                "file": "Next.js/React Leaflet/3..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
+                "file": "Next.js/React Leaflet/3..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md"
+                "file": "Next.js/React Leaflet/3..md"
               }
             }
           }
@@ -216,8 +216,10 @@
   },
   "active": "fd6bf1ac08a7b851",
   "lastOpenFiles": [
-    "Next.js/Server Action 사용하기/12. Revalidation data.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
+    "Next.js/React Leaflet/3..md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
+    "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
@@ -250,11 +252,9 @@
     "해야할 일/2024-06-17 해야할 일.md",
     "해야할 일/gnhome 전자결재 동작.md",
     "프로젝트 경험 기록/CKEditor/1. CustomCKEditor CSS 변경.md",
-    "backend/Linux/Linux 15가지 기본 명령어.md",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/지도 안나온거.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/package.json.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
-    "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "사용 이미지/Next.js/React Leaflet",
     "Next.js/React Leaflet",

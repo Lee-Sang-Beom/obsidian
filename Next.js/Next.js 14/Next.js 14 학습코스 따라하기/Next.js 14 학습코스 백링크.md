@@ -11,3 +11,5 @@
 - [[7. Fetching Data]]
 - [[8. Static and Dynamic Rendering]]
 - [[9. Streaming]]
+- [[10. Partial Prerendering]]
+- 
