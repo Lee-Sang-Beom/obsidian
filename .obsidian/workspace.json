@@ -180,37 +180,6 @@
         "height": 800,
         "maximize": false,
         "zoom": 0
-      },
-      {
-        "id": "b3b5f005a97145fa",
-        "type": "window",
-        "children": [
-          {
-            "id": "48fa355eb0e3687c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "591dc9a23f005e1f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 512,
-        "y": 216,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
       }
     ]
   },
