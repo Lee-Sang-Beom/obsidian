@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/패키지의 버전 정보.md",
+                "file": "React/패키지의 버전 정보 (작성중).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/패키지의 버전 정보.md",
+                "file": "React/패키지의 버전 정보 (작성중).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/패키지의 버전 정보.md",
+                "file": "React/패키지의 버전 정보 (작성중).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/패키지의 버전 정보.md"
+                "file": "React/패키지의 버전 정보 (작성중).md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "fd6bf1ac08a7b851",
   "lastOpenFiles": [
     "React/package.json과 package-lock.json.md",
-    "React/패키지의 버전 정보.md",
+    "React/패키지의 버전 정보 (작성중).md",
     "React/env (환경변수).md",
     "해야할 일/뎁스톤.md",
     "해야할 일/필요 개발 기능.md",
