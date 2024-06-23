@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "React/package.json과 package-lock.json.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "React/package.json과 package-lock.json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "React/package.json과 package-lock.json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤.md"
+                "file": "React/package.json과 package-lock.json.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "fd6bf1ac08a7b851",
   "lastOpenFiles": [
-    "해야할 일/필요 개발 기능.md",
+    "React/env (환경변수).md",
     "해야할 일/뎁스톤.md",
+    "해야할 일/필요 개발 기능.md",
     "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
     "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
@@ -183,7 +184,6 @@
     "Next.js/더 알아보기/Route Segment.md",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step1.png",
     "React/제어 컴포넌트와 비제어 컴포넌트.md",
-    "해야할 일/2024-06-17 해야할 일.md",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/지도 안나온거.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/package.json.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
