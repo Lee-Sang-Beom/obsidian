@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/필요 개발 기능.md",
+                "file": "React/패키지의 버전 정보.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/필요 개발 기능.md",
+                "file": "React/패키지의 버전 정보.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/필요 개발 기능.md",
+                "file": "React/패키지의 버전 정보.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/필요 개발 기능.md"
+                "file": "React/패키지의 버전 정보.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "fd6bf1ac08a7b851",
   "lastOpenFiles": [
-    "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "해야할 일/필요 개발 기능.md",
+    "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "해야할 일/뎁스톤.md",
     "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
     "React/패키지의 버전 정보.md",
