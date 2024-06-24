@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+                "file": "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+                "file": "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+                "file": "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md"
+                "file": "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "f8a4223b852b92a1",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
+    "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
+    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "Next.js/Next.js 14/Next.js v14.2 정리.md",
@@ -171,9 +174,6 @@
     "React/Virtual DOM.md",
     "React/jsx.md",
     "React/env (환경변수).md",
-    "React/CRA.md",
-    "React/제어 컴포넌트와 비제어 컴포넌트.md",
-    "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
     "사용 이미지/React/react/패키지의 버전 정보/npm outdated.png",
