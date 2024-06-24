@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f55a0ad3c8651811",
+        "id": "f52fa5493ce1e1fb",
         "type": "tabs",
         "children": [
           {
-            "id": "fd6bf1ac08a7b851",
+            "id": "7277b1705c72a7f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/패키지의 버전 정보.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/패키지의 버전 정보.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/패키지의 버전 정보.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "React/패키지의 버전 정보.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,16 +138,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "7277b1705c72a7f0",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
+    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
+    "React/React 백링크.md",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
     "해야할 일/필요 개발 기능.md",
     "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "해야할 일/뎁스톤.md",
     "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
-    "React/패키지의 버전 정보.md",
-    "React/package.json과 package-lock.json.md",
     "사용 이미지/React/react/패키지의 버전 정보/npm outdated.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
@@ -193,7 +186,6 @@
     "Next.js/React Leaflet",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/15. @MappedSuperClass",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
