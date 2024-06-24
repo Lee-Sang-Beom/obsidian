@@ -44,9 +44,5 @@
 	- 업무하면서 이해안되던 것들이나 저장해놔야겠는거 저장
 - https://github.com/Lee-Sang-Beom/obsidian
 
-#### 8. 보스 타이머 (TOSM)
-- https://github.com/Lee-Sang-Beom/TOS_M_BOSSTIMER
-
-
-#### 9. 공통 컴포넌트
+#### 8. 공통 컴포넌트
 - https://common-component-91a5.vercel.app/
