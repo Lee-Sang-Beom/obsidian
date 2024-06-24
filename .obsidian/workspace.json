@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f52fa5493ce1e1fb",
+        "id": "94ed1482986b9d36",
         "type": "tabs",
         "children": [
           {
-            "id": "7277b1705c72a7f0",
+            "id": "c0b84abf94d99035",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,11 +138,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7277b1705c72a7f0",
+  "active": "c0b84abf94d99035",
   "lastOpenFiles": [
+    "React/hook/React hook 백링크.md",
+    "React/hook/useState.md",
+    "React/react-hook-form/React-hook-form 백링크.md",
+    "React/React 백링크.md",
+    "React/Virtual DOM.md",
+    "React/jsx.md",
+    "React/env (환경변수).md",
+    "React/CRA.md",
+    "React/제어 컴포넌트와 비제어 컴포넌트.md",
     "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
     "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
-    "React/React 백링크.md",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
     "해야할 일/필요 개발 기능.md",
@@ -152,7 +160,6 @@
     "사용 이미지/React/react/패키지의 버전 정보/npm outdated.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
-    "React/env (환경변수).md",
     "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Server Action 사용하기/12. Revalidation data.md",
@@ -162,9 +169,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Next.js/더 알아보기/next.config.js (해야함).md",
-    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/10. 다양한 연관관계 매핑 - 일대다 관계.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/11. 다양한 연관관계 매핑 - 일대일 관계.md",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckEditor 디렉터리.png",
     "사용 이미지/내 프로젝트/IR 작업.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor",
@@ -174,10 +178,6 @@
     "Pasted image 20240620122402.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step2.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step3.png",
-    "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
-    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step1.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기/지도 안나온거.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
