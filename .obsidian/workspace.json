@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/할 것.md",
+                "file": "해야할 일/뎁스톤.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/할 것.md",
+                "file": "해야할 일/뎁스톤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/할 것.md",
+                "file": "해야할 일/뎁스톤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/할 것.md"
+                "file": "해야할 일/뎁스톤.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "f8a4223b852b92a1",
   "lastOpenFiles": [
+    "해야할 일/할 것.md",
     "해야할 일/뎁스톤.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
     "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
@@ -159,7 +160,6 @@
     "Next.js/Next.js 14/Next.js v14.2 정리.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "내 프로젝트/Portfolio.md",
-    "해야할 일/할 것.md",
     "해야할 일/gnhome 전자결재 동작 및 코드하우스 필요내용 정리.md",
     "회사 세미나/9. 흐름 학습.md",
     "회사 세미나/8. Nginx(역방향 프록시).md",
