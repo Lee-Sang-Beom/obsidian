@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3e56ab4f57b50862",
+        "id": "4ca2c4e1f510929d",
         "type": "tabs",
         "children": [
           {
-            "id": "f8a4223b852b92a1",
+            "id": "10f11df0584912b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
+                "file": "해야할 일/할 것.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
+                "file": "해야할 일/할 것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
+                "file": "해야할 일/할 것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md"
+                "file": "해야할 일/할 것.md"
               }
             }
           }
@@ -146,19 +146,28 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "10f11df0584912b9",
   "lastOpenFiles": [
-    "Popup.png",
-    "Marker.png",
-    "useLocation.png",
     "해야할 일/뎁스톤.md",
     "해야할 일/할 것.md",
+    "짧게 정리한 프론트엔드 지식/Clsx 사용해보기.md",
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "Next.js/React Leaflet/React-Leaflet 백링크.md",
+    "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
+    "React/React 백링크.md",
+    "React/Virtual DOM.md",
+    "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
+    "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
+    "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
+    "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기/Marker.png",
+    "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
+    "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기/Popup.png",
+    "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기/useLocation.png",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
     "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
     "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
     "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
     "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
-    "Next.js/VWorld and OpenLayers/Vworld 사용하기 백링크.md",
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "Next.js/Next.js 14/Next.js v14.2 정리.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
@@ -169,13 +178,6 @@
     "회사 세미나/7. Docker.md",
     "회사 세미나/6. GitLab, Jenkins.md",
     "회사 세미나/5. 프로토콜, 포트번호.md",
-    "회사 세미나/4. 도메인과 네임서버.md",
-    "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
-    "Next.js/NextAuth 사용하기/NextAuth 사용하기 백링크.md",
-    "React/hook/React hook 백링크.md",
-    "React/hook/useState.md",
-    "React/react-hook-form/React-hook-form 백링크.md",
-    "React/React 백링크.md",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
     "사용 이미지/React/react/패키지의 버전 정보/npm outdated.png",
@@ -187,13 +189,11 @@
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step4.png",
     "Pasted image 20240620122402.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step2.png",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step3.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "사용 이미지/Next.js/React Leaflet",
     "Next.js/React Leaflet",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/16. 고급매핑 - 상속관계 매핑 실전 예제",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/07. 고급 매핑.pdf",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",

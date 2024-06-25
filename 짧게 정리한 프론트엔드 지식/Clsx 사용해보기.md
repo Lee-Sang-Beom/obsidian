@@ -61,6 +61,8 @@ export default function AutoAlert() {
 
 
 #### 2. after (clsx 사용 이후)
+
+- className을 부여하는 코드가 보기 좋게 변경되었다.
 ```tsx
 "use client";
 
