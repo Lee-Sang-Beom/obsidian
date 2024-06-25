@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/할 것.md",
+                "file": "해야할 일/뎁스톤.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/할 것.md",
+                "file": "해야할 일/뎁스톤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/할 것.md",
+                "file": "해야할 일/뎁스톤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/할 것.md"
+                "file": "해야할 일/뎁스톤.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "10f11df0584912b9",
   "lastOpenFiles": [
+    "해야할 일/할 것.md",
     "Pasted image 20240625135445.png",
     "Pasted image 20240625135443.png",
-    "해야할 일/할 것.md",
     "해야할 일/뎁스톤.md",
     "짧게 정리한 프론트엔드 지식/Clsx 사용해보기.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
