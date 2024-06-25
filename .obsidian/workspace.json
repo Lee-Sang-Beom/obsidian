@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "해야할 일/할 것.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "해야할 일/할 것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "해야할 일/할 것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤.md"
+                "file": "해야할 일/할 것.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "f8a4223b852b92a1",
   "lastOpenFiles": [
-    "해야할 일/할 것.md",
     "해야할 일/뎁스톤.md",
+    "해야할 일/할 것.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
     "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
     "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
