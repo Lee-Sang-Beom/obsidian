@@ -146,8 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f8a4223b852b92a1",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "useLocation.png",
     "해야할 일/뎁스톤.md",
     "해야할 일/할 것.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
@@ -173,7 +174,6 @@
     "React/hook/useState.md",
     "React/react-hook-form/React-hook-form 백링크.md",
     "React/React 백링크.md",
-    "React/Virtual DOM.md",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
     "사용 이미지/React/react/패키지의 버전 정보/npm outdated.png",
