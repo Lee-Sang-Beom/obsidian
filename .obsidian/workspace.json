@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4ca2c4e1f510929d",
+        "id": "f577068230a84d16",
         "type": "tabs",
         "children": [
           {
-            "id": "10f11df0584912b9",
+            "id": "db7c87ebfc9de6e9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240625135445.png"
+                "file": "해야할 일/뎁스톤.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240625135445.png",
+                "file": "해야할 일/뎁스톤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240625135445.png",
+                "file": "해야할 일/뎁스톤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240625135445.png"
+                "file": "해야할 일/뎁스톤.md"
               }
             }
           }
@@ -144,11 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "10f11df0584912b9",
+  "active": "db7c87ebfc9de6e9",
   "lastOpenFiles": [
+    "Pasted image 20240625135445.png",
     "해야할 일/할 것.md",
     "해야할 일/뎁스톤.md",
-    "Pasted image 20240625135445.png",
     "Pasted image 20240625135443.png",
     "짧게 정리한 프론트엔드 지식/Clsx 사용해보기.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
