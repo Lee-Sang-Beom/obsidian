@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
+                "file": "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
+                "file": "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
+                "file": "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md"
+                "file": "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "db7c87ebfc9de6e9",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
     "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
     "짧게 정리한 프론트엔드 지식/API.md",
     "해야할 일/할 것.md",
@@ -167,7 +168,6 @@
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기/Popup.png",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기/useLocation.png",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
     "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
     "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
     "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
