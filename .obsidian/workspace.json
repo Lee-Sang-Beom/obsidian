@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 콜백 함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 콜백 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 콜백 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤.md"
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 콜백 함수.md"
               }
             }
           }
@@ -146,12 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "db7c87ebfc9de6e9",
   "lastOpenFiles": [
+    "해야할 일/뎁스톤.md",
     "해야할 일/할 것.md",
     "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
     "짧게 정리한 프론트엔드 지식/API.md",
-    "해야할 일/뎁스톤.md",
     "Pasted image 20240625135445.png",
     "Pasted image 20240625135443.png",
     "짧게 정리한 프론트엔드 지식/Clsx 사용해보기.md",
