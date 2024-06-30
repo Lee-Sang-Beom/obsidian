@@ -146,10 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9b8700113ad187cb",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
+    "useSearchParams.png",
+    "searchParams console.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
     "Pasted image 20240625135445.png",
@@ -179,7 +181,6 @@
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "Next.js/Next.js 14/Next.js v14.2 정리.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
-    "내 프로젝트/Portfolio.md",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
     "사용 이미지/React/react/패키지의 버전 정보/npm outdated.png",
@@ -188,7 +189,6 @@
     "사용 이미지/프로젝트 경험 기록/CKEditor",
     "사용 이미지/프로젝트 경험 기록",
     "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step5.png",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step4.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "사용 이미지/Next.js/React Leaflet",
