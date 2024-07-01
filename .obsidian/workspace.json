@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+                "file": "짧게 정리한 프론트엔드 지식/Node.js.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+                "file": "짧게 정리한 프론트엔드 지식/Node.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+                "file": "짧게 정리한 프론트엔드 지식/Node.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md"
+                "file": "짧게 정리한 프론트엔드 지식/Node.js.md"
               }
             }
           }
@@ -138,24 +138,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "9b8700113ad187cb",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) URI, URL.md",
+    "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "useSearchParams.png",
     "searchParams console.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
     "Pasted image 20240625135445.png",
-    "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 콜백 함수.md",
     "해야할 일/뎁스톤.md",
@@ -188,7 +189,6 @@
     "사용 이미지/내 프로젝트/IR 작업.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor",
     "사용 이미지/프로젝트 경험 기록",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/ckeditor5 커스터마이징 온라인 빌더 step5.png",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "사용 이미지/Next.js/React Leaflet",
