@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Node.js.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Node.js.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Node.js.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Node.js.md"
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "9b8700113ad187cb",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/API.md",
+    "짧게 정리한 프론트엔드 지식/Node.js.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) URI, URL.md",
     "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
@@ -161,10 +164,8 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 콜백 함수.md",
     "해야할 일/뎁스톤.md",
     "해야할 일/할 것.md",
-    "짧게 정리한 프론트엔드 지식/API.md",
     "Pasted image 20240625135443.png",
     "짧게 정리한 프론트엔드 지식/Clsx 사용해보기.md",
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "Next.js/React Leaflet/React-Leaflet 백링크.md",
     "React/React 백링크.md",
     "React/Virtual DOM.md",
@@ -181,7 +182,6 @@
     "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "Next.js/Next.js 14/Next.js v14.2 정리.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
     "사용 이미지/React/react/패키지의 버전 정보/npm outdated.png",
