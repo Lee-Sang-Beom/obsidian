@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "해야할 일/해야하는 것.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "해야할 일/해야하는 것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤.md",
+                "file": "해야할 일/해야하는 것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤.md"
+                "file": "해야할 일/해야하는 것.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "4d4e4eb3ef04da84",
   "lastOpenFiles": [
-    "해야할 일/해야하는 것.md",
     "해야할 일/뎁스톤.md",
+    "해야할 일/해야하는 것.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "짧게 정리한 프론트엔드 지식/Node.js.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
