@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤 (0704).md",
+                "file": "해야할 일/뎁스톤 (0705).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤 (0704).md",
+                "file": "해야할 일/뎁스톤 (0705).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤 (0704).md",
+                "file": "해야할 일/뎁스톤 (0705).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤 (0704).md"
+                "file": "해야할 일/뎁스톤 (0705).md"
               }
             }
           }
@@ -148,27 +148,33 @@
   },
   "active": "764e57e694c670a7",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/URI, URL.md",
+    "Pasted image 20240704135858.png",
+    "URL 구조.png",
+    "URI와 URL 포함관계.png",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) use strict.md",
+    "해야할 일/package.json 추가.md",
+    "Next.js/React Leaflet/React-Leaflet 백링크.md",
+    "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
+    "해야할 일/뎁스톤 (0705).md",
+    "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
     "해야할 일/해야하는 것.md",
-    "해야할 일/뎁스톤 (0704).md",
     "backend/Spring 입문 강의/DAY 22.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "짧게 정리한 프론트엔드 지식/Node.js.md",
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
     "짧게 정리한 프론트엔드 지식/API.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) URI, URL.md",
     "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
     "useSearchParams.png",
     "searchParams console.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
     "Pasted image 20240625135445.png",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 클로저.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 콜백 함수.md",
     "Pasted image 20240625135443.png",
     "짧게 정리한 프론트엔드 지식/Clsx 사용해보기.md",
-    "Next.js/React Leaflet/React-Leaflet 백링크.md",
     "React/React 백링크.md",
     "React/Virtual DOM.md",
     "Next.js/Server Action 사용하기/13. Redirect and Cookies.md",
@@ -178,15 +184,8 @@
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기/Popup.png",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기/useLocation.png",
-    "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
-    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
-    "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
-    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
-    "사용 이미지/React/react/패키지의 버전 정보/npm outdated.png",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/ckEditor 디렉터리.png",
-    "사용 이미지/내 프로젝트/IR 작업.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor",
     "사용 이미지/프로젝트 경험 기록",
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
