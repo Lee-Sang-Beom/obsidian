@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9f66bb8401ed9e6b",
+        "id": "a483095f4f907642",
         "type": "tabs",
         "children": [
           {
-            "id": "764e57e694c670a7",
+            "id": "a95e6d9ca030dcc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤 (0705).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤 (0705).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤 (0705).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤 (0705).md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md"
               }
             }
           }
@@ -146,18 +146,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "764e57e694c670a7",
+  "active": "a95e6d9ca030dcc6",
   "lastOpenFiles": [
+    "사용 이미지/Next.js/Next.js14.png",
+    "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)/URI와 URL 포함관계.png",
+    "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)/URL 구조.png",
+    "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)",
+    "해야할 일/뎁스톤 (0705).md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/URI, URL.md",
     "Pasted image 20240704135858.png",
-    "URL 구조.png",
-    "URI와 URL 포함관계.png",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) use strict.md",
     "해야할 일/package.json 추가.md",
     "Next.js/React Leaflet/React-Leaflet 백링크.md",
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
-    "해야할 일/뎁스톤 (0705).md",
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
     "해야할 일/해야하는 것.md",
     "backend/Spring 입문 강의/DAY 22.md",
