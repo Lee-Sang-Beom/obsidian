@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+                "file": "해야할 일/백업.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+                "file": "해야할 일/백업.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+                "file": "해야할 일/백업.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md"
+                "file": "해야할 일/백업.md"
               }
             }
           }
@@ -148,11 +148,13 @@
   },
   "active": "ec07f66a5afa73a1",
   "lastOpenFiles": [
+    "해야할 일/뎁스톤 (0705).md",
+    "해야할 일/백업.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "사용 이미지/Next.js/guide course/chapter 11/디바운싱.png",
     "사용 이미지/Next.js/guide course/chapter 11/디바운싱 미사용.png",
     "사용 이미지/Next.js/guide course/chapter 11/검색어에 따라 실제 데이터를 반환받은 테이블 컴포넌트.png",
@@ -162,7 +164,6 @@
     "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)/URI와 URL 포함관계.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)/URL 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)",
-    "해야할 일/뎁스톤 (0705).md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/URI, URL.md",
     "Pasted image 20240704135858.png",
@@ -184,7 +185,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 콜백 함수.md",
     "짧게 정리한 프론트엔드 지식/Clsx 사용해보기.md",
     "React/React 백링크.md",
-    "React/Virtual DOM.md",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
