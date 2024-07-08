@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/백업.md",
+                "file": "해야할 일/package.json 추가.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/백업.md",
+                "file": "해야할 일/package.json 추가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/백업.md",
+                "file": "해야할 일/package.json 추가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/백업.md"
+                "file": "해야할 일/package.json 추가.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "ec07f66a5afa73a1",
   "lastOpenFiles": [
-    "해야할 일/뎁스톤 (0705).md",
     "해야할 일/백업.md",
+    "해야할 일/뎁스톤 (0705).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
