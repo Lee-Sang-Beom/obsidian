@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/package.json 추가.md",
+                "file": "짧게 정리한 프론트엔드 지식/깊은 복사와 얕은 복사.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/package.json 추가.md",
+                "file": "짧게 정리한 프론트엔드 지식/깊은 복사와 얕은 복사.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/package.json 추가.md",
+                "file": "짧게 정리한 프론트엔드 지식/깊은 복사와 얕은 복사.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/package.json 추가.md"
+                "file": "짧게 정리한 프론트엔드 지식/깊은 복사와 얕은 복사.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "ec07f66a5afa73a1",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+    "해야할 일/package.json 추가.md",
     "해야할 일/백업.md",
     "해야할 일/뎁스톤 (0705).md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
@@ -168,7 +169,6 @@
     "짧게 정리한 프론트엔드 지식/URI, URL.md",
     "Pasted image 20240704135858.png",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) use strict.md",
-    "해야할 일/package.json 추가.md",
     "Next.js/React Leaflet/React-Leaflet 백링크.md",
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
