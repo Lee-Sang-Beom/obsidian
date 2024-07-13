@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "abf741ece98e2e47",
+        "id": "cf0884c8ee543919",
         "type": "tabs",
         "children": [
           {
-            "id": "5d69a0859b4921f1",
+            "id": "b9a22fafa19237ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5d69a0859b4921f1",
+  "active": "b9a22fafa19237ef",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "해야할 일/뎁스톤 (0715).md",
     "Pasted image 20240711100505.png",
     "해야할 일/해야할 일 (07-11).md",
@@ -157,10 +161,7 @@
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/라이브러리와 프레임워크.md",
     "짧게 정리한 프론트엔드 지식/깊은 복사와 얕은 복사.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "해야할 일/package.json 추가.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "사용 이미지/Next.js/guide course/chapter 11/디바운싱.png",
