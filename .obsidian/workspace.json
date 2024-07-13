@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤 (0715).md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤 (0715).md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤 (0715).md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤 (0715).md"
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "5d69a0859b4921f1",
   "lastOpenFiles": [
-    "해야할 일/해야할 일 (07-11).md",
     "해야할 일/뎁스톤 (0715).md",
+    "Pasted image 20240711100505.png",
+    "해야할 일/해야할 일 (07-11).md",
     "해야할 일/백업.md",
     "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
-    "Pasted image 20240711100505.png",
     "Pasted image 20240711094535.png",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/라이브러리와 프레임워크.md",
@@ -183,7 +183,6 @@
     "짧게 정리한 프론트엔드 지식/Node.js.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
     "짧게 정리한 프론트엔드 지식/API.md",
-    "짧게 정리한 프론트엔드 지식/고차함수와 일급객체.md",
     "useSearchParams.png",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
     "사용 이미지/React/react/패키지의 버전 정보",
