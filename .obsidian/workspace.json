@@ -181,8 +181,9 @@
       }
     ]
   },
-  "active": "b9a22fafa19237ef",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "entityManger.getReference 메소드.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/08. 프록시와 연관관계 관리.pdf",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
     "member조회 시, team도 함께 조회.png",
