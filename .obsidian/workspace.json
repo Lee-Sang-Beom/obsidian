@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md"
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md"
               }
             }
           }
@@ -146,10 +146,50 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
+  "floating": {
+    "id": "da55129f0deb11f1",
+    "type": "floating",
+    "children": [
+      {
+        "id": "196c62436639da58",
+        "type": "window",
+        "children": [
+          {
+            "id": "50a25b13c91463a8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "acd768449082fea7",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/08. 프록시와 연관관계 관리.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 4223,
+        "y": 31,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "b9a22fafa19237ef",
   "lastOpenFiles": [
-    "해야할 일/해야할 일 (07-11).md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/08. 프록시와 연관관계 관리.pdf",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
+    "member조회 시, team도 함께 조회.png",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md",
+    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/15. @MappedSuperClass.md",
     "해야할 일/뎁스톤 및 해야할 일.md",
+    "해야할 일/해야할 일 (07-11).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
@@ -180,11 +220,6 @@
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
     "해야할 일/해야하는 것.md",
-    "backend/Spring 입문 강의/DAY 22.md",
-    "짧게 정리한 프론트엔드 지식/Node.js.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
-    "짧게 정리한 프론트엔드 지식/API.md",
-    "useSearchParams.png",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",
@@ -193,7 +228,6 @@
     "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
     "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "사용 이미지/Next.js/React Leaflet",
-    "Next.js/React Leaflet",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
