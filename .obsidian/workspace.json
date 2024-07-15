@@ -11,8 +11,12 @@
             "id": "432c35e6c963e213",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md"
+              }
             }
           }
         ],
