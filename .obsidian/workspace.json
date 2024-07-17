@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "내 프로젝트/Portfolio.md",
+                "file": "해야할 일/package.json 추가.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "내 프로젝트/Portfolio.md",
+                "file": "해야할 일/package.json 추가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "내 프로젝트/Portfolio.md",
+                "file": "해야할 일/package.json 추가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "내 프로젝트/Portfolio.md"
+                "file": "해야할 일/package.json 추가.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   "active": "432c35e6c963e213",
   "lastOpenFiles": [
     "해야할 일/공통화 필요.md",
-    "해야할 일/package.json 추가.md",
     "해야할 일/뎁스톤 및 해야할 일.md",
+    "내 프로젝트/Portfolio.md",
+    "해야할 일/package.json 추가.md",
     "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
     "회사 세미나/2. 서버(Server).md",
     "회사 세미나/3. 서버와 클라이언트.md",
@@ -185,7 +186,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "사용 이미지/Next.js/guide course/chapter 11/디바운싱.png",
     "사용 이미지/Next.js/guide course/chapter 11/디바운싱 미사용.png",
-    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
     "사용 이미지/React/react/패키지의 버전 정보",
