@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
+                "file": "해야할 일/뎁스톤 및 해야할 일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
+                "file": "해야할 일/뎁스톤 및 해야할 일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
+                "file": "해야할 일/뎁스톤 및 해야할 일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md"
+                "file": "해야할 일/뎁스톤 및 해야할 일.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "070cc9d42f7dc7d7",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
     "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
+    "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
     "짧게 정리한 프론트엔드 지식/DOM.md",
     "backend/Spring 입문 강의/DAY 4.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
