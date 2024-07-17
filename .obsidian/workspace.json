@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/package.json 추가.md",
+                "file": "내 프로젝트/Portfolio.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/package.json 추가.md",
+                "file": "내 프로젝트/Portfolio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/package.json 추가.md",
+                "file": "내 프로젝트/Portfolio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/package.json 추가.md"
+                "file": "내 프로젝트/Portfolio.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "432c35e6c963e213",
   "lastOpenFiles": [
+    "해야할 일/package.json 추가.md",
     "해야할 일/공통화 필요.md",
     "해야할 일/뎁스톤 및 해야할 일.md",
     "내 프로젝트/Portfolio.md",
-    "해야할 일/package.json 추가.md",
     "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
     "회사 세미나/2. 서버(Server).md",
     "회사 세미나/3. 서버와 클라이언트.md",

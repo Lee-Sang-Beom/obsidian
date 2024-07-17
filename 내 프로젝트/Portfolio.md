@@ -3,6 +3,7 @@
  - http://deps.iptime.org:8929/dev1/gapt-front2.git
   - 모바일 작업
   - 지속적 유지보수 참여
+
 #### 2. 일자리
 - https://job.giba.or.kr/
 - http://deps.iptime.org:8929/dev1/gnwp-front.git
@@ -28,9 +29,10 @@
 - http://gncar.gntp.or.kr/
 - http://deps.iptime.org:8929/dev1/gncar-front.git
 - 개인정보조회, 개인정보수정, 회원탈퇴
+
 #### 5. IR 성과관리시스템
 - http://deps.iptime.org:8929/dev1/wisdomir.git
-- 프론트 분석
+- 프론트 작업 및 백엔드 일부 간단한 거 수정작업
 ![[IR 작업.png]]
 
 #### 6. WISDOM
