@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f7c5de9566654c8d",
+        "id": "7c8517495a1cd894",
         "type": "tabs",
         "children": [
           {
-            "id": "432c35e6c963e213",
+            "id": "7c0e030637af8b54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md"
+                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md"
               }
             }
           }
@@ -146,11 +146,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "432c35e6c963e213",
+  "active": "7c0e030637af8b54",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
+    "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
+    "짧게 정리한 프론트엔드 지식/DOM.md",
+    "backend/Spring 입문 강의/DAY 4.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
+    "해야할 일/뎁스톤 및 해야할 일.md",
     "해야할 일/package.json 추가.md",
     "해야할 일/공통화 필요.md",
-    "해야할 일/뎁스톤 및 해야할 일.md",
     "내 프로젝트/Portfolio.md",
     "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
     "회사 세미나/2. 서버(Server).md",
@@ -177,13 +183,7 @@
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Pasted image 20240711100505.png",
     "해야할 일/백업.md",
-    "짧게 정리한 프론트엔드 지식/npm과 npm 명령어.md",
     "Pasted image 20240711094535.png",
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
-    "짧게 정리한 프론트엔드 지식/라이브러리와 프레임워크.md",
-    "짧게 정리한 프론트엔드 지식/깊은 복사와 얕은 복사.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "사용 이미지/Next.js/guide course/chapter 11/디바운싱.png",
     "사용 이미지/Next.js/guide course/chapter 11/디바운싱 미사용.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)",
