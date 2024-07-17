@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "내 프로젝트/Portfolio.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "내 프로젝트/Portfolio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "내 프로젝트/Portfolio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md"
+                "file": "내 프로젝트/Portfolio.md"
               }
             }
           }
@@ -149,8 +149,16 @@
   "active": "432c35e6c963e213",
   "lastOpenFiles": [
     "해야할 일/공통화 필요.md",
-    "해야할 일/뎁스톤 및 해야할 일.md",
     "해야할 일/package.json 추가.md",
+    "해야할 일/뎁스톤 및 해야할 일.md",
+    "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
+    "회사 세미나/2. 서버(Server).md",
+    "회사 세미나/3. 서버와 클라이언트.md",
+    "회사 세미나/6. GitLab, Jenkins.md",
+    "회사 세미나/8. Nginx(역방향 프록시).md",
+    "회사 세미나/9. 흐름 학습.md",
+    "사용 이미지/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
+    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/08. 프록시와 연관관계 관리.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/프록시 초기화.png",
@@ -177,16 +185,8 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "사용 이미지/Next.js/guide course/chapter 11/디바운싱.png",
     "사용 이미지/Next.js/guide course/chapter 11/디바운싱 미사용.png",
-    "사용 이미지/Next.js/guide course/chapter 11/검색어에 따라 실제 데이터를 반환받은 테이블 컴포넌트.png",
     "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)",
-    "짧게 정리한 프론트엔드 지식/URI, URL.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) use strict.md",
-    "Next.js/React Leaflet/React-Leaflet 백링크.md",
-    "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
-    "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
-    "해야할 일/해야하는 것.md",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
     "사용 이미지/React/react/패키지의 버전 정보",
     "사용 이미지/React/react",

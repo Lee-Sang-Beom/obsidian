@@ -9,6 +9,7 @@
 
 - 이력서관리 (이력서관리, 이력사항등록관리, 자소서 등록관리, 포폴 등록관리)
 - 입사지원관리
+
 #### 3. 화학알리미
 - http://cca.lksmart.co.kr/
 - http://deps.iptime.org:8929/dev1/cca-front.git
@@ -36,13 +37,18 @@
 - http://wisdom.lksmart.co.kr/
 - 회원관리(회원가입, 아이디찾기, 비밀번호찾기, 회원탈퇴, 개인정보 수정)
 
----
-
 #### 7. 옵시디언
 - 지금 여기 쓰고있는 곳
 	- jsp,jquery,nextjs14공식코스,spring등 학습
 	- 업무하면서 이해안되던 것들이나 저장해놔야겠는거 저장
+	  
 - https://github.com/Lee-Sang-Beom/obsidian
 
 #### 8. 공통 컴포넌트
 - https://common-component-91a5.vercel.app/
+
+#### 9. 그룹웨어
+- http://groupware.deps.kr
+
+#### 10. 김해시 공공데이터플랫폼
+- 
