@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/z-index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/z-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/z-index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md"
+                "file": "뎁스톤 기록/z-index.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "9f129989ca2acef5",
   "lastOpenFiles": [
-    "뎁스톤 기록/공통화 필요.md",
     "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+    "뎁스톤 기록/z-index.md",
+    "뎁스톤 기록/공통화 필요.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "뎁스톤 기록/package.json 추가.md",
     "회사 내 백엔드 기록/IR/IR 배포.md",
@@ -185,7 +186,6 @@
     "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
     "짧게 정리한 프론트엔드 지식/DOM.md",
     "backend/Spring 입문 강의/DAY 4.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "사용 이미지/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/08. 프록시와 연관관계 관리.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/프록시 초기화.png",
