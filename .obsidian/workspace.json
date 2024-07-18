@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c5b39726f8c19bfd",
+        "id": "1f9f4d54358b226a",
         "type": "tabs",
         "children": [
           {
-            "id": "070cc9d42f7dc7d7",
+            "id": "9f129989ca2acef5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "해야할 일/뎁스톤 및 해야할 일.md"
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md"
               }
             }
           }
@@ -146,54 +146,54 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "070cc9d42f7dc7d7",
+  "active": "9f129989ca2acef5",
   "lastOpenFiles": [
+    "뎁스톤 기록/공통화 필요.md",
+    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+    "뎁스톤 기록/package.json 추가.md",
+    "회사 내 백엔드 기록/IR/IR 배포.md",
+    "회사 내 백엔드 기록/IR/IR core 파일 만들기.md",
+    "회사 내 백엔드 기록/DB 만들기.md",
+    "회사 내 백엔드 기록/무중단 배포 nginx 에러났을 때 명령어 어떤거써봐야할까.md",
+    "회사 내 백엔드 기록/querydsl 파일 import가 제대로 안될 때.md",
+    "회사 내 백엔드 기록/IR",
+    "회사 내 백엔드 기록/접속 정보.md",
+    "내 프로젝트/Portfolio.md",
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Map과 Set.md",
+    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
+    "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
+    "프로젝트 경험 기록/CKEditor/1. CustomCKEditor CSS 변경.md",
+    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
+    "프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용.md",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckeditor5 커스터마이징 온라인 빌더 step1.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 3.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 4.png",
+    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 2.png",
+    "프로젝트 경험 기록/CKEditor/무제 폴더",
+    "회사 내 백엔드 기록/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
+    "회사 내 백엔드 기록/정보 기록/무제 파일.md",
+    "회사 내 백엔드 기록/정보 기록",
+    "회사 내 백엔드 기록",
+    "무제 파일.md",
     "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
     "짧게 정리한 프론트엔드 지식/Webpack, Babel, Polyfill.md",
     "짧게 정리한 프론트엔드 지식/DOM.md",
     "backend/Spring 입문 강의/DAY 4.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
-    "해야할 일/뎁스톤 및 해야할 일.md",
-    "해야할 일/package.json 추가.md",
-    "해야할 일/공통화 필요.md",
-    "내 프로젝트/Portfolio.md",
-    "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
-    "회사 세미나/2. 서버(Server).md",
-    "회사 세미나/3. 서버와 클라이언트.md",
-    "회사 세미나/6. GitLab, Jenkins.md",
-    "회사 세미나/8. Nginx(역방향 프록시).md",
-    "회사 세미나/9. 흐름 학습.md",
     "사용 이미지/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
-    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/08. 프록시와 연관관계 관리.pdf",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/프록시 초기화.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/프록시특징 1.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/프록시특징 2.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/entityManger.getReference 메소드.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/member조회 시, team도 함께 조회.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/16. 고급 매핑 - 상속관계 매핑 실전 예제.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/15. @MappedSuperClass.md",
-    "해야할 일/해야할 일 (07-11).md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "Pasted image 20240711100505.png",
-    "해야할 일/백업.md",
-    "Pasted image 20240711094535.png",
-    "사용 이미지/Next.js/guide course/chapter 11/디바운싱.png",
-    "사용 이미지/Next.js/guide course/chapter 11/디바운싱 미사용.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)",
     "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
-    "사용 이미지/React/react/패키지의 버전 정보",
-    "사용 이미지/React/react",
-    "사용 이미지/프로젝트 경험 기록/CKEditor",
-    "사용 이미지/프로젝트 경험 기록",
-    "사용 이미지/Next.js/React Leaflet/2. 사용 환경 세팅하기",
-    "사용 이미지/Next.js/React Leaflet/1. React-Leaflet과 GeoJSON",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
