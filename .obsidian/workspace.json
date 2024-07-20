@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md"
               }
             }
           }
@@ -148,10 +148,19 @@
   },
   "active": "9f129989ca2acef5",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
     "Next.js/Next.js 14/Next.js v14.2 정리.md",
     "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
     "내 프로젝트/자기소개.md",
@@ -162,19 +171,10 @@
     "Next.js/React Leaflet/1. React-Leaflet과 GeoJSON.md",
     "뎁스톤 기록/z-index.md",
     "뎁스톤 기록/공통화 필요.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "뎁스톤 기록/package.json 추가.md",
     "회사 내 백엔드 기록/IR/IR 배포.md",
     "회사 내 백엔드 기록/IR/IR core 파일 만들기.md",
-    "회사 내 백엔드 기록/DB 만들기.md",
-    "회사 내 백엔드 기록/무중단 배포 nginx 에러났을 때 명령어 어떤거써봐야할까.md",
-    "회사 내 백엔드 기록/querydsl 파일 import가 제대로 안될 때.md",
     "회사 내 백엔드 기록/IR",
-    "회사 내 백엔드 기록/접속 정보.md",
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Map과 Set.md",
-    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
-    "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckeditor5 커스터마이징 온라인 빌더 step1.png",
