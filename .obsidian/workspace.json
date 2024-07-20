@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/z-index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/z-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/z-index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md"
+                "file": "뎁스톤 기록/z-index.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9f129989ca2acef5",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "뎁스톤 기록/z-index.md",
     "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+    "뎁스톤 기록/z-index.md",
     "뎁스톤 기록/공통화 필요.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "뎁스톤 기록/package.json 추가.md",
