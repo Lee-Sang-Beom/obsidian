@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/더 알아보기/next.config.js 파일 (작성필요).md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md"
               }
             }
           }
@@ -148,9 +148,14 @@
   },
   "active": "9f129989ca2acef5",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js v14.2 정리.md",
+    "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
     "내 프로젝트/자기소개.md",
     "내 프로젝트/Portfolio.md",
-    "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
     "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
     "뎁스톤 기록/뎁스톤 및 해야할 일.md",
@@ -170,9 +175,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Map과 Set.md",
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
-    "프로젝트 경험 기록/CKEditor/1. CustomCKEditor CSS 변경.md",
-    "프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
-    "프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용.md",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckeditor5 커스터마이징 온라인 빌더 step1.png",
@@ -182,8 +184,6 @@
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 4.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 2.png",
     "프로젝트 경험 기록/CKEditor/무제 폴더",
-    "회사 내 백엔드 기록/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
-    "회사 내 백엔드 기록/정보 기록/무제 파일.md",
     "회사 내 백엔드 기록/정보 기록",
     "회사 내 백엔드 기록",
     "사용 이미지/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
