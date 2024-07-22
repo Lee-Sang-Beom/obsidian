@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+                "file": "뎁스톤 기록/백엔드.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+                "file": "뎁스톤 기록/백엔드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+                "file": "뎁스톤 기록/백엔드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md"
+                "file": "뎁스톤 기록/백엔드.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "4063fc75de0eb3cb",
   "lastOpenFiles": [
+    "뎁스톤 기록/공통화 필요.md",
+    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+    "뎁스톤 기록/백엔드.md",
+    "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
     "Next.js/Server Action 사용하기/5. Pending States.md",
     "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
     "Next.js/Server Action 사용하기/3. Forms 사용.md",
@@ -170,10 +174,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
     "Next.js/Next.js 14/Next.js v14.2 정리.md",
     "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
-    "내 프로젝트/자기소개.md",
-    "내 프로젝트/Portfolio.md",
-    "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
-    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
