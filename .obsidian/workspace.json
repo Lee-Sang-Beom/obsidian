@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dc8f771a24bf487a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +159,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4063fc75de0eb3cb",
+  "active": "dc8f771a24bf487a",
   "lastOpenFiles": [
     "뎁스톤 기록/백엔드.md",
     "뎁스톤 기록/공통화 필요.md",
