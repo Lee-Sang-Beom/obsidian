@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/백엔드.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/백엔드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "뎁스톤 기록/백엔드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md"
+                "file": "뎁스톤 기록/백엔드.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "66a7d96737a71de4",
   "lastOpenFiles": [
+    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
     "뎁스톤 기록/백엔드.md",
     "뎁스톤 기록/공통화 필요.md",
     "Next.js/NextAuth 사용하기/5. 기타 - NextAuth 다른 프로젝트에서 사용해보기.md",
@@ -158,7 +159,6 @@
     "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/콜백 함수(Callback Function).md",
-    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
     "내 프로젝트/Portfolio.md",
     "내 프로젝트/자기소개.md",
     "짧게 정리한 프론트엔드 지식/예외처리.md",
