@@ -171,43 +171,6 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "floating": {
-    "id": "7c4364f5c8d68f25",
-    "type": "floating",
-    "children": [
-      {
-        "id": "54aedac2945fe0de",
-        "type": "window",
-        "children": [
-          {
-            "id": "ca94b7d52a546130",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3558bb539665cf87",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "뎁스톤 기록/백엔드.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1140,
-        "y": 156,
-        "width": 615,
-        "height": 993,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "fcaa8f2e560c6e54",
   "lastOpenFiles": [
     "뎁스톤 기록/백엔드.md",
