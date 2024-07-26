@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "뎁스톤 기록/백엔드.md",
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "뎁스톤 기록/백엔드.md",
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "뎁스톤 기록/백엔드.md",
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "뎁스톤 기록/백엔드.md"
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md"
               }
             }
           }
@@ -161,9 +161,9 @@
   },
   "active": "9ddbbc4473f95e1d",
   "lastOpenFiles": [
+    "뎁스톤 기록/백엔드.md",
     "뎁스톤 기록/뎁스톤 및 해야할 일.md",
     "뎁스톤 기록/공통화 필요.md",
-    "뎁스톤 기록/백엔드.md",
     "Next.js/NextAuth 사용하기/5. 기타 - NextAuth 다른 프로젝트에서 사용해보기.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
