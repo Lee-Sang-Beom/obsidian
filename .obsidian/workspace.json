@@ -4,18 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "87bf5095172d3e32",
+        "id": "dcf107c4e9b5b8ba",
         "type": "tabs",
         "children": [
           {
-            "id": "b7bb6047fe56ed34",
+            "id": "a59731054097e51b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1228198d5623569",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "콜백 함수",
+                "query": "Destructuring",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md"
+              }
             }
           }
         ],
@@ -130,42 +149,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "b7bb6047fe56ed34",
+  "active": "c1228198d5623569",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
-    "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
-    "뎁스톤 기록/백엔드.md",
-    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
-    "뎁스톤 기록/공통화 필요.md",
-    "Next.js/NextAuth 사용하기/5. 기타 - NextAuth 다른 프로젝트에서 사용해보기.md",
-    "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
-    "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
-    "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
-    "Next.js/NextAuth 사용하기/기타 알아보아야 할 내용.md",
-    "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
-    "짧게 정리한 프론트엔드 지식/콜백 함수(Callback Function).md",
+    "짧게 정리한 프론트엔드 지식/ES.md",
+    "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
     "내 프로젝트/Portfolio.md",
     "내 프로젝트/자기소개.md",
-    "짧게 정리한 프론트엔드 지식/예외처리.md",
-    "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
-    "Next.js/Server Action 사용하기/5. Pending States.md",
-    "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
-    "Next.js/Server Action 사용하기/3. Forms 사용.md",
-    "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
-    "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+    "내 프로젝트/화학 알리미/dev 브랜치 이관작업.md",
+    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
+    "회사 내 백엔드 기록/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
+    "회사 내 백엔드 기록/접속 정보.md",
+    "회사 내 백엔드 기록/무중단 배포 nginx 에러났을 때 명령어 어떤거써봐야할까.md",
+    "회사 세미나/5. 프로토콜, 포트번호.md",
+    "회사 세미나/8. Nginx(역방향 프록시).md",
+    "회사 세미나/7. Docker.md",
+    "회사 세미나/회사 세미나 백링크.md",
+    "회사 세미나/4. 도메인과 네임서버.md",
+    "회사 세미나/3. 서버와 클라이언트.md",
+    "회사 세미나/2. 서버(Server).md",
+    "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
+    "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
+    "프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용.md",
+    "회사 내 백엔드 기록/DB 만들기.md",
+    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+    "뎁스톤 기록/백엔드.md",
+    "뎁스톤 기록/z-index.md",
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
