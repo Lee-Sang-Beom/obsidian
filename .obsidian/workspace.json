@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) HTML과 HTML5.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "c1228198d5623569",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) HTML과 HTML5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) HTML과 HTML5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md"
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) HTML과 HTML5.md"
               }
             }
           }
@@ -149,16 +138,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c1228198d5623569",
+  "active": "a59731054097e51b",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/ES.md",
     "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
     "내 프로젝트/Portfolio.md",
@@ -183,7 +173,6 @@
     "뎁스톤 기록/뎁스톤 및 해야할 일.md",
     "뎁스톤 기록/백엔드.md",
     "뎁스톤 기록/z-index.md",
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
