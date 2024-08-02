@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dcf107c4e9b5b8ba",
+        "id": "ec4bba57e7ad6a6f",
         "type": "tabs",
         "children": [
           {
-            "id": "a59731054097e51b",
+            "id": "9f025b5622893d67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/HTML과 HTML5.md",
+                "file": "짧게 정리한 프론트엔드 지식/use strict.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 408.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/HTML과 HTML5.md",
+                "file": "짧게 정리한 프론트엔드 지식/use strict.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/HTML과 HTML5.md",
+                "file": "짧게 정리한 프론트엔드 지식/use strict.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/HTML과 HTML5.md"
+                "file": "짧게 정리한 프론트엔드 지식/use strict.md"
               }
             }
           }
@@ -146,8 +146,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a59731054097e51b",
+  "active": "9f025b5622893d67",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
+    "짧게 정리한 프론트엔드 지식/SPA, MPA.md",
+    "짧게 정리한 프론트엔드 지식/URI, URL.md",
+    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
+    "짧게 정리한 프론트엔드 지식/HTML과 HTML5.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/ES.md",
     "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
@@ -169,11 +174,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
     "프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
     "프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용.md",
-    "회사 내 백엔드 기록/DB 만들기.md",
-    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
-    "뎁스톤 기록/백엔드.md",
-    "뎁스톤 기록/z-index.md",
-    "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
