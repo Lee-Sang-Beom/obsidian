@@ -28,12 +28,41 @@ function myFunction() {
 }
 ```
 
-#### 3. 특징
-- 주요 특징으로는
-    1. 선언되지 않은 변수에 값을 할당할 경우, **해당 이름의 전역변수가 자동으로 생성되는 자바스크립트의 문제를 보완**하여 우발적인 전역변수 선언을 방지할 수 있도록 한다.
+#### 3. 선언 효과
 
-    2. 기존에 무시되었던 에러는 **throwing으로 오류가 발생**되도록 하여, 코드 문제를 더 빨리 알려준다. 이는 **디버깅**을 쉽게 할 수 있도록 도와준다.
+- 변수 선언 누락 방지
+```js
+"use strict";
+x = 3.14; // ReferenceError: x is not defined
+```
 
-    3. **자바스크립트 엔진의 최적화 처리를 어렵게 만드는 코드를 수정**할 수 있도록 함으로써, 수행 속도를 개선시킨다. 
-    4. 미래 **ECMAScript로 정의될 예정구문의 사용을 금지**함으로써 발생 가능한 에러를 예방할 수 있도록 한다.
-    5. this는 전역 컨텍스트에서 undefined가 되도록 한다.
+- 암시적 전역 객체 방지
+```js
+"use strict";
+function myFunction() {
+    this.x = 10; // TypeError: Cannot set property 'x' of undefined
+}
+```
+
+- 중복 속성 이름 금지
+```js
+"use strict";
+var obj = {
+    prop: 1,
+    prop: 2 // SyntaxError: Duplicate data property in object literal not allowed in strict mode
+};
+```
+
+- with문 사용 금지
+```js
+"use strict";
+with (obj) { // SyntaxError: Strict mode code may not include a with statement
+    prop = 1;
+}
+```
+
+- 예약어 사용 금지
+```js
+"use strict";
+var let = 1; // SyntaxError: Unexpected strict mode reserved word
+```
