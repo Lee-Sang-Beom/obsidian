@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "콜백 함수",
+                "query": "useSearch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,8 +149,9 @@
   "active": "b7bb6047fe56ed34",
   "lastOpenFiles": [
     "회사 업무 관련/백엔드 페이지 설계 정리.md",
-    "회사 업무 관련/해야할 일 정리.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "회사 업무 관련/뎁스톤.md",
+    "회사 업무 관련/해야할 일 정리.md",
     "회사 업무 관련/프론트엔드 페이지 설계 정리.md",
     "회사 업무 관련/공통화 필요.md",
     "conflict-files-obsidian-git.md",
@@ -173,7 +174,6 @@
     "Next.js/Server Action 사용하기/5. Pending States.md",
     "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
     "Next.js/Server Action 사용하기/3. Forms 사용.md",
-    "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
