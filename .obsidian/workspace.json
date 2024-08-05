@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md"
+                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "b7bb6047fe56ed34",
   "lastOpenFiles": [
-    "뎁스톤 기록/백엔드.md",
-    "뎁스톤 기록/설계 정리.md",
-    "뎁스톤 기록/공통화 필요.md",
-    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+    "회사 업무 관련/해야할 일 정리.md",
+    "회사 업무 관련/뎁스톤.md",
+    "회사 업무 관련/프론트엔드 페이지 설계 정리.md",
+    "회사 업무 관련/공통화 필요.md",
+    "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "conflict-files-obsidian-git.md",
     "짧게 정리한 프론트엔드 지식/use strict.md",
     "짧게 정리한 프론트엔드 지식/HTML과 HTML5.md",
@@ -173,7 +174,6 @@
     "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
     "Next.js/Server Action 사용하기/3. Forms 사용.md",
     "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
-    "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
