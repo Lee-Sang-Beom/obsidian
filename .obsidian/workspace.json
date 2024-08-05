@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "뎁스톤 기록/설계 정리.md",
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "뎁스톤 기록/설계 정리.md",
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "뎁스톤 기록/설계 정리.md",
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "뎁스톤 기록/설계 정리.md"
+                "file": "뎁스톤 기록/뎁스톤 및 해야할 일.md"
               }
             }
           }
@@ -148,16 +148,16 @@
   },
   "active": "b7bb6047fe56ed34",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "뎁스톤 기록/백엔드.md",
     "뎁스톤 기록/설계 정리.md",
+    "뎁스톤 기록/공통화 필요.md",
+    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
+    "conflict-files-obsidian-git.md",
     "짧게 정리한 프론트엔드 지식/use strict.md",
     "짧게 정리한 프론트엔드 지식/HTML과 HTML5.md",
     "짧게 정리한 프론트엔드 지식/ES.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
-    "뎁스톤 기록/백엔드.md",
-    "뎁스톤 기록/뎁스톤 및 해야할 일.md",
-    "뎁스톤 기록/공통화 필요.md",
     "Next.js/NextAuth 사용하기/5. 기타 - NextAuth 다른 프로젝트에서 사용해보기.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
