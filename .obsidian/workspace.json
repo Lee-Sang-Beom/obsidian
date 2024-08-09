@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
+                "file": "회사 업무 관련/해야할 일 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
+                "file": "회사 업무 관련/해야할 일 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
+                "file": "회사 업무 관련/해야할 일 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md"
+                "file": "회사 업무 관련/해야할 일 정리.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "b7bb6047fe56ed34",
   "lastOpenFiles": [
+    "회사 업무 관련/뎁스톤.md",
+    "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
     "짧게 정리한 프론트엔드 지식/forEach()와 map()의 차이.md",
     "회사 업무 관련/해야할 일 정리.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
     "회사 내 백엔드 기록/무중단 배포 nginx 에러났을 때 명령어 어떤거써봐야할까.md",
-    "회사 업무 관련/뎁스톤.md",
     "회사 업무 관련/프론트엔드 페이지 설계 정리.md",
     "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "회사 세미나/2. 서버(Server).md",
@@ -173,7 +174,6 @@
     "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
     "Next.js/NextAuth 사용하기/5. 기타 - NextAuth 다른 프로젝트에서 사용해보기.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
-    "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
