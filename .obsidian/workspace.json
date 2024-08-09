@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
+                "file": "회사 업무 관련/뎁스톤.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
+                "file": "회사 업무 관련/뎁스톤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
+                "file": "회사 업무 관련/뎁스톤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md"
+                "file": "회사 업무 관련/뎁스톤.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "b7bb6047fe56ed34",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/자바스크립트의 배열 (이거 해야함!).md",
     "짧게 정리한 프론트엔드 지식/forEach()와 map()의 차이.md",
     "회사 업무 관련/해야할 일 정리.md",
     "회사 업무 관련/뎁스톤.md",
-    "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP의 구조.md",
     "회사 내 백엔드 기록/무중단 배포 nginx 에러났을 때 명령어 어떤거써봐야할까.md",
     "회사 업무 관련/프론트엔드 페이지 설계 정리.md",
