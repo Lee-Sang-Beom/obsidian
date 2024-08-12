@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ec4bba57e7ad6a6f",
+        "id": "8d09754dac646030",
         "type": "tabs",
         "children": [
           {
-            "id": "9f025b5622893d67",
+            "id": "832e45af8689ac7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "`useDeferredValue`",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,12 +146,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "38fb693a809a6c4a",
+  "active": "832e45af8689ac7b",
   "lastOpenFiles": [
-    "Next.js/Server Action 사용하기/7. Optimistic updates.md",
-    "React/React-19.md",
-    "Next.js/Server Action 사용하기/5. Pending States.md",
     "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+    "React/React-19.md",
+    "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
+    "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
+    "Next.js/Server Action 사용하기/7. Optimistic updates.md",
+    "Next.js/Server Action 사용하기/5. Pending States.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
     "짧게 정리한 프론트엔드 지식/use strict.md",
     "회사 업무 관련/해야할 일 정리.md",
@@ -174,8 +175,6 @@
     "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
     "내 프로젝트/Portfolio.md",
     "내 프로젝트/자기소개.md",
-    "내 프로젝트/화학 알리미/dev 브랜치 이관작업.md",
-    "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",

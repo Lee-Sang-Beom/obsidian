@@ -4,13 +4,16 @@
 - React 앱에서 데이터 변경을 처리할 때, 전통적으로 `useState`를 사용하여 대기 상태(pending), 에러, 낙관적 업데이트(optimistic updates), 그리고 순차적 요청을 수동으로 처리해야 했습니다. 예를 들어, 사용자가 이름을 변경할 때 API 요청을 보내고, 그에 따른 대기 상태와 에러 등을 직접 관리해야 했습니다.
 
 - React 19에서는 비동기 함수를 트랜지션(transition)에서 사용하여 대기 상태, 에러, 폼 제출, 낙관적 업데이트를 자동으로 처리할 수 있게 되었습니다. 예를 들어, `useTransition` 훅을 사용하여 대기 상태를 자동으로 관리할 수 있습니다.
+	- React의 `useTransition` 훅은 비동기 작업이 진행되는 동안 UI의 응답성을 유지하는 데 사용된다.
+	- `startTransition` 함수는 비동기 작업을 감싸고, 작업이 진행 중일 때 `isPending` 상태를 관리합니다.
 ```tsx
 // Using pending state from Actions
 function UpdateName({}) {
   const [name, setName] = useState("");
   const [error, setError] = useState(null);
-  const [isPending, startTransition] = useTransition();
 
+  // startTransition: 비동기 작업을 트랜지션 내에서 실행할 수 있게 해주는 함수
+  const [isPending, startTransition] = useTransition(); 
   const handleSubmit = () => {
     startTransition(async () => {
       const error = await updateName(name);
@@ -37,7 +40,7 @@ function UpdateName({}) {
 
 #### 2. `useActionState`
 
-- React 19에서는 **useActionState**라는 새로운 훅이 추가되었습니다. 이 훅은 일반적인 Actions 작업을 더 쉽게 처리할 수 있도록 도와줍니다. `useActionState`는 함수를 받아, 호출할 때마다 대기 상태와 최종 결과를 관리합니다
+- React 19에서는 **useActionState**라는 새로운 훅이 추가되었습니다. 이 훅은 일반적인 Actions 작업을 더 쉽게 처리할 수 있도록 도와줍니다. `useActionState`는 함수를 받아, 호출할 때마다 대기 상태와 최종 결과를 관리합니다.
 
 ```tsx
 const [error, submitAction, isPending] = useActionState(
@@ -50,10 +53,36 @@ const [error, submitAction, isPending] = useActionState(
   },
   null,
 );
-
 ```
 - 이 훅은 비동기 함수(“Action”)를 받아 처리하며, 결과와 대기 상태를 반환합니다. 이전에 "ReactDOM.useFormState"로 불리던 이 훅은 이제 **React.useActionState**로 이름이 변경되었습니다.
 	- 이러한 새로운 기능들은 React 19에서의 데이터 관리와 상호작용을 더욱 간단하고 효율적으로 만들어줍니다.
+	- [[6. Server-side validation and error handling]]
+
+- `useActionState` hook의 반환값은 아래와 같습니다.
+	- `error`: 현재 상태에서의 오류를 나타냅니다.
+	- `submitAction`: 비동기 작업을 수행하는 함수입니다.
+	- `isPending`: 비동기 작업이 진행 중인지를 나타내는 boolean 값입니다.
+
+- 그리고, 다음은 코드의 각 부분에 대한 설명입니다.
+	1. **`useActionState`**: 비동기 작업의 상태를 관리하는 커스텀 hook입니다.
+		- `useActionState`의 첫 번째 인수로는 비동기 작업을 정의하는 함수가 전달됩니다. 
+		- 이 함수는 이전 상태와 새로운 값을 인수로 받아 처리합니다.
+	  
+	2. **비동기 작업 함수**: 이 함수는 `previousState`와 `newName`을 인수로 받아 비동기 작업을 수행합니다. 
+		- `updateName(newName)`은 이름을 업데이트하는 함수이며, 오류가 발생하면 오류를 반환하고, 성공하면 `null`을 반환합니다.
+	   
+	3. **초기 상태**: 두 번째 인수로는 초기 상태가 전달됩니다. 여기서는 `null`을 사용하고 있습니다.
+
+- 비동기 작업 함수에 전달되는 콜백 함수에 대한 설명은 아래와 같습니다.
+	1. **`previousState`**
+	    - 이 인수는 비동기 작업이 시작되기 전의 이전 상태를 나타냅니다.
+	    - 상태 관리를 위해 사용하는 경우가 많으며, 비동기 작업의 결과에 따라 상태를 업데이트할 때 유용합니다.
+	    - 예를 들어, 이전 상태에서 어떤 정보가 있었는지 또는 비동기 작업이 수행되기 전에의 상태를 알고 싶을 때 사용합니다.
+      
+	2. **`newName`**:
+	    - 이 인수는 비동기 작업에 필요한 새로운 데이터를 나타냅니다. 이 코드에서 `newName`은 이름을 업데이트하기 위해 사용되는 값입니다.
+	    - `updateName(newName)` 함수는 이 `newName` 값을 사용하여 이름을 업데이트하려고 시도하며, 이 작업이 성공하거나 실패할 때 상태를 반환합니다.
+	    - 이 코드에서는 `submitAction` 함수가 호출될 때 제공되는 새로운 이름 값입니다. 이 값은 `updateName` 함수에 전달되어 이름 업데이트를 시도합니다.
 
 #### 3. `<form>` Actions
 
