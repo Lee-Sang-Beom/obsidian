@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+                "file": "React/React-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "useFormState",
+                "query": "`useDeferredValue`",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+                "file": "React/React-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+                "file": "React/React-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md"
+                "file": "React/React-19.md"
               }
             }
           }
@@ -147,8 +147,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9f025b5622893d67",
+  "active": "38fb693a809a6c4a",
   "lastOpenFiles": [
+    "Next.js/Server Action 사용하기/7. Optimistic updates.md",
+    "React/React-19.md",
+    "Next.js/Server Action 사용하기/5. Pending States.md",
+    "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
     "짧게 정리한 프론트엔드 지식/use strict.md",
     "회사 업무 관련/해야할 일 정리.md",
@@ -172,10 +176,6 @@
     "내 프로젝트/자기소개.md",
     "내 프로젝트/화학 알리미/dev 브랜치 이관작업.md",
     "프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
-    "회사 내 백엔드 기록/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
-    "회사 내 백엔드 기록/접속 정보.md",
-    "회사 내 백엔드 기록/무중단 배포 nginx 에러났을 때 명령어 어떤거써봐야할까.md",
-    "회사 세미나/5. 프로토콜, 포트번호.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
