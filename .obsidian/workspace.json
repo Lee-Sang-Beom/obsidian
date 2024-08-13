@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "css 모듈",
+                "query": "currentTarget",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,6 +148,8 @@
   },
   "active": "832e45af8689ac7b",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/(수정필요) event.target과 event.currentTarget.md",
+    "React/hook/useState.md",
     "React/react-hook-form/4. react-hook-form 사용하기.md",
     "React/react-hook-form/2. 주요 함수 및 객체.md",
     "React/react-hook-form/3. 실제 프로젝트 사용을 위한 베이스 로직 만들기.md",
@@ -158,7 +160,6 @@
     "React/hook/useLayoutEffect.md",
     "React/hook/useMemo.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Map과 Set.md",
-    "React/hook/useState.md",
     "React/hook/useRef.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "사용 이미지/Next.js/더 알아보기/서버 컴포넌트와 클라이언트 컴포넌트.png",
@@ -185,7 +186,6 @@
     "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/1. Next.js 설치.md",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/2. 기본 디렉터리 구조/app 디렉터리 구조.png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/2. 기본 디렉터리 구조",
-    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/1. Next.js 설치",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)",
     "사용 이미지/회사 내 경험 모음",
