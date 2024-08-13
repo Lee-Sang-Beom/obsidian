@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f0ae8839c380948f",
+        "id": "8d09754dac646030",
         "type": "tabs",
         "children": [
           {
-            "id": "6c3c2b34bacb22b4",
+            "id": "832e45af8689ac7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/hook/useId.md",
+                "file": "React/React-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 449.5
+    "width": 408.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/hook/useId.md",
+                "file": "React/React-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/hook/useId.md",
+                "file": "React/React-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/hook/useId.md"
+                "file": "React/React-19.md"
               }
             }
           }
@@ -146,34 +146,35 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6c3c2b34bacb22b4",
+  "active": "832e45af8689ac7b",
   "lastOpenFiles": [
-    "React/hook/useLayoutEffect.md",
-    "React/hook/useMemo.md",
-    "React/hook/useReducer.md",
-    "React/hook/useRef.md",
-    "React/hook/useState.md",
-    "React/hook/useId.md",
-    "React/hook/useEffect.md",
-    "React/hook/useContext.md",
-    "React/hook/useCallback.md",
-    "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
-    "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
-    "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
-    "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "Next.js/더 알아보기/rewrite, redirect.md",
-    "Next.js/더 알아보기/Middleware.md",
-    "Next.js/더 알아보기/package.json과 package-lock.json.md",
-    "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
-    "회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
-    "회사 세미나/2. 서버(Server).md",
-    "회사 세미나/3. 서버와 클라이언트.md",
-    "회사 세미나/9. 흐름 학습.md",
-    "회사 세미나/회사 세미나 백링크.md",
+    "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+    "React/React-19.md",
+    "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
+    "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
+    "Next.js/Server Action 사용하기/7. Optimistic updates.md",
+    "Next.js/Server Action 사용하기/5. Pending States.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
+    "짧게 정리한 프론트엔드 지식/use strict.md",
+    "회사 업무 관련/해야할 일 정리.md",
     "회사 업무 관련/프론트엔드 페이지 설계 정리.md",
     "회사 업무 관련/백엔드 페이지 설계 정리.md",
-    "회사 업무 관련/해야할 일 정리.md",
+    "회사 업무 관련/뎁스톤.md",
+    "회사 업무 관련",
+    "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
+    "짧게 정리한 프론트엔드 지식/forEach()와 map()의 차이.md",
+    "짧게 정리한 프론트엔드 지식/TypeScript.md",
+    "짧게 정리한 프론트엔드 지식/Scope.md",
+    "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
+    "짧게 정리한 프론트엔드 지식/SPA, MPA.md",
+    "짧게 정리한 프론트엔드 지식/URI, URL.md",
+    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
+    "짧게 정리한 프론트엔드 지식/HTML과 HTML5.md",
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/ES.md",
+    "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
+    "내 프로젝트/Portfolio.md",
+    "내 프로젝트/자기소개.md",
     "회사 내 백엔드 기록/IR",
     "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
     "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
@@ -193,7 +194,6 @@
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/프록시특징 2.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리",
     "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)",
-    "사용 이미지/Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
