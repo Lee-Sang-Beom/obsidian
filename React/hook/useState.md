@@ -95,25 +95,6 @@ return (
 
 - `setState`는 기본적으로 상태 변경 시 비동기로 동작한다고 언급했다.
 	- 그럼 아래 코드에서 버튼을 클릭하면 `count`는 뭐라고 출력될까?
-```tsx
-
-const [count, setCount] = useState<number>(0);
-
-return (
-	{/* ... */}
-	<button
-	onClick={()=>{
-		setCount(prev => prev+1);
-		if(count === 5) {
-			console.log('count is 5 : ', count);
-		}
-	}}>
-	</button>
-)
-```
-
-- 때문에, 위의 코드에서 버튼을 5회 클릭해 `count` 값이 5가 되면 바로 `console.log(...)`가 출력되지 않고, 1번 더 클릭해야 출력된다.
-	- 즉, `setCount(...)`가 비동기적으로 동작하여, `if(count)===5`조건문이 **이전 값**을 바라보면서 통과되지 않는 것이다.
 
 ```tsx
 // ...
