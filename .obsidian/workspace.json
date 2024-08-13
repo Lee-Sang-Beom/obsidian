@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React-19.md",
+                "file": "회사 내 경험 모음/회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "라이브러리와 프레",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React-19.md",
+                "file": "회사 내 경험 모음/회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React-19.md",
+                "file": "회사 내 경험 모음/회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React-19.md"
+                "file": "회사 내 경험 모음/회사 세미나/1. Next.js 프로젝트 초기 세팅.md"
               }
             }
           }
@@ -148,52 +148,51 @@
   },
   "active": "832e45af8689ac7b",
   "lastOpenFiles": [
-    "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+    "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/1. Next.js 설치.md",
+    "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/1. Next.js 설치",
+    "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)",
+    "사용 이미지/회사 내 경험 모음",
+    "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/1. Next.js 설치/Next.js 설치.png",
+    "회사 내 경험 모음/회사 세미나/9. 흐름 학습.md",
+    "회사 내 경험 모음",
+    "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)",
+    "회사 내 경험 모음/회사 세미나/8. Nginx(역방향 프록시).md",
+    "회사 내 경험 모음/회사 세미나/7. Docker.md",
+    "회사 내 경험 모음/회사 세미나/6. GitLab, Jenkins.md",
+    "회사 내 경험 모음/회사 세미나/5. 프로토콜, 포트번호.md",
+    "회사 내 경험 모음/회사 세미나/4. 도메인과 네임서버.md",
+    "회사 내 경험 모음/회사 세미나/3. 서버와 클라이언트.md",
+    "회사 내 경험 모음/회사 세미나/2. 서버(Server).md",
+    "회사 내 경험 모음/회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
+    "짧게 정리한 프론트엔드 지식/라이브러리와 프레임워크.md",
+    "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP와 HTTPS.md",
+    "짧게 정리한 프론트엔드 지식/콜백 함수(Callback Function).md",
     "React/React-19.md",
+    "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
     "Next.js/Server Action 사용하기/Server Action 사용하기 백링크.md",
     "Next.js/Server Action 사용하기/8. Programmatic form submission.md",
     "Next.js/Server Action 사용하기/7. Optimistic updates.md",
     "Next.js/Server Action 사용하기/5. Pending States.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 네이티브 객체와 호스트 객체.md",
     "짧게 정리한 프론트엔드 지식/use strict.md",
-    "회사 업무 관련/해야할 일 정리.md",
-    "회사 업무 관련/프론트엔드 페이지 설계 정리.md",
-    "회사 업무 관련/백엔드 페이지 설계 정리.md",
-    "회사 업무 관련/뎁스톤.md",
     "회사 업무 관련",
-    "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
-    "짧게 정리한 프론트엔드 지식/forEach()와 map()의 차이.md",
-    "짧게 정리한 프론트엔드 지식/TypeScript.md",
-    "짧게 정리한 프론트엔드 지식/Scope.md",
-    "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
-    "짧게 정리한 프론트엔드 지식/SPA, MPA.md",
-    "짧게 정리한 프론트엔드 지식/URI, URL.md",
-    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
-    "짧게 정리한 프론트엔드 지식/HTML과 HTML5.md",
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
-    "짧게 정리한 프론트엔드 지식/ES.md",
-    "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법.md",
-    "내 프로젝트/Portfolio.md",
-    "내 프로젝트/자기소개.md",
-    "회사 내 백엔드 기록/IR",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckeditor5 커스터마이징 온라인 빌더 step1.png",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 3.png",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 4.png",
-    "사용 이미지/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 2.png",
+    "회사 내 경험 모음/회사 내 백엔드 기록/IR",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 1.png",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckEditor 디렉터리.png",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징/ckeditor5 커스터마이징 온라인 빌더 step1.png",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 3.png",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 4.png",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 2.png",
     "프로젝트 경험 기록/CKEditor/무제 폴더",
-    "회사 내 백엔드 기록/정보 기록",
-    "회사 내 백엔드 기록",
-    "사용 이미지/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/자바 ORM 표준 JPA 프로그래밍 - 기본편 강의자료/08. 프록시와 연관관계 관리.pdf",
+    "사용 이미지/회사 내 경험 모음/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/프록시 초기화.png",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/프록시특징 1.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리/프록시특징 2.png",
-    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/17. 프록시와 연관관계 정리",
-    "사용 이미지/짧게 정리한 프론트엔드 지식/URL, URI, (URN)",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
