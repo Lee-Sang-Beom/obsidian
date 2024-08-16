@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "16496d9064efaf88",
+        "id": "9a23be2e3a1710fb",
         "type": "tabs",
         "children": [
           {
-            "id": "8f68f63fea51b404",
+            "id": "3a50261016904e7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/CSS, SASS, SCSS.md",
+                "file": "회사 업무 관련/뎁스톤.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/CSS, SASS, SCSS.md",
+                "file": "회사 업무 관련/뎁스톤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/CSS, SASS, SCSS.md",
+                "file": "회사 업무 관련/뎁스톤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/CSS, SASS, SCSS.md"
+                "file": "회사 업무 관련/뎁스톤.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8f68f63fea51b404",
+  "active": "3a50261016904e7f",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/CSS, SASS, SCSS.md",
     "회사 업무 관련/프론트엔드 페이지 설계 정리.md",
     "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "회사 업무 관련/해야할 일 정리.md",
@@ -174,7 +175,6 @@
     "React/react-hook-form/1. React-hook-form 소개.md",
     "React/hook/useLayoutEffect.md",
     "React/hook/useId.md",
-    "React/hook/useRef.md",
     "사용 이미지/Next.js/더 알아보기/서버 컴포넌트와 클라이언트 컴포넌트.png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션/특정 페이지만 필요한 컴포넌트(3).png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션/특정 페이지만 필요한 컴포넌트(1).png",
