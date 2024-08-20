@@ -11,8 +11,12 @@
             "id": "bdd361ccf94e9fed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Timestamps/2024-08-20.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "URI",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Timestamps/2024-08-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Timestamps/2024-08-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +124,25 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Timestamps/2024-08-20.md"
+              }
+            }
+          },
+          {
+            "id": "bd7c1d9ac436be5e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 482.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -135,23 +151,30 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "bdd361ccf94e9fed",
   "lastOpenFiles": [
+    "Template/Daily Note.md",
+    "Timestamps/2024-08-20.md",
+    "Timestamps/2024-08-21.md",
+    "회사 업무 관련/해야할 일 정리.md",
+    "회사 업무 관련/백엔드 페이지 설계 정리.md",
+    "회사 업무 관련/뎁스톤.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
+    "Timestamps",
+    "Template",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "짧게 정리한 프론트엔드 지식/(수정필요) 이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
-    "회사 업무 관련/뎁스톤.md",
-    "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "짧게 정리한 프론트엔드 지식/event.target과 event.currentTarget.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "회사 업무 관련/프론트엔드 페이지 설계 정리.md",
     "짧게 정리한 프론트엔드 지식/CSS, SASS, SCSS.md",
-    "회사 업무 관련/해야할 일 정리.md",
     "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/코드하우스 공유 계획 노션 링크.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
@@ -163,10 +186,6 @@
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/콜백 함수(Callback Function).md",
     "짧게 정리한 프론트엔드 지식/JWT.md",
-    "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
-    "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/2. 기본 디렉터리 구조.md",
-    "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/1. Next.js 설치.md",
-    "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션.md",
     "사용 이미지/Next.js/더 알아보기/서버 컴포넌트와 클라이언트 컴포넌트.png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션/특정 페이지만 필요한 컴포넌트(3).png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션/특정 페이지만 필요한 컴포넌트(1).png",
@@ -184,8 +203,6 @@
     "회사 내 경험 모음",
     "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)",
     "회사 업무 관련",
-    "회사 내 경험 모음/회사 내 백엔드 기록/IR",
-    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
