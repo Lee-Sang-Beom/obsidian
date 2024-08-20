@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 482.5
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,9 +157,9 @@
   },
   "active": "bdd361ccf94e9fed",
   "lastOpenFiles": [
-    "Template/Daily Note.md",
-    "Timestamps/2024-08-20.md",
     "Timestamps/2024-08-21.md",
+    "Timestamps/2024-08-20.md",
+    "Template/Daily Note.md",
     "회사 업무 관련/해야할 일 정리.md",
     "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "회사 업무 관련/뎁스톤.md",
