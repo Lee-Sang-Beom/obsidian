@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md"
               }
             }
           },
@@ -157,8 +157,12 @@
   },
   "active": "953abee0e9bfd2d6",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+    "Timestamps/2024-08-23.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션 결과 화면.png",
@@ -167,7 +171,6 @@
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 3 form 입력결과.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step1.png",
     "Timestamps/2024-08-22.md",
-    "Timestamps/2024-08-23.md",
     "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
     "짧게 정리한 프론트엔드 지식/event.target과 event.currentTarget.md",
     "짧게 정리한 프론트엔드 지식/JWT.md",
@@ -189,9 +192,6 @@
     "회사 업무 관련/뎁스톤.md",
     "Timestamps",
     "Template",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
     "사용 이미지/Next.js/더 알아보기/서버 컴포넌트와 클라이언트 컴포넌트.png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션/특정 페이지만 필요한 컴포넌트(3).png",
