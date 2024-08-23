@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "df67c0eb85a1092c",
+        "id": "504086765d17653f",
         "type": "tabs",
         "children": [
           {
-            "id": "bdd361ccf94e9fed",
+            "id": "2e35cdf36f123566",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/undefined, undeclared, null, NaN.md",
+                "file": "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a383c4d5519dda89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/undefined, undeclared, null, NaN.md",
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/undefined, undeclared, null, NaN.md",
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/undefined, undeclared, null, NaN.md"
+                "file": "짧게 정리한 프론트엔드 지식/JWT.md"
               }
             }
           },
@@ -155,16 +168,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bdd361ccf94e9fed",
+  "active": "a383c4d5519dda89",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
-    "Timestamps/2024-08-23.md",
-    "Timestamps/2024-08-22.md",
-    "회사 업무 관련/백엔드 페이지 설계 정리.md",
+    "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
+    "짧게 정리한 프론트엔드 지식/CORS.md",
+    "짧게 정리한 프론트엔드 지식/JWT.md",
+    "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
     "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
+    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Data Binding.md",
+    "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
+    "짧게 정리한 프론트엔드 지식/CSS - Display Property.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 웹 표준.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Ajax.md",
+    "Timestamps/2024-08-23.md",
     "Timestamps/2024-08-20.md",
-    "Timestamps/2024-08-21.md",
+    "Timestamps/2024-08-22.md",
     "Template/Daily Note.md",
+    "짧게 정리한 프론트엔드 지식/undefined, undeclared, null, NaN.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
+    "회사 업무 관련/백엔드 페이지 설계 정리.md",
+    "Timestamps/2024-08-21.md",
     "회사 업무 관련/해야할 일 정리.md",
     "회사 업무 관련/뎁스톤.md",
     "Timestamps",
@@ -174,18 +198,7 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "짧게 정리한 프론트엔드 지식/event.target과 event.currentTarget.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
-    "회사 업무 관련/프론트엔드 페이지 설계 정리.md",
-    "짧게 정리한 프론트엔드 지식/CSS, SASS, SCSS.md",
-    "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/코드하우스 공유 계획 노션 링크.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/2. CSS Styling.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) CRUD & REST.md",
-    "짧게 정리한 프론트엔드 지식/URI, URL.md",
-    "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
     "사용 이미지/Next.js/더 알아보기/서버 컴포넌트와 클라이언트 컴포넌트.png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션/특정 페이지만 필요한 컴포넌트(3).png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션/특정 페이지만 필요한 컴포넌트(1).png",

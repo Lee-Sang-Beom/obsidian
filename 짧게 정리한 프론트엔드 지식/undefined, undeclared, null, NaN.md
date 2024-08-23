@@ -30,15 +30,26 @@ console.log(z); // ReferenceError: z is not defined
 
 - null은 변수를 선언하고, 변수에 null이란 빈 값을 할당하는 것이다. 
 	- 프로그래머가 변수가 비어있음을 명시적으로 표현할 때 사용하며, **의도적으로 값이 없음**을 나타내는 값이다.
-	- null이라는 빈 값을 할당하면, 해당 변수는 객체가 된다. 
+	- null이라는 빈 값을 할당하면, 해당 변수는 객체가 된다. (`typeof null` 시, `object`라고 출력됨)
 
-- 즉, 변수가 하나의 값으로 정의가 되었지만, 그 값은 빈 값으로 정의가 된 것입니다.
-   - 추가로 typeof null 시, object라고 출력됩니다. 
+```js
+let a = null;
+console.log(a); // 출력: null
+console.log(typeof a); // 출력: object
+```
 
----
 
-### NaN
 
-- NaN은 값이 컴퓨터로 표현할 수 있는 유효한 숫자값이 아닐 때 표현하기 위한 값입니다. 
-    - 예를들면, ```hello```라는 문자열을 7으로 나눈다거나 할 때 발생합니다.
+#### 4. NaN(Not a Number)
 
+- NaN은 숫자형 계산에서 잘못된 연산이 발생했음을 나타낸다.
+	- 주로 숫자가 아닌 값을 숫자로 변환하려 할 때나, 잘못된 수학적 연산의 결과로 발생한다.
+    - 예를들면, ```hello```라는 문자열을 2으로 나눈다거나 할 때 발생한다.
+
+```js
+let b = "hello" / 2;
+console.log(b); // 출력: NaN
+
+console.log(Math.sqrt(-1)); // 출력: NaN -> 음수의 제곱근을 계산하려 함
+console.log(isNaN("hello" / 2)) // 출력: true
+```
