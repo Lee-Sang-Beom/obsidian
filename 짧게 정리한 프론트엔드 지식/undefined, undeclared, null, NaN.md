@@ -1,11 +1,23 @@
 
-### undefined
+- 자바스크립트에서 `undefined`, `undeclared`, `null`, `NaN`는 각각 다르게 취급되며, 의미도 다르다.
+	- 헷갈릴 수 있으니, 예제와 함께 보며 알아가보자.
 
-- **undefined**는 접근 가능한 스코프에 변수가 선언은 되었으나 아무런 값도 할당되지 않은 상태입니다.
 
----
+#### 1. undefined
 
-### undeclared
+- **undefined**는 접근 가능한 스코프에 변수가 선언은 되었으나 아무런 값도 할당되지 않은 상태를 의미한다.
+
+```js
+let x;
+console.log(x); // 출력: undefined -> 선언되었지만, 값이 할당되지 않았음
+
+let y = undefined;
+console.log(y); // 출력: undefined -> 명시적으로 `undefined` 값을 가지고 있음
+```
+
+
+
+#### 2. undeclared
 
 - **undeclared**은 접근 가능한 스코프에 특정 변수가 선언조차 되어있지 않은 상태를 의미합니다. 
     - 변수를 선언하지 않고, 변수를 console.log로 출력하려 한다면 에러가 발생하는 것이 그 예입니다.
