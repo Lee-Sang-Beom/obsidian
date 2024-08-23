@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md"
               }
             }
           },
@@ -157,8 +157,12 @@
   },
   "active": "953abee0e9bfd2d6",
   "lastOpenFiles": [
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
+    "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력.png",
+    "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션.png",
+    "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션 결과 화면.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 3 form 입력.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12. Mutating Data.md",
     "사용 이미지/Next.js/guide course/chapter 12",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 3 form 입력결과.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step1.png",
@@ -193,9 +197,6 @@
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션/특정 페이지만 필요한 컴포넌트(3).png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션/특정 페이지만 필요한 컴포넌트(1).png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/3. 회사 내 코딩 인벤션",
-    "특정 페이지만 필요한 컴포넌트(1) 1.png",
-    "특정 페이지만 필요한 컴포넌트(3) 1.png",
-    "특정 페이지만 필요한 컴포넌트(2) 2.png",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/2. 기본 디렉터리 구조",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/1. Next.js 설치",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)",
