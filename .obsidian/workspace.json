@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-08-27.md",
+                "file": "Timestamps/2024-08-28.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-08-27.md",
+                "file": "Timestamps/2024-08-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-08-27.md",
+                "file": "Timestamps/2024-08-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-08-27.md"
+                "file": "Timestamps/2024-08-28.md"
               }
             }
           },
@@ -157,7 +157,8 @@
   },
   "active": "953abee0e9bfd2d6",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/(수정 필요) HTTP의 구조.md",
+    "짧게 정리한 프론트엔드 지식/HTTP의 구조.md",
+    "Timestamps/2024-08-28.md",
     "Timestamps/2024-08-27.md",
     "Timestamps/2024-08-23.md",
     "Timestamps/2024-08-20.md",
@@ -189,7 +190,6 @@
     "Template/Daily Note.md",
     "짧게 정리한 프론트엔드 지식/undefined, undeclared, null, NaN.md",
     "회사 업무 관련/백엔드 페이지 설계 정리.md",
-    "Timestamps/2024-08-21.md",
     "Timestamps",
     "Template",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
