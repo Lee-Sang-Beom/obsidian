@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-08-29.md",
+                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-08-29.md",
+                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-08-29.md",
+                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-08-29.md"
+                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md"
               }
             }
           },
@@ -155,10 +155,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "953abee0e9bfd2d6",
   "lastOpenFiles": [
-    "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "Timestamps/2024-08-29.md",
+    "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "Timestamps/2024-08-28.md",
     "Timestamps/2024-08-27.md",
     "Timestamps/2024-08-23.md",
