@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
+                "file": "Timestamps/2024-08-29.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
+                "file": "Timestamps/2024-08-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
+                "file": "Timestamps/2024-08-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md"
+                "file": "Timestamps/2024-08-29.md"
               }
             }
           },
@@ -155,8 +155,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "953abee0e9bfd2d6",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "Timestamps/2024-08-29.md",
     "Timestamps/2024-08-28.md",
     "Timestamps/2024-08-27.md",
@@ -189,7 +190,6 @@
     "짧게 정리한 프론트엔드 지식/CSS - Display Property.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 웹 표준.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Ajax.md",
-    "Template/Daily Note.md",
     "Timestamps",
     "Template",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
