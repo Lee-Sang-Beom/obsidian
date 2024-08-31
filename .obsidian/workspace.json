@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-08-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-08-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-08-31.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -155,10 +153,30 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0d8bd7de39596af7",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "Timestamps/2024-08-20.md",
     "Timestamps/2024-08-31.md",
+    "conflict-files-obsidian-git.md",
+    "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
+    "짧게 정리한 프론트엔드 지식/undefined, undeclared, null, NaN.md",
+    "짧게 정리한 프론트엔드 지식/HTTP의 구조.md",
+    "짧게 정리한 프론트엔드 지식/CSS - Display Property.md",
+    "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
+    "사용 이미지/Next.js/guide course/chapter 12/create invoice step1.png",
+    "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력.png",
+    "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션.png",
+    "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션 결과 화면.png",
+    "사용 이미지/Next.js/guide course/chapter 12/create invoice step 3 form 입력결과.png",
+    "사용 이미지/Next.js/guide course/chapter 12/create invoice step 3 form 입력.png",
+    "사용 이미지/Next.js/guide course/chapter 12",
+    "Timestamps/2024-08-29.md",
+    "Timestamps/2024-08-28.md",
+    "Timestamps/2024-08-27.md",
+    "Timestamps/2024-08-23.md",
+    "Timestamps/2024-08-22.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
+    "Timestamps/2024-08-20.md",
     "React/React-19.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/IR/IR 배포.md",
@@ -170,23 +188,10 @@
     "회사 내 경험 모음/회사 세미나/회사 세미나 백링크.md",
     "회사 내 경험 모음/회사 세미나/9. 흐름 학습.md",
     "회사 내 경험 모음/회사 세미나/8. Nginx(역방향 프록시).md",
-    "회사 내 경험 모음/회사 세미나/6. GitLab, Jenkins.md",
-    "회사 내 경험 모음/회사 세미나/7. Docker.md",
-    "회사 내 경험 모음/회사 세미나/4. 도메인과 네임서버.md",
-    "회사 내 경험 모음/회사 세미나/5. 프로토콜, 포트번호.md",
-    "회사 내 경험 모음/회사 세미나/3. 서버와 클라이언트.md",
-    "회사 내 경험 모음/회사 세미나/2. 서버(Server).md",
-    "회사 내 경험 모음/회사 세미나/1. Next.js 프로젝트 초기 세팅.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/프로젝트 코드 해석하기",
-    "회사 내 경험 모음/회사 내 백엔드 기록/접속 정보.md",
-    "회사 내 경험 모음/회사 내 백엔드 기록/무중단 배포 nginx 에러났을 때 명령어 어떤거써봐야할까.md",
-    "회사 내 경험 모음/회사 내 백엔드 기록/querydsl 파일 import가 제대로 안될 때.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/IR",
-    "회사 내 경험 모음/회사 내 백엔드 기록/DB 만들기.md",
-    "회사 내 경험 모음/프로젝트 경험 기록/프로젝트 경험 기록 백링크.md",
     "회사 내 경험 모음/프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
     "회사 내 경험 모음/프로젝트 경험 기록/CKEditor",
-    "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/코드하우스 공유 계획 노션 링크.md",
     "회사 내 경험 모음/회사 세미나",
     "회사 내 경험 모음/회사 내 백엔드 기록",
     "회사 내 경험 모음/프로젝트 경험 기록",
@@ -195,14 +200,7 @@
     "사용 이미지/회사 내 경험 모음/회사 세미나/프로토콜, 포트번호/response header.png",
     "사용 이미지/회사 내 경험 모음/회사 세미나/프로토콜, 포트번호/아파트.png",
     "사용 이미지/회사 내 경험 모음/회사 세미나/프로토콜, 포트번호/request header.png",
-    "사용 이미지/회사 내 경험 모음/회사 세미나/프로토콜, 포트번호",
     "사용 이미지/회사 내 경험 모음/회사 세미나/도메인과 네임서버/도메인과 네임서버 흐름.png",
-    "사용 이미지/회사 내 경험 모음/회사 세미나/nginx/포워드 프록시.png",
-    "사용 이미지/회사 내 경험 모음/회사 세미나/nginx/리버스 프록시.png",
-    "사용 이미지/회사 내 경험 모음/회사 세미나/nginx/일반적인 클라이언트와 서버의 통신과정.png",
-    "사용 이미지/회사 내 경험 모음/회사 세미나/nginx/nginx.png",
-    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 4.png",
-    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용/변경된 ckeditor oneline builder step 2.png",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
