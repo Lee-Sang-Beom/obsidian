@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-08-31.md",
+                "file": "Timestamps/2024-09-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Timestamps/2024-09-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Timestamps/2024-09-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Timestamps/2024-09-01.md"
               }
             }
           },
@@ -153,15 +155,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "0d8bd7de39596af7",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
+    "Timestamps/2024-09-01.md",
+    "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
     "Timestamps/2024-08-31.md",
     "conflict-files-obsidian-git.md",
     "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "짧게 정리한 프론트엔드 지식/undefined, undeclared, null, NaN.md",
     "짧게 정리한 프론트엔드 지식/HTTP의 구조.md",
     "짧게 정리한 프론트엔드 지식/CSS - Display Property.md",
-    "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step1.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션.png",
@@ -186,8 +190,6 @@
     "회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용.md",
     "회사 내 경험 모음/프로젝트 경험 기록/CKEditor/1. CustomCKEditor CSS 변경.md",
     "회사 내 경험 모음/회사 세미나/회사 세미나 백링크.md",
-    "회사 내 경험 모음/회사 세미나/9. 흐름 학습.md",
-    "회사 내 경험 모음/회사 세미나/8. Nginx(역방향 프록시).md",
     "회사 내 경험 모음/회사 내 백엔드 기록/프로젝트 코드 해석하기",
     "회사 내 경험 모음/회사 내 백엔드 기록/IR",
     "회사 내 경험 모음/프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
