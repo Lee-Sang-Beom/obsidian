@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-02.md",
+                "file": "Timestamps/2024-09-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-02.md",
+                "file": "Timestamps/2024-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-02.md",
+                "file": "Timestamps/2024-09-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-02.md"
+                "file": "Timestamps/2024-09-03.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "953abee0e9bfd2d6",
   "lastOpenFiles": [
-    "Timestamps/2024-09-03.md",
     "Timestamps/2024-09-02.md",
+    "Timestamps/2024-09-03.md",
     "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "Timestamps/2024-08-29.md",
     "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
