@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "061fde29c401d2b0",
+        "id": "6372f3fdf9b2ba99",
         "type": "tabs",
         "children": [
           {
-            "id": "953abee0e9bfd2d6",
+            "id": "5ac37d367e0b860a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,13 +155,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "953abee0e9bfd2d6",
+  "active": "5ac37d367e0b860a",
   "lastOpenFiles": [
-    "Timestamps/2024-09-02.md",
+    "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
+    "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
     "Timestamps/2024-09-03.md",
+    "Timestamps/2024-09-02.md",
     "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "Timestamps/2024-08-29.md",
-    "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
     "Timestamps/2024-09-01.md",
     "Timestamps/2024-08-31.md",
     "Timestamps/2024-08-28.md",
@@ -169,7 +170,6 @@
     "Timestamps/2024-08-23.md",
     "Timestamps/2024-08-22.md",
     "Timestamps/2024-08-20.md",
-    "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
     "짧게 정리한 프론트엔드 지식/HTTP의 구조.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
