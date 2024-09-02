@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 업무 관련/백엔드 페이지 설계 정리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cccef523c43285a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Timestamps/2024-09-02.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,14 +155,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cccef523c43285a0",
+  "active": "953abee0e9bfd2d6",
   "lastOpenFiles": [
-    "Timestamps/2024-08-29.md",
+    "Timestamps/2024-09-03.md",
     "Timestamps/2024-09-02.md",
+    "회사 업무 관련/백엔드 페이지 설계 정리.md",
+    "Timestamps/2024-08-29.md",
     "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
     "Timestamps/2024-09-01.md",
     "Timestamps/2024-08-31.md",
-    "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "Timestamps/2024-08-28.md",
     "Timestamps/2024-08-27.md",
     "Timestamps/2024-08-23.md",
@@ -202,7 +190,6 @@
     "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
     "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "짧게 정리한 프론트엔드 지식/짧게 정리한 프론트엔드 지식 백링크.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Data Binding.md",
     "Timestamps",
     "Template",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
