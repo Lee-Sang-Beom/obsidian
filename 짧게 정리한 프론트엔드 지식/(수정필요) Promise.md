@@ -1,35 +1,39 @@
 
 #### 1. Promise란?
 
-- Promise는 콜백지옥을 해결하기 위해 등장한 비동기 동작을 다루는 객체로, 비동기 연산이 종료된 후의 결과를 알 수 있도록 한다.
-
+- Promise는 비동기 동작을 처리하기 위해 다루는 객체로, 비동기 연산이 종료된 후의 결과를 알 수 있도록 한다.
 - 콜백 지옥을 해결하여 코드 유지보수성을 높이고, 비동기 작업을 좀 더 편리한 방식으로 사용할 수 있게 도움을 준다.
 
 
-#### 2. 상태
-- Promise는 대표적으로 3가지 상태를 가진다.
-    1. 비동기 처리가 완료되지 않은 **pending(대기)** 상태
-    2. 비동기처리가 완료되어 Promise 결과를 반환한 **fulfilled(이행)** 상태
-    3. 마지막으로 비동기 처리가 실패하거나 오류가 발생할 때의 **rejected(실패)** 상태
+#### 2. Promise의 상태
+
+- Promise는 대표적으로 3가지 상태를 가질 수 있다.
+    1. **Pending(대기)** : Promise가 처음 생성되었을 때, 아직 작업이 완료되지 않은 상태 (비동기 처리 미완료)
+    2. **Fulfilled(이행)** : 비동기처리가 완료되어 Promise 결과를 반환한 상태
+		- 이 때, Promise는 이행된 결과 값을 가진다.
+		  
+    3. **Rejected(실패)** : 비동기 처리가 실패하거나 오류가 발생할 때의  상태
+	    - 이 때, Promise는 실패 원인인 오류 정보를 가진다.
 
 ```jsx
 function getData() {
-return new Promise(function(resolve, reject) {
-	$.get('url 주소/products/1', function(response) {
-	if (response) {
-		resolve(response);
-	}
-	reject(new Error("Request is failed"));
+	return new Promise(function(resolve, reject) {
+		$.get('url 주소/products/1', function(response) {
+		if (response) {
+			resolve(response);
+		}
+		reject(new Error("Request is failed"));
+		});
 	});
-});
 }
 ```
-- 객체인 Promise를 인스턴스화시키기 위해서는 new 연산자를 사용해야 한다.
-- 이 때 인자로 콜백 함수를 넘겨주는데, 이 함수는 내부에서 비동기 처리를 수행하는 함수이며, 파라미터로 resolve와 reject를 가진다.
-- 해당 함수 내에서 비동기 처리로직을 구현한 후, 정상적으로 처리가 되었다면 resolve함수를 호출하고, 실패했다면 reject함수를 호출하는 것이 주요 개념이다.
+- 객체인 Promise를 인스턴스화시키기 위해서는 `new` 연산자를 사용해야 한다.
+	- Promise의 argument로는 콜백 함수를 넘겨줄 수 있는데, 이 함수는 내부에서 비동기 처리를 수행하는 함수이며, 전달한 콜백함수에서의 파라미터로는 `resolve`와 `reject`가 존재한다.
+	  
+	- 해당 함수 내에서 비동기 처리로직을 구현한 후, 정상적으로 처리가 되었다면 `resolve`함수를 호출하고, 실패했다면 `reject`함수를 호출하면 된다.
 
 
-#### 3. 후속처리메소드 then
+#### 3. `.then()`
 
 - 비동기처리를 호출하는 측에서는, Promise 객체의 후속처리 메소드인 then과 catch를 통해 비동기 처리결과를 전달받아 처리할 수 있다. 이 후속처리메소드 둘 다 Promise를 반환한다.
 
