@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-01.md",
+                "file": "Timestamps/2024-09-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-01.md",
+                "file": "Timestamps/2024-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-01.md",
+                "file": "Timestamps/2024-09-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-01.md"
+                "file": "Timestamps/2024-09-03.md"
               }
             }
           },
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,10 +157,17 @@
   },
   "active": "0d8bd7de39596af7",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
+    "짧게 정리한 프론트엔드 지식/Map과 Set.md",
+    "Timestamps/2024-09-03.md",
     "Timestamps/2024-09-01.md",
-    "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
+    "Timestamps/2024-08-22.md",
+    "Timestamps/2024-08-20.md",
+    "Timestamps/2024-08-23.md",
+    "Timestamps/2024-08-27.md",
+    "Timestamps/2024-08-28.md",
+    "Timestamps/2024-08-29.md",
     "Timestamps/2024-08-31.md",
+    "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
     "conflict-files-obsidian-git.md",
     "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "짧게 정리한 프론트엔드 지식/undefined, undeclared, null, NaN.md",
@@ -173,14 +180,8 @@
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 3 form 입력결과.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 3 form 입력.png",
     "사용 이미지/Next.js/guide course/chapter 12",
-    "Timestamps/2024-08-29.md",
-    "Timestamps/2024-08-28.md",
-    "Timestamps/2024-08-27.md",
-    "Timestamps/2024-08-23.md",
-    "Timestamps/2024-08-22.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
-    "Timestamps/2024-08-20.md",
     "React/React-19.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/프로젝트 코드 해석하기/자율성과지표 달성률 불러오기.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/IR/IR 배포.md",
@@ -189,7 +190,6 @@
     "회사 내 경험 모음/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "회사 내 경험 모음/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용.md",
     "회사 내 경험 모음/프로젝트 경험 기록/CKEditor/1. CustomCKEditor CSS 변경.md",
-    "회사 내 경험 모음/회사 세미나/회사 세미나 백링크.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/프로젝트 코드 해석하기",
     "회사 내 경험 모음/회사 내 백엔드 기록/IR",
     "회사 내 경험 모음/프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기",
