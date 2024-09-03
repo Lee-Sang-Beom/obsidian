@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-04.md",
+                "file": "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-04.md",
+                "file": "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-04.md",
+                "file": "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-04.md"
+                "file": "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "9a806ac19c2197fc",
   "lastOpenFiles": [
-    "Timestamps/2024-09-03.md",
     "Timestamps/2024-09-04.md",
+    "Timestamps/2024-09-03.md",
     "짧게 정리한 프론트엔드 지식/Promise.md",
     "Timestamps/2024-08-20.md",
     "Timestamps/2024-08-22.md",
