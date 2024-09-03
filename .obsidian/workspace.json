@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
+                "file": "Timestamps/2024-09-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
+                "file": "Timestamps/2024-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
+                "file": "Timestamps/2024-09-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md"
+                "file": "Timestamps/2024-09-03.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "9a806ac19c2197fc",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/Promise.md",
     "Timestamps/2024-09-03.md",
     "Timestamps/2024-08-20.md",
     "Timestamps/2024-08-22.md",
@@ -167,7 +168,6 @@
     "Timestamps/2024-09-02.md",
     "Timestamps/2024-08-31.md",
     "Timestamps/2024-09-01.md",
-    "짧게 정리한 프론트엔드 지식/(수정필요) Promise.md",
     "짧게 정리한 프론트엔드 지식/(내용추가예정) argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
