@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Map과 Set.md",
+                "file": "Timestamps/2024-09-04.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Map과 Set.md",
+                "file": "Timestamps/2024-09-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Map과 Set.md",
+                "file": "Timestamps/2024-09-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Map과 Set.md"
+                "file": "Timestamps/2024-09-04.md"
               }
             }
           },
@@ -157,8 +157,11 @@
   },
   "active": "9a806ac19c2197fc",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/Promise.md",
+    "짧게 정리한 프론트엔드 지식/IIFE.md",
+    "짧게 정리한 프론트엔드 지식/Map과 Set.md",
+    "Timestamps/2024-09-04.md",
     "Timestamps/2024-09-03.md",
+    "짧게 정리한 프론트엔드 지식/Promise.md",
     "Timestamps/2024-09-02.md",
     "Timestamps/2024-08-22.md",
     "Timestamps/2024-08-23.md",
@@ -187,9 +190,6 @@
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step1.png",
     "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
     "짧게 정리한 프론트엔드 지식/event.target과 event.currentTarget.md",
-    "짧게 정리한 프론트엔드 지식/JWT.md",
-    "짧게 정리한 프론트엔드 지식/CORS.md",
-    "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
     "Timestamps",
     "Template",
     "사용 이미지/Next.js/guide course/chapter 1/Next.js step1 guidelinepage.png",
