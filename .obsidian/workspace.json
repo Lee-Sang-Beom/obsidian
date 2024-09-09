@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-09.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) Blocking.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-09.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) Blocking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-09.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) Blocking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-09.md"
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) Blocking.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "9a806ac19c2197fc",
   "lastOpenFiles": [
-    "Timestamps/2024-09-06.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 반응형 웹과 적응형 웹.md",
     "Timestamps/2024-09-09.md",
+    "Timestamps/2024-09-06.md",
     "Timestamps/2024-09-05.md",
     "Timestamps/2024-09-04.md",
     "짧게 정리한 프론트엔드 지식/IIFE.md",
@@ -182,7 +183,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션 결과 화면.png",
