@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-10.md",
+                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-10.md",
+                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-10.md",
+                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-10.md"
+                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "9a806ac19c2197fc",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
     "Timestamps/2024-09-10.md",
+    "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
     "Timestamps/2024-09-09.md",
     "짧게 정리한 프론트엔드 지식/Blocking, Non-Blocking.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 반응형 웹과 적응형 웹.md",
@@ -178,7 +178,7 @@
     "Timestamps/2024-08-31.md",
     "Timestamps/2024-09-01.md",
     "Timestamps/2024-08-20.md",
-    "짧게 정리한 프론트엔드 지식/(내용추가예정) argument, parameter의 차이.md",
+    "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
     "회사 업무 관련/백엔드 페이지 설계 정리.md",
