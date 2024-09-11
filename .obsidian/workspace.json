@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-11.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-11.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-11.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-11.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md"
               }
             }
           },
@@ -157,8 +157,12 @@
   },
   "active": "9a806ac19c2197fc",
   "lastOpenFiles": [
-    "Timestamps/2024-09-10.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Timestamps/2024-09-11.md",
+    "Timestamps/2024-09-10.md",
     "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
     "Timestamps/2024-09-09.md",
@@ -179,10 +183,6 @@
     "Timestamps/2024-08-29.md",
     "Timestamps/2024-08-31.md",
     "Timestamps/2024-09-01.md",
-    "Timestamps/2024-08-20.md",
-    "짧게 정리한 프론트엔드 지식/(수정 필요) Map과 Set.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
-    "회사 업무 관련/백엔드 페이지 설계 정리.md",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션.png",
     "사용 이미지/Next.js/guide course/chapter 12/create invoice step 6 form 입력 후 리디렉션 결과 화면.png",
