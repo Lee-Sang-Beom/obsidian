@@ -12,4 +12,6 @@
 - [[8. Static and Dynamic Rendering]]
 - [[9. Streaming]]
 - [[10. Partial Prerendering]]
-- 
+- [[11. Adding Search and Pagination]]
+- [[12-1. Mutating Data (1)]]
+- [[12-2. Mutating Data (2)]]
