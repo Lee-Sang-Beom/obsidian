@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-11.md",
+                "file": "Timestamps/2024-09-12.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-11.md",
+                "file": "Timestamps/2024-09-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-11.md",
+                "file": "Timestamps/2024-09-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-11.md"
+                "file": "Timestamps/2024-09-12.md"
               }
             }
           },
@@ -157,8 +157,12 @@
   },
   "active": "038f9c78113ca3b5",
   "lastOpenFiles": [
-    "Timestamps/2024-09-12.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/5. Navigation Between Pages.md",
     "Timestamps/2024-09-11.md",
+    "Timestamps/2024-09-12.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/7. Fetching Data.md",
     "사용 이미지/Next.js/guide course/chapter 6/create a vecel account and project.png",
     "사용 이미지/Next.js/guide course/chapter 6/create postgres db.png",
@@ -173,11 +177,8 @@
     "사용 이미지/Next.js/guide course/chapter 12/송장 수정화면 및 서버 초기데이터 세팅.png",
     "사용 이미지/Next.js/guide course/chapter 12/송장 수정화면 및 서버 초기데이터 세팅.png",
     "Pasted image 20240911110909.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/4. Creating Layouts and Pages.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "Timestamps/2024-09-10.md",
     "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
@@ -192,7 +193,6 @@
     "Timestamps/2024-09-03.md",
     "짧게 정리한 프론트엔드 지식/Promise.md",
     "Timestamps/2024-09-02.md",
-    "Timestamps/2024-08-22.md",
     "사용 이미지/Next.js/guide course/chapter 12",
     "Timestamps",
     "Template",
