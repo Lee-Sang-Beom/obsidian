@@ -11,12 +11,8 @@
             "id": "038f9c78113ca3b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timestamps/2024-09-12.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Timestamps/2024-09-12.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,11 +149,11 @@
   },
   "active": "038f9c78113ca3b5",
   "lastOpenFiles": [
+    "Timestamps/2024-09-12.md",
     "짧게 정리한 프론트엔드 지식/프로그래밍 방법론.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 캐스캐이딩(Cascading).md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 자바스크립트와 Dynamic.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 순환 참조란.md",
-    "Timestamps/2024-09-12.md",
     "Timestamps/2024-09-10.md",
     "Timestamps/2024-09-11.md",
     "Work CheckList.md",
