@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-11.md",
+                "file": "Timestamps/2024-09-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-11.md",
+                "file": "Timestamps/2024-09-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-11.md",
+                "file": "Timestamps/2024-09-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-11.md"
+                "file": "Timestamps/2024-09-10.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "038f9c78113ca3b5",
   "lastOpenFiles": [
-    "Work CheckList.md",
     "Timestamps/2024-09-11.md",
+    "Work CheckList.md",
     "Timestamps/2024-09-12.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
