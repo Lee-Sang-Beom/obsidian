@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-19.md",
+                "file": "Timestamps/2024-09-09.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-19.md",
+                "file": "Timestamps/2024-09-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-19.md",
+                "file": "Timestamps/2024-09-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-19.md"
+                "file": "Timestamps/2024-09-09.md"
               }
             }
           },
@@ -157,18 +157,19 @@
   },
   "active": "038f9c78113ca3b5",
   "lastOpenFiles": [
+    "Timestamps/2024-09-10.md",
+    "Timestamps/2024-09-09.md",
+    "Timestamps/2024-09-11.md",
+    "Timestamps/2024-09-19.md",
     "Timestamps/2024-09-13.md",
     "짧게 정리한 프론트엔드 지식/함수 선언문과 함수 표현식.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 호이스팅.md",
-    "Timestamps/2024-09-19.md",
     "Timestamps/2024-09-12.md",
     "내 프로젝트/IR 분석/IR 분석 백링크.md",
     "짧게 정리한 프론트엔드 지식/프로그래밍 방법론.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 캐스캐이딩(Cascading).md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 자바스크립트와 Dynamic.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 순환 참조란.md",
-    "Timestamps/2024-09-10.md",
-    "Timestamps/2024-09-11.md",
     "Work CheckList.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
@@ -192,7 +193,6 @@
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
     "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
-    "Timestamps/2024-09-09.md",
     "사용 이미지/Next.js/guide course/chapter 12",
     "Timestamps",
     "Template",
