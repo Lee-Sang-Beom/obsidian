@@ -38,13 +38,14 @@ console.log(sum); // 출력: 8
 
 > **예제 2**
 ```js
-function add (a, b) {
+function add (a, b) { // a, b : 형식 매개변수
  return a + b;
 }
 
-const x = 2;
+const x = 2; 
 const y = 3;
 
+// x, y: 실제 매개변수
 const z = add(x, y)
 
 console.log(z)

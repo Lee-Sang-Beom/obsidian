@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-20.md",
+                "file": "짧게 정리한 프론트엔드 지식/ES.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b03f5c7f09e1cda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-20.md",
+                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-20.md",
+                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-20.md"
+                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md"
               }
             }
           },
@@ -155,10 +168,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "038f9c78113ca3b5",
+  "active": "4b03f5c7f09e1cda",
   "lastOpenFiles": [
-    "Timestamps/2024-09-19.md",
+    "짧게 정리한 프론트엔드 지식/ES.md",
+    "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
+    "짧게 정리한 프론트엔드 지식/event.target과 event.currentTarget.md",
     "Timestamps/2024-09-20.md",
+    "Timestamps/2024-09-19.md",
     "Timestamps/2024-09-09.md",
     "Timestamps/2024-09-10.md",
     "Timestamps/2024-09-11.md",
@@ -190,9 +206,6 @@
     "사용 이미지/Next.js/guide course/chapter 12/송장 수정화면 및 서버 초기데이터 세팅.png",
     "사용 이미지/Next.js/guide course/chapter 12/송장 수정화면 및 서버 초기데이터 세팅.png",
     "Pasted image 20240911110909.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images (폰트 및 이미지 최적화).md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
-    "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "사용 이미지/Next.js/guide course/chapter 12",
     "Timestamps",
     "Template",
