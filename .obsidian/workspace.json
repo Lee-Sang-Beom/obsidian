@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dc8ea9f4eee66207",
+        "id": "3200641170bac2f4",
         "type": "tabs",
         "children": [
           {
-            "id": "038f9c78113ca3b5",
+            "id": "732a82b5502b9006",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/ES.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b03f5c7f09e1cda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "짧게 정리한 프론트엔드 지식/this.md",
+                "file": "Timestamps/2024-09-23.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/this.md",
+                "file": "Timestamps/2024-09-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/this.md",
+                "file": "Timestamps/2024-09-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/this.md"
+                "file": "Timestamps/2024-09-23.md"
               }
             }
           },
@@ -168,11 +155,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4b03f5c7f09e1cda",
+  "active": "732a82b5502b9006",
   "lastOpenFiles": [
-    "Timestamps/2024-09-23.md",
-    "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/ES.md",
+    "Timestamps/2024-09-23.md",
+    "짧게 정리한 프론트엔드 지식/this.md",
+    "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/event.target과 event.currentTarget.md",
     "Timestamps/2024-09-20.md",
     "Timestamps/2024-09-19.md",
@@ -197,7 +185,6 @@
     "사용 이미지/Next.js/guide course/chapter 6/create a vecel account and project.png",
     "사용 이미지/Next.js/guide course/chapter 6/create postgres db.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "사용 이미지/Next.js/guide course/chapter 12/송장 리스트페이지.png",
     "사용 이미지/Next.js/guide course/chapter 12/송장 업데이트하기.png",
     "사용 이미지/Next.js/guide course/chapter 12/송장 삭제완료.png",
