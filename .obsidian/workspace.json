@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
+                "file": "짧게 정리한 프론트엔드 지식/this.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
+                "file": "짧게 정리한 프론트엔드 지식/this.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
+                "file": "짧게 정리한 프론트엔드 지식/this.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md"
+                "file": "짧게 정리한 프론트엔드 지식/this.md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "4b03f5c7f09e1cda",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/ES.md",
+    "Timestamps/2024-09-23.md",
     "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
+    "짧게 정리한 프론트엔드 지식/ES.md",
     "짧게 정리한 프론트엔드 지식/event.target과 event.currentTarget.md",
     "Timestamps/2024-09-20.md",
     "Timestamps/2024-09-19.md",
@@ -197,7 +198,6 @@
     "사용 이미지/Next.js/guide course/chapter 6/create postgres db.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/6. Setting Up Your Database.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
     "사용 이미지/Next.js/guide course/chapter 12/송장 리스트페이지.png",
     "사용 이미지/Next.js/guide course/chapter 12/송장 업데이트하기.png",
     "사용 이미지/Next.js/guide course/chapter 12/송장 삭제완료.png",
