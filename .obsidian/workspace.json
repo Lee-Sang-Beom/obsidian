@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3200641170bac2f4",
+        "id": "d34bf81e4fb81dab",
         "type": "tabs",
         "children": [
           {
-            "id": "732a82b5502b9006",
+            "id": "052b85ba28291b1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,9 +155,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "732a82b5502b9006",
+  "active": "052b85ba28291b1f",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 호이스팅.md",
+    "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
     "Timestamps/2024-09-24.md",
     "Timestamps/2024-09-23.md",
     "짧게 정리한 프론트엔드 지식/ES.md",
