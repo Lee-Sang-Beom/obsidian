@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d34bf81e4fb81dab",
+        "id": "a92945dd686c6e4f",
         "type": "tabs",
         "children": [
           {
-            "id": "052b85ba28291b1f",
+            "id": "d70704a35646421d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-25.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-25.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-25.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-25.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md"
               }
             }
           },
@@ -155,10 +155,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "052b85ba28291b1f",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "Timestamps/2024-09-24.md",
+    "npm run lint(2).png",
+    "npm run lint.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/13. Handling Errors.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images.md",
+    "사용 이미지/Next.js/guide course/chapter 13/빈 invoice 출력확인하기.png",
+    "사용 이미지/Next.js/guide course/chapter 14",
+    "사용 이미지/Next.js/guide course/chapter 13",
+    "사용 이미지/Next.js/guide course/chapter 13/not-found.tsx page.png",
+    "사용 이미지/Next.js/guide course/chapter 13/에러 터질 때 error.tsx 화면.png",
+    "사용 이미지/Next.js/guide course/chapter 13/error.tsx.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
+    "사용 이미지/Next.js/guide course/chapter 13/송장 데이터 삭제 의도적에러발생.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Timestamps/2024-09-25.md",
+    "Timestamps/2024-09-24.md",
     "짧게 정리한 프론트엔드 지식/예외처리.md",
     "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
     "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법 (velog 업로드 완료).md",
@@ -175,24 +191,10 @@
     "사용 이미지/backend/백엔드 기록 백링크.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/1. JPA.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/14. 고급 매핑 - 상속관계 매핑.md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계 (요구사항 분석).md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 4. JPA와 DB 설정, 동작 확인.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/17. 프록시와 연관관계 정리.md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 3. View 환경설정.md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 2. 라이브러리 살펴보기.md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "사용 이미지/Next.js/guide course/chapter 6/create a vecel account and project.png",
     "사용 이미지/Next.js/guide course/chapter 6/create postgres db.png",
     "사용 이미지/Next.js/guide course/chapter 12/송장 리스트페이지.png",
     "사용 이미지/Next.js/guide course/chapter 12/송장 업데이트하기.png",
-    "사용 이미지/Next.js/guide course/chapter 12/송장 삭제완료.png",
-    "사용 이미지/Next.js/guide course/chapter 12/송장 삭제하기.png",
-    "사용 이미지/Next.js/guide course/chapter 12/송장 업데이트 완료.png",
-    "사용 이미지/Next.js/guide course/chapter 12/송장 수정화면 및 서버 초기데이터 세팅.png",
-    "사용 이미지/Next.js/guide course/chapter 12/송장 수정화면 및 서버 초기데이터 세팅.png",
-    "Pasted image 20240911110909.png",
     "사용 이미지/Next.js/guide course/chapter 12",
     "Timestamps",
     "Template",
@@ -201,8 +203,6 @@
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/1. Next.js 설치",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)",
     "사용 이미지/회사 내 경험 모음",
-    "회사 내 경험 모음",
-    "회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
