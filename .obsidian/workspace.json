@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 375.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +155,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "052b85ba28291b1f",
+  "active": "bd7c1d9ac436be5e",
   "lastOpenFiles": [
     "Timestamps/2024-09-11.md",
     "Timestamps/2024-09-25.md",
