@@ -1,6 +1,5 @@
 > [참고자료: cloud_oort.log](https://velog.io/@cloud_oort/Parameter%EC%99%80-Argument-%EC%9D%B8%EC%9E%90%EC%99%80-%EC%9D%B8%EC%88%98-%EC%9A%A9%EC%96%B4-%EA%B5%AC%EB%B6%84)
 
-
 #### 1. 용어 정리
 
 - 자바스크립트에서 **Parameter(매개변수)** 와 **Argument(인수)** 는 함수 호출과 관련된 용어로, 이 둘은 함수 정의와 함수 호출 시 서로 다른 역할을 한다.
