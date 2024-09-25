@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+                "file": "Timestamps/2024-09-25.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "parameter",
+                "query": "useActionState",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+                "file": "Timestamps/2024-09-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+                "file": "Timestamps/2024-09-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md"
+                "file": "Timestamps/2024-09-25.md"
               }
             }
           },
@@ -157,24 +157,26 @@
   },
   "active": "d70704a35646421d",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
+    "사용 이미지/Next.js/guide course/chapter 14/npm run lint(2).png",
+    "백링크",
+    "사용 이미지/Next.js/guide course/chapter 14/빈 form 제출 에러.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
-    "빈 form 제출 에러.png",
-    "input required 추가.png",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "React/React-19.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
+    "사용 이미지/Next.js/guide course/chapter 14/input required 추가.png",
     "Pasted image 20240925165518.png",
-    "이미지 alt속성 누락감지.png",
-    "lint 설치 후 npm run lint 실행하기 (2).png",
-    "lint 설치 후 npm run lint 실행하기 (1).png",
-    "npm run lint(2).png",
-    "npm run lint.png",
+    "사용 이미지/Next.js/guide course/chapter 14/이미지 alt속성 누락감지.png",
+    "사용 이미지/Next.js/guide course/chapter 14/lint 설치 후 npm run lint 실행하기 (2).png",
+    "사용 이미지/Next.js/guide course/chapter 14/lint 설치 후 npm run lint 실행하기 (1).png",
+    "사용 이미지/Next.js/guide course/chapter 14/npm run lint.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/13. Handling Errors.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/3. Optimizing Fonts and Images.md",
     "사용 이미지/Next.js/guide course/chapter 13/빈 invoice 출력확인하기.png",
     "사용 이미지/Next.js/guide course/chapter 14",
     "사용 이미지/Next.js/guide course/chapter 13",
     "사용 이미지/Next.js/guide course/chapter 13/not-found.tsx page.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "Timestamps/2024-09-25.md",
@@ -193,8 +195,6 @@
     "Timestamps/2024-09-06.md",
     "Timestamps/2024-09-23.md",
     "사용 이미지/backend/백엔드 기록 백링크.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/1. JPA.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
     "사용 이미지/Next.js/guide course/chapter 12",
     "Timestamps",
     "Template",
@@ -202,7 +202,6 @@
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/2. 기본 디렉터리 구조",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)/1. Next.js 설치",
     "사용 이미지/회사 내 경험 모음/코드하우스 강의 (Notion 내용 백업)",
-    "사용 이미지/회사 내 경험 모음",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",

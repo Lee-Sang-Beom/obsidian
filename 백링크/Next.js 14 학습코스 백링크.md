@@ -15,3 +15,5 @@
 - [[11. Adding Search and Pagination]]
 - [[12-1. Mutating Data (1)]]
 - [[12-2. Mutating Data (2)]]
+- [[13. Handling Errors]]
+- [[14. Improving Accessibility]]
