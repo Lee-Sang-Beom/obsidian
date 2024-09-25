@@ -24,6 +24,7 @@ myPromise
 
 ```
 
+
 #### 2. Promise의 상태
 
 - Promise는 대표적으로 3가지 상태를 가질 수 있다.
