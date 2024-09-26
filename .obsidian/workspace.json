@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-26.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-26.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-26.md",
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-26.md"
+                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md"
               }
             }
           },
@@ -157,8 +157,11 @@
   },
   "active": "e7f95eb5eeaea502",
   "lastOpenFiles": [
-    "Timestamps/2024-09-25.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+    "백링크/기술 기록 - 프론트엔드/Next.js 14 학습코스 백링크.md",
     "Timestamps/2024-09-26.md",
+    "Timestamps/2024-09-25.md",
     "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
@@ -186,9 +189,6 @@
     "백링크",
     "사용 이미지/Next.js/guide course/chapter 14/빈 form 제출 에러.png",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "사용 이미지/Next.js/guide course/chapter 14/input required 추가.png",
     "Pasted image 20240925165518.png",
     "사용 이미지/Next.js/guide course/chapter 14/이미지 alt속성 누락감지.png",
