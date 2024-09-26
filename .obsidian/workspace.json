@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+                "file": "Timestamps/2024-09-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "useActionState",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+                "file": "Timestamps/2024-09-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+                "file": "Timestamps/2024-09-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md"
+                "file": "Timestamps/2024-09-26.md"
               }
             }
           },
@@ -157,38 +157,38 @@
   },
   "active": "e7f95eb5eeaea502",
   "lastOpenFiles": [
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
     "백링크/기술 기록 - 프론트엔드/Next.js 14 학습코스 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/Vworld 사용하기 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/Server Action 사용하기 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/React-Leaflet 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/React-hook-form 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/React hook 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/Next.js 더 알아보기 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/jQuery 백링크.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Timestamps/2024-09-26.md",
     "Timestamps/2024-09-25.md",
     "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
-    "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/Map과 Set.md",
     "짧게 정리한 프론트엔드 지식/Promise.md",
-    "백링크/기술 기록 - 프론트엔드/React hook 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/React-hook-form 백링크.md",
     "Next.js/React Leaflet/3. React-Leaflet에 Marker 올려보기.md",
-    "백링크/기술 기록 - 프론트엔드/React-Leaflet 백링크.md",
     "React/React-19.md",
     "React/제어 컴포넌트와 비제어 컴포넌트.md",
     "백링크/기술 기록 - 프론트엔드/React 백링크.md",
     "React/env (환경변수).md",
-    "백링크/기술 기록 - 프론트엔드/jQuery 백링크.md",
     "Next.js/VWorld and OpenLayers/8. Next.js13에서 VWorld API와 OpenLayers 사용해보기 8.md",
-    "백링크/기술 기록 - 프론트엔드/Vworld 사용하기 백링크.md",
     "백링크/업무 기록/프로젝트 경험 기록 백링크.md",
     "백링크/업무 기록",
     "백링크/기술 기록 - 백엔드/스프링 부트와 JPA 활용 1 - 강의자료 백링크.md",
     "백링크/기술 기록 - 프론트엔드",
     "백링크/기술 기록 - 백엔드",
-    "JSP/기타. JSP 실습 1.md",
-    "백링크/기술 기록 - 백엔드/JSP 백링크.md",
     "사용 이미지/Next.js/guide course/chapter 14/npm run lint(2).png",
     "백링크",
     "사용 이미지/Next.js/guide course/chapter 14/빈 form 제출 에러.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/Next.js 14 학습코스 백링크.md",
     "사용 이미지/Next.js/guide course/chapter 14/input required 추가.png",
     "Pasted image 20240925165518.png",
     "사용 이미지/Next.js/guide course/chapter 14/이미지 alt속성 누락감지.png",
