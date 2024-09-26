@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-25.md",
+                "file": "Timestamps/2024-09-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-25.md",
+                "file": "Timestamps/2024-09-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-25.md",
+                "file": "Timestamps/2024-09-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-25.md"
+                "file": "Timestamps/2024-09-26.md"
               }
             }
           },
@@ -157,6 +157,8 @@
   },
   "active": "e7f95eb5eeaea502",
   "lastOpenFiles": [
+    "Timestamps/2024-09-25.md",
+    "Timestamps/2024-09-26.md",
     "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
@@ -180,7 +182,6 @@
     "백링크/기술 기록 - 백엔드",
     "JSP/기타. JSP 실습 1.md",
     "백링크/기술 기록 - 백엔드/JSP 백링크.md",
-    "Timestamps/2024-09-25.md",
     "사용 이미지/Next.js/guide course/chapter 14/npm run lint(2).png",
     "백링크",
     "사용 이미지/Next.js/guide course/chapter 14/빈 form 제출 에러.png",
@@ -194,7 +195,6 @@
     "사용 이미지/Next.js/guide course/chapter 14/lint 설치 후 npm run lint 실행하기 (2).png",
     "사용 이미지/Next.js/guide course/chapter 14/lint 설치 후 npm run lint 실행하기 (1).png",
     "사용 이미지/Next.js/guide course/chapter 14/npm run lint.png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/13. Handling Errors.md",
     "사용 이미지/Next.js/guide course/chapter 13/빈 invoice 출력확인하기.png",
     "사용 이미지/Next.js/guide course/chapter 14",
     "사용 이미지/Next.js/guide course/chapter 13",
