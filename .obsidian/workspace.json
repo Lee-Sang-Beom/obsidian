@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-09-30.md",
+                "file": "Timestamps/2024-10-02.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-09-30.md",
+                "file": "Timestamps/2024-10-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-09-30.md",
+                "file": "Timestamps/2024-10-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-09-30.md"
+                "file": "Timestamps/2024-10-02.md"
               }
             }
           },
@@ -157,12 +157,13 @@
   },
   "active": "e7f95eb5eeaea502",
   "lastOpenFiles": [
+    "Timestamps/2024-09-30.md",
+    "Timestamps/2024-10-02.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기/프로젝트 경험 - 부드러운 a태그 클릭 후 스크롤 이동 (구현전).png",
     "백링크/업무 기록/프로젝트 경험 기록 백링크.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기/프로젝트 경험 - 부드러운 a태그 클릭 후 스크롤 이동 (구현후).png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기",
     "회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기/HTML a태그 클릭 시 부드럽게 스크롤 이동하기.md",
-    "Timestamps/2024-09-30.md",
     "회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
