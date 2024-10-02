@@ -3,6 +3,7 @@
 
 - 자바스크립트는 컴파일 과정이 없는 **인터프리터 언어**이기 때문에, 런타임 에러가 발생할 확률이 높다. 
 	- 따라서, **린트** 작업으로 사전 에러를 잡아주는 것이 중요하다.
+	- 또한 해당작업은 원활한 코딩 컨벤션 방향을 잡는 데에 크게 도움을 준다.
 
 > **Lint**? **Linter**?
 - **Lint** : 소스 코드에 문제가 있는지 탐색하는 작업
@@ -35,7 +36,10 @@ npm install eslint --save -dev
 npm eslint --init
 ```
 
-- pre
+- prettier와 ESLint 충돌방지용 패키지가 필요하다면, 아래 명령어를 입력하자
+```null
+npm i -D eslint-config-prettier eslint-plugin-prettier
+```
 
 - 설치 과정에서 몇가지 선택지가 나오면 상황에 알맞게 설정을 진행하면 된다.
 ```null
@@ -78,6 +82,69 @@ npm eslint --init
 ```
 
 - 선택을 완료하면, `.eslintrc.js`파일을 확인할 수 있을 것이다.
+	- 해당 파일은 ESLint 기능을 설정하는 파일이다.
+
+- 아래 코드와 코드의 내용이 더 궁금하다면, 코드 출처 링크로 이동해 확인해보자.
+	- `eslintrc.js` 코드 출처 : [@blackeichi님의 포스트](https://velog.io/@blackeichi/ESLint%EB%9E%80)
+```null
+{
+ "env": {
+   "browser": true,
+   "es6": true,
+   "node": true
+ },
+ "parser": "@typescript-eslint/parser",
+ "plugins": ["@typescript-eslint", "import"],
+ "extends": [
+   "airbnb",
+   "airbnb/hooks",
+   "plugin:@typescript-eslint/recommended",
+   "plugin:prettier/recommended",
+   "plugin:import/errors",
+   "plugin:import/warnings"
+ ],
+ "parserOptions": {
+   "ecmaVersion": 2020,
+   "sourceType": "module",
+   "ecmaFeatures": {
+     "jsx": true
+   }
+ },
+ "rules": {
+   "linebreak-style": 0,
+   "import/no-dynamic-require": 0,
+   "import/no-unresolved": 0,
+   "import/prefer-default-export": 0,
+   "global-require": 0,
+   "import/no-extraneous-dependencies": 0,
+   "jsx-quotes": ["error", "prefer-single"],
+   "react/jsx-props-no-spreading": 0,
+   "react/forbid-prop-types": 0,
+   "react/jsx-filename-extension": [
+     2,
+     { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+   ],
+   "import/extensions": 0,
+   "no-use-before-define": 0,
+   "@typescript-eslint/no-empty-interface": 0,
+   "@typescript-eslint/no-explicit-any": 0,
+   "@typescript-eslint/no-var-requires": 0,
+   "no-shadow": "off",
+   "react/prop-types": 0,
+   "no-empty-pattern": 0,
+   "no-alert": 0,
+   "react-hooks/exhaustive-deps": 0
+ },
+ "settings": {
+   "import/parsers": {
+     "@typescript-eslint/parser": [".ts", ".tsx"]
+   },
+   "import/resolver": {
+     "typescript": "./tsconfig.json"
+   }
+ }
+}
+```
 
 #### 4. 코딩 컨벤션
 
@@ -88,4 +155,7 @@ npm eslint --init
 - 코드의 가독성을 높인다.
 - 버그가 줄어든다.
 - 유지보수가 원활해진다.
+
+
+#### 5. Next.js의 ESLint?
 
