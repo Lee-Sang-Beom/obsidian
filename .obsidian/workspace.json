@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a74273bc5d676e87",
+        "id": "ae83ebc99bf21bdb",
         "type": "tabs",
         "children": [
           {
-            "id": "675bf7a2cbae8d82",
+            "id": "a86d8a41b36d6e96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-02.md",
+                "file": "Timestamps/2024-10-04.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-02.md",
+                "file": "Timestamps/2024-10-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-02.md",
+                "file": "Timestamps/2024-10-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-02.md"
+                "file": "Timestamps/2024-10-04.md"
               }
             }
           },
@@ -155,16 +155,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "675bf7a2cbae8d82",
+  "active": "a86d8a41b36d6e96",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/ESLint.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
+    "Timestamps/2024-10-04.md",
+    "Timestamps/2024-10-02.md",
     "회사 내 경험 모음/CSS 파일 정리하기/CSS 파일을 어떻게 정리하면 좋을까 (코딩 컨벤션).md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/section 위치별 분리 (css className).png",
-    "Timestamps/2024-10-02.md",
     "회사 내 경험 모음/CSS 파일 정리하기",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
-    "짧게 정리한 프론트엔드 지식/ESLint.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
     "Timestamps/2024-09-30.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기/프로젝트 경험 - 부드러운 a태그 클릭 후 스크롤 이동 (구현전).png",
     "백링크/업무 기록/프로젝트 경험 기록 백링크.md",
@@ -186,7 +188,6 @@
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "백링크/기술 기록 - 프론트엔드/jQuery 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/1. 시작하기.md",
     "Timestamps/2024-09-25.md",
     "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "백링크/업무 기록",

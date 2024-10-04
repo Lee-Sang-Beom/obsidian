@@ -157,5 +157,73 @@ npm i -D eslint-config-prettier eslint-plugin-prettier
 - 유지보수가 원활해진다.
 
 
-#### 5. Next.js의 ESLint?
+#### 5. Next.js의 ESLint 설치와 `eslint-plugin-jsx-a11y` 사용 예시
 
+- Next.js에서의 [ESLint](https://nextjs-ko.org/docs/app/building-your-application/configuring/eslint)는 Next.js 개발환경을 세팅할 때 각종 `dependencies`와 함께 자동으로 설치된다.
+	- 정확히는 설치 과정에서 eslint 설치 여부에 대한 선택문에서 yes를 선택했을 때 설치된다.
+	- 본인이 개발하고 있는 프로젝트의 경우, `package.json`에 아래 패키지들이 설치되어 관리되고 있었다.
+```json
+  // ...
+  "devDependencies": {
+    // ...
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3",
+    // ...
+  }
+```
+
+- Next.js는 [`eslint-plugin-next`](https://www.npmjs.com/package/@next/eslint-plugin-next)이라는 ESLint 플러그인을 제공하며, 기본 구성 내에 이미 번들되어 있어 Next.js 애플리케이션의 일반적인 문제들을 잡아낼 수 있다고 한다. 
+	- Rule Set : https://nextjs-ko.org/docs/app/building-your-application/configuring/eslint#eslint-plugin
+
+- 추가적으로, ESLint 설치여부에서 yes를 선택했다면, Next.js에서의 ESLint 설정파일인 `.eslintrc.json`파일이 생성되어 있을 것이다.
+	- 설정 가능한 옵션은 ["next/core-web-vitals"](https://web.dev/articles/vitals?hl=ko), "next", "Cancel"" 등이 있다.
+	
+> `.eslintrc.json`
+```json
+{
+  "extends": "next/core-web-vitals" // 엄격한 core-web-vitals 규칙 세트와 함께 Next.js의 기본 ESLint 구성을 포함한다. ESLint를 처음 설정하는 개발자에게 권장되는 구성
+}
+```
+
+- Next.js는 ESLint 구성에 `eslint-plugin-jsx-a11y` 플러그인을 포함하여 접근성 문제를 조기 발견하는 데 도움을 준다.
+	- 이 내용은 [Next.js 사용 가이드 문서](https://nextjs.org/learn/dashboard-app/improving-accessibility)에도 있는 내용이며, ESLint 관련 패키지 사용 예시를 위하여 인용해왔다.
+	- 예를 들어, 이 플러그인은 대체 텍스트가 없는 이미지, `aria-*` 및 `role` 속성이 잘못 사용된 경우 등을 감지하여 개발자에게 경고한다.
+
+- 선택적으로, 이 기능을 사용해 보려면 `package.json` 파일에 다음과 같이 `next lint`를 스크립트로 추가해볼 수 있다.
+> `package.json`
+```json
+{
+  // ...
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "lint": "next lint"
+  },
+  // ...
+}
+```
+
+- 그 다음, 터미널에서 `pnpm lint`를 실행하자.
+```bash
+pnpm lint
+
+> 만약, pnpm이 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아니라고 뜨면 아래 명령어 시도
+npm run lint
+```
+
+![[npm run lint.png]]
+![[npm run lint(2).png]]
+- 뭔가 설치가 된 것을 확인할 수 있다. 
+	- 마지막 줄에 `ESLint has successfully been configured. Run next lint again to view warings and errors` 글자가 보이는가? 경고 및 오류를 보려면 저 명령어를 호출하라는 뜻이다.
+
+- 이제 한번 `pnpm init`나, `npm run lint` 명령어를 실행해보자.
+	- **여기서!!** 만약 오류가 뜬다면, 현재 eslint v9를 삭제하고, v8.57.0을 설치해보자. (npm 기준 명령어는 아래와 같다.)
+		- `npm uninstall eslint`
+		- `npm install -D eslint@8.57.0`
+
+
+![[lint 설치 후 npm run lint 실행하기 (1).png]]
+![[lint 설치 후 npm run lint 실행하기 (2).png]]
+- 대부분 import해놓고 사용하지 않은 부분에서 에러가 발생했고, 수정을 완료하니 `No ESLint warings or errors`라고 출력된다. (앞으로 조심하자)
