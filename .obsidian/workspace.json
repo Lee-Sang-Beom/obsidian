@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-04.md",
+                "file": "React/recoil/2. Recoil 사용 예시.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hyd",
+                "query": "recoil",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-04.md",
+                "file": "React/recoil/2. Recoil 사용 예시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-04.md",
+                "file": "React/recoil/2. Recoil 사용 예시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-04.md"
+                "file": "React/recoil/2. Recoil 사용 예시.md"
               }
             }
           },
@@ -157,9 +157,17 @@
   },
   "active": "c8e45680383617cd",
   "lastOpenFiles": [
+    "React/recoil/1. Recoil.md",
+    "React/recoil/2. Recoil 사용 예시.md",
+    "Timestamps/2024-10-07.md",
+    "React/recoil",
+    "Timestamps/2024-10-04.md",
+    "React/react-hook-form/3. 실제 프로젝트 사용을 위한 베이스 로직 만들기.md",
+    "React/react-hook-form/2. 주요 함수 및 객체.md",
+    "React/react-hook-form/1. React-hook-form 소개.md",
+    "React/react-hook-form/4. react-hook-form 사용하기.md",
     "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
     "회사 내 경험 모음/CSS 파일 정리하기/CSS 파일을 어떻게 정리하면 좋을까 (코딩 컨벤션).md",
-    "Timestamps/2024-10-04.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(1).png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(2).png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/section 위치별 분리 (css className).png",
@@ -191,18 +199,10 @@
     "백링크/기술 기록 - 프론트엔드/Vworld 사용하기 백링크.md",
     "백링크/기술 기록 - 프론트엔드/Server Action 사용하기 백링크.md",
     "백링크/기술 기록 - 프론트엔드/React-Leaflet 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/React-hook-form 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/React hook 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/Next.js 더 알아보기 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/jQuery 백링크.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
-    "Timestamps/2024-09-25.md",
     "백링크/업무 기록",
     "백링크/기술 기록 - 프론트엔드",
     "백링크/기술 기록 - 백엔드",
     "사용 이미지/Next.js/guide course/chapter 14/npm run lint(2).png",
-    "백링크",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
