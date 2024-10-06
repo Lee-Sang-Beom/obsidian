@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "93c6df0440d7e8d1",
+        "id": "eac21c11368073bf",
         "type": "tabs",
         "children": [
           {
-            "id": "c8e45680383617cd",
+            "id": "8da069805e1a13ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/recoil/2. Recoil 사용 예시.md",
+                "file": "Timestamps/2024-10-06.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/recoil/2. Recoil 사용 예시.md",
+                "file": "Timestamps/2024-10-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/recoil/2. Recoil 사용 예시.md",
+                "file": "Timestamps/2024-10-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/recoil/2. Recoil 사용 예시.md"
+                "file": "Timestamps/2024-10-06.md"
               }
             }
           },
@@ -155,10 +155,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c8e45680383617cd",
+  "active": "8da069805e1a13ef",
   "lastOpenFiles": [
-    "React/recoil/1. Recoil.md",
+    "짧게 정리한 프론트엔드 지식/CRUD & REST.md",
+    "Timestamps/2024-10-06.md",
+    "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
     "React/recoil/2. Recoil 사용 예시.md",
+    "React/recoil/1. Recoil.md",
     "Timestamps/2024-10-07.md",
     "React/recoil",
     "Timestamps/2024-10-04.md",
@@ -196,9 +199,6 @@
     "Timestamps/2024-09-27.md",
     "Timestamps/2024-09-26.md",
     "백링크/기술 기록 - 프론트엔드/Next.js 14 학습코스 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/Vworld 사용하기 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/Server Action 사용하기 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/React-Leaflet 백링크.md",
     "백링크/업무 기록",
     "백링크/기술 기록 - 프론트엔드",
     "백링크/기술 기록 - 백엔드",
