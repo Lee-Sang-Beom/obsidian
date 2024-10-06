@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-06.md",
+                "file": "Timestamps/2024-10-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-06.md",
+                "file": "Timestamps/2024-10-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-06.md",
+                "file": "Timestamps/2024-10-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-06.md"
+                "file": "Timestamps/2024-10-07.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "8da069805e1a13ef",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/CRUD & REST.md",
     "Timestamps/2024-10-06.md",
+    "짧게 정리한 프론트엔드 지식/CRUD & REST.md",
     "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
     "React/recoil/2. Recoil 사용 예시.md",
     "React/recoil/1. Recoil.md",
