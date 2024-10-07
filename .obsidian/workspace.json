@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/CORS.md",
+                "file": "React/react-hook-form/1. React-hook-form 소개.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "origin",
+                "query": "제어",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/CORS.md",
+                "file": "React/react-hook-form/1. React-hook-form 소개.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/CORS.md",
+                "file": "React/react-hook-form/1. React-hook-form 소개.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/CORS.md"
+                "file": "React/react-hook-form/1. React-hook-form 소개.md"
               }
             }
           },
@@ -171,6 +171,12 @@
   },
   "active": "5fa8e74cc41e7665",
   "lastOpenFiles": [
+    "Timestamps/2024-09-24.md",
+    "React/recoil/1. Recoil.md",
+    "짧게 정리한 프론트엔드 지식/ES.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) spread operator와 rest parameter.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+    "짧게 정리한 프론트엔드 지식/CORS.md",
     "짧게 정리한 프론트엔드 지식/URI, URL.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
@@ -179,7 +185,6 @@
     "짧게 정리한 프론트엔드 지식/CRUD & REST.md",
     "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
     "React/recoil/2. Recoil 사용 예시.md",
-    "React/recoil/1. Recoil.md",
     "React/recoil",
     "Timestamps/2024-10-04.md",
     "React/react-hook-form/3. 실제 프로젝트 사용을 위한 베이스 로직 만들기.md",
@@ -205,14 +210,9 @@
     "회사 내 경험 모음/CSS 파일 정리하기",
     "Timestamps/2024-09-30.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기/프로젝트 경험 - 부드러운 a태그 클릭 후 스크롤 이동 (구현전).png",
-    "백링크/업무 기록/프로젝트 경험 기록 백링크.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기/프로젝트 경험 - 부드러운 a태그 클릭 후 스크롤 이동 (구현후).png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기",
-    "회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기/HTML a태그 클릭 시 부드럽게 스크롤 이동하기.md",
     "회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/9. Streaming.md",
-    "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
-    "Timestamps/2024-09-27.md",
     "백링크/업무 기록",
     "백링크/기술 기록 - 프론트엔드",
     "백링크/기술 기록 - 백엔드",
