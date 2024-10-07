@@ -62,7 +62,7 @@ console.log(d0, d1);
 ```js
 const obj1 = {key: '1'};
 const obj2 = {key2: '2'};
-const merge = {...obj1, ...obj2};
+const merge = {...obj1, ...obj2}; // {key:'1', key2:'2'}
 
 merge.key2=100; // merge된 값 변경
 
@@ -90,7 +90,8 @@ function print(msg = "안녕하세요."){
 	- 이 때, 값을 반환하도록 하여야 한다.
 
 ```js
-isTrue ? '100' : '200'
+const isTrue = false;
+const isBooleanNumber  = isTrue ? '100' : '200' // '200'
 ```
 
 
@@ -114,7 +115,7 @@ console.log(`${isHello}, Mr ${name}~!`);
 2. desc를 보유하고 있으면
 3. age출력
 */    
-console.log(person.try?.desc?.age);
+console.log(person.try?.desc?.age); // if, else 
 ```
 
 
