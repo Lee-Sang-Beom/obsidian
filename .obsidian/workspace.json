@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-07.md",
+                "file": "Timestamps/2024-10-08.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-07.md",
+                "file": "Timestamps/2024-10-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-07.md",
+                "file": "Timestamps/2024-10-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-07.md"
+                "file": "Timestamps/2024-10-08.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "8da069805e1a13ef",
   "lastOpenFiles": [
-    "Timestamps/2024-10-08.md",
     "Timestamps/2024-10-07.md",
+    "Timestamps/2024-10-08.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법 (velog 업로드 완료).md",
