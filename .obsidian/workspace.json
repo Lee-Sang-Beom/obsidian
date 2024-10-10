@@ -11,8 +11,12 @@
             "id": "b6c01a80c91e0d4c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Timestamps/2024-10-10.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Timestamps/2024-10-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Timestamps/2024-10-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Timestamps/2024-10-10.md"
+              }
             }
           },
           {
@@ -149,13 +157,14 @@
   },
   "active": "b6c01a80c91e0d4c",
   "lastOpenFiles": [
+    "Timestamps/2024-10-08.md",
+    "Timestamps/2024-10-10.md",
+    "Timestamps/2024-10-07.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(3).png",
     "회사 내 경험 모음/CSS 파일 정리하기/CSS 파일을 어떻게 정리하면 좋을까 (코딩 컨벤션).md",
     "Pasted image 20241008144818.png",
     "Pasted image 20241008144815.png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/tsx(3).png",
-    "Timestamps/2024-10-08.md",
-    "Timestamps/2024-10-07.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법 (velog 업로드 완료).md",
