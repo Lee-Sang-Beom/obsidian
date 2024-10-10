@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-10.md",
+                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-10.md",
+                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-10.md",
+                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-10.md"
+                "file": "짧게 정리한 프론트엔드 지식/렌더링 과정.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "b6c01a80c91e0d4c",
   "lastOpenFiles": [
-    "Timestamps/2024-10-08.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Garbage collection.md",
     "Timestamps/2024-10-10.md",
+    "Timestamps/2024-10-08.md",
     "Timestamps/2024-10-07.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(3).png",
     "회사 내 경험 모음/CSS 파일 정리하기/CSS 파일을 어떻게 정리하면 좋을까 (코딩 컨벤션).md",
@@ -195,7 +196,6 @@
     "사용 이미지/TimeStamps/2024-10-04/Select ARIA Broken 해결 전.png",
     "사용 이미지/TimeStamps/2024-10-04",
     "사용 이미지/TimeStamps",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기",
     "회사 내 경험 모음/CSS 파일 정리하기",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기",
