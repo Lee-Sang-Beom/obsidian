@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(작성중) Spread operator와 Rest parameter.md",
+                "file": "Timestamps/2024-10-11.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(작성중) Spread operator와 Rest parameter.md",
+                "file": "Timestamps/2024-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(작성중) Spread operator와 Rest parameter.md",
+                "file": "Timestamps/2024-10-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(작성중) Spread operator와 Rest parameter.md"
+                "file": "Timestamps/2024-10-11.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "b6c01a80c91e0d4c",
   "lastOpenFiles": [
-    "Timestamps/2024-10-11.md",
     "Timestamps/2024-10-10.md",
+    "Timestamps/2024-10-11.md",
     "짧게 정리한 프론트엔드 지식/(작성중) Spread operator와 Rest parameter.md",
     "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
     "짧게 정리한 프론트엔드 지식/렌더링 과정 (velog 업로드 완료).md",
