@@ -1,7 +1,6 @@
 - **Spread operator**와 **rest parameter**는 모두 `...`을 사용하지만, 그 역할과 사용하는 상황이 다르다.
 	- 그렇다면, 대체 무엇이 다를까?
 
-
 #### 1. Spread Operator (`...`)
 
 - **역할**: 배열이나 객체의 요소들을 풀어 새로운 배열, 객체, 함수 인자 등으로 확장하는 데 사용된다.
@@ -75,23 +74,50 @@ console.log(others);  // { b: 2, c: 3 }
 
 #### 3. 주요 차이점
 
-- **Spread operator**는 값을 "펼쳐서" 새로운 배열, 객체, 함수 인자 등으로 확장할 때 사용된다.
-- **Rest parameter**는 함수의 인자나 배열/객체에서 "나머지" 값을 묶어 배열이나 객체로 받을 때 사용된다.
+1. **Spread operator**는 값을 "펼쳐서" 새로운 배열, 객체, 함수 인자 등으로 확장할 때 사용된다.
+	- iterable한 객체에 대해. 기존 요소를 건드리지 않고, 값들을 펼쳐내어 새로운 객체나 배열을 만드는 데에 사용한다.
+	- 또한, spread operator로 풀어낸 요소들은 함수의 인자로 전달할 수도 있다.
 
-- 둘은 생김새는 비슷하지만, 역할에는 분명한 차이가 있다.
-    - **spread operator**는 iterable한 객체에 대해. 기존 요소를 건드리지 않고, 값들을 펼쳐내어 새로운 객체나 배열을 만드는 데에 사용합니다.
-        -또한, spread operator로 풀어낸 요소들은 함수의 인자로 전달할 수도 있습니다.
+ 
+2. **Rest parameter**는 함수의 인자나 배열/객체에서 "나머지" 값을 묶어 배열이나 객체로 받을 때 사용된다.
+	- 함수의 파라미터가 몇 개인지 확실치 않은 상황에서 사용할 수 있다. 
+		- **Rest parameter**는 파라미터를 받는 맨 뒤의 위치에서 요소들을 받는 경우에 사용한다.
+	
+	- 또한 객체나 배열요소에 대해 구조분해 할당을 할 경우에도 사용할 수 있다.
+        - `...`는 파라미터 위치에서 쓰이면 **Rest parameter**로, 구조분해 할당에서 쓰이면, **Rest elements**로 불린다.
+		- **구조 분해 할당** 시 사용하는 **rest elements(...)** 는, 배열이나 객체에서 일부 값을 추출한 후 나머지를 관리할 때 유용하다.
 
-    - 반면, **rest parameter**는 함수의 파라미터가 몇 개인지 확실치 않은 상황에서 사용할 수 있습니다. rest parameter는 파라미터를 받는 맨 뒤의 위치에서 요소들을 받는 경우에 사용합니다.
-        - 또한 객체나 배열요소에 대해 destructing 할당을 할 경우에도 사용할 수 있습니다.
-        - 여기서 `...`는 파라미터 위치에서 쓰이면 rest parameter로, 구조분해 할당에서 쓰이면, rest elements로 불립니다.
-            - 객체 구조분해할당에서 쓰이는 `...`은 rest properties라고 하는데, 이는 `ES9`에서 도입된 기능입니다.
+```js
+// 1. object.prop 값이 변수 varName에 할당된다.
+// 2. object 안에 prop이 없으면 (undefined), deafult가 varName에 할당된다.
+// 3. 연결할 변수가 없는 나머지 object의 프로퍼티들은 객체 rest에 복사된다.
+let {prop : varName = default, ...rest} = object
 
+// ----------
 
-## 구조분해 할당
+let obj1 = { prop: undefined, other: 2 };
+let obj2 = { other: 2 };
 
-- **구조분해할당**이란, 배열 혹은 객체의 값이나 프로퍼티를 분리하여, 그 값을 별도의 변수에다가 담을 수 있도록 하는 표현식입니다.
-    
-- 배열일 때는 `[](대괄호)`를, 객체일 때는 `{}(중괄호)`를 사용할 수 있습니다.
-    
-    - 할당받는 쪽의 마지막 위치에는 **rest parameter**를 사용하여, 대응되지 않은 나머지 인수를 묶어 받아들일 수 있습니다.
+// 첫 번째 경우: object.prop이 undefined인 경우
+let { prop: varName1 = 'default', ...rest1 } = obj1;
+console.log(varName1);  // 'default'
+console.log(rest1);     // { other: 2 }
+
+// 두 번째 경우: object에 prop이 없는 경우
+let { prop: varName2 = 'default', ...rest2 } = obj2;
+console.log(varName2);  // 'default'
+console.log(rest2);     // { other: 2 }
+
+```
+
+```js
+// 1. array의 1번째 요소는 item에, 2번째 요소는 item2에 할당된다.
+// 2. 만약, item1이 undefined이면 'default'라는 값이 저장된다.
+// 2. 이어지는 나머지 요소는 배열 rest에 저장된다.
+let array = [undefined, 2, 3, 4]; 
+let [item1 = 'default', item2, ...rest] = array; 
+
+console.log(item1); // 'default' 
+console.log(item2); // 2 
+console.log(rest); // [3, 4]
+```
