@@ -45,13 +45,40 @@ export default async function SearchTotalServer({ searchParams }: IProps) {
   );
 }
 ```
-### 3. spread operator와 rest parameter의 차이
 
-- 한마디로 이를 정리하자면, 아래와 같이 구분할 수 있습니다.
-    - **spread operator**는 데이터를 풀어놓는다는 의미
-    - **rest parameter**는 전달받은 남은 데이터를 배열이나, 객체 안에 채워넣는다는 의미
 
-- 둘은 생김새는 비슷하지만, 역할에는 분명한 차이가 있습니다.
+#### 2. Rest parameter (`...`)
+
+- **역할**: 함수나 배열, 객체의 나머지 요소를 하나의 변수로 묶어 받는 역할을 한다.
+- **사용 사례**:
+    - 함수의 매개변수에서, 정해지지 않은 개수의 인자를 배열로 받아 처리할 때
+    - 객체나 배열에서 일부 요소를 분리한 후, 나머지 요소들을 모아 처리할 때
+
+```ts
+// 함수에서 사용
+function sum(...numbers) {
+  return numbers.reduce((acc, cur) => acc + cur, 0);
+}
+console.log(sum(1, 2, 3, 4));  // 10
+
+// 배열 구조분해에서 사용
+const [first, ...rest] = [1, 2, 3, 4];
+console.log(first);  // 1
+console.log(rest);   // [2, 3, 4]
+
+// 객체 구조분해에서 사용
+const { a, ...others } = { a: 1, b: 2, c: 3 };
+console.log(a);       // 1
+console.log(others);  // { b: 2, c: 3 }
+```
+
+
+#### 3. 주요 차이점
+
+- **Spread operator**는 값을 "펼쳐서" 새로운 배열, 객체, 함수 인자 등으로 확장할 때 사용된다.
+- **Rest parameter**는 함수의 인자나 배열/객체에서 "나머지" 값을 묶어 배열이나 객체로 받을 때 사용된다.
+
+- 둘은 생김새는 비슷하지만, 역할에는 분명한 차이가 있다.
     - **spread operator**는 iterable한 객체에 대해. 기존 요소를 건드리지 않고, 값들을 펼쳐내어 새로운 객체나 배열을 만드는 데에 사용합니다.
         -또한, spread operator로 풀어낸 요소들은 함수의 인자로 전달할 수도 있습니다.
 
