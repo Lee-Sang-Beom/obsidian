@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-14.md",
+                "file": "Timestamps/2024-10-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-14.md",
+                "file": "Timestamps/2024-10-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-14.md",
+                "file": "Timestamps/2024-10-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-14.md"
+                "file": "Timestamps/2024-10-15.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "b6c01a80c91e0d4c",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/예외처리 (velog 업로드 완료).md",
     "Timestamps/2024-10-14.md",
+    "Timestamps/2024-10-15.md",
+    "짧게 정리한 프론트엔드 지식/예외처리 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/AJAX.md",
     "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Attribute와 Property.md",
@@ -186,7 +187,6 @@
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "짧게 정리한 프론트엔드 지식/URI, URL.md",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "React/recoil",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(1).png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(2).png",
