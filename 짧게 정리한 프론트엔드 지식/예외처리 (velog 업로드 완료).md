@@ -104,3 +104,50 @@ function readFile(filePath) {
 }
 readFile('example.txt');
 ```
+
+> 예 : csv 다운로드
+
+```ts
+<button
+title="csv 다운로드"
+onClick={async () => {
+  try {
+    const { page, size, orderBy, sort, ...rest } = queryInstance;
+
+    const response = await fetch(
+      `/api/common/openData/getExmnStatExcelByFile?${makeUrlQuery(rest)}`
+    );
+
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+
+    // JSON 응답 처리
+    const data = await response.json(); // JSON 데이터로 변환
+    if (!data || !data.length) return;
+
+    const headerString =
+          "조사통계종류,기준연도,자료명,조회수,작성일,수정일";
+
+    const pushData: string[] = data.map((item: ExmnStatResponse) => {
+      return `${JSON.stringify(item!.exmnStatCtgrNm)},${JSON.stringify(item!.crtrYr)},${JSON.stringify(item!.title)},${JSON.stringify(item!.inqCnt)},${item!.regDt ? JSON.stringify(item.regDt) : "-"},${item!.mdfcnDt ? JSON.stringify(item!.mdfcnDt) : "-"}`;
+    });
+
+    clientCSVDownload(
+      headerString,
+      pushData,
+      `김해시공공데이터플랫폼_조사통계.csv`
+    );
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+}}
+  >
+    <RiDownloadLine
+size={20}
+aria-label="다운로드 아이콘"
+role="img"
+color="var(--gray-1000)"
+/>
+  </button>
+```
