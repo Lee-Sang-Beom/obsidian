@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-11.md",
+                "file": "Timestamps/2024-10-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "알아두면",
+                "query": "무상태",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-11.md",
+                "file": "Timestamps/2024-10-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-11.md",
+                "file": "Timestamps/2024-10-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-11.md"
+                "file": "Timestamps/2024-10-14.md"
               }
             }
           },
@@ -157,8 +157,14 @@
   },
   "active": "b6c01a80c91e0d4c",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
+    "짧게 정리한 프론트엔드 지식/AJAX.md",
+    "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Attribute와 Property.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) Data Binding.md",
+    "짧게 정리한 프론트엔드 지식/예외처리 (velog 업로드 완료).md",
+    "Timestamps/2024-10-14.md",
     "Timestamps/2024-10-11.md",
+    "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
     "Timestamps/2024-10-10.md",
     "짧게 정리한 프론트엔드 지식/(작성중) Spread operator와 Rest parameter.md",
     "짧게 정리한 프론트엔드 지식/렌더링 과정 (velog 업로드 완료).md",
@@ -181,13 +187,7 @@
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "짧게 정리한 프론트엔드 지식/URI, URL.md",
     "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
-    "Timestamps/2024-10-06.md",
-    "짧게 정리한 프론트엔드 지식/CRUD & REST.md",
-    "React/recoil/2. Recoil 사용 예시.md",
     "React/recoil",
-    "Timestamps/2024-10-04.md",
-    "React/react-hook-form/3. 실제 프로젝트 사용을 위한 베이스 로직 만들기.md",
-    "React/react-hook-form/2. 주요 함수 및 객체.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(1).png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(2).png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/section 위치별 분리 (css className).png",
