@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-15.md",
+                "file": "React/react-hook-form/2. 주요 함수 및 객체.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "^",
+                "query": "react-hook-form",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-15.md",
+                "file": "React/react-hook-form/2. 주요 함수 및 객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-15.md",
+                "file": "React/react-hook-form/2. 주요 함수 및 객체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-15.md"
+                "file": "React/react-hook-form/2. 주요 함수 및 객체.md"
               }
             }
           },
@@ -157,8 +157,15 @@
   },
   "active": "14752b3ead53e801",
   "lastOpenFiles": [
-    "Timestamps/2024-10-14.md",
+    "React/react-hook-form/1. React-hook-form 소개.md",
+    "React/recoil/1. Recoil.md",
+    "Next.js/NextAuth 사용하기/4. NextAuth.js 사용해보기 4.md",
+    "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
+    "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
+    "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Timestamps/2024-10-15.md",
+    "Timestamps/2024-10-14.md",
     "Timestamps/2024-10-08.md",
     "짧게 정리한 프론트엔드 지식/API.md",
     "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
@@ -176,17 +183,10 @@
     "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
     "Timestamps/2024-10-10.md",
     "짧게 정리한 프론트엔드 지식/(작성중) Spread operator와 Rest parameter.md",
-    "짧게 정리한 프론트엔드 지식/렌더링 과정 (velog 업로드 완료).md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Garbage collection.md",
-    "Timestamps/2024-10-07.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(3).png",
-    "회사 내 경험 모음/CSS 파일 정리하기/CSS 파일을 어떻게 정리하면 좋을까 (코딩 컨벤션).md",
     "Pasted image 20241008144818.png",
     "Pasted image 20241008144815.png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/tsx(3).png",
-    "Next.js/Next.js 14/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
-    "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법 (velog 업로드 완료).md",
-    "짧게 정리한 프론트엔드 지식/ES.md",
     "React/recoil",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(1).png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(2).png",
