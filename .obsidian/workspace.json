@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-14.md",
+                "file": "Timestamps/2024-10-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-14.md",
+                "file": "Timestamps/2024-10-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-14.md",
+                "file": "Timestamps/2024-10-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-14.md"
+                "file": "Timestamps/2024-10-15.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "14752b3ead53e801",
   "lastOpenFiles": [
+    "Timestamps/2024-10-14.md",
     "Timestamps/2024-10-15.md",
     "Timestamps/2024-10-08.md",
     "짧게 정리한 프론트엔드 지식/API.md",
@@ -166,7 +167,6 @@
     "React/env (환경변수).md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/CRUD & REST.md",
-    "Timestamps/2024-10-14.md",
     "짧게 정리한 프론트엔드 지식/예외처리 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/AJAX.md",
     "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
