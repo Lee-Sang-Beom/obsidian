@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-15.md",
+                "file": "Timestamps/2024-10-18.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-10-15.md",
+                "file": "Timestamps/2024-10-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-10-15.md",
+                "file": "Timestamps/2024-10-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-15.md"
+                "file": "Timestamps/2024-10-18.md"
               }
             }
           },
@@ -157,6 +157,8 @@
   },
   "active": "14752b3ead53e801",
   "lastOpenFiles": [
+    "Timestamps/2024-10-15.md",
+    "Timestamps/2024-10-18.md",
     "짧게 정리한 프론트엔드 지식/Expression & Statement.md",
     "짧게 정리한 프론트엔드 지식/라이브러리와 프레임워크 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/깊은 복사와 얕은 복사 (velog 업로드 완료).md",
@@ -169,7 +171,6 @@
     "짧게 정리한 프론트엔드 지식/예외처리 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/알아놓으면 좋은 자바스크립트 문법 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/렌더링 과정 (velog 업로드 완료).md",
-    "Timestamps/2024-10-15.md",
     "React/react-hook-form/3. 실제 프로젝트 사용을 위한 베이스 로직 만들기.md",
     "React/react-hook-form/2. 주요 함수 및 객체.md",
     "React/react-hook-form/1. React-hook-form 소개.md",
@@ -182,7 +183,6 @@
     "Timestamps/2024-10-14.md",
     "Timestamps/2024-10-08.md",
     "짧게 정리한 프론트엔드 지식/API.md",
-    "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(3).png",
     "Pasted image 20241008144818.png",
     "Pasted image 20241008144815.png",
