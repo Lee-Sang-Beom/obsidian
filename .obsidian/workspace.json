@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/forEach()와 map()의 차이.md",
+                "file": "Timestamps/2024-10-18.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/forEach()와 map()의 차이.md",
+                "file": "Timestamps/2024-10-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/forEach()와 map()의 차이.md",
+                "file": "Timestamps/2024-10-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/forEach()와 map()의 차이.md"
+                "file": "Timestamps/2024-10-18.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "14752b3ead53e801",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/forEach()와 map()의 차이.md",
     "짧게 정리한 프론트엔드 지식/(내용추가예정) iterable.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 디자인 패턴.md",
     "짧게 정리한 프론트엔드 지식/네이티브 객체와 호스트 객체.md",
@@ -182,7 +183,6 @@
     "Next.js/NextAuth 사용하기/3. NextAuth.js 사용해보기 3.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "Next.js/NextAuth 사용하기/1. NextAuth.js 사용해보기 1.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(3).png",
     "Pasted image 20241008144818.png",
     "Pasted image 20241008144815.png",
