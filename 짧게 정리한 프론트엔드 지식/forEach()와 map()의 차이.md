@@ -1,11 +1,11 @@
 
-#### 1. `forEach` vs `map`
+#### 1. `forEach()` vs `map()`
 
 - 두 메소드 모두, **JavaScript에서 배열을 순회(iterate)하는 데 사용되는 메서드**이다.
 	- 그러나, 용도와 동작에서 중요한 차이점이 존재한다.
 
 
-#### 2. `forEach`
+#### 2. `forEach()`
 ```ts
 const numbers = [1, 2, 3, 4];
 numbers.forEach((num) => { console.log(num * 2); });
@@ -23,7 +23,7 @@ numbers.forEach((num) => { console.log(num * 2); });
 - 원본 배열은 변형되지 않으며, `forEach` 안에서 수정하지 않는 한 원래 배열은 그대로 유지된다.
 
 
-#### 3. `map`
+#### 3. `map()`
 ```ts
 const numbers = [1, 2, 3, 4]; 
 const doubled = numbers.map((num) => num * 2); console.log(doubled); // [2, 4, 6, 8]
