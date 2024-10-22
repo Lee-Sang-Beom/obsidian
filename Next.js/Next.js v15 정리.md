@@ -85,7 +85,7 @@ npx @next/codemod@canary next-async-request-api .
 ### 5. 캐싱 의미론
 
 - Next.js App Router는 특정한 캐싱 기본값과 함께 시작되었는데, 이는 기본적으로 가장 성능이 뛰어난 옵션을 제공하도록 설계되었으며, 필요 시 선택적으로 사용하지 않을 수 있었다.
-	- 그런데, 이제는 사용자의 피드백을 바탕으로, 캐싱 히스토리와 Partial Prerendering (PPR) 프로젝트 및 fetch를 사용하는 타사 라이브러리와의 상호 작용을 재평가했다고 한다.
+	- 그런데, 이제는 사용자의 피드백을 바탕으로, 캐싱 히스토리와 Partial Prerendering (PPR) 프로젝트 및 `fetch`를 사용하는 타사 라이브러리와의 상호 작용을 재평가했다고 한다.
 
 ##### 5-1. [`fetch` Requests are no longer cached by default](https://nextjs.org/blog/next-15#fetch-requests-are-no-longer-cached-by-default)
 - 이제, Next.js 15에서는 `fetch` 요청, GET Route Handlers, 클라이언트 라우터 캐시의 기본 캐싱 설정을 "기본적으로 캐시됨"에서 **"기본적으로 캐시되지 않음"** 으로 변경했다. 
@@ -171,3 +171,23 @@ module.exports = nextConfig
 	- 이 컴파일러는 개발자가 useMemo 및 useCallback과 같은 API를 통해 수동으로 **Memorization**을 수행해야 하는 양을 줄여주어, 코드가 더 간단하고 유지 관리하기 쉬우며 오류 발생 가능성을 줄여준다.
 
 - Next.js 15에서는 [React 컴파일러](https://react.dev/learn/react-compiler)에 대한 지원을 추가했다고 하며, 현재 Babel 플러그인으로만 제공한다고 한다.
+
+
+### 9. Hydration 오류 개선
+
+- Next.js 14.1에서는 에러 메시지와 hydration 오류에 대한 개선이 이루어졌다. 
+	- Next.js 15에서는 이러한 개선을 더욱 발전시켜 **향상된 hydration 오류 View**를 추가했다.
+	- 이제 hydration 오류는 오류의 원본 소스 코드를 표시하고, 문제를 해결할 수 있는 제안도 함께 제공한다.
+
+- 이제 hydration 오류가 발생하면, 에러의 근본적인 원인을 파악하고 해결 방법을 바로 확인할 수 있어 개발자 경험이 향상될 것이다.
+
+> **Next.js 14.1 Hydration Error Message** (이미지 출처 : https://nextjs.org/blog/next-15)
+![[hydration-error-before-dark.avif]]
+
+> **Next.js 15 Hydration Error Message** (이미지 출처 : https://nextjs.org/blog/next-15)
+![[hydration-error-after-dark.avif]]
+
+
+### 10. Turbopack Dev
+
+https://nextjs.org/blog/next-15
