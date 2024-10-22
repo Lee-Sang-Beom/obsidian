@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-21.md",
+                "file": "Timestamps/2024-10-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-21"
+              "title": "2024-10-22"
             }
           }
         ],
@@ -190,11 +190,12 @@
   },
   "active": "9d5c4997245fe266",
   "lastOpenFiles": [
+    "Timestamps/2024-10-21.md",
+    "Timestamps/2024-10-22.md",
     "Timestamps/2024-10-08.md",
     "Timestamps/2024-10-07.md",
     "Timestamps/2024-10-14.md",
     "Timestamps/2024-10-15.md",
-    "Timestamps/2024-10-21.md",
     "짧게 정리한 프론트엔드 지식/bind, apply, call 메소드.md",
     "짧게 정리한 프론트엔드 지식/this.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
@@ -215,7 +216,6 @@
     "짧게 정리한 프론트엔드 지식/콜백 함수(Callback Function).md",
     "짧게 정리한 프론트엔드 지식/자바스크립트의 배열.md",
     "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
-    "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(3).png",
     "Pasted image 20241008144818.png",
     "Pasted image 20241008144815.png",
