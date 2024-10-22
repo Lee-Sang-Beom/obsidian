@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
+                "file": "Timestamps/2024-10-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 규칙 및 동작"
+              "title": "2024-10-22"
             }
           }
         ]
@@ -175,6 +175,13 @@
   },
   "active": "bd3f54bcfc13312e",
   "lastOpenFiles": [
+    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
+    "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
+    "Next.js/Server Action 사용하기/5. Pending States.md",
+    "Next.js/Server Action 사용하기/4. 추가 인수 전달.md",
+    "짧게 정리한 프론트엔드 지식/bind, apply, call 메소드.md",
+    "Next.js/Server Action 사용하기/3. Forms 사용.md",
+    "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
     "Next.js/Server Action 사용하기/1. OverView of Server Action.md",
     "Next.js/Next.js v15 정리.md",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
@@ -194,16 +201,9 @@
     "Timestamps/2024-10-07.md",
     "Timestamps/2024-10-14.md",
     "Timestamps/2024-10-15.md",
-    "짧게 정리한 프론트엔드 지식/bind, apply, call 메소드.md",
     "짧게 정리한 프론트엔드 지식/this.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Data Binding.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP Method.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP와 HTTPS.md",
-    "Timestamps/2024-10-18.md",
-    "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
-    "짧게 정리한 프론트엔드 지식/네이티브 객체와 호스트 객체.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(3).png",
     "Pasted image 20241008144818.png",
     "Pasted image 20241008144815.png",
