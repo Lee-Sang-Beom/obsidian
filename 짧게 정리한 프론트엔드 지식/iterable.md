@@ -46,3 +46,64 @@ console.log(iterator.next()); // { value: 2, done: false }
 console.log(iterator.next()); // { value: 3, done: false }
 console.log(iterator.next()); // { value: undefined, done: true }
 ```
+
+
+#### 5. Iterator을 사용하여 구현된 다른 예시
+
+> **전개 연산자**
+- 사용 예시
+```tsx
+const arr = [1, 2, 3]; 
+const newArr = [...arr, 4, 5]; // [1, 2, 3, 4, 5]
+```
+
+- 실제 코드 사용 예시
+```tsx
+useEffect(() => {
+	setMarkerPagingSearchOption((prev) => {
+	  return {
+		...prev,
+		page: 0,
+	  };
+	});
+}, [selectMapDepth3SubMenuState]);
+```
+
+> **Array.from()**
+- 사용 예시
+```tsx
+const iterable = new Set([1, 2, 3]);
+const arr = Array.from(iterable); // [1, 2, 3]
+```
+
+- 실제 코드 사용 예시
+```tsx
+{Array.from({ length: 5 }).map((_, idx: number) => {
+  return (
+	<tr key={`인기검색어 순위 : ${idx+1}위, ${srchStatList[idx].srchWord}`}>
+	  <td>{idx + 1}</td>
+	  <td>
+		{srchStatList &&
+		srchStatList.length > idx &&
+		srchStatList[idx]
+		  ? srchStatList[idx].srchWord
+		  : ""}
+	  </td>
+	  <td>
+		{srchCrollingOpenDataList &&
+		srchCrollingOpenDataList.length > idx &&
+		srchCrollingOpenDataList[idx]
+		  ? srchCrollingOpenDataList[idx].srchWord
+		  : ""}
+	  </td>
+	  <td>
+		{srchCrollingKosisList &&
+		srchCrollingKosisList.length > idx &&
+		srchCrollingKosisList[idx]
+		  ? srchCrollingKosisList[idx].srchWord
+		  : ""}
+	  </td>
+	</tr>
+  );
+})}
+```
