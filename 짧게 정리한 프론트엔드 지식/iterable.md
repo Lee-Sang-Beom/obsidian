@@ -20,3 +20,29 @@
     - `next()` 메서드를 호출할 때마다 순차적으로 값을 반환하며, 반복이 끝나면 `done: true`가 반환된다.
 
 - **배열**, **문자열**, **Set**, **Map** 등은 기본적으로 `Iterable`을 구현하고 있다. 즉, `for...of` 구문으로 순회를 진행할 수 있다는 뜻이다.
+
+
+#### 3. 예시 1. 배열 반복
+
+- 배열은 기본적으로 `Iterable`이기 때문에, 내부적으로 `Symbol.iterator` 메서드를 가지고 있어 `for...of`로 순회할 수 있다.
+```js
+const arr = [1, 2, 3];
+for (const value of arr) {
+  console.log(value); // 1, 2, 3 순서대로 출력
+}
+```
+
+
+#### 4. 예시 2. 직접적인 Iterator 사용
+
+- 배열은 기본적으로 `Iterable`이기 때문에 `Symbol.iterator` 메서드를 사용할 수 있으며, 이를 통해 명시적으로 `Iterator` 객체를 만들고, `next()`를 호출하여 값을 하나씩 가져올 수 있다.
+
+```js
+const arr = [1, 2, 3];
+const iterator = arr[Symbol.iterator]();
+
+console.log(iterator.next()); // { value: 1, done: false }
+console.log(iterator.next()); // { value: 2, done: false }
+console.log(iterator.next()); // { value: 3, done: false }
+console.log(iterator.next()); // { value: undefined, done: true }
+```
