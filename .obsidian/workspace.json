@@ -4,51 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c76dc04c100792ea",
-        "type": "split",
+        "id": "83766a9ddd1aebbe",
+        "type": "tabs",
         "children": [
           {
-            "id": "83766a9ddd1aebbe",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "95b312a1d43c0b3b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "짧게 정리한 프론트엔드 지식/iterable.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "iterable"
-                }
-              }
-            ]
+            "id": "95b312a1d43c0b3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "짧게 정리한 프론트엔드 지식/iterable.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "iterable"
+            }
           },
           {
-            "id": "c3e0a0c44b265df3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bd3f54bcfc13312e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "짧게 정리한 프론트엔드 지식/(작성중) 제너레이터.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "(작성중) 제너레이터"
-                }
-              }
-            ]
+            "id": "127923a5bcb1b496",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "짧게 정리한 프론트엔드 지식/(작성중) 제너레이터.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(작성중) 제너레이터"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,10 +188,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bd3f54bcfc13312e",
+  "active": "127923a5bcb1b496",
   "lastOpenFiles": [
     "짧게 정리한 프론트엔드 지식/iterable.md",
     "짧게 정리한 프론트엔드 지식/(작성중) 제너레이터.md",
+    "Timestamps/2024-10-29.md",
     "Timestamps/2024-10-28.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 웹 표준.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 순환 참조란.md",
@@ -228,7 +217,6 @@
     "Timestamps/2024-10-22.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
     "Next.js/Server Action 사용하기/6. Server-side validation and error handling.md",
-    "Next.js/Server Action 사용하기/5. Pending States.md",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
     "사용 이미지/Next.js/Next.js v15",
     "사용 이미지/Next.js/Next.js v15/hydration-error-before-dark.avif",
