@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-10-30.md",
+                "file": "Timestamps/2024-10-31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-30"
+              "title": "2024-10-31"
             }
           }
         ]
@@ -175,6 +175,8 @@
   },
   "active": "95b312a1d43c0b3b",
   "lastOpenFiles": [
+    "Timestamps/2024-10-30.md",
+    "Timestamps/2024-10-31.md",
     "짧게 정리한 프론트엔드 지식/원시 타입과 참조 타입 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/네이티브 객체와 호스트 객체 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/깊은 복사와 얕은 복사 (velog 업로드 완료).md",
@@ -182,7 +184,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 자바스크립트와 Dynamic.md",
     "짧게 정리한 프론트엔드 지식/iterable.md",
     "짧게 정리한 프론트엔드 지식/제너레이터.md",
-    "Timestamps/2024-10-30.md",
     "Timestamps/2024-10-28.md",
     "Timestamps/2024-10-29.md",
     "Next.js/VWorld and OpenLayers/9. Next.js13에서 VWorld API와 OpenLayers 사용해보기 9.md",
@@ -201,7 +202,6 @@
     "Timestamps/2024-10-07.md",
     "Next.js/Server Action 사용하기/12. Revalidation data.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
-    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
     "사용 이미지/Next.js/Next.js v15",
