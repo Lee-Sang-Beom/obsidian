@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-10-21.md"
+                "file": "Timestamps/2024-11-04.md"
               },
               "icon": "lucide-list",
-              "title": "2024-10-21 개요"
+              "title": "2024-11-04 개요"
             }
           },
           {
@@ -173,7 +173,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95b312a1d43c0b3b",
+  "active": "bd7c1d9ac436be5e",
   "lastOpenFiles": [
     "짧게 정리한 프론트엔드 지식/Garbage Collection.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Require, Import.md",
