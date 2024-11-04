@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-11-04.md",
+                "file": "Timestamps/2024-11-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-04"
+              "title": "2024-11-05"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-11-04.md"
+                "file": "Timestamps/2024-11-05.md"
               },
               "icon": "lucide-list",
-              "title": "2024-11-04 개요"
+              "title": "2024-11-05 개요"
             }
           },
           {
@@ -170,15 +170,17 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd7c1d9ac436be5e",
+  "active": "95b312a1d43c0b3b",
   "lastOpenFiles": [
+    "Timestamps/2024-11-04.md",
+    "Timestamps/2024-11-05.md",
     "짧게 정리한 프론트엔드 지식/Garbage Collection.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Require, Import.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 루프.md",
-    "Timestamps/2024-11-04.md",
     "Timestamps/2024-11-01.md",
     "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
     "Timestamps/2024-10-31.md",
@@ -201,7 +203,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 순환 참조란.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 캐스캐이딩(Cascading).md",
     "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
-    "Timestamps/2024-10-23.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
     "사용 이미지/Next.js/Next.js v15",
