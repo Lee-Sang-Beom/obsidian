@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js v15 정리.md",
+                "file": "Timestamps/2024-11-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Next.js v15 정리"
+              "title": "2024-11-05"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "마이그레이션",
+                "query": "서버리스",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,8 +175,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "95b312a1d43c0b3b",
   "lastOpenFiles": [
+    "Next.js/Next.js v15 정리.md",
     "Timestamps/2024-11-05.md",
     "Timestamps/2024-11-04.md",
     "짧게 정리한 프론트엔드 지식/Garbage Collection.md",
@@ -202,7 +204,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 웹 표준.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 순환 참조란.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 캐스캐이딩(Cascading).md",
-    "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
     "사용 이미지/Next.js/Next.js v15",
