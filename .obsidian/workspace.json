@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-11-05.md",
+                "file": "Next.js/Next.js v15 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-05"
+              "title": "Next.js v15 정리"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clust",
+                "query": "마이그레이션",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,10 +174,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95b312a1d43c0b3b",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
-    "Timestamps/2024-11-04.md",
     "Timestamps/2024-11-05.md",
+    "Timestamps/2024-11-04.md",
     "짧게 정리한 프론트엔드 지식/Garbage Collection.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) Require, Import.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 루프.md",
