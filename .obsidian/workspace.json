@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,7 +174,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95b312a1d43c0b3b",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
     "Next.js/Next.js v15 정리.md",
     "Timestamps/2024-11-05.md",
