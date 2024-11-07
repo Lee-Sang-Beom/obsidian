@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-11-05.md",
+                "file": "짧게 정리한 프론트엔드 지식/Require, Import.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-05"
+              "title": "Require, Import"
+            }
+          },
+          {
+            "id": "3162590c88fb3d04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Timestamps/2024-11-07.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-11-07"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,13 +189,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "3162590c88fb3d04",
   "lastOpenFiles": [
-    "Next.js/Next.js v15 정리.md",
+    "Timestamps/2024-11-06.md",
+    "Timestamps/2024-11-07.md",
     "Timestamps/2024-11-05.md",
+    "Next.js/Next.js v15 정리.md",
     "Timestamps/2024-11-04.md",
     "짧게 정리한 프론트엔드 지식/Garbage Collection.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) Require, Import.md",
+    "짧게 정리한 프론트엔드 지식/Require, Import.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 이벤트 루프.md",
     "Timestamps/2024-11-01.md",
     "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
@@ -201,8 +218,6 @@
     "Next.js/VWorld and OpenLayers/7. Next.js13에서 VWorld API와 OpenLayers 사용해보기 7.md",
     "Next.js/네이버 지도 API",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 웹 표준.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 순환 참조란.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 캐스캐이딩(Cascading).md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
     "사용 이미지/Next.js/Next.js v15",
