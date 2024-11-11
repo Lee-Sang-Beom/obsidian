@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-11-11.md",
+                "file": "Timestamps/2024-11-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-11"
+              "title": "2024-11-12"
             }
           }
         ],
@@ -191,8 +191,9 @@
   },
   "active": "3162590c88fb3d04",
   "lastOpenFiles": [
-    "Timestamps/2024-11-08.md",
     "Timestamps/2024-11-11.md",
+    "Timestamps/2024-11-12.md",
+    "Timestamps/2024-11-08.md",
     "Timestamps/2024-11-07.md",
     "Timestamps/2024-11-06.md",
     "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임.md",
@@ -216,7 +217,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 자바스크립트와 Dynamic.md",
     "짧게 정리한 프론트엔드 지식/iterable.md",
     "짧게 정리한 프론트엔드 지식/제너레이터.md",
-    "Timestamps/2024-10-28.md",
     "Next.js/네이버 지도 API",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
