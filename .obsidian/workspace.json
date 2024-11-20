@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
+                "file": "Timestamps/2024-11-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cookie, Session, Web Storage"
+              "title": "2024-11-20"
             }
           }
         ],
@@ -192,6 +192,7 @@
   },
   "active": "1a1ee43a7ae275d1",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
     "Next.js/NextAuth 사용하기/2. NextAuth.js 사용해보기 2.md",
     "Timestamps/2024-11-20.md",
     "Timestamps/2024-11-19.md",
@@ -217,7 +218,6 @@
     "backend/DataBase/JOIN.md",
     "backend/스프링 부트와 JPA 활용 1/DAY 6. 도메인 분석 설계 (도메인 모델과 테이블 설계).md",
     "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계 (요구사항 분석).md",
-    "backend/스프링 부트와 JPA 활용 1/DAY 1. 프로젝트 생성.md",
     "Next.js/네이버 지도 API",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
