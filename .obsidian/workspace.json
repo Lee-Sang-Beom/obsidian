@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-11-23.md",
+                "file": "React/React 타입 정리 - 주요 타입과 용도.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 209.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Timestamps/2024-11-23.md",
+                "file": "React/React 타입 정리 - 주요 타입과 용도.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Timestamps/2024-11-23.md",
+                "file": "React/React 타입 정리 - 주요 타입과 용도.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-11-23.md"
+                "file": "React/React 타입 정리 - 주요 타입과 용도.md"
               }
             }
           },
@@ -155,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,9 +171,12 @@
   },
   "active": "1a1ee43a7ae275d1",
   "lastOpenFiles": [
-    "Timestamps/2024-11-22.md",
+    "React/HOC.md",
+    "React/React 타입 정리 - 주요 타입과 용도.md",
+    "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이 (velog 업로드 완료).md",
+    "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
     "Timestamps/2024-11-23.md",
-    "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
+    "Timestamps/2024-11-22.md",
     "Timestamps/2024-11-21.md",
     "짧게 정리한 프론트엔드 지식/반응형 웹과 적응형 웹 (velog 업로드).md",
     "Timestamps/2024-11-20.md",
@@ -183,20 +186,17 @@
     "Timestamps/2024-11-01.md",
     "React/react-hook-form/4. react-hook-form 사용하기.md",
     "React/react-hook-form/5. react-hook-form과 useMutation을 함께 사용한 예시.md",
-    "React/(해야함) React.ReactNode, React.ReactElement,.md",
     "Timestamps/2024-11-18.md",
     "Timestamps/2024-11-15.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 디자인 패턴.md",
     "Timestamps/2024-11-13.md",
     "짧게 정리한 프론트엔드 지식/자바스크립트의 동적(Dynamic)인 특성.md",
-    "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
     "Timestamps/2024-11-14.md",
     "짧게 정리한 프론트엔드 지식/일반 함수와 화살표 함수 (velog 업로드 완료).md",
     "Timestamps/2024-11-12.md",
     "짧게 정리한 프론트엔드 지식/Require, Import.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "Next.js/네이버 지도 API",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
