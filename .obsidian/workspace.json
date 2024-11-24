@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-11-22.md",
+                "file": "Timestamps/2024-11-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-22"
+              "title": "2024-11-25"
             }
           }
         ],
@@ -191,8 +191,9 @@
   },
   "active": "1a1ee43a7ae275d1",
   "lastOpenFiles": [
-    "Timestamps/2024-11-21.md",
     "Timestamps/2024-11-22.md",
+    "Timestamps/2024-11-25.md",
+    "Timestamps/2024-11-21.md",
     "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
     "짧게 정리한 프론트엔드 지식/반응형 웹과 적응형 웹 (velog 업로드).md",
     "Timestamps/2024-11-20.md",
@@ -216,7 +217,6 @@
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/5. 엔티티 매핑 (2).md",
     "Next.js/네이버 지도 API",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
