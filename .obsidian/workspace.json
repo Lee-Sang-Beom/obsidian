@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "05576f96eb5b6f00",
+        "id": "70094eedeed08132",
         "type": "tabs",
         "children": [
           {
-            "id": "7ebcf52f8350ce2b",
+            "id": "1edff45d4f35fc2c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/react-hook-form/5. react-hook-form과 useMutation을 함께 사용한 예시.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "5. react-hook-form과 useMutation을 함께 사용한 예시"
-            }
-          },
-          {
-            "id": "1a1ee43a7ae275d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timestamps/2024-11-25.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-11-25"
+              "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "세션",
+                "query": "React.l",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,10 +170,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a1ee43a7ae275d1",
+  "active": "1edff45d4f35fc2c",
   "lastOpenFiles": [
-    "Timestamps/2024-11-22.md",
+    "React/recoil/무제 파일.md",
+    "React/recoil/(해야함) React.lazy.md",
+    "React/react-hook-form/5. react-hook-form과 useMutation을 함께 사용한 예시.md",
     "Timestamps/2024-11-25.md",
+    "Timestamps/2024-11-22.md",
     "Timestamps/2024-11-21.md",
     "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이.md",
     "짧게 정리한 프론트엔드 지식/반응형 웹과 적응형 웹 (velog 업로드).md",
@@ -202,7 +186,6 @@
     "Timestamps/2024-11-19.md",
     "Timestamps/2024-11-01.md",
     "React/react-hook-form/4. react-hook-form 사용하기.md",
-    "React/react-hook-form/5. react-hook-form과 useMutation을 함께 사용한 예시.md",
     "React/(해야함) React.ReactNode, React.ReactElement,.md",
     "Timestamps/2024-11-18.md",
     "Timestamps/2024-11-15.md",
@@ -215,8 +198,6 @@
     "Timestamps/2024-11-12.md",
     "짧게 정리한 프론트엔드 지식/Require, Import.md",
     "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/2. 영속성 컨텍스트.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/3. 플러시와 준영속.md",
-    "backend/자바 ORM 표준 JPA 프로그래밍 - 기본편/7. 연관관계 매핑 기초.md",
     "Next.js/네이버 지도 API",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
