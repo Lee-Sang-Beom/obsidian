@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-11-26.md",
+                "file": "Timestamps/2024-11-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-26"
+              "title": "2024-11-28"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "1a1ee43a7ae275d1",
   "lastOpenFiles": [
-    "Timestamps/2024-11-28.md",
     "Timestamps/2024-11-26.md",
+    "Timestamps/2024-11-28.md",
     "Timestamps/2024-11-27.md",
     "React/React 생명주기.md",
     "짧게 정리한 프론트엔드 지식/프로그래밍 방법론.md",
