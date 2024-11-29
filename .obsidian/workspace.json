@@ -176,8 +176,9 @@
   },
   "active": "1a1ee43a7ae275d1",
   "lastOpenFiles": [
-    "Timestamps/2024-11-28.md",
+    "React/(수정필요함) HOC.md",
     "Timestamps/2024-11-29.md",
+    "Timestamps/2024-11-28.md",
     "Timestamps/2024-11-27.md",
     "Timestamps/2024-11-26.md",
     "React/React 생명주기.md",
@@ -186,7 +187,6 @@
     "React/Virtual DOM.md",
     "React/React.lazy와 Suspense.md",
     "React/jsx.md",
-    "React/(해야함) HOC.md",
     "React/key.md",
     "React/Fragment.md",
     "React/env (환경변수).md",
