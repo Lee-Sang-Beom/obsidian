@@ -33,10 +33,10 @@
 ### 🚀 HOC 사용법
 ```jsx
 // HOC 정의
-const withLogger = (WrappedComponent) => {
+const withLogger = (WrappedComponent) => { // WrappedComponent: HOC에 전달되는 컴포넌트
   return (props) => {
     console.log("Props:", props);
-    return <WrappedComponent {...props} />;
+    return <WrappedComponent {...props} />; // 반환되는 함수는 새로운 컴포넌트로, `props`를 받아 `WrappedComponent`를 렌더링함
   };
 };
 
@@ -45,9 +45,13 @@ const MyComponent = (props) => {
   return <div>Hello, {props.name}!</div>;
 };
 
+// `withLogger`를 사용하여 `MyComponent`를 감싼 새로운 컴포넌트를 생성 
+// MyComponentWithLogger에 전달된 name="React"는 MyComponnet의 props로 전달됨 {name: "React"}
 const MyComponentWithLogger = withLogger(MyComponent);
 
-// 렌더링
+// `MyComponentWithLogger`를 렌더링하면 다음이 실행됨
+// 1. `withLogger` 내부에서 `console.log("Props:", { name: "React" })`가 호출됨
+// 2. `WrappedComponent`, 즉 `MyComponent`가 `props`를 전달받아 `<div>Hello, React!</div>`를 렌더링
 <MyComponentWithLogger name="React" />;
 ```
 - `MyComponentWithLogger`가 렌더링될 때 `props`가 콘솔에 출력된다.
@@ -57,7 +61,8 @@ const MyComponentWithLogger = withLogger(MyComponent);
 ### 🛠️ HOC 작성 시 주의할 점
 
 ##### 1. props 전달 유지 (Props Proxy)
-- HOC는 항상 원래 컴포넌트가 필요로 하는 props를 전달해야 합니다.
+- HOC는 항상 원래 컴포넌트가 필요로 하는 props를 전달해야 한다.
+	- 위 예제에서는 `MyCompoent`에 전달된 `{name: string}`값이다.
 ```jsx
 const withExtraProp = (WrappedComponent) => (props) => {
   return <WrappedComponent {...props} extra="추가 속성" />;
@@ -65,7 +70,7 @@ const withExtraProp = (WrappedComponent) => (props) => {
 ```
 
 ##### 2. Display Name 설정
-- 디버깅 시 HOC로 감싸진 컴포넌트의 이름을 알기 쉽도록 `displayName`을 설정합니다.
+- 디버깅 시 HOC로 감싸진 컴포넌트의 이름을 알기 쉽도록 `displayName`을 설정할 수 있다.
 ```jsx
 const withLogger = (WrappedComponent) => {
   const HOC = (props) => {
@@ -79,7 +84,7 @@ const withLogger = (WrappedComponent) => {
 ```
 
 ##### 3. HOC 중첩 관리
-- HOC를 여러 개 중첩해서 사용하는 경우, 코드 가독성을 유지하기 위해 **Compose 함수**를 사용하는 것이 좋습니다.
+- HOC를 여러 개 중첩해서 사용하는 경우, 코드 가독성을 유지하기 위해 **Compose 함수**를 사용하는 것이 좋다.
 ```jsx
 import { compose } from "redux"; // 또는 lodash
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/(수정필요함) HOC.md",
+                "file": "Timestamps/2024-12-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(수정필요함) HOC"
+              "title": "2024-12-02"
             }
           }
         ]
@@ -176,12 +176,13 @@
   },
   "active": "1a1ee43a7ae275d1",
   "lastOpenFiles": [
+    "Timestamps/2024-12-03.md",
     "Timestamps/2024-12-02.md",
+    "React/HOC.md",
     "Timestamps/2024-11-29.md",
     "Timestamps/2024-11-28.md",
     "Timestamps/2024-11-26.md",
     "Timestamps/2024-11-27.md",
-    "React/(수정필요함) HOC.md",
     "React/React 생명주기.md",
     "짧게 정리한 프론트엔드 지식/프로그래밍 방법론.md",
     "React/React 타입 정리 - 주요 타입과 용도.md",
@@ -201,7 +202,6 @@
     "React/hook/useLayoutEffect.md",
     "React/react-hook-form/5. react-hook-form과 useMutation을 함께 사용한 예시.md",
     "짧게 정리한 프론트엔드 지식/인라인 레벨 함수와 모듈 레벨 함수의 차이 (velog 업로드 완료).md",
-    "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
     "Next.js/네이버 지도 API",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
