@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/CRA, 보일러 플레이트.md",
+                "file": "Timestamps/2024-12-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CRA, 보일러 플레이트"
+              "title": "2024-12-02"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "고차함수",
+                "query": "package.json",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,15 +176,20 @@
   },
   "active": "1a1ee43a7ae275d1",
   "lastOpenFiles": [
-    "React/env (환경변수).md",
-    "짧게 정리한 프론트엔드 지식/고차함수와 일급객체 (velog 업로드 완료).md",
+    "Timestamps/2024-12-03.md",
+    "짧게 정리한 프론트엔드 지식/(해야함) dependencies와 devDependencies의 차이.md",
+    "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
+    "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
+    "짧게 정리한 프론트엔드 지식/npm과 npm 명령어, 그리고 npx.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "Timestamps/2024-12-02.md",
-    "Timestamps/2024-12-03.md",
+    "Timestamps/2024-11-29.md",
+    "React/CRA, 보일러 플레이트.md",
+    "React/env (환경변수).md",
+    "짧게 정리한 프론트엔드 지식/고차함수와 일급객체 (velog 업로드 완료).md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
-    "Timestamps/2024-11-29.md",
     "Timestamps/2024-11-28.md",
     "Timestamps/2024-11-26.md",
     "Timestamps/2024-11-25.md",
@@ -197,11 +202,6 @@
     "React/React.lazy와 Suspense.md",
     "React/jsx.md",
     "React/key.md",
-    "React/Fragment.md",
-    "React/CRA, 보일러 플레이트.md",
-    "React/제어 컴포넌트와 비제어 컴포넌트.md",
-    "Next.js/더 알아보기/dynamic.md",
-    "짧게 정리한 프론트엔드 지식/코드 스플리팅.md",
     "Next.js/네이버 지도 API",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
