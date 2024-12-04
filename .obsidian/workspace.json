@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/코드 스플리팅.md",
+                "file": "Timestamps/2024-12-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "코드 스플리팅"
+              "title": "2024-12-04"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dynamic",
+                "query": "hoc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,13 +177,16 @@
   },
   "active": "1a1ee43a7ae275d1",
   "lastOpenFiles": [
+    "React/HOC.md",
+    "Timestamps/2024-12-04.md",
+    "Timestamps/2024-12-03.md",
+    "Timestamps/2024-12-02.md",
+    "Timestamps/2024-11-26.md",
+    "짧게 정리한 프론트엔드 지식/코드 스플리팅.md",
     "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
     "React/React 생명주기.md",
     "React/React-19.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/13. Handling Errors.md",
-    "Timestamps/2024-12-03.md",
-    "Timestamps/2024-12-02.md",
-    "Timestamps/2024-11-26.md",
     "Timestamps/2024-11-29.md",
     "Timestamps/2024-11-28.md",
     "Timestamps/2024-11-27.md",
@@ -201,9 +204,6 @@
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/9. Streaming.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/8. Static and Dynamic Rendering.md",
     "Timestamps/2024-11-25.md",
-    "React/HOC.md",
-    "짧게 정리한 프론트엔드 지식/프로그래밍 방법론.md",
-    "React/React 타입 정리 - 주요 타입과 용도.md",
     "Next.js/네이버 지도 API",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
     "사용 이미지/Next.js/Next.js v15/hydration-error-after-dark.avif",
