@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "70094eedeed08132",
+        "id": "e7edc0c02c4fbc1c",
         "type": "tabs",
         "children": [
           {
-            "id": "1a1ee43a7ae275d1",
+            "id": "b8af3e5d9147166d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
+                "file": "Timestamps/2024-12-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15. Adding Authentication"
+              "title": "2024-12-06"
             }
           }
         ]
@@ -174,20 +174,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "b8af3e5d9147166d",
   "lastOpenFiles": [
+    "Timestamps/2024-11-29.md",
+    "Timestamps/2024-11-26.md",
+    "Timestamps/2024-12-06.md",
+    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
+    "vercel 추가 - nextauth key.png",
+    "Pasted image 20241206101658.png",
     "openssl key 발급받기.png",
     "짧게 정리한 프론트엔드 지식/(해야함) npm, npx, pnpm의 차이.md",
     "짧게 정리한 프론트엔드 지식/npm과 npm 명령어, 그리고 npx.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
-    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
     "추가- login 디렉터리 내 page.tsx파일.png",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
-    "Timestamps/2024-12-06.md",
     "Timestamps/2024-12-04.md",
-    "Timestamps/2024-11-29.md",
     "Timestamps/2024-11-28.md",
-    "Timestamps/2024-11-26.md",
     "Timestamps/2024-12-03.md",
     "React/HOC.md",
     "Timestamps/2024-12-02.md",
@@ -211,10 +213,7 @@
     "사용 이미지/Next.js/Next.js v15/hydration-error-before-dark.avif",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(3).png",
     "Pasted image 20241008144818.png",
-    "Pasted image 20241008144815.png",
-    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/tsx(3).png",
     "React/recoil",
-    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/css(1).png",
     "사용 이미지/TimeStamps/2024-10-04",
     "사용 이미지/TimeStamps",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기",
