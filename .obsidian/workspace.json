@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-12-06.md",
+                "file": "Timestamps/2024-11-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-06"
+              "title": "2024-11-26"
             }
           }
         ]
@@ -176,9 +176,10 @@
   },
   "active": "b8af3e5d9147166d",
   "lastOpenFiles": [
+    "Timestamps/2024-12-06.md",
+    "Timestamps/2024-12-04.md",
     "Timestamps/2024-11-29.md",
     "Timestamps/2024-11-26.md",
-    "Timestamps/2024-12-06.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
     "vercel 추가 - nextauth key.png",
     "Pasted image 20241206101658.png",
@@ -188,7 +189,6 @@
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "추가- login 디렉터리 내 page.tsx파일.png",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
-    "Timestamps/2024-12-04.md",
     "Timestamps/2024-11-28.md",
     "Timestamps/2024-12-03.md",
     "React/HOC.md",
