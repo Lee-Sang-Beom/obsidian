@@ -6,6 +6,8 @@
 - React 19에서는 비동기 함수를 트랜지션(transition)에서 사용하여 대기 상태, 에러, 폼 제출, 낙관적 업데이트를 자동으로 처리할 수 있게 되었습니다. 예를 들어, `useTransition` 훅을 사용하여 대기 상태를 자동으로 관리할 수 있습니다.
 	- React의 `useTransition` 훅은 비동기 작업이 진행되는 동안 UI의 응답성을 유지하는 데 사용된다.
 	- `startTransition` 함수는 비동기 작업을 감싸고, 작업이 진행 중일 때 `isPending` 상태를 관리합니다.
+		- 이 때, `startTransition`은 전달된 콜백 함수에서 비동기 작업을 수행하는 동안 UI의 업데이트가 **우선순위가 낮은** 작업으로 처리되도록 합니다.
+		- 이 코드는 `updateName`이라는 비동기 작업을 트랜지션 내에서 실행하며, 이 작업이 완료될 때까지 React는 UI를 블로킹하지 않고 다른 렌더링 작업을 처리할 수 있도록 합니다.
 ```tsx
 // Using pending state from Actions
 function UpdateName({}) {
@@ -16,7 +18,7 @@ function UpdateName({}) {
   const [isPending, startTransition] = useTransition(); 
   const handleSubmit = () => {
     startTransition(async () => {
-      const error = await updateName(name);
+      const error = await updateName(name); // 비동기작업
       if (error) {
         setError(error);
         return;
@@ -41,18 +43,31 @@ function UpdateName({}) {
 #### 2. `useActionState`
 
 - React 19에서는 **useActionState**라는 새로운 훅이 추가되었습니다. 이 훅은 일반적인 Actions 작업을 더 쉽게 처리할 수 있도록 도와줍니다. `useActionState`는 함수를 받아, 호출할 때마다 대기 상태와 최종 결과를 관리합니다.
+- 이전까지는 `ReactDOM.useFormState`라는 이름으로 사용되었습니다. 
 
 ```tsx
-const [error, submitAction, isPending] = useActionState(
-  async (previousState, newName) => {
-    const error = await updateName(newName);
-    if (error) {
-      return error;
-    }
-    return null;
-  },
-  null,
-);
+// Using <form> Actions and useActionState
+function ChangeName({ name, setName }) {
+  const [error, submitAction, isPending] = useActionState(
+    async (previousState, formData) => {
+      const error = await updateName(formData.get("name"));
+      if (error) {
+        return error;
+      }
+      redirect("/path");
+      return null;
+    },
+    null,
+  );
+
+  return (
+    <form action={submitAction}>
+      <input type="text" name="name" />
+      <button type="submit" disabled={isPending}>Update</button>
+      {error && <p>{error}</p>}
+    </form>
+  );
+}
 ```
 - 이 훅은 비동기 함수(“Action”)를 받아 처리하며, 결과와 대기 상태를 반환합니다. 이전에 "ReactDOM.useFormState"로 불리던 이 훅은 이제 **React.useActionState**로 이름이 변경되었습니다.
 	- 이러한 새로운 기능들은 React 19에서의 데이터 관리와 상호작용을 더욱 간단하고 효율적으로 만들어줍니다.
@@ -79,19 +94,25 @@ const [error, submitAction, isPending] = useActionState(
 	    - 상태 관리를 위해 사용하는 경우가 많으며, 비동기 작업의 결과에 따라 상태를 업데이트할 때 유용합니다.
 	    - 예를 들어, 이전 상태에서 어떤 정보가 있었는지 또는 비동기 작업이 수행되기 전에의 상태를 알고 싶을 때 사용합니다.
       
-	2. **`newName`**:
-	    - 이 인수는 비동기 작업에 필요한 새로운 데이터를 나타냅니다. 이 코드에서 `newName`은 이름을 업데이트하기 위해 사용되는 값입니다.
-	    - `updateName(newName)` 함수는 이 `newName` 값을 사용하여 이름을 업데이트하려고 시도하며, 이 작업이 성공하거나 실패할 때 상태를 반환합니다.
+	2. **`formData`**:
+	    - 이 인수는 비동기 작업에 필요한 새로운 데이터를 나타냅니다. 이 코드에서 `formData`는 이름을 업데이트하기 위해 사용되는 값입니다.
+	    - `updateName(formData.get("name"))` 함수는 `formData`에 있는 `name` 값을 사용하여 이름을 업데이트하려고 시도하며, 이 작업이 성공하거나 실패할 때 상태를 반환합니다.
 	    - 이 코드에서는 `submitAction` 함수가 호출될 때 제공되는 새로운 이름 값입니다. 이 값은 `updateName` 함수에 전달되어 이름 업데이트를 시도합니다.
 
 #### 3. `<form>` Actions
 
-- React 19에서는 `<form>` 요소에서 `action`과 `formAction` 속성에 함수들을 전달할 수 있게 되어, 자동으로 폼을 제출할 수 있습니다. 폼 제출이 성공하면 React가 비제어 컴포넌트의 폼을 자동으로 리셋합니다.
+`<form action={actionFunction}>`
+- React 19에서는 `<form>`, `<input>`, `<button>` 요소에 `action`과 `formAction` 속성에 함수들을 전달할 수 있도록 하여, 폼을 자동으로 제출할 수 있도록 하였습니다.
+	- 여기서 `actionFunction`은 폼이 제출될 때 호출되는 함수입니다. 이 기능을 통해, 폼을 제출하는 과정에서 개발자가 명시적으로 `submit`을 호출할 필요 없이, 폼에 설정된 액션을 통해 자동으로 제출될 수 있도록 할 수 있습니다.
+
+- 폼 제출이 성공하면 React는 비제어 컴포넌트의 폼을 자동으로 리셋합니다.
 
 
 #### 4. `useFormStatus` Hook
 
-- 디자인 시스템에서 `<form>` 상태 정보를 쉽게 얻기 위해 `useFormStatus`라는 새로운 훅이 추가되었습니다. 이 훅은 폼이 진행 중인지 (`pending`) 여부를 알려주며, 이를 통해 하위 컴포넌트에서 폼 상태를 쉽게 참조할 수 있습니다.
+- 디자인 시스템에서, 디자인 컴포넌트가 자신이 속한 `<form>`에 대한 정보에 접근해야 할 경우가 많습니다.
+	- 이때, **props를 컴포넌트까지 전달하는 방식**(prop drilling)을 사용하지 않고도 폼 정보에 접근할 수 있습니다.
+	- 이 기능은 **Context**를 통해 구현할 수 있지만, 이를 더 쉽게 사용하기 위해 새로운 훅인 `useFormStatus`를 추가했습니다.
 ```tsx
 import {useFormStatus} from 'react-dom';  
 
@@ -101,18 +122,33 @@ function DesignButton() {
 }
 ```
 
+- `useFormStatus`는 현재 컴포넌트가 속한 **부모 `<form>`** 의 상태를 읽을 수 있게 해주는 훅입니다.
+- `pending` 상태를 읽어와서, 버튼을 **disabled** 상태로 만들 수 있습니다. 예를 들어, 폼이 제출 중(pending)일 때 버튼을 비활성화할 수 있습니다.
+
+> 작동방식
+- `useFormStatus` 훅은 부모 `<form>`을 **Context provider**처럼 취급하여, 해당 폼의 상태를 읽을 수 있게 해줍니다.
+- 즉, 폼의 상태를 관리하는 컴포넌트에서 `useFormStatus`를 호출하면, 그 부모 폼의 상태를 자동으로 가져오게 되는 방식입니다.
+
+
 #### 5. `useOptimistic` Hook
 
-- 비동기 요청 중에 최종 상태를 낙관적으로 미리 보여주는 UI 패턴을 쉽게 구현하기 위해 `useOptimistic` 훅이 추가되었습니다. 이 훅을 사용하면 비동기 요청이 완료되기 전에도 예상되는 결과를 화면에 미리 표시할 수 있습니다.
+- 데이터를 변경할 때, 비동기 작업이 진행되는 동안 **최종 상태를 미리 보여주는 UI 패턴**은 사용자 경험을 향상시키는 데 유용합니다. React 19에서는 이 패턴을 더 쉽게 구현할 수 있도록 **`useOptimistic`** 훅을 추가했습니다.
 ```tsx
-function ChangeName({currentName, onUpdateName}) {
+function ChangeName({ currentName, onUpdateName }) {
   const [optimisticName, setOptimisticName] = useOptimistic(currentName);
 
-  const submitAction = async formData => {
+  const submitAction = async (formData) => {
     const newName = formData.get("name");
-    setOptimisticName(newName);
-    const updatedName = await updateName(newName);
-    onUpdateName(updatedName);
+    setOptimisticName(newName); // 비관적 상태 업데이트
+
+    try {
+      const updatedName = await updateName(newName); // 비동기 이름 업데이트
+      onUpdateName(updatedName); // 이름 변경 완료 후 상태 갱신
+    } catch (error) {
+      // 오류 발생 시, optimistic 상태를 원래 상태로 롤백
+      setOptimisticName(currentName); // 롤백
+      console.error('Name update failed:', error);
+    }
   };
 
   return (
@@ -123,13 +159,46 @@ function ChangeName({currentName, onUpdateName}) {
         <input
           type="text"
           name="name"
-          disabled={currentName !== optimisticName}
+          disabled={currentName !== optimisticName} // 현재 이름이 optimistic 이름과 다르면 입력 불가능
         />
       </p>
     </form>
   );
 }
 ```
+- **`useOptimistic(currentName)`**:
+    - 이 훅은 `currentName` 을 초기 값으로 받아 `optimisticName` 을 설정합니다.
+    - 비동기 요청이 진행되는 동안 `optimisticName`이 즉시 렌더링되어 사용자는 새로운 이름을 미리 볼 수 있습니다.
+
+- **`submitAction`**:
+    - 사용자가 이름을 변경하면 **새 이름**을 `setOptimisticName`으로 설정하여 UI에 즉시 반영합니다.
+    - 그 후, 비동기 함수 `updateName(newName)`를 호출하여 서버에서 이름을 실제로 업데이트합니다.
+    - 업데이트가 완료되면 `onUpdateName(updatedName)`로 최종적으로 변경된 이름을 부모 컴포넌트에 전달합니다.
+
+> 작동방식
+- `useOptimistic` 훅은 비동기 작업이 진행되는 동안 즉시 **최적화된 상태(optimistic state)** 를 표시하고, **요청이 완료되거나 오류가 발생하면** React가 자동으로 **현재 상태**로 돌아가게 만듭니다.
+    - 예를 들어, 이름이 변경된다고 가정하면, 사용자는 새로운 이름을 바로 보지만, 비동기 요청이 완료되면 실제로 변경된 이름으로 UI가 업데이트됩니다.
+
+> 최종상태를 미리 보여주는 것과 작업이 완료되었을 때의 차이
+1. **비동기 작업 중 "최종 상태를 미리 보여주는 것 (Optimistic UI)**
+	- 비동기 작업이 진행 중일 때, 사용자는 결과가 끝날 때까지 기다려야 하는데, 이를 기다리면서 UI를 기다리는 동안 아무런 반응도 없는 상태는 사용자 경험을 나쁘게 만들 수 있습니다.
+	- 따라서 "비관적 렌더링(Optimistic Rendering)"은 사용자에게 **즉시 최종 상태를 보여주는 방식**입니다.
+		- 예를 들어, 이름을 바꾸는 작업을 하고 있을 때, 서버에서 이름을 변경하는 요청을 보내는 동안, 사용자는 새로운 이름을 **미리 볼 수 있습니다**. 
+		- 이때 화면에서는 이미 새로운 이름이 반영된 것처럼 보이지만, 실제로 서버에서 이름을 업데이트하는 작업은 아직 진행 중입니다.
+		  
+	- 이 방식은 사용자가 결과를 **즉시 보는 것**을 의미합니다. 사용자는 "바뀐 이름"을 바로 볼 수 있지만, **서버에서 해당 작업이 완료되기 전까지는 "예상된 결과"일 뿐입니다.**
+
+2. **작업이 완료되었을 때의 UI (실제 상태)**
+	- 작업이 끝나면, 서버에서 요청한 대로 이름이 변경됩니다. 그리고 React는 **비동기 작업이 완료된 후 실제 상태를 UI에 반영**합니다. 이때 **미리 보여줬던 최종 상태**와 실제 상태가 **동일한 경우**에는 UI에 변동이 없습니다.
+	
+	- 하지만, 만약 서버에서 **에러가 발생하면** 미리 보여준 예상된 상태가 **변경되지 않거나 롤백**되기도 합니다. 
+		- 예를 들어, 이름 변경 중 에러가 발생하면, 사용자는 실제 상태(변경되지 않은 이름) 를 다시 보게 됩니다.
+
+ 3. **요약**
+	- "최종 상태를 미리 보여준다는 것"은 비동기 작업을 처리하는 동안 **사용자에게 대기 시간을 줄여주는 방식**을 표현하는 과정일 뿐이며, 실제 서버 응답을 기다리기 전에 "예상되는 결과"를 보여줍니다.
+	- **작업이 완료되면** 실제 결과가 화면에 반영되는데, 이때 "미리 보여준 상태"와 **결과가 일치**하거나, 때에 따라 오류가 발생하는 경우 **일치하지 않을 수도 있습니다**(에러 발생 시 롤백).
+	- 결론적으로, **비동기 작업이 진행되는 동안 사용자 경험을 개선하기 위해 "미리 보여주는 것"**이 중요한 개념이며, 작업이 완료된 후에는 최종 상태로 자연스럽게 전환됩니다.
+
 
 #### 6. use API
 
