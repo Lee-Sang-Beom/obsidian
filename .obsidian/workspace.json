@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React-19 (2024-12-05 stable).md",
+                "file": "Timestamps/2024-12-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React-19 (2024-12-05 stable)"
+              "title": "2024-12-09"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "추가- login 디렉터리 내 page.tsx파일",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React-19 (2024-12-05 stable).md"
+                "file": "React/(해야함) React-19 (2024-12-05 stable).md"
               },
               "icon": "lucide-list",
-              "title": "React-19 (2024-12-05 stable) 개요"
+              "title": "(해야함) React-19 (2024-12-05 stable) 개요"
             }
           },
           {
@@ -156,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -176,8 +176,9 @@
   },
   "active": "b7fec0e24c62bd6b",
   "lastOpenFiles": [
+    "React/(해야함) React-19 (2024-12-05 stable).md",
+    "Timestamps/2024-12-09.md",
     "React/React 19.md",
-    "React/React-19 (2024-12-05 stable).md",
     "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
     "사용 이미지/Next.js/guide course/chapter 15/vercel 추가 - nextauth key.png",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
@@ -185,7 +186,6 @@
     "사용 이미지/Next.js/guide course/chapter 15/추가- login 디렉터리 내 page.tsx파일.png",
     "사용 이미지/Next.js/guide course/chapter 15/openssl key 발급받기.png",
     "짧게 정리한 프론트엔드 지식/npm, npx, pnpm, yarn 도구.md",
-    "Timestamps/2024-12-09.md",
     "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
     "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
     "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
