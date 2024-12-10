@@ -128,8 +128,8 @@ function DesignButton() {
 - `pending` 상태를 읽어와서, 버튼을 **disabled** 상태로 만들 수 있습니다. 예를 들어, 폼이 제출 중(pending)일 때 버튼을 비활성화할 수 있습니다.
 
 > 작동방식
-- `useFormStatus` 훅은 부모 `<form>`을 **Context provider**처럼 취급하여, 해당 폼의 상태를 읽을 수 있게 해줍니다.
-- 즉, 폼의 상태를 관리하는 컴포넌트에서 `useFormStatus`를 호출하면, 그 부모 폼의 상태를 자동으로 가져오게 되는 방식입니다.
+1. `useFormStatus` 훅은 부모 `<form>`을 **Context provider**처럼 취급하여, 해당 폼의 상태를 읽을 수 있게 해줍니다.
+2. 즉, 폼의 상태를 관리하는 컴포넌트에서 `useFormStatus`를 호출하면, 그 부모 폼의 상태를 자동으로 가져오게 되는 방식입니다.
 
 ---
 ### 5. `useOptimistic` Hook
@@ -253,14 +253,14 @@ function Heading({ children }) {
 
 
 > 주의사항
-- 렌더 함수 외부에서 `use`를 사용하면 경고가 발생합니다.
-- 예를 들어, 클라이언트 컴포넌트나 훅에서 **`use`** 를 사용할 수 없으며, **`Suspense`** 호환 라이브러리나 프레임워크에서 Promise를 전달해야만 합니다.
+1. 렌더 함수 외부에서 `use`를 사용하면 경고가 발생합니다.
+2. 예를 들어, 클라이언트 컴포넌트나 훅에서 **`use`** 를 사용할 수 없으며, **`Suspense`** 호환 라이브러리나 프레임워크에서 Promise를 전달해야만 합니다.
 ```plaintext
 Console
 A component was suspended by an uncached promise. Creating promises inside a Client Component or hook is not yet supported, except via a Suspense-compatible library or framework.
 ```
 
-- 요약하면, `use` API는 **비동기 작업을 처리하고, 렌더링 중에 데이터를 쉽게 소비할 수 있도록** 돕는 새로운 기능입니다. 
+3. 요약하면, `use` API는 **비동기 작업을 처리하고, 렌더링 중에 데이터를 쉽게 소비할 수 있도록** 돕는 새로운 기능입니다. 
 	- 이 API를 사용하면 비동기 작업이 완료될 때까지 컴포넌트를 일시 중단시킬 수 있으며, **Suspense와 함께 사용**하여 로딩 상태를 관리할 수 있습니다.
 
 ---
@@ -292,12 +292,12 @@ async function handler(request) {
 - `bootstrapScripts`는 클라이언트 측 JavaScript 파일을 지정하여, 정적 HTML이 로드된 후 클라이언트 측 React 애플리케이션이 시작될 수 있도록 합니다.
 
 > 중요한 점
-- **`prerender`** API는 모든 데이터가 로드될 때까지 기다린 후 정적 HTML 스트림을 반환합니다. 즉, React 컴포넌트가 렌더링되기 전에 필요한 모든 데이터가 준비되어야 하며, 그 후에 HTML이 생성됩니다.
-- 반면, 기존의 React DOM 서버 렌더링 API는 **스트리밍 콘텐츠를 실시간으로 로드하면서 렌더링**할 수 있습니다. 새로운 API는 이러한 스트리밍 콘텐츠를 처리하지 않으며, **모든 데이터가 준비된 후에** HTML을 생성합니다.
+1. **`prerender`** API는 모든 데이터가 로드될 때까지 기다린 후 정적 HTML 스트림을 반환합니다. 즉, React 컴포넌트가 렌더링되기 전에 필요한 모든 데이터가 준비되어야 하며, 그 후에 HTML이 생성됩니다.
+2. 반면, 기존의 React DOM 서버 렌더링 API는 **스트리밍 콘텐츠를 실시간으로 로드하면서 렌더링**할 수 있습니다. 새로운 API는 이러한 스트리밍 콘텐츠를 처리하지 않으며, **모든 데이터가 준비된 후에** HTML을 생성합니다.
 
 > 스트리밍(Streaming)과 차이점
-- `prerender`와 `prerenderToNodeStream`는 **정적 HTML 생성**을 목표로 하며, 스트리밍 콘텐츠를 처리하지 않습니다.
-- 기존의 React DOM 서버 렌더링 API들은 데이터를 로드하면서 **실시간으로 스트리밍 콘텐츠를 전송**할 수 있기 때문에, 더 동적인 렌더링을 지원합니다.
+1. `prerender`와 `prerenderToNodeStream`는 **정적 HTML 생성**을 목표로 하며, 스트리밍 콘텐츠를 처리하지 않습니다.
+2. 기존의 React DOM 서버 렌더링 API들은 데이터를 로드하면서 **실시간으로 스트리밍 콘텐츠를 전송**할 수 있기 때문에, 더 동적인 렌더링을 지원합니다.
 
 ---
 ### 8. React Server Components
@@ -320,83 +320,190 @@ async function handler(request) {
 
 
 > 요약
-- React Server Components는 React 애플리케이션의 **서버 측 렌더링**을 새로운 방식으로 지원합니다. 
-- 이는 클라이언트와 별개로 서버에서 미리 렌더링된 컴포넌트를 제공할 수 있게 해주며, React 19에서는 이 기능이 안정적으로 포함되었습니다. 
-- 하지만 React Server Components를 위한 **API**는 아직 완전히 안정화되지 않았기 때문에, 해당 기능을 사용하는 **번들러나 프레임워크**는 특정 React 버전과 호환성 문제를 피하기 위해 버전을 고정하는 것이 좋습니다.
+1. React Server Components는 React 애플리케이션의 **서버 측 렌더링**을 새로운 방식으로 지원합니다. 
+2. 이는 클라이언트와 별개로 서버에서 미리 렌더링된 컴포넌트를 제공할 수 있게 해주며, React 19에서는 이 기능이 안정적으로 포함되었습니다. 
+3. 하지만 React Server Components를 위한 **API**는 아직 완전히 안정화되지 않았기 때문에, 해당 기능을 사용하는 **번들러나 프레임워크**는 특정 React 버전과 호환성 문제를 피하기 위해 버전을 고정하는 것이 좋습니다.
 
 ---
 ### 9. Server Actions (여기부터 추가)
 
-- 클라이언트 컴포넌트에서 서버에서 실행되는 비동기 함수를 호출할 수 있는 Server Actions 기능이 추가되었습니다. `"use server"` 지시어를 사용하여 서버에서 실행되는 함수의 참조를 클라이언트에 전달할 수 있습니다.
+- Server Actions는 **클라이언트 컴포넌트**가 서버에서 실행되는 비동기 함수를 호출할 수 있도록 하는 기능입니다.
+
+> 작동 방식
+1. **"use server" 지시문 사용**:
+    - `use server`라는 지시문을 사용하여 Server Action을 정의하면, 프레임워크가 자동으로 해당 서버 함수에 대한 참조를 생성합니다.
+    - 이 참조는 클라이언트 컴포넌트로 전달됩니다.
+
+2. **클라이언트에서 호출**:
+    - 클라이언트에서 이 함수가 호출되면 React는 서버에 요청을 보내 해당 함수를 실행하고, 결과를 반환받아 클라이언트에 전달합니다.
+
+
+> 중요한 주의사항
+1. **Server Components와 혼동하지 말 것**:
+    - `use server`는 **Server Components**를 나타내는 것이 아닙니다.
+    - 이 지시문은 **Server Actions**에만 사용됩니다.
+    - Server Components는 별도의 지시문 없이 작동합니다.
+
+2. Server Actions와 Server Components는 다른 개념이므로 각각의 용도를 구분해야 합니다.
+
+
+> Server Actions의 사용법
+1. **Server Components에서 생성**:
+    - Server Actions는 Server Components 내부에서 정의할 수 있습니다.
+    - 그런 다음, 이를 Client Components의 **props**로 전달하여 사용할 수 있습니다.
+
+2. **Client Components에서 직접 사용**:
+    - Server Actions는 Client Components에 **import**하여 바로 사용할 수도 있습니다.
+
+- 더 자세한 내용은 [React Server Actions](https://react.dev/) 및 지시문(Directives)에 대한 공식 문서를 참고하면 됩니다.
 
 ---
 ### 10. Ref as a Prop
 
-- 함수형 컴포넌트에서 `ref`를 속성으로 전달할 수 있게 되었으며, 더 이상 `forwardRef`가 필요하지 않습니다. 이 변경은 리팩토링을 통해 기존 코드에 자동으로 적용할 수 있습니다.
+- React 19부터는 ***함수형 컴포넌트에서만*** `ref`를 **prop으로 직접 전달**할 수 있습니다.  
+	- 이제 별도로 `forwardRef`를 사용하지 않아도 됩니다. (개꿀)
 ```tsx
-function MyInput({placeholder, ref}) {  
-	return <input placeholder={placeholder} ref={ref} />  
-}  
+function MyInput({ placeholder, ref }) {
+  return <input placeholder={placeholder} ref={ref} />;
+}
 
-//...  
+// 사용 예시
+<MyInput placeholder="입력하세요" ref={ref} />;
 
-<MyInput ref={ref} />
 ```
+- `ref`가 함수형 컴포넌트의 일반 prop처럼 동작하며, `forwardRef`를 사용했던 기존 방식보다 더 간단하고 직관적으로 변경되었습니다.
 
+```tsx
+const MyInput = React.forwardRef((props, ref) => {
+  return <input {...props} ref={ref} />;
+});
+```
+- 이전까지는(React 19 이전) `forwardRef`를 사용해야만 `ref`를 자식 컴포넌트로 전달할 수 있었습니다.
+	- React 19부터는 이 `forwardRef`를 사용할 필요가 없으며, **미래의 React 버전**에서 `forwardRef`는 **사용 중단(Deprecate)** 및 **제거(Remove)** 될 예정이라고 합니다.
 
+---
 ### 11. Hydration Error 개선
 
 - React 19에서는 Hydration 오류를 더 잘 처리하고, 오류 발생 시 더욱 유용한 정보를 제공합니다.
+	- Hydration은 서버에서 렌더링된 HTML과 클라이언트에서 렌더링된 React 트리가 일치하도록 만드는 과정입니다.  만약, 오류가 발생하면 클라이언트는 서버의 HTML을 대체하거나, 트리를 재생성합니다.
 
+![[react-19 hydration 에러 (이전).png]]
+- 이전 hydration 오류 메시지의 **문제점**은 아래와 같았습니다.
+	- 같은 내용의 메시지가 여러 번 출력되어 디버깅이 어려움
+	- 불일치의 원인에 대한 정보가 부족
 
+![[react-19 hydration 에러 (이후).png]]
+- React19부터는 아래와 같은 주요 개선점이 추가되었습니다.
+	- **단일 메시지**
+	    - 여러 메시지를 하나로 통합해 **중복 로그 제거**
+	
+	- **불일치 원인에 대한 세부 정보 제공**
+	    - Hydration 실패의 가능한 원인을 나열
+	        - 클라이언트/서버 간 분기 로직(`if (typeof window !== 'undefined')`)
+	        - 매번 달라지는 값 (`Date.now()`, `Math.random()`)
+	        - 사용자 로케일에 따른 날짜 형식 불일치
+	        - 외부 데이터를 동기화하지 않은 경우
+	        - 잘못된 HTML 태그 중첩
+	        - 브라우저 확장 프로그램의 간섭
+	
+	- **HTML Diff 표시**
+		- 서버와 클라이언트 HTML 간 차이를 시각적으로 보여줌
+```arduino
+  <App>
+    <span>
+  +    Client
+  -    Server
+```
+
+---
 ### 12. `<Context>` as a Provider
 
-- 이제 `<Context>`를 `<Context.Provider>` 대신 사용할 수 있습니다. 기존 코드도 자동으로 업데이트할 수 있는 코드모드를 제공할 예정입니다.
-```tsx
+##### 1. 기존방식
+- 기존에는 React에서 Context를 사용하려면 `<Context.Provider>`를 작성해야 했습니다.
+```jsx
 const ThemeContext = createContext('');
 
-function App({children}) {
+function App({ children }) {
+  return (
+    <ThemeContext.Provider value="dark">
+      {children}
+    </ThemeContext.Provider>
+  );
+}
+```
+
+##### 2. 변경된 방식
+- React 19부터는 `<Context>` 자체를 제공자로 사용할 수 있습니다.  
+	- 이제 `<Context.Provider>`를 작성하지 않아도 됩니다. (코드가 간결해지고 직관적이게 되었음)
+```jsx
+const ThemeContext = createContext('');
+
+function App({ children }) {
   return (
     <ThemeContext value="dark">
       {children}
     </ThemeContext>
-  );  
+  );
 }
 ```
 
+---
+### 13. Ref 콜백에 정리 함수(클린업 함수) 추가
 
-### 13. Ref 콜백에 정리 함수 추가
-
-- `ref` 콜백에서 정리 함수(cleanup function)를 반환할 수 있으며, 컴포넌트가 언마운트될 때 React가 이를 자동으로 호출합니다.
+- React 19에서는 **ref 콜백 함수**에서 **정리(cleanup) 함수**를 반환할 수 있습니다.  
+	- 이 정리 함수는 컴포넌트가 **DOM에서 제거(unmount)** 될 때 호출됩니다.
+	- React19 이전방식은, 컴포넌트가 제거될 때 React가 ref 콜백에 null을 전달했지만, React19부터는 클린업 함수가 있으면 더이상 React는 ref 콜백에 null을 전달하지 않습니다.
 ```tsx
 <input
   ref={(ref) => {
-    // ref created
-
-    // NEW: return a cleanup function to reset
-    // the ref when element is removed from DOM.
+    // ref가 생성됨
+    console.log('ref created:', ref);
+    
+    // NEW: 컴포넌트가 제거될 때 호출될 cleanup 함수 반환
     return () => {
-      // ref cleanup
+      console.log('ref cleaned up:', ref);
     };
   }}
 />
+
 ```
 
-- 이 때, `ref` 정리 함수가 도입되면서, 이제 `ref` 콜백에서 다른 값을 반환하려고 하면 TypeScript가 이를 거부하게 됩니다. 
-	- 이를 해결하려면 암시적 반환을 사용하지 않도록 수정해야 합니다. 예를 들면 아래와 같다.
+> 주의사항
+- TypeScript는 반환값이 cleanup 함수인지, 단순히 반환한 값인지 구분할 수 없습니다. 때문에, ref 콜백에서 cleanup 함수 이외의 반환값은 이제 TypeScript에서 **거부**됩니다.
+- 즉, 암묵적인 반환(implicit return)을 사용하면 TypeScript 오류가 발생합니다.
 ```tsx
-- <div ref={current => (instance = current)} /> // 사용 불가
-+ <div ref={current => {instance = current}} /> // 사용 가능
+<div ref={(current) => (instance = current)} /> // TypeScript 에러
+<div ref={(current) => { instance = current }} /> // 명시적 반환 사용
 ```
 
-
+---
 ### 14. useDeferredValue 초기 값 옵션
 
-- `useDeferredValue` 훅에 초기 값 옵션이 추가되었습니다. 이 옵션을 사용하면 초기 렌더링에서 기본 값을 사용할 수 있습니다.
+- `useDeferredValue`는 UI의 일부 업데이트를 지연시킬 수 있도록 해주는 React Hook입니다
+	- 이 Hook을 사용하면 일부 콘텐츠가 최신 상태로 로드되는 동안 이전 콘텐츠를 표시하고, UI의 일부를 재렌더링하는 것을 지연시킬 수 있습니다.
+	- 주요 내용은 [여기](https://react.dev/reference/react/useDeferredValue)를 참고해주세요.
+
+- `useDeferredValue`의 기능은 아래와 같습니다.
+	- **구식 콘텐츠 표시**: 최신 콘텐츠가 로드되는 동안 구식 콘텐츠를 표시할 수 있습니다.
+	- **UI의 일부 업데이트 지연**: UI의 일부를 지연시켜서 렌더링을 최적화할 수 있습니다
+
+- React19부터는 `useDeferredValue` 훅에 초기 값 옵션(`initialValue`)이 추가되었습니다. 이 옵션을 사용하면 초기 렌더링에서 기본 값을 사용할 수 있습니다.
+
+> 이전 방식
+```jsx
+function Search({ deferredValue }) {
+  const value = useDeferredValue(deferredValue);
+  return <Results query={value} />;
+}
+```
+- 해당 코드에서는, 초기 렌더링에서 `deferredValue`가 바로 사용됩니다.
+	- 초기 상태가 없으면 React는 `deferredValue`를 바로 사용하기 때문에, 떄떄로 불필요한 초기상태로 렌더링을 시킬 수 있었습니다.
+
+> 변경된 방식
 ```tsx
-function Search({deferredValue}) {
-  // On initial render the value is ''.
-  // Then a re-render is scheduled with the deferredValue.
+function Search({ deferredValue }) {
+  // 초기 렌더링 시 값은 ''.
+  // 이후 deferredValue로 다시 렌더링이 예약됩니다.
   const value = useDeferredValue(deferredValue, '');
   
   return (
@@ -404,13 +511,18 @@ function Search({deferredValue}) {
   );
 }
 ```
+-  이제, 컴포넌트는 초기 렌더링 시 빈 문자열(`''`)을 사용하고, 백그라운드에서 지연된 값을 업데이트합니다.
 
 
 ### 15. 문서 메타데이터 지원
 
-- React 19에서는 `<title>`, `<meta>`, `<link>`와 같은 문서 메타데이터 태그를 컴포넌트 내에서 직접 렌더링할 수 있습니다. 이 태그들은 자동으로 문서의 `<head>` 섹션으로 이동됩니다.
+- HTML에서 `<title>`, `<link>`, `<meta>`와 같은 문서 메타데이터 태그는 `<head>` 섹션에 배치되는 것으로 예약되어 있습니다. 
+	- React에서는 메타데이터가 앱에 적합한지 여부를 결정하는 컴포넌트가 `<head>`를 렌더링하는 위치와 매우 멀리 있을 수 있습니다. 
+	- 또는 React가 아예 `<head>`를 렌더링하지 않기도 합니다. 이전에는 이러한 요소들을 `useEffect`나 `react-helmet` 같은 라이브러리를 사용하여 수동으로 삽입해야 했으며, 서버에서 React 애플리케이션을 렌더링할 때 이를 신중하게 처리해야 했습니다.
+
+- **React 19**에서는 컴포넌트 내에서 문서 메타데이터 태그를 기본적으로 렌더링하는 기능을 추가했습니다.
 ```tsx
-function BlogPost({post}) {
+function BlogPost({ post }) {
   return (
     <article>
       <h1>{post.title}</h1>
@@ -425,8 +537,9 @@ function BlogPost({post}) {
   );
 }
 ```
+- 이 컴포넌트를 React가 렌더링할 때, `<title>`, `<link>`, `<meta>` 태그를 인식하고 자동으로 이를 문서의 `<head>` 섹션으로 이동시킵니다. 이러한 메타데이터 태그를 기본적으로 지원함으로써, React는 클라이언트 전용 앱, 스트리밍 SSR(서버 사이드 렌더링), 서버 컴포넌트와 함께 제대로 동작하도록 보장할 수 있습니다.
 
-
+---
 ### 16. 스타일시트 지원
 
 - React 19는 컴포넌트 내에서 스타일시트(`<link rel="stylesheet">` 및 `<style>`)를 로드하고 관리하는 기능을 제공합니다. 이를 통해 스타일 로딩의 복잡성을 줄일 수 있습니다.
@@ -443,32 +556,52 @@ function ComponentOne() {
   return (
     <Suspense fallback="loading...">
       <link rel="stylesheet" href="foo" precedence="default" />
-      <link rel="stylesheet" href="bar" precedence="high" /> {/* 먼저 로드 */}
-      <article class="foo-class bar-class">
+      <link rel="stylesheet" href="bar" precedence="high" />
+      <article className="foo-class bar-class">
         {...}
       </article>
     </Suspense>
-  )
+  );
 }
 
 function ComponentTwo() {
   return (
     <div>
       <p>{...}</p>
-      <link rel="stylesheet" href="baz" precedence="default" />  <-- will be inserted between foo & bar
+      <link rel="stylesheet" href="baz" precedence="default" />  {/* foo와 bar 사이에 삽입됨 */}
     </div>
-  )
+  );
 }
+
 ```
 - `ComponentOne`에서는 두 개의 스타일시트를 로드하며, 각 스타일시트는 우선순위(`precedence`)가 지정됩니다.
 - `ComponentTwo`에서 로드되는 스타일시트는 `ComponentOne`에서 로드된 `foo`와 `bar` 스타일시트 사이에 삽입됩니다.
 	- `ComponentOne` 로드됨 -> `ComponentTwo` 로드됨
 	- 여기서, 스타일 시트는 로드 순서에 따라 `"foo" -> "baz" -> "bar"`가 된다.
 
+>SSR (서버 사이드 렌더링)에서의 스타일 시트
+- 서버 사이드 렌더링 시, React는 `<head>`에 스타일시트를 포함시켜 브라우저가 해당 스타일시트가 로드될 때까지 화면을 그리지 않도록 합니다. 
+- 만약 스타일시트가 스트리밍 도중 늦게 발견되면, React는 클라이언트에서 해당 스타일시트를 `<head>`에 삽입하여 그 스타일을 필요로 하는 Suspense 경계의 콘텐츠가 표시되기 전에 로드되도록 보장합니다.
 
+> CSR(클라이언트 사이드 렌더링)에서의 스타일 시트
+- 클라이언트 사이드 렌더링 시, React는 새로 렌더링된 스타일시트가 로드될 때까지 렌더링을 완료하지 않고 기다립니다. 만약 이 컴포넌트가 애플리케이션 내 여러 위치에서 렌더링되더라도, React는 스타일시트를 문서에 한 번만 포함시킵니다.
+```jsx
+function App() {
+  return <>
+    <ComponentOne />
+    ...
+    <ComponentOne /> {/* DOM에서 중복된 스타일시트 링크가 생기지 않음 */}
+  </>;
+}
+```
+
+---
 ### 17. 비동기 스크립트 지원
 
-- 비동기 스크립트(`<script async>`)를 컴포넌트 내 어디에서든 렌더링할 수 있으며, React가 중복된 스크립트를 방지해 줍니다.
+- HTML에서 일반적인 스크립트(`<script src="...">`)와 지연된 스크립트(`<script defer="" src="...">`)는 문서의 로드 순서에 따라 로드됩니다. 
+	- 이로 인해 컴포넌트 트리 내 깊은 위치에 있는 스크립트들을 렌더링하는 것이 어려울 수 있습니다. 반면, 비동기 스크립트(`<script async="" src="...">`)는 임의의 순서로 로드됩니다.
+
+- **React 19**에서는 비동기 스크립트에 대한 지원을 개선하여, **스크립트가 실제로 의존하는 컴포넌트 내에서 스크립트를 렌더링**할 수 있게 하고, 스크립트 인스턴스를 재배치하거나 중복 제거하는 작업을 직접 관리하지 않을 수 도록 했습니다.
 ```tsx
 function MyComponent() {
   return (
@@ -476,41 +609,50 @@ function MyComponent() {
       <script async={true} src="..." />
       Hello World
     </div>
-  )
+  );
 }
 
 function App() {
-  <html>
-    <body>
-      <MyComponent>
-      ...
-      <MyComponent> // won't lead to duplicate script in the DOM
-    </body>
-  </html>
+  return (
+    <html>
+      <body>
+        <MyComponent />
+        ...
+        <MyComponent /> {/* DOM에서 중복된 스크립트가 생성되지 않음 */}
+      </body>
+    </html>
+  );
 }
 ```
 
+> 렌더링 환경에서의 동작
+1. **서버 사이드 렌더링 (SSR)**: 비동기 스크립트는 `<head>`에 포함되어 스타일시트, 폰트, 이미지 사전로드(preload) 등과 같은 화면 렌더링을 차단하는 중요한 리소스 뒤에서만 로드 우선순위가 지정됩니다.
 
+2. **여러 컴포넌트에서 렌더링 시 중복 방지**: 비동기 스크립트는 **여러 컴포넌트에서 렌더링되더라도 중복을 방지하여 React가 해당 스크립트를 한 번만 로드하고 실행하도록 보장**합니다.
+
+---
 ### 18. 자원 사전 로딩 지원
 
-- React 19는 자원 프리페치(pfrefetch), 프리로드(preload) 및 프리커넥트(preconnect)를 위한 새로운 API를 추가했습니다. 이로 인해 초기 페이지 로드 및 클라이언트 업데이트 성능이 향상됩니다.
+- 문서 초기 로드 및 클라이언트 측 업데이트 시, 브라우저에 필요할 리소스를 가능한 한 일찍 로드하도록 알려주는 것은 페이지 성능에 큰 영향을 미칠 수 있습니다. 
+	- React 19에서는 브라우저 리소스를 로드하고 사전 로딩할 수 있는 새로운 API들이 포함되었으며, 이 API들은 비효율적인 리소스 로딩에 의해 성능이 저하되지 않도록 돕습니다.
 ```js
-import { prefetchDNS, preconnect, preload, preinit } from 'react-dom'
+import { prefetchDNS, preconnect, preload, preinit } from 'react-dom';
+
 function MyComponent() {
-  preinit('https://.../path/to/some/script.js', {as: 'script' }) // loads and executes this script eagerly
-  preload('https://.../path/to/font.woff', { as: 'font' }) // preloads this font
-  preload('https://.../path/to/stylesheet.css', { as: 'style' }) // preloads this stylesheet
-  prefetchDNS('https://...') // when you may not actually request anything from this host
-  preconnect('https://...') // when you will request something but aren't sure what
+  preinit('https://.../path/to/some/script.js', { as: 'script' }); // 이 스크립트를 미리 로드하고 실행합니다
+  preload('https://.../path/to/font.woff', { as: 'font' }); // 이 폰트를 미리 로드합니다
+  preload('https://.../path/to/stylesheet.css', { as: 'style' }); // 이 스타일시트를 미리 로드합니다
+  prefetchDNS('https://...'); // 이 호스트에서 실제로 요청하지 않지만 DNS를 미리 로드합니다
+  preconnect('https://...'); // 이 호스트에서 뭘 요청할지는 모르지만 미리 연결을 준비합니다
 }
+
 ```
 
+> 위 코드가 결과적으로 생성하는 DOM/HTML 예시
 ```html
-
-<!-- the above would result in the following DOM/HTML -->
 <html>
   <head>
-    <!-- links/scripts are prioritized by their utility to early loading, not call order -->
+    <!-- 링크/스크립트는 호출 순서가 아니라, 초기 로딩에 중요한 리소스를 기준으로 우선순위가 설정됩니다 -->
     <link rel="prefetch-dns" href="https://...">
     <link rel="preconnect" href="https://...">
     <link rel="preload" as="font" href="https://.../path/to/font.woff">
@@ -523,17 +665,47 @@ function MyComponent() {
 </html>
 ```
 
+> API 사용으로 인한 장점
+1. **초기 페이지 로드 최적화**: 스타일시트 로딩과 별도로 추가 리소스(예: 폰트)의 발견을 미루지 않고 미리 로드함으로써 초기 페이지 로딩을 최적화할 수 있습니다.
+2. **클라이언트 업데이트 속도 향상**: 예측되는 네비게이션에 사용될 리소스 목록을 미리 패칭(prefetch)하고, 클릭하거나 심지어 호버할 때 이를 미리 로드하여 업데이트 속도를 빠르게 만들 수 있습니다.
 
+---
 ### 19. 타사 스크립트 및 확장 프로그램과의 호환성
 
-- 타사 스크립트 및 브라우저 확장 프로그램이 추가한 예기치 않은 요소들로 인한 Hydration 오류가 발생하지 않도록 개선되었습니다.
+- React 19에서는 **Hydration Process**를 개선하여 타사 스크립트와 브라우저 확장 프로그램이 렌더링에 미치는 영향을 잘 처리할 수 있도록 했습니다.
 
+> Hydration 과정에서의 개선점
+- Hydration이 이루어질 때, 클라이언트에서 렌더링된 요소가 서버에서 전달된 HTML의 요소와 일치하지 않으면, React 19에서는 **클라이언트에서 재렌더링을 강제하여 콘텐츠를 수정합니다**. 
+- 이전에는 타사 스크립트나 브라우저 확장 프로그램이 삽입한 요소가 있을 경우, 일치하지 않는 오류가 발생하고, 이로 인해 클라이언트에서 렌더링을 다시 수행해야 했습니다.
 
+> React 19의 개선사항
+1. **예상치 못한 `<head>` 및 `<body>` 태그 처리**: React는 이제 Hydration 중에 예상치 못한 태그를 건너뛰어, 일치하지 않는 오류를 방지합니다.
+
+2. **타사 스크립트와 확장 프로그램의 스타일 시트 보존**: 만약 React가 Hydration 중에 전체 문서를 재렌더링해야 하는 경우, 타사 스크립트나 브라우저 확장 프로그램에 의해 삽입된 스타일 시트는 그대로 두어, 페이지가 제대로 렌더링됩니다.
+
+---
 ### 20. 향상된 오류 보고
 
-- React 19에서는 오류 보고가 개선되어 중복된 오류를 제거하고, 모든 관련 정보를 포함한 단일 오류 메시지를 제공합니다.
+- React 19에서는 오류 처리 방식을 개선하여 **중복을 제거**하고, 처리된 오류와 처리되지 않은 오류에 대해 다양한 옵션을 제공하도록 했습니다.
 
+---
+### 21. 커스텀 엘리먼트(Custom Elements) 지원
 
-### 21. 사용자 정의 요소 지원
+- React 19에서는 **커스텀 엘리먼트(Custom Elements)** 에 대한 완전한 지원을 추가하였으며, **Custom Elements Everywhere**의 모든 테스트를 통과하였습니다.
+	- 커스텀 엘리먼트란 **웹 컴포넌트(Web Components)** 의 한 종류로, 사용자가 정의한 HTML 태그나 컴포넌트를 말합니다. 
+	- 즉, React를 사용할 때 기존의 HTML 태그(`<div>`, `<span>` 등) 대신에 개발자가 만든 새로운 HTML 태그(`<my-button>`, `<user-card>` 등)를 사용할 수 있도록 해주는 기술입니다.
 
-- React 19는 사용자 정의 요소(Custom Elements)에 대한 완전한 지원을 추가했습니다. 서버 사이드 렌더링 시, 기본 데이터 유형은 속성으로 렌더링되고, 비기본 유형은 생략됩니다.
+- 이전 버전에서는 React에서 커스텀 엘리먼트를 사용할 때 문제가 있었습니다. React는 인식하지 못하는 속성(props)을 **속성(attribute)** 으로 처리했기 때문에, **속성(properties)** 으로 처리해야 하는 경우에 어려움이 있었습니다.
+
+> 개선점
+- React 19에서는 서버 사이드 렌더링(SSR)과 클라이언트 사이드 렌더링(CSR) 모두에서 작동하는 **속성(properties)** 지원을 추가했습니다. 이에 대한 전략은 다음과 같습니다.
+
+- **서버 사이드 렌더링(SSR)**:
+    - 원시 값(primitive value)인 문자열, 숫자 또는 `true` 값을 가진 props는 **속성(attribute)** 으로 렌더링됩니다.
+    - 객체, 심볼(symbol), 함수, 또는 `false`와 같은 비원시 타입(non-primitive type)을 가진 props는 **생략**됩니다.
+
+- **클라이언트 사이드 렌더링(CSR)**:
+    - 커스텀 엘리먼트 인스턴스에 해당하는 속성(properties)을 가진 props는 **속성(properties)** 으로 할당됩니다.
+    - 해당 속성이 없다면, **속성(attribute)**으로 할당됩니다.
+
+- 자세한 내용은 [여기](https://react.dev/blog/2024/04/25/react-19-upgrade-guide)를 참고해주세요.
