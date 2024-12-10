@@ -1,4 +1,5 @@
 https://react.dev/blog/2024/12/05/react-19
+참고 : https://www.intelligencelabs.tech/062b17fe-7b82-4bae-ba7f-0c17baca1bab#8e7b70dc-2a82-42e6-8048-a2062cf5426f
 
 ### 1. Actions
 
@@ -44,7 +45,7 @@ function UpdateName({}) {
 ### 2. `useActionState`
 
 - React 19에서는 **useActionState**라는 새로운 훅이 추가되었습니다. 이 훅은 일반적인 Actions 작업을 더 쉽게 처리할 수 있도록 도와줍니다. `useActionState`는 함수를 받아, 호출할 때마다 대기 상태와 최종 결과를 관리합니다.
-- 이전까지는 `ReactDOM.useFormState`라는 이름으로 사용되었습니다. 
+- 이전에 Canary 버전에서 사용되던 `ReactDOM.useFormState`라는 이름으로 사용되었습니다. 
 
 ```tsx
 // Using <form> Actions and useActionState
@@ -103,7 +104,23 @@ function ChangeName({ name, setName }) {
 ---
 ### 3. `<form>` Actions
 
-`<form action={actionFunction}>`
+> 이전
+```html
+<form action="/examples/media/action_target.php">
+	이름 : <input type="text" name="st_name"><br>
+	학번 : <input type="text" name="st_id"><br>
+	학과 : <input type="text" name="department"><br>
+	<input type="submit">
+</form>
+```
+
+> 이후
+```jsx
+<form action={actionFunction}>
+{/* ... */}
+</form>
+```
+
 - React 19에서는 `<form>`, `<input>`, `<button>` 요소에 `action`과 `formAction` 속성에 함수들을 전달할 수 있도록 하여, 폼을 자동으로 제출할 수 있도록 하였습니다.
 	- 여기서 `actionFunction`은 폼이 제출될 때 호출되는 함수입니다. 이 기능을 통해, 폼을 제출하는 과정에서 개발자가 명시적으로 `submit`을 호출할 필요 없이, 폼에 설정된 액션을 통해 자동으로 제출될 수 있도록 할 수 있습니다.
 
@@ -141,7 +158,7 @@ function ChangeName({ currentName, onUpdateName }) {
 
   const submitAction = async (formData) => {
     const newName = formData.get("name");
-    setOptimisticName(newName); // 비관적 상태 업데이트
+    setOptimisticName(newName); // 낙관적 상태 업데이트
 
     try {
       const updatedName = await updateName(newName); // 비동기 이름 업데이트
@@ -706,6 +723,6 @@ function MyComponent() {
 
 - **클라이언트 사이드 렌더링(CSR)**:
     - 커스텀 엘리먼트 인스턴스에 해당하는 속성(properties)을 가진 props는 **속성(properties)** 으로 할당됩니다.
-    - 해당 속성이 없다면, **속성(attribute)**으로 할당됩니다.
+    - 해당 속성이 없다면, **속성(attribute)** 으로 할당됩니다.
 
 - 자세한 내용은 [여기](https://react.dev/blog/2024/04/25/react-19-upgrade-guide)를 참고해주세요.

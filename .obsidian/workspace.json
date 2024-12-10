@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2033cf1017445e1b",
+        "id": "8606b3ea39ff73d9",
         "type": "tabs",
         "children": [
           {
-            "id": "b7fec0e24c62bd6b",
+            "id": "f4862f18c0f5159c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/(해야함) React-19 (2024-12-05 stable).md",
+                "file": "React/(정리 필요) React-19 (2024-12-05 stable).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(해야함) React-19 (2024-12-05 stable)"
+              "title": "(정리 필요) React-19 (2024-12-05 stable)"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "useDeferredValue",
+                "query": "useOpt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/(해야함) React-19 (2024-12-05 stable).md"
+                "file": "React/(정리 필요) React-19 (2024-12-05 stable).md"
               },
               "icon": "lucide-list",
-              "title": "(해야함) React-19 (2024-12-05 stable) 개요"
+              "title": "(정리 필요) React-19 (2024-12-05 stable) 개요"
             }
           },
           {
@@ -175,12 +175,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "38fb693a809a6c4a",
+  "active": "f4862f18c0f5159c",
   "lastOpenFiles": [
-    "react-19 hydration 에러 (이전).png",
-    "React/(해야함) React-19 (2024-12-05 stable).md",
-    "react-19 hydration 에러 (이후).png",
     "Timestamps/2024-12-10.md",
+    "사용 이미지/React/react-19/react-19 hydration 에러 (이후).png",
+    "사용 이미지/React/react-19/react-19 hydration 에러 (이전).png",
+    "사용 이미지/React/react-19",
+    "사용 이미지/React/무제 파일.md",
+    "React/(정리 필요) React-19 (2024-12-05 stable).md",
     "Timestamps/2024-12-09.md",
     "React/React 19.md",
     "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
@@ -208,7 +210,6 @@
     "짧게 정리한 프론트엔드 지식/코드 스플리팅.md",
     "Next.js/React Leaflet/2. 사용 환경 세팅하기.md",
     "React/React 생명주기.md",
-    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/13. Handling Errors.md",
     "사용 이미지/Next.js/guide course/chapter 14/빈 폼 제출 시, 화면에 에러표시.png",
     "Next.js/네이버 지도 API",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/컴포넌트, 모듈 css 파일 함께 분리.png",
@@ -221,7 +222,6 @@
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기",
     "회사 내 경험 모음/CSS 파일 정리하기",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기",
-    "회사 내 경험 모음/프로젝트 경험 기록/HTML a태그 클릭 시 부드럽게 스크롤 이동하기",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
