@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "useOpt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,7 +174,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f4862f18c0f5159c",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
     "Timestamps/2024-12-10.md",
     "Timestamps/2024-12-11.md",
