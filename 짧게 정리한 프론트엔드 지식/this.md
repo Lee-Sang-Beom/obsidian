@@ -1,6 +1,7 @@
 
 #### 1. this란?
-- `this`는 함수가 호출될 때 참조하는 객체를 나타내는 특별한 키워드이다.
+
+- `this`는 함수가 호출될 때, 참조하는 객체를 나타내는 특별한 키워드이다.
 	- `this`는 코드 어디서나 참조할 수 있지만, 대상이 상황에 따라 다르다.
 	- 즉, `this`는 문맥에 의존하여 다양한 상황에서 다른 객체를 가리킬 수 있다는 것이다.
 
@@ -14,8 +15,19 @@ console.log(this);  // 브라우저에서는 window 객체를 가리킴
 	- 전역에서 선언된 일반 함수 안에서의 `this`는 window객체이다.
 	- 고차함수의 콜백함수 안에서 `this`는 콜백함수가 일반함수이므로 전역객체 window를 참조한다.
 
+#### 3. 함수 내부
 
-#### 3. 메서드 호출 (Method Invocation)
+```js
+function hello(){
+	console.log(this);
+}
+hello();
+```
+- 위와 같은 일반 함수에서는 `use strict` 사용 여부에 따라 `this`가 다르게 출력될 수 있다.
+	- `use strict` 사용(엄격 모드) : `undefined`
+	- `use strict` 미사용(느슨한 모드) : `window`(`global this`)
+
+#### 4. 메서드 호출 (Method Invocation)
 
 ```js
 const obj = {
@@ -27,10 +39,10 @@ const obj = {
 obj.greet();  // 'John' 출력, this는 obj를 참조
 ```
 - 객체의 메서드 내에서 `this`는 그 **객체 자체**를 참조한다.
-	- 객체에 속한 메서드에서 `this`를 호출하면 해당 메서드를 포함하는 객체가 this이다.
+	- 객체에 속한 메서드에서 `this`를 호출하면 해당 메서드를 포함하는 객체가 `this`이다.
 
 
-#### 4. 생성자 함수 (Constructor Function)
+#### 5. 생성자 함수 (Constructor Function)
 
 ```js
 function Person(name) {
@@ -42,7 +54,7 @@ console.log(person1.name);  // 'Alice'
 - 생성자 함수에서 `this`는 새로 생성되는 **인스턴스 객체**를 가리킨다.
 
 
-#### 5. 화살표 함수 (Arrow Function)
+#### 6. 화살표 함수 (Arrow Function)
 
 ```js
 const obj = {
@@ -53,10 +65,10 @@ const obj = {
 };
 obj.greet();  // undefined, 화살표 함수는 외부 문맥의 this(전역 객체)를 참조
 ```
-- 화살표 함수에서는 `this`가 **자신의 문맥**을 따르지 않고, **외부 스코프의 `this`**를 상속받는다. 그래서 일반 함수와 다르게 동작한다.
+- 화살표 함수에서는 `this`가 **자신의 문맥**을 따르지 않고, **외부 스코프의 `this`** 를 상속받는다. 그래서 일반 함수와 다르게 동작한다.
 
 
-#### 6. 명시적 바인딩 (Explicit Binding)
+#### 7. 명시적 바인딩 (Explicit Binding)
 
 ```js
 const obj = { name: 'Alice' };
