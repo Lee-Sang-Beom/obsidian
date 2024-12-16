@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"use server\"",
+                "query": "HOC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,12 +177,13 @@
   },
   "active": "43f721f4678252ab",
   "lastOpenFiles": [
+    "React/HOC.md",
+    "Timestamps/2024-12-16.md",
     "React/(정리 필요) React-19 (2024-12-05 stable).md",
     "Next.js/더 알아보기/'use client' 는 CSR일까.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "사용 이미지/React/hook/useId/useId(1).png",
     "Next.js/Next.js v15 정리.md",
-    "Timestamps/2024-12-16.md",
     "Timestamps/2024-12-13.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
     "Timestamps/2024-12-12.md",
@@ -209,7 +211,6 @@
     "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
     "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
     "Timestamps/2024-12-06.md",
-    "Timestamps/2024-11-26.md",
     "Pasted image 20241206101658.png",
     "사용 이미지/Next.js/guide course/chapter 14/빈 폼 제출 시, 화면에 에러표시.png",
     "Next.js/네이버 지도 API",
