@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "43f721f4678252ab",
+            "id": "1f125bb578d6c5b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-12-17.md",
+                "file": "Next.js/더 알아보기/'use client' 는 CSR일까.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-17"
+              "title": "'use client' 는 CSR일까"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "HOC",
+                "query": "SSR",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,18 +174,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "1f125bb578d6c5b6",
   "lastOpenFiles": [
     "Timestamps/2024-12-16.md",
     "Timestamps/2024-12-17.md",
+    "Timestamps/2024-12-13.md",
     "Timestamps/2024-12-18.md",
+    "Next.js/더 알아보기/'use client' 는 CSR일까.md",
+    "React/React 생명주기.md",
+    "React/Virtual DOM.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+    "백링크/기술 기록 - 프론트엔드/Next.js 더 알아보기 백링크.md",
     "React/HOC.md",
     "React/(정리 필요) React-19 (2024-12-05 stable).md",
-    "Next.js/더 알아보기/'use client' 는 CSR일까.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "사용 이미지/React/hook/useId/useId(1).png",
     "Next.js/Next.js v15 정리.md",
-    "Timestamps/2024-12-13.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
     "Timestamps/2024-12-12.md",
     "Timestamps/2024-12-11.md",
@@ -207,9 +210,6 @@
     "사용 이미지/Next.js/guide course/chapter 15",
     "사용 이미지/Next.js/guide course/chapter 15/추가- login 디렉터리 내 page.tsx파일.png",
     "사용 이미지/Next.js/guide course/chapter 15/openssl key 발급받기.png",
-    "짧게 정리한 프론트엔드 지식/npm, npx, pnpm, yarn 도구.md",
-    "짧게 정리한 프론트엔드 지식/패키지의 버전 정보.md",
-    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
     "Pasted image 20241206101658.png",
     "사용 이미지/Next.js/guide course/chapter 14/빈 폼 제출 시, 화면에 에러표시.png",
     "Next.js/네이버 지도 API",
