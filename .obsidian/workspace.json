@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+                "file": "Timestamps/2024-12-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSR, CSR, RSC, RCC"
+              "title": "2024-12-18"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
+                "file": "Timestamps/2024-12-18.md"
               },
               "icon": "lucide-list",
-              "title": "SSR, CSR, RSC, RCC 개요"
+              "title": "2024-12-18 개요"
             }
           },
           {
@@ -156,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -176,10 +176,11 @@
   },
   "active": "88419bf41e6833f3",
   "lastOpenFiles": [
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+    "Next.js/더 알아보기/'use client' 는 CSR일까.md",
+    "Timestamps/2024-12-18.md",
     "사용 이미지/Next.js/guide course/chapter 15/로그인실패.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그아웃.png",
-    "Next.js/더 알아보기/'use client' 는 CSR일까.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/querydsl 파일 import가 제대로 안될 때.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/무중단 배포 nginx 에러났을 때 명령어 어떤거써봐야할까.md",
     "회사 내 경험 모음/회사 내 백엔드 기록/DB 만들기.md",
@@ -198,7 +199,6 @@
     "React/React.lazy와 Suspense.md",
     "React/제어 컴포넌트와 비제어 컴포넌트.md",
     "React/CRA, 보일러 플레이트.md",
-    "Timestamps/2024-12-18.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
     "사용 이미지/Next.js/guide course/chapter 15/로그인성공.png",
