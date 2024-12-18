@@ -202,6 +202,29 @@ function ContainerServerComponent() {
 ```
 - 하지만 `children props`을 통해 **children RSC**(`<ChildServerComponent />`)를 넘기게 되면, 이야기가 다르다.
 	- 사실상 `<ContainerServerComponent />`를 공통 부모로 갖고 있기 때문에, 공통 부모인 `<ContainerServerComponent />`가 서버에서 렌더링되는 시점에 **children RSC**(`<ChildServerComponent />`)도 함께 렌더링된다.
+	- 이 때문에, **클라이언트 컴포넌트는 서버 컴포넌트를 자식으로 가질 수 있다**는 규칙이 유지될 수 있는 것이다.
+
+```jsx
+function ClientComponent() {
+  return <button onClick={() => alert('Clicked!')}>Click me</button>;
+}
+
+function ServerComponent() {
+  return (
+    <div>
+      <h1>This is a server component</h1>
+      <ClientComponent /> {/* 이 부분이 안됨 */}
+    </div>
+  );
+}
+
+```
+- 반면, **서버 컴포넌트는 클라이언트 컴포넌트를 자식으로 가질 수 없다**는 제한은 **서버 컴포넌트가 동적으로 상호작용할 수 없기 때문**에 그대로 유지된다.
+	- 왜냐하면, 클라이언트 컴포넌트는 **클라이언트에서 렌더링**되며, **상호작용을 처리**할 수 있는 자바스크립트 코드가 포함되어 있으나 서버 컴포넌트는 **서버에서 렌더링**되어 그 결과로 **정적 HTML**이 클라이언트로 전달되기 때문이다.
+		- 이 HTML은 **상호작용**(예: 버튼 클릭, 상태 변경 등)을 처리할 수 없는 **정적인 페이지**로만 존재한다.
+	
+	- 서버 컴포넌트는 **클라이언트에서 동적 상호작용을 처리할 수 없기 때문에**, 서버 컴포넌트 안에 클라이언트 컴포넌트를 포함하면 **상호작용이 불가능해진다**.
+		- 서버 컴포넌트는 HTML만 제공하고, 자바스크립트나 이벤트를 처리하는 것은 클라이언트 컴포넌트의 책임이다.
 
 ---
 #### 5. CSR과 SSR

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/코드 스플리팅.md",
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "코드 스플리팅"
+              "title": "SSR, CSR, RSC, RCC"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/코드 스플리팅.md"
+                "file": "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md"
               },
               "icon": "lucide-list",
-              "title": "코드 스플리팅 개요"
+              "title": "SSR, CSR, RSC, RCC 개요"
             }
           },
           {
@@ -174,10 +174,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a1f51f51c426eec",
+  "active": "88419bf41e6833f3",
   "lastOpenFiles": [
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Timestamps/2024-12-18.md",
+    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
+    "짧게 정리한 프론트엔드 지식/코드 스플리팅.md",
     "Timestamps/2024-12-17.md",
     "Next.js/더 알아보기/'use client' 는 CSR일까.md",
     "사용 이미지/Next.js/guide course/chapter 15/로그인실패.png",
@@ -205,7 +206,6 @@
     "사용 이미지/Next.js/guide course/chapter 15/로그인성공.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인시도.png",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/1. 시작하기.md",
-    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
     "사용 이미지/React/hook/useId/useId(1).png",
     "사용 이미지/React/react-19/react-19 hydration 에러 (이후).png",
     "사용 이미지/React/react-19/react-19 hydration 에러 (이전).png",
