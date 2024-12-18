@@ -55,7 +55,7 @@ const MyComponentWithLogger = withLogger(MyComponent);
 <MyComponentWithLogger name="React" />;
 ```
 - `MyComponentWithLogger`가 렌더링될 때 `props`가 콘솔에 출력된다.
-- `MyComponent`는 props를 그대로 받아 UI를 렌더링한다.
+	- `MyComponent`는 `props`를 그대로 받아 UI를 렌더링한다.
 
 ---
 ### 🛠️ HOC 작성 시 주의할 점
