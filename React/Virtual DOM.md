@@ -147,3 +147,27 @@
 > [이미지 출처: 별코딩님의 React 가상돔](https://www.youtube.com/watch?v=gc-kXt0tjTM&t=57s)
 
 ![[가상 DOM(별코딩).png]]
+
+
+#### 7. Reconciliation과 Diffing의 차이
+
+##### 1. Reconciliation(재조정)
+- Reconciliation은 **React가 어떻게 UI 업데이트를 처리하고 최적화하는지에 관한 전체 과정**을 의미한다.
+- 이 과정은 크게 다음 단계로 나뉜다.
+	- **상태(state)나 속성(props)** 변경으로 인해 **컴포넌트가 업데이트**되었을 때, React는 **기존 Virtual DOM**과 **새로운 Virtual DOM**을 비교하여 **어떤 부분을 변경할지 결정**한다.
+	- Reconciliation의 주요 목표는 **최소한의 DOM 업데이트**를 통해 애플리케이션의 성능을 최적화하는 것이다..
+
+##### 2. Diffing (차이 비교)
+- Diffing은 Reconciliation 과정에서 **Virtual DOM 간의 차이를 비교하는 알고리즘**을 의미한다.
+	- 즉, React는 **두 개의 Virtual DOM 트리를 비교**하여 실제로 변경된 부분만 추출하고, 그 부분만 실제 DOM에 반영한다.
+
+- **Diffing** 과정은 **두 Virtual DOM 트리** 간에 **차이를 비교**하고, 차이가 있는 부분만 찾아내는 것이다.
+	- React는 트리 구조로 되어 있는 Virtual DOM을 탐색하여 **어떤 부분이 변경되었는지** 확인하고, 그 차이를 계산한다.
+	- 이 과정을 통해 React는 **어떤 DOM 노드**가 변경되었는지, **어떤 부분이 그대로 유지되어야 하는지** 파악하고, **최소한의 변경만 실제 DOM에 반영**한다.
+
+##### 3. 차이점 요약
+
+- **Reconciliation**은 Virtual DOM과 실제 DOM 간의 업데이트를 최적화하는 **전체 과정**을 의미한다. 이 과정에서 diffing이 포함되어 있으며, React가 상태나 속성 변경 후에 컴포넌트 업데이트가 필요한 부분을 결정한다.
+    
+- **Diffing**은 이 Reconciliation 과정 내에서 **두 개의 Virtual DOM 트리를 비교하여 변경된 부분을 찾아내는 알고리즘**이다.
+	- 즉, diffing은 Reconciliation을 구성하는 핵심적인 부분이며, 실제로 어떤 부분을 업데이트할지 계산하는 역할을 한다.

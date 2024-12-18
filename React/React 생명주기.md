@@ -40,13 +40,11 @@ static getDerivedStateFromProps(nextProps, prevState) {
 }
 ```
 
-3. `render()`
+3. `ReactDOM.render()`
 	- 컴포넌트의 UI를 반환한다.
 	- DOM 조작은 불가능하며, 순수 함수처럼 동작해야 한다.
 ```js
-render() {
-  return <div>Count: {this.state.count}</div>;
-}
+ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 4. `componentDidMount()`
@@ -94,6 +92,14 @@ shouldComponentUpdate(nextProps, nextState) {
 
 3. `render()`
 	- 새로운 UI를 렌더링한다.
+```jsx
+class MyComponent extends React.Component {
+  render() {
+    return <div>{this.props.message}</div>;
+  }
+}
+
+```
 
 4. **`getSnapshotBeforeUpdate(prevProps, prevState)`**
 	- **`render` 이후, DOM이 실제로 업데이트되기 전**에 호출되어, 컴포넌트가 **DOM에 업데이트되기 직전의 상태**를 가져온다.
