@@ -259,3 +259,16 @@ export default function ClientComponent(props: HOCProps) {
   );
 }
 ```
+
+- **HOC (`withLoggerAndValidation`)**:
+    - **로깅**: `userList`를 렌더링할 때 콘솔에 기록.
+    - **데이터 검증**: `userEmail` 필드가 유효하지 않은 경우 경고를 출력하고 해당 데이터를 제외.
+    - 최종적으로 `MyComponent`에 검증된 데이터를 전달.
+
+- **`DisplayUserInfoComponent`**:
+    - 사용자 데이터를 단순히 렌더링하는 컴포넌트.
+    - `props.userList`를 기반으로 UI 생성.
+
+- **`ClientComponent`**:
+    - 최상위 컴포넌트로, `EnhancedComponent`를 렌더링.
+    - `props.userList`를 그대로 전달.
