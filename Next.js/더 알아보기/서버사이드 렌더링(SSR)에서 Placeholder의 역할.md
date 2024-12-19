@@ -95,8 +95,37 @@ export default function App() {
 	3. 클라이언트 컴포넌트는 필요 시점에 Hydration으로 활성화.
 
 ---
+### 6. 점진적 Hydration 예시
 
-### 6. 결론
+> 클라이언트 컴포넌트 : `ImageComponent.jsx` 
+```jsx
+"use client";
+
+import React, { useEffect, useState } from "react";
+
+export default function ImageComponent({ src, alt }) {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = src;
+    img.onload = () => setIsLoaded(true);
+  }, [src]);
+
+  return (
+    <div>
+      {isLoaded ? (
+        <img src={src} alt={alt} />
+      ) : (
+        <div>Loading image...</div> // placeholder
+      )}
+    </div>
+  );
+}
+```
+
+---
+### 7. 결론
 
 - Placeholder는 React와 같은 현대적인 프레임워크에서 서버와 클라이언트 간 역할 분리를 통해 성능을 최적화하고, 사용자 경험을 향상시키는 중요한 개념이다.
 	- 이를 통해 서버는 빠르게 HTML을 제공하고, 클라이언트는 동적으로 동작하는 UI를 완성할 수 있다.
