@@ -114,14 +114,15 @@
 ![[diffing과 reconciliation.png]]
 
 1. React는 **렌더링이 발생될 상황**에 놓일 때마다, 실제 브라우저 화면에 그려지기 이전에 새로운 화면에 들어갈 내용이 담긴 Virtual DOM을 생성한다.
+	- 상태(state)나 속성(props)의 변경이 있을 때, React는 **새로운 Virtual DOM**을 만들고, 기존의 Virtual DOM과 비교하여 **변경된 부분만 실제 DOM에 반영**하는 과정을 거친다. 일단은, 실제 DOM을 조작하기 전에 가상의 DOM을 생성하는 과정을 거친다고 알아두자.
 	- Virtual DOM은 실제 DOM의 복사본으로, JavaScript 객체 형태로 메모리 내에 존재한다.
 	- React는 항상 2가지 Virtual DOM 객체를 가지고 있다.
-		- 1. **렌더링 이전의 화면 구조**를 가지는 Virtual DOM 객체
-		- 2. **렌더링 이후의 화면 구조**를 가지는 Virtual DOM 객체
+		 1. **렌더링 이전의 화면 구조**를 가지는 Virtual DOM 객체
+		 2. **렌더링 이후의 화면 구조**를 가지는 Virtual DOM 객체
 
 2. 렌더링 이전의 화면 구조를 가지는 Virtual DOM과 업데이트 이후의 화면 구조를 가지는 Vitrual DOM을 비교하여, 정확히 어느 `element`들이 변했는지를 찾아낸다.
 	- 이러한 알고리즘을 **diffing**이라고 하며, 정확히 어떤 `element`가 변경했는지 굉장히 빠르게 찾을 수 있도록 한다.
-	- 그리고 diffing 알고리즘을 포함하여, 자신의 가상 돔 트리를 순회하며 변경사항을 업데이트 하는 일련의 과정을 **재조정**이라 한다.
+	- 그리고 diffing 알고리즘을 포함하여, 자신의 가상 돔 트리를 순회하며 변경사항을 업데이트 하는 일련의 과정을 **Reconcilitaion(재조정)** 이라 한다.
 
 > [!note] **재조정(reconciliation)**
 > - 이전 Virtual DOM Tree와 새로운 Virtual DOM Tree를 비교하고, Root 노드에서 시작하여 이전 노드와 새로운 노드를 비교한다.
