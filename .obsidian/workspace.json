@@ -20,13 +20,7 @@
               "icon": "lucide-file",
               "title": "Hydration"
             }
-          }
-        ]
-      },
-      {
-        "id": "4afe74411f55831c",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "ba4a0033a3a7a8be",
             "type": "leaf",
@@ -194,12 +188,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba4a0033a3a7a8be",
+  "active": "05dec6fb7adbd432",
   "lastOpenFiles": [
+    "Timestamps/2024-12-19.md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/더 알아보기/Hydration.md",
     "Next.js/더 알아보기/'use client' 는 CSR일까.md",
-    "Timestamps/2024-12-19.md",
     "Timestamps/2024-12-13.md",
     "Timestamps/2024-12-18.md",
     "Timestamps/2024-12-17.md",
