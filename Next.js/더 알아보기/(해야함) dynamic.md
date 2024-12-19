@@ -29,7 +29,6 @@ const Component = dynamic(() => import('./YourComponent'), {
 
 ```
 
-
 #### 파라미터
 
 1. **첫 번째 파라미터: 동적으로 로드할 컴포넌트**
