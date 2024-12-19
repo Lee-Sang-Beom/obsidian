@@ -77,14 +77,14 @@ export default function App() {
 
 ### 4. Placeholder의 장점
 
-1. **빠른 초기 렌더링**
-    - 클라이언트 컴포넌트의 동작 여부와 상관없이 서버에서 데이터를 포함하여 초기 HTML 구조를 만든 다음 클라이언트에게 전달하기 때문에, 사용자 입장에서 빠르게 UI를 확인할 수 있다.
+###### 1. **빠른 초기 렌더링**
+- 클라이언트 컴포넌트의 동작 여부와 상관없이 서버에서 데이터를 포함하여 초기 HTML 구조를 만든 다음 클라이언트에게 전달하기 때문에, 사용자 입장에서 빠르게 UI를 확인할 수 있다.
 
-2. **점진적 Hydration**
-    - 클라이언트 컴포넌트가 자바스크립트와 함께 로드되면 필요한 부분만 점진적으로 활성화할 수 있다.
+###### 2. **점진적 Hydration**
+- 클라이언트 컴포넌트가 자바스크립트와 함께 로드되면 필요한 부분만 점진적으로 활성화할 수 있다.
 
-3. **서버 리소스 최적화**
-    - 서버는 클라이언트 컴포넌트의 동작(예: 이벤트 처리)을 책임지지 않아 성능을 최적화할 수 있다.
+###### 3. **서버 리소스 최적화**
+- 서버는 클라이언트 컴포넌트의 동작(예: 이벤트 처리)을 책임지지 않아 성능을 최적화할 수 있다.
 
 ---
 ### 5. Placeholder를 활용한 성능 최적화
@@ -97,13 +97,48 @@ export default function App() {
 ---
 ### 6. 점진적 Hydration 예시
 
-> 클라이언트 컴포넌트 : `ImageComponent.jsx` 
+- 서버 컴포넌트와 클라이언트 컴포넌트가 아래와 같이 구성되어 있을 때를 예시로 들어보자.
+
+> 서버 컴포넌트 : `Page.tsx`
+```tsx
+// Page.tsx (서버 컴포넌트)
+import ImageComponent from "./ImageComponent";
+
+export default function Page() {
+  return (
+    <div>
+      <h1>Welcome to Our Page</h1>
+      <p>This is a page with an image that loads progressively.</p>
+      <ImageComponent
+        src="/hero-mobile.png"
+        alt="Content Mobile Preview Image"
+      />
+    </div>
+  );
+}
+```
+
+> 클라이언트 컴포넌트 : `ImageComponent.tsx` 
 ```jsx
 "use client";
 
 import React, { useEffect, useState } from "react";
 
-export default function ImageComponent({ src, alt }) {
+/**
+ * @name ImageCompProps
+ * @description 이미지 컴포넌트의 props
+ *
+ * @param src
+ * @description 이미지 경로
+ *
+ * @param alt
+ * @description 이미지 대체 텍스트
+ */
+interface ImageCompProps {
+  src: string;
+  alt: string;
+}
+export default function ImageComponent({ src, alt }: ImageCompProps) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -123,6 +158,46 @@ export default function ImageComponent({ src, alt }) {
   );
 }
 ```
+
+###### 1. **서버에서 렌더링된 HTML (초기)**
+- 서버에서 HTML이 렌더링될 때, `ImageComponent`는 **placeholder**로 이미지를 표시하며, 실제 이미지는 클라이언트에서 로드될 때까지 기다린다.
+```tsx
+<div>
+  <h1>Welcome to Our Page</h1>
+  <p>This is a page with an image that loads progressively.</p>
+  <div>Loading image...</div> <!-- Placeholder for the image -->
+</div>
+```
+
+- 여기서, 클라이언트 측에서 자바스크립트가 로드되고 실행되지 않았는데 `<div>Loading image...</div>`가 출력되는 이유에 대해 궁금할 수 있다. 이게 가능한 이유는 서버에서 초기 HTML을 생성하되, 데이터를 기반으로 한 HTML을 생성하기 때문이다.
+	- React가 서버에서 이 컴포넌트를 렌더링하면, 상태값 `isLoaded`의 초기값을 기준으로 HTML을 생성한다. 예제의 경우 `isLoaded`의 초기값은 `false`이었기 때문에, 따라서 서버는 아래와 같이 placeholder를 포함한 정적 HTML을 생성하는 것이다.
+	- 즉, 서버는 자바스크립트를 실행하지 않고 **React 컴포넌트의 초기 상태를 사용해 HTML을 생성하므로 `isLoaded`가 `false`로 렌더링된 상태의 결과만 전송된 것**이다.
+
+###### 2. **클라이언트에서 Hydration 시작**
+- 클라이언트에서 React가 자바스크립트를 실행하면, `ImageComponent`는 `useEffect`를 통해 이미지를 비동기적으로 로드하기 시작한다. 
+	- `useEffect`는 자바스크립트가 클라이언트에서 로드된 후에만 실행된다.
+	- 브라우저가 React 자바스크립트 번들을 로드하고, React `useEffect` hook이 실행되면 이미지를 로드하기 시작한다.
+```tsx
+const img = new Image();
+img.src = "/hero-mobile.png";
+img.onload = () => setIsLoaded(true);
+```
+
+- 이미지가 로드되면 `isLoaded` 상태가 `true`로 변경되고, `placeholder`가 실제 이미지로 교체된다.
+```tsx
+<div>
+  <h1>Welcome to Our Page</h1>
+  <p>This is a page with an image that loads progressively.</p>
+  <img src="/hero-mobile.png" alt="Content Mobile Preview Image" />
+</div>
+```
+
+- 이렇게 하면, placeholder를 표시한 상태에서 실제 이미지를 비동기적으로 로드하는 점진적 로딩이 가능해진다.
+
+###### 3. placeholder 동작
+- **서버 렌더링**: `ImageComponent`는 서버에서 `placeholder`로 `Loading image...`라는 텍스트를 표시한다.
+- **클라이언트에서 점진적 로딩**: 자바스크립트가 클라이언트 측에서 로드되고 실행되면서 React의 `useEffect` hook이 실행된다. 이 `useEffect`를 통해 이미지를 비동기적으로 로드하고, 로드 완료 후 `isLoaded` 상태를 `true`로 변경하여 실제 이미지를 렌더링한다.
+- **점진적 활성화**: 이미지를 비동기적으로 로드하여, 사용자 경험을 방해하지 않고 페이지를 점진적으로 활성화한다.
 
 ---
 ### 7. 결론
