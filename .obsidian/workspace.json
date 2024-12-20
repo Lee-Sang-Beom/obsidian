@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-12-26.md",
+                "file": "Timestamps/2024-12-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-26"
+              "title": "2024-12-20"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "888a3daf55bdf63f",
   "lastOpenFiles": [
-    "Timestamps/2024-12-23.md",
     "Timestamps/2024-12-26.md",
+    "Timestamps/2024-12-23.md",
     "Timestamps/2024-12-20.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "React/(정리 필요) React-19 (2024-12-05 stable).md",
