@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,7 +174,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "888a3daf55bdf63f",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
     "React/(정리 필요) React-19 (2024-12-05 stable).md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",

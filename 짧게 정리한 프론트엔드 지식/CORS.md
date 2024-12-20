@@ -89,10 +89,11 @@
 	- `Width(뷰포트 너비)`
 	- `Viewport-Width(뷰포트 가로너비)`
 
-- `Content-Type(클라이언트가 서버에게 전송하는 본문 데이터의 유형)`을 사용하는 경우에는 다음의 값들만 허용된다.
+- `Content-Type`(클라이언트가 서버에게 전송하는 본문 데이터의 유형)을 사용하는 경우에는 다음의 값들만 허용된다.
 	- `application/x-www-form-urlencoded(HTML 폼데이터), multipart/form-data(파일 업로드와 같은 다중부분 폼 데이터), text/plain(텍스트데이터)`
 	- `application/json, application/xml`은 사용할 수 없다.
 		- 보통 POST method는 `apllication/json`을 많이 사용하기 때문에 그닥 잘 사용하지 않는 방식이다.
+		- JSON 데이터는 구조적으로 더 복잡하며, 서버 측에서 의도하지 않은 데이터로 처리될 가능성이 있으며, 허가되지 않은 도메인에서 `application/json`을 통한 요청이 자유롭게 이루어지면, CSRF(Cross-Site Request Forgery)와 같은 보안 문제가 발생할 수 있다고 한다.
 
 - 헤더에 대하여 더 궁금하다면, [여기](https://velog.io/@leemember/HTTP-%ED%97%A4%EB%8D%94)를 참고하자.
 
@@ -105,7 +106,7 @@
 - 이 때, 본 요청보다 앞서 보내는 예비 요청을 **Preflight**이라 부른다.
 	- 예비 요청의 역할은 본 요청을 보내기 전에, 브라우저 스스로 안전한 요청인지를 확인하는 데에 있다.
 	
-- 예비 요청은, 실제 요청에 사용할 메소드와 헤더 등을 포함하여 요청을 보낸다.
+- 예비 요청은, **실제 요청에 사용할 메소드와 헤더 등을 포함하여 요청**을 보낸다.
 	- 예비 요청의 메소드는 **GET, POST**가 아닌,  **OPTION** 메소드가 사용된다.
 
 > [이미지 출처: '김대은'님의 Velog 포스트 ](https://etloveguitar.tistory.com/83)
@@ -124,7 +125,7 @@
 		- **Access-Control-Allow-Methods**: 실제 요청에 허용되는 HTTP 메서드를 나타내는 헤더의 필드이다.
 			- 서버가 어떤 HTTP 메서드를 허용하는지를 클라이언트에게 알려준다.
 		- **Access-Control-Allow-Headers**: 실제 요청에 허용되는 HTTP 헤더를 나타내는 헤더의 필드이다.
-			- 서버가 어떤 헤더를 허용하는지를 클라이언트에게 알려다.
+			- 서버가 어떤 헤더를 허용하는지를 클라이언트에게 알려준다.
     
 	4. 브라우저는 예비 요청 과정에서 전달한 request header 정보와 서버가 응답해준 response header의 정보를 비교하여 해당 요청이 안전한지 확인하고 본 요청을 보낸다.
 	
