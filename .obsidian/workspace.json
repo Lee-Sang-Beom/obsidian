@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-12-23.md",
+                "file": "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-23"
+              "title": "제너레이터 (velog 업로드 완료)"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-12-23.md"
+                "file": "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md"
               },
               "icon": "lucide-list",
-              "title": "2024-12-23 개요"
+              "title": "제너레이터 (velog 업로드 완료) 개요"
             }
           },
           {
@@ -176,15 +176,15 @@
   },
   "active": "bece0a4564608cc5",
   "lastOpenFiles": [
+    "Timestamps/2024-12-23.md",
     "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
     "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
-    "짧게 정리한 프론트엔드 지식/제너레이터.md",
+    "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "짧게 정리한 프론트엔드 지식/this.md",
     "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
     "짧게 정리한 프론트엔드 지식/(해야함 - 주요정보)면접 준비.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
-    "Timestamps/2024-12-23.md",
     "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "Timestamps/2024-12-20.md",
