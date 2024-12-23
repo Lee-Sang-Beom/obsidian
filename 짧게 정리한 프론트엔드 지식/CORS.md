@@ -173,7 +173,7 @@ fetch('https://example.com/api/data', {
 > - 즉, `Access-Control-Allow-Credentials: true` 헤더는 CORS 요청에 대한 응답으로 서버가 인증 정보를 포함하는 것을 허용한다는 것을 클라이언트에게 알려준다. 이를 통해 클라이언트는 요청을 보낼 때 인증 정보를 포함하여 서버로부터 요청에 대한 적절한 응답을 받을 수 있다.
 
 
-#### 8 .CORS 에러 해결방법
+#### 8. CORS 에러 해결방법
 
 - CORS 정책 위반으로 인한 문제를 해결하는 가장 대표적인 방법은, 그냥 정석대로 서버에서 **`Access-Control-Allow-Origin`** 헤더에 알맞은 값을 세팅해주는 것이다.  
 
