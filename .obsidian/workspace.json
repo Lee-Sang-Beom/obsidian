@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md",
+                "file": "Timestamps/2024-12-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "제너레이터 (velog 업로드 완료)"
+              "title": "2024-12-24"
             }
           }
         ]
@@ -176,10 +176,11 @@
   },
   "active": "bece0a4564608cc5",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md",
+    "Timestamps/2024-12-24.md",
     "Timestamps/2024-12-23.md",
     "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
     "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
-    "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "짧게 정리한 프론트엔드 지식/this.md",
     "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
@@ -201,7 +202,6 @@
     "Next.js/더 알아보기/서버사이드 렌더링(SSR)에서 Placeholder의 역할.md",
     "Next.js/더 알아보기/Hydration.md",
     "Timestamps/2024-12-16.md",
-    "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
     "사용 이미지/Next.js/guide course/chapter 15/로그인실패.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그아웃.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인성공.png",
