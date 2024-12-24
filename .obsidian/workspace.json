@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md"
+                "file": "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md"
               },
               "icon": "lucide-list",
-              "title": "제너레이터 (velog 업로드 완료) 개요"
+              "title": "(해야함) 실행 컨텍스트 개요"
             }
           },
           {
@@ -156,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -174,13 +174,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bece0a4564608cc5",
+  "active": "1583b894e16a2654",
   "lastOpenFiles": [
-    "Next.js/더 알아보기/(해야함) fetch의 option.cache 설명.md",
-    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "실행 컨텍스트의 구성.png",
-    "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
+    "실행 컨텍스트의 구성 1.png",
     "Timestamps/2024-12-24.md",
+    "Timestamps/2024-12-26.md",
+    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
+    "Next.js/더 알아보기/(해야함) fetch의 option.cache 설명.md",
+    "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
     "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md",
     "Timestamps/2024-12-23.md",
     "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
@@ -192,7 +194,6 @@
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "Timestamps/2024-12-20.md",
     "Timestamps/2024-12-19.md",
-    "Timestamps/2024-12-26.md",
     "React/(정리 필요) React-19 (2024-12-05 stable).md",
     "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/13. Handling Errors.md",
@@ -202,7 +203,6 @@
     "Next.js/더 알아보기/'use client' 는 CSR일까.md",
     "Next.js/더 알아보기/Next.js의 렌더링 과정.md",
     "Next.js/더 알아보기/서버사이드 렌더링(SSR)에서 Placeholder의 역할.md",
-    "Next.js/더 알아보기/Hydration.md",
     "사용 이미지/Next.js/guide course/chapter 15/로그인실패.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그아웃.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인성공.png",
