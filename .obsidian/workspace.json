@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cors",
+                "query": "스코프 체인",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,21 +174,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1583b894e16a2654",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/Scope.md",
+    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
+    "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
+    "짧게 정리한 프론트엔드 지식/(해야함 - 주요정보)면접 준비.md",
+    "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
     "실행 컨텍스트의 구성.png",
     "실행 컨텍스트의 구성 1.png",
     "Timestamps/2024-12-24.md",
     "Timestamps/2024-12-26.md",
-    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "Next.js/더 알아보기/(해야함) fetch의 option.cache 설명.md",
     "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
     "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md",
     "Timestamps/2024-12-23.md",
-    "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
     "짧게 정리한 프론트엔드 지식/this.md",
-    "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
-    "짧게 정리한 프론트엔드 지식/(해야함 - 주요정보)면접 준비.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
     "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
     "짧게 정리한 프론트엔드 지식/JWT.md",
