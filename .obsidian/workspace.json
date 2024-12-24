@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-12-24.md",
+                "file": "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-24"
+              "title": "(해야함) 실행 컨텍스트"
             }
           }
         ]
@@ -176,12 +176,13 @@
   },
   "active": "bece0a4564608cc5",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md",
-    "Timestamps/2024-12-24.md",
-    "Timestamps/2024-12-23.md",
     "짧게 정리한 프론트엔드 지식/클로저(Clousre).md",
-    "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
     "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
+    "실행 컨텍스트의 구성.png",
+    "Timestamps/2024-12-24.md",
+    "짧게 정리한 프론트엔드 지식/제너레이터 (velog 업로드 완료).md",
+    "Timestamps/2024-12-23.md",
+    "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
     "짧게 정리한 프론트엔드 지식/this.md",
     "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
     "짧게 정리한 프론트엔드 지식/(해야함 - 주요정보)면접 준비.md",
@@ -201,7 +202,6 @@
     "Next.js/더 알아보기/Next.js의 렌더링 과정.md",
     "Next.js/더 알아보기/서버사이드 렌더링(SSR)에서 Placeholder의 역할.md",
     "Next.js/더 알아보기/Hydration.md",
-    "Timestamps/2024-12-16.md",
     "사용 이미지/Next.js/guide course/chapter 15/로그인실패.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그아웃.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인성공.png",
@@ -213,7 +213,6 @@
     "사용 이미지/Next.js/guide course/chapter 15/vercel 추가 - nextauth key.png",
     "사용 이미지/Next.js/guide course/chapter 15",
     "사용 이미지/Next.js/guide course/chapter 15/추가- login 디렉터리 내 page.tsx파일.png",
-    "사용 이미지/Next.js/guide course/chapter 15/openssl key 발급받기.png",
     "Next.js/네이버 지도 API",
     "사용 이미지/Next.js/Next.js v15",
     "React/recoil",
