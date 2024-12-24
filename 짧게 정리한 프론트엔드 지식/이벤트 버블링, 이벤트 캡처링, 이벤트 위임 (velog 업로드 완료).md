@@ -1,6 +1,5 @@
 
-#### 1. **이벤트 버블링 (Event Bubbling)**
-
+#### 1. 이벤트 버블링 (Event Bubbling)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +44,7 @@
 	- `stopPropagation()`을 사용하면 버블링을 막을 수 있다.
 
 
-#### 2. **이벤트 캡처링 (Event Capturing)**
+#### 2. 이벤트 캡처링 (Event Capturing)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -87,7 +86,7 @@
 	- 이 경우 클릭 이벤트가 부모부터 시작해 자식 요소로 내려간다.
 
 
-#### 3. **이벤트 위임 (Event Delegation)**
+#### 3. 이벤트 위임 (Event Delegation)
 ```html
 <!DOCTYPE html>
 <html lang="en">
