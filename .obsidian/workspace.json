@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
+                "file": "Timestamps/2024-12-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(해야함) 실행 컨텍스트"
+              "title": "2024-12-27"
             }
           }
         ]
@@ -207,7 +207,7 @@
         "x": 718,
         "y": 416,
         "width": 730,
-        "height": 663,
+        "height": 664,
         "maximize": false,
         "zoom": 0
       }
@@ -215,10 +215,10 @@
   },
   "active": "bece0a4564608cc5",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "짧게 정리한 프론트엔드 지식/고차함수와 일급객체 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/use strict.md",
     "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
-    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "짧게 정리한 프론트엔드 지식/bind, apply, call 메소드.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "Timestamps/2024-10-21.md",
