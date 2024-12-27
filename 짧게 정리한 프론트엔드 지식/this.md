@@ -11,9 +11,44 @@
 ```js
 console.log(this);  // 브라우저에서는 window 객체를 가리킴
 ```
-- 전역 스코프에서 `this`는 window객체이다.
-	- 전역에서 선언된 일반 함수 안에서의 `this`는 window객체이다.
-	- 고차함수의 콜백함수 안에서 `this`는 콜백함수가 일반함수이므로 전역객체 window를 참조한다.
+- 전역 스코프에서 `this`는 `window/global`객체이다.
+	- 전역에서 선언된 일반 함수 안에서의 `this`는 브라우저에서는 `window`, Node.js에서는 `global`객체이다.
+
+```js
+function highOrderFunction(callback) {
+    callback(); // 일반 함수 호출로 실행됨
+}
+
+function callbackFunction() {
+    console.log(this); // 전역 스코프에서 호출된 일반 함수
+}
+
+highOrderFunction(callbackFunction);
+// 출력: window (브라우저 환경)
+```
+- 고차 함수가 콜백 함수를 **일반 함수처럼 호출하면**, `this`는 기본적으로 전역 객체 `window/global`를 참조한다.
+	- 예제의 `callback`은 고차 함수의 **인자로 전달된 일반 함수**일 뿐이므로, 실행 시 `this`는 전역 객체를 참조한다.
+	
+```js
+function highOrderFunction(callback) {
+    callback();
+}
+
+const obj = {
+    name: "example",
+    method: function () {
+        highOrderFunction(function () {
+            console.log(this); // 일반 함수 호출
+        });
+    }
+};
+
+obj.method();
+// 출력: window (브라우저 환경)
+```
+- 콜백 함수는 객체 `obj`의 메서드 안에서 전달되었지만, 호출 방식이 **일반 함수 호출**이므로 `this`는 전역 객체(`window`)를 참조한다.
+	- 콜백 함수가 호출되는 순간, 호출한 주체(컨텍스트)가 명확하지 않으면 기본적으로 **전역 객체**를 참조하게 된다.
+	- 여기서는, `callback()`은 단순히 `highOrderFunction` 내부에서 **전역적으로 호출**되므로, `this`는 전역 객체를 가리켰기 때문에 `this`가 전역 객체를 참조하게 된 것이다..
 
 #### 3. 함수 내부
 
