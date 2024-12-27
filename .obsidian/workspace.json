@@ -205,19 +205,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 2394,
-        "y": 407,
-        "width": 729,
-        "height": 662,
-        "maximize": true,
+        "x": 718,
+        "y": 416,
+        "width": 730,
+        "height": 663,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "14fff8fd10a5ac96",
+  "active": "bece0a4564608cc5",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "짧게 정리한 프론트엔드 지식/bind, apply, call 메소드.md",
+    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "Timestamps/2024-10-21.md",
     "짧게 정리한 프론트엔드 지식/this.md",
