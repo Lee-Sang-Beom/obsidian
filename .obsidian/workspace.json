@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임 (velog 업로드 완료).md",
+                "file": "Timestamps/2024-12-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "이벤트 버블링, 이벤트 캡처링, 이벤트 위임 (velog 업로드 완료)"
+              "title": "2024-12-27"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임 (velog 업로드 완료).md"
+                "file": "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md"
               },
               "icon": "lucide-list",
-              "title": "이벤트 버블링, 이벤트 캡처링, 이벤트 위임 (velog 업로드 완료) 개요"
+              "title": "(해야함) 실행 컨텍스트 개요"
             }
           },
           {
@@ -176,11 +176,12 @@
   },
   "active": "bece0a4564608cc5",
   "lastOpenFiles": [
+    "Timestamps/2024-12-24.md",
+    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
+    "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임 (velog 업로드 완료).md",
     "Timestamps/2024-12-30.md",
     "Timestamps/2024-12-27.md",
     "Timestamps/2024-12-25.md",
-    "Timestamps/2024-12-24.md",
-    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "짧게 정리한 프론트엔드 지식/Scope.md",
     "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
     "짧게 정리한 프론트엔드 지식/(해야함 - 주요정보)면접 준비.md",
@@ -203,7 +204,6 @@
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/13. Handling Errors.md",
     "Next.js/Server Action 사용하기/2. 규칙 및 동작.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
-    "React/Virtual DOM.md",
     "사용 이미지/Next.js/guide course/chapter 15/로그인실패.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그아웃.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인성공.png",

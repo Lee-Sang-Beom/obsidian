@@ -1,5 +1,5 @@
 
-#### 1. 이벤트 버블링 (Event Bubbling)
+#### 1. 이벤트 버블링 (Event Bubbling) : 자식에서 부모로
 ```html
 <!DOCTYPE html>
 <html lang="en">
