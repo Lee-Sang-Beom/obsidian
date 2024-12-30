@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
+                "file": "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(해야함) 실행 컨텍스트"
+              "title": "Semantic Versioning(SemVer)"
             }
           }
         ]
@@ -176,6 +176,11 @@
   },
   "active": "bece0a4564608cc5",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/npm과 npm 명령어, 그리고 npx.md",
+    "짧게 정리한 프론트엔드 지식/npm, npx, pnpm, yarn 도구.md",
+    "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
+    "짧게 정리한 프론트엔드 지식/실행 컨텍스트.md",
+    "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
     "짧게 정리한 프론트엔드 지식/(내용추가예정) flex-wrap, white-space, word-wrap.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP와 HTTPS.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP Method.md",
@@ -184,7 +189,6 @@
     "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계 (요구사항 분석).md",
     "Timestamps/2024-12-30.md",
     "Timestamps/2024-12-27.md",
-    "짧게 정리한 프론트엔드 지식/(해야함) 실행 컨텍스트.md",
     "짧게 정리한 프론트엔드 지식/bind, apply, call 메소드.md",
     "짧게 정리한 프론트엔드 지식/고차함수와 일급객체 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/use strict.md",
@@ -199,11 +203,8 @@
     "Timestamps/2024-12-25.md",
     "짧게 정리한 프론트엔드 지식/Scope.md",
     "짧게 정리한 프론트엔드 지식/(해야함) 번들 파일과 번들 파일의 필요성.md",
-    "짧게 정리한 프론트엔드 지식/(해야함 - 주요정보)면접 준비.md",
-    "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
     "실행 컨텍스트의 구성.png",
     "실행 컨텍스트의 구성 1.png",
-    "Next.js/더 알아보기/(해야함) fetch의 option.cache 설명.md",
     "사용 이미지/Next.js/guide course/chapter 15/로그인실패.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그아웃.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인성공.png",
@@ -212,7 +213,6 @@
     "사용 이미지/React/react-19/react-19 hydration 에러 (이후).png",
     "사용 이미지/React/react-19/react-19 hydration 에러 (이전).png",
     "사용 이미지/React/react-19",
-    "사용 이미지/Next.js/guide course/chapter 15/vercel 추가 - nextauth key.png",
     "사용 이미지/Next.js/guide course/chapter 15",
     "Next.js/네이버 지도 API",
     "사용 이미지/Next.js/Next.js v15",
