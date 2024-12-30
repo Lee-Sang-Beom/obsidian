@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,7 +174,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93041a785fbce59a",
+  "active": "2a1f51f51c426eec",
   "lastOpenFiles": [
     "Timestamps/2024-12-20.md",
     "Timestamps/2024-12-27.md",
