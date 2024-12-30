@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "116162d74938dce5",
+        "id": "6519f3eac3e39dd2",
         "type": "tabs",
         "children": [
           {
-            "id": "bece0a4564608cc5",
+            "id": "93041a785fbce59a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "이벤트 루프",
+                "query": "문서 객체",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,14 +175,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bece0a4564608cc5",
+  "active": "93041a785fbce59a",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/이벤트 루프.md",
-    "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
+    "짧게 정리한 프론트엔드 지식/(해야함) 이벤트 루프.md",
     "짧게 정리한 프론트엔드 지식/DOM.md",
+    "Timestamps/2024-12-30.md",
+    "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "브라우저 내부 구조.png",
     "짧게 정리한 프론트엔드 지식/실행 컨텍스트 (velog 업로드 완료).md",
-    "Timestamps/2024-12-30.md",
     "Timestamps/2024-12-31.md",
     "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
     "짧게 정리한 프론트엔드 지식/npm과 npm 명령어, 그리고 npx.md",
