@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2024-12-31.md",
+                "file": "Timestamps/2025-01-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-31"
-            }
-          },
-          {
-            "id": "f64da2ed283de8c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timestamps/2025-01-02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-01-02"
+              "title": "2025-01-04"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2025-01-02.md"
+                "file": "Timestamps/2024-12-31.md"
               },
               "icon": "lucide-list",
-              "title": "2025-01-02 개요"
+              "title": "2024-12-31 개요"
             }
           },
           {
@@ -171,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -189,19 +174,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f64da2ed283de8c9",
+  "active": "30364993c471a563",
   "lastOpenFiles": [
+    "Timestamps/2024-12-31.md",
+    "Timestamps/2025-01-04.md",
+    "짧게 정리한 프론트엔드 지식/코드 스플리팅 (velog 업로드 완료).md",
     "Timestamps/2025-01-02.md",
+    "Timestamps/2024-12-30.md",
+    "짧게 정리한 프론트엔드 지식/이벤트 루프.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
-    "짧게 정리한 프론트엔드 지식/(해야함) 이벤트 루프.md",
-    "Timestamps/2024-12-31.md",
     "Timestamps/2024-12-20.md",
     "Timestamps/2024-12-27.md",
     "Timestamps/2024-12-26.md",
     "Timestamps/2024-12-25.md",
     "Timestamps/2024-12-24.md",
-    "Timestamps/2024-12-30.md",
     "Timestamps/2024-12-23.md",
     "짧게 정리한 프론트엔드 지식/DOM.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
@@ -218,8 +205,6 @@
     "backend/스프링 부트와 JPA 활용 1/DAY 5. 도메인 분석 설계 (요구사항 분석).md",
     "짧게 정리한 프론트엔드 지식/bind, apply, call 메소드.md",
     "짧게 정리한 프론트엔드 지식/고차함수와 일급객체 (velog 업로드 완료).md",
-    "짧게 정리한 프론트엔드 지식/use strict.md",
-    "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
     "실행 컨텍스트의 구성.png",
     "실행 컨텍스트의 구성 1.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인실패.png",
