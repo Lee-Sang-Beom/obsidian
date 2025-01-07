@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-01-07.md",
+                "file": "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-07"
+              "title": "Semantic Versioning(SemVer)"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "30364993c471a563",
   "lastOpenFiles": [
-    "Timestamps/2025-01-06.md",
     "Timestamps/2025-01-07.md",
+    "Timestamps/2025-01-06.md",
     "Timestamps/2025-01-05.md",
     "짧게 정리한 프론트엔드 지식/dependencies와 devDependencies의 차이 (velog 업로드 완료).md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
