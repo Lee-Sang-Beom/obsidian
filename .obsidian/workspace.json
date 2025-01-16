@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-01-10.md",
+                "file": "Timestamps/2025-01-16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-10"
+              "title": "2025-01-16"
             }
           }
         ]
@@ -176,8 +176,11 @@
   },
   "active": "30364993c471a563",
   "lastOpenFiles": [
-    "Timestamps/2025-01-07.md",
+    "Timestamps/2025-01-11.md",
+    "Timestamps/2025-01-16.md",
     "Timestamps/2025-01-10.md",
+    "Timestamps/2025-01-09.md",
+    "Timestamps/2025-01-07.md",
     "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
     "Timestamps/2025-01-06.md",
     "Timestamps/2025-01-05.md",
@@ -201,9 +204,6 @@
     "Timestamps/2024-12-27.md",
     "Timestamps/2024-12-26.md",
     "Timestamps/2024-12-25.md",
-    "Timestamps/2024-12-24.md",
-    "Timestamps/2024-12-23.md",
-    "짧게 정리한 프론트엔드 지식/DOM.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
     "실행 컨텍스트의 구성.png",
     "실행 컨텍스트의 구성 1.png",
