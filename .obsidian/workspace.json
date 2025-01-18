@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-01-16.md",
+                "file": "Timestamps/2025-01-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-16"
+              "title": "2025-01-18"
             }
           }
         ]
@@ -176,10 +176,11 @@
   },
   "active": "30364993c471a563",
   "lastOpenFiles": [
+    "Timestamps/2025-01-16.md",
+    "Timestamps/2025-01-18.md",
     "Timestamps/2025-01-11.md",
     "Timestamps/2025-01-13.md",
     "Timestamps/2025-01-14.md",
-    "Timestamps/2025-01-16.md",
     "Timestamps/2025-01-15.md",
     "Timestamps/2025-01-10.md",
     "Timestamps/2025-01-09.md",
@@ -203,7 +204,6 @@
     "짧게 정리한 프론트엔드 지식/이벤트 루프.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
-    "Timestamps/2024-12-20.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
     "실행 컨텍스트의 구성.png",
     "실행 컨텍스트의 구성 1.png",
