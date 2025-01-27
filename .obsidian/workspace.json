@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-01-26.md",
+                "file": "Timestamps/2025-01-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-26"
+              "title": "2025-01-27"
             }
           }
         ]
@@ -177,13 +177,14 @@
   },
   "active": "30364993c471a563",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/CORS.md",
     "Timestamps/2025-01-26.md",
+    "Timestamps/2025-01-27.md",
+    "Timestamps/2025-01-25.md",
+    "짧게 정리한 프론트엔드 지식/CORS.md",
     "회사 내 경험 모음/회사 세미나/5. 프로토콜, 포트번호.md",
     "회사 내 경험 모음/회사 세미나/4. 도메인과 네임서버.md",
     "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
     "회사 내 경험 모음/프로젝트 경험 기록/페이지 URL정보 저장 및 뒤로가기/페이지 URL 정보 저장 및 뒤로가기 구현.md",
-    "Timestamps/2025-01-25.md",
     "Timestamps/2025-01-22.md",
     "Timestamps/2025-01-21.md",
     "짧게 정리한 프론트엔드 지식/자바스크립트의 배열 (velog 업로드 완료).md",
@@ -202,7 +203,6 @@
     "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
     "Timestamps/2025-01-06.md",
     "Timestamps/2025-01-05.md",
-    "짧게 정리한 프론트엔드 지식/dependencies와 devDependencies의 차이 (velog 업로드 완료).md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
