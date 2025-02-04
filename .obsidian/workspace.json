@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-02-03.md",
+                "file": "Timestamps/2025-02-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-03"
+              "title": "2025-02-04"
             }
           }
         ],
@@ -192,8 +192,9 @@
   },
   "active": "dc4d0c228c37b189",
   "lastOpenFiles": [
-    "Timestamps/2025-02-02.md",
     "Timestamps/2025-02-03.md",
+    "Timestamps/2025-02-04.md",
+    "Timestamps/2025-02-02.md",
     "Timestamps/2025-02-01.md",
     "Timestamps/2025-01-27.md",
     "Timestamps/2025-01-31.md",
@@ -217,7 +218,6 @@
     "Timestamps/2025-01-14.md",
     "Timestamps/2025-01-15.md",
     "Timestamps/2025-01-10.md",
-    "Timestamps/2025-01-09.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
