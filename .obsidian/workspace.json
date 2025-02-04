@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-02-04.md",
+                "file": "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-04"
+              "title": "호이스팅(Hoisting)"
             }
           }
         ],
@@ -192,8 +192,10 @@
   },
   "active": "dc4d0c228c37b189",
   "lastOpenFiles": [
-    "Timestamps/2025-02-03.md",
+    "짧게 정리한 프론트엔드 지식/이벤트 루프.md",
+    "짧게 정리한 프론트엔드 지식/예외처리 (velog 업로드 완료).md",
     "Timestamps/2025-02-04.md",
+    "Timestamps/2025-02-03.md",
     "Timestamps/2025-02-02.md",
     "Timestamps/2025-02-01.md",
     "Timestamps/2025-01-27.md",
@@ -209,7 +211,6 @@
     "Timestamps/2025-01-21.md",
     "짧게 정리한 프론트엔드 지식/자바스크립트의 배열 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/이벤트 버블링, 이벤트 캡처링, 이벤트 위임 (velog 업로드 완료).md",
-    "짧게 정리한 프론트엔드 지식/이벤트 루프.md",
     "Timestamps/2025-01-18.md",
     "Timestamps/2025-01-17.md",
     "Timestamps/2025-01-16.md",
@@ -217,7 +218,6 @@
     "Timestamps/2025-01-13.md",
     "Timestamps/2025-01-14.md",
     "Timestamps/2025-01-15.md",
-    "Timestamps/2025-01-10.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
