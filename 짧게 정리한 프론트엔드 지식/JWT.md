@@ -140,12 +140,18 @@
 
 > [!note] JWT 동작 과정
 > 1. 사용자가 ID/PW를 입력하여 로그인 요청을 진행한다. (ID/PW 등의 인증정보를 HTTP 요청에 담아서 서버에 전달)
-> 2. 서버는 클라이언트로부터 받은 인증 정보가 유효한지 확인하고,  비밀키를 이용하여 JWT를 만든다음, HTTP Response에 토큰을 담아서 전한다.
-> 	- JWT는 Access Token의 한 유형이다.
-> 3. 서버는 클라이언트에게 JWT를 전달한다.
-> 4. 이후, 클라이언트(사용자)는 서비스 이용과 같은 이유로 서버에게 JWT 전달
+> 2. 서버에서 클라이언트로부터 인증 요청을 받으면, Header, PayLoad, Signature를 정의한다. 
+>    - Hedaer, PayLoad, Signature를 이용해 JWT를 생성한다. (JWT 형식의 Access Token, Refresh Token이 발급된다.)
+>      
+> 3. 서버는 클라이언트에게 JWT를 전달하고, 클라이언트는 서버로부터 받은 JWT를 로컬 스토리지 혹은 쿠키 등에 저장한다. (로컬 스토리지는 보안에 취약하니, **HTTP-Only 쿠키**에 저장하면 XSS 공격을 방지할 수 있다.)
+>    
+> 4. 이후, 클라이언트(사용자)는 서비스 이용과 같은 이유로 서버에게 JWT 전달을 진행한다.
 > 	- 이 때, `fetch, ajax, axios`등의 API를 사용할 수 있으며, API를 요청할 때 `Authorization: Access token`을 담아 보낸다.
-> 5. 서버는 전달받은 JWT의 Sigature를 체크(체크 과정은 위조 시나리오 참고)한 다음 , Payload로부터 사용자 정보를 확인한다
+> 	 - JWT 형식의 Access Token을 Authorization 헤더에 담아 보낸다는 뜻이다.
+> 
+> 5. 서버는 전달받은 JWT의 Sigature를 체크(체크 과정은 위조 시나리오 참고)한 다음 , Payload로부터 사용자 정보를 확인한다.
+> 	- 만일 액세스 토큰의 시간이 만료되면 클라이언트는 리프래시 토큰을 이용해서, 서버로부터 새로운 엑세스 토큰을 발급받은 후 요청을 진행해야 한다.
+> 
 > 6. 서버는 클라이언트 요청에 대한 적절한 응답을 반환한다.
 
 - 추가적으로 API 사용 시, `Authorization header`에 Access-token을 담아 보내는 예제는 아래와 같다.
