@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-02-09.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용추가예정) CSS-IN-CSS, CSS-IN-JS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-09"
+              "title": "(내용추가예정) CSS-IN-CSS, CSS-IN-JS"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "도메인",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,12 +192,18 @@
   },
   "active": "dc4d0c228c37b189",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/npm, npx, pnpm, yarn 도구.md",
+    "짧게 정리한 프론트엔드 지식/(내용추가예정) CSS-IN-CSS, CSS-IN-JS.md",
+    "짧게 정리한 프론트엔드 지식/ESLint.md",
+    "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
+    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
+    "Timestamps/2025-02-10.md",
+    "Timestamps/2025-02-09.md",
     "Timestamps/2025-02-08.md",
     "Timestamps/2025-02-07.md",
     "Timestamps/2025-02-06.md",
     "Timestamps/2025-02-05.md",
     "Timestamps/2025-02-04.md",
-    "Timestamps/2025-02-09.md",
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "짧게 정리한 프론트엔드 지식/Map과 Set.md",
     "짧게 정리한 프론트엔드 지식/CORS.md",
@@ -212,12 +218,6 @@
     "Timestamps/2025-02-03.md",
     "Timestamps/2025-02-02.md",
     "Timestamps/2025-02-01.md",
-    "Timestamps/2025-01-27.md",
-    "Timestamps/2025-01-31.md",
-    "Timestamps/2025-01-26.md",
-    "Timestamps/2025-01-25.md",
-    "회사 내 경험 모음/회사 세미나/5. 프로토콜, 포트번호.md",
-    "회사 내 경험 모음/회사 세미나/4. 도메인과 네임서버.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
