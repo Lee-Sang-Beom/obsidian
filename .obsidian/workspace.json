@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/(내용추가예정) CSS-IN-CSS, CSS-IN-JS.md",
+                "file": "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/1. 시작하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(내용추가예정) CSS-IN-CSS, CSS-IN-JS"
+              "title": "1. 시작하기"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Next.js",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,8 +193,10 @@
   },
   "active": "dc4d0c228c37b189",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/npm, npx, pnpm, yarn 도구.md",
+    "Next.js/더 알아보기/(해야함) fetch의 option.cache 설명.md",
+    "짧게 정리한 프론트엔드 지식/(내용추가예정) MonoRepo.md",
     "짧게 정리한 프론트엔드 지식/(내용추가예정) CSS-IN-CSS, CSS-IN-JS.md",
+    "짧게 정리한 프론트엔드 지식/npm, npx, pnpm, yarn 도구.md",
     "짧게 정리한 프론트엔드 지식/ESLint.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
@@ -216,8 +219,6 @@
     "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
     "짧게 정리한 프론트엔드 지식/예외처리 (velog 업로드 완료).md",
     "Timestamps/2025-02-03.md",
-    "Timestamps/2025-02-02.md",
-    "Timestamps/2025-02-01.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
