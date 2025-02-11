@@ -15,11 +15,11 @@
 ---
 ### 3. CD(Continuous Deployment/Continuous Delivery, 지속적 배포/전달)
 
-- CD는 CI 이후의 단계로, 변경된 코드가 자동으로 배포되거나(Continuous Deployment) 배포 준비 상태로 유지되는(Continuous Delivery) 과정입니다.
+- CD는 CI 이후의 단계로, 변경된 코드가 자동으로 배포되거나(Continuous Deployment) 배포 준비 상태로 유지되는(Continuous Delivery) 과정을 의미한다.
 
 ### ✅ CD의 주요 개념
-- **Continuous Delivery (지속적 전달)**:
-  - 코드 변경 사항이 **자동으로 스테이징 환경까지 배포됨**
+- **Continuous Delivery (지속적 전달)**
+  - 코드 변경 사항이 **자동으로 스테이징 환경(운영 환경과 최대한 유사하게 구성된 환경으로, 실 배포 전 애플리케이션을 테스트할 수 있도록 하는 환경) 까지 배포됨**
   - 운영 환경에 배포할지 여부는 **수동 승인**을 통해 결정
   
 - **Continuous Deployment (지속적 배포)**
@@ -41,7 +41,10 @@
 - CI/CD를 구현하기 위해 다양한 도구가 사용될 수 있다.
 	- **CI 도구**: Jenkins, GitHub Actions, GitLab CI/CD, CircleCI, Travis CI 등
 	- **CD 도구**: ArgoCD, Spinnaker, Flux, AWS CodeDeploy 등
-	- **컨테이너 오케스트레이션**: Docker, Kubernetes(K8s)
+	- **컨테이너 오케스트레이션**: Docker, Kubernetes(K8s) 
+		- **컨테이너 오케스트레이션**: 컨테이너화된 애플리케이션을 **자동으로 배포, 관리, 확장, 네트워킹, 모니터링**하는 기술
+		- 컨테이너는 애플리케이션과 그 실행에 필요한 모든 환경(라이브러리, 설정 파일 등)을 포함하는 가벼운 가상화 기술로, 대표적인 컨테이너 기술로는 **Docker**가 있다.
+		- 하나의 컨테이너만 실행하는 것은 간단하지만, **대규모 애플리케이션을 운영할 때는 수십~수천 개의 컨테이너를 관리해야 한다.** 이를 수동으로 운영하기는 어렵기 때문에, 자동화된 관리 시스템(오케스트레이션)이 필요한 것이다.
 
 ---
 ### 6. CI/CD의 장점
