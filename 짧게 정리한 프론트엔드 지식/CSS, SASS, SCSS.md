@@ -3,11 +3,15 @@
 - **CSS**는 웹 페이지의 특정 요소에 대한 스타일을 지정하여, 문서를 표시하는 방법을 지정하는 언어이다.
 - 하지만, CSS는 규모가 커질수록 코드는 복잡해지고, 유지보수는 불편해진다는 문제가 있다.
 
+
 #### 2. CSS 전처리기
 - SASS와 SCSS는 ==CSS를 효율적으로 작성할 수 있도록 도와주는 전처리기 언어==이다.
 	- CSS의 한계를 보완하고, 가독성과 재사용성을 높여주는 역할을 한다.
 
-- CSS 전처리기란, 
+- CSS 전처리기란, **CSS의 기능을 확장하여 더 효율적으로 스타일을 작성할 수 있도록 도와주는 도구**이다.
+	- 전처리기는 일반 CSS보다 더 강력한 기능을 제공하고, 최종적으로는 브라우저가 이해할 수 있는 순수한 CSS로 변환한다.
+	- 대표적인 CSS 전처리기가 바로 Sass(SCSS)이다.
+
 
 #### 3. SCSS
 - SCSS는 CSS의 전처리기(preprocessor)이다. 
@@ -91,9 +95,28 @@ $primary-color: #3498db;
 
 #### 5. SCSS와 SASS의 차이
 
-- **SCSS**: CSS와 문법이 비슷하며, CSS 코드가 SCSS로 그대로 작성될 수 있다.
-	- SCSS는 더 많은 기능을 제공하는 스타일 시트 전처리기이다.
-	
-- **SASS**: SCSS와는 문법이 다르다.
-	- 인덴트(indent)를 사용하여 계층 구조를 나타내며 중괄호와 세미콜론이 필요 없다.
-	- 더 간결하게 작성할 수 있지만, 기존 CSS 문법과는 다르다.
+- 정확히 말하면, **SCSS는 Sass의 한 문법 형식**이다.
+	- Sass(Syntactically Awesome Stylesheets)는 CSS 전처리기의 이름이고, Sass에는 **두 가지 문법 스타일**이 존재한다.
+
+1. Sass 문법
+	- Indent 방식(들여쓰기)
+	- `{}`나 `;` 없이 줄바꿈과 들여쓰기로 구분
+
+```css
+$primary-color: #3498db
+
+.button
+  background-color: $primary-color
+  color: white
+```
+
+2. SCSS 문법
+	- 일반 CSS 문법과 거의 동일
+	- `{}`와 `;` 사용
+```scss
+$primary-color: #3498db;
+
+.button {
+  background-color: $primary-color;
+}
+```
