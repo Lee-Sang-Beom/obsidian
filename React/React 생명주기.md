@@ -157,7 +157,7 @@ componentWillUnmount() {
 ### 3. 함수형 컴포넌트의 생명주기
 
 - React Hooks를 사용하면 함수형 컴포넌트에서도 생명주기 관리를 할 수 있다.
-	- 함수형 컴포넌트에서는 `useEffect`가 핵심 역할을 gks다.
+	- 함수형 컴포넌트에서는 `useEffect`가 핵심 역할을 한다.
 
 ##### ※ `useEffect`로 생명주기 관리
 ```js
