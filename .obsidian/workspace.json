@@ -13,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-02-15.md",
+                "file": "짧게 정리한 프론트엔드 지식/이벤트 루프.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-15"
+              "title": "이벤트 루프"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f14451123346a12b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6370a18d52f753e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Timestamps/2025-02-16.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-02-16"
             }
           }
         ]
@@ -53,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "실행 컨텍스트",
+                "query": "이벤트 루프",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,10 +195,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "258833d4aeb44f4d",
+  "active": "6370a18d52f753e5",
   "lastOpenFiles": [
-    "면접/DOM.md",
     "Timestamps/2025-02-15.md",
+    "Timestamps/2025-02-16.md",
+    "면접/이벤트 루프.md",
+    "짧게 정리한 프론트엔드 지식/이벤트 루프.md",
+    "면접/DOM.md",
     "면접/호이스팅.md",
     "짧게 정리한 프론트엔드 지식/실행 컨텍스트 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
@@ -200,9 +223,6 @@
     "Timestamps/2025-02-13.md",
     "Timestamps/2025-02-04.md",
     "Timestamps/2025-02-05.md",
-    "Timestamps/2025-02-06.md",
-    "Timestamps/2025-02-07.md",
-    "Timestamps/2025-02-08.md",
     "면접",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
