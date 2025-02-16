@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-02-16.md",
+                "file": "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-16"
+              "title": "Semantic Versioning(SemVer)"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "이벤트 루프",
+                "query": "^",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,9 +178,10 @@
   },
   "active": "6370a18d52f753e5",
   "lastOpenFiles": [
+    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
+    "Timestamps/2025-02-16.md",
     "면접/진행한 프로젝트에 대한 설명.md",
     "면접/프로젝트를 진행하면서 힘들었던 점.md",
-    "Timestamps/2025-02-16.md",
     "Next.js/VWorld and OpenLayers/2. Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
     "Next.js/VWorld and OpenLayers/1. Next.js13에서 VWorld API와 OpenLayers 사용해보기 1.md",
     "면접/호이스팅.md",
@@ -202,7 +204,6 @@
     "짧게 정리한 프론트엔드 지식/URI, URL.md",
     "React/React 생명주기.md",
     "React/hook/useEffect.md",
-    "React/key.md",
     "면접",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
