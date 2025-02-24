@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/CSS-IN-CSS, CSS-IN-JS.md",
+                "file": "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/3. CSS-IN-JS 사용 후기 및 느낀 점.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSS-IN-CSS, CSS-IN-JS"
+              "title": "3. CSS-IN-JS 사용 후기 및 느낀 점"
+            }
+          },
+          {
+            "id": "5516c63e5815b582",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Timestamps/2025-02-24.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-02-24"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,10 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2024-12-31.md"
+                "file": "Timestamps/2025-02-24.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-12-31 개요"
+              "title": "2025-02-24 의 개요"
             }
           },
           {
@@ -158,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,9 +193,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6893fdd14681b7c8",
+  "active": "5516c63e5815b582",
   "lastOpenFiles": [
+    "Timestamps/2025-02-24.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/2. CSS-IN-JS 설치 및 사용 과정.md",
+    "css-in-js schedule 디렉터리구조.png",
+    "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/3. CSS-IN-JS 사용 후기 및 느낀 점.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/1. CSS-IN-JS란.md",
+    "짧게 정리한 프론트엔드 지식/CSS-IN-CSS, CSS-IN-JS.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기/CSS 파일을 어떻게 정리하면 좋을까 (코딩 컨벤션).md",
+    "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)",
     "Timestamps/2025-02-21.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/무제.md",
     "짧게 정리한 프론트엔드 지식/실행 컨텍스트 (velog 업로드 완료).md",
     "Timestamps/2025-02-18.md",
     "Timestamps/2025-02-17.md",
@@ -197,13 +223,6 @@
     "Next.js/더 알아보기/서버사이드 렌더링(SSR)에서 Placeholder의 역할.md",
     "짧게 정리한 프론트엔드 지식/JWT.md",
     "면접/Cookie, Session, Web storage, jwt.md",
-    "짧게 정리한 프론트엔드 지식/Cookie, Session, Web Storage.md",
-    "면접/이벤트 루프.md",
-    "짧게 정리한 프론트엔드 지식/Semantic Versioning(SemVer).md",
-    "짧게 정리한 프론트엔드 지식/package.json과 package-lock.json.md",
-    "면접/진행한 프로젝트에 대한 설명.md",
-    "면접/프로젝트를 진행하면서 힘들었던 점.md",
-    "Next.js/VWorld and OpenLayers/2. Next.js13에서 VWorld API와 OpenLayers 사용해보기 2.md",
     "면접",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
@@ -215,7 +234,6 @@
     "사용 이미지/Next.js/guide course/chapter 15/로그인성공.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인시도.png",
     "사용 이미지/React/hook/useId/useId(1).png",
-    "사용 이미지/React/react-19/react-19 hydration 에러 (이후).png",
     "사용 이미지/React/react-19",
     "사용 이미지/Next.js/guide course/chapter 15",
     "Next.js/네이버 지도 API",
@@ -223,7 +241,6 @@
     "React/recoil",
     "사용 이미지/TimeStamps/2024-10-04",
     "사용 이미지/TimeStamps",
-    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS 파일 정리하기",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
