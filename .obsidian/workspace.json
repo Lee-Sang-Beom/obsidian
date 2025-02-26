@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4232b1998f64ee9b",
+        "id": "4ee7389ba18efc4c",
         "type": "tabs",
         "children": [
           {
-            "id": "6893fdd14681b7c8",
+            "id": "e10d97380d9f1b5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/3. CSS-IN-JS 사용 후기 및 느낀 점.md",
+                "file": "Timestamps/2025-02-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. CSS-IN-JS 사용 후기 및 느낀 점"
-            }
-          },
-          {
-            "id": "5516c63e5815b582",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timestamps/2025-02-24.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-02-24"
+              "title": "2025-02-26"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 246.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -155,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2025-02-24.md",
+                "file": "Timestamps/2025-02-26.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-02-24 의 개요"
+              "title": "2025-02-26 의 개요"
             }
           },
           {
@@ -193,11 +178,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5516c63e5815b582",
+  "active": "e10d97380d9f1b5e",
   "lastOpenFiles": [
+    "Timestamps/2025-02-26.md",
     "Timestamps/2025-02-24.md",
+    "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
+    "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인/둘 중 하나로 외래키를 관리해야 한다..png",
+    "백링크/기술 기록 - 프론트엔드/Vworld 사용하기 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/Server Action 사용하기 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/React-Leaflet 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/React-hook-form 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/React hook 백링크.md",
+    "React/react-hook-form/5. react-hook-form과 useMutation을 함께 사용한 예시.md",
+    "백링크/기술 기록 - 프론트엔드/React 백링크.md",
+    "React/React-19 (2024-12-05 stable).md",
+    "Next.js/NextAuth 사용하기/Refresh 토큰 변경.md",
+    "백링크/기술 기록 - 프론트엔드/NextAuth 사용하기 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/Next.js 더 알아보기 백링크.md",
+    "백링크/기술 기록 - 프론트엔드/Next.js 14 학습코스 백링크.md",
+    "Next.js/더 알아보기/Route Segment.md",
+    "Next.js/더 알아보기/Next.js의 렌더링 과정.md",
+    "Next.js/더 알아보기/package.json과 package-lock.json.md",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/css-in-js schedule 디렉터리구조.png",
+    "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)",
     "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/2. CSS-IN-JS 설치 및 사용 과정.md",
-    "css-in-js schedule 디렉터리구조.png",
     "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/3. CSS-IN-JS 사용 후기 및 느낀 점.md",
     "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/1. CSS-IN-JS란.md",
     "짧게 정리한 프론트엔드 지식/CSS-IN-CSS, CSS-IN-JS.md",
@@ -206,23 +210,6 @@
     "Timestamps/2025-02-21.md",
     "회사 내 경험 모음/프로젝트 경험 기록/무제.md",
     "짧게 정리한 프론트엔드 지식/실행 컨텍스트 (velog 업로드 완료).md",
-    "Timestamps/2025-02-18.md",
-    "Timestamps/2025-02-17.md",
-    "Timestamps/2025-02-09.md",
-    "Timestamps/2025-02-10.md",
-    "Timestamps/2025-02-11.md",
-    "Timestamps/2025-02-13.md",
-    "Timestamps/2025-02-12.md",
-    "Timestamps/2025-02-15.md",
-    "Timestamps/2025-02-14.md",
-    "짧게 정리한 프론트엔드 지식/이벤트 루프.md",
-    "Next.js/더 알아보기/SSR, CSR, RSC, RCC.md",
-    "Next.js/더 알아보기/'use client' 는 CSR일까.md",
-    "면접/CSR, SSR, SPA, MPA, RSC, RCC.md",
-    "Timestamps/2025-02-16.md",
-    "Next.js/더 알아보기/서버사이드 렌더링(SSR)에서 Placeholder의 역할.md",
-    "짧게 정리한 프론트엔드 지식/JWT.md",
-    "면접/Cookie, Session, Web storage, jwt.md",
     "면접",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
@@ -233,14 +220,12 @@
     "사용 이미지/Next.js/guide course/chapter 15/로그아웃.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인성공.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인시도.png",
-    "사용 이미지/React/hook/useId/useId(1).png",
     "사용 이미지/React/react-19",
     "사용 이미지/Next.js/guide course/chapter 15",
     "Next.js/네이버 지도 API",
     "사용 이미지/Next.js/Next.js v15",
     "React/recoil",
     "사용 이미지/TimeStamps/2024-10-04",
-    "사용 이미지/TimeStamps",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",

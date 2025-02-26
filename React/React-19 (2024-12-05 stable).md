@@ -1,5 +1,3 @@
-https://react.dev/blog/2024/12/05/react-19
-참고 : https://www.intelligencelabs.tech/062b17fe-7b82-4bae-ba7f-0c17baca1bab#8e7b70dc-2a82-42e6-8048-a2062cf5426f
 
 ### 1. Actions
 
