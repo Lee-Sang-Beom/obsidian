@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4ee7389ba18efc4c",
+        "id": "e312e83c062d4231",
         "type": "tabs",
         "children": [
           {
-            "id": "e10d97380d9f1b5e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "사용 이미지/React/zustand/zustand 사용하기 - 예제 페이지.png"
-              },
-              "icon": "lucide-image",
-              "title": "zustand 사용하기 - 예제 페이지"
-            }
-          },
-          {
-            "id": "660d5bb351f779c4",
+            "id": "273f98362cdecf43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-02-26.md",
+                "file": "Timestamps/2025-03-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-26"
+              "title": "2025-03-01"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,13 +140,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Timestamps/2025-02-26.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-02-26 의 개요"
+              "title": "개요"
             }
           },
           {
@@ -173,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -191,20 +177,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "660d5bb351f779c4",
+  "active": "273f98362cdecf43",
   "lastOpenFiles": [
+    "Timestamps/2025-03-01.md",
+    "Timestamps/2025-02-28.md",
+    "사용 이미지/React/zustand/zustand 사용하기 - 예제 페이지.png",
+    "Timestamps/2025-02-18.md",
+    "Timestamps/2025-02-21.md",
+    "Timestamps/2025-02-26.md",
     "백링크/기술 기록 - 프론트엔드/Zustand 백링크.md",
     "백링크/기술 기록 - 프론트엔드/Recoil 백링크.md",
     "백링크/기술 기록 - 프론트엔드/React-Leaflet 백링크.md",
     "백링크/기술 기록 - 프론트엔드/React 백링크.md",
     "React/recoil/1. Recoil.md",
     "사용 이미지/React/zustand/zustand 사용하기 - 디렉터리.png",
-    "사용 이미지/React/zustand/zustand 사용하기 - 예제 페이지.png",
     "React/zustand/3. Zustand 사용하기.md",
     "사용 이미지/React/zustand",
     "React/zustand/2. Zustand와 Recoil 차이.md",
     "React/zustand/1. Zustand.md",
-    "Timestamps/2025-02-26.md",
     "React/zustand",
     "Timestamps/2025-02-24.md",
     "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
@@ -220,12 +210,8 @@
     "백링크/기술 기록 - 프론트엔드/Next.js 더 알아보기 백링크.md",
     "백링크/기술 기록 - 프론트엔드/Next.js 14 학습코스 백링크.md",
     "Next.js/더 알아보기/Route Segment.md",
-    "Next.js/더 알아보기/Next.js의 렌더링 과정.md",
-    "Next.js/더 알아보기/package.json과 package-lock.json.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/css-in-js schedule 디렉터리구조.png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)",
-    "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/2. CSS-IN-JS 설치 및 사용 과정.md",
-    "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/3. CSS-IN-JS 사용 후기 및 느낀 점.md",
     "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)",
     "면접",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
