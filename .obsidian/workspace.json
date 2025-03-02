@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-03-01.md",
+                "file": "Timestamps/2025-03-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-01"
+              "title": "2025-03-02"
             }
           }
         ]
@@ -180,6 +180,7 @@
   "active": "273f98362cdecf43",
   "lastOpenFiles": [
     "Timestamps/2025-03-01.md",
+    "Timestamps/2025-03-02.md",
     "Timestamps/2025-02-28.md",
     "사용 이미지/React/zustand/zustand 사용하기 - 예제 페이지.png",
     "Timestamps/2025-02-18.md",
@@ -209,7 +210,6 @@
     "백링크/기술 기록 - 프론트엔드/NextAuth 사용하기 백링크.md",
     "백링크/기술 기록 - 프론트엔드/Next.js 더 알아보기 백링크.md",
     "백링크/기술 기록 - 프론트엔드/Next.js 14 학습코스 백링크.md",
-    "Next.js/더 알아보기/Route Segment.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/css-in-js schedule 디렉터리구조.png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)",
     "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)",
