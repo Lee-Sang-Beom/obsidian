@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e312e83c062d4231",
+        "id": "4ffb5d157433d004",
         "type": "tabs",
         "children": [
           {
-            "id": "273f98362cdecf43",
+            "id": "d3c30b12227f021e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "인터프리터",
+                "query": "리페인트",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -163,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,8 +178,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "273f98362cdecf43",
+  "active": "d3c30b12227f021e",
   "lastOpenFiles": [
+    "React/Virtual DOM.md",
+    "Next.js/더 알아보기/'use client' 는 CSR일까.md",
+    "면접/공통 답변 자료 (기술면접)/렌더링 엔진 동작 과정.md",
+    "면접/2023-03-04/아이작SNC ㈜ 의 인재상.md",
+    "면접/2023-03-04/아이작SNC ㈜ 가 어떤 기업인지 아는가.md",
+    "면접/공통 답변 자료 (기술면접)/웹 브라우저 동작원리.md",
+    "면접/공통 답변 자료 (기술면접)/실행 컨텍스트.md",
+    "짧게 정리한 프론트엔드 지식/실행 컨텍스트 (velog 업로드 완료).md",
+    "Timestamps/2025-03-03.md",
     "면접/공통 답변 자료 (기술면접)/URI, URL.md",
     "면접/공통 답변 자료 (기술면접)/REST, REST API, RESTful (URI 설명포함).md",
     "면접/공통 답변 자료 (기술면접)/React 생명주기 기술.md",
@@ -187,27 +197,18 @@
     "면접/공통 답변 자료 (기술면접)/Cookie, Session, Web storage, jwt.md",
     "면접/공통 답변 자료 (기술면접)/호이스팅.md",
     "면접/공통 답변 자료 (기술면접)/이벤트 루프.md",
-    "면접/2023-03-04/아이작SNC ㈜의 인재상.md",
-    "면접/2023-03-04/아이작SNC ㈜ 가 어떤 기업인지 아는가.md",
     "면접/2023-03-04/2023-03-04 면접준비.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/12-1. Mutating Data (1).md",
     "React/recoil/1. Recoil.md",
     "React/recoil/2. Recoil 사용 예시.md",
     "React/zustand/3. Zustand 사용하기.md",
     "React/zustand/1. Zustand.md",
-    "Timestamps/2025-03-03.md",
     "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
-    "짧게 정리한 프론트엔드 지식/실행 컨텍스트 (velog 업로드 완료).md",
     "면접/공통 답변 자료 (인성면접)/회사 이직 계기.md",
     "면접/공통 답변 자료 (인성면접)/프로젝트를 진행하면서 힘들었던 점.md",
-    "면접/공통 답변 자료 (인성면접)/진행한 프로젝트에 대한 설명.md",
-    "면접/공통 답변 자료 (인성면접)/자기소개.md",
-    "Timestamps/2025-03-02.md",
-    "짧게 정리한 프론트엔드 지식/URI, URL.md",
     "면접/공통 답변 자료 (기술면접)",
     "면접/공통 답변 자료 (인성면접)",
     "면접/2023-03-04",
-    "Timestamps/2025-03-01.md",
     "사용 이미지/React/zustand/zustand 사용하기 - 예제 페이지.png",
     "사용 이미지/React/zustand/zustand 사용하기 - 디렉터리.png",
     "사용 이미지/React/zustand",
