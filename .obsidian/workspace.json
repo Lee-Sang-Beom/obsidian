@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "면접/공통 답변 자료 (기술면접)/CSR, SSR, SPA, MPA, RSC, RCC.md",
+                "file": "Timestamps/2025-03-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSR, SSR, SPA, MPA, RSC, RCC"
+              "title": "2025-03-03"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "styled-co",
+                "query": "인터프리터",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,6 +179,11 @@
   },
   "active": "273f98362cdecf43",
   "lastOpenFiles": [
+    "면접/공통 답변 자료 (기술면접)/호이스팅.md",
+    "짧게 정리한 프론트엔드 지식/호이스팅(Hoisting).md",
+    "면접/공통 답변 자료 (기술면접)/CSR, SSR, SPA, MPA, RSC, RCC.md",
+    "면접/공통 답변 자료 (기술면접)/Cookie, Session, Web storage, jwt.md",
+    "짧게 정리한 프론트엔드 지식/실행 컨텍스트 (velog 업로드 완료).md",
     "면접/공통 답변 자료 (기술면접)/DOM.md",
     "면접/공통 답변 자료 (기술면접)/React 생명주기 기술.md",
     "면접/공통 답변 자료 (기술면접)/REST, REST API, RESTful (URI 설명포함).md",
@@ -204,12 +209,7 @@
     "Timestamps/2025-02-21.md",
     "Timestamps/2025-02-26.md",
     "백링크/기술 기록 - 프론트엔드/Zustand 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/Recoil 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/React-Leaflet 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/React 백링크.md",
-    "React/recoil/1. Recoil.md",
     "사용 이미지/React/zustand/zustand 사용하기 - 디렉터리.png",
-    "React/zustand/3. Zustand 사용하기.md",
     "사용 이미지/React/zustand",
     "React/zustand",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인/둘 중 하나로 외래키를 관리해야 한다..png",
