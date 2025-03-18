@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-03-14.md",
+                "file": "Timestamps/2025-03-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-14"
+              "title": "2025-03-18"
             }
           },
           {
@@ -193,8 +193,9 @@
   },
   "active": "4a02f6d2de6656dd",
   "lastOpenFiles": [
-    "Timestamps/2025-03-12.md",
     "Timestamps/2025-03-14.md",
+    "Timestamps/2025-03-18.md",
+    "Timestamps/2025-03-12.md",
     "Timestamps/2025-03-11.md",
     "Timestamps/2025-03-10.md",
     "Timestamps/2025-03-09.md",
@@ -218,7 +219,6 @@
     "React/hook/useEffect.md",
     "React/hook/useContext.md",
     "React/zustand/2. Zustand와 Recoil 차이.md",
-    "React/zustand/3. Zustand 사용하기.md",
     "면접/공통 답변 자료 (기술면접)",
     "면접/공통 답변 자료 (인성면접)",
     "면접/2023-03-04",
