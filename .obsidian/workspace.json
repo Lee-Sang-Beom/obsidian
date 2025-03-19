@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pnpm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "검색"
             }
           },
           {
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,21 +167,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "4a02f6d2de6656dd",
   "lastOpenFiles": [
+    "Timestamps/2025-03-10.md",
     "Timestamps/2025-03-18.md",
-    "Timestamps/2025-03-19.md",
     "Timestamps/2025-03-17.md",
+    "Timestamps/2025-03-18.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/14. Improving Accessibility.md",
     "Timestamps/2025-03-10.md",
@@ -206,6 +206,9 @@
     "React/hook/useCallback.md",
     "React/hook/useMemo.md",
     "React/hook/useLayoutEffect.md",
+    "React/hook/useId.md",
+    "React/hook/useEffect.md",
+    "React/hook/useContext.md",
     "면접/공통 답변 자료 (기술면접)",
     "면접/공통 답변 자료 (인성면접)",
     "면접/2023-03-04",
