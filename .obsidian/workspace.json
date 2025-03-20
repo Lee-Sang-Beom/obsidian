@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2bb0bde702e9d605",
+        "id": "9104e8c369a47a64",
         "type": "tabs",
         "children": [
           {
-            "id": "4a02f6d2de6656dd",
+            "id": "c87d70554317f584",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-03-21.md",
+                "file": "Timestamps/2025-03-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-21"
+              "title": "2025-03-20"
             }
           }
         ]
@@ -177,11 +177,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a02f6d2de6656dd",
+  "active": "c87d70554317f584",
   "lastOpenFiles": [
+    "회사 내 경험 모음/프로젝트 경험 기록/(해야할 것) React SEO를 위한 작업/1. react-helmet-async.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/(해야할 것) React SEO를 위한 작업/2. puppetee, prerender.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/(해야할 것) React SEO를 위한 작업/3. WCAG 2.1 메뉴 및 본문 바로가기.md",
     "Timestamps/2025-03-20.md",
     "Timestamps/2025-03-21.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/(해야할 것) React SEO를 위한 작업",
+    "회사 내 경험 모음/프로젝트 경험 기록/React SEO 작업하기",
+    "React/(새로 할 것) tanstack-router/1. tanstack-router란.md",
+    "React/(새로 할 것) tanstack-router/3. 활용.md",
+    "React/(새로 할 것) tanstack-router/2. tanstack-router 초기 세팅.md",
     "React/zustand/4. Zustand 사용하기 (2).md",
+    "React/(새로 할 것) tanstack-router",
     "React/zustand/3. Zustand 사용하기 (1).md",
     "Timestamps/2024-12-18.md",
     "Timestamps/2024-12-04.md",
@@ -199,12 +208,6 @@
     "Timestamps/2025-03-10.md",
     "Timestamps/2025-03-14.md",
     "Timestamps/2025-03-12.md",
-    "Timestamps/2025-03-09.md",
-    "면접/공통 답변 자료 (인성면접)/회사 이직 계기.md",
-    "Timestamps/2025-03-08.md",
-    "Timestamps/2025-03-05.md",
-    "Timestamps/2025-03-04.md",
-    "면접/2023-03-04/아이작SNC ㈜ 의 인재상.md",
     "면접/공통 답변 자료 (기술면접)",
     "면접/공통 답변 자료 (인성면접)",
     "면접/2023-03-04",
@@ -216,15 +219,12 @@
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/css-in-js schedule 디렉터리구조.png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)",
     "회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)",
-    "면접",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
-    "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
     "실행 컨텍스트의 구성.png",
     "실행 컨텍스트의 구성 1.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그인실패.png",
     "사용 이미지/Next.js/guide course/chapter 15/로그아웃.png",
-    "사용 이미지/React/react-19",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
