@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/(새로할 것) 테스트 코드/3. 유저 상세정보 테스트 코드.md",
+                "file": "React/(새로할 것) 테스트 코드/4. 유저 정보 수정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 유저 상세정보 테스트 코드"
+              "title": "4. 유저 정보 수정"
             }
           }
         ]
@@ -179,11 +179,12 @@
   },
   "active": "c87d70554317f584",
   "lastOpenFiles": [
+    "React/(새로할 것) 테스트 코드/3. 유저 상세정보 테스트 코드.md",
+    "React/(새로할 것) 테스트 코드/4. 유저 정보 수정.md",
     "React/(새로할 것) 테스트 코드/2. 유저 리스트 조회.md",
     "React/(새로할 것) 테스트 코드/1. 메인 홈 테스트 코드.md",
     "사용 이미지/React/테스트 코드/유저리스트 조회 테스트 - await expect(invalidFetchUser()).rejects.toThrowError().png",
     "사용 이미지/React/테스트 코드",
-    "React/(새로할 것) 테스트 코드/3. 유저 상세정보 테스트 코드.md",
     "Timestamps/2025-03-21.md",
     "React/(새로할 것) 테스트 코드",
     "React/(해야할 것) React SEO를 위한 작업/1. react-helmet-async.md",
