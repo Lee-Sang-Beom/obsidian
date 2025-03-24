@@ -52,6 +52,20 @@ function getData() {
 	  
 	- 해당 함수 내에서 비동기 처리로직을 구현한 후, 정상적으로 처리가 되었다면 `resolve`함수를 호출하고, 실패했다면 `reject`함수를 호출하면 된다.
 
+```tsx
+const p = new Promise((resolve, reject)=>{
+ // 비동기 작업 수행
+ // 이 내부에서 resolve(result) 함수를 호출하면 then에 등록해둔 함수가 호출됨
+ // reject(error) 호출이나, Error 발생 시 catch에 등록된 함수가 호출됨
+
+p.then((result) => {
+
+})
+.catch((error) => {
+
+})
+})
+```
 
 #### 3. `.then()`
 
