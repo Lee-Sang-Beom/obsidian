@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
+                "file": "Timestamps/2025-03-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "argument, parameter의 차이"
+              "title": "2025-03-25"
             }
           }
         ]
@@ -74,12 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 543.5
+    "width": 200
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -180,8 +179,10 @@
   },
   "active": "c87d70554317f584",
   "lastOpenFiles": [
-    "짧게 정리한 프론트엔드 지식/Promise.md",
     "Timestamps/2025-03-24.md",
+    "Timestamps/2025-03-25.md",
+    "짧게 정리한 프론트엔드 지식/argument, parameter의 차이.md",
+    "짧게 정리한 프론트엔드 지식/Promise.md",
     "Timestamps/2025-03-18.md",
     "Timestamps/2025-03-17.md",
     "Timestamps/2025-03-21.md",
@@ -210,8 +211,6 @@
     "Timestamps/2025-02-03.md",
     "Timestamps/2025-02-04.md",
     "Timestamps/2025-02-05.md",
-    "Timestamps/2025-03-11.md",
-    "Timestamps/2025-03-19.md",
     "면접/공통 답변 자료 (기술면접)",
     "면접/공통 답변 자료 (인성면접)",
     "면접/2023-03-04",
