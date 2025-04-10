@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 474.5
+    "width": 288.5
   },
   "right": {
     "id": "f79e6b9ce8fb7a5b",
@@ -179,10 +179,13 @@
   },
   "active": "87c2318771c35ba9",
   "lastOpenFiles": [
-    "Timestamps/2025-04-09.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC/📄 Intersection Observer를 활용한 무한 스크롤 구현.md",
     "Timestamps/2025-04-10.md",
-    "Timestamps/2025-04-01.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC",
+    "회사 내 경험 모음/프로젝트 경험 기록/회사 - 뎁스",
     "Timestamps/2025-04-08.md",
+    "Timestamps/2025-04-09.md",
+    "Timestamps/2025-04-01.md",
     "Timestamps/2025-04-07.md",
     "Timestamps/2025-04-04.md",
     "Timestamps/2025-04-05.md",
@@ -207,7 +210,6 @@
     "React/(새로할 것) 테스트 코드/4. 유저 정보 수정.md",
     "React/(새로할 것) 테스트 코드/3. 유저 상세정보 테스트 코드.md",
     "React/(새로할 것) 테스트 코드/2. 유저 리스트 조회.md",
-    "React/(새로할 것) 테스트 코드/1. 메인 홈 테스트 코드.md",
     "사용 이미지/React/테스트 코드/유저리스트 조회 테스트 - await expect(invalidFetchUser()).rejects.toThrowError().png",
     "사용 이미지/React/테스트 코드",
     "React/(새로할 것) 테스트 코드",
@@ -219,8 +221,6 @@
     "면접/2023-03-04",
     "사용 이미지/React/zustand/zustand 사용하기 - 예제 페이지.png",
     "사용 이미지/React/zustand/zustand 사용하기 - 디렉터리.png",
-    "사용 이미지/React/zustand",
-    "React/zustand",
     "사용 이미지/backend/자바 ORM 표준 JPA 프로그래밍/8. 양방향 연관관계와 연관관계의 주인/둘 중 하나로 외래키를 관리해야 한다..png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/CSS-IN-JS 사용해보기 (토이프로젝트)/css-in-js schedule 디렉터리구조.png",
     "사용 이미지/짧게 정리한 프론트엔드 지식/이벤트 루프/브라우저 내부 구조.png",
