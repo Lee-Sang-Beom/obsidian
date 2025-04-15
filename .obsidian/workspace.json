@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC/📄 Intersection Observer를 활용한 무한 스크롤 구현.md",
+                "file": "Timestamps/2025-04-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📄 Intersection Observer를 활용한 무한 스크롤 구현"
+              "title": "2025-04-15"
             }
           }
         ]
@@ -177,17 +177,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "87c2318771c35ba9",
+  "active": "bd7c1d9ac436be5e",
   "lastOpenFiles": [
     "Timestamps/2025-04-14.md",
+    "Timestamps/2025-04-15.md",
+    "Timestamps/2025-04-01.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC/📄 Intersection Observer를 활용한 무한 스크롤 구현.md",
     "Timestamps/2025-04-11.md",
     "Timestamps/2025-04-10.md",
-    "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC/📄 Intersection Observer를 활용한 무한 스크롤 구현.md",
     "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC",
     "회사 내 경험 모음/프로젝트 경험 기록/회사 - 뎁스",
     "Timestamps/2025-04-08.md",
     "Timestamps/2025-04-09.md",
-    "Timestamps/2025-04-01.md",
     "Timestamps/2025-04-07.md",
     "Timestamps/2025-04-04.md",
     "Timestamps/2025-04-05.md",
@@ -209,7 +210,6 @@
     "Timestamps/2025-03-18.md",
     "Timestamps/2025-03-17.md",
     "Timestamps/2025-03-21.md",
-    "React/(새로할 것) 테스트 코드/4. 유저 정보 수정.md",
     "사용 이미지/React/테스트 코드/유저리스트 조회 테스트 - await expect(invalidFetchUser()).rejects.toThrowError().png",
     "사용 이미지/React/테스트 코드",
     "React/(새로할 것) 테스트 코드",
