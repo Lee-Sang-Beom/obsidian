@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "de0b4e351b5b566b",
+        "id": "fb38c109e2f8faae",
         "type": "tabs",
         "children": [
           {
-            "id": "b0ed04b998aaeb2c",
+            "id": "893b392f0aa91a0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-04-30.md",
+                "file": "Timestamps/2025-05-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-30"
+              "title": "2025-05-02"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arguments",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,16 +177,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b0ed04b998aaeb2c",
+  "active": "893b392f0aa91a0a",
   "lastOpenFiles": [
-    "Timestamps/2025-04-29.md",
     "Timestamps/2025-04-30.md",
-    "Timestamps/2025-04-28.md",
+    "Timestamps/2025-05-02.md",
+    "Timestamps/2025-04-18.md",
+    "Timestamps/2025-04-21.md",
+    "Timestamps/2025-04-22.md",
     "Timestamps/2025-04-23.md",
     "Timestamps/2025-04-24.md",
-    "Timestamps/2025-04-22.md",
-    "Timestamps/2025-04-21.md",
-    "Timestamps/2025-04-18.md",
+    "Timestamps/2025-04-28.md",
+    "Timestamps/2025-04-29.md",
     "Timestamps/2025-04-01.md",
     "Timestamps/2025-04-17.md",
     "Timestamps/2025-04-16.md",
@@ -208,7 +209,6 @@
     "Pasted image 20250328170351.png",
     "Pasted image 20250328170341.png",
     "Timestamps/2025-03-29.md",
-    "Timestamps/2025-03-28.md",
     "Pasted image 20250326172356.png",
     "사용 이미지/React/테스트 코드/유저리스트 조회 테스트 - await expect(invalidFetchUser()).rejects.toThrowError().png",
     "사용 이미지/React/테스트 코드",
