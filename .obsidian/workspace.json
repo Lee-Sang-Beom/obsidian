@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31e2dcaba5c74194",
+            "id": "05e97253e27b68fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -177,10 +177,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31e2dcaba5c74194",
+  "active": "05e97253e27b68fc",
   "lastOpenFiles": [
-    "Timestamps/2025-05-16.md",
     "Timestamps/2025-05-20.md",
+    "블소 api.md",
+    "Timestamps/2025-05-16.md",
     "회사 정보/계정정보.md",
     "회사 정보/홈페이지.md",
     "Timestamps/2025-05-15.md",
@@ -205,7 +206,6 @@
     "Timestamps/2025-04-16.md",
     "Timestamps/2025-04-14.md",
     "Timestamps/2025-04-15.md",
-    "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC/📄 Intersection Observer를 활용한 무한 스크롤 구현.md",
     "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC",
     "회사 내 경험 모음/프로젝트 경험 기록/회사 - 뎁스",
     "Pasted image 20250328170351.png",
