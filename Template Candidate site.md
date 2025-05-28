@@ -1,27 +1,4 @@
 
-#### Day Planner
----
-- [x] 토이프로젝트: 자유게시판 추가
-- [x] 토이프로젝트: 이벤트 관리
-
-#### Work
----
-- [x] 확인: https://themeforest.net/item/travgo-travel-mobile-app-react-template/56519716
-- [x] 확인: https://themeforest.net/item/affan-pwa-mobile-react-js-template/55726876
-- [x] 확인: https://themeforest.net/item/rick-react-js-mobile-ecommerce-template/26109382
-- [x] 확인: https://themeforest.net/item/suha-pwa-ecommerce-mobile-react-js-template/53648068
-- [x] 확인: https://themeforest.net/item/dinehub-restaurant-food-delivery-react-mobile-app-pwa-with-laravel-backend/55919347
-- [x] 확인: https://themeforest.net/item/apitex-mobile-banking-react-app-pwa/54041969
-- [x] 확인: https://themeforest.net/item/stephub-shoes-store-ecommerce-react-mobile-app-pwa/53203418
-- [x] 확인: [Guruji - Online Learning and Education Mobile App PWA React Template by The_Krishna](https://themeforest.net/item/guruji-online-learning-and-education-mobile-app-pwa-react-template/52876115)
-- [x] 확인: https://elements.envato.com/mobile-dapp-watch-and-earn-fantoken-9WLC7FN
-- [x] 확인: https://elements.envato.com/paypee-e-commerce-app-ui-kit-JPWWUKR
-
-> 모바일 앱용 **Shadcn/UI는** _RadixUI를_ 사용해야 하는데 , RadixUI는 React를 필요로 합니다. 
-
-
----
-
 ### ✅ 실제 React 코드 및 컴포넌트를 제공하는 템플릿
 
 1. **Travgo - Travel Mobile App React Template**
@@ -103,12 +80,3 @@
     - **제공 내용**: Figma 파일로 구성된 이커머스 앱 UI 디자인
     - **특징**: 전자상거래 앱 디자인에 적합
     - **경로**: https://elements.envato.com/paypee-e-commerce-app-ui-kit-JPWWUKR
-
----
-```plaintext
-
-고려사항
-
-1. i18n (internationalization) 글로벌 서비스 대상에 대한 RTL 지원여부 
-2. 모바일/PC 반응형이되 모바일이 앱처럼 보이게
-```
