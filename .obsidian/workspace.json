@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-04-10.md",
+                "file": "Timestamps/2025-05-31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-10"
+              "title": "2025-05-31"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -167,20 +167,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "87c2318771c35ba9",
   "lastOpenFiles": [
-    "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC/📄 Intersection Observer를 활용한 무한 스크롤 구현.md",
     "Timestamps/2025-04-10.md",
+    "Timestamps/2025-05-31.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC/📄 Intersection Observer를 활용한 무한 스크롤 구현.md",
     "회사 내 경험 모음/프로젝트 경험 기록/회사 - 아이작 SNC",
     "회사 내 경험 모음/프로젝트 경험 기록/회사 - 뎁스",
     "Timestamps/2025-04-08.md",
@@ -209,7 +210,6 @@
     "Timestamps/2025-03-21.md",
     "React/(새로할 것) 테스트 코드/4. 유저 정보 수정.md",
     "React/(새로할 것) 테스트 코드/3. 유저 상세정보 테스트 코드.md",
-    "React/(새로할 것) 테스트 코드/2. 유저 리스트 조회.md",
     "사용 이미지/React/테스트 코드/유저리스트 조회 테스트 - await expect(invalidFetchUser()).rejects.toThrowError().png",
     "사용 이미지/React/테스트 코드",
     "React/(새로할 것) 테스트 코드",
