@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-07-01.md",
+                "file": "Timestamps/2025-07-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-01"
+              "title": "2025-07-02"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "607e5bbc7f3163b1",
   "lastOpenFiles": [
-    "회사 정보/82Alda/82알다 팟캐스트 개발관련 내용.md",
     "Timestamps/2025-07-01.md",
+    "Timestamps/2025-07-02.md",
+    "회사 정보/82Alda/82알다 팟캐스트 개발관련 내용.md",
     "Timestamps/2025-06-30.md",
     "Timestamps/2025-06-27.md",
     "Timestamps/2025-06-23.md",
@@ -215,7 +216,6 @@
     "Pasted image 20250611134537.png",
     "Timestamps/2025-06-10.md",
     "Timestamps/2025-06-09.md",
-    "Timestamps/2025-06-05.md",
-    "Timestamps/2025-06-02.md"
+    "Timestamps/2025-06-05.md"
   ]
 }
