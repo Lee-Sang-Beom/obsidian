@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-07-14.md",
+                "file": "Timestamps/2025-07-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-14"
+              "title": "2025-07-15"
             }
           }
         ]
@@ -182,9 +182,10 @@
   },
   "active": "607e5bbc7f3163b1",
   "lastOpenFiles": [
-    "Timestamps/2025-07-11.md",
     "Timestamps/2025-07-14.md",
+    "Timestamps/2025-07-15.md",
     "회사 정보/82Alda/82알다 팟캐스트 개발관련 내용.md",
+    "Timestamps/2025-07-11.md",
     "Timestamps/2025-07-10.md",
     "Timestamps/2025-07-08.md",
     "Timestamps/2025-07-07.md",
@@ -212,7 +213,6 @@
     "회사 정보/계정정보.md",
     "회사 정보/82Alda",
     "회사 내 경험 모음/useInfiniteQuery/5. 재호출 시, API가 호출되는 횟수.md",
-    "회사 내 경험 모음/useInfiniteQuery/4. refetch와 캐시.md",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/useInfiniteQuery/API 연속호출.png",
     "사용 이미지/회사 내 경험 모음/프로젝트 경험 기록/useInfiniteQuery",
     "회사 내 경험 모음/useInfiniteQuery",
