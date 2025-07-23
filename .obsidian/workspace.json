@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "455aa47750db6b1e",
+        "id": "31b8dc8429b8ff5c",
         "type": "tabs",
         "children": [
           {
-            "id": "607e5bbc7f3163b1",
+            "id": "5012fa7dc9534108",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,12 +180,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "607e5bbc7f3163b1",
+  "active": "5012fa7dc9534108",
   "lastOpenFiles": [
-    "Timestamps/2025-07-22.md",
-    "Timestamps/2025-07-23.md",
-    "Timestamps/2025-07-18.md",
     "회사 정보/82Alda/82알다 팟캐스트 개발관련 내용.md",
+    "회사 정보/82Alda/웹 플레이어 코드 백업.md",
+    "Timestamps/2025-07-23.md",
+    "Timestamps/2025-07-22.md",
+    "Timestamps/2025-07-18.md",
     "React/(새로 할 것) tanstack-router/2. tanstack-router 초기 세팅.md",
     "React/(새로 할 것) tanstack-router/1. tanstack-router란.md",
     "React/(새로할 것) 테스트 코드/1. 메인 홈 테스트 코드.md",
@@ -193,7 +194,6 @@
     "React/(새로할 것) 테스트 코드/3. 유저 상세정보 테스트 코드.md",
     "React/(새로 할 것) tanstack-router/3. 활용.md",
     "회사 정보/82Alda/app-first 이전코드 백업.md",
-    "회사 정보/82Alda/웹 플레이어 코드 백업.md",
     "Timestamps/2025-07-17.md",
     "Timestamps/2025-07-16.md",
     "Timestamps/2025-07-15.md",
