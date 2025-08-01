@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-07-31.md",
+                "file": "Timestamps/2025-08-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-31"
+              "title": "2025-08-01"
             }
           }
         ]
@@ -182,14 +182,15 @@
   },
   "active": "193c9c0cda5c4174",
   "lastOpenFiles": [
-    "회사 내 경험 모음/react 환경에서 preload 사용문제/페이지 preload 구현방식 문제.md",
+    "Timestamps/2025-07-31.md",
+    "Timestamps/2025-07-30.md",
+    "Timestamps/2025-08-01.md",
     "회사 내 경험 모음/react 환경에서 preload 사용문제/문제 코드 (해결이전).md",
     "회사 내 경험 모음/react 환경에서 preload 사용문제/문제 코드 (해결이후).md",
-    "Timestamps/2025-07-31.md",
+    "회사 내 경험 모음/react 환경에서 preload 사용문제/페이지 preload 구현방식 문제.md",
     "회사 내 경험 모음/react 환경에서 preload 사용문제",
     "회사 정보/82Alda/82알다 팟캐스트 개발관련 내용.md",
     "회사 정보/82Alda/웹 플레이어 코드 백업.md",
-    "Timestamps/2025-07-30.md",
     "Timestamps/2025-07-29.md",
     "React/hook/useOptimistic.md",
     "React/(새로할 것) 테스트 코드/1. 메인 홈 테스트 코드.md",
@@ -208,7 +209,6 @@
     "면접/공통 답변 자료 (기술면접)/React 생명주기 기술.md",
     "면접/공통 답변 자료 (기술면접)/(작성 필요) 렌더링 엔진 동작 과정.md",
     "면접/공통 답변 자료 (기술면접)/실행 컨텍스트.md",
-    "면접/공통 답변 자료 (기술면접)/REST, REST API, RESTful (URI 설명포함).md",
     "사용 이미지/Next.js/guide course/chapter 16/invoices - %s 템플릿.png",
     "사용 이미지/Next.js/guide course/chapter 16/main - title metadata 변경.png",
     "사용 이미지/Next.js/guide course/chapter 16",
