@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 458.5
   },
   "right": {
     "id": "b2237208a48cb195",
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,10 +182,14 @@
   },
   "active": "193c9c0cda5c4174",
   "lastOpenFiles": [
-    "회사 정보/82Alda/82알다 팟캐스트 개발관련 내용.md",
     "Timestamps/2025-08-04.md",
     "Timestamps/2025-08-05.md",
+    "backend/Linux/🐧🐳 Linux + Docker 통합 가이드.md",
+    "backend/Linux/🐧 Linux 필수 기본 명령어 15가지 완벽 가이드.md",
+    "backend/Linux/🐳 Docker 완벽 명령어 학습 가이드.md",
+    "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "회사 정보/계정정보.md",
+    "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
     "회사 정보/팟캐스트 구현 필요.md",
     "회사 정보/홈페이지.md",
     "회사 정보/IP설정.png",
@@ -206,10 +210,6 @@
     "React/(새로할 것) 테스트 코드/4. 유저 정보 수정.md",
     "React/(해야할 것) React SEO를 위한 작업/1. react-helmet-async.md",
     "React/(해야할 것) React SEO를 위한 작업/2. WCAG 2.1 메뉴 및 본문 바로가기.md",
-    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/16. Adding MetaData.md",
-    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/15. Adding Authentication.md",
-    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/0. Next.js 14 변경점.md",
-    "백링크/기술 기록 - 프론트엔드/짧게 정리한 프론트엔드 지식 백링크.md",
     "사용 이미지/Next.js/guide course/chapter 16/invoices - %s 템플릿.png",
     "사용 이미지/Next.js/guide course/chapter 16/main - title metadata 변경.png",
     "사용 이미지/Next.js/guide course/chapter 16",
