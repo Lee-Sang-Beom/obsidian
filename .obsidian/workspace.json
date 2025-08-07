@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 정보/82Alda/구글 애널리틱스 내용 정리.md",
+                "file": "Timestamps/2025-08-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "구글 애널리틱스 내용 정리"
+              "title": "2025-08-07"
             }
           }
         ]
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,8 +183,9 @@
   },
   "active": "193c9c0cda5c4174",
   "lastOpenFiles": [
-    "Timestamps/2025-08-06.md",
     "회사 정보/82Alda/구글 애널리틱스 내용 정리.md",
+    "Timestamps/2025-08-07.md",
+    "Timestamps/2025-08-06.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/13. Handling Errors.md",
@@ -207,7 +209,6 @@
     "Timestamps/2025-08-05.md",
     "Timestamps/2025-08-04.md",
     "backend/Linux/🐧🐳 Linux + Docker 통합 가이드.md",
-    "backend/Linux/🐧 Linux 필수 기본 명령어 15가지 완벽 가이드.md",
     "회사 정보/IP설정.png",
     "회사 내 경험 모음/react 환경에서 preload 사용문제",
     "사용 이미지/Next.js/guide course/chapter 16/invoices - %s 템플릿.png",
