@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ca8fc693bcca1326",
+        "id": "e759e11497065266",
         "type": "tabs",
         "children": [
           {
-            "id": "193c9c0cda5c4174",
+            "id": "0c53005f222edcb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+                "file": "Timestamps/2025-08-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "82Alda Podcast Service 개발 관련 내용"
+              "title": "2025-08-07"
             }
           }
         ]
@@ -180,13 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "193c9c0cda5c4174",
+  "active": "0c53005f222edcb2",
   "lastOpenFiles": [
-    "Timestamps/2025-08-07.md",
-    "회사 정보/82Alda/구글 애널리틱스 내용 정리.md",
-    "Timestamps/2025-08-06.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+    "Timestamps/2025-08-07.md",
+    "Timestamps/2025-08-06.md",
     "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
+    "회사 정보/82Alda/app-first 이전코드 백업.md",
+    "회사 정보/82Alda/웹 플레이어 코드 백업.md",
+    "회사 정보/82Alda/구글 애널리틱스 내용 정리.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/13. Handling Errors.md",
     "Timestamps/2025-07-29.md",
     "Timestamps/2025-07-30.md",
@@ -206,8 +208,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 순환 참조란.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 디자인 패턴.md",
     "Timestamps/2025-08-05.md",
-    "Timestamps/2025-08-04.md",
-    "backend/Linux/🐧🐳 Linux + Docker 통합 가이드.md",
     "회사 정보/IP설정.png",
     "회사 내 경험 모음/react 환경에서 preload 사용문제",
     "사용 이미지/Next.js/guide course/chapter 16/invoices - %s 템플릿.png",
