@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-08-14.md",
+                "file": "Timestamps/2025-08-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-14"
+              "title": "2025-08-19"
             }
           }
         ],
@@ -197,24 +197,25 @@
   },
   "active": "58897f5395027bad",
   "lastOpenFiles": [
-    "Timestamps/2025-08-12.md",
-    "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
-    "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
+    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
+    "Timestamps/2025-08-19.md",
+    "AI 프롬프트/(VELOG 기록) 정리내용 스타일 변경.md",
     "Timestamps/2025-08-14.md",
+    "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+    "Timestamps/2025-08-12.md",
+    "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
     "Timestamps/2025-08-05.md",
     "Timestamps/2025-08-11.md",
     "Timestamps/2025-08-01.md",
     "Timestamps/2025-08-02.md",
     "Timestamps/2025-08-04.md",
     "Timestamps/2025-08-08.md",
-    "AI 프롬프트/(VELOG 기록) 정리내용 스타일 변경.md",
     "짧게 정리한 프론트엔드 지식/(완료) 깊은 복사와 얕은 복사.md",
     "Timestamps/2025-08-06.md",
     "짧게 정리한 프론트엔드 지식/렌더링 과정 (velog 업로드 완료).md",
     "짧게 정리한 프론트엔드 지식/(완료) 자바스크립트 고차함수와 일급객체.md",
     "짧게 정리한 프론트엔드 지식/(완료) 라이브러리와 프레임워크.md",
     "짧게 정리한 프론트엔드 지식/(완료) 네이티브 객체와 호스트 객체.md",
-    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 순환 참조란.md",
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 디자인 패턴.md",
     "JSP/0. 시작하기.md",
@@ -223,7 +224,6 @@
     "회사 정보/82Alda/구글 애널리틱스 내용 정리.md",
     "AI 프롬프트",
     "회사 정보/82Alda/웹 플레이어 코드 백업.md",
-    "회사 정보/82Alda/app-first 이전코드 백업.md",
     "회사 정보/IP설정.png",
     "회사 내 경험 모음/react 환경에서 preload 사용문제",
     "사용 이미지/Next.js/guide course/chapter 16/invoices - %s 템플릿.png",
