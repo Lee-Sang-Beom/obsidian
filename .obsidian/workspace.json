@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-08-21.md",
+                "file": "Timestamps/2025-08-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-21"
+              "title": "2025-08-22"
             }
           }
         ],
@@ -212,9 +212,10 @@
   },
   "active": "1a57da152ed82c78",
   "lastOpenFiles": [
+    "Timestamps/2025-08-21.md",
+    "Timestamps/2025-08-22.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
-    "Timestamps/2025-08-21.md",
     "Timestamps/2025-08-20.md",
     "회사 정보/IP설정.png",
     "Timestamps/2025-08-14.md",
@@ -238,7 +239,6 @@
     "짧게 정리한 프론트엔드 지식/(내용보완예정) 디자인 패턴.md",
     "JSP/0. 시작하기.md",
     "JSP/3. 액션(Standard Actions).md",
-    "JSP/1. JSP.md",
     "AI 프롬프트",
     "회사 내 경험 모음/react 환경에서 preload 사용문제",
     "사용 이미지/Next.js/guide course/chapter 16/invoices - %s 템플릿.png",
