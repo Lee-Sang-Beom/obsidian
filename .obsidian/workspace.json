@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-09-03.md",
+                "file": "Timestamps/2025-09-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-03"
+              "title": "2025-09-05"
             }
           }
         ],
@@ -198,9 +198,11 @@
   },
   "active": "7208a1f58360e84a",
   "lastOpenFiles": [
-    "Timestamps/2025-09-02.md",
+    "Timestamps/2025-09-04.md",
+    "Timestamps/2025-09-05.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "Timestamps/2025-09-03.md",
+    "Timestamps/2025-09-02.md",
     "Timestamps/2025-09-01.md",
     "회사 정보/82Alda/이전 차트(stock x) 및 커스텀 툴팁 백업본.md",
     "회사 정보/82Alda/구글 애널리틱스 내용 정리.md",
@@ -223,8 +225,6 @@
     "백링크/기술 기록 - 프론트엔드/Recoil 백링크.md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
     "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/10. Partial Prerendering.md",
-    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/11. Adding Search and Pagination.md",
-    "짧게 정리한 프론트엔드 지식/(완료) 자바스크립트 고차함수와 일급객체.md",
     "회사 정보/IP설정.png",
     "AI 프롬프트",
     "회사 내 경험 모음/react 환경에서 preload 사용문제",
