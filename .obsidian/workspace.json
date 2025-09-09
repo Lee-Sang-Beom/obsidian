@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-09-05.md",
+                "file": "Timestamps/2025-09-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-05"
+              "title": "2025-09-09"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tail",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,14 +199,17 @@
   "active": "7208a1f58360e84a",
   "lastOpenFiles": [
     "Timestamps/2025-09-08.md",
-    "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
-    "Timestamps/2025-09-05.md",
+    "Timestamps/2025-09-09.md",
     "Timestamps/2025-09-03.md",
+    "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+    "회사 정보/테스트.md",
+    "backend/Linux/🐧🐳 Linux + Docker 통합 가이드.md",
     "회사 정보/82Alda/결제정보 코드 백업본.md",
+    "Timestamps/2025-09-01.md",
+    "Timestamps/2025-09-05.md",
     "Timestamps/2025-08-27.md",
     "Timestamps/2025-09-04.md",
     "Timestamps/2025-09-02.md",
-    "Timestamps/2025-09-01.md",
     "회사 정보/82Alda/구글 애널리틱스 내용 정리.md",
     "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
     "Timestamps/2025-08-29.md",
@@ -222,9 +225,6 @@
     "백링크/기술 기록 - 프론트엔드/React-hook-form 백링크.md",
     "백링크/기술 기록 - 프론트엔드/Vworld 사용하기 백링크.md",
     "백링크/기술 기록 - 프론트엔드/Zustand 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/React-Leaflet 백링크.md",
-    "백링크/기술 기록 - 프론트엔드/Recoil 백링크.md",
-    "Next.js/Next.js 학습코스/Next.js 14 학습코스 따라하기/12-2. Mutating Data (2).md",
     "회사 정보/IP설정.png",
     "AI 프롬프트",
     "회사 내 경험 모음/react 환경에서 preload 사용문제",
