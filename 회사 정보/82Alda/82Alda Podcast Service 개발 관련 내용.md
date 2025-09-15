@@ -4,7 +4,7 @@
 #### 홈페이지
 - 팟캐스트 GIT: [Alda_Podcast](http://dev.ijaksnc.co.kr/organizations/Alda_Podcast)
 - 팟캐스트 v0.dev: [Fork of Korean podcast page - Dev Final – v0 by Vercel](https://v0.dev/chat/fork-of-korean-podcast-page-dev-final-1p3twpdaDi8)
-- 오디오  개발: [82ALDA Podcast - 오디오 플레이어](http://52.79.86.180:3100/test/audio)
+- 오디오 개발: [82ALDA Podcast - 오디오 플레이어](http://52.79.86.180:3100/test/audio)
 
 #### Swagger
 - 팟캐스트 Service Swagger UI: [Swagger UI](http://192.168.1.13:7581/webjars/swagger-ui/index.html)
