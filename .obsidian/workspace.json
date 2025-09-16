@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tail",
+                "query": "쓰로",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,9 +184,10 @@
   },
   "active": "2720cfdf9cbc2d64",
   "lastOpenFiles": [
-    "Timestamps/2025-09-15.md",
+    "React/react-hook-form/1. React-hook-form 소개.md",
     "Timestamps/2025-09-16.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+    "Timestamps/2025-09-15.md",
     "Timestamps/2025-09-01.md",
     "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
     "Timestamps/2025-09-12.md",
@@ -217,7 +219,6 @@
     "Timestamps/2025-09-04.md",
     "Timestamps/2025-09-02.md",
     "Timestamps/2025-08-29.md",
-    "Timestamps/2025-08-28.md",
     "회사 정보/AI 링고",
     "회사 정보/IP설정.png",
     "AI 프롬프트",
