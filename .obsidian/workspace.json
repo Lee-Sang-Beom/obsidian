@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-09-16.md",
+                "file": "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-16"
+              "title": "(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환"
             }
           }
         ]
@@ -181,10 +181,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4787bc40dfa65b2",
+  "active": "2720cfdf9cbc2d64",
   "lastOpenFiles": [
-    "React/react-hook-form/1. React-hook-form 소개.md",
     "Timestamps/2025-09-16.md",
+    "React/react-hook-form/1. React-hook-form 소개.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "Timestamps/2025-09-15.md",
     "Timestamps/2025-09-01.md",
