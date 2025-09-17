@@ -34,5 +34,6 @@
 
 - 위치
 	- cd ./docker-work/alda_podcast_frontend_prod
+	- cd ./docker-work/alda_podcast_backend_prod/logs/client
 	- dockc down << 서버끔
 	- dockc up -d << 서버킴
