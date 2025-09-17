@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "68b6f08847b5e4e5",
+        "id": "d36202dd65dc374b",
         "type": "tabs",
         "children": [
           {
-            "id": "2720cfdf9cbc2d64",
+            "id": "abab1b36c4d2cabc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-09-17.md",
+                "file": "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-17"
+              "title": "82Alda Podcast Service 개발 관련 내용"
             }
           }
         ]
@@ -181,11 +181,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2720cfdf9cbc2d64",
+  "active": "abab1b36c4d2cabc",
   "lastOpenFiles": [
-    "Timestamps/2025-09-16.md",
-    "Timestamps/2025-09-17.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 디자인 패턴.md",
+    "jquery/1. jQuery 시작.md",
+    "jquery/2. 비교 - JavaScript JQuery.md",
+    "jquery/3. 래퍼(Wrapper).md",
+    "jquery/4. 선택자.md",
+    "jquery/5. chain.md",
+    "jquery/6. event.md",
+    "jquery/7. 엘리먼트 제어.md",
+    "jquery/8. Form.md",
+    "jquery/9. 탐색 (traversing).md",
+    "jquery/10. ajax.md",
+    "AI 프롬프트/(VELOG 기록) 정리내용 스타일 변경.md",
     "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
+    "Timestamps/2025-09-17.md",
+    "Timestamps/2025-09-16.md",
     "React/react-hook-form/1. React-hook-form 소개.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "Timestamps/2025-09-15.md",
@@ -197,10 +209,6 @@
     "Timestamps/2025-09-03.md",
     "회사 정보/82Alda/백업 - use-appstore-payment.ts.md",
     "회사 정보/82Alda/백업 - use-google-payment.ts.md",
-    "회사 정보/82Alda/백업 - use-membership-payment.ts.md",
-    "회사 정보/82Alda/구글 애널리틱스 내용 정리.md",
-    "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
-    "회사 정보/82Alda/앱스토어 지원 URL 구성 가이드.md",
     "맘스터치.jpg",
     "쿠팡이츠_소메뉴(기타문의) 1.jpg",
     "쿠팡이츠_소메뉴(기타문의).jpg",
@@ -210,14 +218,6 @@
     "스마터치_상세메뉴.jpg",
     "멕시카나.jpg",
     "맘스터치 1.jpg",
-    "Timestamps/2025-09-09.md",
-    "Timestamps/2025-09-08.md",
-    "회사 정보/테스트.md",
-    "backend/Linux/🐧🐳 Linux + Docker 통합 가이드.md",
-    "Timestamps/2025-09-05.md",
-    "Timestamps/2025-08-27.md",
-    "Timestamps/2025-09-04.md",
-    "Timestamps/2025-09-02.md",
     "회사 정보/AI 링고",
     "회사 정보/IP설정.png",
     "AI 프롬프트",
