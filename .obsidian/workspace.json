@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-09-25.md",
+                "file": "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-25"
+              "title": "(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환"
             }
           }
         ]
@@ -183,10 +183,14 @@
   },
   "active": "abab1b36c4d2cabc",
   "lastOpenFiles": [
-    "Timestamps/2025-09-24.md",
-    "Timestamps/2025-09-25.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
+    "Timestamps/2025-09-25.md",
+    "Timestamps/2025-09-26.md",
+    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
+    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 주간 메모장 기록 형태로 전환.md",
+    "AI 프롬프트/(VELOG 기록) 정리내용 스타일 변경.md",
+    "Timestamps/2025-09-24.md",
     "회사 정보/82Alda/백업 - use-appstore-payment.ts.md",
     "면접/보유 지식.md",
     "회사 내 경험 모음/프로젝트 경험 기록/회사 - 뎁스/CSS-IN-JS 사용해보기 (토이프로젝트)/1. CSS-IN-JS란.md",
@@ -200,15 +204,11 @@
     "회사 내 경험 모음/useInfiniteQuery/4. refetch와 캐시.md",
     "회사 내 경험 모음/useInfiniteQuery/3. 자동 새로고침과 Key 중복 에러.md",
     "회사 내 경험 모음/useInfiniteQuery/5. 재호출 시, API가 호출되는 횟수.md",
-    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
     "회사 정보/82Alda/백업 - use-google-payment.ts.md",
     "Timestamps/2025-09-17.md",
     "Timestamps/2025-09-22.md",
-    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 주간 메모장 기록 형태로 전환.md",
     "Timestamps/2025-09-19.md",
     "Timestamps/2025-09-16.md",
-    "Timestamps/2025-09-15.md",
-    "회사 정보/82Alda/백업 - use-membership-payment.ts.md",
     "맘스터치.jpg",
     "쿠팡이츠_소메뉴(기타문의) 1.jpg",
     "쿠팡이츠_소메뉴(기타문의).jpg",
