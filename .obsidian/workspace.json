@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-09-24.md",
+                "file": "Timestamps/2025-09-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-24"
+              "title": "2025-09-25"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "쓰로",
+                "query": "CSS-IN-JS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,10 +183,23 @@
   },
   "active": "abab1b36c4d2cabc",
   "lastOpenFiles": [
-    "Timestamps/2025-09-23.md",
-    "Timestamps/2025-09-24.md",
-    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+    "Timestamps/2025-09-25.md",
+    "회사 정보/82Alda/백업 - use-appstore-payment.ts.md",
+    "면접/보유 지식.md",
+    "회사 내 경험 모음/프로젝트 경험 기록/회사 - 뎁스/CSS-IN-JS 사용해보기 (토이프로젝트)/1. CSS-IN-JS란.md",
+    "Timestamps/2025-09-24.md",
+    "회사 내 경험 모음/react 환경에서 preload 사용문제/페이지 preload 구현방식 문제.md",
+    "회사 내 경험 모음/react 환경에서 preload 사용문제/문제 코드 (해결이전).md",
+    "회사 내 경험 모음/react 환경에서 preload 사용문제/문제 코드 (해결이후).md",
+    "Timestamps/2025-09-23.md",
+    "회사 내 경험 모음/useInfiniteQuery/2. useInfiniteQuery 사용.md",
+    "회사 내 경험 모음/useInfiniteQuery/1. useInfiniteQuery란.md",
+    "회사 내 경험 모음/useInfiniteQuery/3. useInfiniteQuery 사용(2).md",
+    "회사 내 경험 모음/useInfiniteQuery/4. refetch와 캐시.md",
+    "회사 내 경험 모음/useInfiniteQuery/3. 자동 새로고침과 Key 중복 에러.md",
+    "회사 내 경험 모음/useInfiniteQuery/5. 재호출 시, API가 호출되는 횟수.md",
+    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
     "회사 정보/82Alda/백업 - use-google-payment.ts.md",
     "Timestamps/2025-09-17.md",
     "Timestamps/2025-09-22.md",
@@ -195,20 +208,7 @@
     "Timestamps/2025-09-16.md",
     "Timestamps/2025-09-15.md",
     "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
-    "회사 정보/82Alda/백업 - use-appstore-payment.ts.md",
     "회사 정보/82Alda/백업 - use-membership-payment.ts.md",
-    "Timestamps/2025-09-10.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) 디자인 패턴.md",
-    "jquery/1. jQuery 시작.md",
-    "jquery/2. 비교 - JavaScript JQuery.md",
-    "jquery/3. 래퍼(Wrapper).md",
-    "jquery/4. 선택자.md",
-    "jquery/5. chain.md",
-    "jquery/6. event.md",
-    "jquery/7. 엘리먼트 제어.md",
-    "jquery/8. Form.md",
-    "jquery/9. 탐색 (traversing).md",
-    "jquery/10. ajax.md",
     "맘스터치.jpg",
     "쿠팡이츠_소메뉴(기타문의) 1.jpg",
     "쿠팡이츠_소메뉴(기타문의).jpg",
