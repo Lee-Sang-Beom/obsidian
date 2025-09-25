@@ -9,5 +9,6 @@
 - 팟캐스트 Real-Time Swagger UI (실시간): [Swagger UI](https://apidev.82alda.co.kr:4000/api-docs)
 
 #### 접속 및 빌드 정보
--  백엔드 주소: http://192.168.1.13:7591/
+- 백엔드 주소: http://192.168.1.13:7591/
+- 프론트 주소: [82Alda Podcast CMS](http://16.184.28.20:8282/login)
 
