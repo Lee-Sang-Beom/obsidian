@@ -11,4 +11,8 @@
 #### 접속 및 빌드 정보
 - 백엔드 주소: 
 - 프론트 주소: [82Alda Podcast CMS](http://16.184.28.20:8282/login)
-
+```plaintext
+	- 아이디: admin@admin.com
+	- 패스워드: Vnfcpdlsdkdlwkr**4492
+	    > (한글로 풀체인아이작**4492)
+```
