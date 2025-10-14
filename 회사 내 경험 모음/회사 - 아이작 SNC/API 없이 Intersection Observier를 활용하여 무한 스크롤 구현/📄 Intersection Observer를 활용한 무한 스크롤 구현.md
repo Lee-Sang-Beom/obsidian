@@ -3,7 +3,7 @@
 
 ## 🔁 사용된 기술 및 개념
 
-### 1. IntersectionObserver API
+#### 1. IntersectionObserver API
 - 브라우저 API로써, DOM 요소가 **뷰포트(Viewport)**에 들어오는지를 감지하는 기능 제공
 - 비효율적인 스크롤 이벤트 감지 방식(`scroll` 이벤트)보다 **성능면에서 우수**
 - 주요옵션
@@ -14,23 +14,23 @@ const observer = new IntersectionObserver(callback, options)
 observer.observe(targetElement)
 ```
 
-### 2. React의 useEffect Hook
+#### 2. React의 useEffect Hook
 - React 함수형 컴포넌트에서 side effect (예: DOM 조작, 구독 설정 등)을 수행하는 Hook
 - 의존성 배열 (`[hasMore, musicItems]`) 내 값이 변경될 때마다 실행됨
 - 반환 함수는 clean-up 용도 (옵저버 해제 등)
 
-### 3. Ref 객체(useRef)
+#### 3. Ref 객체(useRef)
 - `observerRef.current`를 통해 특정 DOM 요소에 접근 가능
 - 컴포넌트가 다시 렌더링되더라도 참조값 유지됨
 
-### 4. 무한 스크롤 
+#### 4. 무한 스크롤 
 - 사용자가 콘텐츠 하단에 도달하면 자동으로 다음 데이터를 로드하는 UX 패턴
 - 구현 방식 요약:
     1. 하단 요소가 화면에 보이면
     2. 다음 항목 N개(`ITEMS_PER_PAGE`)를 `musicItems`에서 잘라서 보여줌
     3. 더 이상 불러올 항목이 없으면(`hasMore === false`) 옵저버 해제
 
-### 5. 전체 코드
+#### 5. 전체 코드
 | 변수명            | 설명                            |
 |----------------|-------------------------------|
 | observerRef    | 하단 감시 요소에 대한 참조 객체            |
