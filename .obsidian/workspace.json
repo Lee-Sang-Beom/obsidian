@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CSS-IN-JS",
+                "query": "리플로우",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,10 +184,11 @@
   },
   "active": "d5b9c4757b626d62",
   "lastOpenFiles": [
-    "Timestamps/2025-10-21.md",
+    "React/Virtual DOM.md",
     "Timestamps/2025-10-22.md",
-    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+    "Timestamps/2025-10-21.md",
+    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
     "회사 정보/AI 링고/Kringo_Assiant.md",
     "Timestamps/2025-10-20.md",
     "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
@@ -212,7 +214,6 @@
     "회사 내 경험 모음/회사 - 뎁스/프로젝트 경험 기록/CKEditor/1. CustomCKEditor CSS 변경.md",
     "회사 내 경험 모음/회사 - 아이작 SNC/Sentry",
     "회사 내 경험 모음/회사 - 아이작 SNC/useInfiniteQuery/1. useInfiniteQuery란.md",
-    "회사 내 경험 모음/회사 - 아이작 SNC/react 환경에서 preload 사용문제/페이지 preload 구현방식 문제.md",
     "회사 내 경험 모음/회사 - 아이작 SNC/API 없이 Intersection Observier를 활용하여 무한 스크롤 구현",
     "회사 내 경험 모음/회사 - 아이작 SNC",
     "회사 내 경험 모음/회사 - 뎁스",
