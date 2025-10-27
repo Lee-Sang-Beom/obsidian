@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-10-24.md",
+                "file": "Timestamps/2025-10-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-24"
+              "title": "2025-10-27"
             }
           }
         ]
@@ -183,22 +183,23 @@
   },
   "active": "d5b9c4757b626d62",
   "lastOpenFiles": [
+    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
+    "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+    "Timestamps/2025-10-27.md",
+    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 주간 메모장 기록 형태로 전환.md",
+    "Timestamps/2025-10-24.md",
+    "Timestamps/2025-10-23.md",
+    "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
     "Timestamps/2025-10-20.md",
     "Timestamps/2025-10-21.md",
     "Timestamps/2025-10-22.md",
-    "Timestamps/2025-10-23.md",
-    "Timestamps/2025-10-24.md",
     "Timestamps/2025-10-13.md",
     "Timestamps/2025-10-14.md",
     "Timestamps/2025-10-15.md",
     "Timestamps/2025-10-16.md",
     "Timestamps/2025-10-17.md",
-    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
     "React/Virtual DOM.md",
-    "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "회사 정보/AI 링고/Kringo_Assiant.md",
-    "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
-    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 주간 메모장 기록 형태로 전환.md",
     "회사 내 경험 모음/회사 - 아이작 SNC/Sentry/(진행 필요) 참고 자료 및 목표.md",
     "Next.js/더 알아보기/next.config.js 파일 (작성필요).md",
     "Next.js/더 알아보기/(해야함) fetch의 option.cache 설명.md",
@@ -210,7 +211,6 @@
     "회사 내 경험 모음/회사 - 뎁스/코드하우스 강의/코드하우스 교육 공유자료 (NOTION).md",
     "사용 이미지/회사 내 경험 모음/회사 - 뎁스/코드하우스 강의/코드하우스 교육 공유 자료.png",
     "회사 내 경험 모음/회사 - 뎁스/프로젝트 경험 기록/CKEditor/3. 변경된 ckeditor5 플러그인 사용.md",
-    "회사 내 경험 모음/회사 - 뎁스/프로젝트 경험 기록/CKEditor/2. ckeditor5 커스터마이징.md",
     "사용 이미지/회사 내 경험 모음/회사 - 뎁스",
     "회사 내 경험 모음/회사 - 아이작 SNC/Sentry",
     "회사 내 경험 모음/회사 - 아이작 SNC/API 없이 Intersection Observier를 활용하여 무한 스크롤 구현",
