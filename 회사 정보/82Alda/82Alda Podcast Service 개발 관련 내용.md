@@ -37,3 +37,14 @@
 	- cd ./docker-work/alda_podcast_backend_prod/logs/client
 	- dockc down << 서버끔
 	- dockc up -d << 서버킴
+
+
+---
+#### 82ALDA 차후 요구사항
+- AI 시그널: 데이터 변경이 발생하면 실시간 데이터에 대해 애니메이션 추가 필요
+	- [TextAnimate · Cult UI](https://www.cult-ui.com/docs/components/text-animate)
+	- https://www.cult-ui.com/docs/components/animated-number
+	- 필요 시) 올라온지 1분도 안된 데이터에 대해 빨간색 테두리 추가
+
+- AI 시그널: 검색 기능 추가
+- AI 시그널, 팟캐스트의 리스트 데이터를 커서기반 페이지네이션으로 전환
