@@ -5,4 +5,4 @@
 
 이미지가 들어가는 부분은 복사 및 붙여넣기를 쉽게할수있도록 위치 placeholder를 남겨줘 
 
-제목은 Improving Accessibility야.
+제목은 ''야.
