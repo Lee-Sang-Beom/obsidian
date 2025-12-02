@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-12-01.md",
+                "file": "Timestamps/2025-12-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-01"
+              "title": "2025-12-02"
             }
           }
         ]
@@ -183,33 +183,34 @@
   },
   "active": "58fcf31ce41cac4c",
   "lastOpenFiles": [
-    "Timestamps/2025-11-28.md",
     "Timestamps/2025-12-01.md",
+    "Timestamps/2025-12-02.md",
+    "Timestamps/2025-11-28.md",
     "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
+    "Timestamps/2025-11-21.md",
+    "Timestamps/2025-11-19.md",
+    "회사 정보/브이비즈링/브이비즈링 개발 관련 내용.md",
+    "회사 정보/AI 링고/Kringo_Assiant CMS 개발 관련 내용.md",
+    "회사 정보/계정정보.md",
+    "회사 정보/브이비즈링",
     "AI 프롬프트/(업무보고) 마크다운 기록 형태를 주간 메모장 기록 형태로 전환.md",
     "Timestamps/2025-11-27.md",
     "Timestamps/2025-11-26.md",
     "Timestamps/2025-11-25.md",
     "Timestamps/2025-11-24.md",
     "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
-    "Timestamps/2025-11-19.md",
     "Timestamps/2025-11-18.md",
     "Timestamps/2025-11-12.md",
     "Timestamps/2025-11-13.md",
     "Timestamps/2025-11-14.md",
     "Timestamps/2025-11-20.md",
-    "Timestamps/2025-11-21.md",
     "Timestamps/2025-11-05.md",
     "Timestamps/2025-11-07.md",
     "Timestamps/2025-11-06.md",
     "Timestamps/2025-11-11.md",
-    "회사 정보/AI 링고/Kringo_Assiant CMS 개발 관련 내용.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
     "Timestamps/2025-11-17.md",
     "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP와 HTTPS.md",
-    "짧게 정리한 프론트엔드 지식/(완료) 깊은 복사와 얕은 복사.md",
-    "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP Method.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트의 구성.png",
     "회사 정보/IP설정.png",
     "사용 이미지/회사 내 경험 모음/회사 - 뎁스/코드하우스 강의",
@@ -227,7 +228,6 @@
     "쿠팡이츠_대메뉴.jpg",
     "스마터치_메뉴.jpg",
     "회사 정보/AI 링고",
-    "AI 프롬프트",
-    "회사 내 경험 모음/회사 - 아이작 SNC/react 환경에서 preload 사용문제"
+    "AI 프롬프트"
   ]
 }
