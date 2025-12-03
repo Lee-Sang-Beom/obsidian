@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "69802f5bb9ecb5ad",
+        "id": "f34fa8e1e61c55d3",
         "type": "tabs",
         "children": [
           {
-            "id": "58fcf31ce41cac4c",
+            "id": "187770a040f4af81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2025-12-02.md",
+                "file": "짧게 정리한 프론트엔드 지식/(내용보완예정) HTTP Method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-02"
+              "title": "(내용보완예정) HTTP Method"
             }
           }
         ]
@@ -181,36 +181,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58fcf31ce41cac4c",
+  "active": "187770a040f4af81",
   "lastOpenFiles": [
-    "Timestamps/2025-12-01.md",
+    "짧게 정리한 프론트엔드 지식/(내용보완예정) 웹 표준.md",
+    "짧게 정리한 프론트엔드 지식/(완료) HTTP와 HTTPS.md",
+    "짧게 정리한 프론트엔드 지식/자바스크립트의 배열 (velog 업로드 완료).md",
+    "짧게 정리한 프론트엔드 지식/(완료) 깊은 복사와 얕은 복사.md",
+    "Timestamps/2025-12-03.md",
     "Timestamps/2025-12-02.md",
     "Timestamps/2025-11-28.md",
-    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
-    "Timestamps/2025-11-21.md",
-    "Timestamps/2025-11-19.md",
-    "회사 정보/브이비즈링/브이비즈링 개발 관련 내용.md",
-    "회사 정보/AI 링고/Kringo_Assiant CMS 개발 관련 내용.md",
-    "회사 정보/계정정보.md",
-    "회사 정보/브이비즈링",
-    "AI 프롬프트/(업무보고) 마크다운 기록 형태를 주간 메모장 기록 형태로 전환.md",
-    "Timestamps/2025-11-27.md",
-    "Timestamps/2025-11-26.md",
-    "Timestamps/2025-11-25.md",
-    "Timestamps/2025-11-24.md",
-    "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "Timestamps/2025-11-18.md",
-    "Timestamps/2025-11-12.md",
-    "Timestamps/2025-11-13.md",
-    "Timestamps/2025-11-14.md",
-    "Timestamps/2025-11-20.md",
-    "Timestamps/2025-11-05.md",
-    "Timestamps/2025-11-07.md",
+    "Timestamps/2025-11-19.md",
     "Timestamps/2025-11-06.md",
+    "Timestamps/2025-11-13.md",
+    "Timestamps/2025-11-05.md",
+    "Timestamps/2025-11-12.md",
+    "Timestamps/2025-11-04.md",
     "Timestamps/2025-11-11.md",
+    "Timestamps/2025-11-25.md",
+    "Timestamps/2025-11-26.md",
+    "Timestamps/2025-11-20.md",
+    "Timestamps/2025-11-27.md",
+    "Timestamps/2025-11-21.md",
+    "Timestamps/2025-11-14.md",
+    "Timestamps/2025-11-07.md",
+    "Timestamps/2025-10-30.md",
+    "Timestamps/2025-10-29.md",
+    "Timestamps/2025-10-15.md",
+    "Timestamps/2025-10-23.md",
+    "회사 정보/브이비즈링",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
-    "Timestamps/2025-11-17.md",
-    "회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
     "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트의 구성.png",
     "회사 정보/IP설정.png",
     "사용 이미지/회사 내 경험 모음/회사 - 뎁스/코드하우스 강의",
