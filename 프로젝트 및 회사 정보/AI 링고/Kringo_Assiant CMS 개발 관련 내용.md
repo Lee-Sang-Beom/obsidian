@@ -1,8 +1,4 @@
 
-#### 온에어
-- https://onair.ringo.co.kr/
-- 아이디: ijakcsdev
-- 비밀번호: dkdlwkr!!2580
 
 #### 홈페이지
 - 팟캐스트 GIT: [kringo_assistant_frontend - 홈](http://dev.ijaksnc.co.kr/AI_Kringo_Assistant/kringo_assistant_frontend)
