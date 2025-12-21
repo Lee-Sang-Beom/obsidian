@@ -15,3 +15,9 @@
 "loginId": "test",
 "password": "test1234"
 ```
+
+- 명령어
+```
+cd ./docker-work/kringo-assistant-frendend-dev
+./deploy.sh
+```
