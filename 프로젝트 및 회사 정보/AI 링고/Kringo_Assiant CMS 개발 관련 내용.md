@@ -32,4 +32,7 @@ ijakadmin / Dlwjsxn9
 상담원
 ijakcs001 / self1511
 ijakcs002 / self1511
+
+개발자
+ijakcsdev / self1511
 ```
