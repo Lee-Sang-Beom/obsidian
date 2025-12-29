@@ -8,7 +8,8 @@
 
 #### 접속 및 빌드 정보
 - jenkins 주소: http://192.168.1.225:9800/ (계정정보: admin, dkdlwkr)
-- 개발환경 홈페이지: [AI링고 운영솔루션 CMS](http://192.168.1.225:9812/assistant)
+- 개발환경 홈페이지: [AI링고 운영솔루션 CMS](http://192.168.1.225:9812/assistant/login)
+
 - 상용환경 홈페이지: https://m5.ringo.co.kr
 - 로그인
 ```
@@ -20,4 +21,15 @@
 ```
 cd ./docker-work/kringo-assistant-frendend-dev
 ./deploy.sh
+```
+
+
+#### AI Assistance
+```
+관리자
+ijakadmin / Dlwjsxn9
+
+상담원
+ijakcs001 / self1511
+ijakcs002 / self1511
 ```
