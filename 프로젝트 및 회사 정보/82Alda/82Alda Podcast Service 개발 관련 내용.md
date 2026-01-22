@@ -11,7 +11,7 @@
 - 팟캐스트 Real-Time Swagger UI (실시간): [Swagger UI](https://apidev.82alda.co.kr:4000/api-docs)
 
 #### 접속 및 빌드 정보
-- jenkins 주소: [Dashboard [Jenkins]](http://192.168.1.11:7500/) (계정정보: admin, dkdlwkr)
+- jenkins 주소: http://192.168.1.11:7500/ (계정정보: admin, dkdlwkr)
 - 개발환경 홈페이지: http://192.168.1.13:7580/
 - 상용환경 홈페이지: https://podcast.82alda.co.kr/
 - 로그인: basic@email.com, free@email.com, premium@email.com
