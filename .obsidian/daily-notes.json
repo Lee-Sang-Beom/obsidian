@@ -1,6 +1,5 @@
 {
   "format": "YYYY-MM-DD",
   "template": "Template/Daily Note",
-  "folder": "Timestamps",
-  "autorun": true
+  "folder": "Timestamps"
 }
