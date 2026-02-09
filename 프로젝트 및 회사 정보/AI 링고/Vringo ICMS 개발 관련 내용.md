@@ -1,6 +1,6 @@
 
 #### 1. Git Repository
-- CMS GIT: [Vringo_CMS_RC_Frontend - 홈](http://dev.ijaksnc.co.kr/Vringo/Vringo_CMS_RC_Frontend)
+- ICMS GIT: [Vringo_ICMS_RC_Frontend - 홈](http://dev.ijaksnc.co.kr/Vringo/Vringo_ICMS_RC_Frontend)
 - Document GIT: [Vringo_DOCS - 홈](http://dev.ijaksnc.co.kr/Vringo/Vringo_DOCS)
 
 #### 2. jenkins 주소 및 계정 정보
