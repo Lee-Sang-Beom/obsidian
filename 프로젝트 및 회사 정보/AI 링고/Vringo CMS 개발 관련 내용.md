@@ -1,6 +1,7 @@
 
 #### 1. Git Repository
-- GIT: [kringo_assistant_frontend - 홈](http://dev.ijaksnc.co.kr/AI_Kringo_Assistant/kringo_assistant_frontend)
+- GIT: [[kringo_assistant_frontend - 홈](http://dev.ijaksnc.co.kr/AI_Kringo_Assistant/kringo_assistant_frontend)](
+http://dev.ijaksnc.co.kr/Vringo/Vringo_CMS_RC_Frontend)
 
 #### 2. Swagger-UI
 - Swagger-UI : http://192.168.1.225:9811/swagger-ui/index.html
@@ -40,4 +41,3 @@ ijakcsdev / self1511
 cd ./docker-work/kringo-assistant-frendend-dev
 ./deploy.sh
 ```
-

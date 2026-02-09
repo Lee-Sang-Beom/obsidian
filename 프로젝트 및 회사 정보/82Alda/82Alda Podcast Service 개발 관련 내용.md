@@ -1,49 +1,54 @@
 
-![[IP설정.png]]
+#### 1. Git Repository
+- GIT: http://dev.ijaksnc.co.kr/Alda_Podcast/alda_podcast_frontend/code/develop
 
-#### 홈페이지
-- 팟캐스트 GIT: [Alda_Podcast](http://dev.ijaksnc.co.kr/organizations/Alda_Podcast)
-- 팟캐스트 v0.dev: [Fork of Korean podcast page - Dev Final – v0 by Vercel](https://v0.dev/chat/fork-of-korean-podcast-page-dev-final-1p3twpdaDi8)
-- 오디오 개발: [82ALDA Podcast - 오디오 플레이어](http://52.79.86.180:3100/test/audio)
-
-#### Swagger
+#### 2. Swagger-UI
 - 팟캐스트 Service Swagger UI: [Swagger UI](http://192.168.1.13:7581/webjars/swagger-ui/index.html)
-- 팟캐스트 Real-Time Swagger UI (실시간): [Swagger UI](https://apidev.82alda.co.kr:4000/api-docs)
+- 팟캐스트 실시간 정보 Swagger UI : [Swagger UI](https://apidev.82alda.co.kr:4000/api-docs)
 
-#### 접속 및 빌드 정보
-- jenkins 주소: http://192.168.1.11:7500/ (계정정보: admin, dkdlwkr)
+#### 3. jenkins 주소 및 계정 정보
+- jenkins 주소: [http://192.168.1.225:9800/ ](http://192.168.1.11:7500/)
+```
+[id / password]
+admin / dkdlwkr
+```
+
+#### 4. 개발 및 상용 환경주소 정보
 - 개발환경 홈페이지: http://192.168.1.13:7580/
 - 상용환경 홈페이지: https://podcast.82alda.co.kr/
-- 로그인: basic@email.com, free@email.com, premium@email.com
+```
+[id / password]
+free@email.com / dkdlwkr
+basic@email.com / dkdlwkr
+premium@email.com / dkdlwkr
+```
 
-#### mobaxterm (82alda podcast service 개발 환경)
+#### 5. 개발환경 MobaXTerm Docker 재배포 명령어
 - 세션접속: 192.168.1.13
 	- 사용자명: ijak
 	- 포트 22 그대로
 	- 비밀번호: dkdlwkr
-- 위치
-	- cd /ijak_home/docker-work/alda_podcast_frontend_dev/
-	- dockc down << 서버끔
-	- dockc up -d << 서버킴
 
-#### mobaxterm (82alda podcast service 상용 환경)
+- 명령어
+```
+cd /ijak_home/docker-work/alda_podcast_frontend_dev/
+dockc down << 서버끔
+dockc up -d << 서버킴
+```
+
+#### 6. 상용환경 MobaXTerm Docker 재배포 명령어
 - 세션접속: 43.201.23.183
 	- 사용자명: ubuntu
 	- 포트 22 그대로
 	-  SSH -> Advanced SSH Settings -> Use private key가 C드라이브에 alda-podcast-ijak.pem
 
-- 위치
-	- cd ./docker-work/alda_podcast_frontend_prod
-	- cd ./docker-work/alda_podcast_backend_prod/logs/client
-	- dockc down << 서버끔
-	- dockc up -d << 서버킴
+- 명령어
+```
+cd ./docker-work/alda_podcast_frontend_prod
+dockc down << 서버끔
+dockc up -d << 서버킴
+```
 
+#### 7. 내 인터넷 프로토콜 버전 설정
 
----
-#### 82ALDA 차후 요구사항
-
-- [ ] AI 시그널: 실시간 데이터 조회 시, 아래 API를 통해 실시간 데이터를 조회하는 부분을 배열로받아서 처리할수있도록 변경 
-	- https://apidev.82alda.co.kr:4000/api-docs : 종목 가격 및 지수정보 배열 조회 추가
-	- code 쉼표단위로 보내서 조회
-
-- [ ] AI 시그널: 검색 기능 추가
+![[IP설정.png]]
