@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2026-02-12.md",
+                "file": "프로젝트 및 회사 정보/SoloFilp 사용자 체크리스트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-12"
+              "title": "SoloFilp 사용자 체크리스트"
             }
           }
         ]
@@ -183,7 +183,13 @@
   },
   "active": "52c74b72aa792887",
   "lastOpenFiles": [
+    "Pasted image 20260213134814.png",
+    "Pasted image 20260213134542.png",
+    "Timestamps/2026-02-13.md",
+    "프로젝트 및 회사 정보/SoloFilp 사용자 체크리스트.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo ICMS(통계) 개발 관련 내용.md",
+    "프로젝트 및 회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
+    "프로젝트 및 회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "Timestamps/2026-02-12.md",
     "Timestamps/2026-02-09.md",
     "Timestamps/2026-02-10.md",
@@ -194,8 +200,6 @@
     "프로젝트 및 회사 정보/AI 링고/Vringo",
     "프로젝트 및 회사 정보/AI 링고/Untitled.md",
     "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant",
-    "프로젝트 및 회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
-    "프로젝트 및 회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "AI 프롬프트/(리팩토링) 코드 리팩토링.md",
     "AI 프롬프트/(업무보고) 마크다운 기록 형태를 메모장 기록 형태로 전환.md",
     "AI 프롬프트/(업무보고) 마크다운 기록 형태를 주간 메모장 기록 형태로 전환.md",
@@ -209,9 +213,6 @@
     "Timestamps/2026-01-28.md",
     "Timestamps/2026-01-29.md",
     "Timestamps/2026-01-30.md",
-    "Timestamps/2026-01-27.md",
-    "Timestamps/2026-01-26.md",
-    "Timestamps/2025-11-27.md",
     "Pasted image 20251219105906.png",
     "프로젝트 및 회사 정보/Untitled",
     "프로젝트 및 회사 정보/브이비즈링",
@@ -227,7 +228,6 @@
     "맘스터치.jpg",
     "쿠팡이츠_소메뉴(기타문의) 1.jpg",
     "쿠팡이츠_소메뉴(기타문의).jpg",
-    "쿠팡이츠_중메뉴.jpg",
-    "쿠팡이츠_대메뉴.jpg"
+    "쿠팡이츠_중메뉴.jpg"
   ]
 }
