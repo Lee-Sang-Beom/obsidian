@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "212fc01954101246",
+    "type": "split",
+    "children": [
+      {
+        "id": "5928d4898907a461",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52c74b72aa792887",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Timestamps/2026-03-04.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-03-04"
+            }
+          },
+          {
+            "id": "1f5e44533dffe95c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Timestamps/2026-03-04.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-03-04"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed72261c168e7180",
+    "type": "split",
+    "children": [
+      {
+        "id": "74b31e9053de0242",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4787bc40dfa65b2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "4942d6903cabde5c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "mino",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3b681b6595741538",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 357.5
+  },
+  "right": {
+    "id": "b2237208a48cb195",
+    "type": "split",
+    "children": [
+      {
+        "id": "454f33bcd1f425ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dd3a19dcbca6813",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Timestamps/2025-06-02.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-06-02"
+            }
+          },
+          {
+            "id": "8cb7ad186d084387",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 82Alda Podcast Service 개발 관련 내용"
+            }
+          },
+          {
+            "id": "bab402ea9c0acf44",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cbe2a35300fffbe5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Timestamps/2025-06-02.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-06-02"
+            }
+          },
+          {
+            "id": "ee5a948e8721fc20",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 374.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "1f5e44533dffe95c",
+  "lastOpenFiles": [
+    "Timestamps/2026-03-05.md",
+    "Timestamps/2026-03-04.md",
+    "Timestamps/2026-03-03.md",
+    "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kringo_Assistant 개발 관련 내용.md",
+    "프로젝트 및 회사 정보/SoloFilp/🧪 SoloFilp 사용자 체크리스트.md",
+    "프로젝트 및 회사 정보/SoloFilp/SoloFlip — 사용자 관점 기능 명세서.md",
+    "프로젝트 및 회사 정보/SoloFilp/환경설정 파일.md",
+    "프로젝트 및 회사 정보/SoloFilp/🧪 SoloFilp Admin Console QA 체크리스트.md",
+    "Timestamps/2026-02-27.md",
+    "Timestamps/2026-02-26.md",
+    "Timestamps/2026-02-28.md",
+    "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo ICMS(통계) 개발 관련 내용.md",
+    "Timestamps/2026-02-24.md",
+    "Timestamps/2026-02-23.md",
+    "프로젝트 및 회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
+    "프로젝트 및 회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
+    "프로젝트 및 회사 정보/AI 링고/Vringo/Vringo ICMS(제작) 개발 관련 내용.md",
+    "Timestamps/2026-02-20.md",
+    "Timestamps/2026-02-19.md",
+    "Timestamps/2026-02-13.md",
+    "Timestamps/2026-02-12.md",
+    "Timestamps/2026-02-05.md",
+    "Timestamps/2026-02-10.md",
+    "프로젝트 및 회사 정보/계정정보.md",
+    "프로젝트 및 회사 정보/홈페이지.md",
+    "프로젝트 및 회사 정보/IP설정.png",
+    "프로젝트 및 회사 정보/브이비즈링/브이비즈링 개발 관련 내용.md",
+    "프로젝트 및 회사 정보/SoloFilp",
+    "Pasted image 20260213151357.png",
+    "Pasted image 20260213163504.png",
+    "Pasted image 20260213151343.png",
+    "Pasted image 20260213134542.png",
+    "Pasted image 20260213151315.png",
+    "Pasted image 20260213151301.png",
+    "Pasted image 20260213134814.png",
+    "프로젝트 및 회사 정보/AI 링고/Vringo",
+    "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant",
+    "Pasted image 20251219105906.png",
+    "프로젝트 및 회사 정보/브이비즈링",
+    "사용 이미지/짧게 정리한 프론트엔드 지식/실행 컨텍스트/실행 컨텍스트와 콜 스택.png",
+    "사용 이미지/회사 내 경험 모음/회사 - 뎁스/코드하우스 강의",
+    "사용 이미지/회사 내 경험 모음/회사 - 뎁스",
+    "회사 내 경험 모음/회사 - 아이작 SNC/Sentry",
+    "회사 내 경험 모음/회사 - 아이작 SNC/API 없이 Intersection Observier를 활용하여 무한 스크롤 구현",
+    "회사 내 경험 모음/회사 - 아이작 SNC",
+    "회사 내 경험 모음/회사 - 뎁스"
+  ]
+}
