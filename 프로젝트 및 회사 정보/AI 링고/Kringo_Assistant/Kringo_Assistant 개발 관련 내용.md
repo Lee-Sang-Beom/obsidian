@@ -34,9 +34,14 @@ ijakcs002 / self1511
 ijakcsdev / self1511
 ```
 #### 5. MobaXTerm Docker 재배포 명령어
+- 세션접속: 192.168.1.225
+	- 사용자명: ijak
+	- 포트 22 그대로
 
 - 명령어
 ```
+> 192.168.1.225
+
 cd ./docker-work/kringo-assistant-frendend-dev
 ./deploy.sh
 ```

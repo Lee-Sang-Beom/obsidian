@@ -31,6 +31,8 @@ premium@email.com / dkdlwkr
 
 - 명령어
 ```
+> 192.168.1.13
+
 cd /ijak_home/docker-work/alda_podcast_frontend_dev/
 dockc down << 서버끔
 dockc up -d << 서버킴
@@ -40,10 +42,12 @@ dockc up -d << 서버킴
 - 세션접속: 43.201.23.183
 	- 사용자명: ubuntu
 	- 포트 22 그대로
-	-  SSH -> Advanced SSH Settings -> Use private key가 C드라이브에 alda-podcast-ijak.pem
+	-  SSH -> Advanced SSH Settings -> Use private key가 C드라이브에 alda-podcast-ijak.pem로 존재
 
 - 명령어
 ```
+> 43.201.23.183
+
 cd ./docker-work/alda_podcast_frontend_prod
 dockc down << 서버끔
 dockc up -d << 서버킴
