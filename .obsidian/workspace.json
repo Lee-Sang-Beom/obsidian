@@ -20,13 +20,7 @@
               "icon": "lucide-file",
               "title": "Kringo_Assistant 개발 관련 내용"
             }
-          }
-        ]
-      },
-      {
-        "id": "b0353abcc68ac963",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "849260e2574bf77f",
             "type": "leaf",
@@ -41,7 +35,8 @@
               "title": "2026-03-06"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 459.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,27 +198,27 @@
   },
   "active": "849260e2574bf77f",
   "lastOpenFiles": [
-    "Timestamps/2026-03-03.md",
-    "Timestamps/2026-03-06.md",
-    "Timestamps/2026-03-04.md",
+    "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo Vue 코드를 React코드로 생성하도록 하는 프롬프트.md",
+    "프로젝트 및 회사 정보/AI 링고/Vringo/Vringo ICMS(제작) 개발 관련 내용.md",
+    "Timestamps/2026-02-26.md",
+    "Timestamps/2026-02-27.md",
     "Timestamps/2026-03-05.md",
+    "Timestamps/2026-03-06.md",
+    "Timestamps/2026-03-03.md",
+    "Timestamps/2026-03-04.md",
     "프로젝트 및 회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kringo_Assistant 개발 관련 내용.md",
     "프로젝트 및 회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
     "프로젝트 및 회사 정보/계정정보.md",
     "프로젝트 및 회사 정보/SoloFilp/SoloFlip Admin — 사용자 관점 기능 명세서.md",
     "프로젝트 및 회사 정보/SoloFilp/SoloFlip — 사용자 관점 기능 명세서.md",
-    "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo Vue 코드를 React코드로 생성하도록 하는 프롬프트.md",
     "프로젝트 및 회사 정보/SoloFilp/🧪 SoloFilp Admin Console QA 체크리스트.md",
     "프로젝트 및 회사 정보/SoloFilp/🧪 SoloFilp 사용자 체크리스트.md",
     "프로젝트 및 회사 정보/SoloFilp/환경설정 파일.md",
-    "Timestamps/2026-02-27.md",
-    "Timestamps/2026-02-26.md",
     "Timestamps/2026-02-28.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo ICMS(통계) 개발 관련 내용.md",
     "Timestamps/2026-02-24.md",
     "Timestamps/2026-02-23.md",
-    "프로젝트 및 회사 정보/AI 링고/Vringo/Vringo ICMS(제작) 개발 관련 내용.md",
     "Timestamps/2026-02-20.md",
     "Timestamps/2026-02-19.md",
     "Timestamps/2026-02-13.md",
