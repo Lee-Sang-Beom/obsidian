@@ -1,10 +1,10 @@
 
-이 문서는 React 환경에서 `IntersectionObserver` API를 사용하여 **무한 스크롤(Infinite Scroll)**을 구현한 코드에 사용된 주요 개념을 정리한 것입니다.
+이 문서는 React 환경에서 `IntersectionObserver` API를 사용하여 **무한 스크롤(Infinite Scroll)** 을 구현한 코드에 사용된 주요 개념을 정리한 것입니다.
 
 ## 🔁 사용된 기술 및 개념
 
 #### 1. IntersectionObserver API
-- 브라우저 API로써, DOM 요소가 **뷰포트(Viewport)**에 들어오는지를 감지하는 기능 제공
+- 브라우저 API로써, DOM 요소가 **뷰포트(Viewport)** 에 들어오는지를 감지하는 기능 제공
 - 비효율적인 스크롤 이벤트 감지 방식(`scroll` 이벤트)보다 **성능면에서 우수**
 - 주요옵션
 	- `callback`: 요소가 뷰포트에 들어왔을 때 실행할 함수
