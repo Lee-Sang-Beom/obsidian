@@ -1,434 +1,436 @@
 ```
 다음의 Vue 코드가 있어.
-이는 src/pages/stats/video-create/stats-video-page.tsx와 연결되어있어. 아래 vue코드를 react코드로 구현하는 것이 목표야.
+이는 src/pages/site-mgmt/rendering-server/rendering-server-page.tsx와 연결되어있어. 
+아래 vue코드 내용이 react코드로 정상이식되었는지 확인하는 것이 목표야.
 
-> StatsVideoView
+> SitesRenderServerStatusView.vue
 <template>
-  <AdminBasicCard :title="title">
-    <b-form id="search-form" @submit.prevent="search">
-      <b-form-row class="mb-3">
-        <b-col cols="12" xl="1" class="align-self-center">
-          <label :class="{ 'mb-0': $screen.xl }" for="date-picker">기간</label>
-        </b-col>
-        <b-col cols="12" xl="11">
-          <MonthlyDatePicker id="date-picker" v-model="searchData.seDate" is-past-now-only />
-        </b-col>
-      </b-form-row>
-      <b-form-row>
-        <b-col cols="12" xl="1" class="align-self-center">
-          <label :class="{ 'mb-0': $screen.xl }" for="category-select">카테고리</label>
-        </b-col>
-        <b-col cols="12" xl="8">
-          <b-form-radio-group
-            v-model="searchData.cateType"
-            name="tab"
-            buttons
-            button-variant="outline-primary-light"
-            class="w-100"
-            :class="{ 'mb-3': !$screen.xl }"
-          >
-            <b-form-radio :value="CATEGORY_VALUE_TYPE.MAIN">대분류</b-form-radio>
-            <b-form-radio :value="CATEGORY_VALUE_TYPE.SUB">중분류</b-form-radio>
-            <b-form-radio :value="CATEGORY_VALUE_TYPE.DETAIL">소분류</b-form-radio>
-          </b-form-radio-group>
-        </b-col>
-        <b-col cols="12" xl="3" class="align-self-end">
-          <b-button
-            id="searchButton"
-            block
-            type="submit"
-            variant="primary"
-            class="btn-wth-icon icon-left"
-            :disabled="isLoading"
-          >
-            <span class="icon-label">
-              <b-icon-search />
-            </span>
-            <span class="btn-text"> 검색 </span>
-          </b-button>
-        </b-col>
-      </b-form-row>
-    </b-form>
-
-    <template #append>
-      <b-card-group deck class="mt-4">
-        <StatsVideoChartItem
-          id="stat-video-main"
-          title="메인"
-          :items="chart.mainItems"
-          :is-loading="isLoading"
-          show-total-value
-        />
-        <StatsVideoChartItem
-          id="stat-video-intro"
-          title="인트로"
-          :items="chart.introItems"
-          :is-loading="isLoading"
-          show-total-value
-        />
-      </b-card-group>
+  <b-container fluid class="px-0" title="">
+    <b-row>
+      <b-col>
+        <h2 class="h4">렌더링 서버 현황</h2>
+        <p>마지막 업데이트 시간: {{ updatedAtString }}</p>
+      </b-col>
+      <b-col cols="2" lg="1" class="text-right">
+        <b-button variant="dark" @click="reload">
+          <b-icon-arrow-clockwise />
+        </b-button>
+      </b-col>
+    </b-row>
+    <template v-if="isLoadFailed">
+      <b-overlay :show="isLoading">
+        <ChartNoDataComp text="정보를 불러오지 못했습니다." @retry="reload" />
+      </b-overlay>
     </template>
-  </AdminBasicCard>
+    <template v-else>
+      <b-row class="my-4">
+        <b-col v-for="server in serverList" :key="`server-${server.id}`" cols="12" lg="6" :data-addr="server.ipaddr">
+          <ServerStatusInfo :server="server" @toggle="onToggleServerState" />
+        </b-col>
+      </b-row>
+      <h2 class="h4">렌더링 큐 현황</h2>
+      <b-card class="my-4 shadow-sm" body-class="p-0">
+        <ServerRenderQueueTable :items="renderQueue" />
+      </b-card>
+    </template>
+  </b-container>
 </template>
 
 <script>
-import { BIconSearch } from 'bootstrap-vue'
+import { BIconArrowClockwise } from 'bootstrap-vue'
 import dayjs from 'dayjs'
 
 import apiWithAuth from '@/api/modules/authorized'
-import { CATEGORY_VALUE_TYPE } from '@/consts/category'
 
 import CommonPanel from '@/mixins/CommonPanel'
-import ShowToastMixin from '@/mixins/ShowToast'
 
-import MonthlyDatePicker from '@/components/common/search/MonthlyDatePicker.vue'
-import AdminBasicCard from '@/components/layouts/AdminBasicCard.vue'
-import StatsVideoChartItem from '@/components/stats/StatsVideoChartItem.vue'
+import ChartNoDataComp from '@/components/common/ChartNoDataComp.vue'
+import ServerRenderQueueTable from '@/components/sites/render-server/ServerRenderQueueTable.vue'
+import ServerStatusInfo from '@/components/sites/render-server/ServerStatusInfo.vue'
 
 export default {
   components: {
-    AdminBasicCard,
-    MonthlyDatePicker,
-    BIconSearch,
-    StatsVideoChartItem,
+    ChartNoDataComp,
+    BIconArrowClockwise,
+    ServerStatusInfo,
+    ServerRenderQueueTable,
   },
-  mixins: [CommonPanel, ShowToastMixin],
+  mixins: [CommonPanel],
   beforeRouteEnter(to, from, next) {
-    next(vm => vm.search())
+    next(vm => vm.loadData())
+  },
+  props: {
+    title: {
+      type: String,
+      default: '',
+    },
   },
   data: () => ({
+    //  로딩 boolean
     isLoading: false,
-    searchData: {
-      seDate: dayjs().startOf('day').toDate(),
-      cateType: CATEGORY_VALUE_TYPE.MAIN,
-    },
-    chart: {
-      mainItems: [],
-      introItems: [],
-    },
+
+    //  재실행 id
+    timeoutId: null,
+
+    //  서버 정보 array
+    serverList: [],
+
+    //  렌더링 큐 목록
+    renderQueue: [],
+
+    //  업데이트된 시간
+    updatedAt: null,
   }),
   computed: {
-    CATEGORY_VALUE_TYPE: () => CATEGORY_VALUE_TYPE,
+    updatedAtString: ({ updatedAt }) => (updatedAt ? dayjs(updatedAt).format('YYYY.MM.DD HH:mm:ss') : '-'),
+    isLoadFailed: ({ serverList }) => serverList.length === 0,
+  },
+  destroyed() {
+    this.clear()
   },
   methods: {
-    //  검색
-    async search() {
+    /** API에서 정보 요청후 반영 */
+    async loadData() {
       this.isLoading = true
 
-      //  검색값
-      const { seDate, cateType } = this.searchData
+      await this.loadServerStatus()
 
-      const { data } = await apiWithAuth
-        .get(`/v-statistics/contents-statistics`, {
-          params: {
-            cateType,
-            seDate: dayjs(seDate).format('YYYY-MM'),
-          },
-        })
-        .catch(() => {
-          this.showToast('서버에서 데이터를 받아오지 못했습니다. 다시 시도해주십시오.', { single: true })
-          return {}
-        })
+      //  다음 API 요청 시도
+      this.updatedAt = new Date()
+      this.timeoutId = window.setTimeout(this.loadData, 60 * 1000)
 
       this.isLoading = false
+    },
 
-      if (!data) return
+    /** API 요청 정기실행 중지 */
+    clear() {
+      window.clearTimeout(this.timeoutId)
+      this.timeoutId = null
+    },
 
-      this.chart.mainItems = data.mainItems
-      this.chart.introItems = data.introItems
+    /** 서버 현황 정보 요청 */
+    async loadServerStatus() {
+      //  API 정보 요청
+      const { data } = await apiWithAuth.get('/v-rserver/monitor').catch(() => ({}))
+
+      //  내부 데이터 반영 및 갱신
+      this.serverList = data?.items ?? []
+      this.renderQueue = data?.renderItems ?? []
+    },
+
+    /** 재로딩 시도시 기존 정기실행 중지후 새로 로딩 */
+    reload() {
+      this.clear()
+      this.loadData()
+    },
+
+    /** 서버 상태 토글 */
+    async onToggleServerState({ id, type, value }) {
+      await apiWithAuth
+        .post('/v-rserver/modify-monitor', { id, activeType: type, activeValue: value })
+        .catch(async () => {})
+
+      this.reload()
     },
   },
 }
 </script>
 
 
-> category.js
-//  카테고리 타입
-export const CATEGORY_TYPE = Object.freeze({
-  MAIN: 'main',
-  SUB: 'sub',
-  DETAIL: 'detail',
-})
-
-export const CATEGORY_VALUE_TYPE = Object.freeze({
-  MAIN: 1,
-  SUB: 2,
-  DETAIL: 3,
-})
-
-//  카테고리 소분류 빈도별 구분 타입
-export const CATEGORY_PRIORITY_TYPE = Object.freeze({
-  ALL: 0,
-  NORMAL: 1,
-  HIGH: 2,
-  HIGHEST: 3,
-})
-
-export const ETC_CATEGORY_SEQ = 10800000
-
-
-
-> StatsVideoChartItem
+> ServerStatusInfo
 <template>
-  <b-card class="shadow-sm" no-body>
-    <b-card-header class="pt-4 d-flex">
-      <h5>
-        <span class="mr-3">{{ title }}</span>
-        <b-badge v-if="showTotalValue" variant="dark" class="badge-sm">{{ totalValues }}건</b-badge>
-      </h5>
+  <b-card no-body class="shadow-sm">
+    <b-card-header
+      class="pt-4 pb-4 border-bottom"
+      :class="{
+        'bg-gradient-success': !!server.active,
+        'bg-gradient-warning': !server.active,
+      }"
+    >
+      <div class="d-flex justify-content-between align-items-center">
+        <h3 class="h5 mb-0 text-white">{{ server.id }}번 서버</h3>
+        <AdminStatusBadgeComp :status="!!server.active" is-on-bg>
+          {{ server.active | serverState }}
+        </AdminStatusBadgeComp>
+      </div>
     </b-card-header>
-    <b-card-body>
-      <b-overlay :show="isLoading || items.length <= 0" bg-color="white" opacity="1" z-index="5">
-        <BarChart
-          :id="`${id}-chart`"
-          :chart-data="chartData"
-          :options="options"
-          :styles="styles"
-          is-axis-label-on-top
-          :is-data-label="isDataLabel"
-        />
-        <template #overlay>
-          <LoadingComp v-if="isLoading" shadow />
-          <ChartNoDataComp v-else @retry="$emit('retry')" />
-        </template>
-      </b-overlay>
+    <b-card-body class="p-0 pb-2">
+      <b-table-simple responsive>
+        <b-thead>
+          <b-tr>
+            <b-th></b-th>
+            <b-th class="text-center">실행상태</b-th>
+            <b-th class="text-center">실행중인 작업수</b-th>
+            <b-th class="text-center">기능 ON/OFF</b-th>
+          </b-tr>
+        </b-thead>
+        <b-tbody>
+          <b-tr>
+            <b-th>자동 렌더링</b-th>
+            <b-td class="text-center">
+              <AdminStatusBadgeComp :status="!!server.activeAuto">
+                {{ server.activeAuto | serverState }}
+              </AdminStatusBadgeComp>
+            </b-td>
+            <b-td class="text-center">{{ server.renderAutoCount }}</b-td>
+            <b-td class="text-center">
+              <b-button-group size="sm" class="btn-group-rounded">
+                <b-button
+                  variant="success"
+                  class="px-3"
+                  @click="onToggleButtonClick(SERVER_ACTIVE_TYPE.AUTO, SERVER_ACTIVE_VALUE.ACTIVE)"
+                >
+                  ON
+                </b-button>
+                <b-button
+                  variant="danger"
+                  class="pl-2 pr-3"
+                  @click="onToggleButtonClick(SERVER_ACTIVE_TYPE.AUTO, SERVER_ACTIVE_VALUE.DEACTIVE)"
+                >
+                  OFF
+                </b-button>
+              </b-button-group>
+            </b-td>
+          </b-tr>
+          <b-tr>
+            <b-th>사용자 렌더링</b-th>
+            <b-td class="text-center">
+              <AdminStatusBadgeComp :status="!!server.activeUser">
+                {{ server.activeUser | serverState }}
+              </AdminStatusBadgeComp>
+            </b-td>
+            <b-td class="text-center">{{ server.renderUserCount }}</b-td>
+            <b-td class="text-center">
+              <b-button-group size="sm" class="btn-group-rounded">
+                <b-button
+                  variant="success"
+                  class="px-3"
+                  @click="onToggleButtonClick(SERVER_ACTIVE_TYPE.USER, SERVER_ACTIVE_VALUE.ACTIVE)"
+                >
+                  ON
+                </b-button>
+                <b-button
+                  variant="danger"
+                  class="pl-2 pr-3"
+                  @click="onToggleButtonClick(SERVER_ACTIVE_TYPE.USER, SERVER_ACTIVE_VALUE.DEACTIVE)"
+                >
+                  OFF
+                </b-button>
+              </b-button-group>
+            </b-td>
+          </b-tr>
+        </b-tbody>
+      </b-table-simple>
     </b-card-body>
   </b-card>
 </template>
 
 <script>
-import { Tableau10 } from 'chartjs-plugin-colorschemes/src/colorschemes/colorschemes.tableau'
+import { SERVER_ACTIVE_TYPE, SERVER_ACTIVE_VALUE } from '@/consts/sites'
 
-import ChartNoDataComp from '@/components/common/ChartNoDataComp.vue'
-import BarChart from '@/components/common/charts/BarChart.vue'
-import LoadingComp from '@/components/common/LoadingComp.vue'
+import AdminStatusBadgeComp from '@/components/common/AdminStatusBadgeComp.vue'
 
-import { id as customAxisTitle } from '@/plugins/chartjs/chartjs-custom-axis-title'
-
-/** 차트내 data-label의 포지션을 해당 값에 따라 다르게 표시하기 위한 함수 */
-const setDataLabelsOption = (ctx, lowVal, highVal) => {
-  const value = ctx.dataset.data[ctx.dataIndex]
-  const isTooLow = Math.max(...ctx.dataset.data) * 0.15 >= value
-  return isTooLow ? lowVal : highVal
-}
+import { Dialog } from '@/utils/SweetAlertUtil'
 
 export default {
   components: {
-    BarChart,
-    LoadingComp,
-    ChartNoDataComp,
+    AdminStatusBadgeComp,
+  },
+  filters: {
+    serverState(val) {
+      return val ? '실행중' : '정지'
+    },
+    serverActiveType(val) {
+      switch (val) {
+        case SERVER_ACTIVE_TYPE.AUTO:
+          return '자동 렌더링'
+        case SERVER_ACTIVE_TYPE.USER:
+          return '사용자 렌더링'
+        default:
+          return val
+      }
+    },
+    serverActiveValue(val) {
+      switch (val) {
+        case SERVER_ACTIVE_VALUE.ACTIVE:
+          return '활성'
+        case SERVER_ACTIVE_VALUE.DEACTIVE:
+          return '비활성'
+        default:
+          return val
+      }
+    },
   },
   props: {
-    id: {
-      type: String,
-      default: '',
-    },
-    title: {
-      type: String,
-      default: '',
-    },
-    items: {
-      type: Array,
+    server: {
+      type: Object,
       required: true,
     },
-    isLoading: {
-      type: Boolean,
-      default: false,
-    },
-    isDataLabel: {
-      type: Boolean,
-      default: false,
-    },
-    showTotalValue: {
-      type: Boolean,
-      default: false,
-    },
   },
-  data: () => ({
-    options: {
-      indexAxis: 'y',
-      scales: {
-        x: {
-          stacked: true,
-          min: 0,
-          beginAtZero: true,
-          ticks: {
-            precision: 0,
-          },
-        },
-        y: {
-          stacked: true,
-          gridLines: {
-            display: false,
-          },
-        },
-      },
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { position: 'top' },
-        tooltip: {
-          mode: 'nearest',
-          intersect: true,
-        },
-        [customAxisTitle]: {
-          y: {
-            display: true,
-            text: '업종',
-          },
-        },
-        datalabels: {
-          anchor: 'end',
-          align: ctx => setDataLabelsOption(ctx, 'right', 'left'),
-          color: ctx => setDataLabelsOption(ctx, '#000', '#fff'),
-          clamp: true,
-          formatter: value => `${value}건`,
-        },
-      },
-    },
-  }),
   computed: {
-    //  datasets 매핑처리를 위해 computed 처리
-    chartData() {
-      const items = this.items
-      return {
-        labels: items.map(it => it.values.map(it => it.cateName))?.[0],
-        datasets: items.map((it, idx) => ({
-          label: it.tcTemplateStyleName,
-          data: it.values.map(obj => obj.count),
-          backgroundColor: items.length > 1 ? Tableau10[idx] : Tableau10,
-          barPercentage: 0.5,
-          categoryPercentage: 1,
-        })),
-      }
-    },
+    SERVER_ACTIVE_TYPE: () => SERVER_ACTIVE_TYPE,
+    SERVER_ACTIVE_VALUE: () => SERVER_ACTIVE_VALUE,
+  },
+  methods: {
+    async onToggleButtonClick(type, value) {
+      const filters = this.$options.filters
 
-    //  items 전체 갯수
-    totalValues: vm => vm.items.reduce((total, curr) => total + curr.values.reduce((tt, cur) => tt + cur.count, 0), 0),
+      const dialogResult = await Dialog.fire({
+        //  prettier-ignore
+        text: `${this.server.id}번 서버의 ${filters.serverActiveType(type)} 기능을 ${filters.serverActiveValue(value)}하시겠습니까?`,
+        showCancelButton: true,
+      })
 
-    styles() {
-      const length = this.items?.[0]?.values?.length ?? 0
-      const height = Math.max(length * 32, 450)
-      return {
-        position: 'relative',
-        height: `${height}px`,
-        backgroundColor: '#fff',
-      }
+      if (!dialogResult?.isConfirmed) return
+
+      this.$emit('toggle', {
+        id: this.server.id,
+        type,
+        value,
+      })
     },
   },
 }
 </script>
 
 
-> BarChart
+> ServerRenderQueueTable
 <template>
-  <BarChartJs :chart-id="id" :chart-data="chartData" :chart-options="options" :styles="styles" />
+  <b-table
+    responsive=""
+    show-empty
+    striped
+    no-local-sorting
+    table-class="text-center"
+    thead-class="thead-light"
+    :fields="fields"
+    :items="items"
+    :current-page="1"
+    :tbody-tr-class="getRowClass"
+  >
+    <template #empty>
+      <TableNotRowComp text="진행중인 렌더링 작업이 없습니다." hide-button />
+    </template>
+
+    <template #cell(progress)="{ value, item }">
+      <p class="mb-1">
+        <b-progress
+          :value="value"
+          min="0"
+          max="100"
+          class="progress-bar-rounded progress-bar-sm"
+          :variant="isOverRunning(item) ? 'danger' : 'primary'"
+          :striped="isOverRunning(item)"
+        />
+      </p>
+      <p>
+        {{ value }}%
+        <b-badge v-if="isOverRunning(item)" variant="danger" pill class="ml-2">정체중</b-badge>
+      </p>
+    </template>
+
+    <template #cell(renderServer)="{ value }"> {{ value }}번 서버 </template>
+
+    <template #cell(renderType)="{ value }">
+      {{ value | renderType }}
+    </template>
+
+    <template #cell(createdAt)="{ value }">
+      {{ value | dayjs('YYYY-MM-DD HH:mm:ss') }}
+    </template>
+
+    <template #cell(startedAt)="{ value }">
+      {{ value | dayjs('YYYY-MM-DD HH:mm:ss') }}
+    </template>
+  </b-table>
 </template>
 
 <script>
-//  prettier-ignore
-import { BarElement, CategoryScale, Chart as ChartJS, Legend, LinearScale,PointElement, Title, Tooltip,  } from 'chart.js'
-import ChartJsPluginDataLabels from 'chartjs-plugin-datalabels'
-import { Bar } from 'vue-chartjs/legacy'
+import dayjs from 'dayjs'
 
-import canvasBackground from '@/plugins/chartjs/chartjs-canvas-background'
-import customAxisTitle from '@/plugins/chartjs/chartjs-custom-axis-title'
+import { SERVER_ACTIVE_TYPE } from '@/consts/sites'
 
-import '@/plugins/chart.js'
-
-ChartJS.register(Title, Tooltip, Legend, BarElement, PointElement, CategoryScale, LinearScale)
+import TableNotRowComp from '@/components/common/table/TableNotRowComp.vue'
 
 export default {
-  components: { BarChartJs: Bar },
-  props: {
-    id: {
-      type: String,
-      required: true,
-    },
-    chartData: {
-      type: Object,
-      required: true,
-    },
-    options: {
-      type: Object,
-      required: true,
-    },
-    styles: {
-      type: Object,
-      default: () => ({}),
-    },
-    isDataLabel: {
-      type: Boolean,
-      default: false,
-    },
-    isAxisLabelOnTop: {
-      type: Boolean,
-      default: false,
+  filters: {
+    renderType(val) {
+      switch (val) {
+        case SERVER_ACTIVE_TYPE.AUTO:
+        case SERVER_ACTIVE_TYPE.AUTO_NUM:
+          return '자동 렌더링'
+        case SERVER_ACTIVE_TYPE.USER:
+        case SERVER_ACTIVE_TYPE.USER_NUM:
+          return '사용자 렌더링'
+        default:
+          return val
+      }
     },
   },
-  mounted() {
-    //  각 데이터 point에 라벨 추가 (옵션)
-    if (this.isDataLabel) {
-      ChartJS.register(ChartJsPluginDataLabels)
-    } else {
-      ChartJS.unregister(ChartJsPluginDataLabels)
-    }
+  components: { TableNotRowComp },
+  props: {
+    items: {
+      type: Array,
+      default: () => [],
+    },
+  },
+  data: () => ({
+    fields: [
+      { key: 'contentsId', label: 'ID', isRowHeader: true, thStyle: { width: '5%' } },
+      { key: 'templateName', label: '템플릿명' },
+      { key: 'progress', label: '진행도', thStyle: { width: '25%' } },
+      { key: 'renderServer', label: '담당 서버', thStyle: { width: '10%' } },
+      { key: 'renderType', label: '타입', thStyle: { width: '15%' } },
+      { key: 'createdAt', label: '등록 시간', thStyle: { width: '10%' } },
+      { key: 'startedAt', label: '시작 시간', thStyle: { width: '10%' } },
+    ],
+  }),
+  methods: {
+    isOverRunning: ({ startedAt }) => dayjs(startedAt).isBefore(dayjs().subtract(10, 'minutes')),
 
-    //  x/y축 라벨을 축끝에 표시
-    if (this.isAxisLabelOnTop) {
-      ChartJS.register(customAxisTitle)
-    } else {
-      ChartJS.unregister(customAxisTitle)
-    }
+    getRowClass(item, type) {
+      if (!item || type !== 'row') return
+      if (!item.startedAt) return
 
-    //  캔버스 배경색 설정
-    ChartJS.register(canvasBackground(this.styles?.backgroundColor))
+      if (this.isOverRunning(item)) {
+        return this.$style.overRanQueue
+      }
+    },
   },
 }
 </script>
 
+<style lang="scss" module>
+.overRanQueue {
+  color: $danger;
+  background-color: lighten($danger, 36%) !important;
+  th {
+    color: $danger;
+  }
+}
+</style>
+
+> sites.js
+//  렌더링 서버 기능활성화토글 타입
+export const SERVER_ACTIVE_TYPE = Object.freeze({
+  AUTO: 'auto',
+  AUTO_NUM: 1,
+  USER: 'user',
+  USER_NUM: 2,
+})
+export const SERVER_ACTIVE_VALUE = Object.freeze({
+  ACTIVE: 1,
+  DEACTIVE: 0,
+})
 
 
 
 ===============================================
 
-[구현 시 주의사항]
+[확인사항]
 
-1. 타입 및 api 호출을 위한 파일은 아래에 생성되어있어. 이건 다른 페이지도 동일한 구조니까 참고 꼭 해.
-- src/features/stats/stats-video-model.ts: 프론트엔드 내부에서만 사용하는 타입
-   > 이미 구현되어 있음
-   > src/features/stats/video-create 경로에서 사용하는 데이터와 구조가 동일함
-   > vue코드와 타입이름은 달라도 내용은 구현되어있어
-
-- src/service/dto/stats-video-dto.ts: service 파일에서 백엔드 통신과만 직접적으로 사용하는 타입
-   > 이미 구현됨
-   > vue코드와 타입이름은 달라도 내용은 구현되어있어
-
-- src/types/stats-common.ts: 위 2개타입파일에서 공통적으로 참조해야하는 요소가 위치한 곳 
-- src/service/stats-service.ts: 백엔드 통신을 위한 코드  
-- src/features/stats/video/hooks/queries/use-stats-video-query-actions.ts
-   > 백엔드 통신을 위해 구현된 서비스파일을 호출하는 훅
-   > 이미 구현되어 있으므로 데이터 조회 시 이걸 참고하면 됨
-   
-- src/features/stats/stats-video-constants.ts: stats/video와 stats/video-create 경로에서 함께 사용하는 상수값
-- src/features/stats/stats-video-handlers.ts: 해당 페이지에서만 사용하는 유틸성격 함수
-
-  
-  
-2. 구현 시 참고할만한 것  
-- 현재 개발해야 하는경로는 src/pages/stats/video/stats-video-page.tsx야.
-- 이미 비슷하게 구현된 코드가 있어. (src/pages/stats/video-create/stats-video-create-page.tsx)
-   > 구현 시, 해당 코드파일을 꼭 참고하여 개발할 것
-   > 검색구현부터 화면 표시까지 거의 유사해.
-   > 해당 페이지에서 api를 통해 response로 받은 데이터와 구현해야 할 페이지에서 response로 받는 데이터의 구조는 동일해
- 
-- useCategory가 필요하다면, 이미 있는 파일(src/lib/category-parser.ts)이 있어.
-- category.js 관련내용이 필요하다면, src/data/category-constants.ts를 확인해
-- loadingcomp 관련내용이 필요하다면 src/components/loader 하위에 정의된 컴포넌트를 확인해
-- 차트는 현재 shadcn-ui의 chart 컴포넌트(src/components/ui/chart)를 사용하면 돼.
-   > 이것도 마찬가지로 src/pages/stats/video-create/stats-video-create-page.tsx와 연결된 코드가 있어.
-   > src/features/stats/video-create/components/stats-video-create-chart-body.tsx를 참고하면 될거야.
-
-- vue의 AdminBasicCard는 구현할 필요는 없음 (이미 다른 react코드는 없음.)
+1. 마지막 업데이트 시간 표시 로직이 네트워크에서 오는 게 맞는가? 아니라면 정상적으로 표시되게 변경해야 함
+2. 타이머 로직이 맞는가? 
+3. 한 파일에 코드가 너무 긴 경우 분리할수있는가? (ex. 페이지파일)
 ```
 
