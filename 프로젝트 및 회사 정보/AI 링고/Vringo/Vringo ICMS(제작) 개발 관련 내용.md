@@ -9,3 +9,20 @@
 [id / password]
 admin / dkdlwkr
 ```
+
+#### 3. Swagger-UI
+- Swagger-UI: 
+
+#### 4. 상용환경 접속 정보
+- 주소: [http://222.111.207.110:5013/](http://222.111.207.110:5013/)
+```
+[id / password]
+[admin@admin.com](mailto:admin@admin.com) / 아이작12!@
+```
+
+#### 5. 개발환경 접속 정보
+```
+[id / password]
+
+```
+
