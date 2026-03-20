@@ -1,3 +1,4 @@
+**URL**: https://home-ascrow.vercel.app
 > 테스트일: 2026.03.20
 
 ```
@@ -24,7 +25,14 @@
 ```plaintext
 An error occurred in the Server Components render. The specific message is omitted in production builds to avoid leaking sensitive details. A digest property is included on this error instance which may provide additional details about the nature of the error.
 ```
-  
+
+**[B-02] 계약서 입력 정보 누락현상**
+- 위치: 거래 채팅방
+- 증상
+	- 임대인 특이사항 입력에서, 애완동물 키움여부(있음) ,거주자 수(1명), 결혼예정(예정) 입력을 진행했음
+	- 위 입력사항이 진행되었음에도 계약서 미리보기에서 해당내용이 '특이사항 확인' 란에서 '답변 대기중'으로만 기록됨
+
+
 ---
 
   
@@ -56,3 +64,9 @@ An error occurred in the Server Components render. The specific message is omitt
 	- 계좌 등록 시, 노란 경고 문구(AUTH REQUIRED)가 표시되어 사용자에게 혼란을 줌.
 	- 해당 문구 표시를 변경할 방법이 현재 화면에서 제시되지 않음
 	- 계좌 카드의 인증 상태를 정확히 반영하여 불필요한 경고 문구를 제거하거나, 미인증 항목을 명확히 안내하는 문구로 교체 고려
+
+**[I-06] 거래채팅방 채팅창 하위 내용 텍스트 잘림 현상**
+- 위치: 거래채팅방
+- 내용
+	- 상대방이 접속하지않았을 때 발생하는 '상대방이 접속하지 않았습니다' 알림박스가 채팅창의 하위부분을 가리는 문제
+	- 
