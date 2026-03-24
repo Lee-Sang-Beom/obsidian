@@ -11,7 +11,7 @@ admin / dkdlwkr
 ```
 
 #### 3. Swagger-UI
-- Swagger-UI: 
+- Swagger-UI: [Swagger UI](http://192.168.1.90:9000/webjars/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config)
 
 #### 4. 상용환경 접속 정보
 - 주소: [http://222.111.207.110:5013/](http://222.111.207.110:5013/)
@@ -21,6 +21,8 @@ admin / dkdlwkr
 ```
 
 #### 5. 개발환경 접속 정보
+- http://192.168.1.90:9000
+
 ```
 [id / password]
 
