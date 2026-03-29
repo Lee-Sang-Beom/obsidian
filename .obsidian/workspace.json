@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2026-03-26.md",
+                "file": "프로젝트 및 회사 정보/딸깍/딸깍 테스트 리포트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-26"
+              "title": "딸깍 테스트 리포트"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 및 회사 정보/딸깍/딸깍 테스트 리포트.md",
+                "file": "Timestamps/2026-03-30.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "딸깍 테스트 리포트"
+              "title": "2026-03-30"
             }
           }
         ],
@@ -198,20 +198,22 @@
   },
   "active": "72ba32a876bbce32",
   "lastOpenFiles": [
+    "Timestamps/2026-03-27.md",
+    "Timestamps/2026-03-30.md",
+    "프로젝트 및 회사 정보/딸깍/딸깍 테스트 리포트.md",
+    "텍스트 인코딩 문제.png",
+    "다운로드 실패라고 뜨지만, 다운로드는 됨.png",
+    "프로젝트 및 회사 정보/딸깍/버그 리포트.md",
+    "Timestamps/2026-03-26.md",
+    "쇼호스트 영상 다운로드 불가.png",
     "무한 미디어 로딩.png",
     "스크립트 편집 - 영상 생성 방식.png",
-    "다운로드 실패라고 뜨지만, 다운로드는 됨.png",
-    "텍스트 인코딩 문제.png",
     "회원가입 안내 텍스트 변경 필요.png",
     "프로젝트 및 회사 정보/Home Escrow/H-Escrow 테스트 리포트 2.md",
-    "프로젝트 및 회사 정보/딸깍/딸깍 테스트 리포트.md",
-    "프로젝트 및 회사 정보/딸깍/버그 리포트.md",
-    "Timestamps/2026-03-27.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/Vringo ICMS(통계) 개발 관련 내용.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/★★ 차후 해야할 일.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo Vue 코드를 React코드로 생성하도록 하는 프롬프트.md",
     "Timestamps/2026-03-24.md",
-    "Timestamps/2026-03-26.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo ICMS(제작) 개발 관련 내용.md",
     "AI 프롬프트/일일 업무보고 작성형태.md",
     "Timestamps/2026-03-23.md",
@@ -221,8 +223,6 @@
     "Pasted image 20260320155105.png",
     "Pasted image 20260320154901.png",
     "Pasted image 20260320154719.png",
-    "Pasted image 20260320154655.png",
-    "Pasted image 20260320154425.png",
     "프로젝트 및 회사 정보/Home Escrow/H-Escrow 테스트 리포트.md",
     "Timestamps/2026-03-19.md",
     "AI 프롬프트/(리팩토링) 코드 리팩토링.md",
