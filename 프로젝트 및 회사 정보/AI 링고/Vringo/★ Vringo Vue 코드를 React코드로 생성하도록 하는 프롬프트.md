@@ -25,16 +25,16 @@
 
 - 3단계
 ```  
-좋아.위 vue코드는 이제 src/pages/resource-management/resource/upload-image/resource-upload-image-page.tsx와 연결해야해.
+좋아.위 vue코드는 이제 src/pages/video/upload-template/video-upload-template-page.tsx와 연결해야해.
 구현 전, 아래의 [구현 시 파일 규칙]와 [유의사항] 들을 살펴봐줘.  
   
 ===============================================  
 
 [구현 시 참고할 react 코드]
-- src/features/resource-management/resource/list/modals/edit/resource-edit-modal.tsx
-- 위 경로는 다른페이지의 콘텐츠 정보 수정에 대한 다이얼로그 UI야. 코드를 보면 현재 구현해야할 페이지의 UI와 아주비슷한 걸 확인할 수 있을거야.
-- 해당 컴포넌트에서 사용하는 select나 input, checkbox같은 부분은 src/features/resource-management/_shared/components에 모여있어. 구현 시 해당 resource-edit-modal파일을 먼저 확인하고 필요한 코드를 작성하는 방향을 필수적으로 생각해줘
-
+- src/pages/resource-management/resource/upload-image/resource-upload-image-page.tsx
+ > 위 경로는 현재구현해야 하는 것처럼 파일을 업로드하는 페이지야.
+ > 파일 업로드 시 src/components/assets/file-upload-dropzone.tsx를 사용할 수 있으면 사용해줘. 
+ 
 ===============================================  
 
 [유의사항]  
@@ -44,80 +44,19 @@
  > src/constants/domain/resource.ts: 리소스 상수모음 (ORIGINAL_RESOURCE_SE_CON같은게있음)
  > src/constants/domain/state.ts: 상태 상수모음
 
-- resource.ts내에서 사용되는 RESOURCE_SOURCE_SITE는 제거되었어. 
- > 이는 src/hooks/queries/use-common-query-actions.ts의 useSrcFromListQuery를 사용하여 데이터를 조회하는 로직을 사용해야 해. 아래처럼 응답이 날아와.
-{
-    "items": [
-        {
-            "srcFromCode": 1,
-            "srcFromDes": "아이클릭아트(유료)-1"
-        },
-        {
-            "srcFromCode": 2,
-            "srcFromDes": "게티이미지코리아(유료)-2"
-        },
-        {
-            "srcFromCode": 3,
-            "srcFromDes": "AI 변환 이미지 (무료)-3"
-        },
-        {
-            "srcFromCode": 50,
-            "srcFromDes": "Pexels(무료)-50"
-        },
-        {
-            "srcFromCode": 51,
-            "srcFromDes": "Pixabay(무료)-51"
-        },
-        {
-            "srcFromCode": 52,
-            "srcFromDes": "Vecteezy(무료)-52"
-        },
-        {
-            "srcFromCode": 53,
-            "srcFromDes": "Stocksnap(무료)-53"
-        },
-        {
-            "srcFromCode": 54,
-            "srcFromDes": "flickr(무료)-54"
-        },
-        {
-            "srcFromCode": 55,
-            "srcFromDes": "무료(무료)-55"
-        },
-        {
-            "srcFromCode": 56,
-            "srcFromDes": "AI 생성 이미지(무료)-56"
-        },
-        {
-            "srcFromCode": 57,
-            "srcFromDes": "무료(무료)-57"
-        },
-        {
-            "srcFromCode": 58,
-            "srcFromDes": "무료(무료)-58"
-        },
-        {
-            "srcFromCode": 59,
-            "srcFromDes": "고객 이미지(무료)-59"
-        }
-    ]
-}
+- 파일 업로드 시 src/components/assets/file-upload-dropzone.tsx를 사용할 수 있으면 사용해줘. 파일등록은 여러개되면 안돼
+- 등록 후, 페이지가 리다이엑트 되어야한다면 /video/template로 이동해줘 (만약 vue코드에서 리다이엑트기능이없으면 구현하면 안돼.)
 
 ===============================================  
 
 [구현 시 파일 규칙]  
 - src/lib/category-parser.ts: vue의 categoryParser코드
-- src/components/ui/media-lightbox.tsx: vue의 mediaLightbox 컴포넌트
-- src/features/resource-management/resource/upload-image/components: 해당 페이지 내에서 사용할 컴포넌트가 정의될 디렉터리 
-- src/features/resource-management/resource/upload-image/hooks/mutations/use-resource-upload-image-mutation-actions.ts: (구현완료) 해당 페이지 내에서 이미지 등록을 위해 사용할 POST 요청 훅
-- src/features/resource-management/resource/upload-image/resource-upload-image-constants.ts: 페이지 내에서 사용하기 위한 상수  
-- src/features/resource-management/resource/upload-image/resource-upload-image-form-schema.ts: 페이지 내에서 사용하기 위한 폼 스키마  
-- src/features/resource-management/resource/upload-image/resource-upload-image-handlers.ts: 페이지 내에서 비즈니스로직을 구현하기 위해 정의되는함수가 모일파일  
-- src/features/resource-management/resource/upload-image/resource-upload-image-model.ts: (구현완료) 페이지 내에서 비즈니스로직을 구현하기 위해 정의된 타입 (클린아키텍처 준수)    
-- src/service/dto/resource-management/resource/resource-list-dto.ts: (구현완료) 서비스 파일과 가까이 있으면서, 서비스파일에서 호출되는 타입(클린아키텍처 준수)  
-- src/types/resource-management/resource/resource-list-types.ts: (구현완료) resource-list-model과 resource-list-dto에서 공통으로 사용하는 타입 (클린아키텍처 준수)  
-
-
-- src/lib/http/api-client.ts: API 요청 시 공통으로 탈 로직. POST할때참고
-- src/components/ui/file-upload-dropzone.tsx: 파일업로드 로직사용 시 참고
+- src/features/video/upload-template/components: 해당 페이지 내에서 사용할 컴포넌트가 정의될 디렉터리 
+- src/features/video/upload-template/hooks/mutations/use-video-upload-template-mutation-actions.ts: (구현완료) 해당 페이지 내에서 파일 등록을 위해 사용할 POST 요청 훅
+- src/features/video/upload-template/upload-template-constants.ts: 페이지 내에서 사용하기 위한 상수  
+- src/features/video/upload-template/upload-template-handlers.ts: 페이지 내에서 비즈니스로직을 구현하기 위해 정의되는함수가 모일파일  
+- src/features/video/upload-template/upload-template-model.ts: (구현완료) 페이지 내에서 비즈니스로직을 구현하기 위해 정의된 타입 (클린아키텍처 준수)    
+- src/service/dto/video/upload-template-dto.ts: (구현완료) 서비스 파일과 가까이 있으면서, 서비스파일에서 호출되는 타입(클린아키텍처 준수)  
+- src/types/video/upload-template-types.ts: (구현완료) -model과 -dto에서 공통으로 사용하는 타입 (클린아키텍처 준수)  
+  
 ```;
