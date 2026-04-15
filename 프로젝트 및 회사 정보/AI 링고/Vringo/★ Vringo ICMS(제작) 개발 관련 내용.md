@@ -22,11 +22,11 @@ admin / dkdlwkr
 [admin@admin.com](mailto:admin@admin.com) / 아이작12!@
 ```
 
-#### 5. 개발환경 접속 정보
-- http://192.168.1.90:9000
-
+#### 5. 개발환경 접속 및 부팅 정보
+- 원격 데스크톱 연결
+	- 192.168.1.90:3389
 ```
 [id / password]
-
+admin/dkdlwkr
 ```
 

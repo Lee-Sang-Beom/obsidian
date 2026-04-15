@@ -4,6 +4,7 @@
 
 #### 2. Swagger-UI
 - 팟캐스트 Service Swagger UI: [Swagger UI](http://192.168.1.13:7581/webjars/swagger-ui/index.html)
+- (임시) 로컬 스웨거 [Swagger UI](http://192.168.1.76:8204/swagger-ui/index.html)
 - 팟캐스트 실시간 정보 Swagger UI : [Swagger UI](https://apidev.82alda.co.kr:4000/api-docs)
 
 #### 3. jenkins 주소 및 계정 정보
