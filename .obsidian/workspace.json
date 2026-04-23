@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 프롬프트/일일 업무보고 작성형태.md",
+                "file": "프로젝트 및 회사 정보/유통과정자동화에이전트/OpenAnt 프론트엔드 개발 범위 및 검토사항.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "일일 업무보고 작성형태"
+              "title": "OpenAnt 프론트엔드 개발 범위 및 검토사항"
             }
           }
         ]
@@ -183,13 +183,19 @@
   },
   "active": "532cf3a4ebe79cd5",
   "lastOpenFiles": [
+    "프로젝트 및 회사 정보/유통과정자동화에이전트/질문.md",
+    "프로젝트 및 회사 정보/유통과정자동화에이전트/OpenAnt 프론트엔드 개발 범위 및 검토사항.md",
+    "Timestamps/2026-04-23.md",
+    "Timestamps/2026-04-21.md",
+    "AI 프롬프트/(리팩토링) 코드 리팩토링.md",
+    "AI 프롬프트/일일 업무보고 작성형태.md",
+    "프로젝트 및 회사 정보/AI 링고/Vringo/Vringo ICMS(통계) 개발 관련 내용.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo Vue 코드를 React코드로 생성하도록 하는 프롬프트.md",
     "Timestamps/2026-04-20.md",
-    "Timestamps/2026-04-21.md",
-    "AI 프롬프트/일일 업무보고 작성형태.md",
-    "AI 프롬프트/(리팩토링) 코드 리팩토링.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo ICMS(제작) 개발 관련 내용.md",
-    "프로젝트 및 회사 정보/AI 링고/Vringo/Vringo ICMS(통계) 개발 관련 내용.md",
+    "프로젝트 및 회사 정보/계정정보.md",
+    "프로젝트 및 회사 정보/홈페이지.md",
+    "프로젝트 및 회사 정보/유통과정자동화에이전트",
     "프로젝트 및 회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "프로젝트 및 회사 정보/82Alda/82Alda Podcast Service v2 정보.md",
     "Timestamps/2026-04-13.md",
@@ -204,12 +210,7 @@
     "프로젝트 및 회사 정보/82Alda/82Alda Podcast CMS 개발 관련 내용.md",
     "Timestamps/2026-04-09.md",
     "Timestamps/2026-04-02.md",
-    "Timestamps/2026-04-03.md",
     "프로젝트 및 회사 정보/IP설정.png",
-    "프로젝트 및 회사 정보/AI 링고/Vringo/★★ 차후 해야할 일.md",
-    "프로젝트 및 회사 정보/AI 링고/Vringo/개발서버 부팅.md",
-    "Timestamps/2026-03-30.md",
-    "Timestamps/2026-03-23.md",
     "텍스트 인코딩 문제.png",
     "다운로드 실패라고 뜨지만, 다운로드는 됨.png",
     "쇼호스트 영상 다운로드 불가.png",
@@ -227,7 +228,6 @@
     "프로젝트 및 회사 정보/브이비즈링",
     "사용 이미지/회사 내 경험 모음/회사 - 뎁스/코드하우스 강의",
     "사용 이미지/회사 내 경험 모음/회사 - 뎁스",
-    "회사 내 경험 모음/회사 - 아이작 SNC/Sentry",
-    "회사 내 경험 모음/회사 - 아이작 SNC/API 없이 Intersection Observier를 활용하여 무한 스크롤 구현"
+    "회사 내 경험 모음/회사 - 아이작 SNC/Sentry"
   ]
 }
