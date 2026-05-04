@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2026-04-30.md",
+                "file": "Timestamps/2026-05-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-30"
+              "title": "2026-05-04"
             }
           }
         ]
@@ -183,15 +183,20 @@
   },
   "active": "532cf3a4ebe79cd5",
   "lastOpenFiles": [
-    "Timestamps/2026-04-29.md",
     "Timestamps/2026-04-30.md",
-    "Timestamps/2026-04-28.md",
-    "AI 프롬프트/일일 업무보고 작성형태.md",
-    "AI 프롬프트/(리팩토링) 코드 리팩토링.md",
-    "프로젝트 및 회사 정보/유통과정자동화에이전트/프론트엔드 개발 블로킹 이슈.md",
-    "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo Vue 코드를 React코드로 생성하도록 하는 프롬프트.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/Vringo ICMS(통계) 개발 관련 내용.md",
+    "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo Vue 코드를 React코드로 생성하도록 하는 프롬프트.md",
+    "프로젝트 및 회사 정보/홈페이지.md",
+    "프로젝트 및 회사 정보/계정정보.md",
+    "AI 프롬프트/(리팩토링) 코드 리팩토링.md",
+    "AI 프롬프트/일일 업무보고 작성형태.md",
+    "Timestamps/2026-05-04.md",
+    "Timestamps/2026-04-20.md",
     "Timestamps/2026-04-27.md",
+    "Next.js/Next.js v16 정리.md",
+    "Timestamps/2026-04-29.md",
+    "Timestamps/2026-04-28.md",
+    "프로젝트 및 회사 정보/유통과정자동화에이전트/프론트엔드 개발 블로킹 이슈.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/★ Vringo ICMS(제작) 개발 관련 내용.md",
     "프로젝트 및 회사 정보/유통과정자동화에이전트/유통 에이전트 시스템 - 프론트엔드 개발 내용 질문사항.md",
     "Timestamps/2026-04-17.md",
@@ -200,16 +205,11 @@
     "프로젝트 및 회사 정보/유통과정자동화에이전트/질문.md",
     "Timestamps/2026-04-23.md",
     "Timestamps/2026-04-21.md",
-    "Timestamps/2026-04-20.md",
-    "프로젝트 및 회사 정보/계정정보.md",
-    "프로젝트 및 회사 정보/홈페이지.md",
     "프로젝트 및 회사 정보/유통과정자동화에이전트",
     "프로젝트 및 회사 정보/82Alda/82Alda Podcast Service 개발 관련 내용.md",
     "프로젝트 및 회사 정보/82Alda/82Alda Podcast Service v2 정보.md",
     "Timestamps/2026-04-13.md",
     "Timestamps/2026-04-16.md",
-    "Timestamps/2026-04-15.md",
-    "Timestamps/2026-04-14.md",
     "프로젝트 및 회사 정보/IP설정.png",
     "텍스트 인코딩 문제.png",
     "다운로드 실패라고 뜨지만, 다운로드는 됨.png",
