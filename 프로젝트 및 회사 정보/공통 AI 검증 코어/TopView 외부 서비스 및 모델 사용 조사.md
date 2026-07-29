@@ -37,13 +37,13 @@ Topview는 온전히 Topview 내부 기능만으로 동작하는 단일 모델 �
 
 Topview 공식 API 페이지는 외부 모델과 별도로 다음을 “Topview Native APIs”로 분리한다.
 
-| Topview 자체/네이티브로 보이는 기능 | 설명 |
-|---|---|
-| `Video Avatar` | 광고/마케팅용 talking avatar 생성 |
-| `Product Avatar` | 실제 상품을 들고 시연하는 avatar workflow |
-| `URL-to-Video` | 상품 URL에서 정보/이미지/카피를 추출해 영상 생성 |
-| `Product Anyshoot` | 상품을 lifestyle scene 또는 virtual try-on 형태로 배치 |
-| `Topview Pro`, `Topview Plus`, `Topview Best` | Common Task API의 Topview Series 모델 |
+| Topview 자체/네이티브로 보이는 기능                       | 설명                                           |
+| --------------------------------------------- | -------------------------------------------- |
+| `Video Avatar`                                | 광고/마케팅용 talking avatar 생성                    |
+| `Product Avatar`                              | 실제 상품을 들고 시연하는 avatar workflow               |
+| `URL-to-Video`                                | 상품 URL에서 정보/이미지/카피를 추출해 영상 생성                |
+| `Product Anyshoot`                            | 상품을 lifestyle scene 또는 virtual try-on 형태로 배치 |
+| `Topview Pro`, `Topview Plus`, `Topview Best` | Common Task API의 Topview Series 모델           |
 
 이 영역도 내부적으로는 외부 모델을 일부 조합할 수 있지만, 공개 문서상으로는 Topview가 자체 상품/워크플로우로 포장해 제공하는 기능으로 보는 것이 안전하다.
 
@@ -58,13 +58,13 @@ Topview 공식 API 페이지는 외부 모델과 별도로 다음을 “Topview 
 
 ## 우선 확인해야 할 리스크
 
-| 리스크 | 이유 | 권장 대응 |
-|---|---|---|
-| 모델명/버전 변경 | Topview 문서에서 `Topview Omni`가 폐기되고 `Gemini Omni Flash`로 대체된 사례가 있음 | 모델명은 설정 파일/DB에서 관리 |
-| 모델별 파라미터 제약 차이 | Kling, Veo, Seedance, Wan 등은 duration/resolution/sound/reference input 제한이 다름 | `model`별 validation table 유지 |
-| 과금 방식 차이 | Native audio surcharge, 모델별 초당 과금, special billing이 다름 | 사전 견적 계산 로직과 query 결과의 `costCredit` 비교 |
-| 외부 모델 장애/혼잡 | 외부 모델을 묶어 제공하는 구조라 특정 모델만 실패/지연될 수 있음 | 모델별 fallback, retry, timeout 정책 필요 |
-| 데이터 처리/권리 문제 | 외부 모델 또는 CDN/스토리지 경유 가능성이 있으므로 인물/음성/상품 이미지 권리 이슈가 중요 | Terms, privacy, enterprise DPA, consent workflow 확인 |
+| 리스크            | 이유                                                                            | 권장 대응                                               |
+| -------------- | ----------------------------------------------------------------------------- | --------------------------------------------------- |
+| 모델명/버전 변경      | Topview 문서에서 `Topview Omni`가 폐기되고 `Gemini Omni Flash`로 대체된 사례가 있음             | 모델명은 설정 파일/DB에서 관리                                  |
+| 모델별 파라미터 제약 차이 | Kling, Veo, Seedance, Wan 등은 duration/resolution/sound/reference input 제한이 다름 | `model`별 validation table 유지                        |
+| 과금 방식 차이       | Native audio surcharge, 모델별 초당 과금, special billing이 다름                        | 사전 견적 계산 로직과 query 결과의 `costCredit` 비교              |
+| 외부 모델 장애/혼잡    | 외부 모델을 묶어 제공하는 구조라 특정 모델만 실패/지연될 수 있음                                         | 모델별 fallback, retry, timeout 정책 필요                  |
+| 데이터 처리/권리 문제   | 외부 모델 또는 CDN/스토리지 경유 가능성이 있으므로 인물/음성/상품 이미지 권리 이슈가 중요                         | Terms, privacy, enterprise DPA, consent workflow 확인 |
 
 ## 참고한 주요 공식 출처
 
