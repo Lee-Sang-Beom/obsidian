@@ -11,27 +11,27 @@ Topview는 온전히 Topview 내부 기능만으로 동작하는 단일 모델 �
 
 ## 확실히 외부 모델로 봐야 하는 영역
 
-| 영역 | Topview에 노출된 모델/서비스 | 외부 제공사/출처 | 근거 수준 | 비고 |
-|---|---|---|---|---|
-| 비디오 생성 | `Veo`, `Veo 3.1`, `Veo 3.2` | Google | 높음 | Topview 공식 API 페이지가 Veo를 Google의 video model로 설명 |
-| 비디오 생성 | `Sora 2` | OpenAI | 높음 | Topview 공식 API 페이지가 Sora를 OpenAI 모델로 설명 |
-| 비디오 생성 | `Seedance 1.x/2.x`, `Seedream` | ByteDance | 높음 | Topview 공식 모델 페이지와 비교 문서에서 ByteDance 표기 |
-| 비디오 생성 | `Wan 2.6`, `Wan 2.7` | Alibaba 계열 모델 | 높음 | Topview 공식 API 페이지가 Wan을 Alibaba 모델로 설명 |
-| 비디오 생성 | `Kling`, `Kling V3`, `Kling O1/O3`, `Kling 2.6` | Kuaishou / Kling AI | 높음 | Topview 공식 API 페이지가 Kling을 Kuaishou 모델로 설명 |
-| 비디오 생성 | `Hailuo`, `MiniMax-Hailuo-*` | MiniMax | 높음 | Topview 모델 페이지와 API 문서에 Hailuo/MiniMax 모델명 노출 |
-| 비디오 생성 | `Vidu Q2/Q3` | Vidu Studio | 높음 | Topview 모델 페이지에 Vidu Studio 표기 |
-| 비디오 생성 | `Runway` | Runway | 중간~높음 | Topview 모델 페이지에 Runway AI Video Generator 노출 |
-| 비디오 생성/편집 | `Grok Video`, `Grok Video Edit`, `Grok Video Extend` | xAI 계열로 추정 | 중간 | Topview API 문서에는 모델명이 노출되지만 제공사명을 직접 명시하지는 않음 |
-| 비디오 생성/편집 | `Gemini Omni Flash` | Google Gemini 계열로 추정 | 중간~높음 | Topview API 문서에서 `Topview Omni`가 폐기되고 `Gemini Omni Flash`를 사용하라고 안내 |
-| 이미지 생성 | `GPT Image 2` | OpenAI | 높음 | Topview 공식 API 페이지가 GPT Image를 OpenAI image model로 설명 |
-| 이미지 생성 | `Flux` | Black Forest Labs | 높음 | Topview 공식 API 페이지가 Flux를 Black Forest Labs 모델로 설명 |
-| 이미지 생성 | `Nano Banana`, `Nano Banana Pro` | 외부/제휴 모델 가능성 높음 | 중간 | Topview 공식 문서에 모델명은 노출되지만 제공사명은 명시되지 않음 |
-| 이미지 생성 | `Ideogram` | Ideogram | 중간~높음 | Topview 공식 API 페이지에 이미지 모델로 노출 |
-| AI 음악 | `Minimax Music 2.6` | MiniMax | 높음 | AI Music API 문서의 허용 모델값에 포함 |
-| 음성/TTS | `ElevenLabs V2.5`, `ElevenLabs V3` | ElevenLabs | 높음 | Photo Avatar API의 `voiceModel` enum에 포함 |
-| 음성/TTS | `minimax-v2.5` | MiniMax | 높음 | Photo Avatar API의 `voiceModel` enum에 포함 |
-| 음성 복제 | `Fish Audio S2 Pro` | Fish Audio | 높음 | Instant Voice Clone API의 허용 모델값에 포함 |
-| 음성 복제 | `Index TTS` | Index TTS | 중간~높음 | Instant Voice Clone API의 허용 모델값에 포함 |
+| 영역        | Topview에 노출된 모델/서비스                                  | 외부 제공사/출처            | 근거 수준 | 비고                                                                  |
+| --------- | ---------------------------------------------------- | -------------------- | ----- | ------------------------------------------------------------------- |
+| 비디오 생성    | `Veo`, `Veo 3.1`, `Veo 3.2`                          | Google               | 높음    | Topview 공식 API 페이지가 Veo를 Google의 video model로 설명                    |
+| 비디오 생성    | `Sora 2`                                             | OpenAI               | 높음    | Topview 공식 API 페이지가 Sora를 OpenAI 모델로 설명                             |
+| 비디오 생성    | `Seedance 1.x/2.x`, `Seedream`                       | ByteDance            | 높음    | Topview 공식 모델 페이지와 비교 문서에서 ByteDance 표기                             |
+| 비디오 생성    | `Wan 2.6`, `Wan 2.7`                                 | Alibaba 계열 모델        | 높음    | Topview 공식 API 페이지가 Wan을 Alibaba 모델로 설명                             |
+| 비디오 생성    | `Kling`, `Kling V3`, `Kling O1/O3`, `Kling 2.6`      | Kuaishou / Kling AI  | 높음    | Topview 공식 API 페이지가 Kling을 Kuaishou 모델로 설명                          |
+| 비디오 생성    | `Hailuo`, `MiniMax-Hailuo-*`                         | MiniMax              | 높음    | Topview 모델 페이지와 API 문서에 Hailuo/MiniMax 모델명 노출                       |
+| 비디오 생성    | `Vidu Q2/Q3`                                         | Vidu Studio          | 높음    | Topview 모델 페이지에 Vidu Studio 표기                                      |
+| 비디오 생성    | `Runway`                                             | Runway               | 중간~높음 | Topview 모델 페이지에 Runway AI Video Generator 노출                        |
+| 비디오 생성/편집 | `Grok Video`, `Grok Video Edit`, `Grok Video Extend` | xAI 계열로 추정           | 중간    | Topview API 문서에는 모델명이 노출되지만 제공사명을 직접 명시하지는 않음                       |
+| 비디오 생성/편집 | `Gemini Omni Flash`                                  | Google Gemini 계열로 추정 | 중간~높음 | Topview API 문서에서 `Topview Omni`가 폐기되고 `Gemini Omni Flash`를 사용하라고 안내 |
+| 이미지 생성    | `GPT Image 2`                                        | OpenAI               | 높음    | Topview 공식 API 페이지가 GPT Image를 OpenAI image model로 설명               |
+| 이미지 생성    | `Flux`                                               | Black Forest Labs    | 높음    | Topview 공식 API 페이지가 Flux를 Black Forest Labs 모델로 설명                  |
+| 이미지 생성    | `Nano Banana`, `Nano Banana Pro`                     | 외부/제휴 모델 가능성 높음      | 중간    | Topview 공식 문서에 모델명은 노출되지만 제공사명은 명시되지 않음                             |
+| 이미지 생성    | `Ideogram`                                           | Ideogram             | 중간~높음 | Topview 공식 API 페이지에 이미지 모델로 노출                                      |
+| AI 음악     | `Minimax Music 2.6`                                  | MiniMax              | 높음    | AI Music API 문서의 허용 모델값에 포함                                         |
+| 음성/TTS    | `ElevenLabs V2.5`, `ElevenLabs V3`                   | ElevenLabs           | 높음    | Photo Avatar API의 `voiceModel` enum에 포함                             |
+| 음성/TTS    | `minimax-v2.5`                                       | MiniMax              | 높음    | Photo Avatar API의 `voiceModel` enum에 포함                             |
+| 음성 복제     | `Fish Audio S2 Pro`                                  | Fish Audio           | 높음    | Instant Voice Clone API의 허용 모델값에 포함                                 |
+| 음성 복제     | `Index TTS`                                          | Index TTS            | 중간~높음 | Instant Voice Clone API의 허용 모델값에 포함                                 |
 
 ## Topview 자체 기능으로 분리해야 하는 영역
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView.ai 서비스 분석 문서.md",
+                "file": "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView 외부 서비스 및 모델 사용 조사.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TopView.ai 서비스 분석 문서"
+              "title": "TopView 외부 서비스 및 모델 사용 조사"
             }
           }
         ]
@@ -183,22 +183,23 @@
   },
   "active": "ad4c8bdd6d069ca6",
   "lastOpenFiles": [
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/harness execute-step2.md",
+    "Timestamps/2026-07-29.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView 외부 서비스 및 모델 사용 조사.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/harness execute-step1.md",
+    "AI 프롬프트/일일 업무보고 작성형태.md",
+    "Timestamps/2026-07-28.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView.ai API Reference 정리.md",
+    "Timestamps/2026-07-27.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView.ai 서비스 분석 문서.md",
     "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kringo_Assistant 개발 관련 내용.md",
     "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kself_Frontend 개발 관련 내용.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView 외부 서비스 및 모델 사용 조사.md",
-    "Timestamps/2026-07-28.md",
-    "Timestamps/2026-07-27.md",
-    "AI 프롬프트/일일 업무보고 작성형태.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView.ai API Reference 정리.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView.ai 서비스 분석 문서.md",
     "Timestamps/2026-07-24.md",
     "AI 프롬프트/주간 업무보고 작성형태.md",
     "Timestamps/2026-07-23.md",
     "프로젝트 및 회사 정보/AI 링고/Vringo/2. Vringo ICMS(제작) 개발 관련 내용.md",
     "Timestamps/2026-07-22.md",
     "Timestamps/2026-07-21.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/harness execute-step1.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/harness execute-step2.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/접속주소.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/gitea.md",
     "Timestamps/2026-07-20.md",
@@ -208,7 +209,6 @@
     "Timestamps/2026-07-14.md",
     "Timestamps/2026-07-13.md",
     "Timestamps/2026-07-10.md",
-    "Timestamps/2026-07-11.md",
     "사용 이미지/프로젝트 및 회사 정보/공통 AI 검증 코어/tool_reduction_before_after.svg",
     "사용 이미지/프로젝트 및 회사 정보/공통 AI 검증 코어",
     "사용 이미지/프로젝트 및 회사 정보",

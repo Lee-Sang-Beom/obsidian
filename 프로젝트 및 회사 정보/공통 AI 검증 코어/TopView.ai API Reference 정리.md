@@ -1,4 +1,3 @@
-# Topview.ai API Reference 확장 문서
 
 > 사용자가 제공한 Topview API Reference 링크 묶음을 기준으로, 공식 문서의 OpenAPI 스키마와 원본 Markdown 표를 다시 확인해 요청/응답 필드 설명을 보강한 문서입니다.
 
