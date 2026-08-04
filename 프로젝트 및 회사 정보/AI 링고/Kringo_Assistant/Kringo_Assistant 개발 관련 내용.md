@@ -11,7 +11,7 @@
 [id / password]
 admin / dkdlwkr
 ```
-
+dkdlwkr12!@
 #### 4. 개발 및 상용 환경주소 계정 정보
 - 개발환경 홈페이지: [AI링고 운영솔루션 CMS](http://192.168.1.225:9812/assistant/login)
 ```
