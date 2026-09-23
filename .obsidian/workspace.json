@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2026-09-22.md",
+                "file": "프로젝트 및 회사 정보/공통 AI 검증 코어/접속주소.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-22"
+              "title": "접속주소"
             }
           }
         ]
@@ -185,9 +185,10 @@
   },
   "active": "d8bb7d459465eda9",
   "lastOpenFiles": [
-    "Timestamps/2026-09-21.md",
-    "Timestamps/2026-09-22.md",
+    "Timestamps/2026-09-23.md",
     "AI 프롬프트/일일 업무보고 작성형태.md",
+    "Timestamps/2026-09-22.md",
+    "Timestamps/2026-09-21.md",
     "AI 프롬프트/주간 업무보고 작성형태.md",
     "무제.base",
     "Timestamps/2026-09-17.md",
@@ -213,7 +214,6 @@
     "프로젝트 및 회사 정보/신규 프로젝트 시작할 때.md",
     "Timestamps/2026-09-02.md",
     "Timestamps/2026-09-01.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView 조사문서/TopView 외부 서비스 및 모델 - 공식 API 제공여부 조사.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView 조사문서",
     "사용 이미지/프로젝트 및 회사 정보/공통 AI 검증 코어/tool_reduction_before_after.svg",
     "사용 이미지/프로젝트 및 회사 정보/공통 AI 검증 코어",
