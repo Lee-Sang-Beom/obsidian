@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2026-10-07.md",
+                "file": "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/STAR AI Git 정보.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-07"
+              "title": "STAR AI Git 정보"
             }
           },
           {
-            "id": "c7f4f5a7ee32f459",
+            "id": "680dfec707a08aae",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.14.4"
+                "file": "AI 프롬프트/일일 업무보고 작성형태.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.14.4"
+              "icon": "lucide-file",
+              "title": "일일 업무보고 작성형태"
             }
           }
         ],
@@ -196,53 +198,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c7f4f5a7ee32f459",
+  "active": "680dfec707a08aae",
   "lastOpenFiles": [
-    "Timestamps/2026-10-06.md",
+    "AI 프롬프트/주간 업무보고 작성형태.md",
+    "Timestamps/2026-10-08.md",
     "Timestamps/2026-10-07.md",
+    "Timestamps/2026-10-12.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/1. 공통정보 (패스워드 및 접근경로).md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/5. 따라가야 할 작업.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4. Virtual Box 설치.md",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/무제.md",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/Virtual Box 설치 요약.png",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3. Windows 11 가상화 기반 보안(VBS) 끄기.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/2. LAN 선 설정.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/법령 AI 프로젝트/법령 AI Git 정보.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/영상 생성 프로젝트 (일반)/영상 생성 프로젝트 Git 정보.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/STAR AI Git 정보.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/공통 접속주소.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/Step2 Testbed 실행 가이드.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/법령 AI 프로젝트",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/영상 생성 프로젝트 (일반)",
+    "프로젝트 및 회사 정보/회사 홈페이지/회사 홈페이지 개발 정보.md",
+    "AI 프롬프트/일일 업무보고 작성형태.md",
+    "Timestamps/2026-10-06.md",
+    "Timestamps/2026-09-30.md",
     "Timestamps/2026-10-01.md",
     "Timestamps/2026-10-02.md",
-    "AI 프롬프트/주간 업무보고 작성형태.md",
-    "AI 프롬프트/일일 업무보고 작성형태.md",
-    "Timestamps/2026-09-30.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/접속주소.md",
     "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kself_Frontend 개발 관련 내용.md",
     "Timestamps/2026-09-29.md",
     "Timestamps/2026-09-28.md",
-    "Timestamps/2026-10-08.md",
     "Timestamps/2026-09-22.md",
     "Timestamps/2026-09-23.md",
-    "Timestamps/2026-09-14.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/Step2 Testbed 실행 가이드.md",
-    "Timestamps/2026-09-21.md",
     "무제.base",
-    "Timestamps/2026-09-17.md",
-    "Timestamps/2026-09-18.md",
-    "Timestamps/2026-09-15.md",
-    "Timestamps/2026-09-07.md",
-    "Timestamps/2026-09-16.md",
     "프로젝트 및 회사 정보/IP설정.png",
     "Pasted image 20260915174428.png",
-    "Timestamps/2026-09-03.md",
-    "Timestamps/2026-09-04.md",
-    "Timestamps/2026-09-08.md",
-    "Timestamps/2026-09-09.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/TopView 조사문서",
     "사용 이미지/프로젝트 및 회사 정보/공통 AI 검증 코어/tool_reduction_before_after.svg",
     "사용 이미지/프로젝트 및 회사 정보/공통 AI 검증 코어",
     "사용 이미지/프로젝트 및 회사 정보",
-    "프로젝트 및 회사 정보/회사 홈페이지",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어",
-    "프로젝트 및 회사 정보/Ascolta",
     "Group 6.png",
-    "프로젝트 및 회사 정보/브이비즈링",
-    "프로젝트 및 회사 정보/AI 링고/Kself_Frontend",
-    "프로젝트 및 회사 정보/유통과정자동화에이전트",
     "텍스트 인코딩 문제.png",
     "다운로드 실패라고 뜨지만, 다운로드는 됨.png",
     "쇼호스트 영상 다운로드 불가.png",
     "무한 미디어 로딩.png",
-    "스크립트 편집 - 영상 생성 방식.png",
-    "회원가입 안내 텍스트 변경 필요.png"
+    "스크립트 편집 - 영상 생성 방식.png"
   ]
 }

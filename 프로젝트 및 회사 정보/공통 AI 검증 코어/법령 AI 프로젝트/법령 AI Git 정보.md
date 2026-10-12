@@ -1,0 +1,36 @@
+
+> 프론트엔드(법령)
+- [Lee-Sang-Beom/TF_AI_Legal_Frontend - TF_AI_Legal_Frontend - iajk_TFT_dev](http://192.168.1.21:3000/Lee-Sang-Beom/TF_AI_Legal_Frontend)
+
+> AI 코어  (백엔드 + AI)
+- [YOHAN_PARK/AI_harness_core: 메인코어 standalone - AI_harness_core - iajk_TFT_dev](http://192.168.1.21:3000/YOHAN_PARK/AI_harness_core)
+
+> 법령 AI 프론트 홈페이지 (현재 닫힘)
+- http://192.168.1.21:3003/
+
+
+
+> .env.local
+```
+VERIFICATION_API_BASE_URL=http://localhost:8089  
+VERIFICATION_API_TIMEOUT_MS=600000  
+  
+# WorkOS AuthKit  
+WORKOS_CLIENT_ID=client_01KZTDHD82TNDHVPDAQ3EAHYK9  
+WORKOS_API_KEY=REPLACE_WITH_LOCAL_API_KEY  
+WORKOS_COOKIE_PASSWORD=REPLACE_WITH_LOCAL_COOKIE_PASSWORD  
+NEXT_PUBLIC_WORKOS_REDIRECT_URI=http://localhost:3000/auth/callback
+```
+
+
+> .env.prod
+```
+VERIFICATION_API_BASE_URL=http://127.0.0.1:9  
+VERIFICATION_API_TIMEOUT_MS=600000  
+  
+# WorkOS AuthKit  
+WORKOS_CLIENT_ID=client_01KZTDHD82TNDHVPDAQ3EAHYK9  
+WORKOS_API_KEY=REPLACE_WITH_LOCAL_API_KEY  
+WORKOS_COOKIE_PASSWORD=REPLACE_WITH_LOCAL_COOKIE_PASSWORD  
+NEXT_PUBLIC_WORKOS_REDIRECT_URI=http://192.168.1.21:3003/auth/callback
+```
