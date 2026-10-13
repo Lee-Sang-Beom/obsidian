@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8a717d2b023073e9",
+        "id": "c0768ad426a09302",
         "type": "tabs",
         "children": [
           {
-            "id": "d8bb7d459465eda9",
+            "id": "1294fe3f4a58f2fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/STAR AI Git 정보.md",
+                "file": "Timestamps/2026-10-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STAR AI Git 정보"
-            }
-          },
-          {
-            "id": "680dfec707a08aae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI 프롬프트/일일 업무보고 작성형태.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "일일 업무보고 작성형태"
+              "title": "2026-10-12"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,32 +183,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "680dfec707a08aae",
+  "active": "1294fe3f4a58f2fc",
   "lastOpenFiles": [
-    "AI 프롬프트/주간 업무보고 작성형태.md",
-    "Timestamps/2026-10-08.md",
-    "Timestamps/2026-10-07.md",
+    "Timestamps/2026-10-13.md",
     "Timestamps/2026-10-12.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3. 공용 PC - Windows 11 가상화 기반 보안(VBS) 끄기.md",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4-4. Virtual Box 설치 요약.png",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4-1. Virtual Box 세팅 단계 1.png",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-1. 공용 PC 네트워크세팅.png",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4-2. Virtual Box 세팅 단계 2.png",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4-3. Virtual Box 세팅 단계 3.png",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/2. 공용 PC - LAN 선 설정.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4. 공용 PC - Virtual Box 설치.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/STAR AI Git 정보.md",
+    "Timestamps/2026-10-07.md",
     "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/1. 공통정보 (패스워드 및 접근경로).md",
-    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/5. 따라가야 할 작업.md",
-    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4. Virtual Box 설치.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/5. KT Helpkit 접속을 위한 추가적인 vpn 설정.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/6. 보안 프로그램 설치 후 사이트 접속이 안될 때.md",
+    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/5-1. kos_vpn_네트워크 세팅 결과.png",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/영상 생성 프로젝트 (일반)/영상 생성 프로젝트 Git 정보.md",
+    "AI 프롬프트/주간 업무보고 작성형태.md",
+    "AI 프롬프트/일일 업무보고 작성형태.md",
+    "Timestamps/2026-10-08.md",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/무제.md",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC",
-    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/Virtual Box 설치 요약.png",
-    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3. Windows 11 가상화 기반 보안(VBS) 끄기.md",
-    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/2. LAN 선 설정.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/법령 AI 프로젝트/법령 AI Git 정보.md",
     "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/영상 생성 프로젝트 (일반)/영상 생성 프로젝트 Git 정보.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/STAR AI Git 정보.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/공통 접속주소.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/Step2 Testbed 실행 가이드.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/법령 AI 프로젝트",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/영상 생성 프로젝트 (일반)",
     "프로젝트 및 회사 정보/회사 홈페이지/회사 홈페이지 개발 정보.md",
-    "AI 프롬프트/일일 업무보고 작성형태.md",
     "Timestamps/2026-10-06.md",
     "Timestamps/2026-09-30.md",
     "Timestamps/2026-10-01.md",
@@ -231,8 +223,6 @@
     "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kself_Frontend 개발 관련 내용.md",
     "Timestamps/2026-09-29.md",
     "Timestamps/2026-09-28.md",
-    "Timestamps/2026-09-22.md",
-    "Timestamps/2026-09-23.md",
     "무제.base",
     "프로젝트 및 회사 정보/IP설정.png",
     "Pasted image 20260915174428.png",
@@ -240,11 +230,6 @@
     "사용 이미지/프로젝트 및 회사 정보/공통 AI 검증 코어/tool_reduction_before_after.svg",
     "사용 이미지/프로젝트 및 회사 정보/공통 AI 검증 코어",
     "사용 이미지/프로젝트 및 회사 정보",
-    "Group 6.png",
-    "텍스트 인코딩 문제.png",
-    "다운로드 실패라고 뜨지만, 다운로드는 됨.png",
-    "쇼호스트 영상 다운로드 불가.png",
-    "무한 미디어 로딩.png",
-    "스크립트 편집 - 영상 생성 방식.png"
+    "Group 6.png"
   ]
 }
