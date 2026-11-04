@@ -27,6 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Timestamps/2026-11-04.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-11-04"
+            }
+          },
+          {
+            "id": "0e263f3cc08519a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "AI 프롬프트/일일 업무보고 작성형태.md",
                 "mode": "source",
                 "source": false
@@ -36,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,12 +212,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6859c00ec86e009",
+  "active": "0e263f3cc08519a4",
   "lastOpenFiles": [
+    "AI 프롬프트/주간 업무보고 작성형태.md",
+    "Timestamps/2026-10-30.md",
     "Timestamps/2026-11-02.md",
     "Timestamps/2026-11-03.md",
-    "Timestamps/2026-10-30.md",
-    "AI 프롬프트/주간 업무보고 작성형태.md",
+    "Timestamps/2026-11-04.md",
     "AI 프롬프트/일일 업무보고 작성형태.md",
     "Timestamps/2026-10-28.md",
     "Timestamps/2026-10-29.md",
@@ -228,7 +243,6 @@
     "Timestamps/2026-10-06.md",
     "Timestamps/2026-10-07.md",
     "Timestamps/2026-10-14.md",
-    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/0. Windows 포맷.md",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-1. Virtual Box 세팅 단계 1.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-5. Virtual Box 설치 - 가상시스템 가져오기.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-4. Virtual Box 설치 요약.png",
