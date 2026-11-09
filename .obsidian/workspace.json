@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4aae174a2ded1895",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timestamps/2026-10-23.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-10-23"
-            }
-          },
-          {
-            "id": "b6859c00ec86e009",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timestamps/2026-11-04.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-11-04"
-            }
-          },
-          {
             "id": "0e263f3cc08519a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 프롬프트/일일 업무보고 작성형태.md",
+                "file": "알쟁 기획 (10.30).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "일일 업무보고 작성형태"
+              "title": "알쟁 기획 (10.30)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,6 +75,20 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "8cb7ad186d084387",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "알쟁.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
           }
         ]
       }
@@ -136,20 +121,6 @@
               },
               "icon": "links-coming-in",
               "title": "2026-06-16 의 백링크"
-            }
-          },
-          {
-            "id": "8cb7ad186d084387",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Timestamps/2026-06-16.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "2026-06-16 의 나가는 링크"
             }
           },
           {
@@ -193,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -215,11 +186,21 @@
   "active": "0e263f3cc08519a4",
   "lastOpenFiles": [
     "AI 프롬프트/주간 업무보고 작성형태.md",
-    "Timestamps/2026-10-30.md",
-    "Timestamps/2026-11-02.md",
-    "Timestamps/2026-11-03.md",
-    "Timestamps/2026-11-04.md",
+    "알쟁 기획 (10.30).md",
     "AI 프롬프트/일일 업무보고 작성형태.md",
+    "AI 프롬프트/(리팩토링) 코드 리팩토링.md",
+    "Timestamps/2026-11-09.md",
+    "Timestamps/2026-11-02.md",
+    "Timestamps/2026-11-06.md",
+    "Timestamps/2026-10-27.md",
+    "Pasted image 20261105174921.png",
+    "Timestamps/2026-11-05.md",
+    "Timestamps/2026-11-03.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/DB 접속정보.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/프론트 env.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/프로젝트 내 로그인 정보.md",
+    "Timestamps/2026-11-04.md",
+    "Timestamps/2026-10-30.md",
     "Timestamps/2026-10-28.md",
     "Timestamps/2026-10-29.md",
     "Timestamps/2026-10-15.md",
@@ -227,7 +208,6 @@
     "Timestamps/2026-10-20.md",
     "Timestamps/2026-10-26.md",
     "Pasted image 20261027160808.png",
-    "Timestamps/2026-10-27.md",
     "Pasted image 20261027173011.png",
     "Pasted image 20261027160753.png",
     "Timestamps/2026-10-21.md",
@@ -235,21 +215,12 @@
     "Timestamps/2026-10-23.md",
     "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/7. 세팅 완료 후, 마지막 수정사항.md",
     "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/6. KT Helpkit 접속을 위한 추가적인 vpn 설정.md",
-    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/5. 보안 프로그램 설치 후 사이트 접속이 안될 때.md",
-    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3. (방법 2) 공용 PC - Virtual Box 설치 (win 11_174706).md",
-    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3. (방법 1) 공용 PC - Virtual Box 설치.md",
-    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4. 공용 PC - LAN 선 설정 및 영업센터 하드웨어 세팅.md",
-    "Timestamps/2026-10-13.md",
-    "Timestamps/2026-10-06.md",
-    "Timestamps/2026-10-07.md",
-    "Timestamps/2026-10-14.md",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-1. Virtual Box 세팅 단계 1.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-5. Virtual Box 설치 - 가상시스템 가져오기.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-4. Virtual Box 설치 요약.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4-1. 공용 PC 네트워크세팅.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/7-1. virtual box 저장소 최적화.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/7-2. 작업표시줄 백그라운드 돌고있는 것들 실행안되게 체크하기.png",
-    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/7-3. kos pc 작업 관리자 사용 안함 체크하기.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC",
     "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
