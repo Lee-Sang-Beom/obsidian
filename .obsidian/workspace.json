@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/백엔드/1. STAR AI 백엔드 기본 골격.md",
+                "file": "프로젝트 및 회사 정보/Ascolta/개발내용.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. STAR AI 백엔드 기본 골격"
-            }
-          },
-          {
-            "id": "c2a19369ae1f52d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timestamps/2026-11-13.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-11-13"
-            }
-          },
-          {
-            "id": "75bc8d6d4106c887",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timestamps/2026-11-16.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-11-16"
+              "title": "개발내용"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,38 +183,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75bc8d6d4106c887",
+  "active": "0e263f3cc08519a4",
   "lastOpenFiles": [
-    "Timestamps/2026-11-09.md",
-    "Timestamps/2026-11-13.md",
-    "AI 프롬프트/주간 업무보고 작성형태.md",
+    "프로젝트 및 회사 정보/SoloFilp/🧪 SoloFilp Admin Console QA 체크리스트.md",
+    "프로젝트 및 회사 정보/Home Escrow/H-Escrow 테스트 리포트 2.md",
+    "프로젝트 및 회사 정보/Home Escrow/H-Escrow 테스트 리포트.md",
+    "프로젝트 및 회사 정보/SoloFilp/프로젝트 정보.md",
+    "프로젝트 및 회사 정보/SoloFilp/SoloFlip — 사용자 관점 기능 명세서.md",
+    "프로젝트 및 회사 정보/SoloFilp/SoloFlip Admin — 사용자 관점 기능 명세서.md",
+    "프로젝트 및 회사 정보/SoloFilp/🧪 SoloFilp 사용자 체크리스트.md",
+    "프로젝트 및 회사 정보/회사 홈페이지/회사 홈페이지 개발 정보.md",
+    "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kself_Frontend 개발 관련 내용.md",
+    "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kringo_Assistant 개발 관련 내용.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/Sentry/(진행 필요) 참고 자료 및 목표.md",
+    "Timestamps/2026-11-18.md",
+    "Pasted image 20261117154458.png",
+    "Timestamps/2026-11-17.md",
     "Timestamps/2026-11-16.md",
-    "AI 프롬프트/일일 업무보고 작성형태.md",
+    "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/※ KOS 계정 및 접속정보.md",
+    "Timestamps/2026-11-10.md",
+    "Timestamps/2026-11-13.md",
+    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/백엔드/1. STAR AI 백엔드 기본 골격.md",
+    "Timestamps/2026-11-02.md",
+    "Timestamps/2026-11-03.md",
+    "Timestamps/2026-11-04.md",
+    "Timestamps/2026-11-05.md",
+    "Timestamps/2026-11-06.md",
     "Timestamps/2026-11-12.md",
     "Timestamps/2026-11-11.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/백엔드/2. STAR AI 저장소 사용.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/백엔드/1. STAR AI 백엔드 기본 골격.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/백엔드/1-1. STAR AI 사용 모델 및 구성.md",
+    "AI 프롬프트/일일 업무보고 작성형태.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/백엔드",
     "사용 이미지/프로젝트 및 회사 정보/STAR AI/STAR_AI 사용 모델 및 분석.png",
     "사용 이미지/프로젝트 및 회사 정보/STAR AI",
-    "알쟁 기획 (10.30).md",
-    "Timestamps/2026-11-10.md",
-    "Timestamps/2026-11-04.md",
-    "AI 프롬프트/(리팩토링) 코드 리팩토링.md",
-    "Timestamps/2026-11-02.md",
-    "Timestamps/2026-11-06.md",
-    "Timestamps/2026-10-27.md",
     "Pasted image 20261105174921.png",
-    "Timestamps/2026-11-05.md",
-    "Timestamps/2026-11-03.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/DB 접속정보.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/프론트 env.md",
-    "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/프로젝트 내 로그인 정보.md",
-    "Timestamps/2026-10-30.md",
-    "Timestamps/2026-10-28.md",
-    "Timestamps/2026-10-29.md",
-    "Timestamps/2026-10-15.md",
     "Pasted image 20261027160808.png",
     "Pasted image 20261027173011.png",
     "Pasted image 20261027160753.png",
@@ -251,7 +223,6 @@
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-5. Virtual Box 설치 - 가상시스템 가져오기.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-4. Virtual Box 설치 요약.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4-1. 공용 PC 네트워크세팅.png",
-    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/7-1. virtual box 저장소 최적화.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC",
     "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
