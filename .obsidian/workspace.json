@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2026-11-17.md",
+                "file": "Timestamps/2026-11-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-11-17"
+              "title": "2026-11-19"
             }
           }
         ]
@@ -174,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -195,6 +195,10 @@
   },
   "active": "0e263f3cc08519a4",
   "lastOpenFiles": [
+    "AI 프롬프트/일일 업무보고 작성형태.md",
+    "Timestamps/2026-11-19.md",
+    "Timestamps/2026-11-18.md",
+    "Timestamps/2026-11-17.md",
     "Timestamps/2026-11-16.md",
     "프로젝트 및 회사 정보/Ascolta/개발내용.md",
     "프로젝트 및 회사 정보/SoloFilp/🧪 SoloFilp Admin Console QA 체크리스트.md",
@@ -208,9 +212,7 @@
     "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kself_Frontend 개발 관련 내용.md",
     "프로젝트 및 회사 정보/AI 링고/Kringo_Assistant/Kringo_Assistant 개발 관련 내용.md",
     "회사 내 경험 모음/회사 - 아이작 SNC/Sentry/(진행 필요) 참고 자료 및 목표.md",
-    "Timestamps/2026-11-18.md",
     "Pasted image 20261117154458.png",
-    "Timestamps/2026-11-17.md",
     "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/※ KOS 계정 및 접속정보.md",
     "Timestamps/2026-11-10.md",
     "Timestamps/2026-11-13.md",
@@ -220,8 +222,6 @@
     "Timestamps/2026-11-04.md",
     "Timestamps/2026-11-05.md",
     "Timestamps/2026-11-06.md",
-    "Timestamps/2026-11-12.md",
-    "Timestamps/2026-11-11.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/백엔드",
     "사용 이미지/프로젝트 및 회사 정보/STAR AI/STAR_AI 사용 모델 및 분석.png",
     "사용 이미지/프로젝트 및 회사 정보/STAR AI",
