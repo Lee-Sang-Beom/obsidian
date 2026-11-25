@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timestamps/2026-11-23.md",
+                "file": "Timestamps/2026-11-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-11-23"
+              "title": "2026-11-25"
             }
           }
         ]
@@ -193,16 +193,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee5a948e8721fc20",
+  "active": "0e263f3cc08519a4",
   "lastOpenFiles": [
+    "Timestamps/2026-11-23.md",
+    "Timestamps/2026-11-24.md",
+    "Timestamps/2026-11-25.md",
+    "AI 프롬프트/일일 업무보고 작성형태.md",
     "Pasted image 20261123133447.png",
     "AI 프롬프트/주간 업무보고 작성형태.md",
-    "Timestamps/2026-11-23.md",
     "Timestamps/2026-11-20.md",
     "Timestamps/2026-11-19.md",
     "Timestamps/2026-11-17.md",
     "Timestamps/2026-11-10.md",
-    "AI 프롬프트/일일 업무보고 작성형태.md",
     "Timestamps/2026-11-18.md",
     "Timestamps/2026-11-16.md",
     "프로젝트 및 회사 정보/Ascolta/개발내용.md",
@@ -221,7 +223,6 @@
     "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/※ KOS 계정 및 접속정보.md",
     "Timestamps/2026-11-13.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/백엔드/1. STAR AI 백엔드 기본 골격.md",
-    "Timestamps/2026-11-02.md",
     "프로젝트 및 회사 정보/공통 AI 검증 코어/STAR AI/백엔드",
     "사용 이미지/프로젝트 및 회사 정보/STAR AI/STAR_AI 사용 모델 및 분석.png",
     "사용 이미지/프로젝트 및 회사 정보/STAR AI",
@@ -232,7 +233,6 @@
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-1. Virtual Box 세팅 단계 1.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-5. Virtual Box 설치 - 가상시스템 가져오기.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/3-4. Virtual Box 설치 요약.png",
-    "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅/4-1. 공용 PC 네트워크세팅.png",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
     "사용 이미지/회사 내 경험 모음/회사 - 아이작 SNC",
     "회사 내 경험 모음/회사 - 아이작 SNC/KOS 세팅",
